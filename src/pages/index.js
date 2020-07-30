@@ -53,8 +53,8 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-    sort: { fields: [frontmatter___title], order: DESC }
-    filter: { fields: {collection: { eq: "blog" }}}
+      sort: { fields: [frontmatter___title], order: DESC }
+      filter: { fields: { collection: { eq: "blog" } } }
     ) {
       edges {
         node {

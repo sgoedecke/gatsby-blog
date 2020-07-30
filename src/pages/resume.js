@@ -12,10 +12,7 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
-        title={'resume'}
-        description={`Sean Goedecke's resume`}
-      />
+      <SEO title={"resume"} description={`Sean Goedecke's resume`} />
       <article>
         <header>
           <h1
@@ -50,7 +47,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { collection: { eq: "resume" }}) {
+    markdownRemark(fields: { collection: { eq: "resume" } }) {
       id
       html
     }

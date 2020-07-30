@@ -43,8 +43,7 @@ At least this problem had an easy fix. I extracted my game code into a module an
 
 However, as soon as I started inputting commands, the problems began to appear. If I made a couple of quick turns, my whole snake would sometimes jerk sideways by a block or two - my server-side code had turned me a couple of ticks later than my client-side code did. And sometimes my snake would appear to dodge an obstacle before snapping back to hit the obstacle and lose all its length, as the server decided that I had not dodged in time after all. I linked the game to my brother. "Why is it so laggy?" he asked. Why, indeed.
 
-I made an abortive stab at a hail-mary solution: as well as syncing up the client-side state with the server state on update, I would also emit updates to the server and have it sync up with the client. This two-way syncing was of course a total disaster. While the game was marginally less laggy as a single player, having two or more snakes led to even more snapping and teleportation as each client pulled the server apart between them. Unplayable. [Here's](https://github.com/sgoedecke/socket-io-game/tree/laggy-snake-game
-) the final version of my snake game, before I abandoned it.
+I made an abortive stab at a hail-mary solution: as well as syncing up the client-side state with the server state on update, I would also emit updates to the server and have it sync up with the client. This two-way syncing was of course a total disaster. While the game was marginally less laggy as a single player, having two or more snakes led to even more snapping and teleportation as each client pulled the server apart between them. Unplayable. [Here's](https://github.com/sgoedecke/socket-io-game/tree/laggy-snake-game) the final version of my snake game, before I abandoned it.
 
 ## Step Four: if you can't win, cheat
 

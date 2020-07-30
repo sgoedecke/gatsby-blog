@@ -49,7 +49,7 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `og:type`,
           content: `website`,
-        }
+        },
       ].concat(meta)}
     />
   )

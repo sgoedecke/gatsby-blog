@@ -8,7 +8,7 @@ module.exports = {
     description: `Sean Goedecke's personal blog`,
     siteUrl: `https://relaxed-volhard-f9a616.netlify.app/`,
     social: {
-      foo: 'bar'
+      foo: "bar",
     },
   },
   plugins: [
@@ -89,7 +89,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-remark-collection`
+    `gatsby-plugin-remark-collection`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

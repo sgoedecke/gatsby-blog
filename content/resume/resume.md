@@ -1,6 +1,6 @@
 I’m passionate about making things faster and more reliable. I love refactoring (or better yet, removing) technical debt, and designing systems that can be flexible without accumulating much technical debt in the first place. I care deeply about how my systems run in production.
 
-I’ve worked at scale with Rails, Ruby, Golang, and Javascript. In my own time, I write personal projects in Go, Python and Crystal. 
+I’ve worked at scale with Rails, Ruby, Golang, and Javascript. In my own time, I write personal projects in Go, Python and Crystal.
 
 You can contact me by email at [sean.goedecke@gmail.com](mailto:sean.goedecke@gmail.com).
 
@@ -35,7 +35,6 @@ As an intern at Zendesk, I implemented large parts of a new web portal for Zende
 _July 2016 - August 2016_
 
 At SBL Tech, I wrote unit tests for a Django app that tracked the arrangement of shipping containers in a railway yard.
-
 
 ### Education
 
