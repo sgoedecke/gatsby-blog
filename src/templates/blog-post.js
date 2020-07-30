@@ -78,7 +78,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { collection: { eq: "blog" } slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html

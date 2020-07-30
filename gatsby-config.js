@@ -3,7 +3,7 @@ module.exports = {
     title: `Sean Goedecke`,
     author: {
       name: `Sean`,
-      summary: `works as a software engineer in Melbourne.`,
+      summary: `works on software for Zendesk in Melbourne.`,
     },
     description: `Sean Goedecke's personal blog`,
     siteUrl: `https://relaxed-volhard-f9a616.netlify.app/`,
@@ -17,6 +17,20 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/projects`,
+        name: `projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/resume`,
+        name: `resume`,
       },
     },
     {
@@ -75,6 +89,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-remark-collection`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

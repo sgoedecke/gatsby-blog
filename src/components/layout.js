@@ -59,9 +59,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        View the source code for this website <a href="https://github.com/sgoedecke/gatsby-blog">here</a>
       </footer>
     </div>
   )

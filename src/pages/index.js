@@ -52,7 +52,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___title], order: DESC }) {
+    allMarkdownRemark(
+    sort: { fields: [frontmatter___title], order: DESC }
+    filter: { fields: {collection: { eq: "blog" }}}
+    ) {
       edges {
         node {
           excerpt
