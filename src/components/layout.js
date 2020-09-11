@@ -58,10 +58,6 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
-        View the source code for this website{" "}
-        <a href="https://github.com/sgoedecke/gatsby-blog">here</a>
-      </footer>
     </div>
   )
 }

@@ -13,7 +13,6 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -39,6 +38,14 @@ const BlogIndex = ({ data, location }) => {
           </article>
         )
       })}
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
+      <footer>
+        <Bio />
+      </footer>
     </Layout>
   )
 }
@@ -53,7 +60,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___title], order: DESC }
+      sort: { fields: [frontmatter___title], order: ASC }
       filter: { fields: { collection: { eq: "blog" } } }
     ) {
       edges {

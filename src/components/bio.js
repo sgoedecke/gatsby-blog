@@ -54,10 +54,9 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author.name}</strong> {author.summary} Read my{" "}
-        <Link to="/">articles</Link>, check out my{" "}
-        <Link to="/projects">projects</Link>, or my{" "}
-        <Link to="/resume">resume</Link>.
+        <strong>{author.name}</strong> {author.summary} <br />
+        <Link to="/">articles</Link> | <Link to="/resume">resume</Link> |{" "}
+        <a href="https://github.com/sgoedecke">projects</a>
       </p>
     </div>
   )

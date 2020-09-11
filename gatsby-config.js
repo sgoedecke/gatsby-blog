@@ -3,7 +3,7 @@ module.exports = {
     title: `Sean Goedecke`,
     author: {
       name: `Sean`,
-      summary: `works on software for Zendesk in Melbourne.`,
+      summary: `works in Melbourne as a software engineer.`,
     },
     description: `Sean Goedecke's personal blog`,
     siteUrl: `https://relaxed-volhard-f9a616.netlify.app/`,
@@ -17,13 +17,6 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/projects`,
-        name: `projects`,
       },
     },
     {
