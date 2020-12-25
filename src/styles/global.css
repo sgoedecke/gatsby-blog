@@ -1,11 +1,8 @@
-* {
-  font-family: sans-serif;
-}
-
 h3 {
   margin-top: 1.5rem;
 }
 
 p {
+  font-family: sans-serif;
   margin-bottom: 1.5rem;
 }
