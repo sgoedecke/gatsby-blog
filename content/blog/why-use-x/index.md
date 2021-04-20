@@ -21,4 +21,4 @@ One reason the above advice is harder than it sounds is that often a problem its
 
 This is why more detailed technical explanations (such as [this article](https://dzone.com/articles/docker-explained-an-introductory-guide-to-docker)) often follow up a discussion of the key problems with an assessment of the historical attempts to solve them. In the case of Docker, this would involve talking about the tedious sysadmin work of lining up OS versions and system libraries on bare metal hosts, then the more predictable but less performant strategy of running production software in VMs.
 
-It can be frustrating to spend so much time talking about other subjects before explaining a tool you're excited about. But it's crucial to convince people that the problem your tool solves is real. Often this is 
+It can be frustrating to spend so much time talking about other subjects before explaining a tool you're excited about. But it's crucial to convince people that the problem your tool solves is real. 
