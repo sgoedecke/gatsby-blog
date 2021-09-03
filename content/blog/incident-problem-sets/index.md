@@ -1,11 +1,9 @@
 ---
-title: Incident Exams
+title: Incident Problem Sets
 description: "Questions to test incident troubleshooting"
 ---
 
-It's hard to teach good incident response. There's no replacing a good understanding of how the system runs in production. But how do you build that understanding? What's worked for me is looking at the system's behaviour - its metrics, logs, traces - during various incidents, and making sure I understand why I'm seeing the activity I'm seeing.
-
-Below I'm going to sketch some graphs from made-up incidents and ask what could be going wrong. I think this could be a useful exercise, particularly if adapted to a specific system. 
+It's hard to teach good incident response. A good understanding of how the system runs in production is essential, but how do you build that understanding? What's worked for me is looking at the system's behaviour - dashboards, logs and metrics - during various incidents, and making sure I understand the pathological activity I'm seeing. Below I'm going to sketch some made-up incidents and ask what could be going wrong. I think this kind of thing could be a useful exercise, particularly adapted for a specific team or system. 
 
 Suppose you own a standard productionized Rails app. It runs in a collection of VMs (or containers) that sit behind a load balancer node running Nginx or Apache. In each VM, the app is served by a Unicorn server: a fixed set of worker processes, listening on a common port. This should be a pretty familiar architecture to anyone who's worked on a Rails app from the early 2010s.
 
