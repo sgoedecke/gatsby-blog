@@ -6,3 +6,7 @@ p {
   font-family: sans-serif;
   margin-bottom: 1.5rem;
 }
+
+details {
+  margin-bottom: 20px;
+}
