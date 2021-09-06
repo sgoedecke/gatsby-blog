@@ -56,7 +56,7 @@ const Bio = () => {
       <p>
         <strong>{author.name}</strong> {author.summary} <br />
         <Link to="/">articles</Link> | <a href="https://docs.google.com/document/d/17Ql6AydCJ7-XhjrwEqzmRAaAaooARTS5vjEhBZGfrbE/edit?usp=sharing">resume</a> |{" "}
-        <a href="https://github.com/sgoedecke">projects</a>
+        <a href="https://github.com/sgoedecke">github</a> | <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">linkedin</a>
       </p>
     </div>
   )
