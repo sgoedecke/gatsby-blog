@@ -1,5 +1,5 @@
 ---
-title: Avoiding Worry Driven Development
+title: Avoiding worry driven development
 description: "Sofware dysfunction is more often motivated by worry than it is by a lack of technical skill"
 ---
 
