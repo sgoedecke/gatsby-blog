@@ -1,6 +1,7 @@
 ---
 title: Avoiding worry driven development
 description: "Sofware dysfunction is more often motivated by worry than it is by a lack of technical skill"
+order: 1
 ---
 
 Sofware dysfunction is more often motivated by anxiety, fear, worry and embarassment than it is by a lack of technical skill. Engineers avoid work that needs doing because they're afraid of becoming entangled with a nightmarish task, or because they're afraid of looking stupid, or harming their career by spending time on grungy work. The task itself is rarely that difficult; it just seems so, which is enough of a barrier to discourage anyone from picking it up. One of the highest-leverage things you can do as an engineer is to recognize this emotional reaction in yourself and work to counter it. If you're working on a single task, doing this can make your implementation significantly cleaner. If you're a senior engineer with responsibility for a whole system, this can help you address high-impact architectural or operational issues.

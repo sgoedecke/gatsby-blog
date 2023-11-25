@@ -1,6 +1,7 @@
 ---
 title: Writing good technical explanations
 description: "How to explain complex technical concepts by starting with why"
+order: 2
 ---
 
 Software engineering is mainly learning. There is a great demand for technical explanations, and many thousands of books, talks and blog posts devoted to this purpose. In the workplace, most engineers will have more than one conversation each day where some tool, library or framework is explained. What is Docker? What's the deal with Kubernetes? I heard we should consider using Kafka - what is that? But so many of these technical explanations follow the same unhelpful pattern: explaning what X is by recounting details of its implementation or design. For instance, you might explain what Docker is by describing cgroups, the mechanics of OS-level virtualization, mounting volumes, and so on. The problem is that this completely ignores the most important things that beginners to a particular technology need to learn: what problem is Docker solving, and why do I need to care about it? Good technical explanations start by explicitly addressing these questions and only address implementation details afterwards. Bad technical explanations never address these questions at all, leaving the poor listener to try and piece together why anybody would want all these disparate technical features in the first place.

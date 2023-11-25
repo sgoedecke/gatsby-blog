@@ -9,7 +9,7 @@ exports.createPages = async ({ graphql, actions }) => {
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___title], order: DESC }
+          sort: { fields: [frontmatter___order], order: DESC }
           filter: { fields: { collection: { eq: "blog" } } }
           limit: 1000
         ) {
@@ -20,6 +20,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                order
               }
             }
           }

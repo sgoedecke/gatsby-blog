@@ -1,6 +1,7 @@
 ---
 title: Learning incident response with problem sets
 description: "One idea for testing incident troubleshooting"
+order: 3
 ---
 
 It's hard to teach good incident response. A good understanding of how the system runs in production is essential, but how do you build that understanding? What's worked for me is looking at the system's behaviour - dashboards, logs and metrics - during various incidents, and making sure I understand the pathological activity I'm seeing. Below I'm going to sketch some made-up incidents and ask what could be going wrong. I think this kind of thing could be a useful exercise, particularly adapted for a specific team or system. 

@@ -62,7 +62,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___title], order: ASC }
+      sort: { fields: [frontmatter___order], order: DESC }
       filter: { fields: { collection: { eq: "blog" } } }
     ) {
       edges {
@@ -74,6 +74,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
+            order
           }
         }
       }

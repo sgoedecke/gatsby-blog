@@ -1,6 +1,7 @@
 ---
 title: Blockchain for beginners
 description: "A brief explanation of how blockchains work for developers"
+order: 5
 ---
 
 # Introduction
