@@ -3,7 +3,7 @@ module.exports = {
     title: `Sean Goedecke`,
     author: {
       name: `Sean`,
-      summary: `works in Melbourne as a software engineer.`,
+      summary: `works in Melbourne as a software engineer, currently for GitHub.`,
     },
     description: `Sean Goedecke's personal blog`,
     siteUrl: `https://relaxed-volhard-f9a616.netlify.app/`,
