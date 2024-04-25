@@ -10,6 +10,8 @@ The genesis of this idea came from my partner, who came back from a field natura
 
 ![owls](owls.png)
 
+Edit: [BirdNET](https://github.com/kahst/BirdNET-Analyzer) is an existing solution that will probably meet your needs if it includes your species in its species list. You're probably better off using that instead of training your own model, unless you're targeting an unusual species, you need it to be very fast, or you're willing to commit a lot of time to making a large enough dataset that can compete with BirdNET.
+
 I'm going to try to explain how to do this, assuming an audience that is not a professional programmer but has dabbled a bit with Python, and who has access to a reasonable volume of animal audio (say, a couple of hours).
 
 ## Setting up your tools and accounts
