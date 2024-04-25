@@ -1,5 +1,5 @@
 ---
-title: Audio classification for field naturalists
+title: "From hours to seconds: AI tools to detect animal calls"
 description: "How to use modern machine learning tools to recognise animal calls"
 order: 13
 ---
