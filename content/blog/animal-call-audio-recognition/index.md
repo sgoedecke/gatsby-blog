@@ -6,11 +6,13 @@ order: 13
 
 If you're currently spending time listening to long audio recordings of birdcalls or animal noises, it's likely that the last four years of advances in machine learning can save you a lot of time. I would like to help. I hope this blog post convinces you of two things: first, that near-state-of-the-art machine learning is _easy to use_ even if you're not a professional programmer, and second, that with a day or two of effort you can set up a pipeline that will reliably recognize any animal call (e.g. a birdcall), allowing you to record more data in more places. If you read this post and you want to try this, feel free to email me and I'll pitch in to help.
 
-The genesis of this idea came from my partner, who came back from a field naturalist talk having been told that it was currently impossible to build an automatic recogniser for the call of the Australian Powerful Owl, _Ninox strenua_. I felt that this couldn't possibly be right in 2024, after the recent frenzy of investment in AI models and tooling. Indeed, it is possible: I hacked together [ninoxstrenua.site](https://ninoxstrenua.site/), which will take in an audio file (up to a couple of hundred mb) and tell you if it contains powerful owl calls. I'm going to try to explain how to do this, assuming an audience that is not a professional programmer but has dabbled a bit with Python, and who has access to a reasonable volume of animal audio (say, a couple of hours).
+The genesis of this idea came from my partner, who came back from a field naturalist talk having been told that it was currently impossible to build an automatic recogniser for the call of the Australian Powerful Owl, _Ninox strenua_. I felt that this couldn't possibly be right in 2024, after the recent frenzy of investment in AI models and tooling. Indeed, it is possible! I hacked together [ninoxstrenua.site](https://ninoxstrenua.site/), which will take in an audio file (up to a couple of hundred mb) and tell you if it contains powerful owl calls:
 
 ![owls](owls.png)
 
-## Setup
+I'm going to try to explain how to do this, assuming an audience that is not a professional programmer but has dabbled a bit with Python, and who has access to a reasonable volume of animal audio (say, a couple of hours).
+
+## Setting up your tools and accounts
 
 This is going to be the hardest part if you don't do a lot of Python programming. Bear with it - it's all downhill from here. First, you're going to need to install `python3` on whatever system you have: https://www.python.org/downloads/. Next, you're going to have to install a bunch of libraries for audio processing. In a macOS terminal, the command is something like `pip install pydub librosa soundfile datasets simpleaudio numpy huggingface_hub`. It might not work the first time. In the worst case, you'll have to look up the error message and figure it out. The general tutorial for installing Python packages is https://packaging.python.org/en/latest/tutorials/installing-packages/.
 
@@ -18,7 +20,7 @@ As a general note, [ChatGPT](https://chat.openai.com/) is pretty good at helping
 
 You'll have to sign up for a free account on https://huggingface.co/ - that's the website that's going to store your dataset and your model. I also strongly recommend signing up to https://cloud.lambdalabs.com/. You'll be using that website to rent out a GPU to train your model later on, which will cost a couple of bucks. If you really don't want to do that, you can rent a GPU somewhere else, or rely on your own computer if it has a GPU already, but the setup will be harder.
 
-## Gathering data
+## Chunking and labelling your dataset
 
 The next step is to gather up all your audio files. It doesn't matter if you have one large file or a lot of small ones, but ideally you should have a couple of hundred instances of the animal call you're looking for in there. Don't use too much data, since you're going to be processing it manually. You'll want it all in `.wav` format. Start in a new directory, with all your files in a `/data` directory:
 
@@ -76,9 +78,13 @@ workspace/
 
 Now it's time to package this up into a dataset! [This script](https://github.com/sgoedecke/birdcall-classifier-model/blob/master/classified-audio-to-dataset.py) will do it for you - you should edit the name of the dataset on line 42 to be whatever animal you're doing. Call it anything you like. It's not strictly necessary, but you should also probably edit the label names from `owl`/`not-owl` to whatever animal you're using.
 
-The script will prompt you for a [HuggingFace](https://huggingface.co/) token at some point - go log in and generate one, making sure it has write permissions. If all goes well, you should be able to go to your HuggingFace profile and see your brand new dataset. After ten minutes or so, you should even be able to listen to some of the audio in it. There should be at least several hundred entries in the dataset: if there aren't, or if the audio doesn't work, or the labelling isn't right, then unfortunately you've gone wrong somewhere when running that last script.
+The script will prompt you for a [HuggingFace](https://huggingface.co/) token at some point - go log in and generate one, making sure it has write permissions. If all goes well, you should be able to go to your HuggingFace profile and see your brand new dataset. After ten minutes or so, you should even be able to listen to some of the audio in it. Here's what mine looks like:
 
-## Training the model
+![hf_dataset](hf_dataset.png)
+
+There should be at least several hundred entries in the dataset: if there aren't, or if the audio doesn't work, or the labelling isn't right, then unfortunately you've gone wrong somewhere when running that last script.
+
+## Training your model
 
 Now it's time to train the model. We're going to be using the SEW-D [model](https://github.com/asappresearch/sew), released in this September 2021 [paper](https://arxiv.org/abs/2109.06870). It's a much smaller and faster version of Facebook's wav2vec2 model, which was released about a year earlier. These details shouldn't really matter to you - I mention them in case you're curious and because I spent a long time trying out different options before I landed on SEW-D.
 
