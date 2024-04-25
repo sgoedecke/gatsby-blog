@@ -18,7 +18,7 @@ This is going to be the hardest part if you don't do a lot of Python programming
 
 As a general note, [ChatGPT](https://chat.openai.com/) is pretty good at helping out with stuff like this: you might be able to paste in whatever error message you're getting and have it figure it out.
 
-You'll have to sign up for a free account on https://huggingface.co/ - that's the website that's going to store your dataset and your model. I also strongly recommend signing up to https://cloud.lambdalabs.com/. You'll be using that website to rent out a GPU to train your model later on, which will cost a couple of bucks. If you really don't want to do that, you can rent a GPU somewhere else, or rely on your own computer if it has a GPU already, but the setup will be harder.
+You'll have to sign up for a free account on https://huggingface.co/ - that's the website that's going to store your dataset and your model. I also strongly recommend signing up to https://cloud.lambdalabs.com/. You'll be using that website to rent out a [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) to train your model later on, which will cost a couple of bucks. If you really don't want to do that, you can rent a GPU somewhere else, or rely on your own computer if it has a GPU already, but the setup will be harder.
 
 ## Chunking and labelling your dataset
 
