@@ -2,9 +2,27 @@ h3 {
   margin-top: 1.5rem;
 }
 
+a {
+  color: lightblue;
+  text-transform: lowercase;
+}
+
+body {
+  background-color: #222222;
+  color: white
+}
+
+blockquote {
+  color: beige;
+}
+
 p {
   font-family: sans-serif;
   margin-bottom: 1.5rem;
+}
+
+section p {
+  text-transform: lowercase;
 }
 
 details {

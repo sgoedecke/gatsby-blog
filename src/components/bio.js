@@ -40,7 +40,7 @@ const Bio = () => {
         marginBottom: 0,
       }}
     >
-      <Image
+      {/* <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
@@ -52,10 +52,10 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      />
+      /> */}
       <p>
-        <strong>{author.name}</strong> {author.summary} Recruiters, please read <Link to="/my-engineering-values">this</Link> post on what I'm looking for. <br />
-        <Link to="/">articles</Link> | <a href="https://docs.google.com/document/d/17Ql6AydCJ7-XhjrwEqzmRAaAaooARTS5vjEhBZGfrbE/edit?usp=sharing">resume</a> |{" "}
+        <Link to="/my-engineering-values">recruiters</Link> | {" "}
+        <Link to="/">posts</Link> | <a href="https://docs.google.com/document/d/17Ql6AydCJ7-XhjrwEqzmRAaAaooARTS5vjEhBZGfrbE/edit?usp=sharing">resume</a> |{" "}
         <a href="https://github.com/sgoedecke">github</a> | <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">linkedin</a>
       </p>
     </div>
