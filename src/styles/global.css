@@ -4,7 +4,7 @@ h3 {
 
 a {
   color: lightblue;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 
 body {
@@ -22,7 +22,7 @@ p {
 }
 
 section p {
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 
 details {
