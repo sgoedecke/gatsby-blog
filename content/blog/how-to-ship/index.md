@@ -1,10 +1,10 @@
 ---
-title: "How to ship projects at tech companies"
+title: "How I ship projects at big tech companies"
 description: "What I think about when I'm lead engineer on a project"
 order: 16
 ---
 
-I have shipped a lot of different projects over the last ~10 years in tech. I often get tapped to lead new ones when it's important to get it right, because I'm good at it. Shipping is a very different skill to writing code, and lots of people who are great at writing code are terrible at shipping.
+I have shipped a lot of different projects over the last ~10 years in tech. I often get tapped to lead new ones when it's important to get it right, because I'm good at it. Shipping in a big tech company is a very different skill to writing code, and lots of people who are great at writing code are terrible at shipping.
 
 Here's what I think about when I'm leading a project and what I've seen people get wrong.
 
