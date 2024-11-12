@@ -61,9 +61,12 @@ I think a lot of engineers hold off on deploys essentially out of fear. If you w
 
 ## Summary
 
-- Shipping is really hard and you have to make it your main priority if you want to ship
+- Shipping is really hard and you have to make it your main priority
 - Shipping doesn't mean deploying code, it means making your leadership team happy
 - You need your leadership team to trust you in order to ship
 - Most of the essential technical work is in anticipating problems and creating fallback plans
-- You should asking yourself "can I ship right this second?"
+- Scale back your implementation work as you approach launch so you're free to jump on last-minute problems
+- You should constantly ask yourself "can I ship right this second?"
 - Have courage!
+
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42111031) with lots of comments.
