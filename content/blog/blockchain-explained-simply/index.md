@@ -1,7 +1,8 @@
 ---
 title: Blockchain explained simply
-description: "As simple an explanation of blockchain as possible"
+description: As simple an explanation of blockchain as possible
 order: 6
+date: '2021-04-20'
 ---
 
 A blockchain is a distributed database. Bitcoin, Ethereum and Dogecoin are all different databases. A blockchain node is a computer with an entire copy of that database on it (for Bitcoin, a few hundred GB).The Bitcoin blockchain stores a list of every transaction ever made with Bitcoin. People use that to figure out how many Bitcoins they have by replaying all the transactions in the right order. Doing it from scratch takes a while. You don’t need to do it from scratch every time you want to check your balance though, since you can replay all the new transactions on top. If you want to get a copy of the Bitcoin blockchain, any existing node will give you one.

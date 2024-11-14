@@ -1,7 +1,8 @@
 ---
 title: Acing the coding challenge
-description: "Practical advice on writing a successful coding challenge"
+description: Practical advice on writing a successful coding challenge
 order: 8
+date: '2020-12-25'
 ---
 
 How do you write a successful coding challenge? Unlike some nightmare whiteboard interview scenarios, typically a coding challenge is not a particularly hard problem. The difficulty comes in achieving the requirements well, not in getting something to work. A working solution is table stakes. Candidates get approved or knocked back on the amount of polish. For this reason my most important piece of advice is this: *you should spend as much time on the challenge as possible*. If you have a week to submit and the challenge guidelines suggest it should take a few hours to complete, use the entire week. You will be competing against people doing the same thing, so restricting yourself to a fraction of that time is a serious handicap. To be clear, I don’t think this is fair. Companies should enforce shorter hard time limits to prevent this behaviour, and many do. But when they don’t, working on the challenge full-time will materially improve your chances.

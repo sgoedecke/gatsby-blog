@@ -6,7 +6,7 @@ module.exports = {
       summary: `works in Melbourne as a software engineer, currently for GitHub.`,
     },
     description: `Sean Goedecke's personal blog`,
-    siteUrl: `https://relaxed-volhard-f9a616.netlify.app/`,
+    siteUrl: `https://seangoedecke.com/`,
     social: {
       foo: "bar",
     },
@@ -79,5 +79,57 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              const formatDate = date => new Date(date).toUTCString();
+
+              return allMarkdownRemark.nodes.map(node => {
+                return {
+                  title: node.frontmatter.title,
+                  description: node.excerpt,
+                  date: formatDate(node.frontmatter.date),
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                };
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  nodes {
+                    excerpt
+                    fields { slug }
+                    frontmatter {
+                      title
+                      date
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "seangoedecke.com RSS feed",
+          },
+        ],
+      },
+    },
   ],
 }

@@ -1,7 +1,8 @@
 ---
 title: Acing the design interview
-description: "Practical advice on succeeding at a design interview"
+description: Practical advice on succeeding at a design interview
 order: 7
+date: '2021-01-01'
 ---
 
 If you haven’t designed an actual system before, design interviews can be tough. Knowing how to work with a particular web service or framework doesn’t always translate to knowing about the design of systems in general. It’s easy to feel overwhelmed when asked to lay out a system on a whiteboard. Here’s one approach. We’re going to start with a toy problem: building a journal app that allows you to post public or private journal entries with comments.

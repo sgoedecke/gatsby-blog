@@ -1,7 +1,8 @@
 ---
-title: "From hours to seconds: AI tools to detect animal calls"
-description: "How to use modern machine learning tools to recognise animal calls"
+title: 'From hours to seconds: AI tools to detect animal calls'
+description: How to use modern machine learning tools to recognise animal calls
 order: 13
+date: '2024-04-25'
 ---
 
 If you're currently spending time listening to long audio recordings of birdcalls or animal noises, it's likely that the last four years of advances in machine learning can save you a lot of time. I would like to help. I hope this blog post convinces you of two things: first, that near-state-of-the-art machine learning is easy to use even if you're not a professional programmer, and second, that with a day or two of effort you can set up a pipeline that will reliably recognize any animal call (e.g. a birdcall), allowing you to record more data in more places. If you read this post and you want to try this, feel free to email me and I'll pitch in to help.

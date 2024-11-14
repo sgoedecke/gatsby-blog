@@ -1,7 +1,10 @@
 ---
-title: "Talking to ChatGPT costs 5ml of water, not 500ml"
-description: "Summarizing a whole lot of internet argument about the water usage impact of language models"
+title: 'Talking to ChatGPT costs 5ml of water, not 500ml'
+description: >-
+  Summarizing a whole lot of internet argument about the water usage impact of
+  language models
 order: 15
+date: '2024-10-28'
 ---
 
 There's a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses. Here are some randomly-chosen examples:
