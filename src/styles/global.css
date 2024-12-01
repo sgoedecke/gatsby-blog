@@ -28,3 +28,8 @@ section p {
 details {
   margin-bottom: 20px;
 }
+
+ol li {
+  margin-left: 20px;
+  padding-left: 10px;
+}

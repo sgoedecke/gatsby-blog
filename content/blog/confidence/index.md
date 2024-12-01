@@ -18,7 +18,7 @@ Why can't we know the answer to these questions? My core argument goes like this
 
 In my experience, you only start to see long-term consequences at the three-to-five-year mark at a company. That gives you at most four different perspectives into how software development gets done at different places (for instance, you might see a doomed monolith-to-microservices refactor at one workplace, and a more successful one at the next workplace). I don't think four data points is enough.
 
-If you instead job hop every two or three years, you'll see how things are done at a lot more companies (~8-10), but you won't have enough depth to be confident on whether a decision had good or bad consequences in the long term.
+If you instead job hop every two or three years, you'll see how things are done at a lot more companies (~8-10), but you won't have enough depth to be confident on whether a decision had good or bad consequences in the long term. 
 
 So I just don't see how it can be possible to know (e.g.) if it really is better to invest in monoliths or to break them down into microservices. You'd need to have seen multiple instances of teams going both ways on that decision, and to have stuck around long enough to know how it turned out for them. That's what, sixteen years minimum, if everything goes perfectly? Probably longer, since for the first few years of your career you don't really know what you're looking at.
 
