@@ -5,11 +5,15 @@ order: 18
 date: '2024-12-02'
 ---
 
-Why do engineers get mad at each other so often?[^1] One reason is that there are lots of very different ways to be a software engineer. If you're approaching the job one way, people doing it the the other way can seem like assholes. Let's make that concrete by introducing two pairs of archetypes: grifter/believer and grinder/coaster. I think the best companies actually have a healthy mix of all four types of engineer, so it's probably sensible to figure out how to work with the archetypes you don't share.
+Why do engineers get mad at each other so often?[^1] 
 
-I want to be really clear that **I am only talking about good engineers**. I think "grifters" and "coasters" can be as good at their jobs as believers and grinders. I'm naming them this way because these are the names you'd give them when you're complaining about your coworkers. I myself fall mostly in the grifter + coaster quadrant, and [I think I'm great at my job](/how-to-ship). Here's a beautiful diagram:
+I think a lot of programmer arguments bottom out in a cultural clash between different kinds of engineers: between believers and grifters, or between coasters and grinders. But good companies actually have a healthy mix of all four types of engineer, so it's probably sensible to figure out how to work with the archetypes you don't share.
+
+Despite the names, I think grifters and coasters can be as good at their jobs as believers and grinders. I'm naming them this way because these are the names you'd give them when you're complaining about your coworkers. I myself fall mostly in the grifter + coaster quadrant, and [I think I'm great at my job](/how-to-ship). Here's a beautiful diagram:
 
 ![quadrants](quadrants.png)
+
+Let me say a little more about each archetype.
 
 ## Grifters
 
@@ -35,9 +39,10 @@ Grinders are locked in. There's always something that needs doing and the grinde
 
 The strengths of a grinder are obvious: they do a lot of work. The weaknesses are also pretty straightforward: when a grinder burns out, they burn out _hard_. In my experience, grinders also tend to be pretty high-strung, since operating with intensity for a long time puts strain on the whole system. If it's not obvious from the way I'm writing about this, I don't think being a grinder is sustainable as a general mode of operating (of course I'd say that, since I'm a coaster by nature). I've met a lot of junior engineers who are grinders, but very few staff+ engineers. I think that's no accident. You either learn to dial it back a bit in the first 5-10 years or you flame out of the industry entirely.
 
-## Conflict
+## Summary
 
-I think a lot of programmer arguments bottom out in a cultural clash between believers and grifters, or between coasters and grinders. But it's useful to have a mix of these types of engineers. If you're a grifter, you need to figure out how to work with believers, because an all-grifter company isn't the kind of place you want to work. If you're a grinder, you need to figure out how to work with coasters, because you're likely to become one at some point if you want to stay in the industry (or at minimum many of your peers will).
+* If you're a grifter, you need to figure out how to work with believers, because an all-grifter company isn't the kind of place you want to work.
+* If you're a grinder, you need to figure out how to work with coasters, because you're likely to become one at some point if you want to stay in the industry (or at minimum many of your peers will).
 
 
 [^1]: If you work in a very agreeable team and don't think this is true, go read the Hacker News comments on a randomly-chosen article.
