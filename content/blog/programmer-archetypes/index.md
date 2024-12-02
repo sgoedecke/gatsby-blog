@@ -1,5 +1,5 @@
 ---
-title: Grifters, believers, grinders and coasters
+title: Grifters, believers, grinders, and coasters
 description: Four archetypes in software engineering
 order: 18
 date: '2024-12-02'
@@ -7,9 +7,9 @@ date: '2024-12-02'
 
 Why do engineers get mad at each other so often?[^1] One reason is that there are lots of very different ways to be a software engineer. If you're approaching the job one way, people doing it the the other way can seem like assholes. Let's make that concrete by introducing two pairs of archetypes: grifter/believer and grinder/coaster. I think the best companies actually have a healthy mix of all four types of engineer, so it's probably sensible to figure out how to work with the archetypes you don't share.
 
-I want to be really clear that **I am only talking about good engineers**. I think "grifters" and "coasters" can be as good at their jobs as believers and grinders. I'm naming them this way because these are the names you'd give them when you're complaining about your coworkers. I myself fall mostly in the grifter + coaster quadrant, and [I think I'm great at my job](/how-to-ship). 
+I want to be really clear that **I am only talking about good engineers**. I think "grifters" and "coasters" can be as good at their jobs as believers and grinders. I'm naming them this way because these are the names you'd give them when you're complaining about your coworkers. I myself fall mostly in the grifter + coaster quadrant, and [I think I'm great at my job](/how-to-ship). Here's a beautiful diagram:
 
-![quadrants](quadrants.svg)
+![quadrants](quadrants.png)
 
 ## Grifters
 
