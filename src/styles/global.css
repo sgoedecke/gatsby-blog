@@ -25,6 +25,10 @@ p {
   margin-bottom: 1.5rem;
 }
 
+li {
+  font-family: sans-serif;
+}
+
 section p {
   /* text-transform: lowercase; */
 }
