@@ -1,6 +1,6 @@
 ---
-title: An engineer's guide to earning trust with senior leadership
-description: How to build and maintain trust with very senior managers
+title: Why some engineers get trusted with high-impact work
+description: Thoughts on building and maintaining trust with very senior managers
 order: 19
 date: '2024-12-22'
 ---
