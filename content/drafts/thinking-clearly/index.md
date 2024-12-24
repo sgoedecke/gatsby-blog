@@ -1,6 +1,6 @@
 ---
 title: How to think clearly about software
-description: Thinking slow and slow
+description: Thinking in slow motion
 order: 18
 date: '2024-12-16'
 ---
@@ -29,11 +29,14 @@ When thinking slowly, you should never take an action (e.g. running a test or in
 
 ### Focus on the invariants
 
-What's the difference between a complete beginner and an expert? The beginner sees a thousand facts and has a thousand ideas. The expert sees the one key fact and has the one correct idea. That's because expertise in software is the mastery of invariants: beliefs about how software works that are true 99.99% of the time.
+What's the difference between a complete beginner and an expert? The beginner sees a thousand facts and has a thousand ideas, almost all of which are wrong or irrelevant. The expert sees the one relevant fact and has the one correct idea. That's because expertise in software is the mastery of invariants: beliefs about how software works that are true 99.99% of the time. For instance, if you know that the service you work on always returns 403s for auth failures, then if you're getting a 401 you know it's probably coming from another layer. This works for more general beliefs too. For instance, a process must be running to serve requests. So when you're troubleshooting your dev environment, and you kill the dev server but you're still getting responses, you know it's definitely not coming from the process you killed.
 
+Software is great because there are lots and lots of invariants - more than almost any other field. The more comfortable you are with them, the more you can scope down the problem. Of course, sometimes a belief you think is an invariant is actually wrong. That's typically the cause of a really nasty debugging session. Maybe there's some unusual setup where the latency of the request is significant, not just the headers and body. Or maybe the process you killed somehow has left an open socket with buffered data on it. Beneath the clean abstractions of software, it's still the messy real world where anything can happen.
 
-how to think clearly about software
-- important bc you can get a long way without clarity just by trying things- but you don't really learn unless you're thinking clearly- can't communicate clearly without thinking clearly- clarity is a spectrum, you get better with practice, results compound- if you're unclear about everything you don't know what's interesting. if you're clear about 90%, you know the remaining 10% is where you can learn- you can't debug without thinking clearly. you can sometimes fix bugs by accident, but you can't understand why a bug is happening and address it, which is what debugging is 
-- think in slow motion- slow down, reason deliberately- the opposite of frantically trying things
-- predict what will happen and why before each action- (should this pass? what output should I see?)- take obvious actions to lock in easy predictions (e.g. empty test should pass)
-- focus on invariants first- software is great because there are lots and lots of invariants- obvious invariants (if the computer is off it is not running the program) and probably-right ones (the execution of this unit test is stateless)- what do you know. make it explicit. what are the bounds of the problem- sometimes invariants are wrong but it's (a) rare and (b) always worth exhausting the problem first- really nasty debugging sessions are usually being wrong about some invariant (e.g. there actually is state)
+### Prepare for a backlash
+
+Surprisingly, thinking clearly really bothers some people. I think the cause is psychological: if you hate uncertainty, and you're flailing around trying to find a solution, it's unpleasant to have someone suggesting that you slow down and sit in the uncertainty for longer. 
+
+### Summary
+
+- 
