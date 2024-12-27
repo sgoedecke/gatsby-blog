@@ -1,7 +1,7 @@
 ---
 title: What can strong engineers do that weak engineers can't?
 description: Engineering talent is about task-capability, not speed or volume
-order: 18
+order: 20
 date: '2024-12-27'
 ---
 
