@@ -1,7 +1,7 @@
 ---
 title: How I got promoted to staff engineer twice
 description: What does it take to get promoted from senior to staff at a tech company?
-order: 20
+order: 21
 date: '2024-12-28'
 ---
 
