@@ -1,3 +1,11 @@
+### Rules for working in a big codebase
+
+- Follow existing patterns. Follow existing patterns. For the love of God.
+- Make the entrypoint to your new features as separate as possible from the rest of the codebase (i.e. different files, different helpers, packages). You should be able to delete it all without a big scary diff
+- Know what makes a change scary. Know how often the code you touch is being run.
+- Don't introduce new libraries
+
+
 ### Is there no such thing as strong engineers, just strong teams?
 
 I want to address a common belief in the ZIRP era (now less prevalent) that strong engineers are only strong in the context of the team, because it's the team that enables an engineer to succeed. According to this view, it doesn't make sense to talk about how some engineers are more effective than others, because the root cause of this effectiveness is always processes at the team level (i.e. systems that produce high psychological safety). I've spent some time working in an environment like this, which was frustrating for a few reasons.
