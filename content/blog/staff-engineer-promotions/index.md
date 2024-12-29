@@ -24,11 +24,11 @@ You are very unlikely to be promoted to staff engineer for working on issues the
 
 As a staff software engineer, you will be judged by success and failure, not by effort. That's how senior company managers have always been judged, so they are unlikely to be sympathetic about it. (Incidentally, senior engineers are also judged like this, but many don't know it.) That means that **your projects have to succeed**. If you're [technically weak](/weak-engineers), it's probably a dealbreaker: projects almost never succeed unless someone bends their will to making it happen. If you want the staff promotion, that person has to be you.
 
-### What about mentoring, leadership, and the traditional duties of a staff engineer?
+### What about mentoring, leadership, and so on?
 
-Everyone will tell you that the staff role involves more leadership and mentoring, and less hands-on engineering work. This is broadly true, because the higher you go in an organization the more time you spend coordinating instead of writing code. But **you do not get to staff by being a great mentor or leader**. You get to staff by delivering value for the company.
+Everyone will tell you that the staff role involves more leadership and mentoring, and less hands-on engineering work. This is broadly true, because the higher you go in an organization the more time you spend coordinating instead of writing code. But in my experience, **you do not get to staff by being a great mentor or leader**. You get to staff by delivering value for the company.
 
-One caveat: sometimes a good way to deliver value for the company is by mentoring and leading. When I went up to staff at GitHub, it helped that I had been the kernel of a small APAC-based engineering team, because the company was trying to grow engineers. However, delivering value the traditional way - by shipping projects - is not optional. If all I had been doing was interviewing, onboarding and mentoring I would have not been promoted.
+One caveat: sometimes a good way to deliver value for the company is by mentoring and leading. When I went up to staff at GitHub, it helped that I had been the kernel of a small APAC-based engineering team, because the company was trying to grow engineers. However, delivering value the traditional way - by shipping projects - is not optional. If all I had been doing was interviewing, onboarding and mentoring I do not believe I would have been promoted.
 
 ### Can you get promoted to staff anywhere?
 
