@@ -5,11 +5,11 @@ order: 21
 date: '2024-12-28'
 ---
 
-At the beginning of 2021, Zendesk promoted me to staff software engineer. At the end of 2021 I switched jobs from Zendesk to GitHub. In early 2023, GitHub promoted me to staff software engineer. Successfully going through the staff promotion process twice in two years was a pretty interesting experience, and I think it puts me in a good spot to talk about making the jump from senior to staff.
+At the beginning of 2021, Zendesk promoted me to staff software engineer. At the end of 2021 I switched jobs from Zendesk to GitHub. In early 2023, GitHub promoted me to staff software engineer. Successfully going through the staff promotion process twice in two years was a pretty interesting experience, and I think it puts me in a good spot to talk about making the jump from senior to staff[^1].
 
 If you're just looking to get the staff role, it's almost always easier to get hired into it than promoted to it. Senior is typically considered a "terminal level" in tech: once you hit it, nobody will think you're weak for not seeking a further promotion to staff. Internal promotions to staff are less common. If you do want to get promoted, what does it take?
 
-First, we need to understand why senior -> staff promotions happen in tech companies. They happen for two reasons:
+First, we need to understand why senior-to-staff promotions happen in tech companies. They happen for two reasons:
 
 1. Company leadership (i.e. your skip-level or above) think a particular engineer is valuable and may leave if not promoted to staff.
 2. Company leadership want a particular engineer to lead specific cross-org projects that will run smoother if they've got the staff role.
@@ -47,3 +47,5 @@ You also need your skip-level manager to be onside (since it'll likely be their 
 - You need to have shipped projects that the company cares about - don't spend time on your pet projects instead!
 - Don't worry _too_ much about mentoring and leading, as long as you're leading projects successfully
 - You need a manager who's willing and able to do a bunch of work. Don't invest time in the promo packet until that's true
+
+[^1]: Every company does things differently. I'm speaking from my own experience - I'm sure other staff engineers have had different roads to promotion. But I'm willing to bet this rings true for most staff engineers and the managers who promote them.
