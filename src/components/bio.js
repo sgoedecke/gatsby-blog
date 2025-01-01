@@ -7,9 +7,6 @@
 
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import Image from "gatsby-image"
-
-import { rhythm } from "../utils/typography"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -32,7 +29,6 @@ const Bio = () => {
     }
   `)
 
-  const { author } = data.site.siteMetadata
   return (
     <div
       style={{
