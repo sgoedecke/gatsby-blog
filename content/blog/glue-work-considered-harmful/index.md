@@ -19,5 +19,7 @@ Is this a deeply cynical take about how to succeed in office politics? I don't a
 
 If you're one of those exceptional people, congratulations! You can use that power tactically to be a more effective engineer. But you shouldn't do it all the time[^2]. 
 
+**Update:** some interesting discussion of this post on [HN](https://news.ycombinator.com/item?id=42570390) and [lobsters](https://lobste.rs/s/nfhwae/glue_work_considered_harmful). I think [this comment](https://lobste.rs/s/nfhwae/glue_work_considered_harmful#c_zqmap8) by friendlysock is particularly good.
+
 [^1]: See Metcalfe's law, Reed's law and Amdahl's law for the technical reasons why.
 [^2]: Unless you really, really want to (in which case hey, if you're going into it with eyes open, do what you like).
