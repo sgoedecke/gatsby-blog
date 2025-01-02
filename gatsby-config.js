@@ -1,3 +1,34 @@
+const createFeed = ({ output, title }) => ({
+  serialize: ({ query: { site, allMarkdownRemark } }) => {
+    const formatDate = date => new Date(date).toUTCString();
+    return allMarkdownRemark.nodes.map(node => ({
+      title: node.frontmatter.title,
+      description: node.excerpt,
+      date: formatDate(node.frontmatter.date),
+      url: site.siteMetadata.siteUrl + node.fields.slug,
+      guid: site.siteMetadata.siteUrl + node.fields.slug,
+    }));
+  },
+  query: `
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] },
+      ) {
+        nodes {
+          excerpt
+          fields { slug }
+          frontmatter {
+            title
+            date
+          }
+        }
+      }
+    }
+  `,
+  output,
+  title,
+});
+
 module.exports = {
   siteMetadata: {
     title: `sean goedecke`,
@@ -95,39 +126,18 @@ module.exports = {
           }
         `,
         feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              const formatDate = date => new Date(date).toUTCString();
-
-              return allMarkdownRemark.nodes.map(node => {
-                return {
-                  title: node.frontmatter.title,
-                  description: node.excerpt,
-                  date: formatDate(node.frontmatter.date),
-                  url: site.siteMetadata.siteUrl + node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + node.fields.slug,
-                };
-              });
-            },
-            query: `
-              {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                ) {
-                  nodes {
-                    excerpt
-                    fields { slug }
-                    frontmatter {
-                      title
-                      date
-                    }
-                  }
-                }
-              }
-            `,
+          createFeed({
             output: "/rss.xml",
             title: "seangoedecke.com RSS feed",
-          },
+          }),
+          createFeed({
+            output: "/feed.xml",
+            title: "seangoedecke.com RSS feed",
+          }),
+          createFeed({
+            output: "/atom.xml",
+            title: "seangoedecke.com RSS feed",
+          }),
         ],
       },
     },
