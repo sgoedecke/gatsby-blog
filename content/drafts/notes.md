@@ -1,9 +1,11 @@
-### Rules for working in a big codebase
+### Consider doing what your company wants
 
-- Follow existing patterns. Follow existing patterns. For the love of God.
-- Make the entrypoint to your new features as separate as possible from the rest of the codebase (i.e. different files, different helpers, packages). You should be able to delete it all without a big scary diff
-- Know what makes a change scary. Know how often the code you touch is being run.
-- Don't introduce new libraries
+### I'm not cynical, you're cynical
+
+
+### Working for American companies as a foreigner
+
+- 
 
 
 ### Is there no such thing as strong engineers, just strong teams?
