@@ -5,9 +5,9 @@ order: 25
 date: '2025-01-04'
 ---
 
-Large companies are always sociopathic. Decisions are made by the aggregate of a hundred or so executives' work-personas: the most goal-oriented parts of the most goal-oriented segment of the company. Individual executives are often deeply empathetic people. But they're in the roles they're in because at work they're able to act pragmatically in the company's best interests[^1]. Thus the company itself has a lot of pragmatism and very little empathy. Companies want to make money, they want to look good, and they want specific projects to succeed and specific metrics to perform well.
-
 Your direct manager and skip may be really nice. But you're always going to be working for at least one powerful sociopath: the company itself. Working for a powerful sociopath isn't always easy, but it is straightforward. If you act in their best interests, you will often be rewarded. If you act against their best interests, you will often be sidelined or punished. 
+
+Large companies are always sociopathic, because decisions are made by the aggregate of a hundred or so executives' work-personas: the most goal-oriented traits of the most goal-oriented demographic of the company. Individual executives are often deeply empathetic people in their personal lives. But they're in the roles they're in because at work they're able to act in the company's best interests[^1]. Thus the company itself has a lot of pragmatism and very little empathy.
 
 ### Knowing what your company wants doesn't mean you have to do it
 
@@ -25,8 +25,10 @@ Part of the reason why is that you'll just be _better_ at prioritizing your own 
 
 How do you find out what your company wants, specifically? You don't have to read between the lines. Functional companies will tell you loudly and often. Read the org-wide written communications from your skip-level or above. The projects they give status updates on are important projects. The company wants them to succeed. Likewise, pay attention to where the company is putting its resources. If reorgs are putting more people into an area, it's an area the company cares about.
 
-You could just ask your boss or skip-level, but take what they say with a grain of salt. Unless you have a very strong relationship, your boss will probably be reluctant to tell you that an unimportant project is unimportant, in case you're dumb enough to go saying that publically.
+You could just ask your boss or skip-level, but take what they say with a grain of salt. Unless you have a very strong relationship, your boss will probably be reluctant to tell you that an unimportant project is unimportant, in case you're dumb enough to go saying that publically[^2].
 
 Companies change their mind often and quickly. Don't assume that a project that was very important last month will be as important this month. For the same reason, something you've been just keeping-the-lights-on might suddenly become important. You should try and stay flexible.
 
 [^1]: More specifically, in their own best interests, which in effective companies are closely aligned with company success and profit.
+
+[^2]: It's dumb because "important" and "current high priority" are different concepts, so a claim like "the company doesn't care about accessibility" is both embarrassing and probably false.
