@@ -37,8 +37,6 @@ Finally, even if you do somehow finagle your way into a key project (the way I'v
 
 ### Summary
 
-What does this all mean for you?
-
 - When you join a new company, focus on shipping small pieces of work in order to build reputation
 - Build on your successes in order to transition to higher-profile, more visible work
 - Your first high-visibility project is critical to forming reputation with more senior management
