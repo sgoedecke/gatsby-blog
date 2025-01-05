@@ -1,15 +1,15 @@
 ---
-title: Ratchet effects determine engineer reputation
-description: --
-order: 18
-date: '2024-12-16'
+title: Ratchet effects determine engineer reputation at large companies
+description: Why you can't skip to the top (but you can skip to the bottom)
+order: 24
+date: '2025-01-05'
 ---
 
-How do engineers become higher-status or lower-status at tech companies? In other words, what determines who gets promoted and who doesn't, or who gets assigned the exciting difficult work and who gets put on keep-the-lights-on maintenance duty?
+How do engineers become higher-status or lower-status at large tech companies? In other words, what determines who gets promoted and who doesn't, or who gets assigned the exciting difficult work and who gets put on keep-the-lights-on maintenance duty?
 
 ### Building a reputation
 
-The naive answer is that strong engineers (i.e. technically capable engineers) are recognized and rewarded for their talent. There's a grain of truth in this, but it's broadly false. Many technically strong engineers go unrecognized and many technically weak engineers succeed. The slightly-less naive answer is that engineers who can deliver value to shareholders (e.g. by [shipping projects](/how-to-ship)) are placed in positions where they can do that. This is closer to the truth, but it doesn't explain the mechanism. Nobody at a large tech company is sitting in a high tower assessing how much value you personally can deliver. They're all busy with their own jobs. How, then, do effective engineers get recognized?
+The naive answer is that strong engineers are recognized and rewarded for their talent. There's a grain of truth in this (talent does matter), but it's broadly false. Many technically strong engineers go unrecognized and many technically weak engineers succeed. The slightly-less naive answer is that engineers who can deliver value to shareholders (e.g. by [shipping projects](/how-to-ship)) are placed in positions where they can do that. This is closer to the truth, but it doesn't explain the mechanism. Nobody at a large tech company is sitting in a high tower assessing how much value you personally can deliver. They're all busy with their own jobs. How, then, do effective engineers get recognized?
 
 The answer is a natural ratchet effect. When an engineer joins a company, they are low status. Not the lowest - I'll get to that later - but certainly unproven and untrusted. That means they can only take on low status work: regular JIRA tickets, bugfixes, and ordinary line-of-work features. This work is low status not because it's unimportant but because it's only visible to the immediate team. If they knock it out of the park, they'll gain status with their immediate team only.
 
@@ -25,9 +25,9 @@ It works just as well the other way around. If you join a company and make a com
 
 Once in this spiral, can you get out? Sure. If you start to do good work, you'll slowly regain reputation in your immediate org. Teams are usually too busy to hold grudges - if you're beginning to look useful, they'll use you. It takes much longer for skip-level managers and other executives to change their mind about you, but it does happen (typically after a couple of higher-profile successes).
 
-### Skipping the ratchet
+### Why you can't skip the ratchet
 
-What I have never seen work is trying to skip the ratchet and jump straight to a higher-profile piece of work to "prove yourself". I can maybe believe this is possible for a new hire (though unbelievably risky)[^2]. But I don't think this is possible at all for someone who's already developed a bad reputation. Companies have excellent defense mechanisms against low-reputation engineers trying to claim important projects.
+Some people try to skip the ratchet and jump straight to a higher-profile piece of work to prove themselves. I have never seen this work. I can maybe believe this is possible for a new hire (though unbelievably risky)[^2]. But I don't think this is possible at all for someone who's already developed a bad reputation. Companies have excellent defense mechanisms against low-reputation engineers trying to claim important projects.
 
 First, which engineer will lead which project is often decided weeks ahead of time, before engineers on the team even hear about the project.
 
@@ -47,4 +47,4 @@ What does this all mean for you?
 
 [^1]: Often these projects need the perception of active work but have no real deliverables. For instance, many teams will have something like a "compliance champion" role so they can pay lip service to the idea that they're taking X or Y compliance requirement seriously - they have a whole person assigned to it! - without ever having to spend the time of useful engineers.
 
-[^2]: It's risky because if you fail (as you well might, having no context in the org), you'll immediately mark yourself as a weak engineer. If you're strong, why not just spend six months building an immediate reputation and making sure you know how shipping works in the org?
+[^2]: It's risky because if you fail (as you well might, having no context in the org), you'll immediately mark yourself as a weak engineer. If you're strong, why not just spend six months building an immediate reputation and making sure you know how shipping works in the org? It's just so hard to know (a) what needs doing, or (b) how to do it when you're new.

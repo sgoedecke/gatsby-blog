@@ -1,11 +1,3 @@
-### Consider doing what your company wants
-
-### I'm not cynical, you're cynical
-
-
-### Working for American companies as a foreigner
-
-- 
 
 
 ### Is there no such thing as strong engineers, just strong teams?
