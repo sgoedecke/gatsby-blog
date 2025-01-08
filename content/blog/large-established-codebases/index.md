@@ -63,3 +63,5 @@ The other reason is that **you cannot split up a large established codebase with
 - Don't expect to be able to test every case - instead, rely on monitoring
 - Remove code any chance you get, but be very careful about it
 - Make it as easy as possible for domain experts to catch your mistakes
+
+**Update:** this post was discussed [on Hacker News](https://news.ycombinator.com/item?id=42627227), if you'd like to read comments.
