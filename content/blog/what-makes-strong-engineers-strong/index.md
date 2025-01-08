@@ -15,6 +15,8 @@ There are many smart people who just can't work in this environment. It violates
 
 This doesn't just affect what projects engineers work on, but the quality of the work itself. If you pick up a hard task, it makes a big difference whether you immediately tackle the hardest part head-on, or if you put it off and try to work around it. I've seen engineers spend weeks avoiding a difficult task that could have been accomplished in a serious day of effort.
 
+It also creates a positive feedback loop. Engineers with a lot of confidence tend to work on more hard problems, which builds up their confidence, which pushes them towards even harder problems and so on. One popular way to describe these kinds of engineers is "agentic". As the common phrase goes, "you can just do things".
+
 ### Pragmatism
 
 Strong engineers get things done. They bias towards working solutions. In my experience, strong engineers are all ruthless pragmatists: every design decision is judged by how well it will work, not how clean or elegant it is. That's not to say strong engineers don't produce elegant solutions. Elegant solutions are often the most straightforward ones. But strong engineers resist adding layers of abstraction just for neatness' sake. They're typically happy to make compromises in the interest of shipping.
