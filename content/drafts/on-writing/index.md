@@ -11,6 +11,8 @@ My blog has gotten a lot of traffic in the last few months[^1]. Here's what I th
 
 By far the most popular things I write about are my thoughts on [how to ship projects](/how-to-ship), what makes an engineer [strong](/what-makes-strong-engineers-strong) (or [weak](/weak-engineers)), how to [navigate](/glue-work-considered-harmful) [company politics](/ratchet-effects), and so on. In general, I think the recipe for a popular post is **to have a clear opinion about working in tech that many people disagree with**. That means that people might learn something from the article (or at least that discussion about it will be lively and interesting).
 
+I don't think people want to read opinions that aren't controversial (e.g. "unit testing is good"). I'd also avoid topics that have been rehashed a thousand times, unless you've got something new to say about them (e.g. "dynamic vs static types"). If you're just writing posts to get things clearer in your head, of course write about what you want. This is just my sense of which topics people are interested in.
+
 I suppose you could try to exploit this by pretending to have maximally controversial opinions. But I don't think that would be very fun or very worthwhile. Tech blogs don't make any money, so there's no real value in just driving up the number of eyeballs. The real value of a technical blog is to express my own opinions as clearly and widely as possible, so either:
 
 - I can read feedback from people who might cause me to change my mind, or
@@ -34,6 +36,14 @@ I use Gatsby/React for my blog for purely historical reasons: at the time I was 
 
 I pay a small amount for Netlify analytics. I think some kind of analytics is important, so you know which posts people are interested in (and you can follow the top referrers to read comments). 
 
-### Getting views
+### Audience
 
-[^1]: Concretely: ~10 posts on the HN frontpage, with one at #1 for multiple days, and a few posts with attention on lobsters and reddit. All in all, 2-3 million pageviews and a couple of thousand comments.
+I write under my real name, and I try to write things that people want to read and share on sites like Hacker News. That means that people who know me and work with me read my posts. I have a lot less freedom to share identifiable details or specifics than I would have if I were writing anonymously. When I do share a story that's more identifiable, I try to make sure it's >5 years old and doesn't apply to anyone I currently work with. I also don't share interesting technical details if they could reveal too much about the company I work for. Probably in ten more years I could write some really interesting posts.
+
+Sometimes I share my own posts on Hacker News - i.e. blogspam - but I generally just write and hope other people share posts that they find paritcularly interesting. It's important to have a RSS feed set up so that if someone likes one of your posts they can follow others without having to go and check the site. You should have that set up _before_ you write your first post that gets attention. I only set up my RSS feed after my [how to ship](/how-to-ship) post blew up, and I probably missed a bunch of potential readers because of it.
+
+### Summary
+
+
+
+[^1]: Concretely: ~10 posts on the HN frontpage, with one at #1 for multiple days, and a few posts with attention on lobsters and reddit. All in all, 2-3 million pageviews and a couple of thousand comments. Much less than any of the big tech bloggers, but certainly more than I've had before.
