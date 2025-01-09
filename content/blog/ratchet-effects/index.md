@@ -43,6 +43,8 @@ Finally, even if you do somehow finagle your way into a key project (the way I'v
 - If you've had some failures, build back up slowly with small successes - you won't be able to prove yourself with a big-bang project
 - Reputation is hard to change. If you're really in a hole, you might be better off switching companies for a clean slate
 
+**Update:** this post was discussed [on Hacker News](https://news.ycombinator.com/item?id=42610021), if you'd like to read comments.
+
 [^1]: Often these projects need the perception of active work but have no real deliverables. For instance, many teams will have something like a "compliance champion" role so they can pay lip service to the idea that they're taking X or Y compliance requirement seriously - they have a whole person assigned to it! - without ever having to spend the time of useful engineers.
 
 [^2]: It's risky because if you fail (as you well might, having no context in the org), you'll immediately mark yourself as a weak engineer. If you're strong, why not just spend six months building an immediate reputation and making sure you know how shipping works in the org? It's just so hard to know (a) what needs doing, or (b) how to do it when you're new.
