@@ -1,7 +1,7 @@
 ---
 title: What it's like working for American companies as an Australian
 description: My experience working across timezones for Americans
-order: 26
+order: 27
 date: '2025-01-10'
 ---
 
