@@ -20,6 +20,8 @@ I suppose you could try to exploit this by pretending to have maximally controve
 
 For me, having an actual tech job that I take seriously is essential. I get most of my ideas for blog posts by just writing down the things I'm already thinking about as a part of regular work. I don't sit in an armchair and think "what does it mean to be a strong engineer", I encounter strong engineers in my regular work and (naturally) think about what they're doing differently.
 
+I touch on the same themes fairly regularly - the importance of being agentic and tactical, how companies value results, what makes engineers strong or weak - but I think that's fine. Coming at the same ideas from different angles typically yields new insights, and from reading comments on my posts people take a very wide array of things from them. If I ever start seeing comments like "didn't I read this post before" I'll probably change it up.
+
 ### Tone and style
 
 I try to be as clear and casual as possible. This is largely influenced by grad school in analytic philosophy, which aims to be much more straightforward in tone than other liberal arts fields. In terms of technical writing, Dan Luu and Paul Graham's blog are more or less the kind of style I aim for. I don't know if this is particularly good or bad - I've seen many successful tech blogs with a more colourful style - but it works for me.
