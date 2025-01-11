@@ -46,6 +46,11 @@ Sometimes I share my own posts on Hacker News - i.e. blogspam - but I generally 
 
 ### Summary
 
-
+- Try and find opinions you have that lots of people disagree with. Those are the interesting opinions others might want to read about
+- Ideas should come naturally from doing actual work, not from sitting and reflecting on what a good blog post would be
+- It's OK to write multiple posts about the same thing
+- I deliberately don't include every caveat - good readers will know I'm only writing about my old experience; bad ones won't care anyway
+- I try to be upfront about my experience so readers can judge how seriously to take what I'm saying
+- Set up a RSS feed and some kind of analytics
 
 [^1]: Concretely: ~10 posts on the HN frontpage, with one at #1 for multiple days, and a few posts with attention on lobsters and reddit. All in all, 2-3 million pageviews and a couple of thousand comments. Much less than any of the big tech bloggers, but certainly more than I've had before.
