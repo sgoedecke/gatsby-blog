@@ -1,4 +1,5 @@
-
+working with... series
+strong engineers, weak engineers, managers, PMs, executives, interns
 
 ### Is there no such thing as strong engineers, just strong teams?
 
