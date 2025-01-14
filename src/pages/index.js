@@ -38,11 +38,7 @@ const BlogIndex = ({ data, location }) => {
               </h3>
             </header>
             <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+              <p> {node.frontmatter.date} </p>
             </section>
           </article>
         )
@@ -75,6 +71,7 @@ export const pageQuery = graphql`
             title
             description
             order
+            date(formatString: "MMMM D, YYYY")
           }
         }
       }
