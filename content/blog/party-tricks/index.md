@@ -1,5 +1,5 @@
 ---
-title: Burning down JIRA tickets is a party trick, not a path to impact
+title: Crushing JIRA tickets is a party trick, not a path to impact
 description: Tech companies care about projects, not tickets
 order: 29
 date: '2025-01-14'
