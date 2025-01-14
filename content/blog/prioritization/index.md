@@ -1,5 +1,5 @@
 ---
-title: Burning down JIRA tickets is a neat party trick, not a path to impact
+title: Burning down JIRA tickets is a party trick, not a path to impact
 description: Tech companies care about projects, not tickets
 order: 29
 date: '2025-01-14'
@@ -7,7 +7,7 @@ date: '2025-01-14'
 
 Don't be a JIRA ticket zombie! I think a common experience among ambitious juniors - certainly I did this once - is to get frustrated at the slow pace of a team and decide "screw it, I'll just burn through all these tickets". On many teams, it's not that hard to do 2x or 3x more tickets than the next most productive person. But this is a dead end. You'll get a pat on the head, told "nice work, don't burn yourself out", and no progress towards a senior promotion.
 
-Everything you could want from a company - promotions, bonuses, internal respect - comes from shipping _projects_, not from closing out tickets. It can still be useful to go through a stage of churning out tickets: to learn how fast you can work, to get rapid familiarity with the codebase, and to build some credit with your colleagues. But at some point you need to transition from doing whatever work is in front of you to prioritizing the work you think is the most important.
+Everything you could want from a company - promotions, bonuses, internal respect - comes from [shipping _projects_](/how-to-ship), not from closing out tickets. It can still be useful to go through a stage of churning out tickets: to learn how fast you can work, to get rapid familiarity with the codebase, and to build some credit with your colleagues. But at some point you need to transition from doing whatever work is in front of you to prioritizing the work you think is the most important.
 
 ### How do you work on important things?
 
