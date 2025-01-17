@@ -1,11 +1,11 @@
 ---
-title: How to think clearly about software
-description: Thinking in slow motion
-order: 18
-date: '2024-12-16'
+title: Thinking clearly about software
+description: To think clearly, think in slow motion
+order: 31
+date: '2025-01-18'
 ---
 
-You can go a long way as a software engineer without ever managing to think clearly. The feedback loop of writing and running code is so immediate that we can often get by with trial-and-error. It's a truism that software engineers don't know why their code is working any more than they know why it's broken. But it's still worth doing.
+You can go a long way as a software engineer without ever managing to think clearly. The feedback loop of writing and running code is so immediate that we can often get by with trial-and-error.
 
 ### Why is it important to think clearly?
 
@@ -35,8 +35,6 @@ Software is great because there are lots and lots of invariants - more than almo
 
 ### Prepare for a backlash
 
-Surprisingly, thinking clearly really bothers some people. I think the cause is psychological: if you hate uncertainty, and you're flailing around trying to find a solution, it's unpleasant to have someone suggesting that you slow down and sit in the uncertainty for longer. 
+Surprisingly, thinking clearly really bothers some people. I think the cause is psychological: if you hate uncertainty, and you're flailing around trying to find a solution, it's unpleasant to have someone suggesting that you slow down and sit in the uncertainty for longer. I've worked with people who only felt comfortable when they had a theory about why a bug was happening or how to implement something - they found it very hard to be in the position of not knowing the answer.
 
-### Summary
-
-- 
+Can you think clearly by yourself, and then come to others with a fully-formed solution? No, not really. You'll still have to explain your solution to others or discuss their solution, which will at minimum require thinking clearly about their ideas. There's no real way around it. My suggestion is to try and work with people who are happy to sit in uncertainty for a while.
