@@ -1,3 +1,8 @@
+The space of possible solutions
+when you're tackling a problem before you know what to do, you need a sense of what kind of thing might be possible. at a big tech co, this space is relatively narrow in some areas and wide in others. v important to have a sense of what will work and what won't work. for instance, bc you're operating at scale, you might know immediately you can't put a LLM call in the hot path. That constrains the space. You might know there's no appetite for introducing heavy extra libraries into the frontend. That constrains the space. etc.
+It's sad to see good engineers waste time by iterating on solutions that aren't in the space 
+
+
 working with... series
 strong engineers, weak engineers, managers, PMs, executives, interns
 
