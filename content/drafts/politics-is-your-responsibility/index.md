@@ -1,7 +1,7 @@
 ---
 title: Tech company politics is your responsibility
 description: If you're senior or above, you're morally obliged to play the game
-order: 26
+order: 35
 date: '2025-01-26'
 ---
 
