@@ -1,7 +1,17 @@
 
+## Building your sense of what's important
 
-fast work, slow work
-switching gears
+all kinds of work. most of it is minor. occasional pieces are v important
+some people never start thinking about this in big tech
+for me, the spark was lab day
+you'll get it wrong, but it gets better over time
+
+## Impact and cowardice
+
+not caring about political influence is cowardly
+no losers on successful teams and vice versa: https://cacm.acm.org/opinion/life-lessons-from-the-first-half-century-of-my-career/ - if you don't care about making your team successful, you're undercutting more junior engineers. gain clout and use it!
+your team will get sidelined and eventually get canned if you don't build power. maybe that's fine for you, senior engineer, but it screws over the more junior people on your team who need accomplishments and can't roll into another job
+if you're able to do politically valuable work, you have a responsibility to your team to do it
 
 
 working with... series
