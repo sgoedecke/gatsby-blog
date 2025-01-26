@@ -7,7 +7,9 @@ date: '2025-01-26'
 
 The Chinese AI lab[^1] DeepSeek recently released their new reasoning model R1, which is supposedly (a) better than the current best reasoning models (OpenAI's o1- series), and (b) was trained on a GPU cluster a fraction the size of any of the big western AI labs. Unlike the big western AI labs, they've released a [paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) explaining what they did.
 
-First, let's define "reasoning model". A regular model takes a prompt and predicts the next n tokens (i.e. completing a sentence or answering a question). The model "thinks" (i.e. performs matrix multiplications) for exactly the same amount of time for each token. That means that the more time the model spends talking, the more time it has to spend on a question, and the better the answer you'll get. That's why prompts like "think step-by-step" and "spell out your reasoning before answering" are well-known to help.
+Like previous posts [along these lines](/mcts-and-llms), this is more of my attempt to think out loud and internalize what I've learned by reading the paper. I'm not an expert in this area: I work on AI products at GitHub, but the emphasis there is on "product", not on "AI". Hopefully that makes this helpful to other non-experts - but it's helpful to me, in any case.
+
+Okay, let's define "reasoning model". A regular model takes a prompt and predicts the next n tokens (i.e. completing a sentence or answering a question). The model "thinks" (i.e. performs matrix multiplications) for exactly the same amount of time for each token. That means that the more time the model spends talking, the more time it has to spend on a question, and the better the answer you'll get. That's why prompts like "think step-by-step" and "spell out your reasoning before answering" are well-known to help.
 
 A reasoning model attempts to bake that behaviour into the model itself. How OpenAI's models work exactly is a trade secret, but one simple answer could go like this[^2]:
 
@@ -31,8 +33,6 @@ Aside from the cost benefits, I believe there's also a potential quality benefit
 Is DeepSeek's approach just better, then? I don't _think_ so. Restricting your training process to chains-of-thought that can be verified mechanistically (i.e. without a model) means that you can only really train the model on coding and mathematics. There's just no way to do a logical word puzzle, or a legal analysis, or any of the other forms of reasoning we might want out of a reasoning model.
 
 It's theoretically possible that this doesn't matter, because superintelligence in coding/mathematics might transfer to other domains. As I understand it, we've sort of seen that happen in normal models - as they're trained on more code, they get better at non-code domains. But it remains to be demonstrated in practice. I don't think Deepseek-R1 is currently crushing the humanities.
-
-Like previous posts [along these lines](/mcts-and-llms), this is more of my attempt to think out loud and internalize what I've learned by reading the paper. I'm not an expert in this area: I work on AI products at GitHub, but the emphasis there is on "product", not on "AI". Hopefully that makes this helpful to other non-experts - but it's helpful to me, in any case.
 
 [^1]: Supposedly, not even an AI lab at all, just a quant shop with a lot of spare GPUs (!?)
 
