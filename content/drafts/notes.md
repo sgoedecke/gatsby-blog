@@ -1,3 +1,6 @@
+https://benjamincongdon.me/blog/2025/01/25/AI-Slop-Suspicion-and-Writing-Back/
+slop
+
 
 ## Building your sense of what's important
 
