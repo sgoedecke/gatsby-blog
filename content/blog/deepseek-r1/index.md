@@ -34,6 +34,8 @@ Is DeepSeek's approach just better, then? I don't _think_ so. Restricting your t
 
 It's theoretically possible that this doesn't matter, because superintelligence in coding/mathematics might transfer to other domains. As I understand it, we've sort of seen that happen in normal models - as they're trained on more code, they get better at non-code domains. But it remains to be demonstrated in practice. I don't think Deepseek-R1 is currently crushing the humanities.
 
+Addendum: this is a relatively straightforward approach that others must have thought of. Why did it happen now and not a year ago? The most compelling answer is probably this: open-source base models had to get good enough at reasoning that they could be RL-ed into becoming reasoning models. It's plausible that a year ago that wasn't the case. A less compelling answer: the quality of reasoning-based benchmarks is much higher now than it was. For this approach to work, you need to be able to feed the model a ton of problems that require reasoning to solve (otherwise it'll jump straight to the solution). Maybe those problems have only recently become available. 
+
 [^1]: Supposedly, not even an AI lab at all, just a quant shop with a lot of spare GPUs (!?)
 
 [^2]: I can't stress enough how I have no actual idea what OpenAI is doing, and this is just a wild guess. Even if they are doing something along these lines it's certainly going to be more sophisticated.

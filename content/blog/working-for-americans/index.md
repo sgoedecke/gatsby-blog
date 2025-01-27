@@ -39,6 +39,8 @@ Why do it? Why wouldn't I work for Australian tech companies? In general, Americ
 
 I've also grown to love the rhythm of busy mornings and deep-work afternoons. And of course working fully remote is great. I think it's a pretty good deal for the company too - follow-the-sun work and on-call is a big benefit - so I hope I get to keep doing it.
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42669681) with lots of comments. One great point I missed was that the Australian timezone difference means that Mondays match to American Sundays, so there's only really four days of solid overlap in the week.
+
 
 [^1]: This wasn't the initial plan, but an awkwardly-timed hiring freeze meant that I was the only one hired at the time.
 

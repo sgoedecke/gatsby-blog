@@ -55,6 +55,8 @@ This has a few benefits. First, it discourages predators who are looking for an 
 - Predators aren't in a position to reward you (i.e. they're not in your management chain)
 - Don't let your time be consumed asymmetrically
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42816103) with lots of comments.
+
 [^1]: Incidentally, this is a good heuristic for whether your company perceives you as a competent engineer. If you're constantly being asked to do random tasks, that's a good sign.
 
 [^2]: In my experience this is rare but not unheard-of. I've seen this happen once or twice in ten years.

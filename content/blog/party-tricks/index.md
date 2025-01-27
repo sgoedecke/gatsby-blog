@@ -64,5 +64,7 @@ Don't let me dissuade you from trying to sell the company on an idea. It's some 
 - Don't rely on your direct manager to tell you what's worth doing
 - Convincing your company that a task is important can work, but it's risky
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42818169) with lots of comments. Many commenters seemed to think I was saying that crushing tickets is never worthwhile, which isn't true. Crushing tickets is useful for the reasons I laid out in my second paragraph. But you should move past your ticket-crushing stage at some point.
+
  
 [^1]: If your company is developer-facing or if you've got good product instincts, you might be in a position to shape company strategy. This, too, is part of your job. But even then you're probably going to be tweaking an existing general strategy instead of striking out on your own in a bold new direction.
