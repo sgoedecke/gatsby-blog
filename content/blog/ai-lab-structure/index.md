@@ -1,11 +1,11 @@
 ---
-title: Why do AI labs offer so many different models?
+title: Why AI labs offer so many different models
 description: A taxonomy of base models, distilled models, and reasoning models
-order: 25
-date: '2025-01-24'
+order: 37
+date: '2025-01-28'
 ---
 
-Major AI labs these days (early 2025) offer a wide variety of models. Some are faster and cheaper, some are smarter, and now some are "reasoning" models. Why don't AI labs just offer the one "best" model? What's causing every AI lab to deliver the same rough categories of models?
+Major AI labs these days (i.e. early 2025) offer a wide variety of models. Some are faster and cheaper, some are smarter, and now some are "reasoning" models. Why don't AI labs just offer the one "best" model? What's causing every AI lab to deliver the same rough categories of models?
 
 Disclaimer: I build AI products at GitHub, but the emphasis there is on "products". I have no special insight or expertise into how AI labs work. This is just what I've learned from public sources while trying to stay up to date.
 
@@ -24,7 +24,14 @@ Since reasoning models are so new, there's less reliable information about how t
 
 When o1 was released, many people claimed that o1 was a LLM "plus logic" - for instance, that it was a normal model like 4o with a bunch of harness code that prompted it to think step-by-step in parallel, and then did some kind of clever search on the results to zero in on the "best" reasoning chain. Now this seems pretty conclusively false. For one, multiple OpenAI employees have come out and [said](https://x.com/__nmca__/status/1870170101091008860) that o1 is just a LLM. And as of a few days ago, we know that you can build a strong reasoning model without harness code, because DeepSeek-R1 did it and open-sourced the weights!
 
+Here's the structure overall:
+
+![models](ai-lab-models.png)
+
+When a lab releases a new base model, it typically releases a new version of these (for instance, it sounds like OpenAI's Orion is going to back a new "o3" reasoning model, and probably a new user-facing distil called GPT-5). Of course labs call models all kinds of things for marketing reasons. But part of the reason the names are so confusing is this structure of base models and various distillations and extra-training-layer versions, which itself is changing over time as the state of the art shifts.
+
 ## Summary
+
 
 - AI labs start by training a strong base model with lots of parameters that's too slow and expensive to release to the public
 - From that base model, they distill an array of smaller, faster, almost-as-smart models that can be served via chat or APIs (e.g. GPT-4o and 4o-mini)
