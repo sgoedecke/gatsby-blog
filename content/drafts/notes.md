@@ -15,13 +15,7 @@ I think maybe this is also summarized by what you said about how you should do g
 ---
 
 
-Getting things "done" in large tech companies
 
-- What does "done" mean? Nothing is ever "done" in the non-abstract world. Everything can be worked on indefinitely
-- That's a trap for competent but unagentic engineers, who pursue that queue of possible work forever
-- If you want to get things done you can't be a gardener. You have to aim for a bullet-point list of achievements
-- So what's "done" mean in that context? It means the company is happy with the state of it
-- Declare victory and walk away! Go do something else!
 
 https://benjamincongdon.me/blog/2025/01/25/AI-Slop-Suspicion-and-Writing-Back/
 slop
