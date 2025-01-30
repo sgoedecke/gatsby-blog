@@ -1,3 +1,20 @@
+P.S. In case you need another blog post idea. I was wondering if you have advice on how to handle situations where you can dig further at product requirements that aren't owned by your team in order to reduce the complexity of the requirements onto your team? I mean I think the short answer is some list like
+
+Pros
+
+If you succeed, you have less requirements / a simpler system to maintain.
+Even if you don't succeed, you will learn a bit about the system as a whole.
+
+Cons
+
+Even if you succeed, you might be in a position where people now think you own that product requirement when you don't.
+It takes time that you could be spending elsewhere and given how it isn't in your domain, you are probably not doing product digging that efficiently. That said you might have the most context as to what kind of questions are important to get answered.
+The real product owner might not be happy about you intruding into their domain.
+
+I think maybe this is also summarized by what you said about how you should do glue work tactically for the projects you lead.
+---
+
+
 Getting things "done" in large tech companies
 
 - What does "done" mean? Nothing is ever "done" in the non-abstract world. Everything can be worked on indefinitely
