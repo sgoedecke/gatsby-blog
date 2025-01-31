@@ -25,7 +25,7 @@ REDDIT.COM
 
 > Fireworks: Provides access to DeepSeek-V3 at $0.90 per million tokens.
 
-Do people just think it's cheaper because DeepSeek itself is offering it at ~60% of OpenAI prices?????
+Do people just think it's cheaper because DeepSeek itself is offering it at ~60% of OpenAI prices????? Do we even know what quantization/distillations are being hosted by the various providers?
 
 ## Was DeepSeek-V3 cheaper to train than other models?
 
