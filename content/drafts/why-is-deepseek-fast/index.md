@@ -7,6 +7,26 @@ date: '2025-01-04'
 
 DeepSeek's latest models have been widely celebrated as being able to be trained and run at a fraction of the cost of American AI labs' state of the art models. Is that even true? If so, why?
 
+https://arxiv.org/html/2412.19437v1 
+https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf
+
+Why do people think DeepSeek is cheaper?
+
+> For instance, DeepSeek's Reasoner model is priced at $0.55 per million input tokens, while OpenAI's o1 model charges $15 for the same number of tokens.
+
+> According to a report from Artificial Analysis, DeepSeek V3 is priced at $0.89 per million tokens, which is considered cheaper than the average pricing in the market. In comparison, OpenAI's GPT-4o model charges $1.25 per million input tokens and $10 per million output tokens
+
+> Third-Party Provider Pricing:
+
+> Third-party providers hosting DeepSeek-V3 may have different pricing models. For example:
+
+> Together AI: Offers DeepSeek-V3 at $1.25 per million tokens. 
+REDDIT.COM
+
+> Fireworks: Provides access to DeepSeek-V3 at $0.90 per million tokens.
+
+Do people just think it's cheaper because DeepSeek itself is offering it at ~60% of OpenAI prices?????
+
 ## Was DeepSeek-V3 cheaper to train than other models?
 
 - Dario's blog post - maybe? not that much?
