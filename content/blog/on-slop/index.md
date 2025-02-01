@@ -1,8 +1,8 @@
 ---
-title: Why some people hate AI slop and others don't mind it
-description: --
-order: 37
-date: '2025-01-28'
+title: Why does AI slop feel so bad to read?
+description: A general theory of human/human and human/LLM interaction
+order: 39
+date: '2025-02-01'
 ---
 
 I don't like reading obviously AI-generated content on Twitter. There's a derogatory term for it: AI "slop"[^1], which means something like "AI content presenting itself as human", or even just "unwanted AI content". But I have no problem reading AI-generated content when I talk to Copilot or ChatGPT. Why is that?
