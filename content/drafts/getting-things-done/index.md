@@ -5,6 +5,14 @@ order: 27
 date: '2025-01-10'
 ---
 
+What does it mean to get things done? In the abstract, you can complete a mathematical proof or a problem set. But the real world is much fuzzier. Suppose I build a shed in my backyard. Once the structure is up, is that done? Not really. There's always more work to do: clearing the ground around it, making sure it's painted and sealed, keeping the rust away, and so on. Programming is more like building a shed than completing a mathematical proof. Once you write a piece of code, you can keep working on it forever if you want to.
+
+In large tech companies, this is a trap for competent but unagentic engineers. They're capable of being useful, they see an infinite queue of work, and they jump in. They deliver a stream of marginal improvements to a particular subsystem[^1]. From their perspective, it feels like they're crushing it. But they're not doing their actual job, which is to deliver the most value they can to their company. From the perspective of their manager and skip-level, they're not getting anything done.
+
+What does it mean to get things done in large companies? In my experience, large tech companies think in terms of _projects_
+
+[^1]: In the ideal case, that is. In the non-ideal case, they make a series of changes that suit their personal taste but have no real customer impact.
+
 Getting things "done" in large tech companies
 
 - What does "done" mean? Nothing is ever "done" in the non-abstract world. Everything can be worked on indefinitely
