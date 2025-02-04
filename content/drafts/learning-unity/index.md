@@ -32,6 +32,7 @@ date: '2025-01-10'
   - In your scripts, you set `animator.speed` or `animator.isMoving`, which updates the variables in the animator
   - The animator then decides if/how to shift from the current active animation to any others (based on what transitions link the current animation to others, and what the relevant conditions are)
 
+- As a general point, Unity seems designed to expose a bunch of configuration variables on each component and make them tweakable while the game is running. No excuse for not spending time iterating to find the fun
 
 - Learning
   - Learning this with 4o is amazing. So easy to ask questions
