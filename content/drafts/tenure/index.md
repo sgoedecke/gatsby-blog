@@ -11,4 +11,8 @@ I can think of multiple cases where I thought a particular rewrite was a huge wi
 
 On the flip side, some changes that seem like mistakes at the time have good long-term outcomes. I'v
 
-Sometimes you don't really understand what happened with a particular interaction 
+Sometimes you don't really understand what happened with a particular interaction until years later. 
+
+I've worked on a team that got completely annihilated - politically speaking - after a particularly bad public incident. In hindsight, there were aspects of the way the team operated that contributed to that risk. For instance, we didn't have an established practice of asking who our highest profile customers were and how exactly they were using our service[^1]. Experiencing the consequences of that after years of things going smoothly really helped me internalize how hard tail risks are to anticipate.
+
+[^1]: There were other contributing factors, but it's hard to write about them without giving too many specifics (and I'm not certain anyway).
