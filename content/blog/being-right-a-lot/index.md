@@ -24,4 +24,6 @@ All of this isn't helpful advice for engineers who want to _become_ right (a lot
 1. Are you putting yourself forward and making technical statements (either in English or in code)?
 2. Are those statements right, a lot?
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42962363) with lots of comments.
+
 [^1]: My one-sentence advice here is to do a high volume of work in a single area for a long time, so you gain deep familiarity.

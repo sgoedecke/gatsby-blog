@@ -37,6 +37,8 @@ I think better models might avoid the first two problems. But I struggle to see 
 - I think that's because the shift from a human-human to human-machine interaction feels terrible in an uncanny-valley way
 - If you're building products where users will be reading AI responses, I recommend making it salient that they're talking to an AI (e.g. use robot avatars intstead of human avatars, etc)
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42909042) with lots of comments. 
+
 [^1]: Ben Congdon [attributes the popularity](https://benjamincongdon.me/blog/2025/01/25/AI-Slop-Suspicion-and-Writing-Back/) to Simon Willison, who [attributes](https://simonwillison.net/2024/May/8/slop/?utm_source=chatgpt.com) it to @deepfates and others on Twitter, but I think "slop" as a term for "low-quality gross-feeling content" actually originated outside of the AI sphere entirely. I first heard it used in the current sense a few years ago as a disparaging descriptor of later Marvel movies and TV shows.
 
 [^2]: This isn't to say I don't have any ethical concerns about AI art, just that it doesn't bother me on a visceral level.

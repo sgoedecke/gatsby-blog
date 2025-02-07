@@ -64,5 +64,6 @@ I don't use LLMs for these tasks (yet):
 * Writing ADRs or other technical communications
 * Research in large codebases and finding out how things are done
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42938409) with lots of comments.
 
 [^1]: Disclaimer: I work for GitHub, and for a year I worked directly on Copilot. Now I work on [GitHub Models](https://github.com/marketplace/models).
