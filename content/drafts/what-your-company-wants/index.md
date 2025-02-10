@@ -1,11 +1,11 @@
 ---
-title: Consider acting in your company's best interests
+title: Working with your eyes open
 description: You don't have to do it but you need to know what it is
 order: 25
 date: '2025-01-04'
 ---
 
-When I write about how to act in the company's best interests - about [shipping](/how-to-ship) or [glue work](/glue-work-considered-harmful) - lots of people call me a sociopath or a parasite. I think that's because they confuse me writing about the goals of a tech company with my personal goals as a software engineer.
+When I write about how to act in the company's best interests - about [shipping](/how-to-ship) or [glue work](/glue-work-considered-harmful) - some people call me a sociopath or a parasite. I think that's because they confuse me writing about the goals of a tech company with my personal goals as a software engineer.
 
 **You don't always have to act in the company's best interests**. Everyone except the most dedicated [grifters](/programmer-archetypes) has their own goals that they pursue even when they conflict with the company's. For instance, I try to protect more junior people on my teams from high churn, even when the company would prefer to load them up and burn them out. For lots of people, maintaining a code quality higher than the company's (usually low) bar is in this category, or keeping the UI accessible. All of this is fine! It is completely normal to trade off the company's interests against your own.
 
