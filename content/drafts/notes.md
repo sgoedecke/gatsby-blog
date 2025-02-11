@@ -1,3 +1,9 @@
+System design tips
+
+To avoid being replaced by AI, embrace legacy code
+
+Staying in the code. Close to the metal. What happens when you drift away
+
 P.S. In case you need another blog post idea. I was wondering if you have advice on how to handle situations where you can dig further at product requirements that aren't owned by your team in order to reduce the complexity of the requirements onto your team? I mean I think the short answer is some list like
 
 Pros
