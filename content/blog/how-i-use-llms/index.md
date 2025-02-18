@@ -66,4 +66,6 @@ I don't use LLMs for these tasks (yet):
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42938409) with lots of comments.
 
+I also discussed it on the Humans of Reliability podcast, which you can watch [here](https://youtu.be/aJl7YFSXES0?si=PyVM26Ej4vJzdQae).
+
 [^1]: Disclaimer: I work for GitHub, and for a year I worked directly on Copilot. Now I work on [GitHub Models](https://github.com/marketplace/models).
