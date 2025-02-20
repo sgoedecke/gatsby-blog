@@ -1,10 +1,10 @@
+how I assess engineers - man, that's a great point I didn't think of
+---
 In it, you make a point that having a weak manager without political clout is bad news. 
 
 While I think it's obvious for some, I'd love for that full, follow up post on how to navigate having a weak manager with a reputation while being a strong engineer.
 
 System design tips
-
-To avoid being replaced by AI, embrace legacy code
 
 Staying in the code. Close to the metal. What happens when you drift away
 
