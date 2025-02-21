@@ -6,18 +6,34 @@ h2 {
   margin-top: 1.5rem;
 }
 
-a {
-  color: lightblue;
-  /* text-transform: lowercase; */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: lightblue;
+  }
+  
+  body {
+    background-color: #222222;
+    color: white
+  }
+  
+  blockquote {
+    color: beige;
+  }
 }
 
-body {
-  background-color: #222222;
-  color: white
-}
-
-blockquote {
-  color: beige;
+@media (prefers-color-scheme: light) {
+  a {
+    color: blue;
+  }
+  
+  body {
+    background-color: white;
+    color: black
+  }
+  
+  blockquote {
+    color: darkslategrey;
+  }
 }
 
 p {
@@ -27,10 +43,6 @@ p {
 
 li {
   font-family: sans-serif;
-}
-
-section p {
-  /* text-transform: lowercase; */
 }
 
 details {
