@@ -1,5 +1,5 @@
 ---
-title: Lessons on thinking from large language models
+title: Learning how to think better from LLMs
 description: How LLMs approach problems, and what we can learn from it
 order: 43
 date: '2025-02-15'
