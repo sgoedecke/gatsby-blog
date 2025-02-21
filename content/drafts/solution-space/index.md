@@ -15,7 +15,7 @@ This is one reason why engineers get more effective the longer they spend at a c
 
 Sometimes engineers are too aware of these constraints. This is what happens when an obvious problem goes unsolved for years, with each engineer who discovers it dismissing the obvious solution as "would be nice, but it can't happen here". In cases like these, you need someone (usually a new hire) to run head-on into the constraint to test its strength. It's possible that it no longer applies. Constraints fade over time as the situation changes. The most obvious way is when a particular tech lead or influential engineer leaves the company - their particular tastes and bugbears rapidly fade away, making change possible.
 
-Sometimes engineers aren't aware enough of these constraints. Usually those engineers don't ship very often, so they don't have enough contact with the practical reality of getting code into users' hands to know what is and isn't possible.
+Sometimes engineers aren't aware enough of these constraints. This happens when engineers don't ship very often, so they don't have enough contact with the practical reality of getting features into users' hands.
 
 
 [^1]: This is trivially true: you can't ship an impossible system, so you can't ship a prototype or internal-only version or scaffolding for an impossible design.
