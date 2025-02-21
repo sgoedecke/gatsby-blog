@@ -47,6 +47,6 @@ Lean into the fact that **one-off code is effectively free to generate**. If you
 
 Is prompting not worth paying attention to? That's overstating it. It's still worth thinking carefully about how talk to the models. Reasoning models in particular reward careful prompting. And if you're writing code that uses LLMs (instead of just talking to them via chat), you should spend a lot of effort making a good prompt. But if you're using LLMs to answer questions, or to learn topics, or for any other personal reason, you should focus more on learning what LLMs can and can't do well.
 
-[^1] This is especially true for reasoning models, which sometimes spend minutes spinning away at your prompt (so it better be good). If you want me to write more about that, email me.
+[^1]: This is especially true for reasoning models, which sometimes spend minutes spinning away at your prompt (so it better be good). If you want me to write more about that, email me.
 
 [^2]: Disclaimer - I work on the [GitHub one](https://github.com/marketplace/models). I listed it after Google out of some sense of not wanting to shill, I guess.
