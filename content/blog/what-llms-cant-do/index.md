@@ -1,6 +1,6 @@
 ---
 title: To avoid being replaced by LLMs, do what they can't
-description: What LLM's can't do yet
+description: What LLMs can't do yet
 order: 44
 date: '2025-02-15'
 ---

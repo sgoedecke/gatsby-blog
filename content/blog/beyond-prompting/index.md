@@ -1,15 +1,15 @@
 ---
 title: Using LLMs effectively isn't about prompting
-description: Tenure vs broad experience
-order: 27
-date: '2025-01-10'
+description: It's about building a sense of what LLMs do well
+order: 45
+date: '2025-02-21'
 ---
 
 When people talk about using language models effectively they mainly talk about prompting: sharing great prompts, or lists of tips for prompting, or courses on becoming a "prompt engineer". It's true that prompting is a surprisingly effective way to get more out of LLMs. Small variations in prompts can make a big difference in the LLM output. There really are general rules (put your question first and your context last, for instance)[^1]. However, when I use LLMs, I rarely think about prompting.
 
-**Acquiring skill with LLMs is mostly around extracting value from what they're good at and avoiding wasting time at what they're bad at.**
+**Using LLMs well involves extracting value from what they're good at and avoiding wasting time at what they're bad at.**
 
-The most important thing is to have a good sense of the strengths and weaknesses of strong LLMs. It's harder than it sounds for a few reasons:
+The most important thing is to have a good sense of the strengths and weaknesses of strong LLMs. This is harder than it sounds for a few reasons:
 
 1. Unlike most tools, LLMs will actively try and deceive you about their capabilities
 2. LLMs are very good at some tasks that are hard for humans (e.g. wide recall) and very bad at some tasks that are easy for humans (e.g. spelling)
@@ -33,9 +33,7 @@ Lean into the fact that one-off code is effectively free to generate. If you're 
 
 Related to that, don't be afraid of writing scripts that use LLM APIs. You might be able to write your own code to figure out the above git question, but it's much harder to write code to answer "how many commits use correct punctuation". With LLMs, you can easily write a script to answer that (or any other tough question). There are tons of cheap or free LLM API options out there: Google and GitHub both have generous free tiers, for instance[^2].
 
-Is prompting not worth paying attention to?
-
-
+Is prompting not worth paying attention to? That's overstating it. It's still worth thinking carefully about how talk to the models. Reasoning models in particular reward careful prompting. And if you're writing code that uses LLMs (instead of just talking to them via chat), you should spend a lot of effort making a good prompt. But if you're using LLMs to answer questions, or to learn topics, or for any other personal reason, you should focus more on learning what LLMs can and can't do well.
 
 [^1] This is especially true for reasoning models, which sometimes spend minutes spinning away at your prompt (so it better be good). If you want me to write more about that, email me.
 
