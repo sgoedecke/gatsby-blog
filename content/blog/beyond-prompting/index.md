@@ -21,19 +21,19 @@ There are two ways to get a good sense of the strengths and weaknesses of LLMs. 
 
 OK, here's some concrete advice (that has nothing to do with prompting):
 
-Lean into the chat aspect when you're learning a new topic. If you use LLMs like a better Google search, you're only capturing a fraction of their value. My best experiences have come when asking followup questions - just straightforward, down-the-line, naive questions, such as "so you're saying that X is true" or "does this have consequence Y"?
+**Lean into the chat aspect** when you're learning a new topic. If you use LLMs like a better Google search, you're only capturing a fraction of their value. My best experiences have come when asking followup questions - just straightforward, down-the-line, naive questions, such as "so you're saying that X is true" or "does this have consequence Y"?
 
-Trust broad theoretical claims but be suspicious of incidental detail. In my experience, LLMs are excellent at explaining questions like "why is the sky blue" or "how does OAuth work". But they occasionally flub specifics (e.g. dates, names, referenced papers). If you have a task that is detail-heavy, LLMs might not be the right choice.
+**Trust broad theoretical claims but be suspicious of incidental detail.** In my experience, LLMs are excellent at explaining questions like "why is the sky blue" or "how does OAuth work". But they occasionally flub specifics (e.g. dates, names, referenced papers). If you have a task that is detail-heavy, LLMs might not be the right choice.
 
-If the LLM is going in circles or seems confused, back out. You can't rescue it - at least not without understanding the problem yourself well enough to spoonfeed the answer, at which point you may as well not use LLMs at all.
+**If the LLM is going in circles or seems confused, back out.** You can't rescue it - at least not without understanding the problem yourself well enough to spoonfeed the answer, at which point you may as well not use LLMs at all.
 
-Related to that, ask hard questions across multiple LLMs. Instead of spending fifteen minutes iterating in a single chat, ask the initial question to four or five SOTA models. Sometimes one of them will land on a good answer immediately.
+Related to that, **ask hard questions across multiple LLMs**. Instead of spending fifteen minutes iterating in a single chat, ask the initial question to four or five SOTA models. Sometimes one of them will land on a good answer immediately.
 
-If you're asking a question (and not trying to learn a new topic) and the LLM gives a long answer with lots of preamble, skim through the preamble very quickly. It's more for the LLM than it is for you - you can jump to the end and see what the answer is, and then read back if you need to.
+If you're asking a question (and not trying to learn a new topic) and the LLM gives a long answer with lots of preamble, **skim through the preamble** quickly. It's more for the LLM than it is for you - you can jump to the end and see what the answer is, and then read back if you need to.
 
-Lean into the fact that one-off code is effectively free to generate. If you're interested in a topic (e.g. how many commits in a GitHub repo touch multiple files), you can generate a quick script to answer that question immediately. It turns ten-minute questions into one-minute questions, letting you ask ten times as many questions.
+Lean into the fact that **one-off code is effectively free to generate**. If you're interested in a topic (e.g. how many commits in a GitHub repo touch multiple files), you can generate a quick script to answer that question immediately. It turns ten-minute questions into one-minute questions, letting you ask ten times as many questions.
 
-Don't be afraid of writing scripts that themselves use LLM APIs. You might be able to write your own code to figure out the above git question, but it's much harder to write code to answer "how many commits use correct punctuation". With LLMs, you can easily write a script to answer that (or any other tough question). There are tons of cheap or free LLM API options out there: Google and GitHub both have generous free tiers, for instance[^2].
+**Don't be afraid of writing scripts that themselves use LLM APIs**. You might be able to write your own code to figure out the above git question, but it's much harder to write code to answer "how many commits use correct punctuation". With LLMs, you can easily write a script to answer that (or any other tough question). There are tons of cheap or free LLM API options out there: Google and GitHub both have generous free tiers, for instance[^2].
 
 ### Summary
 
