@@ -22,10 +22,7 @@ h2 {
 }
 
 @media (prefers-color-scheme: light) {
-  a {
-    color: blue;
-  }
-  
+
   body {
     background-color: white;
     color: black
