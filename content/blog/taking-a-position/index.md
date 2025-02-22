@@ -1,5 +1,5 @@
 ---
-title: Engineers who won’t commit force bad decisions
+title: Engineers who won’t commit
 description: Why remaining non-commital is cowardly
 order: 42
 date: '2025-02-10'

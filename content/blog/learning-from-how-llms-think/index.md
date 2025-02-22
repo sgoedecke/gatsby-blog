@@ -1,5 +1,5 @@
 ---
-title: Learning how to think better from LLMs
+title: Thinking like a LLM
 description: How LLMs approach problems, and what we can learn from it
 order: 43
 date: '2025-02-15'
