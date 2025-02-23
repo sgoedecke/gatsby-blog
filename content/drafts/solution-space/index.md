@@ -9,7 +9,7 @@ Some things you can't do because they're impossible. For instance, if you're des
 
 All these restrictions constrain the space of possible solutions. Awareness of these restrictions is a huge part of becoming a more effective engineer. I've seen many technically strong engineers who were unable to get things done because they weren't aware of these constraints, and so spent weeks or months prototyping solutions that were doomed from the beginning.
 
-Implementing a feature means **tracing a path through the space of all possible solutions**. The key point here is that you must remain inside that space at all times. It's often said that complex systems which work always evolve from a simple system which works. In the same way, a possible system that fits all the requirements always evolves from a possible system that fits some of the requirements[^1]. That's why it's so important to be aware of your company's constraints: you can't iterate your way inside them, you have to start there.
+Implementing a feature means **tracing a path through the space of all possible solutions**. The key point here is that you must remain inside that space at all times. It's often said that complex systems which work always evolve from a simple system which works. In the same way, a possible system that fits all the requirements always evolves from a possible system that fits all of the requirements[^1]. That's why it's so important to be aware of your company's constraints: you can't iterate your way inside them, you have to start there.
 
 This is one reason why engineers get more effective the longer they spend at a company: they get a better sense of which constraints apply and which don't, which translates directly to the ability to ship.
 
