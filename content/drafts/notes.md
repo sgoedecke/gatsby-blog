@@ -1,4 +1,8 @@
+legibility vs depth. in war rooms, need high legibility. investigations need depth but are opaque. I investigated m1
+
 how I assess engineers - man, that's a great point I didn't think of
+
+
 ---
 In it, you make a point that having a weak manager without political clout is bad news. 
 
