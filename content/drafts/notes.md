@@ -1,5 +1,7 @@
 legibility vs depth. in war rooms, need high legibility. investigations need depth but are opaque. I investigated m1
 
+you had better be happy with the vision of large companies delivering marginal improvements, because that's the only time a high-quality software world for webdev can be sustainable. otherwise it's inefficient, which means eventually it will stop
+
 how I assess engineers - man, that's a great point I didn't think of
 
 
