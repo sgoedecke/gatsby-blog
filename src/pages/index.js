@@ -25,7 +25,7 @@ const BlogIndex = ({ data, location }) => {
         }}
       />
     <section>
-        <h2>Popular Posts</h2>
+        <h2>popular</h2>
         {popularPosts.map(({ node }) => (
           <article key={node.fields.slug}>
             <h3>
@@ -36,9 +36,13 @@ const BlogIndex = ({ data, location }) => {
           </article>
         ))}
       </section>
-
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
       <section>
-        <h2>Recent Posts</h2>
+        <h2>recent</h2>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

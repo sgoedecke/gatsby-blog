@@ -2,6 +2,7 @@
 title: How I use LLMs as a staff engineer
 description: What I use them for and what I don't
 order: 40
+popular: true
 date: '2025-02-04'
 ---
 

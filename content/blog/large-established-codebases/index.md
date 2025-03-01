@@ -2,6 +2,7 @@
 title: Mistakes engineers make in large established codebases
 description: What I've learned from ten years working on projects like this
 order: 23
+popular: true
 date: '2025-01-02'
 ---
 
