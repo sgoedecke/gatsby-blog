@@ -10,6 +10,8 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
+  const popularPosts = posts.filter(({ node }) => node.frontmatter.popular)
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
@@ -22,28 +24,37 @@ const BlogIndex = ({ data, location }) => {
           marginBottom: rhythm(1),
         }}
       />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
+    <section>
+        <h2>Popular Posts</h2>
+        {popularPosts.map(({ node }) => (
           <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-            </header>
-            <section>
-              <p> {node.frontmatter.date} │ {node.frontmatter.description} </p>
-            </section>
+            <h3>
+              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                {node.frontmatter.title}
+              </Link>
+            </h3>
           </article>
-        )
-      })}
+        ))}
+      </section>
 
+      <section>
+        <h2>Recent Posts</h2>
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <article key={node.fields.slug}>
+              <header>
+                <h3 style={{ marginBottom: rhythm(1 / 4) }}>
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+              </header>
+              <p> {node.frontmatter.date} </p>
+            </article>
+          )
+        })}
+      </section>
     </Layout>
   )
 }
@@ -71,6 +82,7 @@ export const pageQuery = graphql`
             title
             description
             order
+            popular
             date(formatString: "MMMM D, YYYY")
           }
         }

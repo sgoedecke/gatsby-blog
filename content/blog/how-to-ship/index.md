@@ -2,6 +2,7 @@
 title: How I ship projects at big tech companies
 description: What I think about when I'm lead engineer on a project
 order: 16
+popular: true
 date: '2024-11-09'
 ---
 
