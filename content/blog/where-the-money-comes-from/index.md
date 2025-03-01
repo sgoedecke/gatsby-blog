@@ -1,5 +1,5 @@
 ---
-title: Knowing where your salary comes from
+title: Knowing where your engineer salary comes from
 description: How tech companies make money and why it's important
 order: 50
 date: '2025-03-01'
