@@ -1,5 +1,5 @@
 ---
-title: Weak managers
+title: Weak engineering managers
 description: What to do when you report to a manager with no clout
 order: 46
 date: '2025-02-22'
