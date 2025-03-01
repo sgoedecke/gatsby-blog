@@ -1,5 +1,5 @@
 ---
-title: Refactoring won't save you from a layoff
+title: Knowing where your salary comes from
 description: How tech companies make money and why it's important
 order: 50
 date: '2025-03-01'
