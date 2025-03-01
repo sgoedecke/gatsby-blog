@@ -1,5 +1,5 @@
 ---
-title: Working with your eyes open
+title: What to do when your interests differ from your engineering manager's
 description: You don't have to do it but you need to know what it is
 order: 25
 date: '2025-01-04'
