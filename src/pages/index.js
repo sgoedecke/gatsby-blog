@@ -10,7 +10,7 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
-  const popularPosts = posts.filter(({ node }) => node.frontmatter.popular)
+  const popularPosts = posts.filter(({ node }) => node.frontmatter.popular).reverse()
 
   return (
     <Layout location={location} title={siteTitle}>
