@@ -1,11 +1,18 @@
 ---
 title: Getting things "done" in large tech companies
-description: What it means to finish something
+description: --
 order: 27
 date: '2025-01-10'
 ---
 
-What does it mean to get things done? In the abstract, you can complete a mathematical proof or a problem set, but the real world is much fuzzier. Suppose I plant a tree in my backyard. Once the sapling is in the ground, is that done? Not really. There's always more work to do: clearing the ground around it, watering, keeping pests away, pruning, and so on. Programming large web applications is more like planting a tree than completing a mathematical proof. Once you write a service, you can keep working on it forever if you want to.
+### Caring a lot
+
+In general
+
+
+### Making your work legible
+
+What does it _mean_ to get things done? In the abstract, you can complete a mathematical proof or a problem set, but the real world is much fuzzier. Suppose I plant a tree in my backyard. Once the sapling is in the ground, is that done? Not really. There's always more work to do: clearing the ground around it, watering, keeping pests away, pruning, and so on. Programming large web applications is more like planting a tree than completing a mathematical proof. Once you write a service, you can keep working on it forever if you want to.
 
 In large tech companies, this fact is a trap for competent but unagentic engineers. They see an infinite queue of tasks that they're capable of doing, and they start delivering a stream of marginal improvements to a particular subsystem[^1]. From their perspective, it feels like they're crushing it. After all, they're putting out work at their top speed: no downtime, no waiting on other teams. But they're not doing their actual job, which is to deliver the most value they can to their company. From the perspective of their manager and skip-level, they're not getting anything done.
 
