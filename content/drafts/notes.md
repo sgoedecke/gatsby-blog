@@ -33,3 +33,13 @@ I think maybe this is also summarized by what you said about how you should do g
 
 working with... series
 strong engineers, weak engineers, managers, PMs, executives, interns
+
+
+--
+
+
+The Gods of the Google Doc Headings
+
+--
+
+The fall of 

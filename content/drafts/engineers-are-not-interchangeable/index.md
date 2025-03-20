@@ -1,10 +1,17 @@
 ---
-title: Software engineers are not interchangeable
+title: Software engineers are still not interchangeable
 description: --
 order: 27
 date: '2025-01-10'
 ---
 
+Software engineers are not interchangeable. In the 2010s, when times were still good, this was well-known because software engineers insisted on it. Now [times are bad](/good-times-are-over), and managers don't listen to software engineers like they used to. But software engineers are still not interchangeable.
+
+What does that mean? It means there's no such thing as a "two-engineer project". It means you can't put five more engineers on a five-engineer team and expect it to be more productive. It means you can't take an engineer who's performing well in one context and get the same performance in a totally different context. Here are a few reasons why.
+
+### Software engineering is like lockpicking, not ditch-digging
+
+Suppose you need a mile-long ditch. If it takes one person a week to dig that, seven people might be able to do it in a day. Even if there's a wide variety in talent, you can give someone a shovel and they'll move some amount of dirt.
 
 ### Is there no such thing as strong engineers, just strong teams?
 
