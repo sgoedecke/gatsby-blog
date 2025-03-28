@@ -2,6 +2,7 @@
 title: The good times in tech are over
 description: 
 order: 56
+popular: true
 date: '2025-03-16'
 ---
 
