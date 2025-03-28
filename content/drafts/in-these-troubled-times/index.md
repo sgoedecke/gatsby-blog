@@ -1,15 +1,15 @@
 ---
-title: Adjusting to the new tech vibes
+title: Working in tech after the vibe shift
 description: 
 order: 56
 date: '2025-03-16'
 ---
 
-Since 2023, the rise of interest rates has caused a sea change in how software companies relate to their engineers. It's harder to be a software engineer now than at any time in the last decade. [The good times in tech are over](/good-times-are-over), at least for now. What does that mean for us?
+Since 2023, the rise of interest rates has caused a sea change in how software companies relate to their engineers. It's harder to be a software engineer now than at any time in the last decade. [The good times in tech are over](/good-times-are-over), at least for now. What does that mean for engineers like me, who joined the industry in the 2010s?
 
 ### It's time to reevaluate the way you work
 
-The most important thing is that **the nature of the job has changed**. If you still have a job, you probably shouldn't approach your work in the same way as you did in the last ten years[^1]. This is particularly true if you felt comfortable during the 2010s. Habits that got you rewarded during that period may be actively harmful now.
+The most important thing is that **the nature of the job has changed**. If you still have a job, you probably shouldn't approach your work in the same way as you did in the last ten years[^1]. This is particularly true if you felt comfortable during the 2010s. Habits that got you rewarded during that period may be actively harmful now. You may have to adapt to some incentives that you don't like.
 
 For instance, it was a good strategy during the 2010s to lean into widely-visible corporate activities (e.g. organizing talks or internal groups) at the expense of your regular work, because it didn't really matter how much regular work you did and companies cared a lot about their internal culture. A lot of people who did this strategy have now been laid off.
 
@@ -29,15 +29,22 @@ What features make your company money, or are expected to make your company mone
 
 ### Aim to become more employable
 
-Lots of people have written a lot about how to become more hireable in the current market. I think it's very hard to say right now what that'll look like. Companies could end up abandoning LeetCode interviews in favour of actual projects, now that they need engineers who can get things done instead of just signal how smart they are. Or they could end up doubling-down on LeetCode, because there are now many more applicants for each job that need to be filtered somehow. Likewise, it could be better to gain tenure at a company now (as Gergely Orosz [predicts](https://bsky.app/profile/gergely.pragmaticengineer.com/post/3ll55pjm7tc2l)) instead of job-hopping - or not, if it turns out to be even more crucial to stay at one of the small number of successful tech companies.
+Lots of people have written a lot about how to become more hireable in the current market. However, I think it's very hard to say right now what that'll look like. Companies could end up abandoning LeetCode interviews in favour of actual projects, now that they need engineers who can get things done instead of just signal how smart they are. Or they could end up doubling-down on LeetCode, because there are now many more applicants for each job that need to be filtered somehow. Likewise, it could be better to gain tenure at a company now (as Gergely Orosz [predicts](https://bsky.app/profile/gergely.pragmaticengineer.com/post/3ll55pjm7tc2l)) instead of job-hopping - or not, if it turns out to be even more crucial to stay at one of the small number of successful tech companies.
 
-One thing that will definitely help is getting better at [shipping](/how-to-ship). Delivering projects makes you more secure at your current company and gives you nice bullet points for your resume at the same time.
+Given that, for now I would recommend focusing on the fundamentals: i.e. becoming the kind of engineer companies want to bring in and retain. Get really good at [shipping](/how-to-ship). Delivering projects makes you more secure at your current company and gives you nice bullet points for your resume at the same time. Try to make sure you remain technically strong, particularly in growing areas. Make an effort to understand the principles of [how AI works](/how-llms-work), for instance.
 
 ### Spend your time wisely
 
-It's also really, really important now to spend your working time doing things that are valuable to the company and your career. Tech companies are less interested in work-life balance and more interested in shipping as much as possible as fast as possible. The naive way that some engineers approach this is to simply work more hours. That will get more things done, but it's unpleasant for a lot of reasons.
+It's also really, really important now to spend your working time doing things that are valuable to the company and your career. Tech companies are less interested in work-life balance and more interested in shipping as much as possible as fast as possible. You shouldn't react to this by just working the same way for more hours - you should start working more tactically.
 
+I wrote a [whole post](/tactical-work-in-the-age-of-layoffs) about this which I won't repeat here, but the idea is to prioritize visible project work over invisible cleanup and refactoring work. If your employer is pushing you hard to perform, they are explicitly not paying you to do the kind of long-term maintenance that you'd do if you had plenty of slack. You shouldn't volunteer to do that work after hours. Nobody wants that: your employer wants you to spend your time on the stuff they care about, and you don't want to work for free (I assume). See the linked post for a bunch more caveats.
 
+### Summary
+
+- The tech job market has shifted dramatically since 2023. Old habits may now hurt you
+- Layoffs and PIPs are now common. You will be expected to do your emotional processing off the clock
+- Your best layoff protection is to be competent and work on projects tied to profit
+- Don’t spend unpaid, extra-hours time on invisible work
 
 
 
