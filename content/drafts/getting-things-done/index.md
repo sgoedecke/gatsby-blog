@@ -1,5 +1,5 @@
 ---
-title: Getting things "done" in large tech companies
+title: Getting things "done" in large tech companies means finishing
 description: --
 order: 27
 date: '2025-01-10'
