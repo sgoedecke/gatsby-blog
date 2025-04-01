@@ -1,5 +1,5 @@
 ---
-title: Tactical work in the age of layoffs
+title: How to work in tech when your job isn't safe
 description: --
 order: 59
 date: '2025-03-28'
