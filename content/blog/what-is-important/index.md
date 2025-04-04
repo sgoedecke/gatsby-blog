@@ -1,5 +1,5 @@
 ---
-title: Building your sense of what's important at a tech company
+title: How I decide what to work on at large tech companies
 description: --
 order: 51
 date: '2025-03-01'
