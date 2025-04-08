@@ -73,4 +73,6 @@ I don't think that a smart engineer who thinks about this problem will come away
 - All kinds of seemingly-unprofitable work makes money, particularly at large companies where small percentages are a lot
 - If you want to work on seemingly-unprofitable work, you're probably better off working for large successful tech companies
 
+**Update:** This post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43603646) with many comments. Some experienced engineers in the comments [claim](https://news.ycombinator.com/item?id=43611609) that companies set their values in more mysterious ways than "what makes us money". I'm sure this is true, but in my own experience it's less true now than at any time during the 2010s.
+
 [^1]: Often there are other goals involved, such as amassing political power or changing the world in some way that's personally satisfying to the founder, but money is the only goal shared by everyone involved.
