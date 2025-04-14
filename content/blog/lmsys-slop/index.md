@@ -35,7 +35,9 @@ There are a [few](https://arxiv.org/html/2407.10887v1) [papers](https://arxiv.or
 
 The trick is that **LMSYS does not host the models itself**. Instead, it relies on APIs provided by AI labs. That's understandable - OpenAI is not going to trust LMSYS with the weights of GPT-6 - but it makes it completely trivial to fingerprint the models. Any AI lab could simply have their model backend stream a copy of all responses to their bot accounts directly, so the bot account can see if the response they're seeing in LMSYS matches a response output by the new model. This would be impossible to detect on the LMSYS side.
 
-I don't see a lot of people talking about this. The only thing I could find was a zero-upvotes [Reddit post](https://www.reddit.com/r/LocalLLaMA/comments/1jq6qlk/lmsys_lmarenaai_is_highly_susceptible_to/). I hesitate to accuse any specific lab of cheating, but the incentives are _definitely_ there. I'd be surprised if nobody was doing this. (That said, the fact that Meta did their chat-optimized trick suggests that they're probably not doing this, so maybe I'm wrong.)
+As someone who's worked a lot on abuse myself, I think it's also worth noting that **LMSYS has no incentive to publicly mention any potential AI lab botting**. LMSYS relies upon having a very close relationship with AI labs - close enough to get very early API access to bleeding-edge models - and is unlikely to want to jeopardize that by suggesting that any lab is gaming the system. 
+
+I don't see a lot of people talking about this. The only thing I could find was a zero-upvotes [Reddit post](https://www.reddit.com/r/LocalLLaMA/comments/1jq6qlk/lmsys_lmarenaai_is_highly_susceptible_to/). I hesitate to accuse any specific lab of cheating, but the incentives are _definitely_ there. I'd be surprised if none of them ahve thought about it. (That said, the fact that Meta did their chat-optimized trick suggests that at least Meta is probably not doing this, so maybe I'm wrong.)
 
 ### Summary
 
