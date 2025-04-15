@@ -41,7 +41,7 @@ I want to finish by repeating a caveat of my own. I'm saying you should force yo
 - I'm only talking about functional environments. If your manager will PIP you for a missed estimate, that sucks - I don't have any criticism for people who stay silent in that situation
 - It can be genuinely scary to make a claim that you're not sure about. But you should still do it
 
-edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43678914) with lots of comments.
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43678914) and [Reddit](https://www.reddit.com/r/programming/comments/1jyxu3p/engineers_who_wont_commit/) with lots of comments.
 
 [^1]: This is a bit ironic, given that I've written [before](/confidence) about not taking firm stances on big-picture questions. The difference is whether you're doing it in the workplace or not. Outside of the workplace, I don't really know whether typed languages are better than untyped ones. In the workplace, I'll advocate for Typescript, because I'm ~60% sure it's net-positive.
 
