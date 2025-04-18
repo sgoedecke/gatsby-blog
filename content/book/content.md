@@ -1,4 +1,10 @@
-# Dangerous advice for software engineers
+---
+title: |
+  Dangerous Advice for Software Engineers
+
+author: Sean Goedecke
+date: April 2025
+---
 
 # Preface
 
@@ -231,9 +237,9 @@ The core problem is that you're deciding for yourself what the company needs ins
 
 Should you never do glue work? No, you should do glue work _tactically_. That is, you should do this kind of extra work for the projects you lead - the projects whose success you're accountable for - in order to make sure they succeed. You won't be rewarded for the glue work specifically, but you will be rewarded for the success of the project. For other projects, you should just do your regular job.
 
-Is this a deeply cynical take about how to succeed in office politics? I don't actually think so. Large tech companies operate at something like 20-60% efficiency at any given time (as they get larger, they get less efficient)[^1]. Even knowing that, growing is a deliberate choice: companies grow in order to capture more surface area, since even at a lower efficiency that's a way to [produce much more value](https://danluu.com/sounds-easy/). If individual employees are willing to lift their local team to 80% or 90% efficiency by burning their time on glue work, companies will take that free value, but they don't have any real interest in locking that in for the long term (since it depends on exceptional people volunteering their time in hard-to-rewrad ways and thus isn't sustainable).
+Is this a deeply cynical take about how to succeed in office politics? I don't actually think so. Large tech companies operate at something like 20-60% efficiency at any given time (as they get larger, they get less efficient). Even knowing that, growing is a deliberate choice: companies grow in order to capture more surface area, since even at a lower efficiency that's a way to [produce much more value](https://danluu.com/sounds-easy/). If individual employees are willing to lift their local team to 80% or 90% efficiency by burning their time on glue work, companies will take that free value, but they don't have any real interest in locking that in for the long term (since it depends on exceptional people volunteering their time in hard-to-rewrad ways and thus isn't sustainable).
 
-If you're one of those exceptional people, congratulations! You can use that power tactically to be a more effective engineer. But you shouldn't do it all the time[^2]. 
+If you're one of those exceptional people, congratulations! You can use that power tactically to be a more effective engineer. But you shouldn't do it all the time. 
 
 # Engineering mindset
 
@@ -269,7 +275,7 @@ I have very little to say about this group, except to warn against confusing it 
 
 ### Weak engineers
 
-The other category is truly weak engineers. These people have little to no capabilities at all. In other worse, the baseline difficulty of a normal-to-easy software task is above what they're comfortable with. I suppose a few of these people are overemployed or fraudulent in some similar way, but I think mostly it's a lack of ability. I want to be clear that I'm not exaggerating here: weak engineers _cannot complete almost any engineering task_. I've worked on teams without any, but if you're in the industry long enough you'll encounter them[^2].
+The other category is truly weak engineers. These people have little to no capabilities at all. In other worse, the baseline difficulty of a normal-to-easy software task is above what they're comfortable with. I suppose a few of these people are overemployed or fraudulent in some similar way, but I think mostly it's a lack of ability. I want to be clear that I'm not exaggerating here: weak engineers _cannot complete almost any engineering task_. I've worked on teams without any, but if you're in the industry long enough you'll encounter them.
 
 Ironically, while people like this exist at almost all seniority levels, you're more likely to encounter weak engineers in senior roles. I think this is probably for two reasons. First, the bar to hire juniors is explicitly capability-based, so it's harder to slip past it. In interviews, seniors can talk about work they were tangentially involved with, which is hard to distinguish from work they _did_. Second, a weak junior is often given more opportunity to learn, because it's socially acceptable for them to not know things. A weak senior has to conceal their lack of knowledge and learn in secret, which is much harder.
 
@@ -303,7 +309,7 @@ As I said above, what defines a strong engineer is the ability to do tasks that 
 
 Strong engineers believe they can succeed, even on hard or unfamiliar problems. Many technically capable people are weak engineers purely because they lack confidence. Why? Because **software problems are all unfamiliar problems**. Software engineers work in the dark. For almost every piece of real work, it's impossible to say how tricky it'll be to do until it's completed. That's why estimation in tech companies is famously hard: you just don't know ahead of time what issues are going to come up.
 
-There are many smart people who just can't work in this environment. It violates their core engineering sense-of-self to talk about projects when they're not sure of the technical details, or to start work on a project where so much is still unknown. To be a strong engineer, you need the raw confidence to believe that you will figure it out, whatever it is (or if it's genuinely too hard, then the problem must be so fiendish that there's no shame in failing to solve it)[^1].
+There are many smart people who just can't work in this environment. It violates their core engineering sense-of-self to talk about projects when they're not sure of the technical details, or to start work on a project where so much is still unknown. To be a strong engineer, you need the raw confidence to believe that you will figure it out, whatever it is (or if it's genuinely too hard, then the problem must be so fiendish that there's no shame in failing to solve it).
 
 This doesn't just affect what projects engineers work on, but the quality of the work itself. If you pick up a hard task, it makes a big difference whether you immediately tackle the hardest part head-on, or if you put it off and try to work around it. I've seen engineers spend weeks avoiding a difficult task that could have been accomplished in a serious day of effort.
 
@@ -372,7 +378,7 @@ One caveat: some engineers avoid being wrong by never making confident technical
 
 To continue that point, there's a difference between "right, a lot" and "always right", or even "often right". In domains that are technically very unclear (e.g. rotted legacy code, or frontier technical problems), being right even some of the time is extremely valuable. In my experience, being wrong is forgivable, particularly if you're the only one stepping forward to offer an answer or a plan.
 
-All of this isn't helpful advice for engineers who want to _become_ right (a lot). That's a much more complicated topic[^1]. But it's a good metric for gauging your own performance:
+All of this isn't helpful advice for engineers who want to _become_ right (a lot). That's a much more complicated topic. But it's a good metric for gauging your own performance:
 
 1. Are you putting yourself forward and making technical statements (either in English or in code)?
 2. Are those statements right, a lot?
@@ -381,7 +387,7 @@ All of this isn't helpful advice for engineers who want to _become_ right (a lot
 
 Some engineers think it's a virtue to remain non-committal in technical discussions. Should our team build a new feature in an event-driven or synchronous way? Well, it depends: there are many strong technical reasons on each side, so it's better to keep an open mind and not come down on either side. This strategy is fine when you're a junior engineer, but at some point you'll be the person in the room with the most context (or technical skill, or institutional power). At that point, **you need to take a position**, whether you feel particularly confident or not. 
 
-If you don't, you're forcing people with less technical context than you to figure it out themselves. Often that means somebody will take a random guess. In the worst case, the weakest-but-loudest engineer on the team will take the opportunity to push for a spectacularly bad idea. If you're a strong engineer, it's your responsibility to take a position in order to prevent that from happening, even if you're only 55% or 60% confident[^1].
+If you don't, you're forcing people with less technical context than you to figure it out themselves. Often that means somebody will take a random guess. In the worst case, the weakest-but-loudest engineer on the team will take the opportunity to push for a spectacularly bad idea. If you're a strong engineer, it's your responsibility to take a position in order to prevent that from happening, even if you're only 55% or 60% confident.
 
 ### Why remaining non-committal is cowardly
 
@@ -401,7 +407,7 @@ Of course, if you're wrong too much, people won't trust your estimates anymore. 
 
 Estimates are an interesting example of this. Many engineers default to "well, it depends, hard to say, could be a few days or could take a month" for everything but the most obviously-one-line changes. But your manager isn't asking out of curiosity, they're asking because they need a loose estimate for planning purposes. If you give a non-answer, they will just sigh internally and guess the estimate themselves.
 
-However, sometimes avoid estimates isn't a matter of cowardice. In some companies, engineers avoid firm estimates because they'll face real, unfair consequences when those estimates aren't met. Here the trust between engineering and product has been fully broken. Engineers are incentivized to keep their heads down and never commit to anything (at least in front of management)[^2].
+However, sometimes avoid estimates isn't a matter of cowardice. In some companies, engineers avoid firm estimates because they'll face real, unfair consequences when those estimates aren't met. Here the trust between engineering and product has been fully broken. Engineers are incentivized to keep their heads down and never commit to anything (at least in front of management).
 
 I'm sure there are company environments where every technical commitment is this risky. I don't have any criticism for engineers in those environments.
 
@@ -474,11 +480,11 @@ So the question "how do I get the good opportunities" really boils down to this:
 
 ### Why trust is so hard
 
-Very few engineers really appreciate just how delicate the relationship is between themselves and very senior managers.[^2] As you talk to people higher in the management chain, they have less and less technical context, and no direct power to affect the product. But they have a lot of institutional power to ask engineers to do things, and a lot of _responsibility_: it's inconvenient to you if a product you work on doesn't succeed, but it will cost your leadership team real money in lost bonuses (and maybe get them fired). So they're heavily invested in success, but almost entirely dependent on their engineers to actually do the work that needs doing, and to tell them what can be done in the time available.
+Very few engineers really appreciate just how delicate the relationship is between themselves and very senior managers. As you talk to people higher in the management chain, they have less and less technical context, and no direct power to affect the product. But they have a lot of institutional power to ask engineers to do things, and a lot of _responsibility_: it's inconvenient to you if a product you work on doesn't succeed, but it will cost your leadership team real money in lost bonuses (and maybe get them fired). So they're heavily invested in success, but almost entirely dependent on their engineers to actually do the work that needs doing, and to tell them what can be done in the time available.
 
 That's why the engineer-leadership relationship is strange and delicate to maintain. These are very powerful people at the company, who can mobilize hundreds or thousands of people to achieve their goals, but they _need your help_ to do anything directly. It's an awkward position for them to be in. Even Caesar felt helpless when in the dentist's chair. If you can be genuinely helpful in these circumstances, you will reap the benefits of having Caesar as an ally. But of course, if you betray his trust, you may get your head cut off.
 
-One reason large tech companies have many layers of managers is to avoid having to rely on this tricky relationship. VPs are supposed to be able to talk to their manager direct reports, who talk to their manager direct reports, who get estimates and plans out of their engineers. Everything thus gets safely triple-handled on the way up and down the chain. In practice, very senior leadership people often chafe at this indirection, and quietly rely on a few very senior engineers as a sounding board or a sanity check. Sometimes this is even formalized in the org chart (for instance, as a 'floating' staff engineer reporting directly to the VP or CEO)[^2].
+One reason large tech companies have many layers of managers is to avoid having to rely on this tricky relationship. VPs are supposed to be able to talk to their manager direct reports, who talk to their manager direct reports, who get estimates and plans out of their engineers. Everything thus gets safely triple-handled on the way up and down the chain. In practice, very senior leadership people often chafe at this indirection, and quietly rely on a few very senior engineers as a sounding board or a sanity check. Sometimes this is even formalized in the org chart (for instance, as a 'floating' staff engineer reporting directly to the VP or CEO).
 
 ### Maintaining the trust
 
@@ -492,7 +498,7 @@ What happens if you do break the trust? Unlike Caesar, your friendly neighbourho
 
 ### Keep it in your management chain
 
-A word of warning. It is great to be trusted by managers at your company. But **you must try to keep it inside your management chain**. I have seen engineers fall into the trap of becoming the go-to person for managers or product people from different orgs, at the expense of their [actual job](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/). There is no shortage of predatory managers outside your org who would love to have more engineer time "for free" (i.e., they don't have to bargain for it with people who they're actually accountable to) [^3]. One "quick favor" can be a sensible idea. Two or three is a mistake.
+A word of warning. It is great to be trusted by managers at your company. But **you must try to keep it inside your management chain**. I have seen engineers fall into the trap of becoming the go-to person for managers or product people from different orgs, at the expense of their [actual job](https://charity.wtf/2021/03/07/know-your-one-job-and-do-it-first/). There is no shortage of predatory managers outside your org who would love to have more engineer time "for free" (i.e., they don't have to bargain for it with people who they're actually accountable to). One "quick favor" can be a sensible idea. Two or three is a mistake.
 
 It can be pleasant to feel helpful, and for many engineers the opportunity to solve someone's problem is tempting enough. But it's a really bad idea to get involved like this. These people will be very persuasive - it's their job! - but they won't be there during your next promo discussion, and they'll walk away from you the second it's in their interest to do so. Save your energy for the work your org actually pays you to do.
 
@@ -512,7 +518,7 @@ How do you push back against these requests? Directly involve your actual manage
 
 One of the most important career skills in tech is learning to recognize **what work actually matters**. Many engineers go through their careers without really making that decision. They might speak up for a particular issue in sprint planning now and then, but they don't maintain a mental list of the most important work going on in their team. It's easy to punt that decision to your manager. After all, it's not really your job to decide what projects are important—your job is to execute on projects and speak up for the technical side of things.
 
-This is a big mistake! Most prioritized work is low-priority. At tech companies, the job isn't like assembly-line work where every hour is as important as any other[^1]. It's more like being a firefighter: long periods of pretty chill work punctuated by short intense periods where it's important to get it right.
+This is a big mistake! Most prioritized work is low-priority. At tech companies, the job isn't like assembly-line work where every hour is as important as any other. It's more like being a firefighter: long periods of pretty chill work punctuated by short intense periods where it's important to get it right.
 
 ### Why important work is rare
 
@@ -568,7 +574,7 @@ Everything you could want from a company - promotions, bonuses, internal respect
 
 ### How do you work on important things?
 
-What determines importance? Importance at a tech company is **whatever your directors/VPs/C-staff say it is**. I mean that quite literally. Your job as an engineer is to execute on the strategy of the company, and since that strategy is set by executives, your job is to make sure you're aligned with what they consider important. In any remotely functional company, they will tell you (over and over) what that is. You should pay attention when they do[^1].
+What determines importance? Importance at a tech company is **whatever your directors/VPs/C-staff say it is**. I mean that quite literally. Your job as an engineer is to execute on the strategy of the company, and since that strategy is set by executives, your job is to make sure you're aligned with what they consider important. In any remotely functional company, they will tell you (over and over) what that is. You should pay attention when they do.
 
 Try to be ruthless about dropping work that is no longer important. If you ship a project and your management chain begins talking about the next thing, _stop improving that project_. In my experience, continuing to work on an already-shipped project is a very common mistake. Declare victory and walk away! 
 
@@ -628,7 +634,7 @@ The foundational skill of all of this is _being good at the actual job_: i.e. be
 ## Great software design looks underwhelming
 
 
-Years ago I spent a lot of time reviewing coding challenges. The challenge itself was very straightforward - building a CLI tool that hit an API and allowed the user to page through and inspect the data. We allowed any language, so I saw all kinds of approaches[^1]. At one point I came across a challenge I thought was literally perfect. It was a single Python file (maybe thirty lines of code in total), written in a very workmanlike style: the simplest, most straightforward way to meet the challenge requirements.
+Years ago I spent a lot of time reviewing coding challenges. The challenge itself was very straightforward - building a CLI tool that hit an API and allowed the user to page through and inspect the data. We allowed any language, so I saw all kinds of approaches. At one point I came across a challenge I thought was literally perfect. It was a single Python file (maybe thirty lines of code in total), written in a very workmanlike style: the simplest, most straightforward way to meet the challenge requirements.
 
 When I sent it to another reviewer, suggesting that we use this as a reference point for what a 10/10 looked like, I was genuinely shocked to hear from them that they wouldn't have passed that challenge through to an interview. According to them, it didn't demonstrate enough understanding of sophisticated language features. It was _too_ simple.
 
@@ -654,7 +660,7 @@ Sometimes it means **moving components out of the hot path**. I once worked on a
 
 ### Removing components
 
-Sometimes it means **using fewer components altogether**. Another service I worked on was a documentation CRM that had a really bespoke system for pulling various bits of docs out of different repositories and stitching them together into database entries (sometimes pulling docs directly out of code comments). This was originally a good decision - at the time, it was hard to get teams to write any kind of docs at all, so the system had to be maximally flexible. But as the company grew, it was very much showing its age. The sync job stored some state in the database and some state on disk, and often triggered strange git errors when the state on disk got out of sync or the underlying host ran out of memory. We ended up removing the database entirely, shifting all the docs into a central repository, and reworking the documentation page as a normal static site[^2]. All kinds of possible runtime and operational bugs were removed, just like that.
+Sometimes it means **using fewer components altogether**. Another service I worked on was a documentation CRM that had a really bespoke system for pulling various bits of docs out of different repositories and stitching them together into database entries (sometimes pulling docs directly out of code comments). This was originally a good decision - at the time, it was hard to get teams to write any kind of docs at all, so the system had to be maximally flexible. But as the company grew, it was very much showing its age. The sync job stored some state in the database and some state on disk, and often triggered strange git errors when the state on disk got out of sync or the underlying host ran out of memory. We ended up removing the database entirely, shifting all the docs into a central repository, and reworking the documentation page as a normal static site. All kinds of possible runtime and operational bugs were removed, just like that.
 
 ### Centralizing state
 
@@ -664,7 +670,7 @@ Sometimes it means **normalizing your state**. One of the worst kinds of failure
 
 Sometimes it means **relying on battle-tested systems**. My favourite example for this is the Ruby webserver Unicorn. It's the most straightforward, unsophisticated way you could possibly build a webserver on top of Linux. First, you take a server process that listens on a socket and handles one request at a time. Handling one request at a time won't scale: incoming requests will queue up on the socket faster than the server can clear them. So what do you do? You fork that server process a bunch. Because of the way fork works, each child process is already listening on the original socket, so standard Linux socket logic handles spreading requests evenly between your server processes. If anything goes wrong, you can kill the child process and instantly fork off another one. 
 
-Some people think it's a bit silly to like Unicorn so much because it's obviously less scalable than a threaded server. But I love it for two reasons. First, because it hands off so much work to the process and socket Linux primitives. That's smart because they're ultra-reliable. Second, because it's really, really hard for a Unicorn worker to do anything nasty to another Unicorn worker. Process isolation is a lot more reliable than thread isolation. That's why Unicorn is the chosen webserver for most big Rails companies: Shopify, GitHub, Zendesk, and so on. Great software design doesn't mean that your software is ultra-performant. It means that it's a good fit for the task[^3].
+Some people think it's a bit silly to like Unicorn so much because it's obviously less scalable than a threaded server. But I love it for two reasons. First, because it hands off so much work to the process and socket Linux primitives. That's smart because they're ultra-reliable. Second, because it's really, really hard for a Unicorn worker to do anything nasty to another Unicorn worker. Process isolation is a lot more reliable than thread isolation. That's why Unicorn is the chosen webserver for most big Rails companies: Shopify, GitHub, Zendesk, and so on. Great software design doesn't mean that your software is ultra-performant. It means that it's a good fit for the task.
 
 ### Summary
 
@@ -689,9 +695,9 @@ The second mistake is getting too invested in the wrong specifics. Some engineer
 
 ### How to do it right
 
-So what is the right way to do it? The right way is to take the **most important user flow** and trace the simplest possible implementation **all the way through** in your head. You can track only one user flow because otherwise you'll get confused[^1]. You have to trace the implementation all the way through because otherwise you'll miss key details. When I say "trace", I mean at the level of pseudocode. You don't have to imagine the entire code in your head, but you do have to imagine each logical step.
+So what is the right way to do it? The right way is to take the **most important user flow** and trace the simplest possible implementation **all the way through** in your head. You can track only one user flow because otherwise you'll get confused. You have to trace the implementation all the way through because otherwise you'll miss key details. When I say "trace", I mean at the level of pseudocode. You don't have to imagine the entire code in your head, but you do have to imagine each logical step.
 
-This is the mental equivalent of the Pragmatic Programmer's well-known "tracer bullet" [rule](https://wiki.c2.com/?TracerBullets). The tracer bullet rule is that your first prototype should be the minimum you need to build to get one user flow working end-to-end[^2]. The same is true for simply thinking about writing software: your goal should be to think one user flow through end-to-end.
+This is the mental equivalent of the Pragmatic Programmer's well-known "tracer bullet" [rule](https://wiki.c2.com/?TracerBullets). The tracer bullet rule is that your first prototype should be the minimum you need to build to get one user flow working end-to-end. The same is true for simply thinking about writing software: your goal should be to think one user flow through end-to-end.
 
 The benefit of thinking through the flow at that level of detail is that you're forced to confront the important questions (just as you would be if you were building a prototype with real code). You don't have to design the cleanest or the best solution here, but you do need to design _something that could possibly work_. If you start with something that works, you can usually iterate to something _good_ that works. If you start with something that doesn't work, it's much harder to iterate your way back into [the space of working solutions](/solution-space).
 
@@ -737,7 +743,7 @@ Note that these points are all largely agnostic about what specific technologies
 
 The plan you make should stay mostly in your mind. In my experience, you will not be able to usefully explain it to product managers or even other engineers. The value of the plan is in how it helps you **estimate** and **ask questions**. For instance, the hardest part about adding comments to my blog would be switching to an infrastructure that isn't entirely static (and thus allows me to store data and run my own code in user requests). Estimating that part of work would give a rough guide for the entire project, and the questions involved (e.g. what platform should I switch my blog to, or should I use a third-party-hosted comments service) will be the most important questions involved in planning the project.
 
-Once the initial conversation is over, it can be very useful to write your plan down. I like a loose boxes-and-lines structure, usually in a Mermaid diagram, but it doesn't really matter how you do this. A short paragraph of text is probably good enough. A written version of a plan can be a good starting point for getting into more concrete implementation details. If everyone on the team[^3] agrees that the comments should be managed by a stateful backend app, then we can start talking about what technologies we should use and how.
+Once the initial conversation is over, it can be very useful to write your plan down. I like a loose boxes-and-lines structure, usually in a Mermaid diagram, but it doesn't really matter how you do this. A short paragraph of text is probably good enough. A written version of a plan can be a good starting point for getting into more concrete implementation details. If everyone on the team agrees that the comments should be managed by a stateful backend app, then we can start talking about what technologies we should use and how.
 
 I think this approach still works if you have a more explicit design process on your team (e.g. a collaborative design meeting, or some kind of architect-driven thing). You're much more likely to be successful at those processes if you go in with a concrete idea about how the feature could work. One caveat: **don't get too attached to that idea**. You should remain open to drastically changing the plan, as long as it's to something else that could also work. The first rough idea you came up with in your head is unlikely to be the best option overall.
 
@@ -811,7 +817,7 @@ The other reason is that **you cannot split up a large established codebase with
 ## Working around wicked features
 
 
-Why is working at large tech companies so hard?[^1]
+Why is working at large tech companies so hard?
 
 It's because a small subset of "wicked features" dominate everything else. If you're building a todo app, adding the ability to attach images to todo items might be a large feature, but it's not a wicked feature. However, offering your todo app as a webapp and a standalone executable is a wicked feature. What's the difference? Wicked features are features that must be considered _every time you build any other feature_.
 
@@ -834,7 +840,7 @@ This is a common reason for engineers underestimating tasks. It's easy to forget
 
 ### Are wicked features a skill issue?
 
-Are wicked features just bad design? Couldn't you factor your program better to satisfy the requirements without adding a wicked feature? Sure, sometimes. I'm sure you could make any feature wicked with a sufficiently-clumsy implementation[^2]. But I think some requirements are inherently wicked.
+Are wicked features just bad design? Couldn't you factor your program better to satisfy the requirements without adding a wicked feature? Sure, sometimes. I'm sure you could make any feature wicked with a sufficiently-clumsy implementation. But I think some requirements are inherently wicked.
 
 Take "make this SaaS runnable on-premises". It doesn't matter how careful you are. Even if you make sure your SaaS build pipeline is completely on-prem friendly so you never have to maintain two versions, the fact that you have to be careful to do that is itself a wicked feature that you have to keep in mind for all future changes to the build pipeline.
 
@@ -866,7 +872,7 @@ Suppose you're a strong engineer and your company trusts you to use that power i
 ## Protecting your time from predators
 
 
-If you're a competent software engineer at a large tech company, your time is in very high demand. Lots of people will want you to do things[^1]. You should be very selective about how you handle these requests, and definitely avoid saying yes to everyone.
+If you're a competent software engineer at a large tech company, your time is in very high demand. Lots of people will want you to do things. You should be very selective about how you handle these requests, and definitely avoid saying yes to everyone.
 
 Helping other people feels good. That's doubly true when those people are from other parts of the company. It feels like you're having the kind of cross-org impact that a staff+ engineer ought to be having. But **helping other parts of the org is not your main job**. Delivering [projects](/how-to-ship) is your main job. It's a common trap to spend your time too generously and neglect the projects that are your actual responsibility. To avoid it, you should identify the people who are trying to claim your time.
 
@@ -889,7 +895,7 @@ There's another common category of predator: the [weak engineer](/weak-engineers
 - "Help, my tests are red [PR link, with no further context]"
 - "Can we pair on this ticket I'm working on?" [the pairing is entirely you driving and them watching]
 
-In the extreme case, the weak engineer is doing effectively no work on their own, but drawing on a series of strong engineer friends to complete every task[^2]. To each strong engineer, it looks like they're just helping out a bit. This is a bad deal for the strong engineer, because the weak engineer (a) won't want to publicize just how much they're relying on the strong engineer, so won't share credit, and (b) won't be able to help the strong engineer out with work later.
+In the extreme case, the weak engineer is doing effectively no work on their own, but drawing on a series of strong engineer friends to complete every task. To each strong engineer, it looks like they're just helping out a bit. This is a bad deal for the strong engineer, because the weak engineer (a) won't want to publicize just how much they're relying on the strong engineer, so won't share credit, and (b) won't be able to help the strong engineer out with work later.
 
 To be clear, I'm not talking about a junior engineer who's learning here - they'll be able to help you out later when they acquire the relevant skills. I'm talking about an engineer who's drawing on help from others as an alternative to actually learning the job. You should be very generous with your time to engineers who are learning, and very guarded with it around others.
 
@@ -929,7 +935,7 @@ First, **ruthless managers still want their engineers to be happy**, if both the
 
 Second, **empathetic managers are often in conflict with their own bosses**, leaving them with little political capital. Large companies make managers do a lot of the dirty work around performance management, firing, imposing tight deadlines, and so on. Empathetic managers are constantly pushing back on this. That can be good if the pushback is effective, but it often isn't. If your manager is always fighting with their own manager, they may not have the political capital left to push for the few things you really need (e.g. promotions). However, a ruthless manager will usually have a lot of political capital banked with their bosses. It'll be harder to convince them to push for what you need, but if you succeed, they're very likely to be able to make it happen.
 
-Third, for the same reasons, **empathetic managers are often unhappy**. Suppose you have an engineer on your team who really loves writing Python, but it's a dictate from upper management that they have to start writing in C#[^1]. Your manager will be the one who has to either pressure that engineer to write C#, or to argue with their boss about how the policy is foolish. A ruthless manager will (a) not agonize over the decision, and (b) pressure the engineer without feeling bad about it. If you're not that engineer, this is better for you, because your manager won't be sad and distracted.
+Third, for the same reasons, **empathetic managers are often unhappy**. Suppose you have an engineer on your team who really loves writing Python, but it's a dictate from upper management that they have to start writing in C#. Your manager will be the one who has to either pressure that engineer to write C#, or to argue with their boss about how the policy is foolish. A ruthless manager will (a) not agonize over the decision, and (b) pressure the engineer without feeling bad about it. If you're not that engineer, this is better for you, because your manager won't be sad and distracted.
 
 Fourth, **ruthless managers are often better at communication**. Empathetic managers don't like breaking bad news and may cushion it too much. In my experience, they can also sometimes drink the company kool-aid, and give you the party-line answer instead of a more useful (or cynical) truth. However, ruthless managers can fail at communication for different reasons: typically because they're happier to deliberately lie to you, or because they're unwilling to be fully honest in case spilling the truth comes back to bite them.
 
@@ -952,7 +958,7 @@ Personally, I feel like I get a lot of value from AI. I think many of the people
 
 ### Writing production code
 
-I use Copilot completions every time I write code[^1]. Almost all the completions I accept are complete boilerplate (filling out function arguments or types, for instance). It's rare that I let Copilot produce business logic for me, but it does occasionally happen. In my areas of expertise (Ruby on Rails, for instance), I'm confident I can do better work than the LLM. It's just a (very good) autocomplete.
+I use Copilot completions every time I write code. Almost all the completions I accept are complete boilerplate (filling out function arguments or types, for instance). It's rare that I let Copilot produce business logic for me, but it does occasionally happen. In my areas of expertise (Ruby on Rails, for instance), I'm confident I can do better work than the LLM. It's just a (very good) autocomplete.
 
 However, I'm not always working in my areas of expertise. I frequently find myself making small tactical changes in less-familiar areas (for instance, a Golang service or a C library). I know the syntax and have written personal projects in these languages, but I'm less confident about what's idiomatic. In these cases, I rely on Copilot more. Typically I'll use Copilot chat with the o1 model enabled, paste in my code, and ask directly "is this idiomatic C?"
 
@@ -1040,7 +1046,7 @@ You should be expecially careful about generally-powerful LLM tools, such as tho
 
 If you're relying on any third-party code that interfaces with LLMs, you're trusting that code to not maliciously prompt the model. Libraries are a well-understood instance of this attack vector: of course if you bring in an untrustworthy third-party AI library, you're in trouble. **Model Context Protocol servers are a less well-understood instance of this risk.** If you connect with a [MCP server](/model-context-protocol), you are effectively bringing in a third-party library. At worst, it's a third-party library where each function wraps API calls to its own server, so you're bringing in a library _where the implementation is unauditable and can change at any moment_.
 
-Many of the "here's why MCP is inherently insecure" articles present a long list of examples of how connecting to a malicious MCP server can completely mess you up. There are two broad categories: introducing malicious prompts that tell the model to do bad things, or introducing malicious tools that do bad things as a side-effect to the main purpose of the tool (e.g. a `web_search` tool that also sends the contents of your `./ssh` folder to a third-party)[^1].
+Many of the "here's why MCP is inherently insecure" articles present a long list of examples of how connecting to a malicious MCP server can completely mess you up. There are two broad categories: introducing malicious prompts that tell the model to do bad things, or introducing malicious tools that do bad things as a side-effect to the main purpose of the tool (e.g. a `web_search` tool that also sends the contents of your `./ssh` folder to a third-party).
 
 I'm not entirely convinced that this represents a [problem with the MCP spec](https://elenacross7.medium.com/%EF%B8%8F-the-s-in-mcp-stands-for-security-91407b33ed6b), any more than the ability to import a malicious Python library represents a problem with the Python `requirements.txt` spec. The supply-chain security problem is not unique to LLMs. All the normal things you would do to de-risk library imports - pinning versions where possible, reading the source code, limiting exposure to the most sensitive operations - apply in the same way to MCP servers. 
 
@@ -1109,7 +1115,7 @@ Vibe coding works very well up to a point. When you hit that point, you'll have 
 ## Using LLMs effectively isn't just about prompting
 
 
-When people talk about using language models effectively, they mainly talk about prompting: sharing great prompts, lists of tips for prompting, or courses on becoming a "prompt engineer". It's true that prompting is a surprisingly effective way to get more out of LLMs. Small variations in prompts can make a big difference in the LLM output. There really are general rules (put your question first and your context last, for instance)[^1]. However, when I use LLMs, I rarely think about prompting.
+When people talk about using language models effectively, they mainly talk about prompting: sharing great prompts, lists of tips for prompting, or courses on becoming a "prompt engineer". It's true that prompting is a surprisingly effective way to get more out of LLMs. Small variations in prompts can make a big difference in the LLM output. There really are general rules (put your question first and your context last, for instance). However, when I use LLMs, I rarely think about prompting.
 
 **Using LLMs well involves extracting value from what they're good at and avoiding wasting time at what they're bad at.**
 
@@ -1137,7 +1143,7 @@ If you're asking a question (and not trying to learn a new topic) and the LLM gi
 
 Lean into the fact that **one-off code is effectively free to generate**. If you're interested in a topic (e.g. how many commits in a GitHub repo touch multiple files), you can generate a quick script to answer that question immediately. It turns ten-minute questions into one-minute questions, letting you ask ten times as many questions.
 
-**Don't be afraid of writing scripts that themselves use LLM APIs**. You might be able to write your own code to figure out the above git question, but it's much harder to write code to answer "how many commits use correct punctuation". With LLMs, you can easily write a script to answer that (or any other tough question). There are tons of cheap or free LLM API options out there: Google and GitHub both have generous free tiers, for instance[^2].
+**Don't be afraid of writing scripts that themselves use LLM APIs**. You might be able to write your own code to figure out the above git question, but it's much harder to write code to answer "how many commits use correct punctuation". With LLMs, you can easily write a script to answer that (or any other tough question). There are tons of cheap or free LLM API options out there: Google and GitHub both have generous free tiers, for instance.
 
 ### Summary
 
@@ -1205,11 +1211,11 @@ In the mid-1800s, America went mad for rail. Over thirty thousand miles of rail 
 
 On top of that, every rail line that was built had an accompanying telegraph line (needed for signaling and dispatching). When the rail mania ended, the telegraph mania was just beginning. A technology designed for coordinating trains ended up totally transforming trade, financial markets, war, and in its latest iteration as telephones and the internet, human communication itself.
 
-In other words, bubbles come and go, but capital investment sticks around. Quite recently, the burst of the cryptocurrency bubble paved the way for the AI boom - suddenly there were a lot of cheap GPUs, just sitting in datacenters, waiting to be used for something. Very few people made that connection. Suppose the current AI bubble bursts[^1]. What physical infrastructure would be left behind, and how would it be put to use?
+In other words, bubbles come and go, but capital investment sticks around. Quite recently, the burst of the cryptocurrency bubble paved the way for the AI boom - suddenly there were a lot of cheap GPUs, just sitting in datacenters, waiting to be used for something. Very few people made that connection. Suppose the current AI bubble bursts. What physical infrastructure would be left behind, and how would it be put to use?
 
 One thing that we'd have is a glut of GPUs. Not consumer-grade gaming GPUs, but heavy-duty H100s and B100s, designed to store giant sets of model weights in memory and serve LLM completions at massive parallelism. If we weren't using these for AI, what would we use them for? Simulations and modeling, perhaps, or AI-adjacent fields like protein folding or drug discovery? There are probably a lot of fields which have some use-cases that are considered prohibitively GPU-expensive. Those use-cases might become surprisingly possible.
 
-Would we go back to crypto? If the giant datacenters sell off all their GPUs, maybe, but I'm not convinced. I don't think the Microsoft and XAIs of the world are going to get into Bitcoin mining, and I don't think there are any real crypto use-cases that could benefit from tens of thousands of GPUs in a Microsoft-owned datacenter. To make the obvious point: the main[^2] use-case for crypto is trustless coordination, but hyperscalers don't need trustless communication. They're already trusted! I suppose we _could_ see some very unlikely event like XAI spending their idle GPUs on a 51% proof-of-work attack on some poor cryptocurrency, but it's hard to imagine that being positive expected value.
+Would we go back to crypto? If the giant datacenters sell off all their GPUs, maybe, but I'm not convinced. I don't think the Microsoft and XAIs of the world are going to get into Bitcoin mining, and I don't think there are any real crypto use-cases that could benefit from tens of thousands of GPUs in a Microsoft-owned datacenter. To make the obvious point: the main use-case for crypto is trustless coordination, but hyperscalers don't need trustless communication. They're already trusted! I suppose we _could_ see some very unlikely event like XAI spending their idle GPUs on a 51% proof-of-work attack on some poor cryptocurrency, but it's hard to imagine that being positive expected value.
 
 Focusing on GPUs might be missing the point. For real systems thinkers, the GPUs are an implementation detail. The real resource at play in the big AI scaleup is power: literal electrical power, which is currently being built out on a massive scale. Companies are re-investing in nuclear and investing in speculative fission technology. If that takes off, it might end up being the telegraph to the GPU's railway line: the companion technology that ends up having an equal or greater impact on the world.
 

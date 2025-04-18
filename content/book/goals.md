@@ -16,4 +16,4 @@ entire blog corpus is 71k words (!). I guess maybe half will make it in, so ~35k
 
 brew install pandoc basictex
 
-pandoc --from=gfm --toc --pdf-engine=xelatex --to=pdf -o content/book/book.pdf content/book/content.md
+pandoc --toc -M pdf-engine=xelatex -M mainfont="Helvetica Neue" --pdf-engine=xelatex -V linestretch=1.25 -H content/book/breaks.tex --to=pdf -o content/book/book.pdf content/book/content.md
