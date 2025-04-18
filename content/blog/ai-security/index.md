@@ -1,5 +1,5 @@
 ---
-title: A practical guide to coding securely with LLMs
+title: Principles for coding securely with LLMs
 description: 
 order: 67
 date: '2025-04-15'
