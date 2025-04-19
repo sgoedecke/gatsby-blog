@@ -36,6 +36,12 @@ const BlogList = ({ data, location, pageContext = {} }) => {
                 </h3>
             </article>
             ))}
+
+            <p style={{ marginTop: rhythm(0.5) }}>
+                <Link to="/popular" style={{ boxShadow: `none` }}>
+                View all&nbsp;→
+                </Link>
+            </p>
         </section>
         <hr
             style={{
@@ -45,7 +51,7 @@ const BlogList = ({ data, location, pageContext = {} }) => {
       </>)}
 
       <section>
-        <h2>recent</h2>
+        { currentPage == 1 && <h2>recent</h2> }
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
