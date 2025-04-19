@@ -1,6 +1,6 @@
 ---
 title: |
-  Dangerous Advice for Software Engineers
+  Software engineering after the vibe shift
 
 author: Sean Goedecke
 date: April 2025
@@ -44,7 +44,7 @@ However, lots of managers wish they could give you advice like this. They certai
 
 Dangerous advice requires courage to follow. It's very high-risk, high-reward, and is thus disproportionately useful to strong engineers (and harmful to weaker ones). If you don't feel comfortable following it, you definitely shouldn't. But if you're already operating like this sometimes and wondering whether you're making some horrible long-term mistake, I don't think so. Or if you are, I'm making it too! Let's get to it.
 
-# The industry has just changed
+# Software engineering after the 2010s
 
 ## The good times are over
 
@@ -241,7 +241,7 @@ Is this a deeply cynical take about how to succeed in office politics? I don't a
 
 If you're one of those exceptional people, congratulations! You can use that power tactically to be a more effective engineer. But you shouldn't do it all the time. 
 
-# Engineering mindset
+# Thinking like a strong engineer
 
 So far I've written about how to think about your work from a business perspective (i.e. how to manage projects, what kind of work you should choose to do, and how to get aligned with your company's leadership). But of course you also have to be a strong _engineer_. What is a strong engineer?
 
@@ -1223,8 +1223,9 @@ And of course the real winner of the AI bubble bursting might be... AI. Railways
 
 # Conclusion
 
-It would be nice to be back in the mid-2010s, where tech jobs were easy to get and companies were throwing money at interesting technical problems even if they had no business value. The offshoring panic of the 90s was over and the AI panic of the 2020s had yet to begin.
-
-On the flip side, it's never been a more exciting time to be a software engineer. The projects now are more tied to revenue and less fake. There are actual stakes to the engineering decisions you make. And _nobody knows_ how the current AI progress is going to pan out.
 
 I don't know if I'm right about how you should do the work of software engineering today. But whatever the right answer is, I do know that it's different from how the job was done in the 2010s.
+
+It would be nice to be back in 2015, where tech jobs were easy to get and companies were throwing money at interesting technical problems even if they had no business value. The offshoring panic of the 90s was over and the AI panic of the 2020s had yet to begin.
+
+On the flip side, it's never been a more exciting time to be a software engineer. The projects now are more tied to revenue and less fake. There are actual stakes to the engineering decisions you make. And _nobody knows_ how the current AI progress is going to pan out.
