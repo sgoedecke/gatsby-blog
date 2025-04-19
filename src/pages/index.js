@@ -78,7 +78,7 @@ export const pageQuery = graphql`
       sort:   { fields: [fields___rand], order: ASC }
       limit:  3
     ) {
-      nodes { frontmatter { title slug } }
+      nodes { fields { slug } frontmatter { title } }
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___order], order: DESC }
