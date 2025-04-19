@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
       />
     <section>
         <h2>popular</h2>
-        {popularPosts.map(({ node }) => (
+        {popularPosts.map((node) => (
           <article key={node.fields.slug}>
             <h3>
               <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
