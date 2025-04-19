@@ -2,6 +2,7 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout  from "../components/layout";
 import SEO     from "../components/seo";
+import Bio from "../components/bio"
 import { rhythm } from "../utils/typography";
 
 const PopularPage = ({ data, location }) => {
@@ -11,8 +12,16 @@ const PopularPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Popular posts" />
+      <footer>
+        <Bio />
+      </footer>
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
+      />
 
-      <h1 style={{ marginBottom: rhythm(1) }}>Popular posts</h1>
+      <h2 style={{ marginBottom: rhythm(1) }}>popular</h2>
 
       {posts.map(({ node }) => (
         <article key={node.fields.slug}>
