@@ -10,17 +10,9 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
-// Get all the popular posts
-const popular = posts.filter(({ node }) => node.frontmatter.popular);
+  // Get 3 popular posts
+  const popularPosts = data.popular.nodes.slice(0, 3)
 
-// Fisher–Yates shuffle (in‑place)
-for (let i = popular.length - 1; i > 0; i--) {
-  const j = Math.floor(Math.random() * (i + 1));
-  [popular[i], popular[j]] = [popular[j], popular[i]];
-}
-
-// Take the first three
-const popularPosts = popular.slice(0, 3);
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
@@ -80,6 +72,13 @@ export const pageQuery = graphql`
       siteMetadata {
         title
       }
+    }
+    popular: allMarkdownRemark(
+      filter: { frontmatter: { popular: { eq: true } } }
+      sort:   { fields: [fields___rand], order: ASC }
+      limit:  3
+    ) {
+      nodes { frontmatter { title slug } }
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___order], order: DESC }

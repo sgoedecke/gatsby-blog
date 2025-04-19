@@ -62,5 +62,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    actions.createNodeField({
+      node,
+      name: 'rand',
+      value: Math.random(),
+    });
   }
 }
