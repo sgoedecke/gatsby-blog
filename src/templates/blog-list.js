@@ -24,23 +24,26 @@ const BlogList = ({ data, location, pageContext = {} }) => {
           marginBottom: rhythm(1),
         }}
       />
-    <section>
-        <h2>popular</h2>
-        {popularPosts.map((node) => (
-          <article key={node.fields.slug}>
-            <h3>
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {node.frontmatter.title}
-              </Link>
-            </h3>
-          </article>
-        ))}
-      </section>
-      <hr
-        style={{
-          marginBottom: rhythm(1),
-        }}
-      />
+      { currentPage === 1 && (<>
+        <section>
+            <h2>popular</h2>
+            {popularPosts.map((node) => (
+            <article key={node.fields.slug}>
+                <h3>
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {node.frontmatter.title}
+                </Link>
+                </h3>
+            </article>
+            ))}
+        </section>
+        <hr
+            style={{
+            marginBottom: rhythm(1),
+            }}
+        />
+      </>)}
+
       <section>
         <h2>recent</h2>
         {posts.map(({ node }) => {
