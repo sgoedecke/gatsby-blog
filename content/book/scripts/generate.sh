@@ -7,7 +7,7 @@ pandoc \
   --toc \
   --toc-depth=2 \
   --pdf-engine=xelatex \
-  -M title="Dangerous Advice for Software Engineers" \
+  -M title="Software Engineering after the Vibe Shift" \
   -M author="Sean Goedecke" \
   -M date="April 2025" \
   -V titlepage \
