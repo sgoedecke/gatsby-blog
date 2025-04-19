@@ -3,6 +3,7 @@ title: Protecting your time from predators in large tech companies
 description: Some people will absorb as much work as you're willing to give them
 order: 32
 date: '2025-01-19'
+popular: true
 ---
 
 If you're a competent software engineer at a large tech company, your time is in very high demand. Lots of people will want you to do things[^1]. You should be very selective about how you handle these requests, and definitely avoid saying yes to everyone.

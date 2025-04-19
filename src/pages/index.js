@@ -10,8 +10,17 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
-  const popularPosts = posts.filter(({ node }) => node.frontmatter.popular).reverse()
+// Get all the popular posts
+const popular = posts.filter(({ node }) => node.frontmatter.popular);
 
+// Fisher–Yates shuffle (in‑place)
+for (let i = popular.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [popular[i], popular[j]] = [popular[j], popular[i]];
+}
+
+// Take the first three
+const popularPosts = popular.slice(0, 3);
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />

@@ -3,6 +3,7 @@ title: Good engineers are right, a lot
 description: It's an iffy Amazon leadership principle but a great engineering metric
 order: 41
 date: '2025-02-06'
+popular: true
 ---
 
 Amazon infamously has a leadership principle where they say "good leaders are right, a lot". It's unclear to me how useful it is about leaders, but it's definitely true about engineers. Good engineers are definitely right, a lot. 

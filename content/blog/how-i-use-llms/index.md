@@ -3,6 +3,7 @@ title: How I use LLMs as a staff engineer
 description: What I use them for and what I don't
 order: 40
 date: '2025-02-04'
+popular: true
 ---
 
 Software engineers are deeply split on the subject of large language models. Many believe they're the most transformative technology to ever hit the industry. Others believe they're the latest in a long line of hype-only products: exciting to think about, but ultimately not useful to professionals trying to do serious work.

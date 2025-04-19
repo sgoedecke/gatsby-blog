@@ -3,6 +3,7 @@ title: What it's like working for American companies as an Australian
 description: My experience working across timezones for Americans
 order: 27
 date: '2025-01-10'
+popular: true
 ---
 
 For the last ten years I've worked for American tech companies as an Australian based in Australia. First I worked in a satellite office for Zendesk. My direct manager was Australian, but many other managers and teams (and of course the top executives) were America-based. Now at GitHub I work fully-remote on a mixed team for an American manager based in America.
