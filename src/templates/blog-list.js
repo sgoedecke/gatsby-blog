@@ -6,11 +6,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-const BlogList = ({ data, location }) => {
+const BlogList = ({ data, location, pageContext = {} }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-
-  // Get 3 popular posts
+  const { currentPage = 1, numPages = 1 } = pageContext;
   const popularPosts = data.popular.nodes.slice(0, 3)
 
   return (
