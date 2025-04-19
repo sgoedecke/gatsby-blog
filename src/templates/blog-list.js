@@ -15,7 +15,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title={currentPage === 1 ? "All posts" : `Page ${currentPage}`} />
 
       <footer>
         <Bio />
@@ -60,18 +60,31 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </section>
+
+      <nav style={{ marginTop: rhythm(1) }}>
+        {currentPage > 1 && (
+          <Link to={currentPage === 2 ? `/` : `/page/${currentPage - 1}`} rel="prev">
+            ← Newer Posts
+          </Link>
+        )}
+        {currentPage < numPages && (
+          <span style={{ float: "right" }}>
+            <Link to={`/page/${currentPage + 1}`} rel="next">
+              Older Posts →
+            </Link>
+          </span>
+        )}
+      </nav>
     </Layout>
   )
 }
 
-export default BlogIndex
+export default BlogList
 
 export const pageQuery = graphql`
-  query {
+  query blogListQuery($skip: Int!, $limit: Int!) {
     site {
-      siteMetadata {
-        title
-      }
+      siteMetadata { title }
     }
     popular: allMarkdownRemark(
       filter: { frontmatter: { popular: { eq: true } } }
@@ -81,24 +94,21 @@ export const pageQuery = graphql`
       nodes { fields { slug } frontmatter { title } }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___order], order: DESC }
+      sort:   { fields: [frontmatter___order], order: DESC }
       filter: { fields: { collection: { eq: "blog" } } }
+      limit:  $limit
+      skip:   $skip
     ) {
       edges {
         node {
           excerpt
-          fields {
-            slug
-          }
+          fields { slug }
           frontmatter {
-            title
-            description
-            order
-            popular
+            title description order popular
             date(formatString: "MMMM D, YYYY")
           }
         }
       }
     }
   }
-`
+`;
