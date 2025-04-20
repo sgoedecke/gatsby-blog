@@ -143,7 +143,7 @@ I think the strongest anti-AI arguments are:
 
 I don't think these arguments are quite strong enough to justify the vehemence of the anti-AI backlash. It seems to me like much of the backlash is driven by people who really hate tech bros and are predisposed to hate the latest tech fad. But I might be wrong. If you think there's a popular argument against AI that I haven't mentioned or haven't given enough credit to, please email me at 'my full name @gmail.com' and I'll add it to this post.
 
-[^1]: I want to clarify that the dislike of AI is aimed at _generative_ AI in particular: think ChatGPT, not YouTube's recommendation algorithm. We'll come back to that later.
+[^1]: I want to clarify that the dislike of AI is aimed at _generative_ AI in particular: think ChatGPT, not YouTube's recommendation algorithm.
 
 [^2]: The reasons why this is true could be its own blog post (or book).
 
