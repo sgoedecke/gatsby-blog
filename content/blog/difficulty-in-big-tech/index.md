@@ -46,3 +46,5 @@ Startups don't care about marginal features because their success is entirely do
 Why are big tech companies slow? Because they've packed in as many features as possible in order to make more money, and the interaction of existing features adds an unimaginable amount of cognitive load. Some hackers are revolted by this, because they love simple tools that do one thing well. That's a fair reaction. But don't let your revulsion fool you into thinking that big tech companies are full of stupid people.
 
 Capturing value at the margin is really difficult to do well. That's why big tech pays big tech salaries for it!
+
+Edit: there's some interesting discussion about this post on [Lobste.rs](https://lobste.rs/s/ghq0lb/why_are_big_tech_companies_so_slow).
