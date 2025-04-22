@@ -66,13 +66,17 @@ I will admit it does seem pretty inhuman when someone says that they got ChatGPT
 
 The third category of anti-AI argument is that it's bad for the environment. This is the same argument that was (and is) aimed at crypto mining. Like crypto mining, AI training and inference[^3] is orders of magnitude more expensive than running "normal" software, because it requires many operations on GPUs. The idea is that that energy expenditure is accelerating climate change, so AI use is complicit in that.
 
-#### Degrowth vs techno-optimism
+#### Energy usage of AI hyperscalers
 
-A popular pro-AI response here is to point out that almost all the energy being driven into AI datacenters is "clean energy". Indeed, AI hyperscalers are very happy to say that their datacenter buildout is [powered by renewable energy sources](https://www.theverge.com/2024/5/2/24147153/microsoft-ai-data-center-record-renewable-energy-purchase), with the exception of [xAI](https://www.theguardian.com/us-news/2025/apr/09/elon-musk-xai-memphis) (for reasons that should be well understood).
+A popular pro-AI response here is to point out that most of the energy being driven into AI datacenters is "clean energy". Indeed, AI hyperscalers are very happy to say that their datacenter buildout is [powered by renewable energy sources](https://www.theverge.com/2024/5/2/24147153/microsoft-ai-data-center-record-renewable-energy-purchase), with the exception of [xAI](https://www.theguardian.com/us-news/2025/apr/09/elon-musk-xai-memphis) (for reasons that should be well understood).
 
-The most optimistic pro-AI position is that AI is actually good for the environment because it's forcing a huge investment in clean energy. Mitchell Hashimoto had a recent popular [tweet](https://x.com/mitchellh/status/1911519368821031235) about this, saying that the planned nuclear buildout in the US has increased 20-fold in the past eighteen months due to AI demand.
+The most optimistic pro-AI position is that AI is actually good for the environment because it's forcing a huge investment in clean energy. Mitchell Hashimoto had a recent popular [tweet](https://x.com/mitchellh/status/1911519368821031235) about this, saying that the planned nuclear buildout in the US has increased 20-fold in the past eighteen months due to AI demand. Sam Altman has famously invested half a billion dollars in [Helion](https://www.helionenergy.com/articles/announcing-500-million-fundraise/), a speculative fusion startup.
 
-Does this make it all okay? The anti-AI position here is very suspicious of this, as it is suspicious of general big-company clean-energy commitments. I think the big split here is between [degrowthers](https://degrowth.info/degrowth), who believe we should consume less energy in general, and people who are optimistic about the ability of new technologies (improved solar, nuclear, etc) to increase energy consumption while lowering carbon emissions at the same time. If you are a degrowther, AI's energy consumption will always be a problem for you.
+On the other hand, AI usage is also boosting non-clean energy usage (see [Google](https://www.theguardian.com/technology/article/2024/jul/02/google-ai-emissions) and [Microsoft](https://www.visualcapitalist.com/microsofts-electricity-use-has-doubled-between-2020-2023/) both publicly posting 40-50% increases in carbon emissions). Hyperscalers definitely want to use clean energy, but they want to scale more, and will take whatever energy they can get in the meantime[^4].
+
+Should we trust AI hyperscalers to trend towards cleaner energy over time? The anti-AI position here is very suspicious of this, as it is (rightly) suspicious of general big-company clean-energy commitments. It's at least possible that the hyperscalers renege on their promises, particularly when under pressure from China (which is ironically doing a [better job](https://www.eia.gov/todayinenergy/detail.php?id=61927) of clean energy build-out than the West).
+
+Even if we do trust them, there's another split here between [degrowthers](https://degrowth.info/degrowth), who believe we should consume less energy in general, and people who are optimistic about the ability of new technologies (improved solar, nuclear, etc) to increase energy consumption while lowering carbon emissions at the same time. If you are a degrowther, AI's energy consumption will always be a problem for you.
 
 #### How does AI stack up to other energy usage?
 
@@ -88,7 +92,7 @@ The fourth category of anti-AI argument is that AI use is disrespectul to artist
 
 #### Art as a livelihood
 
-One reason to think AI is bad for art is that it may be destroying the livelihoods of artists[^4]. There are many independent artists who exist on commissions - people paying them to draw specific things - and many of those clients are now asking multimodal models like GPT-4o to generate those images instead. AI-generated images have their own problems, but it's hard to compete with the fact that they're free and near-instant.
+One reason to think AI is bad for art is that it may be destroying the livelihoods of artists[^5]. There are many independent artists who exist on commissions - people paying them to draw specific things - and many of those clients are now asking multimodal models like GPT-4o to generate those images instead. AI-generated images have their own problems, but it's hard to compete with the fact that they're free and near-instant.
 
 This is a reasonable argument. I don't know any good direct pro-AI responses. However, it's worth noting that AI is also (maybe) destroying the livelihoods of programmers, so at least the pro-AI programmers have the courage of their convictions - they're going to be automated as well.
 
@@ -149,4 +153,6 @@ I don't think these arguments are quite strong enough to justify the vehemence o
 
 [^3]: Currently training costs are massively higher than inference costs, but that might change as AI uptake increases and the test-time-compute paradigm means inference can grow more expensive.
 
-[^4]: The thrust of this argument seems to mostly be about visual artists. I haven't heard many people say that AI is destroying the livelihoods of writers and poets. 
+[^4]: I am indebted to a reader for providing these sources and making this point salient to me.
+
+[^5]: The thrust of this argument seems to mostly be about visual artists. I haven't heard many people say that AI is destroying the livelihoods of writers and poets. 
