@@ -1,8 +1,8 @@
 ---
-title: Anarchy and the East India Company
+title: Anarchy in the East India Company
 description: 
-order: 56
-date: '2025-03-16'
+order: 72
+date: '2025-04-25'
 ---
 
 I recently read (well, listened to the audiobook of) _The Anarchy: The Relentless Rise of the East India Company_ by William Dalrymple[^1].
