@@ -3,6 +3,7 @@ title: Building LLM-driven agents
 description: How ReAct-pattern agents work and how to build them yourself
 order: 10
 date: '2023-11-26'
+tags: ["ai", "explainers"]
 ---
 
 If you want a large language model like GPT-3 to perform a task for you, the simplest way is to just ask it. Writing out a single prompt with your question is surprisingly effective. But what happens when the task requires capabilities that the language model doesn’t have (like searching the web, writing to files, or performing complex mathematics)? That’s when a ReAct-pattern agent can be helpful.

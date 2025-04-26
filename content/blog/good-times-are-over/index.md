@@ -4,6 +4,7 @@ description:
 order: 56
 popular: true
 date: '2025-03-16'
+tags: ["tech companies"]
 ---
 
 For most of the last decade, being a software engineer has been a lot of fun. Every company offered lots of perks, layoffs and firings were almost unheard of, and in general we were treated as special little geniuses who needed to be pampered so we could work our magic. That's changed in the last two years. The [first round](https://techcrunch.com/2024/05/01/a-comprehensive-archive-of-2023-tech-layoffs/) of tech layoffs in 2023 came as a shock, but at least companies were falling over themselves to offer generous severance and teary CEO letters regretting the necessity. Two years later, Meta is explicitly [branding](https://fortune.com/2025/02/13/meta-low-performer-layoffs-staff-experts-criticism/) its layoffs as "these were our lowest performers, good riddance". What the hell happened?[^1] What does it mean for us?

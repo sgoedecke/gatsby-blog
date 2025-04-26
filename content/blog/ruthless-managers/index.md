@@ -3,6 +3,7 @@ title: In defense of ruthless managers
 description: --
 order: 60
 date: '2025-03-31'
+tags: ["tech companies"]
 ---
 
 There are two kinds of engineering manager: empathetic and ruthless. I think ruthless managers are underrated for a few reasons.

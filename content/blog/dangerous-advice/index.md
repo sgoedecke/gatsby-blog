@@ -3,6 +3,7 @@ title: Dangerous advice for software engineers
 description: --
 order: 62
 date: '2025-04-05'
+tags: ["good engineers", "tech companies"]
 ---
 
 I'm a big fan of "sharp tools". These are tools that are powerful enough to be hugely helpful or harmful, depending on how they're used. Most forms of direct production access are in this category: like ssh or kubectl access, a read-write prod SQL console. It's also possible to give "dangerous advice". Dangerous advice is dangerous because (like sharp tools) it takes competence and judgment to use well. Giving the wrong person dangerous advice is like giving the wrong person production SQL access - they might go off and do something enormously destructive with it.

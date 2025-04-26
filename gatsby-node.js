@@ -23,6 +23,7 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 order
+                tags
               }
             }
           }
@@ -65,6 +66,24 @@ exports.createPages = async ({ graphql, actions }) => {
         skip:  i * postsPerPage,
         numPages,
         currentPage: i + 1,
+      },
+    });
+  });
+
+  // Group posts by tag
+  const tags = new Set();
+  posts.forEach(post => {
+    const postTags = post.node.frontmatter.tags || [];
+    postTags.forEach(tag => tags.add(tag));
+  });
+
+  // Create a page for each tag
+  tags.forEach(tag => {
+    createPage({
+      path: `/tags/${tag.toLowerCase()}/`, // URL format: /tags/javascript/
+      component: path.resolve("./src/templates/tag-page.js"),
+      context: {
+        tag,
       },
     });
   });

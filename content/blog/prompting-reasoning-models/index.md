@@ -3,6 +3,7 @@ title: Advice for prompting reasoning models
 description: Why it's hard and how to do it
 order: 47
 date: '2025-02-23'
+tags: ["ai"]
 ---
 
 I've written about how prompting regular LLMs is [not as important as people think](/beyond-prompting). Reasoning models are different. When you're using reasoning models, the quality of your prompt matters a lot. Why is that?

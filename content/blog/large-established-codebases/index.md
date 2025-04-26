@@ -4,6 +4,7 @@ description: What I've learned from ten years working on projects like this
 order: 23
 popular: true
 date: '2025-01-02'
+tags: ["tech companies", "software design"]
 ---
 
 Working in large established codebases is one of the hardest things to learn as a software engineer. You can't practice it beforehand (no, open source does not give you the same experience). Personal projects can never teach you how to do it, because they're necessarily small and from-scratch. For the record, when I say "large established codebases", I mean:

@@ -3,6 +3,7 @@ title: Grifters, believers, grinders, and coasters
 description: Four archetypes in software engineering
 order: 18
 date: '2024-12-02'
+tags: ["tech companies"]
 ---
 
 Why do engineers get mad at each other so often?[^1] 

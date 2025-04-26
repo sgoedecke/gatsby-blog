@@ -3,6 +3,7 @@ title: When you should lie to the language model
 description: 
 order: 69
 date: '2025-04-21'
+tags: ["ai"]
 ---
 
 Here's an unreasonably effective trick for working with AIs: **always pretend that your work was produced by someone else.**

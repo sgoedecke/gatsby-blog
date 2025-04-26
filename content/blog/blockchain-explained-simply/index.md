@@ -3,11 +3,12 @@ title: Blockchain explained simply
 description: As simple an explanation of blockchain as possible
 order: 6
 date: '2021-04-20'
+tags: ["crypto", "explainers"]
 ---
 
 A blockchain is a distributed database. Bitcoin, Ethereum and Dogecoin are all different databases. A blockchain node is a computer with an entire copy of that database on it (for Bitcoin, a few hundred GB).The Bitcoin blockchain stores a list of every transaction ever made with Bitcoin. People use that to figure out how many Bitcoins they have by replaying all the transactions in the right order. Doing it from scratch takes a while. You don’t need to do it from scratch every time you want to check your balance though, since you can replay all the new transactions on top. If you want to get a copy of the Bitcoin blockchain, any existing node will give you one.
 
-Hashing is a way to turn a lot of content (like a list of a hundred transactions) into a single number (like 43709312103). You can’t turn that number back into the original list, but you can hash the same list of transactions as many times as you want and get the same number. Changing one letter of one transaction in the list will lead to an entirely different hash number.
+Hashing is a way to turn a lot of content (like a list of a hundred transactions) into a single number (like 43709312103). You can’t turn that number back into the original list, but you can hash the same list of transactions as many times as you want and get the same number. Changing one letter of one transaction in the list will lead to an entirely different hash number.
 
 A blockchain stores transactions in blocks of a hundred or so transactions at a time. Each new block is hashed alongside the hash result of the most recent block. This means anyone can verify that the entire chain of transactions hasn’t been tampered with. You can start from the first block of transactions, hash that, then hash the next block with the hash of the first block, and so on. If someone has snuck a transaction record into their copy of the blockchain (that transfers them a million Bitcoins) the hashes won’t match up and their chain won’t be valid.
 

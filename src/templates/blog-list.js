@@ -63,7 +63,22 @@ const BlogList = ({ data, location, pageContext = {} }) => {
                   </Link>
                 </h3>
               </header>
-              <p> {node.frontmatter.date} </p>
+
+              <p> 
+
+                {node.frontmatter.date}
+
+                {node.frontmatter.tags && (
+                  <>
+                    &nbsp;│ {node.frontmatter.tags.map((tag, index) => (
+                      <React.Fragment key={tag}>
+                        <Link to={`/tags/${tag.toLowerCase()}/`}>{tag}</Link>
+                        {index < node.frontmatter.tags.length - 1 && ", "}
+                      </React.Fragment>
+                    ))}
+                  </>
+                )}
+              </p>
             </article>
           )
         })}
@@ -72,13 +87,13 @@ const BlogList = ({ data, location, pageContext = {} }) => {
       <nav style={{ marginTop: rhythm(1) }}>
         {currentPage > 1 && (
           <Link to={currentPage === 2 ? `/` : `/page/${currentPage - 1}`} rel="prev">
-            ← Newer Posts
+            ← Newer Posts
           </Link>
         )}
         {currentPage < numPages && (
           <span style={{ float: "right" }}>
             <Link to={`/page/${currentPage + 1}`} rel="next">
-              Older Posts →
+              Older Posts →
             </Link>
           </span>
         )}
@@ -114,6 +129,7 @@ export const pageQuery = graphql`
           frontmatter {
             title description order popular
             date(formatString: "MMMM D, YYYY")
+            tags
           }
         }
       }

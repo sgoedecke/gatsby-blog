@@ -3,6 +3,7 @@ title: Engineers should state the obvious
 description: --
 order: 57
 date: '2025-03-20'
+tags: ["good engineers"]
 ---
 
 One surprising thing I've learned from writing this blog is that I should worry a lot less about saying things that seem obvious. A lot of my posts that have resonated the most with readers are points that I almost didn't make because I felt like everyone already knew them:

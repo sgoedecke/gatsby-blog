@@ -3,6 +3,7 @@ title: Why are big tech companies so slow?
 description: It's not incompetence or process, it's thousands of feature interactions
 order: 33
 date: '2025-01-24'
+tags: ["tech companies"]
 ---
 
 Big tech companies spend a lot of time and money building things that a single, motivated engineer could build in a weekend. This fact puzzles a lot of people who don't work in big tech. Often those people share theories about why this is true:

@@ -3,6 +3,7 @@ title: Blockchain for beginners
 description: A brief explanation of how blockchains work for developers
 order: 5
 date: '2020-07-29'
+tags: ["crypto", "explainers"]
 ---
 
 # Introduction

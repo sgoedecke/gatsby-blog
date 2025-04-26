@@ -3,6 +3,7 @@ title: Why some engineers get trusted with high-impact work
 description: Thoughts on building and maintaining trust with very senior managers
 order: 19
 date: '2024-12-22'
+tags: ["tech companies", "good engineers"]
 ---
 
 It's fun and rewarding to work on critical tasks. But there's only so much important work to go around. Worse still, the chances to work on these projects are unevenly distributed, because often this work is done by hand-picked teams. I've been on a fair few of those. What gets an engineer put on that list?

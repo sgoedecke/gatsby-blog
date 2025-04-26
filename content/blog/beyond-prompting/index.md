@@ -3,6 +3,7 @@ title: Using LLMs effectively isn't about prompting
 description: It's about building a sense of what LLMs do well
 order: 45
 date: '2025-02-21'
+tags: ["ai"]
 ---
 
 When people talk about using language models effectively, they mainly talk about prompting: sharing great prompts, lists of tips for prompting, or courses on becoming a "prompt engineer". It's true that prompting is a surprisingly effective way to get more out of LLMs. Small variations in prompts can make a big difference in the LLM output. There really are general rules (put your question first and your context last, for instance)[^1]. However, when I use LLMs, I rarely think about prompting.

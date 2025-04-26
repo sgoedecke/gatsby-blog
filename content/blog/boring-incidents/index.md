@@ -3,6 +3,7 @@ title: Keep incidents boring
 description: 'The internet is full of war stories, but almost no incidents are like that'
 order: 4
 date: '2021-04-20'
+tags: ["tech companies"]
 ---
 
 The internet is full of exciting incident war stories. Tough engineering problems, solved under pressure by sleep-deprived developers. In an industry where the best code is usually the most boring implementation, it’s nice to think that there’s at least one place where hacking up a cool idea is heroic rather than irresponsible. For some engineers, me included, being on-call has a really seductive appeal. Working under pressure is fun, and there’s a lot of immediate validation in being the one who figures an incident out. Other people have written a lot about the problems with this hero-mentality: both for the engineer, who rapidly becomes a single point of failure and burns out, and for the organisation, which incentivises incident _response_ rather than incident _prevention_. I agree with all of that. But I think the prevalence of war stories also misrepresents what it’s like to be an effective incident responder. *Almost no incidents are interesting.* High-pressure, yes, but typically boring from an engineering perspective.

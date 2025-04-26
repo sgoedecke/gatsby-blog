@@ -3,6 +3,7 @@ title: The OpenAI house style is exhausting
 description: 
 order: 70
 date: '2025-04-25'
+tags: ["ai"]
 ---
 
 I was reading this [Reddit post](https://old.reddit.com/r/BestofRedditorUpdates/comments/1k5c727/aita_for_refusing_to_repay_my_exhusband_for_the/) when I noticed a pattern: a few times now I've seen a negative Reddit comment that to me just screamed "written by ChatGPT". Here it is, in full:

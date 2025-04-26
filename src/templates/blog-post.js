@@ -28,6 +28,19 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {post.frontmatter.title}
           </h1>
         </header>
+        
+        {post.frontmatter.tags && (
+          <p>
+            Tags:{" "}
+            {post.frontmatter.tags.map((tag, index) => (
+              <React.Fragment key={tag}>
+                <Link to={`/tags/${tag.toLowerCase()}/`}>{tag}</Link>
+                {index < post.frontmatter.tags.length - 1 && ", "}
+              </React.Fragment>
+            ))}
+          </p>
+        )}
+
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <p> {post.frontmatter.date} </p>
         <hr
@@ -89,6 +102,7 @@ export const pageQuery = graphql`
         title
         description
         date(formatString: "MMMM D, YYYY")
+        tags
       }
     }
   }

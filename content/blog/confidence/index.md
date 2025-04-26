@@ -3,6 +3,7 @@ title: I don't know how to build software and you don't either
 description: Overconfidence about the big questions in software engineering
 order: 17
 date: '2024-11-20'
+tags: ["good engineers"]
 ---
 
 Are microservices better than monoliths? Should teams set their own technical direction, or is it better to have that dictated by some external architect? Should you write long-term complex projects in an untyped language? If you're on the internet for ten seconds, you'll see many engineers who argue about these topics as if the answer was obvious.

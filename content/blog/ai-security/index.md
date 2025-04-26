@@ -3,6 +3,7 @@ title: Principles for coding securely with LLMs
 description: 
 order: 67
 date: '2025-04-15'
+tags: ["ai", "software design"]
 ---
 
 Writing code with LLMs is fundamentally different from other ways of programming. LLMs are often non-deterministic and always unpredictable. They have a capability that no other technology can match: the ability to interface with natural language. What does that mean for security?

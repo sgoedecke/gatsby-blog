@@ -3,6 +3,7 @@ title: Thinking like a LLM
 description: How LLMs approach problems, and what we can learn from it
 order: 43
 date: '2025-02-15'
+tags: ["ai"]
 ---
 
 Large language models have gotten much better at thinking in the past few years[^1]. Billions of dollars have been spent to study how they think and how they can be made to think better. It would be surprising if none of those insights applied to how humans think. What can we learn about thinking from how LLMs think?

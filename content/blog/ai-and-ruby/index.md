@@ -3,6 +3,7 @@ title: The future of AI is Ruby on Rails
 description: --
 order: 58
 date: '2025-03-20'
+tags: ["ai"]
 ---
 
 Large language models are very good at generating and editing code. Right now, it's probably the "killer app" of AI: the companies actually making money from language models - like GitHub Copilot, Cursor, Windsurf - are all doing code generation.
