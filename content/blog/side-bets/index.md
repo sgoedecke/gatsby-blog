@@ -3,7 +3,7 @@ title: Senior engineers should make side bets
 description: 
 order: 71
 date: '2025-04-25'
-tags: ["good engineers"]
+tags: ["good engineers", "shipping"]
 ---
 
 When you're a junior, you should work on what you're given. There are two reasons for this. First, your work needs to be supervised and checked by a more experienced engineer, and if you go and work on random things it makes it hard for that engineer to stay across what you're doing. Second, the way for a junior to build reputation and get promoted is to crush the task in front of them. 

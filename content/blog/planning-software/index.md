@@ -3,7 +3,7 @@ title: Designing software that could possibly work
 description: 
 order: 66
 date: '2025-04-14'
-tags: ["software design"]
+tags: ["software design", "shipping"]
 ---
 
 Whenever anyone describes a piece of software to me, I think about how I would build it. Software engineers do this a lot, but many of them don't do it very well. I know that because I see a lot of technical discussions about specific details in a general plan _that could not possibly work_. For instance, arguing about whether to use prop-drilling or context-passing to supply a piece of data to the frontend that we do not and will never have access to, or the exact persistent-data-storage strategy to implement in a backend service that must remain stateless.
