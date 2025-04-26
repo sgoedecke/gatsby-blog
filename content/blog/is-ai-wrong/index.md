@@ -3,7 +3,7 @@ title: Is using AI wrong? A review of six popular anti-AI arguments
 description: 
 order: 68
 date: '2025-04-20'
-tags: ["ai"]
+tags: ["ai", "ethics"]
 ---
 
 Some people really, really don't like AI. Broadly speaking, being anti-AI is a popular left-wing position: AI[^1] is cringe, it's plagiarism, it's stunting real growth, it's killing the environment, it's destroying the careers of artists and creatives, and so on. Is it wrong to use AI? If so, why is AI bad?
