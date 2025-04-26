@@ -6,7 +6,7 @@ date: '2025-04-27'
 tags: ["shipping", "emotional regulation"]
 ---
 
-Being good at debugging is more useful than being good at writing code - you only write a piece of code once, but you may end up debugging it hundreds of times[^1]. But for some reason, the vast majority of programming content is about writing code well, not about debugging. What's different about debugging?
+Being good at debugging is more useful than being good at writing code - you only write a piece of code once, but you may end up debugging it hundreds of times[^1]. As programmers use more AI-written code, debugging may end up being the _only_ remaining programming skill. But for some reason, the vast majority of programming content is about writing code well, not about debugging. What's different about debugging?
 
 Debugging can be a confusing and emotionally unpleasant process. Writing code involves building neat mental models and fitting them together in satisfying ways. Everything is nicely labeled and accounted for. When something goes wrong, it doesn’t just break your code - it also breaks this comforting illusion of control and understanding. The natural human reaction to this, like with any kind of pain, is to get away from the painful stimulus as quickly as possible: like jerking our hand away from the hot stove, we want to rush right in with a bugfix. In the case of software, this is a bad thing. Debugging is the very time you most need to slow down and reconsider your mental model of the codebase, because if you're debugging it's a good sign that your mental model is broken.
 
