@@ -3,6 +3,7 @@ title: How I decide what to work on at large tech companies
 description: --
 order: 51
 date: '2025-03-01'
+tags: ["good engineers", "tech companies"]
 ---
 
 One of the most important career skills in tech is learning to recognize **what work actually matters**. Many engineers go through their careers without really making that decision. They might speak up for a particular issue in sprint planning now and then, but they don't maintain a mental list of the most important work going on in their team. It's easy to punt that decision to your manager. After all, it's not really your job to decide what projects are important—your job is to execute on projects and speak up for the technical side of things.

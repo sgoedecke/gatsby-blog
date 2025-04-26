@@ -4,6 +4,7 @@ description: Engineering talent is about task-capability, not speed or volume
 order: 20
 date: '2024-12-27'
 popular: true
+tags: ["good engineers", "tech companies"]
 ---
 
 Right now people are blowing up on Twitter about whether the USA needs to import top talent from other countries, and if that means that American home-grown engineering talent is weak. Last month, people were blowing up over a [study](https://x.com/yegordb/status/1859290734257635439) that purported to show that ~9.5% of software engineers do effectively zero work, and are effectively defrauding the company. And for the last ten years, people have been talking and writing about the fabled "10x engineer".

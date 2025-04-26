@@ -3,6 +3,7 @@ title: Thinking clearly about software
 description: To think clearly, think in slow motion
 order: 31
 date: '2025-01-18'
+tags: ["good engineers"]
 ---
 
 You can go a long way as a software engineer without ever managing to think clearly. The feedback loop of writing and running code is so immediate that we can often get by with trial-and-error.

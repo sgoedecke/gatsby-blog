@@ -3,6 +3,7 @@ title: What makes strong engineers strong?
 description: Self-belief, pragmatism, speed, and technical ability
 order: 26
 date: '2025-01-09'
+tags: ["good engineers"]
 ---
 
 As I've [written about before](/weak-engineers), what defines a strong engineer is the ability to do tasks that weaker engineers can't, even with near-unlimited time. But what are the concrete skills or traits that make up that ability? What is it about strong engineers that makes them able to do a much wider range of tasks? In order of importance, I think it's self-belief, pragmatism, speed, and technical ability.

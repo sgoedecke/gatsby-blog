@@ -3,6 +3,7 @@ title: Refactoring to understand and "vibe coding"
 description: --
 order: 55
 date: '2025-03-15'
+tags: ["ai"]
 ---
 
 In the last months, the practice of getting a LLM to build your entire program for you (via Cursor, or Copilot, or just asking ChatGPT) has been dubbed "vibe coding". It works very well. To anyone who's been using LLMs over the last few years, this isn't surprising (though it would be an AGI-tier revelation to an engineer from before GPT-3.5). There are two big, well-known problems with it.

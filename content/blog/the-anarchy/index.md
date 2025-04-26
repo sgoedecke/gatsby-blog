@@ -3,6 +3,7 @@ title: Anarchy in the East India Company
 description: 
 order: 72
 date: '2025-04-25'
+tags: ["book reports"]
 ---
 
 I recently read (well, listened to the audiobook of) _The Anarchy: The Relentless Rise of the East India Company_ by William Dalrymple[^1].

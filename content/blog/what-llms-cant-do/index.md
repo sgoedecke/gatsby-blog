@@ -3,6 +3,7 @@ title: To avoid being replaced by LLMs, do what they can't
 description: What LLMs can't do yet
 order: 44
 date: '2025-02-15'
+tags: ["ai"]
 ---
 
 It's a strange time to be a software engineer. Large language models are very good at writing code and rapidly getting better. Multiple multi-billion dollar attempts are currently being made to develop a pure-AI software engineer. The rough strategy - put a reasoning model in a loop with tools - is well-known and (in my view) seems likely to work. What should we software engineers do to prepare for what's coming down the line?

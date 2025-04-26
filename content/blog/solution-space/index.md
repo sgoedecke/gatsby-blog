@@ -3,6 +3,7 @@ title: Paths through the space of all possible solutions
 description: Some designs are possible and some aren't
 order: 49
 date: '2025-02-26'
+tags: ["software design"]
 ---
 
 Some things you can't do because they're impossible. For instance, if you're designing a distributed system, you can't violate the CAP theorem. Some things you can't do for organizational reasons: for instance, if your company is a Java and C# shop, you can't build a new service in Ruby on Rails. Some things you can't do for personal reasons: if the tech lead on your team is all-in on microservices, you can't design a new feature that bolts a large subsystem into your local monolith. Some reasons are financial: if your system operates at scale, you can't make a ten-cents LLM call in the hot path.

@@ -3,6 +3,7 @@ title: Value over replacement in software engineering
 description: --
 order: 51
 date: '2025-03-01'
+tags: ["good engineers", "tech companies"]
 ---
 
 There are two ways of assessing how much value you're providing as an engineer. The first way is to total up all of the code you've shipped and all of the value that code has provided (e.g. how much money it's made). The second way is to try and figure out what _you specifically_ have done that a replacement-level engineer in your place wouldn't have done. In other words, you can look at your literal **value**, or you can look at your **value over replacement**.

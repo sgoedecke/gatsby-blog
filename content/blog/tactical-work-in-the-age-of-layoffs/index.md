@@ -3,6 +3,7 @@ title: How to work in tech when your job isn't safe
 description: --
 order: 59
 date: '2025-03-28'
+tags: ["tech companies", "zirp"]
 ---
 
 In the glory days of the 2010s, tech companies were very invested in their employees' work-life balance. Those glory days [are over](/good-times-are-over). Anecdotally, tech company executives are now internally directing their employees to work harder and faster, with the new threat of layoffs adding weight to that directive. Engineers are rightfully scared. What should we do?

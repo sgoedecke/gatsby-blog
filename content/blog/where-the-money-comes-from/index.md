@@ -4,6 +4,7 @@ description: How tech companies make money and why it's important
 order: 50
 date: '2025-03-01'
 popular: true
+tags: ["tech companies", "zirp"]
 ---
 
 With the recent flurry of US federal firings, many people are [pointing and laughing](https://www.washingtonpost.com/politics/2025/02/27/fired-federal-worker-trump-voter/) at the Trump-voting federal employees who are just now finding out that they've voted for themselves to be let go. How could you have this poor a mental model of _what your job even is_? Well. In my opinion, many software engineers are operating under a mental model that's just as bad, and are often doing the equivalent of voting for the person promising to fire them.

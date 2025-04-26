@@ -3,6 +3,7 @@ title: How I know I'm working with a strong engineer
 description: Two thoughts that I have
 order: 48
 date: '2025-02-23'
+tags: ["good engineers"]
 ---
 
 There are many ways to judge engineers (lines of code written, how smart they sound, choice of IDE, what projects they've worked on). I think it's pretty uncontroversial that the best ways involve working with them on a project, so you're exposed to the actual details of how they get things done. I realised the other day that I actually have a straightforward heuristic for this. I count the number of times I have this thought:
