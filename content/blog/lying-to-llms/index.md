@@ -18,6 +18,8 @@ Note that the model will naturally assume you've produced any content you're giv
 
 For the last year or so I've run most of my blog posts (and some other internal-facing writing) through a language model. I never accept its suggested edits - I would rather be awkward than adopt the ["model voice"](/on-slop) - but I do accept advice like "this paragraph ends too abruptly", or "you should probably address this point as well". Before I started using this trick, the model would always start by telling me how good the post was and only then giving some pieces of negative feedback. Now it spends the entire response giving me detailed criticism[^2].
 
+edit: Less than 24 hours after I posted this, OpenAI released a new version of 4o that's even more [aggressively sycophantic](https://x.com/sama/status/1915910976802853126).
+
 
 [^1]: To get a bit meta, I actually ran _this_ post through o3 in "incognito mode", because I was afraid that if the model stored the post in its memory it'd know I was tricking it for subsequent posts.
 
