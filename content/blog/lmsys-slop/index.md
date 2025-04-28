@@ -1,5 +1,5 @@
 ---
-title: Why is lmarena.ai dominated by slop?
+title: Why is Chatbot Arena dominated by slop?
 description: 
 order: 65
 date: '2025-04-14'
