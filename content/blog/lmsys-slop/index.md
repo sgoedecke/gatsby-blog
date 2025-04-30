@@ -1,5 +1,5 @@
 ---
-title: Why is Chatbot Arena dominated by slop?
+title: Why are model arena leaderboards dominated by slop?
 description: 
 order: 65
 date: '2025-04-14'
