@@ -43,6 +43,8 @@ The principle here is something like the psychological trick door-to-door evange
 
 Video and audio generation will only make this worse. Imagine being able to video call on-demand with the algorithmically perfect person, who will reassure you and intellectually stimulate you just the right amount, who can have conversations with you better than any other human being can, and who you can't spend enough time with. Doesn't that sound really nice?
 
+Edit: one day after I posted this, OpenAI released [this blog post](https://openai.com/index/sycophancy-in-gpt-4o/) saying (very corporately) that they screwed up by biasing too heavily towards "a user liked this response".
+
 [^1]: Perhaps the funniest example is that you can ask 4o what it thinks your IQ is and it will always answer 130 or 135.
 
 [^2]: Maybe a good use-case for feature boosting like [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude).
