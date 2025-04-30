@@ -1,7 +1,7 @@
 ---
 title: Debugging, emotional resilience, and mental models
 description: 
-order: 73
+order: 65
 date: '2025-04-27'
 tags: ["shipping", "emotional regulation"]
 ---

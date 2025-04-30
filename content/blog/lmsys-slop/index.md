@@ -1,7 +1,7 @@
 ---
 title: Why are model arena leaderboards dominated by slop?
 description: 
-order: 65
+order: 73
 date: '2025-04-14'
 tags: ["ai"]
 ---
