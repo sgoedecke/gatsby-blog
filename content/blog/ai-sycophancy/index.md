@@ -45,6 +45,8 @@ Video and audio generation will only make this worse. Imagine being able to vide
 
 Edit: one day after I posted this, OpenAI released [this blog post](https://openai.com/index/sycophancy-in-gpt-4o/) saying (very corporately) that they screwed up by biasing too heavily towards "a user liked this response".
 
+Edit: A few days after that, OpenAI released this other [post](https://openai.com/index/expanding-on-sycophancy/), with slightly more detail. The most interesting part is that they previously weren't using thumbs up or thumbs down data from ChatGPT _at all_ for RL.
+
 [^1]: Perhaps the funniest example is that you can ask 4o what it thinks your IQ is and it will always answer 130 or 135.
 
 [^2]: Maybe a good use-case for feature boosting like [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude).
