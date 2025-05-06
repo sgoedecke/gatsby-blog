@@ -30,6 +30,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
 
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <p>If you liked this post, consider <a href="https://buttondown.com/seangoedecke" target="_blank">subscribing</a> to email updates about my new posts.</p>
         <p>
           {post.frontmatter.date}
           {post.frontmatter.tags && (
@@ -43,7 +44,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             </>
           )}
         </p>
-        <p>If you liked this post, consider <a href="https://buttondown.com/seangoedecke" target="_blank">subscribing</a> to email updates about my new posts.</p>
         <hr
           style={{
             marginBottom: rhythm(1),
