@@ -47,6 +47,8 @@ Edit: one day after I posted this, OpenAI released [this blog post](https://open
 
 Edit: A few days after that, OpenAI released this other [post](https://openai.com/index/expanding-on-sycophancy/), with slightly more detail. The most interesting part is that they previously weren't using thumbs up or thumbs down data from ChatGPT _at all_ for RL.
 
+I gave a [five-minute interview](https://www.youtube.com/watch?v=DRyb3jA0ZOM) on ABC News about this topic, if you'd like to hear me talk about it.
+
 [^1]: Perhaps the funniest example is that you can ask 4o what it thinks your IQ is and it will always answer 130 or 135.
 
 [^2]: Maybe a good use-case for feature boosting like [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude).
