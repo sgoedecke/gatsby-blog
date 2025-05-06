@@ -1,3 +1,9 @@
+caring an unreasonable amount about software
+
+good engineers write bad code
+
+how good engineers annoy their managers
+
 https://news.ycombinator.com/item?id=43555220
 
 legibility vs depth. in war rooms, need high legibility. investigations need depth 
