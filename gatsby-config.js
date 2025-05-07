@@ -15,7 +15,7 @@ const createFeed = ({ output, title }) => ({
         sort: { order: DESC, fields: [frontmatter___date] },
       ) {
         nodes {
-          excerpt
+          excerpt(pruneLength: 400)
           fields { slug }
           frontmatter {
             title
