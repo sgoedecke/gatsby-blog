@@ -29,6 +29,8 @@ To many, this will be an unsatisfying definition of what it means to get things 
 - So what's "done" mean in that context? It means the company is happy with the state of it
 - Declare victory and walk away: go and do something else!
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43903741) with many comments.
+
 [^1]: In the ideal case, that is. In the non-ideal case, they make a series of changes that suit their personal taste but have no real customer impact.
 
 [^2]: For much more on this, you can go and (somehow) find my favourite book of underappreciated moral philosophy, _Moral Notions_ by Julius Kovesi.
