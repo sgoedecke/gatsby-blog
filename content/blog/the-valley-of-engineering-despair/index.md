@@ -25,6 +25,8 @@ What should you do, then? **Slow down and take one problem at a time.** Once you
 
 But really, specific advice about going through the valley is beside the point. The main point is to **expect to despair at some point in an engineering project**, and to make sure you don't panic when it happens.
 
+edit: this post was discussed on [r/ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs/comments/1kg5fg2/the_valley_of_engineering_despair/) (which in my view is the best Reddit software engineering community by a large margin).
+
 [^1]: In fact, I believe in general that a huge part of being a strong engineer is good [emotional regulation](/worry-driven-development).
 
 [^2]: Incidentally, this is excellent life advice in general.
