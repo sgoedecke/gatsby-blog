@@ -1,3 +1,13 @@
+how projects fail at large tech companies
+ -- doomed from the start (bad plan, or over-ambitious with not wide enough support)
+ -- change of leadership (esp for multi year projects)
+ -- just bad luck, a bet that didn't pan out
+ -- no leadership or early success, so flail until killed
+ -- one high profile mistake taints the whole thing (e.g. bad availability incident)
+ -- lack of commitment, not enough weight thrown behind a promising start
+ -- death by a thousand cuts - initial good idea diluted by mandatory changes from people who don't get it or don't really care, eventually the original good idea haver leaves in disgust. - idea here is you need lots of buy in to get something off the ground, but people buy in for their own reasons which always comes with strings
+
+
 caring an unreasonable amount about software
 
 good engineers write bad code
