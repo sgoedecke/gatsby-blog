@@ -10,4 +10,6 @@ Caring a lot about your job is a double-edged sword. I love working as a softwar
 
 ### Why caring a lot is a superpower
 
-When you care about what you're building, part of your mind is always thinking about it. In my experience, there's no other way to do great work. The best ideas come in the shower, or when you're going for a walk, or at other non-work times - if you're not thinking about work at all outside your working hours, you'll miss those moments. 
+When you care about what you're building, part of your mind is always thinking about it. In my experience, there's no other way to do great work. The best ideas come in the shower, or when you're going for a walk, or at other non-work times - if you're not thinking about work at all outside your working hours, you'll miss those moments[^1]. 
+
+[^1]: Of course, if you're _only_ thinking about work, you're going too far in the other direction.

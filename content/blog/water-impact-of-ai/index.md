@@ -52,3 +52,5 @@ That original statistic - 500ml per conversation - was wrong at the time (since 
 Training is a different topic, with much more substantial water costs. If you wanted to say AI was unethical for emissions-based reasons, I think that's the point you'd want to push on. But I'll leave an analysis of that to someone else.
 
 (For future reference, this post was written in October 2024.)
+
+Edit: If you enjoyed this post, you may also enjoy [Is using AI wrong? A review of six popular anti-AI arguments](/is-ai-wrong), where I go into more detail about other anti-AI arguments (some good, some bad).
