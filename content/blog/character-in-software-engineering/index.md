@@ -1,22 +1,22 @@
 ---
-title: The importance of character in software engineering
+title: The importance of virtue in software engineering
 description: 
 order: 79
 date: '2025-05-10'
 tags: ["emotional regulation", "good engineers"]
 ---
 
-Software engineers care a lot about being smart and knowledgeable. Conversations about how to become a better software engineer often center around learning more facts: programming language syntax, design patterns, details of how particular technologies work, and so on. It's also undeniable that having a strong working memory is really useful, if only so you can fit more of a codebase in your head. However, there's a whole other dimension to being a strong software engineer that doesn't get talked about as much: character.
+Software engineers care a lot about being smart and knowledgeable. Conversations about how to become a better software engineer often center around learning more facts: programming language syntax, design patterns, details of how particular technologies work, and so on. It's also undeniable that having a strong working memory is really useful, if only so you can fit more of a codebase in your head. However, there's a whole other dimension to being a strong software engineer that doesn't get talked about as much: virtue.
 
-What do I mean by character? I mean _the kind of person you are_: the quality of your internal self. For want of a better word, your "virtue" or "moral fiber". In my experience, **people with good character are dramatically more effective software engineers**.
+What do I mean by virtue? I mean _the kind of person you are_: the quality of your internal self. For want of a better word, your "character" or "moral fiber". In my experience, **people with good character are dramatically more effective software engineers**.
 
-There are approximately one million books about learning software engineering skills and approximately zero books about software engineering character. It's a bit unfashionable today to talk about character, for some reason. Maybe because it's harder to quantify, or because it feels too personal. But it's still important. I have worked with very, very smart engineers who were held back by their character. 
+There are approximately one million books about learning software engineering skills and approximately zero books about software engineering character. It's a bit unfashionable today to talk about virtue, for some reason. Maybe because it's harder to quantify, or because it feels too personal. But it's still important. I have worked with very, very smart engineers who were held back by their lack of virtue. 
 
 ### Emotional regulation
 
 One of the points I make [a lot](/tags/emotional%20regulation/) on this blog is that **managing your own emotions is a core part of being a software engineer**. Many engineers avoid work that needs doing [because they're afraid](/worry-driven-development). If they instead actively sought out work that scared them, they'd have much greater impact - no need to write better code or learn new technical skills. Being a good debugger is all about developing a strong [tolerance to confusion](/debugging). And every single project has a period where it feels like it's going to be a disaster. You have to [power through that](/the-valley-of-engineering-despair) to ship anything.
 
-Whatever "good character" is, the ability to manage your emotions instead of being ruled by them is a key part of it. That idea goes all the way back to Plato, who thought that a virtuous person's reason should guide their passions like a human driving a chariot. Many people now think it's more complicated than that (e.g. the distinction between reason and passions is itself a bit fuzzy), but the general point is still pretty uncontroversial. Being unable to regulate your emotions as a software engineer harms each PR you put up.
+Whatever "virtue" or "good character" is, the ability to manage your emotions instead of being ruled by them is a key part of it. That idea goes all the way back to Plato, who thought that a virtuous person's reason should guide their passions like a human driving a chariot. Many people now think it's more complicated than that (e.g. the distinction between reason and passions is itself a bit fuzzy), but the general point is still pretty uncontroversial. Being unable to regulate your emotions as a software engineer harms each PR you put up.
 
 ### Keeping a cool head in a crisis
 
