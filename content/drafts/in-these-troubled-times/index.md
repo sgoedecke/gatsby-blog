@@ -1,11 +1,11 @@
 ---
-title: Working in tech after the vibe shift
+title: Practical advice for software engineers in the downturn
 description: 
 order: 56
 date: '2025-03-16'
 ---
 
-Since 2023, the rise of interest rates has caused a sea change in how software companies relate to their engineers. It's harder to be a software engineer now than at any time in the last decade. [The good times in tech are over](/good-times-are-over), at least for now. What does that mean for engineers like me, who joined the industry in the 2010s?
+Since 2023, the rise of interest rates has caused a sea change in how software companies relate to their engineers. It's harder to be a software engineer now than at any time in the last decade. [The good times in tech are over](/good-times-are-over), at least for now. It's not just a tough job _market_, but a tough environment for already-employed software engineers. What can we do about it?
 
 ### It's time to reevaluate the way you work
 
@@ -15,7 +15,7 @@ For instance, it was a good strategy during the 2010s to lean into widely-visibl
 
 ### Prepare for layoffs and firings
 
-That leads into the second point, which is that **layoffs are now much more common**. Companies that never laid off employees at any point in the 2010s are now beginning to lay people off yearly. Companies that did have a steady stream of layoffs are now increasing the volume. Anecdotally, PIPs[^2] are both more common and more serious: if you don't show substantial improvement, you're unlikely to be able to wriggle out of it like you could before.
+That leads into the second point, which is that **layoffs are now much more common**. Companies that never laid off employees in the 2010s are now beginning to lay people off yearly. Companies that did have a steady stream of layoffs are now increasing the volume. Anecdotally, PIPs[^2] are both more common and more serious: if you don't show substantial improvement, you're unlikely to be able to wriggle out of it like you could before.
 
 In the before times, layoffs were treated as traumatic events, akin to natural disasters. Engineers were not expected to be productive in the weeks immediately after a layoff. The priority was on reassuring engineers that this one-off event was over. Today, layoffs are business as usual. You will now (or very soon) be expected to work through them. That means you'll have to conceal much of your emotional reaction, instead of being able to process it in the workplace.
 
