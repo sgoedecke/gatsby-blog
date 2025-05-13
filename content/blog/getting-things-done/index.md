@@ -2,6 +2,7 @@
 title: Getting things "done" in large tech companies
 description: --
 order: 76
+popular: true
 date: '2025-05-06'
 tags: ["shipping", "tech companies"]
 ---
