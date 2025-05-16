@@ -3,7 +3,7 @@ const createFeed = ({ output, title }) => ({
     const formatDate = date => new Date(date).toUTCString();
     return allMarkdownRemark.nodes.map(node => ({
       title: node.frontmatter.title,
-      description: node.excerpt,
+      custom_elements: [{ "content:encoded": node.html }],
       date: formatDate(node.frontmatter.date),
       url: site.siteMetadata.siteUrl + node.fields.slug,
       guid: site.siteMetadata.siteUrl + node.fields.slug,
@@ -15,7 +15,7 @@ const createFeed = ({ output, title }) => ({
         sort: { order: DESC, fields: [frontmatter___date] },
       ) {
         nodes {
-          excerpt(pruneLength: 1000)
+          html
           fields { slug }
           frontmatter {
             title
