@@ -13,6 +13,7 @@ const createFeed = ({ output, title }) => ({
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] },
+        limit: 30
       ) {
         nodes {
           html
