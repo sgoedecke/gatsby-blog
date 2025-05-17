@@ -1,8 +1,9 @@
 ---
-title: Practical advice for software engineers in the downturn
+title: Practical advice for engineers in these troubled times
 description: 
-order: 56
-date: '2025-03-16'
+order: 82
+date: '2025-05-17'
+tags: ["tech companies"]
 ---
 
 Since 2023, the rise of interest rates has caused a sea change in how software companies relate to their engineers. It's harder to be a software engineer now than at any time in the last decade. [The good times in tech are over](/good-times-are-over), at least for now. It's not just a tough job _market_, but a tough environment for already-employed software engineers. What can we do about it?

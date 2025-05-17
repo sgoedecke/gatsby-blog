@@ -1,4 +1,8 @@
 
+https://boydkane.com/essays/experts
+paths through the space of possible solutions
+
+
 ### Hedgehogs and foxes
 
 In 1941, Joseph Juran coined the Pareto Principle: that df. In 1953 Isaiah Berlin popularized the idea that "a fox knows many things, but a hedgehog knows one big thing"[^1].
