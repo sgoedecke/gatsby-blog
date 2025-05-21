@@ -42,6 +42,8 @@ It's also possible that some users might get used to AI patience and be frustrat
 
 As software engineers, we're focused on how language models can help (or supplant) knowledge work. We're obsessed with smarter and smarter models. But it may be that one of the most transformative capabilities of language models is already here. Until the early 2020s, everything that could talk could also run out of patience - or at the very least need to sleep, or eat, or do things besides talk. There has never been a time in human history where every human could talk with something infinitely patient. Patience has become "too cheap to meter".
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44013406).
+
 [^1]: Impressive, considering the sheer inertia of how many Wikipedia backlinks exist on the internet at this point.
 
 [^2]: Incidentally, I think superhuman patience (more than intelligence) is also one of the reasons why LLMs are so effective as tutors.

@@ -89,6 +89,10 @@ How do you turn embeddings back into text? There's no obvious way. If you just t
 - Video diffusion works the same way as image diffusion, but it's harder for the model to learn because it requires tracking consistency over time
 - Text diffusion is weird because you can't easily add noise to language, and if you convert to embeddings before adding noise it's hard to reliably convert back
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44029435) with lots of comments.
+
+edit: Wow, Google released [Gemini Diffusion](https://deepmind.google/models/gemini-diffusion/) less than 24 hours after I published this post - supposedly a state-of-the-art text diffusion model. 
+
 [^1]: In concrete terms, you update the model's weights via backpropagation so that the weights that lead to accurate predictions get reinforced and the weights that don't get adjusted.
 
 [^2]: In practice, you need a special kind of sampler to avoid having visible ugly noise in your image.
