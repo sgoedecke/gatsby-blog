@@ -3,7 +3,7 @@ title: Diffusion models explained simply
 description: 
 order: 84
 date: '2025-05-19'
-tags: ["ai", "explainers"]
+tags: ["ai", "explainers", "diffusion"]
 ---
 
 Transformer-based large language models are relatively easy to understand. You break language down into a finite set of "tokens" (words or sub-word components), then train a neural network on millions of token sequences so it can predict the next token based on all the previous ones. Despite some clever tricks (mainly about how the model processes the previous tokens in the sequence), the core mechanism is relatively simple.
@@ -88,6 +88,8 @@ How do you turn embeddings back into text? There's no obvious way. If you just t
 - The operating model is very different from transformers: not sequence-based, operates on previous outputs, and can in principle be sped up or stopped early
 - Video diffusion works the same way as image diffusion, but it's harder for the model to learn because it requires tracking consistency over time
 - Text diffusion is weird because you can't easily add noise to language, and if you convert to embeddings before adding noise it's hard to reliably convert back
+
+edit: I should have said "autoregressive LLMs" instead of "transformers" throughout this post, since diffusion models can and do use transformers as the internal model for the denoising step. I don't think this changes any of the points I made here, but I want to include this note to avoid confusion.
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44029435) with lots of comments.
 
