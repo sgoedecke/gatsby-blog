@@ -25,7 +25,9 @@ Now we can articulate exactly what an AI model is doing (in fact, the _only_ thi
 That's it! By itself, it seems kind of basic. How does that add up to something you can actually talk to? Well, when you go and talk to ChatGPT, it has a bunch of pre-written text in the conversation (called the "system prompt"). It might look something like this[^4]:
 
 > You are a helpful AI assistant called ChatGPT. You take the "assistant" parts in this conversation.
+
 > User: [whatever first message you've sent, e.g. "Hi"]
+
 > Assistant: 
 
 If you were predicting the next word in that text, it would probably be something like "Hello". ChatGPT predicts the same way you do, which is why when you say "Hi" it says hi right back. If your first message instead was "Where is Paris?", the next word would instead probably be something like "Paris" (and then "is", "in", "France", and so on). When you talk to ChatGPT, the messages you're seeing are whatever is filled into those "User:" and "Assistant:" parts.
