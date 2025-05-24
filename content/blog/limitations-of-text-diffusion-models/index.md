@@ -58,6 +58,8 @@ However, from the perspective of an AI developer (instead of someone training mo
 - It's unclear how easy it is to build a reasoning model on top of diffusion. I bet there's some really interesting private research going on here at AI labs. Intuitively, they won't do chain-of-thought reasoning as nicely as autoregressive models, but there might be other approaches available to spend test-time-compute here
 - Diffusion models can and do use transformers, but it doesn't make them operate like autoregressive models at all
 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44060533).
+
 [^1]: Of course, a diffusion model with a 256 token output size can output fewer tokens (e.g. by generating some real tokens and filling the rest of the output window with blank tokens). It can also generate more tokens by making multiple passes, each of which generates 256 tokens at a time.
 
 [^2]: Here I'm assuming that the diffusion model is using a transformer as the denoising model. See a later section of this post for more detail on that.
