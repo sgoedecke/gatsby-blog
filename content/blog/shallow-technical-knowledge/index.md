@@ -1,9 +1,9 @@
 ---
 title: In defense of shallow technical knowledge
 description: 
-order: 78
+order: 88
 date: '2025-05-25'
-tags: []
+tags: ["good engineers"]
 ---
 
 Whenever a new piece of technology comes out (these days, mostly AI) I go to some effort to understand it. Usually I end up writing [a post](/tags/explainers) about it, so I can be confident that I do understand[^1].
