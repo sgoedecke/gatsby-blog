@@ -1,15 +1,11 @@
+ don't respond point by point!
+ 
  integrations! oxide podcast
  
  a database is a store for global variables
  
  what is inference time compute?
  
- https://old.reddit.com/r/ExperiencedDevs/comments/1kt5cw2/what_part_of_your_work_is_difficult_to_debug_and/mtqwqwy/
- When to respect channels and when to ignore them
- Respect strategically for work you don't want to do
- Ignore for work you do want to do (side bets, critical work)
- Ignoring repeatedly makes you a target for predators
- Don't ignore repeatedly and then complain about being DMd (your manager will if you don't)
 
 https://boydkane.com/essays/experts
 paths through the space of possible solutions

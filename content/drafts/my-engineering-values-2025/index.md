@@ -17,7 +17,9 @@ What's changed, almost five years later? A lot has happened since 2021.
 * I went through the staff engineer promotion process [for a second time](/staff-engineer-promotions).
 * Finally, this [blog](/on-writing) really took off, after [this post](/how-to-ship) - thanks to that, I've now been on [podcasts](https://www.youtube.com/watch?v=IekJKQ-AvkM&t=1s&pp=ygUNc2VhbiBnb2VkZWNrZQ%3D%3D) and even Australian national [news](https://www.youtube.com/watch?v=DRyb3jA0ZOM&pp=ygUNc2VhbiBnb2VkZWNrZQ%3D%3D)
 
-The biggest change in my engineering values is that **I no longer want to work on maintaining existing systems**. I still love that kind of work, but in 2025 it's just not sensible to try and position yourself like that. Existing systems - even ones beloved by users - are never tech companies' top priority. They're always going to be fertile ground for layoffs and cutbacks. In the 2010s, you could carve out a really good career optimizing and lovingly maintaining this stuff. Now you can't.
+### Engineering
+
+The biggest change in my engineering values is that **I no longer want to work on maintaining existing legacy systems**. I still love that kind of work, but in 2025 it's just not sensible to try and position yourself like that. Legacy systems - even ones beloved by users - are never tech companies' top priority. They're always going to be fertile ground for layoffs and cutbacks. In the 2010s, you could carve out a really good career optimizing and lovingly maintaining this stuff. Now you can't.
 
 Instead, **I want to work on projects that are top-of-mind for company leadership**. Put me under [the spotlight](/the-spotlight)! As it turns out, the way I work is very well-suited to that:
 
@@ -25,5 +27,8 @@ Instead, **I want to work on projects that are top-of-mind for company leadershi
 * I'm good at carving out time for myself while under pressure, so (at least so far) I'm pretty resistant to burnout
 * I don't emotionally invest in any implementation, so I'm happy to pivot on a dime and keep moving
 
+### Organization
+
+I still feel mostly the same about organizations
 
 [^1]: That was a very informative (and formative) experience. I'd love to write about it in another five years.

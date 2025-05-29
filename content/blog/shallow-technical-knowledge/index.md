@@ -68,4 +68,6 @@ I find language models to be also very useful for checking my results. When I wr
 - Writing down your understanding is very useful because it forces you to articulate things
 - It also allows you to fact-check with a language model, which I've found very useful 
 
+edit: This article was posted on [Hacker News](https://news.ycombinator.com/item?id=44087195) with lots of comments.
+
 [^1]: Partly because the act of writing is useful for clarifying my thoughts, and partly because producing a written artifact means I can trivially ask o3 "hey, what did I miss?".
