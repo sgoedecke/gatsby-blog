@@ -1,3 +1,7 @@
+ its not your codebase
+ accept debt
+ effactors for ownershuo\
+ 
  don't respond point by point!
  
  integrations! oxide podcast
