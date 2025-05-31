@@ -2,7 +2,7 @@
 title: Why DeepSeek is cheap at scale but expensive to run locally
 description: 
 order: 90
-date: '2025-06-1'
+date: '2025-06-01'
 tags: ["ai", "explainers", "deepseek"]
 ---
 
