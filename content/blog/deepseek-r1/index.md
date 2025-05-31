@@ -3,7 +3,7 @@ title: What did DeepSeek figure out about reasoning with DeepSeek-R1?
 description: RL-based reasoning instead of SFT on millions of traces
 order: 36
 date: '2025-01-26'
-tags: ["ai", "explainers"]
+tags: ["ai", "explainers", "deepseek"]
 ---
 
 The Chinese AI lab[^1] DeepSeek recently released their new reasoning model R1, which is supposedly (a) better than the current best reasoning models (OpenAI's o1- series), and (b) was trained on a GPU cluster a fraction the size of any of the big western AI labs. Unlike the big western AI labs, they've released a [paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) explaining what they did.

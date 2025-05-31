@@ -3,7 +3,7 @@ title: Are DeepSeek's new models really that fast and cheap?
 description: People are too confident that DeepSeek V3/R1 are 10x cheaper than 4o/o1
 order: 38
 date: '2025-01-31'
-tags: ["ai"]
+tags: ["ai", "deepseek"]
 ---
 
 Everyone's saying that DeepSeek's latest models represent a significant improvement over the work from American AI labs. If they're not quite state-of-the-art, they're close, and they're supposedly an order of magnitude cheaper to train and serve. The discourse has been about _how_ DeepSeek managed to beat OpenAI and Anthropic at their own game: whether they're cracked low-level devs, or mathematical savant quants, or cunning CCP-funded spies, and so on. But is the basic assumption here even true? Are DeepSeek-V3 and DeepSeek-V1 really cheaper, more efficient peers of GPT-4o, Sonnet and o1?
