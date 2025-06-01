@@ -3,6 +3,7 @@ title: Why DeepSeek is cheap at scale but expensive to run locally
 description: 
 order: 90
 date: '2025-06-01'
+popular: true
 tags: ["ai", "explainers", "deepseek"]
 ---
 
@@ -75,6 +76,7 @@ Another idea: if you need ticks for the attention step, why not just have a tick
   - OpenAI/Anthropic have some very clever tricks for serving inference, or
   - they're paying through the nose for way more GPUs than they strictly need
 
+edit: This was posted on [Hacker News](https://news.ycombinator.com/item?id=44149238) with a bunch of comments. I kind of wish I'd titled this post differently - it's not really about running models on your own computer. It's about running the models for personal use, _assuming you have all the GPUs_ (i.e. the batching/throughput tradeoff).
 
 [^1] One commonly-observed strength of transformers is that they can batch _prefill_ within a single user request. When you pass them a long prompt, they can process that prompt all at once because of how the attention mechanism works. Previous recurrent models had to go token-by-token, which was much slower (because it involved many more GEMMs). **This has nothing to do with the kind of batching I'm talking about in this post**. I'm talking about how you can efficiently batch _inference_ across many different user requests once the prefilling is complete.
 
