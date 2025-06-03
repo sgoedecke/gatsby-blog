@@ -7,9 +7,13 @@ tags: ["good engineers", "ai"]
 ---
 
 > John Henry told his captain
+>
 > A man ain't nothing but a man
+>
 > But before I let your steam drill beat me down
+>
 > I'd die with a hammer in my hand, Lord, Lord
+>
 > I'd die with a hammer in my hand
 
 The story of John Henry is a famous [American fable](https://www.youtube.com/watch?v=ZdkL-YGEpq0) about pride. To build railroad tunnels, men would hammer a chisel-like drill into the mountain rock, so that explosives could be placed inside for blasting. John Henry, a "steel-driving man", couldn't accept that a steam-powered drill could hammer better than him. He proved his point by outworking the machine - only to die from exhaustion with a hammer in his hand.
