@@ -85,4 +85,4 @@ I don't want to overstate how much we know about AI models. The concepts and cir
 
 [^2]: I'm only going to talk about the [research](https://transformer-circuits.pub/) by Anthropic. There are other AI researchers and other papers, but it seems to me that Anthropic are doing by far the most successful work in this space.
 
-[^3] In theory you could record every layer in one model, but features would look different in each one, so you may as well train a different SAE per-layer.
+[^3]: In theory you could record every layer in one model, but features would look different in each one, so you may as well train a different SAE per-layer.
