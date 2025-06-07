@@ -1,3 +1,7 @@
+could you do large scale embedding lookups with a bloom filter
+
+what will the first big ai disaster look like? agents etc
+
 explainers:
 
 
