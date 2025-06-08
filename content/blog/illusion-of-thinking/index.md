@@ -32,11 +32,9 @@ Overall the paper concludes:
 - There is likely an "inherent compute scaling limit" in reasoning models, shown by the fact that they give up past a certain complexity point
 - Reasoning models are bad at computational tasks, since giving them the algorithm didn't help
 
-### Problems with the paper
-
 I have a few issues with this paper. First, I don't think Tower of Hanoi puzzles (or similar) are a useful example for determining reasoning ability. Second, I don't think the complexity threshold of reasoning models is necessarily fixed. Third, I don't think that the existence of a complexity threshold means that reasoning models "don't really reason".
 
-#### Puzzles aren't a good example
+### Puzzles aren't a good example
 
 The first issue I have with the paper is that **Tower of Hanoi is an worse test case for reasoning than math and coding**. If you're worried that math and coding benchmarks suffer from contamination, why would you pick well-known puzzles for which we _know_ the solutions exist [in the training data](https://www.google.com/search?q=10-disk+tower+of+hanoi+solution)?
 
@@ -46,7 +44,7 @@ Finally, reasoning models have been deliberately trained on math and coding, not
 
 I accept that Tower of Hanoi is easier to scale up and down in complexity than mathematical problems, but using it based on that reason seems like a case of the [streetlight effect](https://en.wikipedia.org/wiki/Streetlight_effect) to me: just because it's easier to generate test cases, it doesn't make it a better example.
 
-#### Complexity thresholds may not be fixed
+### Complexity thresholds may not be fixed
 
 Suppose that language models do give up past a certain complexity point, just like they do past ten-disk Tower of Hanoi. In other words, suppose that my previous worry - that puzzles might not be a good example - is unfounded, and that the results of the Apple paper do generalize. Does this mean that reasoning models can't think past a certain point of complexity?
 
@@ -70,7 +68,7 @@ So is there a real complexity threshold for Tower of Hanoi puzzles? Well, we don
 
 Note: I don't have access to other reasoning model traces - if they behave differently, then I'll concede I'm wrong about this point.
 
-#### Do complexity thresholds mean that models can't reason?
+### Do complexity thresholds mean that models can't reason?
 
 Suppose that I'm wrong about everything so far. Puzzles really are a good example to test reasoning, and reasoning models really do have a fixed complexity threshold (presumably at around a thousand steps, since ten-disk Tower of Hanoi requires 1023 steps). Does that mean that models can't reason?
 
