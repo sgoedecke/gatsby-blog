@@ -52,15 +52,13 @@ Suppose that language models do give up past a certain complexity point, just li
 
 I tried some of the Apple paper prompts against DeepSeek-R1. Here's an abridged beginning of the reasoning trace:
 
-```
-<think> Okay, so I need to solve the Tower of Hanoi puzzle with 10 disks. Let me think about how to approach this. I remember that the classic solution for Tower of Hanoi involves recursive steps.
-
-...
-
-The standard solution for n disks requires 2^n - 1 moves. For 10 disks, that's 1023 moves. But generating all those moves manually is impossible. So I need a systematic method to list each move step by step.
-
-Let me recall the iterative approach for Tower of Hanoi...
-```
+> Okay, so I need to solve the Tower of Hanoi puzzle with 10 disks. Let me think about how to approach this. I remember that the classic solution for Tower of Hanoi involves recursive steps.
+>
+> ...
+>
+> The standard solution for n disks requires 2^n - 1 moves. For 10 disks, that's 1023 moves. But generating all those moves manually is impossible. So I need a systematic method to list each move step by step.
+> 
+> Let me recall the iterative approach for Tower of Hanoi...
 
 Note that the model immediately decides "generating all those moves manually is impossible", because it would require tracking over a thousand moves. So it spins around trying to find a shortcut and fails.
 
