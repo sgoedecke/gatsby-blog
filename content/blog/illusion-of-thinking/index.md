@@ -1,5 +1,5 @@
 ---
-title: The illusion of "the illusion of thinking"
+title: The illusion of "The Illusion of Thinking"
 description: 
 order: 94
 date: '2025-06-08'
