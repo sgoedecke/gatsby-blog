@@ -90,6 +90,7 @@ I'm also unconvinced that reasoning models are as bad at these puzzles as the pa
 
 What _is_ good about the paper? It is interesting that reasoning models can sometimes "overthink" and do worse than non-reasoning models on trivial problems. It's also interesting to examine the point where reasoning models give up on long-algorithm execution (even if it doesn't say much about general reasoning ability). I like the "three regimes" concept: trivial, hard-but-can-be-reasoned-through, and so hard that the model gives up. It would be cool to see if a model could be trained to never give up.
 
+Edit: this post saw some interesting discussion [here](https://old.reddit.com/r/LocalLLaMA/comments/1l6ibwg/when_you_figure_out_its_all_just_math/mwp8cq2/), [here](https://www.reddit.com/r/MachineLearning/comments/1l6312h/d_the_illusion_of_the_illusion_of_thinking/) and [here](https://old.reddit.com/r/LocalLLaMA/comments/1l6ibwg/when_you_figure_out_its_all_just_math/mwqltir/) on Reddit, and [here](https://news.ycombinator.com/item?id=44221900) on Hacker News. Surprisingly (to me), the Reddit comments are of noticeably higher quality. The best counter-argument from those is that I focused too much on the Tower of Hanoi example, and not on the other games where it failed earlier despite not having the same volume of algorithmic steps.
 
 [^1]: I haven't tried this for about a year, but I remember being distinctly disappointed that GPT-4 wasn't much better than GPT-3 at structured metrical poetry.
 
