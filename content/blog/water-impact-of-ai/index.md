@@ -53,4 +53,6 @@ Training is a different topic, with much more substantial water costs. If you wa
 
 (For future reference, this post was written in October 2024.)
 
-Edit: If you enjoyed this post, you may also enjoy [Is using AI wrong? A review of six popular anti-AI arguments](/is-ai-wrong), where I go into more detail about other anti-AI arguments (some good, some bad).
+edit: If you enjoyed this post, you may also enjoy [Is using AI wrong? A review of six popular anti-AI arguments](/is-ai-wrong), where I go into more detail about other anti-AI arguments (some good, some bad).
+
+edit: Up to you how much you believe him, but as of 12 June 2025, Sam Altman has [claimed](https://x.com/sama/status/1932547948614684743) that the average ChatGPT query uses 0.3ml of water. I feel like that's in the ballpark of my 5ml estimate: the difference is probably attributable to some combination of me being pessimistic, Sam being generous, and six months of performance improvements.
