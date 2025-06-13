@@ -2,7 +2,7 @@
 title: Say "but yes", not "yes but"
 description: 
 order: 96
-date: '2025-06-013'
+date: '2025-06-13'
 tags: ["tech companies", "communication"]
 ---
 
