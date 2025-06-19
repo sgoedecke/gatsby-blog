@@ -6,7 +6,7 @@ date: '2025-06-19'
 tags: ["ai"]
 ---
 
-A recent MIT [study](https://arxiv.org/pdf/2506.08872) - titled "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task" - has been making the rounds. I read it (with my human brain, not with AI assistance). Unlike some recent AI papers[^1], I think it's pretty good. However, I'm not convinced by the anti-AI tone of the general discussion (and the first author's [own views](https://time.com/7295195/ai-chatgpt-google-learning-school/)).
+A recent MIT [study](https://arxiv.org/pdf/2506.08872) - titled "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task" - has been making the rounds. I read it (with my human brain, not with AI assistance). Unlike some recent AI papers[^1], I think it's pretty good. However, I'm not convinced by the anti-AI tone of the general discussion, or by and the first author's own [anti-AI views](https://time.com/7295195/ai-chatgpt-google-learning-school/).
 
 What did the paper actually do? It took three groups of people and got them to write four essays each on some general prompts. One group had no internet assistance at all, called the "brain-only" group. The second group could only use Google[^2] search. The third group could only use GPT-4o[^3]. While they were writing essays, they all wore a helmet that could scan their brain activity. For the fourth essay, the brain-only and LLM groups were switched - the brain-only people had to use LLMs for the first time, and the LLM people had to just rely on their brain. 
 
@@ -63,7 +63,7 @@ Does that mean I think the "Your Brain on ChatGPT" paper is bad? No. It's intere
 
 I'd also like to see brain scans of strong engineers writing real application code with LLMs, instead of LLM novices writing SAT essays. From the Time article, it sounds like a paper on that topic is coming next.
 
-[^1]: I recently did something similar with the Apple "illusion of thinking" [paper](/illusion-of-thinking). I don't really want to be the "AI paper guy", but since I'm reading them anyway and writing notes...
+[^1]: I recently did something similar with the Apple "illusion of thinking" [paper](/illusion-of-thinking). I don't really want to be an "AI paper guy", but since I'm reading them anyway and writing notes...
 
 [^2]: Of course, with `-ai` on all queries.
 
