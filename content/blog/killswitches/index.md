@@ -1,7 +1,7 @@
 ---
 title: Every service should have a killswitch
 description: 
-order: 96
+order: 97
 date: '2025-06-19'
 tags: ["good engineers", "software design"]
 ---
