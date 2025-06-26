@@ -2,7 +2,7 @@
 title: I don't care if my manager writes code
 description: 
 order: 103
-date: '2025-04-26'
+date: '2025-06-26'
 tags: ["tech companies"]
 ---
 
