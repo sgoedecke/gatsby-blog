@@ -37,7 +37,7 @@ const Bio = () => {
       }}
     >
       <p>
-        <Link to="/">posts</Link> │ <a href="https://buttondown.com/seangoedecke" target="_blank">subscribe</a> │ <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">linkedin</a> │ <a href="/rss.xml">rss</a> │ <a href="/book">read my book about software engineering</a>
+        <Link to="/">posts</Link> │ <a href="https://buttondown.com/seangoedecke" target="_blank">subscribe</a> │ <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">linkedin</a> │ <a href="/rss.xml">rss</a> │ <a href="/book">book</a> │ <a href="/continuous-ai">what I'm currently working on</a>
       </p>
     </div>
   )
