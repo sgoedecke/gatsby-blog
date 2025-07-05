@@ -1,4 +1,6 @@
-You should never be angry in the workplace
+The socratic method and LLMs
+
+You should never  b e angry in the workplace
 
 needing a lot of code RIGHT NOW vs crafting a long term perfect library. ai use, gamedevs, attitudes, speed
 
