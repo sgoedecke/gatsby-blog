@@ -52,6 +52,10 @@ I think a lot of engineers are working in situations where there doesn't seem to
 If you do have that opportunity, you'll probably be a lot more satisfied at work if you take it.
 
 
+
+edit: One interesting note - I run most of my blog posts through GPT-o3 before publishing to catch typos and make high-level structural suggestions (I never use any actual generated text). While o3 is much less [sycophantic](/ai-sycophancy) than 4o, it still likes to start its feedback with a paragraph of what it likes about the post. This was the first post I've tried where it didn't do that. It's not a model update: it gives positive feedback about other drafts I have in the pipeline. For some reason, GPT-o3 really didn't like this post!
+
+
 [^1]: You can believe me because I'm not looking for a job - I really like it at GitHub.
 
 [^2]: I've been lucky enough not to experience this in my own career.

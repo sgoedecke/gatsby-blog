@@ -1,5 +1,5 @@
 ---
-title: Building tiny AI programs
+title: Building tiny AI tools for developer productivity
 description: 
 order: 69
 date: '2025-04-21'
@@ -19,7 +19,7 @@ gh extension install sgoedecke/gh-standup
 gh standup
 ```
 
-I've played around with previous standup-generating scripts before. The fundamental design is pretty easy - make a bunch of GitHub API calls to pull your history - but my previous attempts haven't been very useful because I don't like reading through individual commits. If I have to scan through them to figure out the gist of what I did, I may as well just close my eyes and try to remember. Feeding it through a simple AI prompt changes that. And since it's just for me, I can iterate on the prompt how I want.
+I've played around with previous standup-generating scripts before. The fundamental design is pretty easy - make a bunch of GitHub API calls to pull your history, then display the data - but my previous attempts haven't been very useful because I don't like reading through individual commits. If I have to scan through them to figure out the gist of what I did, I may as well just close my eyes and try to remember. Feeding it through a simple AI prompt changes that. And since it's just for me, I can iterate on the prompt how I want.
 
 ## Weekly rollups
 
@@ -34,5 +34,7 @@ This isn't a billion dollar company idea. Each company handles internal communic
 The job of software engineering requires a lot of thinking. But not all of that thinking is equal: some of it is executive, where you exercise fine judgement and decide what to do, and some of it is mechanical, where you do the kind of parsing-and-summarizing work that an AI model could do pretty well. For the first time, it's now possible to automate some of that.
 
 Some of these use cases are going to get absorbed into popular apps and tooling. But some of them will remain too niche or too unprofitable to be worth selling at scale. As software engineers, we're in the position to build those ourselves, for our own specific use cases.
+
+As more engineers build these tiny AI tools, we'll develop new patterns that make this kind of automation even easier. In parallel, freely available models will continue to become more capable. Five years from now, I bet many common organizational tasks will be entirely automated.
 
 [^1]: As a side note, if you're wondering how you can tell whether a piece of internal automation is valuable - that's how.
