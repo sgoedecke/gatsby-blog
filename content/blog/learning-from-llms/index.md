@@ -59,7 +59,5 @@ You are probably smarter than a LLM in your area of expertise. But there's a who
 
 [^2]: If you’re curious, it was the specifics of how zero-downtime deploys work - in particular, clearing the `FD_CLOEXEC` flag on the listening socket so the previous master process can be killed without killing the socket. Since I’ve spent the last ~8 years working with Unicorn in containerised k8s environments - which don’t use Unicorn’s deploy feature at all - that’s a part of Unicorn I’m less familiar with.
 
-
-
 [^3]: When a hundred studies contradict you… maybe trust the studies.
 
