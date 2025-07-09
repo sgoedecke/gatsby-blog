@@ -3,7 +3,7 @@ title: Sycophancy is the first LLM "dark pattern"
 description: 
 order: 74
 date: '2025-04-28'
-tags: ["ai", "ethics"]
+tags: ["ai", "ethics", "alignment failures"]
 ---
 
 People have been making fun of OpenAI models for being overly sycophantic for months now. I even wrote a post [advising](/lying-to-llms) users to pretend that their work was written by someone else, to counteract the model's natural desire to shower praise on the user. With the latest GPT-4o [update](https://x.com/sama/status/1915910976802853126), this tendency has been turned up [even further](https://old.reddit.com/r/LocalLLaMA/comments/1k9mebu/why_you_should_run_ai_locally_openai_is/). It's now easy to convince the model that you're the smartest, funniest, most handsome human in the world[^1].
