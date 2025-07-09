@@ -1,8 +1,8 @@
 ---
 title: A RTS where you issue orders to AI agents
 description: 
-order: 106
-date: '2025-07-05'
+order: 111
+date: '2025-07-10'
 tags: ["ai"]
 ---
 
@@ -26,15 +26,21 @@ I made a simple non-LLM-powered AI to be the opposite side. Controlling the LLM-
 
 ### What I learned about building for AI agents
 
-The general AI-agent principle here is that you should **design an AI-friendly API before you actually hook up any AI work**. What makes for an AI-friendly API? For getting state, it means an endpoint that outputs something that you can put into your AI agent system prompt - so it has to contain the entire state of the world that's visible to the agent. For taking actions, it means two things:
+The general AI-agent principle here is that you should **design an AI-friendly API before you actually hook up any AI work**. What makes for an AI-friendly API? For getting information, it means an endpoint that outputs something that you can put into your AI agent system prompt - so it has to contain the entire state of the world that's visible to the agent. For taking actions, it means two things:
 
 1. Having a simple interface that matches how AI agents work (i.e. a small set of powerful tools instead of a ton of niche tools)
 2. Making your action-taking API handle delayed or infrequent orders, since a LLM can take a second or two to generate its response
 
-An `/order` interface that let you move a unit one square in one direction every time might work well for a human player, who can cheerfully issue several instructions per second. But if a LLM is issuing several instructions per second, that's going to consume a lot of tokens. A smart LLM won't be able to keep up the pace (or will be prohibitively expensive).
+An `/order` interface that let you move a unit one square in one direction every time might work well for a human player, who can cheerfully issue several instructions per second. But if a LLM is issuing several instructions per second, that's going to be slow and consume a lot of tokens. A smart LLM won't be able to keep up the pace (or will be prohibitively expensive).
 
 The natural way to use a LLM for high-frequency actions is to let it make occasional high-level decisions, and then to have non-LLM specialized code execute those decisions turn-by-turn. This is very roughly what AI-powered robotics does, by having a powerful LLM that decides what to say and do, but delegating all individual servo control to a much faster and smaller non-language model. The actual servo control model has to consume input and emit output many times per-second, while the LLM only has to decide anything every couple of seconds.
 
 Even more loosely, this is kind of how humans work. The process by which we decide "I should get up and make a cup of tea", or "I should go over there" is slower and more reflective than the process that constantly shifts our weight so that we don't fall over when walking, or that decides exactly how hard to squeeze when we pick up a teabag.
 
 All of this is to say that when you're building for AI agents, you should allow the LLM to make broad and strategic decisions, and let their individual tools handle the bulk of the mechanical work. For instance, it's better to give your robot arm a "grab object" tool instead of a set of "move hand", "close grip", and "release grip" tools. 
+
+### Final thoughts
+
+I learned a lot about agents from making this, but honestly my main takeaway was that it was way more fun to frantically type orders than I expected it to be.
+
+I would love to play a realistic RTS where you have limited information and are forced to issue orders via text. It doesn't seem like it'd be too hard to build (in terms of video games, which are always hard to build). In particular, I think it would be very engaging to play against another human who's also telling the LLMs what to do. Somebody who's better at making games than me should make this.
