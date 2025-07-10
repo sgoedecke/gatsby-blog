@@ -1,5 +1,5 @@
 ---
-title: Why you might want to anthropomorphize LLMs
+title: Why we should anthropomorphize LLMs
 description: 
 order: 112
 date: '2025-07-10'
