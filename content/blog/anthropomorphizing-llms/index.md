@@ -6,7 +6,7 @@ date: '2025-07-10'
 tags: ["ai", "ethics"]
 ---
 
-I recently read a very good [blog post](https://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html) by halvar.flake titled "A non-anthropomorphized view of LLMs". Here's a very brief summary:
+I recently read a very good [blog post](https://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html) by Halvar Flake titled "A non-anthropomorphized view of LLMs". Here's a very brief summary:
 
 - LLMs are just a mapping function between language sequences and other language sequences
 - Human brains are far more complex, far more poorly understood, and and far harder to predict than LLMs
