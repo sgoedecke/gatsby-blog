@@ -1,9 +1,9 @@
 ---
-title: A RTS where you issue orders to AI agents
+title: Building a RTS where you issue orders to AI agents
 description: 
 order: 111
-date: '2025-07-09'
-tags: ["ai"]
+date: '2025-07-14'
+tags: ["ai", "side projects"]
 ---
 
 I've always been interested by the third-act turn in Ender's Game where the child strategists switch from directly controlling units to giving higher-level strategic orders. The communication problem just seems fascinating: you gain a huge amount of flexibility, but you have to adapt to decisions made on the ground by your subordinates. For similar reasons, I've been interested in how giving orders [worked](https://acoup.blog/2022/06/03/collections-total-generalship-commanding-pre-modern-armies-part-ii-commands/) in pre-modern battles where sending messages was very difficult.
