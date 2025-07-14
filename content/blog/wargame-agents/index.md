@@ -1,7 +1,7 @@
 ---
 title: Building a RTS where you issue orders to AI agents
 description: 
-order: 111
+order: 114
 date: '2025-07-14'
 tags: ["ai", "side projects"]
 ---
