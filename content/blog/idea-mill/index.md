@@ -1,7 +1,7 @@
 ---
 title: Practical notes on getting LLMs to generate new ideas
 description: 
-order: 115
+order: 116
 date: '2025-07-15'
 tags: ["ai"]
 ---
