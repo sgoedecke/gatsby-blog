@@ -1,5 +1,5 @@
 ---
-title: Building a RTS where you issue orders to AI agents
+title: Building an RTS where you issue orders to AI agents
 description: 
 order: 114
 date: '2025-07-14'
