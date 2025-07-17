@@ -3,7 +3,7 @@ title: Model Context Protocol explained as simply as possible
 description: --
 order: 53
 date: '2025-03-08'
-tags: ["ai", "explainers"]
+tags: ["ai", "explainers", "mcp"]
 ---
 
 Three months ago, Anthropic released "the Model Context Protocol", or MCP. In the last few weeks, interest in it seems to have really picked up. But a lot of people (including me) have been kind of confused about what the Model Context Protocol even is. Now that I've read through the [spec](https://spec.modelcontextprotocol.io/specification/2024-11-05/) and a bunch of the [example MCP servers](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file), I think I understand. This post is my attempt at explaining it.
