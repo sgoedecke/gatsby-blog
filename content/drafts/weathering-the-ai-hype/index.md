@@ -1,1 +1,0 @@
-https://leaddev.com/technical-direction/vibe-coding-hype-cycles-why-ai-isnt-10x-answer

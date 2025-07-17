@@ -3,7 +3,7 @@ title: Giving pushback to leadership
 description: Always give options, even when there aren't any
 order: 30
 date: '2025-01-16'
-tags: ["tech companies"]
+tags: ["tech companies", "leaddev"]
 ---
 
 Saying no to leadership is sometimes necessary when you’re at the helm of a project. Whether they’re proposing a timeline that can’t be achieved, or asking for something that’s technologically impossible, adopting the word “no” into your regular vocabulary is your responsibility as an engineer. 
