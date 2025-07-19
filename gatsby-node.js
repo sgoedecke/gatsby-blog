@@ -101,10 +101,24 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
+    
+    // Create a seeded random value that changes daily
+    const today = new Date().toDateString(); // "Sat Jul 19 2025"
+    const seed = today + node.fields?.slug || node.id; // Combine date with unique node identifier
+    
+    // Simple seeded random function
+    let hash = 0;
+    for (let i = 0; i < seed.length; i++) {
+      const char = seed.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    const seededRandom = Math.abs(hash) / 2147483648; // Normalize to 0-1
+    
     actions.createNodeField({
       node,
       name: 'rand',
-      value: Math.random(),
+      value: seededRandom,
     });
   }
 }
