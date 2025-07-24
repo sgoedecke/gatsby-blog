@@ -1,7 +1,7 @@
 ---
 title: Do not yell at the language model
 description: 
-order: 119
+order: 120
 date: '2025-07-24'
 tags: ["ai"]
 ---
