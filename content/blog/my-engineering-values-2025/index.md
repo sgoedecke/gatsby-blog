@@ -1,8 +1,8 @@
 ---
-title: What kind of work I want in 2025
+title: What kind of work I want (in 2025)
 description:
-order: 5
-date: '2021-09-06'
+order: 121
+date: '2025-07-25'
 tags: ["ethics", "meta"]
 ---
 
@@ -14,7 +14,7 @@ In 2021, I wrote [this post](/my-engineering-values) describing the kind of work
 
 **I want to work on something central to the company.** I am more comfortable in a medium or high-pressure environment than in a low-pressure one.
 
-**I'm happy to work on legacy systems** - in fact, getting stuff done in monolithic codebases is my specialty - as long as I'm working on something that's top-of-mind for company leadership. I prefer iterating fast on an 80% solution than spending a lot of time to slowly polish a 100% solution.
+**I'm happy to build on top of legacy systems** - in fact, getting stuff done in monolithic codebases is my specialty - as long as I'm working on something that's top-of-mind for company leadership. I prefer iterating fast on an 80% solution than spending a lot of time to slowly polish a 100% solution.
 
 **I do not care about doing greenfield work** or building the most interesting part of the product. I will happily build a billing or permissions system if that's what needs doing.
 
@@ -42,7 +42,7 @@ What's changed, almost five years later? A lot has happened since 2021.
 * I went through the staff engineer promotion process [for a second time](/staff-engineer-promotions).
 * Finally, this [blog](/on-writing) really took off, after [this post](/how-to-ship) - thanks to that, I've now been on [podcasts](https://www.youtube.com/watch?v=IekJKQ-AvkM&t=1s&pp=ygUNc2VhbiBnb2VkZWNrZQ%3D%3D) and even Australian national [news](https://www.youtube.com/watch?v=DRyb3jA0ZOM&pp=ygUNc2VhbiBnb2VkZWNrZQ%3D%3D)
 
-The biggest change in my engineering values is that **I no longer want to work on maintaining existing legacy systems**. I still love that kind of work, but in 2025 it's just not sensible to try and position yourself like that. Legacy systems - even ones beloved by users - are never tech companies' top priority. They're always going to be fertile ground for layoffs and cutbacks. In the 2010s, you could carve out a really good career optimizing and lovingly maintaining this stuff. Now you can't. Instead, I want to work on projects that are top-of-mind for company leadership. Put me under [the spotlight](/the-spotlight)!
+The biggest change in my engineering values is that **I no longer want to work in a pure maintenance role on existing legacy systems**. I still love that kind of work, but in 2025 it's just not sensible to try and position yourself like that. Legacy systems - even ones beloved by users - are never tech companies' top priority. They're always going to be fertile ground for layoffs and cutbacks. In the 2010s, you could carve out a really good career optimizing and lovingly maintaining this stuff. Now you can't. Instead, I want to work on projects that are top-of-mind for company leadership. Put me under [the spotlight](/the-spotlight)!
 
 I still feel mostly the same about organizations. I think D&I is a competitive strength, and that low-process is usually better than high-process. I still don't want to work for proof-of-work blockchain (although there are many fewer jobs there than there were in 2021!) or gambling tech. It's worth noting that the current evil technology _du jour_ - large language models - is not something I have decisive moral objections about, and I currently do work on AI products. See [here](/is-ai-wrong) for more thoughts on that.
 

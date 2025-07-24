@@ -6,6 +6,8 @@ date: '2021-09-06'
 tags: ["ethics", "meta"]
 ---
 
+Note: Four years later, I've written an [updated version of this post](/my-engineering-values-2025). If you're a recruiter or hiring manager, you're probably better off reading that.
+
 This article is to help recruiters, hiring managers and myself have a better idea of the kind of places I'd like to work.
 
 The short version: A job where reliability and performance is important, at scale. Ideally remote. No tiny startups. No gambling, predatory fintech, or blockchain. I value D&I, emotionally healthy teams, and good management.
