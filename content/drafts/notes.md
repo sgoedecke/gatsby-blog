@@ -1,3 +1,5 @@
+cognitive core
+
 The socratic method and LLMs
 
 You should never  b e angry in the workplace
