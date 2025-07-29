@@ -1,3 +1,5 @@
+the unreasonable effectiveness of prompting
+
 cognitive core
 
 The socratic method and LLMs
