@@ -14,7 +14,7 @@ Now I am a staff engineer. I effortlessly solve problems that brand-new engineer
 
 Before I became a software engineer, I wrote poetry. I started writing poetry because I was blown away by the poetry I read: by Kipling and Coleridge as a young child, and by Milton and Auden as an adult. I aspired to write the kind of poetry they might have been impressed by. However, if you want to have your poetry published, you cannot write like Milton and Auden. You have to write the kind of poetry that gets published in magazines and journals. In other words, you have to stop trying to impress the ghosts of dead poets and start trying to impress the kind of people who edit poetry magazines.
 
-I got a handful of poems published this way. But I was never much good at it, and the whole thing left a bad taste in my mouth. I have nothing against the people who edit poetry magazines. Still, I certainly don't respect them in the same way that I respect Milton, and trying to do creative work in order to impress people I don't respect is corrosive to the human soul.
+I got a handful of poems published this way. But I was never much good at it, and the whole thing left a bad taste in my mouth. I have nothing against the people who edit poetry magazines. Still, I certainly don't respect them in the same way that I respect Milton, and trying to do creative work in order to impress people you don't respect is demoralizing on a fundamental level.
 
 ### The dangers of impressing product managers
 
