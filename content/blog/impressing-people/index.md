@@ -1,5 +1,5 @@
 ---
-title: Career growth means impressing less-technical peers
+title: From trying to impress engineers to trying to impress managers
 description: 
 order: 124
 date: '2025-08-01'
