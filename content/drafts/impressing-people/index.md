@@ -1,20 +1,20 @@
 ---
-title: Impressing very senior engineers
+title: Who engineers try to impress
 description: 
-order: 69
-date: '2025-04-21'
-tags: ["ai"]
+order: 124
+date: '2025-08-01'
+tags: ["emotional regulation", "tech companies"]
 ---
 
 In the first few years of my career, I knew next to nothing about how to do good work in a tech company. The senior and staff engineers I worked with seemed like magicians: they effortlessly solved problems that I couldn't even understand. While I was learning how to save something to a database, they were struggling with scaling and design work on which the entire company depended. I wanted nothing more than to do the kind of work that would impress those engineers.
 
-Now I am a staff engineer. I effortlessly solve problems that brand-new engineers struggle to understand[^1]. I am involved with high-stakes scaling and design work: not quite at "save the entire company" level, but certainly hundreds of millions of dollars of annual revenue are in the balance. I'm happy with where I am in my career. What happened to that original motivation to impress? Where did it go? Who am I trying to impress now?
+Now I am a staff engineer. I effortlessly solve problems that brand-new engineers struggle to understand[^1]. I am involved with high-stakes scaling and design work: not quite at "save the entire company" level, but certainly hundreds of millions of dollars of annual revenue are in the balance. I'm happy with where I am in my career. But climbing the ladder changes _who_ you have to impress, and that can be a difficult transition to navigate.
 
 ### Progressing in your career means impressing people you may not respect
 
 Before I became a software engineer, I wrote poetry. I started writing poetry because I was blown away by the poetry I read: by Kipling and Coleridge as a young child, and by Milton and Auden as an adult. I aspired to write the kind of poetry they might have been impressed by. However, if you want to have your poetry published, you cannot write like Milton and Auden. You have to write the kind of poetry that gets published in magazines and journals. In other words, you have to stop trying to impress the ghosts of dead poets and start trying to impress the kind of people who edit poetry magazines.
 
-I got a handful of poems published this way. But I was never much good at it, and the whole thing left a bad taste in my mouth. I have nothing against the people who edit poetry magazines. Still, I certainly don't revere them in the same way that I revere Milton, and trying to do creative work in order to impress people I don't revere is corrosive to the human soul.
+I got a handful of poems published this way. But I was never much good at it, and the whole thing left a bad taste in my mouth. I have nothing against the people who edit poetry magazines. Still, I certainly don't respect them in the same way that I respect Milton, and trying to do creative work in order to impress people I don't respect is corrosive to the human soul.
 
 ### The dangers of impressing product managers
 
