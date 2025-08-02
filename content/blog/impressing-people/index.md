@@ -1,5 +1,5 @@
 ---
-title: From trying to impress engineers to trying to impress managers
+title: Trying to impress people you may not respect
 description: 
 order: 124
 date: '2025-08-01'
