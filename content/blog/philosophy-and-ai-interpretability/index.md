@@ -1,5 +1,5 @@
 ---
-title: AI interpretability has the same problems as neuroscience and philosophy
+title: AI interpretability has the same problems as philosophy of mind
 description: 
 order: 126
 date: '2025-08-06'
