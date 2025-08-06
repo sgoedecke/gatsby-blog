@@ -1,5 +1,5 @@
 ---
-title: Folk AI psychology, mechanistic interpretability, and philosophy of mind
+title: AI interpretability has the same problems as neuroscience and philosophy
 description: 
 order: 126
 date: '2025-08-06'
