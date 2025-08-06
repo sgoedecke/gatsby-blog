@@ -1,5 +1,5 @@
 ---
-title: Folk AI psychology and the limits of mechanistic interpretability
+title: Folk AI psychology, mechanistic interpretability, and philosophy of mind
 description: 
 order: 126
 date: '2025-08-06'
