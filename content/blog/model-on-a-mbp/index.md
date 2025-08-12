@@ -1,8 +1,8 @@
 ---
 title: What's the strongest AI model you can train on a laptop in five minutes?
 description: 
-order: 126
-date: '2025-08-06'
+order: 128
+date: '2025-08-12'
 tags: ["ai"]
 ---
 
