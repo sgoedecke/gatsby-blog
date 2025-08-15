@@ -51,6 +51,8 @@ The first is that **reasoning probably requires language use**. Even if you don'
 
 Why is that? Because reasoning tasks require choosing between several different options. "A B C D [M1] -> B C D E" isn't reasoning, it's **computation**, because it has no mechanism for thinking "oh, I went down the wrong track, let me try something else". That's why the most important token in AI reasoning models is "Wait". In fact, you can control how long a reasoning model thinks by arbitrarily [appending](https://arxiv.org/abs/2501.19393) "Wait" to the chain-of-thought. Actual reasoning models change direction all the time, but this paper's toy example is structurally incapable of it.
 
+edit: after publishing this post, I was directed to [this paper](https://arxiv.org/abs/2504.01738), which persuasively articulates the point that reasoning models rely on human language "pivots" like "wait", "actually", "hold on", and so on.
+
 #### Model size
 
 The second problem is that **the model is just too small**. Reasoning models are a pretty recent innovation, but the idea is pretty obvious. Why is that? I'm pretty sure it's because (prior to September 2024) the models were just not smart enough to reason. You couldn't have built a reasoning model on top of GPT-3.5 - there's just not enough raw brainpower there to perform the relevant operations, like holding multiple possible solutions "in memory" at the same time.
