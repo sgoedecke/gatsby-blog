@@ -6,7 +6,7 @@ date: '2025-08-12'
 tags: ["ai"]
 ---
 
-What's the strongest model I can train on my MacBook Pro in five minutes?
+What's the strongest model I can train on my MacBook Pro[^1] in five minutes?
 
 I'll give the answer upfront: the best 5-minute model I could train was a ~1.8M-param GPT-style transformer trained on ~20M TinyStories tokens, reaching ~9.6 perplexity on a held-out split. Here's an example of the output, with the prompt bolded:
 
@@ -72,13 +72,13 @@ As you can see, it's just random tokens. The de-noising process hasn't produced 
 
 #### Model size
 
-Finally, the most important question: how big a model can you usefully train in five minutes? I tried a bunch of different sizes[^1]:
+Finally, the most important question: how big a model can you usefully train in five minutes? I tried a bunch of different sizes[^2]:
 
 ![models](models.png)
 
 You can see that the sweet spot is around 2M parameters: any larger and the model is too slow to converge in five minutes, any smaller and it stops improving at all after the first minute (presumably because there aren't enough parameters to encode the patterns in the training data).
 
-Interestingly, this more or less coincides with the well-known Chinchilla [scaling laws](https://arxiv.org/pdf/2203.15556) paper, which says your optimal model size is your total number of training tokens divided by 20[^2]. For this challenge, the number of training tokens also depends on the model size (because you can push more tokens through a smaller model in five minutes). For a 2.6M param model, I can train at 56k tokens per second, which over five minutes works out to an ideal model size of 0.84M: so the Chinchilla model predicts that it's overkill, which matches my experience. For a 1M model, I can train at 100k tokens per second, which works out to an ideal model size of 1.5M - much closer to optimal, and indeed my results are better. I haven't done the maths to work out the exact optimal size where my tokens-per-second matches the actual model size, but it's clearly somewhere between 1M and 1.5M parameters.
+Interestingly, this more or less coincides with the well-known Chinchilla [scaling laws](https://arxiv.org/pdf/2203.15556) paper, which says your optimal model size is your total number of training tokens divided by 20[^3]. For this challenge, the number of training tokens also depends on the model size (because you can push more tokens through a smaller model in five minutes). For a 2.6M param model, I can train at 56k tokens per second, which over five minutes works out to an ideal model size of 0.84M: so the Chinchilla model predicts that it's overkill, which matches my experience. For a 1M model, I can train at 100k tokens per second, which works out to an ideal model size of 1.5M - much closer to optimal, and indeed my results are better. I haven't done the maths to work out the exact optimal size where my tokens-per-second matches the actual model size, but it's clearly somewhere between 1M and 1.5M parameters.
 
 It was cool to see well-known real scaling laws apply to this challenge!
 
@@ -88,6 +88,8 @@ It was a lot of fun doing this. I learned a lot about training very small models
 
 I don't think this challenge is particularly useful for training strong models in general. Most of the interesting behaviour happens after the first five minutes of training. But I was still pleasantly surprised at how easily I was able to train a broadly-coherent storytelling model. As architectures (and laptop GPUs) improve, I wonder what kind of models we will eventually be able to train in five minutes.
 
-[^1]: Not pictured is a 8M transformer I trained that had perplexity so bad that it made the rest of the dots hard to read. Also not pictured are the diffusion models, because (a) they sucked and (b) perplexity isn't easily comparable between them and transformers/LSTMs.
+[^1]: 2024 MacBook Pro, Apple M4, 24 GB of memory.
 
-[^2]: Section 3.4, table 3.
+[^2]: Not pictured is a 8M transformer I trained that had perplexity so bad that it made the rest of the dots hard to read. Also not pictured are the diffusion models, because (a) they sucked and (b) perplexity isn't easily comparable between them and transformers/LSTMs.
+
+[^3]: Section 3.4, table 3.
