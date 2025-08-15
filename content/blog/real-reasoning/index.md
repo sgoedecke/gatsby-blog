@@ -4,6 +4,7 @@ description:
 order: 129
 date: '2025-08-13'
 tags: ["ai"]
+popular: true
 ---
 
 Reading research papers and articles about chain-of-thought reasoning[^1] makes me frustrated.
@@ -81,6 +82,8 @@ I suggest the following heuristic when you're reading a paper about model reason
 2. If it points at reasoning tasks that AI models fail at, check the task itself to see if it's a task that actually requires reasoning (i.e. considering multiple approaches) or if it simply requires _computation_ (following a set algorithm).
 
 Good model reasoning papers[^4] pass both these conditions. Even though they're skeptical of the power of chain-of-thought, they use tasks that have many paths to success (like mathematics or language puzzles), and they don't draw sweeping conclusions about "real" reasoning.
+
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44900340) with many comments. I'm a bit bemused by some commenters saying that "reasoning requires language use" is controversial. I suspect that what they would call "reasoning" I would call "thought".
 
 [^1]: The process where language models "think out loud" before arriving at an answer, which forms the backbone of AI "reasoning models" like o1 and now GPT-5-Thinking.
 

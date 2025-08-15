@@ -4,6 +4,7 @@ description:
 order: 127
 date: '2025-08-07'
 tags: ["ai"]
+popular: true
 ---
 
 OpenAI just released its first ever open-source[^1] large language models, called gpt-oss-120b and gpt-oss-20b. You can talk to them [here](https://gpt-oss.com/). Are they good models? Well, that depends on what you're looking for. They're great at [some benchmarks](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf), of course (OpenAI would never have released them otherwise) but weirdly bad at others, like SimpleQA.
@@ -33,6 +34,8 @@ Training on synthetic data (or highly-controlled data such as textbooks) makes i
 For OpenAI, it must have been very compelling to train a Phi-style model for their open-source release. They needed a model that beat the Chinese open-source models on benchmarks, while also not misbehaving in a way that caused [yet another](/ai-sycophancy) scandal for them. Unlike Meta, they don't need their open-source model to be _actually_ good, because their main business is in their closed-source models.
 
 That's why I think OpenAI went down the synthetic data route for their new `gpt-oss` models. For good or ill, they may as well be Phi-5 and Phi-5-mini.
+
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44875848) with many comments.
 
 [^1]: Really open _weight_, not open _source_, because the weights are freely available but the training data and code is not. And of course OpenAI have released GPT-2 and other open-weight models, but these are the first "real" ones.
 

@@ -4,6 +4,7 @@ description:
 order: 94
 date: '2025-06-08'
 tags: ["ai"]
+popular: true
 ---
 
 Very recently (early June 2025), Apple released a [paper](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) called _The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity_. This has been [widely](https://www.linkedin.com/posts/lvigentini_the-illusion-of-thinkingpdf-activity-7336587591527317504-zjwh/) [understood](https://www.psychologytoday.com/au/blog/the-digital-self/202506/did-complexity-just-break-ais-brain) to demonstrate that reasoning models don't "actually" reason. I do not believe that AI language models are on the path to superintelligence. But I still don't like this paper very much. What does it really show? And what does that mean for how we should think about language models?
