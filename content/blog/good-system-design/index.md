@@ -34,7 +34,7 @@ Since managing state is the most important part of system design, the most impor
 
 If you need to store something in a database, the first thing to do is define a table with the schema you need. Schema design should be flexible, because once you have thousands or millions of records, it can be an enormous pain to change the schema. However, if you make it too flexible (e.g. by sticking everything in a "value" JSON column, or using "keys" and "values" tables to track arbitrary data) you load a ton of complexity into the application code (and likely buy some very awkward performance constraints). Drawing the line here is a judgment call and depends on specifics, but in general I aim to have my tables be human-readable: you should be able to go through the database schema and get a rough idea of what the application is storing and why.
 
-If you expect your table to ever be more than a few rows, you should put indexes on it. Try to make your indexes match the most common queries you're sending (e.g. if you query by `email` and `type`, create an index with those two fields). Don't index on every single thing you can think of, since each index adds write overhead.
+If you expect your table to ever be more than a few rows, you should put indexes on it. Try to make your indexes match the most common queries you're sending (e.g. if you query by `email` and `type`, create an index with those two fields). Indexes work like nested dictionaries, so make sure to put the highest-cardinality fields first (otherwise each index lookup will have to scan all users of `type` to find the one with the right `email`). Don't index on every single thing you can think of, since each index adds write overhead.
 
 #### Bottlenecks
 
