@@ -3,6 +3,7 @@ title: Everything I know about good system design
 description: 
 order: 100
 date: '2025-06-21'
+popular: true
 tags: ["good engineers", "software design"]
 ---
 
