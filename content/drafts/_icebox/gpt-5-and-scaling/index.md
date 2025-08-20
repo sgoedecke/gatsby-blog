@@ -14,11 +14,15 @@ No. GPT-5 is noticeably better than GPT-4o (OpenAI's latest iteration on GPT-4),
 
 The main reason is that **GPT-5 is simply not a scaled-up model!** OpenAI never publishes the size of their models, but looking at their [pricing](https://platform.openai.com/docs/pricing) makes it clear that GPT-5 is on par with or cheaper than GPT-4o and GPT-4.1. Actually large OpenAI models like GPT-4.5 are [ten to seventy times more expensive](https://www.reddit.com/r/OpenAI/comments/1izpgct/gpt45_has_an_api_price_of_751m_input_and_1501m/). Of course, GPT-5 is not a single model at all, but some combination of fast and slow models. But the average scale must still correlate with price[^2].
 
-Sam Altman, the CEO of OpenAI, has [said](https://x.com/sama/status/1953551377873117369) that GPT-5 was not an attempt to make the smartest possible model, but an attempt to put a frontier model in the hands of as many people as possible. Before the GPT-5 launch, most ChatGPT users were using 4o. GPT-5 will be a massive improvement over that!
+Sam Altman, the CEO of OpenAI, has [said](https://x.com/sama/status/1953551377873117369) that GPT-5 was not an attempt to make the smartest possible model, but an attempt to put a frontier model in the hands of as many people as possible. Before the GPT-5 launch, most ChatGPT users were using 4o. GPT-5 is a big improvement over that (despite the people who are [in it for the sycophancy](https://arstechnica.com/information-technology/2025/08/openai-brings-back-gpt-4o-after-user-revolt/)).
 
 ### Why OpenAI couldn't scale up
 
-Now of course all of this is cope. If OpenAI were in a position to make a much smarter model, wouldn't they have aimed for that? Building a model cheap enough to replace the current free tier seems very much like a consolation prize. So in some sense the fact that GPT-5 is not scaled up tells us that OpenAI is struggling to easily scale up their models.
+Now of course much of this is cope. If OpenAI were in a position to make a much smarter model, they would have done so. Building a model cheap enough to replace the current free tier seems very much like a consolation prize. So in some sense the fact that GPT-5 is not scaled up tells us that OpenAI is struggling to easily scale up their models.
+
+GPT-4.5 was pretty clearly their scaled-up version of GPT-4, and while it was definitely a good model, it was too slow to be a real workhorse and it wasn't good enough to dazzle users like GPT-4 did at launch. That's why OpenAI went in the reasoning model direction, with o1 (and later o3, my personal favourite model).
+
+However, we knew all this long before the GPT-5 launch. 
 
 [^1]: At the time, I was playing around with [ReACT-pattern agents](/llm-driven-agents), and replacing GPT-3.5 with GPT-4 instantly took my project from "interesting but non-functional toy" to "can actually submit valid PRs some of the time".
 
