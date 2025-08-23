@@ -1,4 +1,8 @@
-iinstead of you reviewing AI code the AI will review you to make sure you understand its code
+traps for software engineers
+
+the simplest problem models reliably struggle with
+
+instead of you reviewing AI code the AI will review you to make sure you understand its code
 dkamm/pr-quiz
 
 the unreasonable effectiveness of prompting
