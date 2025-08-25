@@ -3,6 +3,7 @@ title: Everything I know about good API design
 description: 
 order: 132
 date: '2025-08-24'
+popular: true
 tags: ["good engineers", "software design"]
 ---
 
@@ -154,6 +155,8 @@ However, internal APIs can still be a source of incidents, and still need to be 
 - Internal APIs are different in some ways (because your consumers are very different)
 
 What haven't I written about? I haven't written much about REST vs SOAP, or JSON vs XML, because I don't think that stuff is particularly important. I like REST and JSON, but I don't feel strongly about it. I also haven't mentioned OpenAPI schema - it's a useful tool, but I think it's also fine to just write your API docs in Markdown if you want.
+
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=45006801) and [Reddit](https://www.reddit.com/r/programming/comments/1mzqigs/everything_i_know_about_good_api_design/) with lots of comments. Commenters pointed out that I should have mentioned PUT in my idempotency section, since it's supposedly idempotent by design. I guess so - I haven't seen it a lot in practice, and in my view there's nothing inherently about the HTTP verb that makes it more idempotent than POST. There was also some concern about using Redis as an idempotency store, since you can't get safely atomic operations that coordinate Redis and your database. That's a reasonable concern for payments or high-risk areas, but bolting Redis on top of an existing non-idempotent API is still much better than nothing.
 
 
 [^1]: Well, in my neck of the woods (big tech SaaS).
