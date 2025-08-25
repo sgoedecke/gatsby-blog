@@ -30,7 +30,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
 
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <p>If you liked this post, consider <a href="https://buttondown.com/seangoedecke" target="_blank">subscribing</a> to email updates about my new posts, or <a href={`https://news.ycombinator.com/submitlink?u=https://www.seangoedecke.com${location.pathname}`} target="_blank">sharing it on Hacker News</a>.</p>
+        <p>If you liked this post, consider <a href="https://buttondown.com/seangoedecke" target="_blank">subscribing</a> to email updates about my new posts, or <a href={`https://news.ycombinator.com/submitlink?u=https://www.seangoedecke.com${location.pathname}&t=${post.frontmatter.title}`} target="_blank">sharing it on Hacker News</a>.</p>
         <p>
           {post.frontmatter.date}
           {post.frontmatter.tags && (
