@@ -38,6 +38,6 @@ Does this point matter? Not really. It mostly just bothers me to keep seeing peo
 
 [^1]: See [here](https://x.com/alasdairpr/status/1953534607585894626), [here](https://x.com/kid_kazuma/status/1891931624163430663), [here](https://news.ycombinator.com/item?id=41287174)...
 
-[^2]: I can't track down the original site used to generate these, but here's a [tweet](https://x.com/gumykityrapture/status/1536761953137446913) confirming that unhighlighted text is part of the prompt and green text is generated. I agree it's weird that "to do" is in the middle of the prompt - my guess is that this went through a lot of iteration.
+[^2]: Since writing this post, a friendly reader has told me that this site is the old OpenAI Playground, which was the way to interact with OpenAI's models pre-ChatGPT. Here's a [tweet](https://x.com/gumykityrapture/status/1536761953137446913) confirming that unhighlighted text is part of the prompt and green text is generated. I agree it's weird that "to do" is in the middle of the prompt - my guess is that this went through a lot of iteration.
 
 [^3]: Not my field, but there maybe _has_ been a lost capacity for AI visual art to be genuinely interesting. Many examples of early AI images are interestingly weird, while current AI art just looks [like AI art](https://medium.com/@keithkisser/why-does-all-ai-art-look-like-that-f74e2a9e1c87) - the visual equivalent of AI [slop](/on-slop).

@@ -1,5 +1,5 @@
 ---
-title: Trying to impress people you may not respect
+title: Trying to impress people you don't respect
 description: 
 order: 124
 date: '2025-08-01'
