@@ -85,7 +85,7 @@ I suggest the following heuristic when you're reading a paper about model reason
 
 Good model reasoning papers[^4] pass both these conditions. Even though they're skeptical of the power of chain-of-thought, they use tasks that have many paths to success (like mathematics or language puzzles), and they don't draw sweeping conclusions about "real" reasoning.
 
-edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44900340) with many comments. I'm a bit bemused by some commenters saying that "reasoning requires language use" is controversial. I suspect that what they would call "reasoning" I would call "thought".
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44900340) with many comments. I'm a bit bemused by some commenters saying that "reasoning requires language use" is controversial. In the context of LLMs, "reasoning models" are specifically _models that reason in natural language_. There are no successful reasoning model paradigms that reason in other ways. Even models that are designed to do mathematics still do it _in natural language_ as well as mathematical expressions. Given all that, it seems reasonable to me to assume that you can't study these reasoning models by studying smaller models that don't reason in natural language.
 
 [^1]: The process where language models "think out loud" before arriving at an answer, which forms the backbone of AI "reasoning models" like o1 and now GPT-5-Thinking.
 
