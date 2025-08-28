@@ -8,11 +8,15 @@ tags: ["software design", "shipping"]
 
 When designing software systems, do the simplest thing that could possibly work.
 
+It's surprising how far you can take this piece of advice. I genuinely think you can do this _all the time_. You can follow this approach for fixing bugs, for maintaining existing systems, and for architecting new ones.
+
+A lot of engineers design by trying to think of the "ideal" system: something well-factored, near-infinitely scalable, elegantly distributed, and so on. I think this is entirely the wrong way to go about software design. Instead, spend that time understanding the current system deeply, then do the simplest thing that could possibly work.
+
+### Simple can be underwhelming
+
 [System design](/good-system-design) requires competence with a lot of different tools: app servers, proxies, databases, caches, queues, and so on. As they gain familiarity with these tools, junior engineers naturally want to use them. It's fun to construct systems out of many different components! And it feels very satisfying to draw boxes and arrows on a whiteboard - like you're doing real engineering.
 
 However, as with many skills, real mastery often involves learning when to do less, not more. The fight between an ambitious novice and an old master is a well-worn cliche in martial arts movies: the novice is a blur of motion, flipping and spinning. The master is mostly still. But somehow the novice's attacks never seem to quite connect, and the master's eventual attack is decisive.
-
-### Simple can be underwhelming
 
 In software, this means that [great software design looks underwhelming](/great-software-design). It doesn't look like anything much is happening at all. You can tell you're in the presence of great software design because you start having thoughts like "oh, I didn't realise the problem was that easy" or "oh nice, you don't actually have to do anything difficult".
 
