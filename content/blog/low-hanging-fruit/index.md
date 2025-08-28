@@ -1,5 +1,5 @@
 ---
-title: Finding the low-hanging fruit in tech companies
+title: Finding the low-hanging fruit
 description: 
 order: 133
 date: '2025-08-26'
