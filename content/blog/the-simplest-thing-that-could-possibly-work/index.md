@@ -3,6 +3,7 @@ title: Do the simplest thing that could possibly work
 description: 
 order: 134
 date: '2025-08-28'
+popular: true
 tags: ["software design", "shipping"]
 ---
 
@@ -68,6 +69,12 @@ The other reason not to try this is that **it makes your codebase inflexible**. 
 The longer I spend working in tech, the less optimistic I become about our collective ability to predict where a system is going. It's hard enough to get your head around where a system currently is. And in fact, that's the main practical difficulty in doing good design: getting an accurate big-picture understanding of the system. Most design is done without that understanding, and most design is thus pretty bad.
 
 There are, broadly speaking, two ways to develop software. The first is to predict what your requirements might look like six months or a year from now, and then design the best system for that purpose. The second is to design the best system for what your requirements actually look like right now: in other words, to do the simplest thing that could possibly work.
+
+edit: this article has gotten some comments on [Hacker News](https://news.ycombinator.com/item?id=45068091).
+
+One interesting comment [thread](https://news.ycombinator.com/item?id=45069135) says that simplicity of architecture doesn't matter at scale, because the complexity of "state space exploration in implementation" (I think that means something like what I wrote about [here](/wicked-features)) dominates any other complexity. I disagree - the more complex your feature interactions become, the more important a simple architecture becomes, because your "complexity budget" is almost exhausted.
+
+I also want to credit Ward Cunningham and Kent Beck for inventing the [expression](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork) - I genuinely thought I'd just come up with the wording myself, but I almost certainly just remembered it. Oops! Thanks to the HN user [ternaryoperator](https://news.ycombinator.com/item?id=45069018) for pointing this out.
 
 
 [^1]: It's just Unix sockets and forked processes! I _love_ Unicorn.
