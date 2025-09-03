@@ -1,3 +1,9 @@
+why are chinese AI models less sycophantic?
+
+why I disagree with https://news.ycombinator.com/item?id=45070512 
+
+https://news.ycombinator.com/user?id=Buttons840
+
 traps for software engineers
 
 the simplest problem models reliably struggle with
