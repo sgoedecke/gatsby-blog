@@ -6,7 +6,7 @@ date: '2025-09-05'
 tags: ["crypto", "explainers"]
 ---
 
-Stripe just announced [Tempo](https://tempo.xyz/), a "L1 blockchain" for "stablecoin payments". What does any of this mean? In 2021, I was interested enough in blockchain to write a [simple explainer](/blockchain-explained-simply) and a technical description of [Bitcoin specifically](/blockchain-for-beginners). But I've never been a blockchain _fan_. Both my [old](/my-engineering-values) and [new](/my-engineering-values-2025) "what kind of work I want" posts state that I'm ethically opposed to proof-of-work blockchain. But I haven't kept up with it since early 2022. What's been going on in the last few years that makes going into blockchain a sensible decision for Stripe? What is Stripe even doing?
+Stripe just announced [Tempo](https://tempo.xyz/), a "L1 blockchain" for "stablecoin payments". What does any of this mean? In 2021, I was interested enough in blockchain to write a [simple explainer](/blockchain-explained-simply) and a technical description of [Bitcoin specifically](/blockchain-for-beginners). But I've never been a blockchain _fan_. Both my [old](/my-engineering-values) and [new](/my-engineering-values-2025) "what kind of work I want" posts state that I'm ethically opposed to proof-of-work blockchain. What's been going on in the last few years that makes going into blockchain a sensible decision for Stripe? What is Stripe even doing?
 
 **Is Stripe launching a new cryptocurrency?** No. The point of Tempo is to let users transact existing cryptocurrencies - specifically "stablecoins" - on Stripe's blockchain. Unlike other new blockchains, Tempo will allow users to pay transaction fees via existing stablecoins (instead of requiring some native $TEMPO token).
 
