@@ -1,0 +1,37 @@
+---
+title: An unofficial FAQ for Stripe's new "Tempo" blockchain
+description: 
+order: 136
+date: '2025-09-05'
+tags: ["crypto", "explainers"]
+---
+
+Yesterday Stripe announced [Tempo](https://tempo.xyz/), a "L1 blockchain" for "stablecoin payments". What does any of this mean? In 2021, I was interested enough in blockchain to write a [simple explainer](/blockchain-explained-simply) and a technical description of [Bitcoin specifically](/blockchain-for-beginners). But I've never been a blockchain _fan_. Both my [old](/my-engineering-values) and [new](/my-engineering-values-2025) "what kind of work I want" posts state that I'm ethically opposed to proof-of-work blockchain. But I haven't kept up with it since early 2022. What's been going on in the last few years that makes going into blockchain a sensible decision for Stripe? What is Stripe even doing?
+
+**Is Stripe launching a new cryptocurrency?** No. The point of Tempo is to let users transact existing cryptocurrencies - specifically "stablecoins" - on Stripe's blockchain. Unlike other new blockchains, Tempo will allow users to pay transaction fees via existing stablecoins (instead of requiring some native $TEMPO token).
+
+**What's a stablecoin?** A stablecoin is very different from Bitcoin or Ethereum. Instead of being highly volatile (a single bitcoin's value might double or halve from week to week), a stablecoin is pegged to an existing "normal" currency. The most popular stablecoin, USDC, is pegged to the "USD". That means that USDC's issuer - [Circle](https://en.wikipedia.org/wiki/Circle_(company)) - has committed to exchanging one USDC for one USD in either direction, at any time[^1]. It's kind of like how your "dollar" in your bank balance does not correspond to a real coin or banknote somewhere, but instead tracks your bank's commitment to let you transfer that "dollar" into cash.
+
+**So how do you make money off stablecoins, if you can't gamble on the price going up?** _You_ don't make money off stablecoins. You use them _as_ money[^2]. Stripe makes money in the same way a card network or payment processor makes money: off transaction fees, processing fees, compliance tooling, and so on. 
+
+**How is it possible for other stablecoins to use Tempo? Don't they all have their own chains?** If you issue a stablecoin on a well-known chain - say, Ethereum - you (or anyone else) can easily offer a "bridge" to another chain. That's a small program running on-chain that burns or locks a dollar on Ethereum and creates a dollar on the other chain.
+
+**Isn't that putting a lot of trust in the "bridge"?** Yes, but since it's ideally created by the stablecoin issuer (who you already trust to give you your money back in real fiat currency) or some other trusted party, you're already in for a penny. The bridge is also a program on-chain, which means that everyone can see the (hopefully very simple) source code.
+
+**Why would you want to issue your stablecoin on multiple chains?** To make it easier for people to spend your stablecoin, which makes more people want to use your stablecoin, which gives you more money in transaction fees. The most consumer-friendly way to do this is to allow them to redeem coins on that chain for real money, just like they could on your coin's "native" chain.  Notably, Stripe hasn't yet announced that any particular stablecoins are going to be _natively_ supported on Tempo, which suggests that conversations are still ongoing. But even if they can't get any takers, they can still support stablecoins non-natively by operating a bridge either way. When users want to turn their Tempo USDC into real USD, they can transfer it back over the bridge into any chain that's natively supported by Circle.
+
+**I don't get it. What's the scam?** Stablecoins are effectively loosely-regulated banks. They get the benefit of banks - an economic model where consumers are incentivised to let the bank store huge amounts of their money - while dodging the regulatory downsides ([KYC](https://en.wikipedia.org/wiki/Know_your_customer), rules about transferring money overseas, and so on). This is profitable for the same reason that banks are profitable.
+
+**So what is Stripe doing with Tempo?** Stripe is offering a new chain, with Stripe's name behind it, in the hope that it can entice existing stablecoin issuers to support Tempo officially (i.e. to create an official "bridge" between their native chain and Tempo). The more economic activity occuring on Tempo, the more money Stripe will make via various kinds of transaction fee.
+
+**But what's _Stripe's_ scam?** Hitherto Stripe has made its money by making it easy for people to transact on other people's payment rails (like Visa/Mastercard/UPI). This is profitable, but it's more profitable to own the _payment rail itself_: the mechanism by which the payment actually takes place. That way you can collect the entire margin, rather than chiseling out your own profit margin on top of Visa's or Mastercard's. The blockchain on which a stablecoin is transacted is the payment rail.
+
+**Is this decentralized? I thought the point of a blockchain was _not_ to have a single owner.** Tempo is not particularly decentralized right now. The [launch page](https://tempo.xyz/) says that the validator nodes - the actual infrastructure of the blockchain - will be initially run by a set of "independent" entities chosen by Tempo/Stripe. If Tempo is wildly successful, it will probably eventually allow anyone to run a validator node, which will make the blockchain genuinely decentralized.
+
+**Wait, does that mean Stripe can just steal all the money?** Technically speaking, there's nothing to prevent Stripe from transferring all the stablecoin on the chain into Patrick Collison's personal wallet. But the stablecoin issuers would be very unlikely to go along with this: Circle wouldn't redeem Patrick's new USDC for real USD. I also think Stripe's reputation is a pretty good reason to believe this won't happen. Patrick can make more money by running Stripe than by rug-pulling everyone and then running from the law.
+
+**Is this unethical?** That depends on your opinion of banking regulations. While Tempo doesn't seem to be a fork of Ethereum, it's Ethereum-compatible, and is overwhelmingly likely to be proof-of-stake instead of the environmentally-awful proof-of-work. Stablecoins aren't as obviously scammy as fly-by-night crypto tokens like $ASS or $DJT, and there's at least _some_ government oversight into their operations. If you think Tempo is unethical, it's probably because you think it's inherently suspect to skirt around banking regulations like the requirement to vet customers.
+
+[^1]: Circle originally claimed to literally have one USD for every USDC it's issued, then backed off to "equivalent value in assets under management". I don't really know how worried to be about this. If every USDC holder demanded their USD at once, Circle almost certainly wouldn't be able to supply them - but I think that's also true of most "real" banks, right?
+
+[^2]: It's nicely ironic that the original promise of cryptocurrency - that you can use it to buy things like normal dollars - only materialized (a) from a fully-centralized single-point-of-trust company playing the role of a traditional bank, and (b) pegged to existing fiat currency.

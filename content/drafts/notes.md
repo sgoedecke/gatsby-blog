@@ -1,3 +1,5 @@
+gpt-5 tone - a new kind of slopß
+
 why are chinese AI models less sycophantic?
 
 why I disagree with https://news.ycombinator.com/item?id=45070512 
@@ -16,10 +18,8 @@ the unreasonable effectiveness of prompting
 
 The socratic method and LLMs
 
-You should never  b e angry in the workplace
-
-could you do large scale embedding lookups with a bloom filter
- 
+You should never be angry in the workplace
+ß
  integrations! oxide podcast
  
  a database is a store for global variables

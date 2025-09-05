@@ -11,7 +11,9 @@ A popular principle for good software design is to **make invalid states unrepre
 1. Enforcing a single source of truth in your database schema. If users and profiles are associated with a `user_id` on the `profiles` table, don't also put a `profile_id` on the `users` table, because then you could have a mismatch.
 2. Enforcing stricter types. If you use an "published/pending" enum to track comment status instead of a string field, you don't have to worry about weird strings you don't expect.
 
-I think this is overall good advice. But it's possible to take it too far. In fact, **good software design should allow the system to represent some invalid states**.
+I think this is overall good advice. Building constraints into your software that force it to match your domain model makes it easier to reason about. However, you should make sure you build in as few _hard_ constraints as possible.
+
+Real-world software is already subject to the genuinely hard constraints of the real world. If you add further constraints to make your software neater, you risk making it difficult to change when you really, really have to. In other words, **good software design should allow the system to represent some invalid states**. 
 
 ### State machines should allow arbitrary state transitions
 
@@ -42,6 +44,32 @@ A foreign key constraint forces `user_id` to correspond to an actual row in the 
 This sounds great, right? A record pointing at a non-existent user is in an invalid state. Shouldn't we want it to be impossible to represent invalid states? However, many large tech companies - including the two I've worked for, GitHub and Zendesk - deliberately choose not to use foreign key constraints. Why not?
 
 The main reason is _flexibility_[^2]. In practice, it's much easier to deal with some illegal states in application logic (like posts with no user attached) than it is to deal with the constraint. With foreign key constraints, you have to delete all related records when a parent record is deleted. That might be okay for users and posts - though it could become a very expensive operation - but what about relationships that are less solid? If a post has a `reviewer_id`, what happens when that reviewer's account is deleted? It doesn't seem right to delete the post, surely. And so on.
+
+If you want to change the database schema, foreign key constraints can be a big problem. Maybe you want to move a table to a different database cluster or shard. If it has any foreign key relationships to other tables, watch out! If you're not also moving those tables over, you'll have to remove the foreign key constraint then anyway. Even if you are moving those tables too, it's a giant hassle to move the data in a way that's compliant with the constraint, because you can't just replicate a single table at a time - you have to move the data in chunks that keep the foreign key relationships intact.
+
+The principle here is the same as with state machines: **at some point you will be forced to do something that violates your nice constraints**, and if you've made those constraints truly immovable you're buying yourself a lot of trouble.
+
+### Real and fake constraints
+
+I understand why engineers want to build hard constraints into their code. Constraints make a system possible to reason about, and the harder the constraint, the better it does its job. Not having to worry about exceptions is _great_. Using constraints to enforce an elegant domain model can make even very large, very complex systems easy to work with.
+
+The problem is that **domain models are not real**. The map is not the territory. A domain model is a _model_ of real-world processes. Because of that, the constraints inherent to the domain model (like "tickets must always be marked as completed before being archived") cannot be hard constraints. They're fake constraints: made-up rules that are invented to make the process run more smoothly in general.
+
+Real constraints are very different. Some of these are legal constraints: for instance, you _must_ retain data under a legal hold, or you _must_ delete personal data after a GDPR request. It doesn't matter if it would complicate your system design or break the rules of your elegant domain model. You have to do it anyway.
+
+Other real constraints are financial. If a large enough customer wants something, you often have to do it. The domain model is a tool to make the company money, after all. If some constraint in the model is in the way of making money, the constraint _will be removed_, no matter the consequences.
+
+### Pure and impure software
+
+The examples I've given have all been real-world systems: app marketplaces, blogging software, and so on. These are examples of [impure engineering](/pure-and-impure-engineering). If instead you're working on what I call "pure software" - libraries that solve some self-contained problem, for instance - you may be able to get away with adding as many constraints as you want. A date-parsing library is unlikely to ever have to break its own rules because a judge asks it to.
+
+The real problems come up when pure engineers find themselves writing code for real-world use cases. As an example, consider ledger-based systems like blockchains. In these systems, nothing is deleted. The current state of the system is derived from the entire stored chain of events, which is immutable - either necessarily and by design, in the case of blockchains, or as an architectural nicety, in the case of pure event-driven architectures. If you want to "delete" a record, you emit a new event saying "record X is deleted", but all the previous events for record X remain in the chain.
+
+This is great! It allows you to answer all kinds of questions about the history of the data, ensures eventual consistency even under a very high volume of writes, lets you undo operations at any time, and so on. Many pure engineers love ledger-based systems.
+
+Ledger-based systems became very popular in 2010. Six years later, the European Union adopted [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), which gave EU citizens the right to request that their personal data be deleted. This was a big problem for engineers who'd built their products on top of an immutable ledger. The fake constraint they'd built into their system - that data would never be deleted - ran into a real constraint: EU law.
+
+There 
 
 
 
