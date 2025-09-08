@@ -1,5 +1,5 @@
 ---
-title: 'Make invalid states representable' considered harmful
+title: "'Make invalid states representable' considered harmful"
 description: 
 order: 137
 date: '2025-09-08'
