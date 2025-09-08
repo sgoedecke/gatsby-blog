@@ -29,6 +29,9 @@ Don't worry about repeating yourself. Good ideas bear repetition and each iterat
 Don't try to optimize for readers, try to optimize for the kind of readers you want (engaged, smart, good comments). Beware of mass appeal (impressing ppl you don't respect)
 
 You have to be good at dealing with negative feedback. HN is bad, Reddit worse. Don't ragebait but keep putting ideas out there
+  - "you say that tolerating some bugs is OK, but I work in embedded software for medical devices so I know you're totally wrong"
+  - "you say that people ought to be flexible with the rules sometimes - as a pilot, I know that's false"
+  - real comments I have gotten
 
 Don't get in the comments (this is just for me mb)
 
