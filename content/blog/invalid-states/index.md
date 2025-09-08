@@ -43,7 +43,7 @@ A foreign key constraint forces `user_id` to correspond to an actual row in the 
 
 This sounds great, right? A record pointing at a non-existent user is in an invalid state. Shouldn't we want it to be impossible to represent invalid states? However, many large tech companies - including the two I've worked for, GitHub and Zendesk - deliberately choose not to use foreign key constraints. Why not?
 
-The main reason is _flexibility_[^2]. In practice, it's much easier to deal with some illegal states in application logic (like posts with no user attached) than it is to deal with the constraint. With foreign key constraints, you have to delete all related records when a parent record is deleted. That might be okay for users and posts - though it could become a very expensive operation - but what about relationships that are less solid? If a post has a `reviewer_id`, what happens when that reviewer's account is deleted? It doesn't seem right to delete the post, surely. And so on.
+The main reason is _flexibility_[^2]. In practice, it's much easier to deal with some illegal states in application logic (like posts with no user attached) than it is to deal with the constraint. With foreign key constraints, you have to delete all related records when a parent record is deleted (edit: I know you can `ON DELETE SET NULL` as well, but that only works if the field is nullable, which may itself be an invalid state in your domain model). That might be okay for users and posts - though it could become a very expensive operation - but what about relationships that are less solid? If a post has a `reviewer_id`, what happens when that reviewer's account is deleted? It doesn't seem right to delete the post, surely. And so on.
 
 If you want to change the database schema, foreign key constraints can be a big problem. Maybe you want to move a table to a different database cluster or shard. If it has any foreign key relationships to other tables, watch out! If you're not also moving those tables over, you'll have to remove the foreign key constraint then anyway. Even if you are moving those tables too, it's a giant hassle to move the data in a way that's compliant with the constraint, because you can't just replicate a single table at a time - you have to move the data in chunks that keep the foreign key relationships intact.
 
@@ -78,6 +78,8 @@ In case you couldn't tell, I am very much on the Prococol Buffers side of the de
 edit: apologies to my email subscribers, the version of this that went out over email had a typo in the title (it read "representable" instead of "unrepresentable").
 
 edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=45164444). I was surprised to see some commenters don't think that your database schema or your over-the-wire serialization format are a part of how you express your domain model. To me, those things are every bit as relevant as the rest of your code. I like the Fred Brooks quote from _Mythical Man Month_: "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious."
+
+edit: this post also got some excellent coments on [lobste.rs](https://lobste.rs/s/itj50a/make_invalid_states_unrepresentable).
 
 [^1]: The other solution some engineers seem to like - refusing to do the task, on the grounds that it'd compromise the software design - is a non-starter, in my opinion. As engineers, it's our job to support the needs of the business.
 
