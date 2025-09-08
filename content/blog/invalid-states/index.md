@@ -75,6 +75,8 @@ In case you couldn't tell, I am very much on the Prococol Buffers side of the de
 
 **I am not arguing that all constraints are bad.** Constraints make a system possible to reason about, and the harder the constraint, the better it does its job. A system with no constraints at all (or only very soft constraints) is more of a programming _language_ than a program. I like many kinds of hard constraint: for instance, I prefer protobufs to JSON, I like type signatures, and I strongly prefer relational databases with a set schema to schemaless databases. However, user-facing software will eventaully be forced to break many of its constraints in the interest of better fulfilling _the real-world goal of that software_. Thus, **some invalid states ought to be representable**.
 
+edit: apologies to my email subscribers, the version of this that went out over email had a typo in the title (it read "representable" instead of "unrepresentable").
+
 [^1]: The other solution some engineers seem to like - refusing to do the task, on the grounds that it'd compromise the software design - is a non-starter, in my opinion. As engineers, it's our job to support the needs of the business.
 
 [^2]: Foreign key constraints also have performance issues at scale, make database migrations very difficult when you're touching the foreign key column, and complicate common big-company patterns like soft-deletes.
