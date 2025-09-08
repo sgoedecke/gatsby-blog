@@ -37,7 +37,7 @@ In almost all cases, you should update the design (for instance, any app marketp
 
 ### Foreign key constraints
 
-Abnother classic example of this is foreign key constraints. In a relational database, tables are related by primary key (typically ID): a `posts` table will have a `user_id` column to show which user owns which post, corresponding to the value of the `id` column in the `users` table. When you want to fetch the posts belonging to user 3, you'll run SQL like `SELECT * FROM posts WHERE user_id = 3`.
+Another classic example of this is foreign key constraints. In a relational database, tables are related by primary key (typically ID): a `posts` table will have a `user_id` column to show which user owns which post, corresponding to the value of the `id` column in the `users` table. When you want to fetch the posts belonging to user 3, you'll run SQL like `SELECT * FROM posts WHERE user_id = 3`.
 
 A foreign key constraint forces `user_id` to correspond to an actual row in the `users` table. If you try to create or update a post with user_id 999, and there is no user with that id, the foreign key constraint will cause the SQL query to fail.
 
