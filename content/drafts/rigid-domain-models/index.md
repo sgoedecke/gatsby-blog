@@ -6,14 +6,16 @@ date: '2025-05-08'
 tags: ["software design"]
 ---
 
-A popular principle for good software design is to **make invalid states unrepresentable**. In practice, this usually means doing two things:
+One of the most controversial things I believe about good software design is that **your code should be more flexible than your domain model**. This is in direct opposition to a lot of popular design advice, which is all about binding your code to your domain model as tightly as possible.
+
+For instance, popular principle for good software design is to **make invalid states unrepresentable**. This usually means doing two things:
 
 1. Enforcing a single source of truth in your database schema. If users and profiles are associated with a `user_id` on the `profiles` table, don't also put a `profile_id` on the `users` table, because then you could have a mismatch.
 2. Enforcing stricter types. If you use an "published/pending" enum to track comment status instead of a string field, you don't have to worry about weird strings you don't expect.
 
-I think this is overall good advice. Building constraints into your software that force it to match your domain model makes it easier to reason about. However, you should make sure you build in as few _hard_ constraints as possible.
+The more you can constrain your software to match your domain model, the easier it will be easier to reason about. However, I think in many cases this is **bad advice**. In my view, you should make sure you build in as few _hard_ constraints as possible.
 
-Real-world software is already subject to the genuinely hard constraints of the real world. If you add further constraints to make your software neater, you risk making it difficult to change when you really, really have to. In other words, **good software design should allow the system to represent some invalid states**. 
+Real-world software is already subject to the genuinely hard constraints of the real world. If you add further constraints to make your software neater, you risk making it difficult to change when you really, really have to. Because of this, **good software design should allow the system to represent some invalid states**. 
 
 ### State machines should allow arbitrary state transitions
 
@@ -49,6 +51,24 @@ If you want to change the database schema, foreign key constraints can be a big 
 
 The principle here is the same as with state machines: **at some point you will be forced to do something that violates your nice constraints**, and if you've made those constraints truly immovable you're buying yourself a lot of trouble.
 
+### Protocol buffers and required fields
+
+For a third example, consider [Protocol Buffers](https://protobuf.dev/). Protobufs are Google's popular open-source serialization format. The first iteration of protobufs allowed you to tag fields as `required`. If a client parsing a protobuf saw it was missing a required field, that client would reject the message. This sounds sensible enough, right? Many kinds of message don't make any sense without certain values, so why not encode that constraint into the serialization layer? Isn't it good to make invalid messages impossible to represent?
+
+However, in the second iteration, Google dropped the ability to mark any field as required. This was a controversial decision. In fact, many believe that [all proto fields should always be required](https://reasonablypolymorphic.com/blog/protos-are-wrong/), on the grounds that more constraints make the underlying types more elegant and easier to read about. For the other side of the argument, read [this Hacker News comment](https://news.ycombinator.com/item?id=18190005) from a protobuf designer. 
+
+In my view, this debate comes down to how seriously you take the problem of **changing schemas in a system with multiple consumers**. If you want to add a required field to a protobuf, you have to do it like so:
+
+1. Add the required field to every service that creates the protobuf from-scratch
+2. Add the required field to any middlemen that are taking the protobuf and passing it on to some other system
+3. Add the required field to all other consumers
+
+If you do this out-of-order, messages get dropped on the floor, likely causing some kind of production outage. Removing a required field requires a similar order-dependent process, except in reverse - consumers must drop the field first, followed by middlemen, followed by producers. If you forget to upgrade a consumer service schema (not as unlikely as it sounds, in large companies with thousands of half-forgotten services), the part of it that needs the protobuf will just stop working.
+
+When you know all fields are optional, you can change protobuf schemas in a completely order-independent way. All services can upgrade to the new version of the schema more or less at their convenience. The tradeoff is that you won't have the data until both you and the producer are upgraded to the new schema, so you'll need to handle that case in your application code.
+
+In case you couldn't tell, I am very much on the Prococol Buffers side of the debate. Having done a lot of schema changes of various kinds, I think it is safer to tolerate incomplete data at the application level during a schema upgrade than be forced to upgrade services in the right order or risk an outage. In other words, I think **application code should be willing to tolerate data that violates the domain model**.
+
 ### Real and fake constraints
 
 I understand why engineers want to build hard constraints into their code. Constraints make a system possible to reason about, and the harder the constraint, the better it does its job. Not having to worry about exceptions is _great_. Using constraints to enforce an elegant domain model can make even very large, very complex systems easy to work with.
@@ -58,19 +78,6 @@ The problem is that **domain models are not real**. The map is not the territory
 Real constraints are very different. Some of these are legal constraints: for instance, you _must_ retain data under a legal hold, or you _must_ delete personal data after a GDPR request. It doesn't matter if it would complicate your system design or break the rules of your elegant domain model. You have to do it anyway.
 
 Other real constraints are financial. If a large enough customer wants something, you often have to do it. The domain model is a tool to make the company money, after all. If some constraint in the model is in the way of making money, the constraint _will be removed_, no matter the consequences.
-
-### Pure and impure software
-
-The examples I've given have all been real-world systems: app marketplaces, blogging software, and so on. These are examples of [impure engineering](/pure-and-impure-engineering). If instead you're working on what I call "pure software" - libraries that solve some self-contained problem, for instance - you may be able to get away with adding as many constraints as you want. A date-parsing library is unlikely to ever have to break its own rules because a judge asks it to.
-
-The real problems come up when pure engineers find themselves writing code for real-world use cases. As an example, consider ledger-based systems like blockchains. In these systems, nothing is deleted. The current state of the system is derived from the entire stored chain of events, which is immutable - either necessarily and by design, in the case of blockchains, or as an architectural nicety, in the case of pure event-driven architectures. If you want to "delete" a record, you emit a new event saying "record X is deleted", but all the previous events for record X remain in the chain.
-
-This is great! It allows you to answer all kinds of questions about the history of the data, ensures eventual consistency even under a very high volume of writes, lets you undo operations at any time, and so on. Many pure engineers love ledger-based systems.
-
-Ledger-based systems became very popular in 2010. Six years later, the European Union adopted [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), which gave EU citizens the right to request that their personal data be deleted. This was a big problem for engineers who'd built their products on top of an immutable ledger. The fake constraint they'd built into their system - that data would never be deleted - ran into a real constraint: EU law.
-
-There 
-
 
 
 [^1]: The other solution some engineers seem to like - refusing to do the task, on the grounds that it'd compromise the software design - is a non-starter, in my opinion. As engineers, it's our job to support the needs of the business.
