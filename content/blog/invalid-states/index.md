@@ -1,21 +1,19 @@
 ---
-title: Some invalid states should be representable
+title: \'Make invalid states representable\' considered harmful
 description: 
-order: 78
-date: '2025-05-08'
+order: 137
+date: '2025-09-08'
 tags: ["software design"]
 ---
 
 One of the most controversial things I believe about good software design is that **your code should be more flexible than your domain model**. This is in direct opposition to a lot of popular design advice, which is all about binding your code to your domain model as tightly as possible.
 
-For instance, popular principle for good software design is to **make invalid states unrepresentable**. This usually means doing two things:
+For instance, a popular principle for good software design is to **make invalid states unrepresentable**. This usually means doing two things:
 
 1. Enforcing a single source of truth in your database schema. If users and profiles are associated with a `user_id` on the `profiles` table, don't also put a `profile_id` on the `users` table, because then you could have a mismatch.
 2. Enforcing stricter types. If you use an "published/pending" enum to track comment status instead of a string field, you don't have to worry about weird strings you don't expect.
 
-The more you can constrain your software to match your domain model, the easier it will be easier to reason about. However, I think in many cases this is **bad advice**. In my view, you should make sure you build in as few _hard_ constraints as possible.
-
-Real-world software is already subject to the genuinely hard constraints of the real world. If you add further constraints to make your software neater, you risk making it difficult to change when you really, really have to. Because of this, **good software design should allow the system to represent some invalid states**. 
+I can see why people like this principle. The more you can constrain your software to match your domain model, the easier it will be easier to reason about. However, it's possible to take it too far. In my view, your software should include as few _hard_ constraints as possible. Real-world software is already subject to the genuinely hard constraints of the real world. If you add further constraints to make your software neater, you risk making it difficult to change when you really, really have to. Because of this, **good software design should allow the system to represent some invalid states**. 
 
 ### State machines should allow arbitrary state transitions
 
@@ -39,7 +37,7 @@ In almost all cases, you should update the design (for instance, any app marketp
 
 ### Foreign key constraints
 
-The classic example of this is foreign key constraints. In a relational database, tables are related by primary key (typically ID): a `posts` table will have a `user_id` column to show which user owns which post, corresponding to the value of the `id` column in the `users` table. When you want to fetch the posts belonging to user 3, you'll run SQL like `SELECT * FROM posts WHERE user_id = 3`.
+Abnother classic example of this is foreign key constraints. In a relational database, tables are related by primary key (typically ID): a `posts` table will have a `user_id` column to show which user owns which post, corresponding to the value of the `id` column in the `users` table. When you want to fetch the posts belonging to user 3, you'll run SQL like `SELECT * FROM posts WHERE user_id = 3`.
 
 A foreign key constraint forces `user_id` to correspond to an actual row in the `users` table. If you try to create or update a post with user_id 999, and there is no user with that id, the foreign key constraint will cause the SQL query to fail.
 
@@ -49,7 +47,7 @@ The main reason is _flexibility_[^2]. In practice, it's much easier to deal with
 
 If you want to change the database schema, foreign key constraints can be a big problem. Maybe you want to move a table to a different database cluster or shard. If it has any foreign key relationships to other tables, watch out! If you're not also moving those tables over, you'll have to remove the foreign key constraint then anyway. Even if you are moving those tables too, it's a giant hassle to move the data in a way that's compliant with the constraint, because you can't just replicate a single table at a time - you have to move the data in chunks that keep the foreign key relationships intact.
 
-The principle here is the same as with state machines: **at some point you will be forced to do something that violates your nice constraints**, and if you've made those constraints truly immovable you're buying yourself a lot of trouble.
+The principle here is the same as with state machines: **at some point you will be forced to do something that violates your tidy constraints**, and if you've made those constraints truly immovable you're buying yourself a lot of trouble.
 
 ### Protocol buffers and required fields
 
@@ -69,17 +67,16 @@ When you know all fields are optional, you can change protobuf schemas in a comp
 
 In case you couldn't tell, I am very much on the Prococol Buffers side of the debate. Having done a lot of schema changes of various kinds, I think it is safer to tolerate incomplete data at the application level during a schema upgrade than be forced to upgrade services in the right order or risk an outage. In other words, I think **application code should be willing to tolerate data that violates the domain model**.
 
-### Real and fake constraints
+### Final thoughts
 
-I understand why engineers want to build hard constraints into their code. Constraints make a system possible to reason about, and the harder the constraint, the better it does its job. Not having to worry about exceptions is _great_. Using constraints to enforce an elegant domain model can make even very large, very complex systems easy to work with.
+**The harder the constraint, the more dangerous it is**. When I say that a constraint is hard, I mean that it is very difficult to undo it if you need to. A line of code validating something is a soft constraint, because you can simply remove the line if needed. Something baked into a database schema is a harder constraint, because it requires a migration to change, which (depending on the amount of data and the read volume) can be operationally very difficult. Some constraints are built into the architecture of the entire system: consider the "no data is ever truly deleted" constraint in blockchain or ledger-based systems[^3].
 
-The problem is that **domain models are not real**. The map is not the territory. A domain model is a _model_ of real-world processes. Because of that, the constraints inherent to the domain model (like "tickets must always be marked as completed before being archived") cannot be hard constraints. They're fake constraints: made-up rules that are invented to make the process run more smoothly in general.
+**For most software, domain models are not real**. A domain model is only a _model_ of real-world processes. Because of that, the constraints inherent to the domain model (like "tickets must always be marked as completed before being archived") cannot be truly hard constraints. This is trivially true about most line-of-business or SaaS software, and gets less true the more generic and library-like your software is. If you're writing a library to do efficient matrix multiplications, you can get away with much harder constraints than if you're writing directly user-facing code. For much more on this, see my post [Pure and impure software engineering](/pure-and-impure-engineering).
 
-Real constraints are very different. Some of these are legal constraints: for instance, you _must_ retain data under a legal hold, or you _must_ delete personal data after a GDPR request. It doesn't matter if it would complicate your system design or break the rules of your elegant domain model. You have to do it anyway.
-
-Other real constraints are financial. If a large enough customer wants something, you often have to do it. The domain model is a tool to make the company money, after all. If some constraint in the model is in the way of making money, the constraint _will be removed_, no matter the consequences.
-
+**I am not arguing that all constraints are bad.** Constraints make a system possible to reason about, and the harder the constraint, the better it does its job. A system with no constraints at all (or only very soft constraints) is more of a programming _language_ than a program. I like many kinds of hard constraint: for instance, I prefer protobufs to JSON, I like type signatures, and I strongly prefer relational databases with a set schema to schemaless databases. However, user-facing software will eventaully be forced to break many of its constraints in the interest of better fulfilling _the real-world goal of that software_. Thus, **some invalid states ought to be representable**.
 
 [^1]: The other solution some engineers seem to like - refusing to do the task, on the grounds that it'd compromise the software design - is a non-starter, in my opinion. As engineers, it's our job to support the needs of the business.
 
 [^2]: Foreign key constraints also have performance issues at scale, make database migrations very difficult when you're touching the foreign key column, and complicate common big-company patterns like soft-deletes.
+
+[^3]: What would it take to allow for true data deletion in a blockchain (for instance, to comply with GDPR)? You would need to change the protocol to something like how Kafka handles true deletion: allowing "tombstone" records to be written into the ledger and then safely compacted away by every node. I leave "how do you safely compact a portion of a Merkle tree in a zero-trust environment" as an exercise for the reader.
