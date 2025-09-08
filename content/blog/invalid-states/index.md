@@ -77,6 +77,8 @@ In case you couldn't tell, I am very much on the Prococol Buffers side of the de
 
 edit: apologies to my email subscribers, the version of this that went out over email had a typo in the title (it read "representable" instead of "unrepresentable").
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=45164444). I was surprised to see some commenters don't think that your database schema or your over-the-wire serialization format are a part of how you express your domain model in code. To me, those things are every bit as relevant as your business logic software. I like the Fred Brooks quote from _Mythical Man Month_: "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious."
+
 [^1]: The other solution some engineers seem to like - refusing to do the task, on the grounds that it'd compromise the software design - is a non-starter, in my opinion. As engineers, it's our job to support the needs of the business.
 
 [^2]: Foreign key constraints also have performance issues at scale, make database migrations very difficult when you're touching the foreign key column, and complicate common big-company patterns like soft-deletes.
