@@ -237,7 +237,7 @@ The core problem is that you're deciding for yourself what the company needs ins
 
 Should you never do glue work? No, you should do glue work _tactically_. That is, you should do this kind of extra work for the projects you lead - the projects whose success you're accountable for - in order to make sure they succeed. You won't be rewarded for the glue work specifically, but you will be rewarded for the success of the project. For other projects, you should just do your regular job.
 
-Is this a deeply cynical take about how to succeed in office politics? I don't actually think so. Large tech companies operate at something like 20-60% efficiency at any given time (as they get larger, they get less efficient). Even knowing that, growing is a deliberate choice: companies grow in order to capture more surface area, since even at a lower efficiency that's a way to [produce much more value](https://danluu.com/sounds-easy/). If individual employees are willing to lift their local team to 80% or 90% efficiency by burning their time on glue work, companies will take that free value, but they don't have any real interest in locking that in for the long term (since it depends on exceptional people volunteering their time in hard-to-rewrad ways and thus isn't sustainable).
+Is this a deeply cynical take about how to succeed in office politics? I don't actually think so. Large tech companies operate at something like 20-60% efficiency at any given time (as they get larger, they get less efficient). Even knowing that, growing is a deliberate choice: companies grow in order to capture more surface area, since even at a lower efficiency that's a way to [produce much more value](https://danluu.com/sounds-easy/). If individual employees are willing to lift their local team to 80% or 90% efficiency by burning their time on glue work, companies will take that free value, but they don't have any real interest in locking that in for the long term (since it depends on exceptional people volunteering their time in hard-to-reward ways and thus isn't sustainable).
 
 If you're one of those exceptional people, congratulations! You can use that power tactically to be a more effective engineer. But you shouldn't do it all the time. 
 
@@ -705,7 +705,7 @@ The benefit of thinking through the flow at that level of detail is that you're 
 
 For instance, in the case of implementing a commenting system:
 
-A user lands on one of my blog posts and should see a enter-your-comment form. That's easily done by adding a `<form>` element to my post template.
+A user lands on one of my blog posts and should see an enter-your-comment form. That's easily done by adding a `<form>` element to my post template.
 
 When they submit the form, their comment should be stored somewhere. Okay, so I need an endpoint on my backend and some kind of data storage. My add-a-comment endpoint code will be something like this:
 
@@ -1060,7 +1060,7 @@ It's also worth remembering that LLMs sometimes just straight-up hallucinate: i.
 
 ### Misaligned and unsafe models
 
-Some LLM models are safer to use than others. In the extreme case, it's possible to train a model that's poorly-aligned (i.e. it acts to thwart human goals, instead of to fulfil them). A model like this might deliberately expose your data or break your applications. AI labs put [a lot of effort](https://www.anthropic.com/research/alignment-faking) into making sure their models don't fall into this category, so by using popular and trusted models you can largely avoid this risk. If you're training your own models, it's your responsibility.
+Some LLM models are safer to use than others. In the extreme case, it's possible to train a model that's poorly-aligned (i.e. it acts to thwart human goals, instead of to fulfill them). A model like this might deliberately expose your data or break your applications. AI labs put [a lot of effort](https://www.anthropic.com/research/alignment-faking) into making sure their models don't fall into this category, so by using popular and trusted models you can largely avoid this risk. If you're training your own models, it's your responsibility.
 
 Another way models can be unsafe is that they can (usually accidentally) contain private information. If you train or fine-tune a model on sensitive user data, then your model cannot be safely exposed to the public - it may expose that sensitive data in any response. 
 
