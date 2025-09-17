@@ -58,7 +58,10 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <script async src="https://cse.google.com/cse.js?cx=d4b88b15d417f483e"> </script> <div class="gcse-search"></div>
+      <div className="search-container">
+        <script async src="https://cse.google.com/cse.js?cx=d4b88b15d417f483e"></script>
+        <div className="gcse-search"></div>
+      </div>
     </div>
   )
 }

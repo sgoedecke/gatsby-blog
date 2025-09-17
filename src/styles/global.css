@@ -55,3 +55,60 @@ ul li {
   margin-left: 20px;
   padding-left: 10px;
 }
+
+/* Google Custom Search tweaks */
+.search-container {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+}
+
+.search-container .gsc-control-cse,
+.search-container .gsc-control-cse .gsc-table-result,
+.search-container .gsc-control-cse .gsc-thumbnail-inside,
+.search-container .gsc-control-cse .gsc-url-top,
+.search-container .gsc-control-wrapper-cse {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.search-container .gsc-search-box {
+  margin: 0 !important;
+}
+
+.search-container .gsc-search-box td {
+  padding: 0 !important;
+  vertical-align: middle !important;
+}
+
+.search-container .gsc-input-box {
+  border: 1px solid #c3c3c3 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+.search-container input.gsc-input {
+  font-size: 0.95rem !important;
+  padding: 0.5rem 0.75rem !important;
+  height: auto !important;
+  line-height: 1.4 !important;
+}
+
+.search-container .gsc-search-button {
+  margin-left: 0.75rem !important;
+  border: none !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  background: #1a73e8 !important;
+  min-width: 2.5rem !important;
+  height: 2.5rem !important;
+  color: #ffffff !important;
+}
+
+.search-container .gsc-branding {
+  margin-top: 0.5rem;
+}
