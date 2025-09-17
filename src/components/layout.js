@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import SearchBox from "./search-box"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -59,8 +60,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <div className="search-container">
-        <script async src="https://cse.google.com/cse.js?cx=d4b88b15d417f483e"></script>
-        <div className="gcse-search"></div>
+        <SearchBox />
       </div>
     </div>
   )
