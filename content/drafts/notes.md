@@ -1,3 +1,5 @@
+promo projects
+
 gpt-5 tone - a new kind of slopß
 
 why are chinese AI models less sycophantic?
