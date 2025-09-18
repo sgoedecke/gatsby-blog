@@ -59,7 +59,7 @@ ul li {
 /* Site search styling */
 .search-container {
   margin: 3.5rem 0 2.5rem;
-  padding: 0;
+  padding: 0.75rem 0 0;
 }
 
 .site-search {
