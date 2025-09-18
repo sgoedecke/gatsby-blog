@@ -1,67 +1,37 @@
-import React, { useEffect, useRef } from "react"
-
-const GCSE_SCRIPT_ID = "gcse-script"
-const SEARCH_ELEMENT_ID = "gcse-search-box"
-const CX = "d4b88b15d417f483e"
+import React, { useState } from "react"
 
 const SearchBox = () => {
-  const readyRef = useRef(false)
+  const [query, setQuery] = useState("")
 
-  useEffect(() => {
-    if (readyRef.current) return
-    readyRef.current = true
+  const handleSubmit = event => {
+    event.preventDefault()
 
-    if (typeof window === "undefined") return
+    const trimmed = query.trim()
+    const siteQuery = trimmed
+      ? `inurl:seangoedecke.com ${trimmed}`
+      : "inurl:seangoedecke.com"
+    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(
+      siteQuery
+    )}`
 
-    // Google CSE expects a global script and an explicit render in SPA contexts.
-    const renderSearch = () => {
-      if (
-        window.google &&
-        window.google.search &&
-        window.google.search.cse &&
-        document.getElementById(SEARCH_ELEMENT_ID)
-      ) {
-        window.google.search.cse.element.render({
-          div: SEARCH_ELEMENT_ID,
-          tag: "search",
-        })
-      }
-    }
+    window.open(searchUrl, "_blank", "noopener,noreferrer")
+  }
 
-    const ensureScript = () => {
-      const script = document.getElementById(GCSE_SCRIPT_ID)
-      if (!script) {
-        window.__gcse = window.__gcse || {}
-        window.__gcse.parsetags = "explicit"
-
-        const newScript = document.createElement("script")
-        newScript.id = GCSE_SCRIPT_ID
-        newScript.src = `https://cse.google.com/cse.js?cx=${CX}`
-        newScript.async = true
-        newScript.addEventListener("load", renderSearch)
-        document.body.appendChild(newScript)
-      } else if (
-        window.google &&
-        window.google.search &&
-        window.google.search.cse
-      ) {
-        renderSearch()
-      } else {
-        script.addEventListener("load", renderSearch)
-      }
-    }
-
-    ensureScript()
-
-    return () => {
-      const script = document.getElementById(GCSE_SCRIPT_ID)
-      if (script) {
-        script.removeEventListener("load", renderSearch)
-      }
-    }
-  }, [])
-
-  return <div className="gcse-search" id={SEARCH_ELEMENT_ID} />
+  return (
+    <form className="site-search" onSubmit={handleSubmit}>
+      <label htmlFor="site-search-input" className="sr-only">
+        Search seangoedecke.com
+      </label>
+      <input
+        id="site-search-input"
+        type="text"
+        value={query}
+        onChange={event => setQuery(event.target.value)}
+        placeholder="Search posts"
+      />
+      <button type="submit">Search</button>
+    </form>
+  )
 }
 
 export default SearchBox
