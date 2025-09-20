@@ -1,0 +1,25 @@
+---
+title: AI is good news for Australian and European software engineers
+description: 
+order: 140
+date: '2025-09-20'
+tags: ["ai", "tech companies", "australia"]
+---
+
+Right now the dominant programing model is something like ["centaur chess"](https://en.wikipedia.org/wiki/Advanced_chess), where a skilled human is paired with a computer assistant. Together, they produce more work than either could individually. No individual human can work as fast or as consistently as a LLM, but LLMs lack the depth of judgement that good engineers do[^1]. That's why the current state-of-the-art AI programming tools are all high-feedback tools like Claude Code where you can see every step the agent is taking and provide real-time feedback, not tools like [Devin](https://devin.ai/) where it just goes away and solves the problem on its own.
+
+Even though human judgment is required, the bottleneck for these pairings is the LLM, not the human. Since the human engineer is just supervising the work, the LLM is generally working much harder. And while humans live in lots of different places, the top LLMs are typically located in a handful of datacenters. Because the weights are secret, you can't just run Claude Sonnet 4 on your personal compute - you have to go to Anthropic or Amazon, who are struggling to run the model at the scale required to meet demand.
+
+This dynamic has led to a popular [theory](https://x.com/TheAhmadOsman/status/1961503723319914710) [that](https://github.com/anthropics/claude-code/issues/6325#issuecomment-3263262925) [AI labs](https://www.reddit.com/r/OpenAI/comments/1lrk7o5/is_openai_destroying_their_models_by_quantizing/) react to peak traffic (US working hours) by quantizing[^2] their models so they're cheaper to serve at scale. According to this theory, if you use Claude Code in the middle of the night, you will get a smarter model than if you use it in the middle of the USA working day. For what it's worth, Anthropic has [categorically denied](https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues) that they do this. But regardless, it's just a fact that AI tooling is less reliable during peak hours. Requests are more likely to [time out](https://community.openai.com/t/avoiding-throttling-during-peak-hours/1358839/3) or just go down entirely.
+
+American tech companies can't reliably buy more LLM compute. You can give OpenAI as much money as you want - if there's too much traffic for their GPUs during peak hours, they won't be able to serve your requests. However, tech companies _can_ buy the ability to do useful work outside of peak hours, by hiring engineers whose working hours are off-peak.
+
+In other words, the economics of serving LLMs provides a real incentive for American tech companies to hire engineers from Australia and Europe. Those engineers can make more efficient use of a scarce compute resource, and will be insulated from the inevitable outages and scaling issues during the American working day.
+
+I wrote about this before in [_What it's like working for American companies as an Australian_](/working-for-americans). I do think hiring in Australia can be kind of like a superpower for American tech companies: even aside from the LLM point, it allows work to continue around the clock on high-priority tasks. When something really has to launch in two days, there's a big difference between being able to spend ~20 hours of engineering time on it and being able to spend ~48 hours of engineering time on it. When a large American customer reports a nasty bug, being able to fix it overnight without making an engineer work outside their normal hours is very nice.
+
+Of course I'm writing this partially out of self-interest, as an Australian software engineer who likes working for American software companies. But I also think it's true! If you see your tech company's engineering work as a partnership with AI coding agents, consider hiring an engineering staff who can continue that partnership into the night, when the GPUs are running cool and the models aren't potentially being quantized.
+
+[^1]: Of course this isn't true for all domains. If you've been working in the same codebase for ten years, you will be much better at it than any AI system. I wrote about this in [_METR'S AI productivity study is really good_](/impact-of-ai-study) and in [_Pure and impure engineering_](/pure-and-impure-engineering). But for most ordinary big-tech work, where engineers are forced to produce large amounts of impure code to a deadline, LLM assistance can be very helpful indeed.
+
+[^2]: Quantizing a model means changing the precision of its weights (e.g. instead of "0.2156", you store the weight as "0.2", which makes the inference calculations much cheaper to run). It always makes the model a bit dumber, though, so it's a tradeoff.
