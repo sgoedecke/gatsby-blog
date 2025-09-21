@@ -38,6 +38,7 @@ The most optimistic AI proponents think that "being good at AI" is about maximal
 
 I don't think we're there yet. I use agentic coding tools a lot: GitHub Copilot at and for work, and both Codex and Claude Code for my personal projects[^2]. While they can do a surprising number of tasks on their own, they do require fairly close supervision. The dominant programming model is something like ["centaur chess"](https://en.wikipedia.org/wiki/Advanced_chess), where a skilled human is paired with a computer assistant. The better you are at code review - at assessing whether a particular software approach is a sensible one - the better you'll be at using agentic AI tooling.
 
+
 edit: this post got some attention on [Hacker News](https://news.ycombinator.com/item?id=45310529). Most of the comments are retreading the "do AI agents work" question, which is not very interesting to me (my view is "of course they do on some codebases, but there are other codebases where they'll be completely useless"). I don't think good code review can somehow make it possible for AI agents to make substantial contributions to the Linux kernel, for instance. There were a [couple](https://news.ycombinator.com/item?id=45311422) of [comments](https://news.ycombinator.com/item?id=45312278) defending "code smell and function naming" styles of code review, and suggesting that if you're discussing design in the code review you've failed to adequately plan out the feature ahead of time. I disagree pretty strongly with that view and will at some point write up a blog post about it.
 
 
