@@ -6,7 +6,9 @@ date: '2025-09-25'
 tags: ["ai", "projects"]
 ---
 
-I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/).
+I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/)!
+
+![endlesswiki](endlesswiki.png)
 
 ### Why build an AI-generated wiki?
 
