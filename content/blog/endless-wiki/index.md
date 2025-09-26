@@ -6,6 +6,8 @@ date: '2025-09-25'
 tags: ["ai", "projects"]
 ---
 
+edit: I've disabled new page generation for now because someone ran a script overnight to endlessly click links and cost me $70. I don't really understand why anybody would do that.
+
 I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/)!
 
 ![endlesswiki](endlesswiki.png)
