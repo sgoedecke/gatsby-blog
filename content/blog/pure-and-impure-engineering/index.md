@@ -3,6 +3,7 @@ title: Pure and impure software engineering
 description: 
 order: 101
 date: '2025-06-22'
+popular: true
 tags: ["software design", "tech companies"]
 ---
 
@@ -81,6 +82,8 @@ With this in mind, I can see why pure engineers are baffled by the hype around A
 I think it's commonly (and correctly) understood that pure engineering is difficult, valuable work. Almost everything we do as engineers depends on it: from the programming languages and libraries we use to the open-source services and databases we build our systems from.
 
 However, I want to defend impure engineering as also difficult and valuable. Large tech companies already know this and hire based on it, so it's already very lucrative to develop your impure engineering skills. But when engineers talk about engineering, they sometimes pretend that pure engineering is the only kind of engineering there is.
+
+edit: this got some comments on [Hacker News](https://news.ycombinator.com/item?id=45165753). Many commenters enjoyed the post but wish I'd written instead about some other distinction that they find more compelling. I want to clarify that I do not think that [pure engineering is going away](https://news.ycombinator.com/item?id=45210566). There will always be a lot of pure engineering work that needs doing.
 
 [^1]: Do Leetcode-based hiring practices serve as a counter-example to this? Leetcode problems are definitely pure engineering. I don't think so. For one, Leetcode hiring dates back before the bottom fell out of the industry. For two, I think it's mostly a convenience thing - if there was a Leetcode-style test that could measure impure engineering skills, tech companies would be all over it. (Also, big tech companies do need some amount of pure engineering, even today, and they do actively try and hire skilled pure engineers for that work.)
 

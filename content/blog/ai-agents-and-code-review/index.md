@@ -3,6 +3,7 @@ title: If you are good at code review, you will be good at using AI agents
 description: 
 order: 139
 date: '2025-09-20'
+popular: true
 tags: ["ai"]
 ---
 
