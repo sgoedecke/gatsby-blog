@@ -27,7 +27,7 @@ const BookPage = ({ data, location }) => {
       </p>
 
       <p>
-        I've done this at the request of a few people who prefer to read books than blogs, and I'm hoping it'll be a good way to reach a wider audience. The <a href="https://www.lulu.com/shop/sean-goedecke/software-engineering-after-the-vibe-shift/paperback/product-jew4ver.html?q=Sean+Goedecke&page=1&pageSize=4" target='_blank'>print version</a> is priced at cost. If you'd like a copy and can't afford to pay for it, the raw <a href="https://github.com/sgoedecke/gatsby-blog/blob/master/content/book/book.pdf" target='_blank'>PDF</a> is hosted in the same GitHub repo that hosts this blog.
+        I've done this at the request of a few people who prefer to read books than blogs, and I'm hoping it'll be a good way to reach a wider audience. The <a href="https://www.lulu.com/shop/sean-goedecke/software-engineering-after-the-vibe-shift/paperback/product-jew4ver.html?q=Sean+Goedecke&page=1&pageSize=4" target='_blank'>print version</a> is priced at cost. If you'd like a copy and can't afford to pay for it, the raw <a href="https://github.com/sgoedecke/gatsby-blog/blob/master/content/book/book.pdf" target='_blank'>PDF</a> is hosted in the same GitHub repo that hosts this blog. If you read it and liked it, please leave a review on the <a href="https://www.lulu.com/shop/sean-goedecke/software-engineering-after-the-vibe-shift/paperback/product-jew4ver.html?q=Sean+Goedecke&page=1&pageSize=4" target="_blank">listing page</a>.
       </p>
 
       <p><a href="https://www.lulu.com/shop/sean-goedecke/software-engineering-after-the-vibe-shift/paperback/product-jew4ver.html?q=Sean+Goedecke&page=1&pageSize=4" target='_blank'>You can buy it here!</a></p>
