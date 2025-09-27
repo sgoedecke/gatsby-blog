@@ -38,6 +38,7 @@ Like [AutoDeck](/autodeck), EndlessWiki represents another step in my "what if y
 
 [Anyway, check it out!](https://www.endlesswiki.com/)
 
+edit: this got some comments on Hacker News [here](https://news.ycombinator.com/item?id=45370760). Commenters are rightfully amused that I said I wasn't worried about inference cost, and then immmediately got bit by inference cost. They also think the traffic I was seeing was coming from search engine scrapers, which is plausible.
 
 
 [^1]: I use the lowercase "w" because I mean all encyclopedia wikis. Wikipedia is just the most popular example.
