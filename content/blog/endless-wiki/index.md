@@ -6,7 +6,7 @@ date: '2025-09-25'
 tags: ["ai", "projects"]
 ---
 
-edit: I temporarily disabled new page generation because of automated traffic, but I'm re-enabling it with a rate limit.
+edit: I temporarily disabled new page generation because of automated traffic, but I'm re-enabling it with a rate limit (and openai/gpt-oss-120b instead of Kimi-K2).
 
 I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/)!
 
