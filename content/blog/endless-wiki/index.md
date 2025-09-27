@@ -6,7 +6,7 @@ date: '2025-09-25'
 tags: ["ai", "projects"]
 ---
 
-edit: I've disabled new page generation for now because someone ran a script overnight to endlessly click links and cost me $70. I don't really understand why anybody would do that.
+edit: I temporarily disabled new page generation because of automated traffic, but I'm re-enabling it with a rate limit.
 
 I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/)!
 
@@ -28,7 +28,7 @@ The basic design is very simple: a MySQL database with a `pages` table, and a Go
 
 I'm using [Kimi K2](https://www.kimi.com/en/) for the model. I chose a large model because larger models contain more facts about the world (which is good for a wiki), and Kimi specifically because in my experience [Groq](https://groq.com/) is faster and more reliable than other model inference providers. Speed is really important for this kind of application, because the user has to wait for new pages to be generated. Fortunately, Groq is fast enough that the wait time is only a few hundred ms.
 
-Unlike [AutoDeck](/autodeck), I don't charge any money or require sign-in for this. That's because this is more of a toy than a tool, so I'm not worried about one power user costing me a lot of money in inference. You have to be manually clicking links to trigger inference.
+Unlike [AutoDeck](/autodeck), I don't charge any money or require sign-in for this. That's because this is more of a toy than a tool, so I'm not worried about one power user costing me a lot of money in inference. You have to be manually clicking links to trigger inference. (edit: ironically, one power user did indeed cost me a lot of money in inference. That'l show me.)
 
 The most interesting design decision I made was preventing "cheating". I'm excited to see how obscure the pages can get (for instance, can you get to eventually get to Neon Genesis Evangelion from the root page?) It would defeat the purpose if you could just manually go to `/wiki/neon-genesis-evangelion` in the address bar. To defeat that, I make each link have a `origin=slug` query parameter, and then I fetch the origin page server-side to validate that it does indeed contain a link to the page you're navigating to[^2].
 
