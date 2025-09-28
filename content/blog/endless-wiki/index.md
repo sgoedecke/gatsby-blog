@@ -42,6 +42,8 @@ edit: this got some comments on Hacker News [here](https://news.ycombinator.com/
 
 edit: I've just attempted to slow down some of the crawlers by rewriting the new-article outgoing links to be clickable divs instead of actual `<a>` tags. Obviously this won't defeat a sophisticated crawler, but it seems to be having some effect.
 
+edit: https://infinipedia.ai/ is another implementation of this idea. It does more AI-driven edits, which is interesting. The visualisation is also better, but I like my more Wikipedia-esque styling.
+
 
 [^1]: I use the lowercase "w" because I mean all encyclopedia wikis. Wikipedia is just the most popular example.
 

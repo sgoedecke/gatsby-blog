@@ -6,15 +6,13 @@ date: '2025-09-28'
 tags: ["good engineers", "software design"]
 ---
 
-What does it mean to have good taste in software engineering?
+Technical taste is different from technical skill. You can be technically strong but have bad taste, or technically weak with good taste. Like taste in general, technical taste sometimes runs ahead of your ability: just like you can tell good food from bad without being able to cook, you can know what kind of software you like before you've got the ability to build it. You can develop technical ability by study and repetition, but good taste is developed in a more mysterious way.
 
-Taste is different from technical skill. You can be technically strong but have bad taste, or technically weak with good taste. Taste sometimes runs ahead of technical ability: just like you can tell good food from bad without being able to cook, you can know what kind of software you like before you've got the ability to build it. You can develop technical ability by study and repetition, but you develop good taste in a more mysterious way.
+Here are some indicators of software taste:
 
-Here are some hallmarks of software taste:
-
-- What kind of code "looks good" to you and what kind of code "looks ugly"
-- Which design decisions you feel really good about and which ones are just fine
-- Which software problems really bother you and which you can easily brush off
+- What kind of code "looks good" to you? What kind of code "looks ugly"?
+- Which design decisions you feel really good about, and which ones are just fine?
+- Which software problems really bother you, to the point where you're worrying about them outside of work? Which problems can you just brush off?
 
 ### Why taste is different from skill
 
