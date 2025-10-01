@@ -14,7 +14,7 @@ My advice - don't use LLMs for text
 
 Write a lot, write about things you personally find interesting
 
-Post you own stuff to Hacker News, but don't spam - fine line. Stop as soon as you see other people doing it for you
+Post you own stuff to Hacker News, but don't spam - fine line. Stop as soon as you see other people doing it for you. A tasteful "share this post" link goes a long way.
 
 Have some kind of monitoring so you can tell what people are responding to
 

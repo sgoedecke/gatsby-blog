@@ -3,7 +3,8 @@ title: What's the strongest AI model you can train on a laptop in five minutes?
 description: 
 order: 128
 date: '2025-08-12'
-tags: ["ai"]
+tags: ["ai", "projects"]
+popular: true
 ---
 
 What's the strongest model I can train on my MacBook Pro[^1] in five minutes?
@@ -87,6 +88,8 @@ It was cool to see well-known real scaling laws apply to this challenge!
 It was a lot of fun doing this. I learned a lot about training very small models for very short amounts of time. I tried to understand every line of code I wrote (and have previously written transformers [from scratch](/porting-and-hacking-llama2)), but I definitely would not have tried things like the diffusion models without LLM assistance.
 
 I don't think this challenge is particularly useful for training strong models in general. Most of the interesting behaviour happens after the first five minutes of training. But I was still pleasantly surprised at how easily I was able to train a broadly-coherent storytelling model. As architectures (and laptop GPUs) improve, I wonder what kind of models we will eventually be able to train in five minutes.
+
+edit: this post got some attention on [Hacker News](https://news.ycombinator.com/item?id=44875848). One commenter linked this [interesting paper](https://arxiv.org/abs/2212.14034), which is a one-day version of this challenge.
 
 [^1]: 2024 MacBook Pro, Apple M4, 24 GB of memory.
 

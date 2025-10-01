@@ -3,6 +3,7 @@ title: Dangerous advice for software engineers
 description: --
 order: 62
 date: '2025-04-05'
+popular: true
 tags: ["good engineers", "tech companies"]
 ---
 
@@ -34,4 +35,4 @@ Dangerous advice requires courage to follow. It's very high-risk, high-reward, a
 
 edit: This post made it to [Hacker News](https://news.ycombinator.com/item?id=45022874), where it got a mix of very positive and very negative responses. It made me wish I'd explicitly included more of the points from my previous post [How strong engineers break the rules and get away with it](/breaking-rules).
 
-The biggest disagreement I have with the negative commenters is that they seem to think organizations _are_ their sets of written rules, and that the primary mode of operation in an organization is formal, structured collaboration. I need to write a whole post about this, but I think this is the classic [Seeing Like A State](https://files.libcom.org/files/Seeing%20Like%20a%20State%20-%20James%20C.%20Scott.pdf) mistake of over-prioritizing _legibility_. All communities have a load-bearing illegible component. The main thrust of this post (and most of this blog) is that you should think carefully about the illegible parts of your own work.
+The biggest disagreement I have with the negative commenters is that they seem to think organizations _are_ their sets of written rules, and that the primary mode of operation in an organization is formal, structured collaboration. I need to write a whole post about this, but I think this is the classic [Seeing Like A State](https://files.libcom.org/files/Seeing%20Like%20a%20State%20-%20James%20C.%20Scott.pdf) mistake of over-prioritizing _legibility_. All communities have a load-bearing illegible component. The main thrust of this post (and most of this blog) is that you should think carefully about the illegible parts of your own work. (edit: I wrote the post in question, which I titled [_Seeing like a software company_](/seeing-like-a-software-company))

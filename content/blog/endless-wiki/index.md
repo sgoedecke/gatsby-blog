@@ -3,6 +3,7 @@ title: Endless AI-generated Wikipedia
 description: --
 order: 142
 date: '2025-09-25'
+popular: true
 tags: ["ai", "projects"]
 ---
 

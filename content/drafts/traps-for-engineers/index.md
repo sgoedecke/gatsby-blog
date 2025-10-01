@@ -1,0 +1,2 @@
+- there are multiple acceptable solutions to any software problem
+- 
