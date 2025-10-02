@@ -65,7 +65,7 @@ If you do this out-of-order, messages get dropped on the floor, likely causing s
 
 When you know all fields are optional, you can change protobuf schemas in a completely order-independent way. All services can upgrade to the new version of the schema more or less at their convenience. The tradeoff is that you won't have the data until both you and the producer are upgraded to the new schema, so you'll need to handle that case in your application code.
 
-In case you couldn't tell, I am very much on the Prococol Buffers side of the debate. Having done a lot of schema changes of various kinds, I think it is safer to tolerate incomplete data at the application level during a schema upgrade than be forced to upgrade services in the right order or risk an outage. In other words, I think **application code should be willing to tolerate data that violates the domain model**.
+In case you couldn't tell, I am very much on the Protocol Buffers side of the debate. Having done a lot of schema changes of various kinds, I think it is safer to tolerate incomplete data at the application level during a schema upgrade than be forced to upgrade services in the right order or risk an outage. In other words, I think **application code should be willing to tolerate data that violates the domain model**.
 
 ### Final thoughts
 

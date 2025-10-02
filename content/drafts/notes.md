@@ -1,3 +1,9 @@
+auto ai researcher
+initially just used ngrams, too quick
+happy to churn away
+couldn't see MPS in the sandbox, so just used CPU
+`codex --sandbox danger-full-access`
+
 promo projects
 
 gpt-5 tone - a new kind of slopß
