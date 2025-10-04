@@ -40,6 +40,16 @@ If you're a very senior engineer, the VPs (or whoever) will quietly blame you fo
 
 You can view all this in two different ways. Cynically, you can read this as a suggestion to make yourself a convenient tool for the sociopaths who run your company to use in their endless internecine power struggles. Optimistically, you can read this as a suggestion to let executives set the overall priorities for the company - that's their job, after all - and to tailor your own technical plans to fit[^3]. Either way, you'll achieve more of your technical goals if you push the right plan at the right time.
 
+edit: this post got some attention on [Hacker News](https://news.ycombinator.com/item?id=45473852). The comments were much more positive than on my other posts about politics, for reasons I don't quite understand. This [comment](https://news.ycombinator.com/item?id=45474998) is an excellent statement of what I write about [here](/party-tricks) (but targeted at more junior engineers). This [comment](https://news.ycombinator.com/item?id=45474559) (echoed [here](https://news.ycombinator.com/item?id=45474338)) references a Milton Friedman quote that applies the idea in this post to political policy in general, which I'd never thought of but sounds correct:
+
+> Only a crisis—actual or perceived—produces real change. When that crisis occurs, the actions that are taken depend on the ideas that are lying around. That, I believe, is our basic function: to develop alternatives to existing policies, to keep them alive and available until the politically impossible becomes politically inevitable.
+
+There's a few comments calling this approach overly game-playing and self-serving. I think this depends on the goal you're aiming at. The ones I referenced above seem pretty beneficial to me! Finally, [this comment](https://news.ycombinator.com/item?id=45474226) is a good summary of what I was trying to say:
+
+> Instead of waiting to be told what to do and being cynical about bad ideas coming up when there's a vacumn and not doing what he wants to do, the author keeps a back log of good and important ideas that he waits to bring up for when someone important says something is priority. He gets what he wants done, compromising on timing.
+
+
+
 
 [^1]: I was prompted to write this after reading Terrible Software's article [_Don't avoid workplace politics_](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/) and its [comments](https://news.ycombinator.com/item?id=45440571) on Hacker News. Disclaimer: I am talking here about broadly functional tech companies (i.e. ones that are making money). If you're working somewhere that's completely dysfunctional, I have no idea whether this advice would apply at all.
 
