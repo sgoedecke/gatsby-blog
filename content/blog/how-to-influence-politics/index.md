@@ -1,5 +1,5 @@
 ---
-title: How to influence tech company politics as a staff software engineer
+title: How I influence tech company politics as a staff software engineer
 description: --
 order: 145
 date: '2025-10-04'
