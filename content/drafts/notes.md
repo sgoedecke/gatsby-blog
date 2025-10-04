@@ -1,3 +1,5 @@
+popular writing advice I deliberately ignore
+
 auto ai researcher
 initially just used ngrams, too quick
 happy to churn away
