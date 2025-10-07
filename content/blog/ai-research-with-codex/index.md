@@ -3,6 +3,7 @@ title: GPT-5-Codex is a better AI researcher than me
 description: --
 order: 146
 date: '2025-10-07'
+popular: true
 tags: ["ai", "projects"]
 ---
 
@@ -90,6 +91,7 @@ I don't have any illusions about this making me a real AI researcher, any more t
 
 I've pushed up the code [here](https://github.com/sgoedecke/five-minute-llm) if you want to pick up from where I left off, but you may be better off just starting from scratch with Codex or your preferred coding agent.
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=45501326). The tone is much more negative than on my previous attempt, which is interesting - maybe the title gave people the mistaken impression that I think I'm a strong AI researcher!
 
 [^1]: "Alone" here is relative - I did use ChatGPT and a bit of Copilot to generate some of the training code in my last attempt. I just didn't use any _agentic_ tooling.
 
