@@ -88,7 +88,7 @@ I really like this approach. It's exactly what I was looking for from the start:
 
 I don't have any illusions about this making me a real AI researcher, any more than a "vibe coder" is a software engineer. Still, I'm surprised that it actually worked. And it was a lot of fun!
 
-I've pushed up the code [here](https://github.com/sgoedecke/five-minute-llm) if you want to pick up from where I left off, but you may be better off just starting from scratch with Codex or your preferred coding agents.
+I've pushed up the code [here](https://github.com/sgoedecke/five-minute-llm) if you want to pick up from where I left off, but you may be better off just starting from scratch with Codex or your preferred coding agent.
 
 
 [^1]: "Alone" here is relative - I did use ChatGPT and a bit of Copilot to generate some of the training code in my last attempt. I just didn't use any _agentic_ tooling.
