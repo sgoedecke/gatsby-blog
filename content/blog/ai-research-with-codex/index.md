@@ -6,51 +6,53 @@ date: '2025-10-07'
 tags: ["ai", "projects"]
 ---
 
-In [_What's the strongest AI model you can train on a laptop in five minutes?_](/model-on-a-mbp) I tried my hand at answering a silly AI-research question. I did use LLMs to help me get started with the Python scripts and to bounce ideas off, but it was definitely me doing the research: I was coming up with the ideas, running the experiments, and deciding what to do next based on the data. The best model I could train was... okay. It ended up being a 1.8M param transformer, and produced output like this:
+In [_What's the strongest AI model you can train on a laptop in five minutes?_](/model-on-a-mbp) I tried my hand at answering a silly AI-research question. You can probably guess what it was.
+
+I chatted with GPT-5 to help me get started with the Python scripts and to bounce ideas off, but it was still me doing the research. I was coming up with the ideas, running the experiments, and deciding what to do next based on the data. The best model I could train was a 1.8M param transformer which produced output like this:
 
 > **Once upon a time**, there was a little boy named Tim. Tim had a small box that he liked to play with. He would push the box to open. One day, he found a big red ball in his yard. Tim was so happy. He picked it up and showed it to his friend, Jane. "Look at my bag! I need it!" she said. They played with the ball all day and had a great time.
 
-Since then, OpenAI has released GPT-5-codex, and supposedly uses it (plus Codex, their CLI coding tool) to automate a lot of their product development and research. I wanted to try the same thing, for two reasons. The first reason was sheer curiosity. The second reason was that "AI research in Python" is plausibly what GPT-5-codex should be best at, since that's what OpenAI does internally.
-
-I want to write about what the process was like and what I learned. But I should lead by saying that Codex-plus-me did a much better job than me alone[^1]. Here's an example of the best output I got from the model I trained with Codex:
+Since then, OpenAI has released GPT-5-codex, and supposedly uses it (plus Codex, their CLI coding tool) to automate a lot of their product development and AI research. I wanted to try the same thing. Codex-plus-me did a much better job than me alone[^1]. Here's an example of the best output I got from the model I trained with Codex:
 
 > **Once upon a time**, in a big forest, there lived a little bunny named Ben. Ben loved to play with his friends in the forest. One day, Ben's mom saw him and was sad because he couldn't find his friend. She asked, "Why are you sad, Ben?" Ben said, "I lost my toy. I can't find it." Ben wanted to help Ben find his toy. He knew they could fix the toy. He went to Sam's house and found the toy under a tree. Sam was so happy and said, "Thank you, Ben! You are a very pretty toy!" Ben smiled and said, "Yes, I would love to help you." They played together all day long. The moral of the story is to help others when they needed it.
 
+What was the process like to get there?
+
 ### What vibe research looks like
 
-I've been calling this "vibe research". Like "vibe coding", it's performing a difficult technical task by relying on the model. While I have a broad intuitive sense of what approaches are being tried, I definitely don't have a deep enough understanding to do this research unassisted.
+I want to call it "vibe research". Like "vibe coding", it's performing a difficult technical task by relying on the model. I have a broad intuitive sense of what approaches are being tried, but I definitely don't have a deep enough understanding to do this research unassisted. A real AI researcher would get a lot more out of the tool.
 
-It was very easy to get started. I gave Codex the path to my scratch directory, told it "continue the research", and it immediately began coming up with ideas and running experiments on its own. In a way, the "train in five minutes" challenge is a perfect fit, because the feedback loop is so short.
+Still, it was very easy to get started. I gave Codex the path to my scratch directory, told it "continue the research", and it immediately began coming up with ideas and running experiments on its own. In a way, the "train in five minutes" challenge is a perfect fit, because the feedback loop is so short.
 
 The basic loop of doing AI research with Codex (at least as an enthusiastic amateur) looks something like this:
 
 1) Codex makes a change to the training script and does three or four runs (this takes ~20 minutes overall)
 2) Based on the results, Codex suggests two or three things that you could try next
-3) I pick one of them. Return to (1).
+3) I pick one of them (or very occasionally suggest my own idea) and return to (1).
 
-Sometimes instead of picking one of Codex's ideas I suggest one of my own, but mostly Codex's ideas were pretty good. After two days I did paste the current research notes into GPT-5-Pro, which helped a bit, but (as we'll see) the best ideas were ones Codex already came up with.
+After two days I did paste the current research notes into GPT-5-Pro, which helped a bit, but the vast majority of my time was spent in this loop. As we'll see, the best ideas were ones Codex already came up with.
 
-I chewed up a lot of tokens doing this. That's OK with me, since I paid for the $200-per-month plan[^2], but if you don't want to do this you'll have to space out your research a bit more slowly. I restarted my Codex process every million tokens or so. It didn't have any issue continuing where it left off from its previous notes, which was nice.
+I chewed through a lot of tokens doing this. That's OK with me, since I paid for the $200-per-month plan[^2], but if you don't want to do that you'll have to space out your research a bit more slowly. I restarted my Codex process every million tokens or so. It didn't have any issue continuing where it left off from its previous notes, which was nice.
 
-I ran Codex with `--sandbox danger-full-access`. By default it didn't have access to MPS, which meant it could only train models on the CPU. It only crashed my laptop twice!
+I ran Codex with `--sandbox danger-full-access`. By default it didn't have access to MPS, which meant it could only train models on the CPU. There's probably some more principled way of sandboxing it, but I didn't bother to figure it out. I didn't run into any runaway-agent problems, unless you count crashing my laptop a few times by using up too much memory.
 
 ### How did the research go?
 
-Here's a brief narrative of how the research went over the four or five days I spent poking at it. I stayed with the TinyStories dataset for all of this, partially because I think it's the best choice and partially because I wanted a 1:1 comparison between Codex and my own efforts.
+Here's a brief summary of how the research went over the four or five days I spent poking at it. I stayed with the TinyStories dataset for all of this, partially because I think it's the best choice and partially because I wanted a 1:1 comparison between Codex and my own efforts.
 
 #### N-gram models
 
-Codex started with a series of n-gram models: instead of training a neural network, just storing the conditional probabilities of a token based on the tokens that precede it. These are very quick to produce (seconds, not minutes) but aren't very good. The main reason is that even a 5-gram model cannot include context from more than five tokens ago, so they struggle to produce coherent text across an entire sentence. Here's an example:
+Codex and I started with a series of n-gram models: instead of training a neural network, n-gram models just store the conditional probabilities of a token based on the n tokens that precede it. These models are very quick to produce (seconds, not minutes) but aren't very good. The main reason is that even a 5-gram model cannot include context from more than five tokens ago, so they struggle to produce coherent text across an entire sentence. Here's an example:
 
 > **Once upon a time** , in a small school . " they are friends . they saw a big pond . he pulled and pulled , but the table was still no attention to grow even more . she quickly ran to the house . she says , " sara said . " you made him ! " the smooth more it said , for helping me decorate the cake .
 
-It's not _terrible_! There are segments that are entirely coherent. But it's kind of like what AI skeptics think LLMs are like: just fragments of the original source, remixed without any unifying through-line. The perplexity is 18.5 - worse than basically any of the transformers I trained in my last attempt.
+It's not _terrible_! There are short segments that are entirely coherent. But it's kind of like what AI skeptics think LLMs are like: just fragments of the original source, remixed without any unifying through-line. The perplexity is 18.5, worse than basically any of the transformers I trained in my last attempt.
 
 Codex trained 19 different n-gram models, of which the above example (a 4-gram model) was the best[^3]. In my view, this is one of the strengths of LLM-based AI research: **it is trivial to tell the model "go and sweep a bunch of different values for the hyperparameters"**. Of course, you can do this yourself. But it's a lot easier to just tell the model to do it.
 
 #### Back to transformers
 
-After this, Codex spent a lot of time working on transformers. It trained ~50 normal transformers with different sizes, number of heads, layers, and so on. Most of this wasn't particularly fruitful, which kind of surprised me. My hand-picked hyperparameters were quite competitive - which maybe shouldn't have been a shock, since they matched the lower end of the Chinchilla scaling laws.
+After this, Codex spent a lot of time working on transformers. It trained ~50 normal transformers with different sizes, number of heads, layers, and so on. Most of this wasn't particularly fruitful. I was surprised that my hand-picked hyperparameters from my previous attempt were quite competitive - though maybe it shouldn't have been a shock, since they matched the lower end of the Chinchilla scaling laws.
 
 Still, eventually it hit on a **8.53** perplexity model (3 layers, 4 heads, and a dimension of 144), which was a strict improvement over my last attempt. I'm not really convinced this was an _architectural_ improvement. One lesson from training fifty different models is that there's quite a lot of variance between different seeds. A perplexity improvement of just over 1 is more or less what I was seeing on a "lucky seed".
 
