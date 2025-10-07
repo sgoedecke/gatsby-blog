@@ -54,7 +54,7 @@ Codex trained 19 different n-gram models, of which the above example (a 4-gram m
 
 After this, Codex spent a lot of time working on transformers. It trained ~50 normal transformers with different sizes, number of heads, layers, and so on. Most of this wasn't particularly fruitful. I was surprised that my hand-picked hyperparameters from my previous attempt were quite competitive - though maybe it shouldn't have been a shock, since they matched the lower end of the Chinchilla scaling laws.
 
-Still, eventually it hit on a **8.53** perplexity model (3 layers, 4 heads, and a dimension of 144), which was a strict improvement over my last attempt. I'm not really convinced this was an _architectural_ improvement. One lesson from training fifty different models is that there's quite a lot of variance between different seeds. A perplexity improvement of just over 1 is more or less what I was seeing on a "lucky seed".
+Still, eventually Codex hit on a **8.53** perplexity model (3 layers, 4 heads, and a dimension of 144), which was a strict improvement over my last attempt. I'm not really convinced this was an _architectural_ improvement. One lesson from training fifty different models is that there's quite a lot of variance between different seeds. A perplexity improvement of just over 1 is more or less what I was seeing on a "lucky seed".
 
 This was an interesting approach for the challenge: going for pure volume and hoping for a lucky training run. You can't do this with a larger model, since it takes so long to train[^4], but the five-minute limit makes it possible.
 
@@ -88,7 +88,7 @@ I really like this approach. It's exactly what I was looking for from the start:
 
 I don't have any illusions about this making me a real AI researcher, any more than a "vibe coder" is a software engineer. Still, I'm surprised that it actually worked. And it was a lot of fun!
 
-I've pushed up the code [here](https://github.com/sgoedecke/five-minute-llm), but you may be better off just starting from scratch with Codex.
+I've pushed up the code [here](https://github.com/sgoedecke/five-minute-llm) if you want to pick up from where I left off, but you may be better off just starting from scratch with Codex or your preferred coding agents.
 
 
 [^1]: "Alone" here is relative - I did use ChatGPT and a bit of Copilot to generate some of the training code in my last attempt. I just didn't use any _agentic_ tooling.
