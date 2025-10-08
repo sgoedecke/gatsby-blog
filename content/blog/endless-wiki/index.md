@@ -7,11 +7,11 @@ popular: true
 tags: ["ai", "projects"]
 ---
 
-edit: I temporarily disabled new page generation because of automated traffic, but I'm re-enabling it with a rate limit (and openai/gpt-oss-120b instead of Kimi-K2).
-
 I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/)!
 
 ![endlesswiki](endlesswiki.png)
+
+edit: I'm very happy with how this worked. Over 62,000 pages generated, and over 200,000 links. You can look at the [constellation map](https://www.endlesswiki.com/constellation) to see what topics the wiki spent the most time on. There are some really curious pockets (DIY zine culture, or "Oklahoma City incidents").
 
 ### Why build an AI-generated wiki?
 
@@ -32,6 +32,8 @@ I'm using [Kimi K2](https://www.kimi.com/en/) for the model. I chose a large mod
 Unlike [AutoDeck](/autodeck), I don't charge any money or require sign-in for this. That's because this is more of a toy than a tool, so I'm not worried about one power user costing me a lot of money in inference. You have to be manually clicking links to trigger inference. (edit: ironically, one power user did indeed cost me a lot of money in inference. That'l show me.)
 
 The most interesting design decision I made was preventing "cheating". I'm excited to see how obscure the pages can get (for instance, can you get to eventually get to Neon Genesis Evangelion from the root page?) It would defeat the purpose if you could just manually go to `/wiki/neon-genesis-evangelion` in the address bar. To defeat that, I make each link have a `origin=slug` query parameter, and then I fetch the origin page server-side to validate that it does indeed contain a link to the page you're navigating to[^2].
+
+edit: indeed, we could get to [Neon Genesis Evangelion](https://www.endlesswiki.com/wiki/neon_generation_evangelion).
 
 ### Final thoughts
 

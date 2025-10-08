@@ -3,6 +3,7 @@ title: Seeing like a software company
 description:
 order: 135
 date: '2025-09-03'
+popular: true
 tags: ["tech companies"]
 ---
 
@@ -126,6 +127,8 @@ In general, advice about illegible processes is what I call ["dangerous advice"]
 I get a lot of negative feedback on these posts from people who say that you should never sidestep the formal process. According to them, if it needs changing, you should change the process instead of going around it. In other words, everything that goes on in a tech company should be _legible_, and _illegible_ processes should be stamped out and converted to legible ones.
 
 I think this view is naive. All organizations - tech companies, social clubs, governments - have both a legible and an illegible side. The legible side is important, past a certain size. It lets the organization do things that would otherwise be impossible: long-term planning, coordination with other very large organizations, and so on. But the illegible side is just as important. It allows for high-efficiency work, offers a release valve for processes that don't fit the current circumstances, and fills the natural human desire for gossip and soft consensus. 
+
+edit: this got some comments on [Hacker News](https://news.ycombinator.com/item?id=45505539). Some commenters agree with everything except the idea that large enterprise deals are the primary driver for legibility - they think it's [communication at scale](https://news.ycombinator.com/item?id=45511736), or [being able to target market share](https://news.ycombinator.com/item?id=45511977), or [internal control](https://news.ycombinator.com/item?id=45510656).
 
 
 [^1]: This is the first example Scott gives, but I promise I did read the whole book. Other examples: the construction of [Brasília](https://en.wikipedia.org/wiki/Bras%C3%ADlia), [Operation Vijiji](https://en.wikipedia.org/wiki/Operation_Vijiji) in Tanzania, and the Soviet [attempt](https://en.wikipedia.org/wiki/Collectivization_in_the_Soviet_Union) to replace individual peasant farms with state-run collectives.
