@@ -130,6 +130,12 @@ I think this view is naive. All organizations - tech companies, social clubs, go
 
 edit: this got some comments on [Hacker News](https://news.ycombinator.com/item?id=45505539). Some commenters agree with everything except the idea that large enterprise deals are the primary driver for legibility - they think it's [communication at scale](https://news.ycombinator.com/item?id=45511736), or [being able to target market share](https://news.ycombinator.com/item?id=45511977), or [internal control](https://news.ycombinator.com/item?id=45510656).
 
+There's also some good comments on [lobste.rs](https://lobste.rs/s/6uemc8/seeing_like_software_company). Commenters mostly agree, but some think that legibility-seeking process [arrive organically](https://lobste.rs/c/jwkqja) instead of being a deliberate choice, or that legibility [doesn't confer any real benefits](https://lobste.rs/c/jxhazf) to the _organization_ (as opposed to a small set of leaders).
+
+Julik Tarkhanov also wrote a good [response post](https://blog.julik.nl/2025/09/illegible-perception) arguing that most legibility "improvements" are not actually increasing legibility, but are only creating the illusion of legibility (in order to make management feel good). I agree with this to a certain extent, but large organizations have the power to make illusions real (by promoting or firing on the basis of them, for instance).
+
+I think "real" legibility often starts like this: with the illusion of legibility, which is then made real by brute force. Consider a top-down mandate to use OKRs. At the start, people just make stuff up. But as decisions and promotions are made based on OKRs, people take them more seriously, and after a few years everyone is really trying to align with them (for better or for worse).
+
 
 [^1]: This is the first example Scott gives, but I promise I did read the whole book. Other examples: the construction of [Brasília](https://en.wikipedia.org/wiki/Bras%C3%ADlia), [Operation Vijiji](https://en.wikipedia.org/wiki/Operation_Vijiji) in Tanzania, and the Soviet [attempt](https://en.wikipedia.org/wiki/Collectivization_in_the_Soviet_Union) to replace individual peasant farms with state-run collectives.
 
