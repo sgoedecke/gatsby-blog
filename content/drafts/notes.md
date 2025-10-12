@@ -1,3 +1,8 @@
+can you improve 5 min training by training a quick classifier for TTC?
+maybe?
+is it cheating to generate a training set for the classifier outside of the 5 min window
+I don't think so, within the rules
+
 popular writing advice I deliberately ignore
 
 auto ai researcher
