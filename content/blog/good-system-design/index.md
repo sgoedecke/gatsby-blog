@@ -113,6 +113,8 @@ Especially at large tech companies, where these components already exist off the
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=44921137) with lots of good comments. I was amused by the comments that said "why even mention 'don't read your writes', who would do that" right next to the comments that said "hmm, it seems way too fiddly to not read your writes".
 
+edit: I also discussed it on the Exponent podcast, which you can watch [here](https://youtu.be/R5TAZe4ye8U).
+
 
 [^1]: You're supposed to store timestamps instead, and treat the presence of a timestamp as `true`. I do this sometimes but not always - in my view there's some value in keeping a database schema immediately-readable.
 
