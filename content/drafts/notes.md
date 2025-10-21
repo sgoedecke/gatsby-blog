@@ -1,3 +1,7 @@
+why would optical prompt compression work?
+https://news.ycombinator.com/item?id=45640594
+
+
 can you improve 5 min training by training a quick classifier for TTC?
 maybe?
 is it cheating to generate a training set for the classifier outside of the 5 min window
