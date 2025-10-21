@@ -1,5 +1,5 @@
 ---
-title: How I provide technical clarity to non-technical leaders
+title: Providing technical clarity to non-technical leaders
 description:
 order: 147
 date: '2025-10-12'
