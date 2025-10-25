@@ -16,6 +16,8 @@ Write a lot, write about things you personally find interesting
 
 Post you own stuff to Hacker News, but don't spam - fine line. Stop as soon as you see other people doing it for you. A tasteful "share this post" link goes a long way.
 
+If you're writing for HN, don't start your post title with "How X", or it'll automatically be stripped, which can often read awkwardly
+
 Have some kind of monitoring so you can tell what people are responding to
 
 Once you get some kind of traction, make it possible for people to subscribe. At minimum RSS but I think it's worth doing email subs (I use Buttondown)
