@@ -45,7 +45,7 @@ No, not really. This view is kind of like saying that engineers are just people 
 
 ### Clashes between pure and impure engineers
 
-I'm going to reference some four-year-old drama here. In June 2021, Casey Muratori [got into a fight](https://news.ycombinator.com/item?id=28743687) with the Windows Terminal developers over some point of [performance](https://github.com/microsoft/terminal/issues/10362). I think it's clear that Casey was right about the technical matter - as a competent game engine programmer, he understood the performance characteristics of the problem well enough to point out that Windows Terminal was doing it inefficiently.
+I'm going to reference some four-year-old drama here. In June 2021, Casey Muratori [got into a fight](https://news.ycombinator.com/item?id=28743687) with the Windows Terminal developers over a point of [performance](https://github.com/microsoft/terminal/issues/10362). I think it's clear that Casey was right about the technical matter - as a competent game engine programmer, he understood the performance characteristics of the problem well enough to point out that Windows Terminal was doing it inefficiently.
 
 To their credit, the Windows Terminal team went and implemented the feature anyway, after taking a bit of time to cool down. It became available in settings in [Feb 2022](https://github.com/microsoft/terminal/issues/10461#issuecomment-1029306849). For what it's worth, I think that's not actually an unreasonable timeline for a team that had its own work to do and had to actually implement the feature (the GitHub comments have some fun details about supporting multi-glyph code points).
 
