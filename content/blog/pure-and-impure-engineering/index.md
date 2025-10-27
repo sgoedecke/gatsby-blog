@@ -41,7 +41,7 @@ Of course, any engineer can do both pure and impure work. But in my experience, 
 
 There are probably people reading this right now and thinking that this is just a distinction between competent and incompetent engineers. Since pure work is more fundamental and technically harder, isn't the pure/impure distinction just a distinction between engineers who are smart enough to build fundamental components and engineers who aren't? Isn't it like the distinction between the electrical engineers who design microchips and the hobbyists who plug them together out of a kit to build their PCs?
 
-No, not really. This view is kind of like saying that engineers are just people who weren't smart enough to do physics, or physicists aren't smart enough to pure mathematics. They're different fields that require different skills.
+No, not really. This view is kind of like saying that engineers are just people who weren't smart enough to do physics, or physicists aren't smart enough to do pure mathematics. They're different fields that require different skills.
 
 ### Clashes between pure and impure engineers
 
