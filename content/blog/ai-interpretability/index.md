@@ -34,7 +34,7 @@ This makes a lot of intuitive sense, when you think about it. Even the largest m
 
 ### Identifying features with sparse autoencoders
 
-How do you figure out which features a a model knows about? Probably the most impactful AI interpretability paper was [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html), which figured out how to pull out individual features from these large, highly-compressed language models. The rough approach is to train a separate model - a "sparse autoencoder" - that is trained to predict features based on neuron activations:
+How do you figure out which features a model knows about? Probably the most impactful AI interpretability paper was [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html), which figured out how to pull out individual features from these large, highly-compressed language models. The rough approach is to train a separate model - a "sparse autoencoder" - that is trained to predict features based on neuron activations:
 
 1. Take a ton of normal model text training data and feed it through your language model, recording the neuron activations at some set layer[^3]
 2. Then use that dataset of "text plus neuron activation" pairs to train your sparse autoencoder

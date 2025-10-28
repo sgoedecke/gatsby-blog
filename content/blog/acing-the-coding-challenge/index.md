@@ -20,7 +20,7 @@ First, make it immediately obvious where to start reading your code. In a langua
 
 Second, have a readme. Invest a lot of time into making it clear, concise and well-written. This is one of your best opportunities to reassure your reviewers that you know how to communicate in a normal professional way. Include a one-line statement of what your program does, how to install and run it, how to run tests, and a very brief discussion of some design choices you made and what the tradeoffs are. Keep it short and conversational: reviewers don’t want to read multiple paragraphs of text, and they’ll worry that you won’t know how to write concisely.
 
-Third, make your program’s control flow as obvious as possible. Your main function should fit on a single screen, and should read a lot like pseudocode. Don’t put a lot of helper functions in the file above the main   function - extract those out so the first thing the reviewer sees is the overall structure of your program. Doing this is worth sacrificing some extensibility or isolation. For instance, suppose you’re asked to implement a CLI todo app. A first draft of your main function should look something like this:
+Third, make your program’s control flow as obvious as possible. Your main function should fit on a single screen, and should read a lot like pseudocode. Don’t put a lot of helper functions in the file above the main function - extract those out so the first thing the reviewer sees is the overall structure of your program. Doing this is worth sacrificing some extensibility or isolation. For instance, suppose you’re asked to implement a CLI todo app. A first draft of your main function should look something like this:
 
 ```ruby
 ui = UserInterface.new
