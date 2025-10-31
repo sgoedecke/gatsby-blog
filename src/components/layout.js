@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 import SearchBox from "./search-box"
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children, headerMeta }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
@@ -57,7 +57,30 @@ const Layout = ({ location, title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <header>{header}</header>
+      <header
+        style={{
+          alignItems: `baseline`,
+          display: `flex`,
+          flexWrap: `wrap`,
+          width: `100%`,
+          gap: rhythm(0.5),
+        }}
+      >
+        {header}
+        {headerMeta && (
+          <span
+            style={{
+              color: `rgba(0, 0, 0, 0.6)`,
+              fontSize: `0.9rem`,
+              lineHeight: 1.4,
+              marginLeft: `auto`,
+              textAlign: `right`,
+            }}
+          >
+            {headerMeta}
+          </span>
+        )}
+      </header>
       <main>{children}</main>
       <div className="search-container">
         <SearchBox />
