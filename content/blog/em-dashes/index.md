@@ -40,6 +40,16 @@ Remember the punctuation rates study above that showed em-dash rates peaking in 
 
 I want to thank [this blog](https://msukhareva.substack.com/p/the-mystery-of-emdashes-part-two) from Maria Sukhareva for putting me onto this point. I disagree with her that em-dashes are structurally preferred, for reasons I've briefly covered above, but I think it's very plausible that she's correct about digitization driving em-dash usage. For some more specific examples and a similar point, you can also check out [this post](https://medium.com/ghost-channel/the-em-dash-debate-is-broken-heres-what-the-data-actually-shows-023fffd5cd06), which shows just how many em-dashes some classic works have. My favorite book, _Moby-Dick_, has a staggering 1728 em-dashes!
 
+### Summary
+
+There are three broad categories of possible explanation for why models use em-dashes so much.
+
+The first category are structural explanations, which argue that em-dashes are somehow inherently preferred by autoregressive models because they save tokens, or preserve optionality, or something else. I don't find this convincing because GPT-3.5 didn't overuse emdashes, and it just doesn't match my intuition about how inference works.
+
+The second category are RLHF explanations, which argue that human raters prefer em-dashes because they're more conversational or they're more common in the particular variant of English where the RLHF-ers live. I think there's no support for the variant-of-English argument, but the "it's more conversational" argument could be right. Hard to say what evidence could confirm or deny it.
+
+The third category are training data explanations, which argue that em-dashes are just in the training data. I don't buy this as a general explanation, but it does seem likely to me that they might be overrepresented in some high-quality training data: in particular, early-1900s print books. Overall, I think that's the strongest explanation.
+
 ### Final thoughts
 
 This is still largely based on speculation. Maybe I'm wrong about when OpenAI started digitizing written text. If they did it before GPT-3.5, then it couldn't be the cause of em-dashes. Certainly models trained today are at least in part infected with em-dashes by training on the output of other AI models. Either they're deliberately trained on synthetic data, or they just can't avoid vacuuming in a host of AI-generated content along with other internet texts.

@@ -6,10 +6,29 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
+const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
+  const otherPosts = data.allMarkdownRemark.nodes.filter(
+    node => node.id !== post.id
+  )
+
+  const sharedTag = post.frontmatter.tags?.map(tag => tag.toLowerCase()) || []
+  const previewPost = otherPosts.find(node => {
+    if (!node.frontmatter?.tags) {
+      return false
+    }
+
+    return node.frontmatter.tags.some(tag =>
+      sharedTag.includes(tag.toLowerCase())
+    )
+  })
+
+  const previewParagraphMatch =
+    previewPost?.html && previewPost.html.match(/<p>.*?<\/p>/s)
+  const previewParagraph = previewParagraphMatch
+    ? previewParagraphMatch[0]
+    : null
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -31,6 +50,24 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <p>If you liked this post, consider <a href="https://buttondown.com/seangoedecke" target="_blank">subscribing</a> to email updates about my new posts, or <a href={`https://news.ycombinator.com/submitlink?u=https://www.seangoedecke.com${location.pathname}&t=${post.frontmatter.title}`} target="_blank">sharing it on Hacker News</a>.</p>
+        {previewPost && (
+          <aside
+            style={{
+              marginTop: rhythm(1.5),
+              marginBottom: rhythm(0.5),
+            }}
+          >
+            <p>And now for a preview of another post:</p>
+            <h3 style={{ marginBottom: rhythm(0.5) }}>
+              <Link to={previewPost.fields.slug}>
+                {previewPost.frontmatter.title}
+              </Link>
+            </h3>
+            {previewParagraph && (
+              <div dangerouslySetInnerHTML={{ __html: previewParagraph }} />
+            )}
+          </aside>
+        )}
         <p>
           {post.frontmatter.date}
           {post.frontmatter.tags && (
@@ -54,32 +91,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </footer>
       </article>
 
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
     </Layout>
   )
 }
@@ -91,6 +102,19 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allMarkdownRemark(filter: { fields: { collection: { eq: "blog" } } }) {
+      nodes {
+        id
+        html
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          tags
+        }
       }
     }
     markdownRemark(
