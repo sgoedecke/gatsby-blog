@@ -14,7 +14,7 @@ const AboutPage = ({ data, location }) => {
 
       <p>Hi! I'm Sean Goedecke, an Australian software engineer.</p>
         
-      <p>I write about software engineering, with a focus on AI and large-company dynamics. If you want to know more about my background, my resume is publicly available <a target="_blank" href="https://docs.google.com/document/d/17Ql6AydCJ7-XhjrwEqzmRAaAaooARTS5vjEhBZGfrbE/edit?tab=t.0">here</a>.</p>
+      <p>I mostly write about AI and large-company dynamics. If you want to know more about my background, my resume is publicly available <a target="_blank" href="https://docs.google.com/document/d/17Ql6AydCJ7-XhjrwEqzmRAaAaooARTS5vjEhBZGfrbE/edit?tab=t.0">here</a>.</p>
 
       <p>
         If you're interested in this blog but you're not sure where to start, you can read my most popular posts <Link to="/popular">here</Link>, or start with one of these:
@@ -32,7 +32,7 @@ const AboutPage = ({ data, location }) => {
       <p>
         If you'd like to get in touch, email me at{' '}
         <a href="mailto:sean.goedecke@gmail.com">sean.goedecke@gmail.com</a>. Hearing from readers is one of the main reasons I write at all, so please do reach out if you're thinking about it.
-        You can also message me on <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">LinkedIn</a>, though I tend to give more longer responses over email.
+        You can also message me on <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">LinkedIn</a>, though I tend to give longer responses over email.
       </p>
 
       <p>I also wrote a <a href="/book">book</a> about how the software industry changed after 2021, when the end of zero-interest rates made it much harder to be a software engineer.</p>
