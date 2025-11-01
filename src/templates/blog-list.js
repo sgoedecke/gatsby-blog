@@ -64,15 +64,7 @@ const BlogList = ({ data, location, pageContext = {} }) => {
                 </h3>
               </header>
 
-              <p
-                style={{
-                  color: `rgba(0, 0, 0, 0.6)`,
-                  fontSize: `0.9rem`,
-                  fontFamily: `inherit`,
-                  marginBottom: rhythm(0.5),
-                  marginTop: 0,
-                }}
-              >
+              <p className="post-meta">
                 {node.frontmatter.date}
                 {node.frontmatter.tags && node.frontmatter.tags.length > 0 && (
                   <>
