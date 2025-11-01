@@ -97,7 +97,7 @@ const BlogPostTemplate = ({ data, location }) => {
     sanitizedHtml && sanitizedHtml.match(/<p>.*?<\/p>/gis)
   const firstParagraphHtml = paragraphMatches ? paragraphMatches[0] : null
   const firstParagraphText = htmlToPlainText(firstParagraphHtml)
-  const requiredWordCount = 20
+  const requiredWordCount = 60
   const wordsInFirstParagraph = firstParagraphText
     ? firstParagraphText.split(/\s+/).filter(Boolean)
     : []
@@ -132,7 +132,7 @@ const BlogPostTemplate = ({ data, location }) => {
     hasMinimumWords && previewPost?.fields?.slug && paragraphHtmlWithMinWords
       ? paragraphHtmlWithMinWords.replace(
           /<\/p>$/i,
-          ` <a href="${previewPost.fields.slug}">Continue reading...</a></p>`
+          `<br /><a href="${previewPost.fields.slug}">Continue reading...</a></p>`
         )
       : null
   const hasPreview = Boolean(previewPost && previewParagraphHtml)
@@ -184,25 +184,28 @@ const BlogPostTemplate = ({ data, location }) => {
           >
             sharing it on Hacker News
           </a>
-          .
-          {hasPreview && (
-            <>
-              <br />
-              <br />
-              Here's a preview of a related post,{" "}
-              <strong>{previewPost.frontmatter.title}</strong>:
-            </>
-          )}
+          .{hasPreview && " Here's a preview of a related post that shares tags with this one."}
         </p>
         {hasPreview && (
-          <aside
+          <blockquote
             style={{
+              borderLeft: `4px solid #d9d9d9`,
               marginTop: rhythm(0.5),
               marginBottom: rhythm(0.5),
+              paddingLeft: rhythm(0.5),
             }}
           >
+            <p
+              style={{
+                fontWeight: `600`,
+                marginBottom: rhythm(0.25),
+                marginTop: 0,
+              }}
+            >
+              {previewPost.frontmatter.title}
+            </p>
             <div dangerouslySetInnerHTML={{ __html: previewParagraphHtml }} />
-          </aside>
+          </blockquote>
         )}
         <hr
           style={{

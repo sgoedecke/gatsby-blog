@@ -33,13 +33,11 @@ h2 {
   }
 }
 
-p {
-  font-family: sans-serif;
-  margin-bottom: 1.5rem;
-}
-
-li {
-  font-family: sans-serif;
+blockquote {
+  font-size: 1rem;
+  font-style: normal;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 details {

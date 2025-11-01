@@ -64,13 +64,20 @@ const BlogList = ({ data, location, pageContext = {} }) => {
                 </h3>
               </header>
 
-              <p> 
-
+              <p
+                style={{
+                  color: `rgba(0, 0, 0, 0.6)`,
+                  fontSize: `0.9rem`,
+                  fontFamily: `inherit`,
+                  marginBottom: rhythm(0.5),
+                  marginTop: 0,
+                }}
+              >
                 {node.frontmatter.date}
-
-                {node.frontmatter.tags && (
+                {node.frontmatter.tags && node.frontmatter.tags.length > 0 && (
                   <>
-                    &nbsp;│ {node.frontmatter.tags.map((tag, index) => (
+                    &nbsp;│{" "}
+                    {node.frontmatter.tags.map((tag, index) => (
                       <React.Fragment key={tag}>
                         <Link to={`/tags/${tag.toLowerCase()}/`}>{tag}</Link>
                         {index < node.frontmatter.tags.length - 1 && ", "}
