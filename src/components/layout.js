@@ -68,7 +68,15 @@ const Layout = ({ location, title, children, headerMeta }) => {
       >
         {header}
         {headerMeta && (
-          <span className="post-meta">
+          <span
+            className="post-meta"
+            style={{
+              marginBottom: 0,
+              marginLeft: `auto`,
+              marginTop: 0,
+              textAlign: `right`,
+            }}
+          >
             {headerMeta}
           </span>
         )}
