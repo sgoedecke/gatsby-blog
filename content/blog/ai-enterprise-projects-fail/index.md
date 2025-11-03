@@ -42,7 +42,7 @@ But enterprise AI projects are largely not "solved problems". The industry is st
 
 So far I've assumed that the "95% of enterprise AI projects fail" statistic is reliable. Should we? NANDA's source for the 95% figure is a survey in section 3.2:
 
-![nanda](nanda.jpg)
+![nanda](nanda.png)
 
 The immediate problem here is that **I don't think this figure even shows that 95% of AI projects fail**. As I read it, the leftmost section shows that 60% of the surveyed companies "investigated" building task-specific AI. 20% of the surveyed companies then built a pilot, and 5% built an implementation that had a sustained, notable impact on productivity or profits. So just on the face of it, that's an 8.3% success rate, not a 5% success rate, _because 40% of the surveyed companies didn't even try_. It's also unclear if all the companies that investigated AI projects resolved to carry them out. If some of them decided not to pursue an AI project after the initial investigation, they'd also be counted in the failure rate, which doesn't seem right at all.
 
@@ -65,13 +65,3 @@ Here's what I think it's fair to conclude from the paper. Like IT projects in ge
 [^1]: In short: almost every hugely transformative technology went through its own bubble, as hype expectations outpaced the genuine value of the technology that was fuelling the market. I expect the AI bubble to burst, the infrastructure (e.g. datacenters full of GPUs) to stick around at cheaper prices, and AI to eventually become as fundamental a technology as the internet is today.
 
 [^2]: By "solved problem" I mean that the technology involved is mature, well-understood, and available (e.g. you can just pick up Kafka for event management, etc).
-
-https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf
-
-https://x.com/NewYorker/status/1985090457529897388
-
-https://chatgpt.com/c/69082a9f-3460-8322-9723-189b47c1c22c
-
-https://hbr.org/2025/08/beware-the-ai-experimentation-trap
-
-https://www.futuriom.com/articles/news/why-we-dont-believe-mit-nandas-werid-ai-study/2025/08
