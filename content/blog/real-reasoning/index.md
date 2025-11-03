@@ -3,7 +3,7 @@ title: Is chain-of-thought AI reasoning a mirage?
 description: 
 order: 129
 date: '2025-08-13'
-tags: ["ai"]
+tags: ["ai", "papers"]
 popular: true
 ---
 

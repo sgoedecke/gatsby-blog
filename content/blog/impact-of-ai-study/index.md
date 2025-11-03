@@ -3,7 +3,7 @@ title: METR's AI productivity study is really good
 description: 
 order: 113
 date: '2025-07-11'
-tags: ["ai"]
+tags: ["ai", "papers"]
 ---
 
 I complain a lot on this blog about [AI](/illusion-of-thinking) [studies](/your-brain-on-chatgpt). Given that, I ought to give credit when an AI study comes out that I think is really good. Yesterday METR released a study called [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study.pdf)[^1]. It contained a result that was surprising to me: that AI assistance actually slowed engineers down, while making them think they were going faster. Let's talk about it.
