@@ -6,7 +6,7 @@ date: '2025-11-03'
 tags: ["ai", "tech companies", "papers"]
 ---
 
-In July of this year, MIT NANDA released a report called _The GenAI Divide: State of AI in Business 2025_. The report spends most of its time giving advice about how to run enterprises AI projects, but the item that got everybody talking was its headline stat: **95% of organizations are getting zero return from their AI projects**.
+In July of this year, MIT NANDA released a [report](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) called _The GenAI Divide: State of AI in Business 2025_. The report spends most of its time giving advice about how to run enterprises AI projects, but the item that got everybody talking was its headline stat: **95% of organizations are getting zero return from their AI projects**.
 
 This is a very exciting statistic for those already disposed to be pessimistic about the impact of AI. The incredible amounts of money and time being spent on AI depend on language models being a transformative technology. Many people are expecting AI to eventually unlock hundreds of billions of dollars in value. The NANDA paper seems like very bad news for those people, if the last three years of AI investment really has failed to unlock even one dollar in value for most companies.
 
