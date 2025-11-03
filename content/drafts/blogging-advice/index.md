@@ -14,9 +14,6 @@ My advice - don't use LLMs for text
 
 Write a lot, write about things you personally find interesting
 
-Post you own stuff to Hacker News, but don't spam - fine line. Stop as soon as you see other people doing it for you. A tasteful "share this post" link goes a long way.
-
-If you're writing for HN, don't start your post title with "How X", or it'll automatically be stripped, which can often read awkwardly
 
 Have some kind of monitoring so you can tell what people are responding to
 
@@ -25,6 +22,15 @@ Once you get some kind of traction, make it possible for people to subscribe. At
 Writing about contemporary stuff is a good way to get some Google traffic. For instance, my reviews of trendy ML papers always get traction on Google because people are searching for the paper names
 
 Don't worry about repeating yourself. Good ideas bear repetition and each iteration will improve the idea
+
+### HN
+
+
+Post your own stuff to Hacker News, but don't spam - fine line. Stop as soon as you see other people doing it for you. A tasteful "share this post" link goes a long way.
+
+If you're writing for HN, don't start your post title with "How X", or it'll automatically be stripped, which can often read awkwardly
+
+Be careful about making your post _too_ easy to comment on (e.g. question titles that most people will have an opinion on). This is good for engagement, but once the comment count ticks over the upvote count the article gets absolutely blasted by HN's anti-flamewar systems and your post will drop like a rock
 
 ### When you have traction
 

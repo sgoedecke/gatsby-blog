@@ -62,6 +62,12 @@ There also might be a simpler explanation for em-dash prevalence: for instance, 
 
 In general, I'm still surprised that there's no widespread consensus about the cause of one of the most identifiable features of AI prose. I do think I'm probably right that digitizing late-1800s/early-1900s works is the cause - but it would be really nice if someone who was at OpenAI between GPT-3.5 and GPT-4o (or who's in a position to know for some other reason) could confirm that this is what happened.
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=45788327). There's an an interesting [comment](https://news.ycombinator.com/item?id=45789077) indicating that the CEO of Medium believes that Medium is responsible, since Medium automatically converts two hyphens ("--") into an em-dash, and Medium was a source of high-quality training data.
+
+This just isn't plausible to me at all. If it were common for humans to use hyphens or doubled hyphens as a standin for em-dashes, and the question was "why do LLMs use the em-dash _character_ instead of a hyphen", then I might believe a typography-related explanation like this. But the question is "why do LLMs use the em-dash _punctuation_ more than humans do": i.e. the punctuation mark that acts like parentheses or more punchy final comma.
+
+For this reason, I'm a bit puzzled by the commenters who refer to [Unicode](https://news.ycombinator.com/item?id=45790985), or [Russian-language training](https://news.ycombinator.com/item?id=45795391), or [Wikipedia typographic conventions](https://news.ycombinator.com/item?id=45788891), or [mis-OCR-ed hyphens](https://news.ycombinator.com/item?id=45789129) as possible explanations. None of these could possibly explain why the models are _doing em-dash things_! Misreading a hyphen (e.g. in "double-crossed") as an em-dash during training will not make the model more likely to use em-dashes as parentheses, it will make the model more likely to use em-dashes as hyphens. And so on.
+
 
 [^0]: The linked blog post tries to experimentally show that em-dashes save tokens by asking models to paraphrase em-dash sentences and noting that those paraphrased sentences are longer. To be convinced by this, I would like to see if paraphrased non-em-dash sentences are typically the same length or shorter. I suspect that paraphrasing adds tokens no matter what.
 
