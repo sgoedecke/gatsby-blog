@@ -26,6 +26,8 @@ This principle holds in many other areas. When saving money, it doesn't matter i
 
 The first step in correctly identifying the main thing is to _try_. In my experience, **it is surprisingly hard to motivate yourself to focus on the main thing**. It's much more natural to just jump into something that looks probably useful and start working immediately. Why is this?
 
+NOTE: this is why I'm suspicious of "do what you love" advice. If you love performance engineering, I think you're better off doing it in your spare time and creating shareholder value at work, instead of trying to do as much performance engineering at work as you can. Half-assing creating shareholder value a few hours a day is more valuable than locking in to the wrong "main thing" for ten hours a day (and will likely be more burnout-resistant, since there's no faster path to burnout than working really hard on something that isn't valued)
+
 ### Method
 
 Sometimes the main thing seems too simple to be important. Plenty of software engineers think something like "of course it's important to ship the project, but that only happens as a result of writing all the code", underrating the set of complex factors (both in code and elsewhere) that have to come togther for a successful ship.

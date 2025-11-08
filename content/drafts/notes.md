@@ -1,9 +1,18 @@
-https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf
-base rate comparison with normal IT transformations
+of course there's an AI bubble. so what?
+
+how to think clearly about technical topics
+concrete
+slow
+don't have to be smart if you think clearly
+
 
 https://news.ycombinator.com/user?id=Gigachad
 "The most obvious sign of AI slop is mismatched style with the medium"
 post - 10 theories of AI slop?
+
+https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf
+base rate comparison with normal IT transformations
+
 
 why would optical prompt compression work?
 https://news.ycombinator.com/item?id=45640594
