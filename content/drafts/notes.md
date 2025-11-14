@@ -1,3 +1,11 @@
+https://newsletter.posthog.com/p/collaboration-sucks
+https://news.ycombinator.com/item?id=45892394
+explicitly targeting throughput-not-legibility
+
+interface on top of agentic tooling that gives options to choose from
+
+https://arxiv.org/pdf/2506.02153
+
 of course there's an AI bubble. so what?
 
 how to think clearly about technical topics

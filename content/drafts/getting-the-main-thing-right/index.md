@@ -32,9 +32,7 @@ NOTE: this is why I'm suspicious of "do what you love" advice. If you love perfo
 
 Sometimes the main thing seems too simple to be important. Plenty of software engineers think something like "of course it's important to ship the project, but that only happens as a result of writing all the code", underrating the set of complex factors (both in code and elsewhere) that have to come togther for a successful ship.
 
-The only general reliable method I know is to carefully look at cases of success and failure, and to identify what the successes had in common. **Pay particular attention to successes or failures that surprise you.** If you thought a project was going really well but then it all went off the rails, or was a complete disaster but ended up being celebrated, that probably indicates that you're mistaken about what the "main thing" is.
-
-Another interesting way to figure out what the "main thing" is at your company is to look at people whose success surprises you. Did someone get a staff promotion but you think they're terrible? Is someone beloved by senior leadership, but you can't see them doing anything that useful? Is there someone who's unusually prickly [TODO]
+The only general reliable method I know is to carefully look at cases of success and failure, and to identify what the successes had in common. **Pay particular attention to successes or failures that surprise you.** If you thought a project was going really well but then it all went off the rails, or was a complete disaster but ended up being celebrated, that probably indicates that you're mistaken about what the "main thing" is. Did someone get a staff promotion but you think they're terrible? Is someone beloved by senior leadership, but you can't see them doing anything that useful? Those people are probably getting the main thing right (at least when it comes to career success).
 
 ### Caution: the "main thing" can rapidly change
 

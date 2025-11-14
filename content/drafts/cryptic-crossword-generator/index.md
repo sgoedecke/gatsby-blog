@@ -20,3 +20,4 @@ quiptic is easier than cryptic for models, for sure
 python a natural choice because efficient crossword grid generation and .puz parsing/output have mature libraries - simple as that
 interesting note - pre-LLMs, I might still have picked a more familiar language with less mature libraries, but now I have zero hesitation going with Python
 
+structured json is not really any better but is 2x more expensive
