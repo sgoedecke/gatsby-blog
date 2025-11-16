@@ -1,3 +1,20 @@
+why people hate AI? it's the connection with art
+the crypto NFT insistence that 'this is the future of art' about obvious shit
+avoiding ARC Raiders because of AI use... well, almost every piece of software you use has had AI contribute, many institutions you interact with have ChatGPT assistance, etc
+why do people not boycott that? is it just lack of visibility? or is it that people don't want to be put directly in contact with AI output?
+
+5 min followup
+classifier didn't work great - same problem, more or less
+what if you heavily constrain sampling?
+ What if we started by training a tiny model, then once the loss rate stalls, increase
+  the model size and continue, etc? Would that work?
+
+lucky seeds
+explains affection for older models
+
+
+oai syco: https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis?utm_source=substack&utm_medium=email 
+
 https://newsletter.posthog.com/p/collaboration-sucks
 https://news.ycombinator.com/item?id=45892394
 explicitly targeting throughput-not-legibility
