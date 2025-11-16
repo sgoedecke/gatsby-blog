@@ -3,6 +3,7 @@ title: Only three kinds of AI products actually work
 description: --
 order: 156
 date: '2025-11-16'
+popular: true
 tags: ["ai"]
 ---
 
@@ -61,7 +62,7 @@ Coding agents are a natural fit for AI agents for two reasons:
 - It's easy to verify changes by running tests or checking if the code compiles
 - AI labs are incentivized to produce effective coding models to accelerate their own work
 
-For my money, the current multi-billion-dollar question is **can AI agents be useful for tasks other than coding?** Bear in mind that Claude Sonnet 3.5 was released just under _nine months ago_. In that time, the tech industry has successfully built agentic products about their own work. They're just starting to build agentic products for other tasks. It remains to be seen how successful that will be, or what those products will look like.
+For my money, the current multi-billion-dollar question is **can AI agents be useful for tasks other than coding?** Bear in mind that Claude Sonnet 3.7[^4] was released just under _nine months ago_. In that time, the tech industry has successfully built agentic products about their own work. They're just starting to build agentic products for other tasks. It remains to be seen how successful that will be, or what those products will look like.
 
 #### Research
 
@@ -86,7 +87,7 @@ Like a completions-based product, the advantage of a feed is that users don't ha
 
 The technology behind current human-generated infinite feeds is already a mature application of state of the art machine learning. When you interact with Twitter or LinkedIn, you're interacting with a model, except instead of generating text it's generating lists of other people's posts. In other words, **feeds already maintain a sophisticated embedding of your personal likes and dislikes**. The step from "use that embedding to surface relevant content" to "use that embedding to _generate_ relevant content" might be very short indeed.
 
-I'm pretty suspicious of AI-generated infinite feeds of generated video, but I do think other kinds of infinite feeds are an under-explored kind of product. In fact, I built a feed-based hobby project of my own, called [Autodeck](https://www.autodeck.pro/)[^4]. The idea was to use an AI-generated feed to generate spaced repetition cards for learning. It works pretty well! It still gets a reasonable amount of use from people who've found it via my blog (also, from myself and my partner).
+I'm pretty suspicious of AI-generated infinite feeds of generated video, but I do think other kinds of infinite feeds are an under-explored kind of product. In fact, I built a feed-based hobby project of my own, called [Autodeck](https://www.autodeck.pro/)[^5]. The idea was to use an AI-generated feed to generate spaced repetition cards for learning. It works pretty well! It still gets a reasonable amount of use from people who've found it via my blog (also, from myself and my partner).
 
 ### Games
 
@@ -96,9 +97,9 @@ Could there be a transformative product that incorporates LLMs into video games?
 
 One reason could be that **games just take a really long time to develop**. When _Stardew Valley_ took the world by storm in 2016, I expected a flood of copycat cozy pixel-art farming games, but that only really started happening in 2018 and 2019. That's how long it takes to make a game! So even if someone has a really good idea for an LLM-based video game, we're probably still a year or two out from it being released.
 
-Another reason is that **many gamers really don't like AI**. Including generative AI in your game is a guaranteed controversy (though it doesn't seem to be fatal, as the success of ARC Raiders shows). I wouldn't be surprised if some game developers simply don't think it's worth the risk to try an AI-based game idea[^5].
+Another reason is that **many gamers really don't like AI**. Including generative AI in your game is a guaranteed controversy (though it doesn't seem to be fatal, as the success of ARC Raiders shows). I wouldn't be surprised if some game developers simply don't think it's worth the risk to try an AI-based game idea[^6].
 
-A third reason could be that **generated content is just not a good fit for gaming**. Certainly ChatGPT-like dialogue sticks out like a sore thumb in most video games. AI chatbots are also pretty bad at _challenging_ the user: their post-training is all working to make them try to satisfy the user immediately[^6]. Still, I don't think this is an insurmountable technical problem. You could simply post-train a language model in a different direction (though perhaps the necessary resources for that haven't yet been made available to gaming companies).
+A third reason could be that **generated content is just not a good fit for gaming**. Certainly ChatGPT-like dialogue sticks out like a sore thumb in most video games. AI chatbots are also pretty bad at _challenging_ the user: their post-training is all working to make them try to satisfy the user immediately[^7]. Still, I don't think this is an insurmountable technical problem. You could simply post-train a language model in a different direction (though perhaps the necessary resources for that haven't yet been made available to gaming companies).
 
 ### Summary
 
@@ -125,14 +126,22 @@ One other thing I haven't mentioned is image generation. Is this part of a chatb
 
 In general, it feels like the early days of the internet. LLMs have so much potential, but we're still mostly building copies of the same thing. There have to be some really simple product ideas that we'll look back on and think "that's so obvious, I wonder why they didn't do it immediately".
 
+edit: This post got quite a few comments on [Hacker News](https://news.ycombinator.com/item?id=45946498). Some  commenters think [my categories are too broad](https://news.ycombinator.com/item?id=45946878), which is a fair criticism: like saying that there are only two "electricity products", ones which turn a motor and ones which heat up a wire.
+
+Other commenters argue that summarization, easy translation, and transcription are products I've missed. I disagree: have you yourself purchased some piece of LLM-driven summarization, translation or transcription software? Probably not - you just use a chatbot directly, right? I thus think of those as _features_ of the chatbot product, not products in their own right.
+
+One commenter [points out](https://news.ycombinator.com/item?id=45946957) that there may be a bunch of zero-hype products bubbling away under the radar. Fair enough! I don't know what I don't know.
+
 [^1]: Of course, "just" here covers a raft of progress in training stronger models, and real innovations around RLHF, which made it possible to talk with pure LLMs at all.
 
 [^2]: This is a big reason why [most AI enterprise projects fail](/why-do-ai-enterprise-projects-fail). Anecdotally, I have heard a lot of frustration with bespoke enterprise chatbots. People just want to use ChatGPT!
 
 [^3]: If you're not convinced, take any device you're comfortable using (say, your phone, your car, your microwave) and imagine having to type out every command. Maybe really good speech recognition will fix this, but I doubt it.
 
-[^4]: I wrote about it [here](/autodeck) and it's linked in the topbar.
+[^4]: I originally had this incorrectly as "3.5 Sonnet". Thanks to a reader for the correction.
 
-[^5]: Though this could be counterbalanced by what I'm sure is a strong push from executives to get in on the action and "build something with AI".
+[^5]: I wrote about it [here](/autodeck) and it's linked in the topbar.
 
-[^6]: If you've ever tried to ask ChatGPT to DM for you, you'll have experienced this first-hand: the model will immediately try and show you something cool, skipping over the necessary dullness that builds tension and lends verisimilitude.
+[^6]: Though this could be counterbalanced by what I'm sure is a strong push from executives to get in on the action and "build something with AI".
+
+[^7]: If you've ever tried to ask ChatGPT to DM for you, you'll have experienced this first-hand: the model will immediately try and show you something cool, skipping over the necessary dullness that builds tension and lends verisimilitude.
