@@ -1,5 +1,5 @@
 ---
-title: Only three kinds of AI products work
+title: Only three kinds of AI products actually work
 description: --
 order: 156
 date: '2025-11-16'
