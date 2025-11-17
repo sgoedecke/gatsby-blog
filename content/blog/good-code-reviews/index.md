@@ -22,7 +22,7 @@ Reviewing the diff by itself is much easier than considering how it fits into th
 
 ### Don't leave too many comments
 
-Probably my most controversial belief about code review is that **a good code review shouldn't contain more than five or six comments**. Most engineers leave too many comments. When you receive a review with a hundred comments, it's very hard to engage with that review on anything other than a trivial level. Any really important comments get lost in the noise[^2.5]. 
+Probably my most controversial belief about code review is that **a good code review shouldn't contain more than five or six comments**. Most engineers leave too many comments. When you receive a review with a hundred comments, it's very hard to engage with that review on anything other than a trivial level. Any really important comments get lost in the noise[^3]. 
 
 What do you do when there are twenty places in the diff that you'd like to see updated - for instance, twenty instances of `camelCase` variables instead of `snake_case`? Instead of leaving twenty comments, I'd suggest leaving a single comment explaining the stylistic change you'd like to make, and asking the engineer you're reviewing to make the correct line-level changes themselves.
 
@@ -54,13 +54,13 @@ I should start with a caveat: this depends a lot on what kind of codebase we're 
 
 If tons of PRs are being blocked, it's usually a sign that **there's too much gatekeeping going on**. One dynamic I've seen play out a lot is where one team owns a bottleneck for many other teams' features - for instance, maybe they own the edge network configuration where new public-facing routes must be defined, or the database structure that new features will need to modify. That team is typically more reliability-focused than a typical feature team. Engineers on that team may have a different title, like SRE, or even belong to a different organization. Their incentives are thus misaligned with the feature teams they're nominally supporting.
 
-Suppose the feature team wants to update the public-facing ingress routes in order to ship some important project. But the edge networking team doesn't care about that project - it doesn't affect their or their boss's review cycles. What does affect their reviews is any production problem the change might cause. That means they're motivated to block _any_ potentially-risky change for as long as possible. This can be very frustrating for the feature team, who is willing to accept some amount of risk for the sake of delivering new features[^3].
+Suppose the feature team wants to update the public-facing ingress routes in order to ship some important project. But the edge networking team doesn't care about that project - it doesn't affect their or their boss's review cycles. What does affect their reviews is any production problem the change might cause. That means they're motivated to block _any_ potentially-risky change for as long as possible. This can be very frustrating for the feature team, who is willing to accept some amount of risk for the sake of delivering new features[^4].
 
 Of course, there are other reasons why many PRs might be getting blocking reviews. Maybe the company just hired a bunch of incompetent engineers, who ought to be prevented from merging their changes. Maybe the company has had a recent high-profile incident, and all risky changes should be blocked for a couple of weeks until their users forget about it. But in normal circumstances, **a high rate of blocked reviews represents a structural problem**.
 
 For many engineers - including me - it feels good to leave a blocking review, for the same reasons that it feels good to gatekeep in general. It feels like you're single-handedly protecting the quality of the codebase, or averting some production incident. It's also a way to indulge a common vice among engineers: flexing your own technical knowledge on some less-competent engineer. Oh, looks like you didn't know that your code would have caused an N+1 query! Well, _I_ knew about it. Aren't you lucky _I_ took the time to read through your code?
 
-This principle - that **you should bias towards approving changes** - is important enough that Google's own [guide to code review](https://google.github.io/eng-practices/review/) begins with it, calling it "_the_ senior principle among all of the code review guidelines"[^4].
+This principle - that **you should bias towards approving changes** - is important enough that Google's own [guide to code review](https://google.github.io/eng-practices/review/) begins with it, calling it "_the_ senior principle among all of the code review guidelines"[^5].
 
 ### Final thoughts
 
@@ -84,8 +84,8 @@ edit: This post got some mostly-positive comments on both [lobste.rs](https://lo
 
 [^2]: For readers who aren't software engineers, "diff" here means the difference between the existing code and the proposed new code, showing what lines are deleted, added, or edited.
 
-[^2.5]: This is a special instance of a general truth about communication: if you tell someone one thing, they'll likely remember it; if you tell them twenty things, they will probably forget it all.
+[^3]: This is a special instance of a general truth about communication: if you tell someone one thing, they'll likely remember it; if you tell them twenty things, they will probably forget it all.
 
-[^3]: In the end, these impasses are typically resolved by the feature team complaining to their director or VP, who complains to the edge networking team's director or VP, who tells them to just unblock the damn change already. But this is a pretty crude way to resolve the incentive mismatch, and it only really works for features that are high-profile enough to receive air cover from a very senior manager.
+[^4]: In the end, these impasses are typically resolved by the feature team complaining to their director or VP, who complains to the edge networking team's director or VP, who tells them to just unblock the damn change already. But this is a pretty crude way to resolve the incentive mismatch, and it only really works for features that are high-profile enough to receive air cover from a very senior manager.
 
-[^4]: Google's principle is much more explicit, stating that you should approve a change if it's even a minor improvement, not when it's perfect. But I take the underlying message here to be "I know it feels good, but don't be a nitpicky gatekeeper - approve the damn PR!"
+[^5]: Google's principle is much more explicit, stating that you should approve a change if it's even a minor improvement, not when it's perfect. But I take the underlying message here to be "I know it feels good, but don't be a nitpicky gatekeeper - approve the damn PR!"
