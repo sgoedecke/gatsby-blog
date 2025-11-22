@@ -14,6 +14,7 @@ explains affection for older models
 
 
 oai syco: https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis?utm_source=substack&utm_medium=email 
+#keep4o twitter hashtag... man
 
 https://newsletter.posthog.com/p/collaboration-sucks
 https://news.ycombinator.com/item?id=45892394
