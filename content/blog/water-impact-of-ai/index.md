@@ -17,7 +17,7 @@ There's a common claim on the internet that ChatGPT consumes half a litre of wat
 
 This seems kind of scary - when you go and ask a question and some follow-up questions, is it equivalent to pouring out a bottle of water on the ground every time? No, it isn't. As I'll argue, the real figure is around 5ml of water.
 
-# Where does this stat come from?
+### Where does this stat come from?
 
 It comes from a paper called [Making AI Less Thirsty: Uncovering and Addressing the Secret Water Footprint of AI Models](https://arxiv.org/pdf/2304.03271), published one year ago in October 2023. At the time of publishing, ChatGPT was GPT-3 - GPT-4 had just come out, but too recently to receive any serious analysis in the paper. This paper is mostly about estimating water usage efficiency in datacenters, and using those estimates to translate a power usage value into a water usage value.
 
@@ -25,7 +25,7 @@ Let's leave aside that efficiency question for the moment (it's a slower-moving 
 
 I do want to note that that figure in the 2020 paper is _per-page_, which the 2023 paper interprets as _per-request_. The amount of inference for 500ml of water is thus better understood as 10-70 pages. An average ChatGPT conversation is much shorter than that, more in the order of 3-8 messages, or 1-2 pages at most. (I don't know how trustworthy [this source](https://www.semrush.com/news/251916-user-strategies-and-insights-from-real-chatgpt-conversations/) is, but it does corroborate that 3-8 messages figure). So that's a ~10x improvement over the original 500ml figure.
  
-# Are the initial assumptions out of date?
+### Are the initial assumptions out of date?
 
 A lot has changed in AI since 2020. How power-hungry are current models compared to GPT-3? It's hard to say for sure, because model providers are secretive about releasing implementation details, but we can probably get the right order of magnitude by looking at public info and raw performance. GPT-3.5 is [widely estimated](https://www.reddit.com/r/LocalLLaMA/comments/17lvquz/clearing_up_confusion_gpt_35turbo_may_not_be_20b/) to be in the ~20B parameter range. GPT-4o is [similar in speed](https://artificialanalysis.ai/models/gpt-35-turbo) to GPT-3.5, which I think is a fair proxy for total power usage (i.e. time spent in GPUs). That's another 10x improvement right out of the gate.
 
@@ -33,7 +33,7 @@ This point is complicated a bit by the fact that original GPT-4 was pretty slow/
 
 So, combining the fact that newer models are 10x cheaper than original GPT-3, and that the original estimate assumed a conversation takes >10 pages of content, I'm confident that an average conversation with ChatGPT is going to consume closer to ~5ml of water, not ~500ml.
 
-# Closed loop systems, the water cycle, training
+### Closed loop systems, the water cycle, training
 
 I want to quickly cover some other points I've seen people make on the internet about this. 
 
@@ -45,7 +45,7 @@ Inference might be cheaper than the popular estimate, but what about training? I
 
 How does the water usage of AI compare to other activities? This is a big question but my impression is food/agriculture is the main one, with the water cost of a hamburger estimated at [2000-3000 litres](https://www.weforum.org/agenda/2019/02/this-is-how-much-water-is-in-your-burger/). Even if that estimate is off by a couple of orders of magnitude (less likely, since AI is moving faster than agriculture tech), it still seems like most consumers' AI water usage is going to be dwarfed by their diet.
 
-# Conclusion
+### Conclusion
 
 That original statistic - 500ml per conversation - was wrong at the time (since it significantly overestimated the length of a typical response) and is now pretty badly out of date (since modern models are 10x smaller and faster). I think it's a shame that there's been such a small amount of pushback, particularly when the mistakes in question are fairly straightforward to see if you go and read the paper.
 
