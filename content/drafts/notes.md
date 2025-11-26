@@ -1,3 +1,6 @@
+https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/
+in defense of ego
+
 why people hate AI? it's the connection with art
 the crypto NFT insistence that 'this is the future of art' about obvious shit
 avoiding ARC Raiders because of AI use... well, almost every piece of software you use has had AI contribute, many institutions you interact with have ChatGPT assistance, etc

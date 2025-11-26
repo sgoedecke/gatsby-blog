@@ -24,7 +24,7 @@ In a sense, I'm kind of like a working dog. Working dogs get rewarded with treat
 
 [^3]: I think this is fairly common among software engineers.
 
-[^4]: I interpret "technical problem" quite broadly here: answering questions, explaining things, and bug-fixing all counts.
+[^4]: I interpret "technical problem" quite broadly here: answering questions, explaining things, and bug-fixing all count.
 
 
 - wanting to be useful
