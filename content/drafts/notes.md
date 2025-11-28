@@ -1,3 +1,7 @@
+why do large companies produce shoddy work?
+https://ziglang.org/news/migrating-from-github-to-codeberg/
+kind of a pure-and-impure companion piece, focusing on how stuff like this happens
+
 https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/
 in defense of ego
 
