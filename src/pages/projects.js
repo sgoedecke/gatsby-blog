@@ -46,12 +46,6 @@ const ProjectsPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Projects" />
 
-      <p>
-        I ship a lot of experiments and side projects, then write up what I
-        learned. Here’s where you can find the code that people star most often
-        plus the associated build logs.
-      </p>
-
       <h2 style={{ marginBottom: rhythm(1 / 2) }}>
         Most-starred GitHub repos
       </h2>
@@ -61,7 +55,7 @@ const ProjectsPage = ({ data, location }) => {
             <a href={repo.url} target="_blank" rel="noreferrer">
               {repo.name}
             </a>{" "}
-            – {repo.blurb} ({repo.stars} stars)
+            – {repo.blurb}
           </li>
         ))}
       </ul>
