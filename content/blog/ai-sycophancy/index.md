@@ -3,6 +3,7 @@ title: Sycophancy is the first LLM "dark pattern"
 description: 
 order: 74
 date: '2025-04-28'
+popular: true
 tags: ["ai", "ethics", "alignment failures"]
 ---
 
