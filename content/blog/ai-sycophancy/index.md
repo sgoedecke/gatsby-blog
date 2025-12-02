@@ -49,6 +49,10 @@ Edit: A few days after that, OpenAI released this other [post](https://openai.co
 
 I gave a [five-minute interview](https://www.youtube.com/watch?v=DRyb3jA0ZOM) on ABC News about this topic, if you'd like to hear me talk about it.
 
+This post was discussed on Hacker News [here](https://news.ycombinator.com/item?id=46112640), with many comments. Some commenters thought sycophancy doesn't count as a "dark pattern" because it's not intentional on the part of the AI labs, it's just an emergent behavior. I disagree with this on two fronts. First, I think dark patterns can be accidental. If my "unsubscribe" button on [AutoDeck](https://www.autodeck.pro/) breaks, the user doesn't care whether it's deliberate or not. Second, I think sycophancy in AI models is largely deliberate, in service of maximizing benchmarks and user retention.
+
+Users also mention another burgeoning dark pattern that I've also noticed: when models end their responses with a teaser of some other thing they could do for you. GPT-5 does this so often that there's a setting to turn it off! I guess this isn't as "dark" as sycophancy, but it's still kind of manipulative.
+
 [^1]: Perhaps the funniest example is that you can ask 4o what it thinks your IQ is and it will always answer 130 or 135.
 
 [^2]: Maybe a good use-case for feature boosting like [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude).

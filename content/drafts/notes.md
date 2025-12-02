@@ -1,10 +1,4 @@
-accurate nihilism? in defense of nihilism?
-https://lobste.rs/c/ch8tn0
-https://news.ycombinator.com/item?id=46085088
-https://news.ycombinator.com/item?id=46082989
-what I write is kind of nihilistic, sure, but I think it's correct. I also think if you don't say slightly-nihilistic-but-correct things, you end up in trouble. if you have no theory for why organizations often ship bad code, you can end up with an even-more-nihilistic wrong theory.
-weirdly, it seems like people sometimes treat 'the organization is a hellscape embedded in a capitalist nightmare' as _less nihilistic_. I guess because it still allows you to see _yourself_ as a heroic crusader for the forces of Good and Low Tech Debt?
-https://alexwennerberg.com/blog/2025-11-28-engineering.html
+
 
 why do large companies produce shoddy work?
 https://ziglang.org/news/migrating-from-github-to-codeberg/
