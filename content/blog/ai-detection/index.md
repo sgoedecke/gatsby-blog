@@ -57,7 +57,7 @@ The real people who suffer from this mirage are the people who are trying to wri
 
 If you are in a position where you're required to judge if people are using AI to write their articles or essays, I would urge you to be realistic about the capabilities of AI detection tooling. They can make educated guesses about whether text was written by AI, but that's all they are: educated guesses. That goes double if you're using a detection tool that also offers a "humanizing" service, since those tools are incentivized to produce false positives.
 
-**It is impossible to prove that a piece of text was written with AI**.
+**AI detection tools cannot prove that text is AI-generated.**
 
 [^0]: People sometimes talk about _watermarking_: when a provider like OpenAI deliberately trains their model to output text in some cryptographic way that leaves a very-hard-to-fake fingerprint. For instance, maybe it could always output text where the frequency of "e"s divided by the frequency of "l"s approximates pi. That would be very hard for humans to copy! I suspect there's _some_ kind of watermarking going on already (OpenAI models output weird space characters, which might trip up people naively copy-pasting their content) but I'm not going to talk about it in this post, because (a) sophisticated watermarking harms model capability so I don't think anyone's doing it, and (b) unsophisticated watermarking is easily avoided.
 
