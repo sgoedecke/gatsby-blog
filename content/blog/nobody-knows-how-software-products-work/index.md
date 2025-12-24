@@ -1,8 +1,8 @@
 ---
 title: Nobody knows how large software products work
 description: --
-order: 144
-date: '2025-09-28'
+order: 161
+date: '2025-12-24'
 tags: ["good engineers", "tech companies"]
 ---
 
@@ -12,7 +12,7 @@ How can this be? Shouldn't the engineers who built the software know what it doe
 
 ### Software is hard
 
-**Large software products are prohibitively complicated**. I wrote a lot more about this in [_Wicked Features_](/wicked-features), but the short version is you can capture a _lot_ of value by adding complicated features. The classic examples are features that make the core product available to more users. For instance, the ability to self-host the software, or to trial it for free, or to use it as a large organization with centralized policy controls, or to use it localized in different languages, or to use it in countries with strict laws around how software can operate, or for highly-regulated governments to use the software, and so on. These features are (hopefully) transparent to most users, **but they cannot be transparent to the tech company itself**. 
+**Large software products are prohibitively complicated**. I wrote a lot more about this in [_Wicked Features_](/wicked-features), but the short version is you can capture a _lot_ of value by adding complicated features. The classic examples are features that make the core product available to more users. For instance, the ability to self-host the software, or to trial it for free, or to use it as a large organization with centralized policy controls, or to use it localized in different languages, or to use it in countries with strict laws around how software can operate, or for highly-regulated customers like governments to use the software, and so on. These features are (hopefully) transparent to most users, **but they cannot be transparent to the tech company itself**. 
 
 Why are these features complicated? Because **they affect every single other feature you build**. If you add organizations and policy controls, you must build a policy control for every new feature you add. If you localize your product, you must include translations for every new feature. And so on. Eventually you're in a position where you're trying to figure out whether a self-hosted enterprise customer in the EU is entitled to access a particular feature, and _nobody knows_ - you have to go and read through the code or do some experimenting to figure it out.
 
@@ -20,9 +20,9 @@ Couldn't you just not build these features in the first place? Sure, but it leav
 
 ### Documentation
 
-Why can't you just document the interactions once when you're building each new feature? I don't know. I think this could work in theory, with a lot of effort and top-down support, but in practice it's just really hard.
+Why can't you just document the interactions once when you're building each new feature? I think this could work in theory, with a lot of effort and top-down support, but in practice it's just really hard.
 
-The core problem is that **the system is rapidly changing as you try to document it**. Even a single person can document a complex static system, given enough time, because they can just slowly work your way through it. But once the system starts changing, the people trying to document it now need to work faster than the rate of change in the system.
+The core problem is that **the system is rapidly changing as you try to document it**. Even a single person can document a complex static system, given enough time, because they can just slowly work their way through it. But once the system starts changing, the people trying to document it now need to work faster than the rate of change in the system. It may be literally impossible to document it without implausible amounts of manpower.
 
 Worse, many behaviors of the system don't necessarily have a lot of conscious intent behind them (or any). They just emerge from the way the system is set up, as interactions of a series of "default" choices. So the people working on the documentation are not just writing down choices made by engineers, **they're discovering how the system works for the first time**.
 
@@ -38,7 +38,7 @@ When tech companies reorg teams, they often destroy this tacit knowledge. If the
 
 In my experience, most engineers can write software, but few can reliably answer questions about it. I don't know why this should be so. Don't you need to answer questions about software in order to write new software? Nevertheless, it's true. My best theory is that **it's a confidence thing**. Many engineers would rather be on the hook for their _code_ (which at least works on their machine) than their _answers_ (which could be completely wrong).
 
-I wrote about this in [_How I provide technical clarity to non-technical leaders_](/clarity). The core difficulty is that **you're always going out on a limb**. You have to be comfortable with the possibility that you're dead wrong, which is a different mindset to writing code (where you can often prove that your work is correct).
+I wrote about this in [_How I provide technical clarity to non-technical leaders_](/clarity). The core difficulty is that **you're always going out on a limb**. You have to be comfortable with the possibility that you're dead wrong, which is a different mindset to writing code (where you can often prove that your work is correct). You're also able to be as verbose as you like when writing code - certainly when writing tests - but when you're answering questions you have to boil things down to a summary. Many software engineers _hate_ leaving out details.
 
 ### Summary
 
@@ -47,8 +47,6 @@ Non-technical people - at least, ones without a lot of experience working with s
 However, while this may be true of small pieces of software, **this is almost never true of large software systems**. Large software systems are very poorly understood, even by the people most in a position to understand them. Even really basic questions about what the software does often require _research_ to answer. And once you do have a solid answer, it may not be solid for long - each change to a codebase can introduce nuances and exceptions, so you've often got to go research the same question multiple times.
 
 Because of all this, **the ability to accurately answer questions about large software systems is extremely valuable**.
-
-
 
 
 [^1]: I'm not being sarcastic here, I think this is literally true and if you disagree you're being misled by your own cynicism.
