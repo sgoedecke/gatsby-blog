@@ -1,7 +1,7 @@
 ---
 title: You can't design software you don't work on
 description: --
-order: 145
+order: 162
 date: '2025-12-27'
 tags: ["software design", "tech companies"]
 ---
