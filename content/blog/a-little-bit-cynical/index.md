@@ -30,7 +30,7 @@ I can certainly see the appeal of this view! But I don't think it's an _idealist
 
 ### The cynical view is more idealistic than idealists think
 
-In my view, there's no hard distinction between engineers being "tools in a political game" and professionals who solve meaningful problems. In fact, I think that in practice **almost all meaningful problems are solved by playing political games**.
+I don't see a hard distinction between engineers being "tools in a political game" and professionals who solve meaningful problems. In fact, I think that in practice **almost all meaningful problems are solved by playing political games**.
 
 There are very few problems that you can solve entirely on your own. Software engineers encounter more of these problems than average, because the nature of software means that a single engineer can have huge leverage by sitting down and making a single code change. But in order to make changes to large products - for instance, to make it possible for GitHub's 150M users to [use LaTeX in markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) - you need to coordinate with many other people at the company, which means you need to be involved in politics.
 
@@ -44,7 +44,7 @@ Of course, big-tech software engineers are paid far better, so many people who g
 
 ### Cynicism as inoculation
 
-In my view, cynical writing is like most medicines: the dose makes the poison. A healthy amount of cynicism can serve as an inoculation from being overly cynical.
+Cynical writing is like most medicines: the dose makes the poison. A healthy amount of cynicism can serve as an inoculation from being overly cynical.
 
 If you don't have an slightly cynical explanation for why engineers write bad code in large tech companies - such as the one I write about [here](/bad-code-at-big-companies) - you risk adopting an overly cynical one. For instance, you might think that big tech engineers are being [deliberately demoralized](https://news.ycombinator.com/item?id=46082989) as part of an anti-labor strategy to prevent them from unionizing, which is nuts. Tech companies are simply not set up to engage in these kind of conspiracies.
 
@@ -52,7 +52,7 @@ If you don't have a slightly cynical explanation for why large tech companies so
 
 ### Final thoughts
 
-In my opinion, **idealist writing is massively over-represented in writing about software engineering**. There is no shortage of books or blog posts (correctly) explaining that we ought to value good code, that we ought to be kind to our colleagues, that we ought to work on projects with positive real-world impact, and so on. There _is_ a shortage of writing that accurately describes how big tech companies operate.
+**Idealist writing is massively over-represented in writing about software engineering**. There is no shortage of books or blog posts (correctly) explaining that we ought to value good code, that we ought to be kind to our colleagues, that we ought to work on projects with positive real-world impact, and so on. There _is_ a shortage of writing that accurately describes how big tech companies operate.
 
 Of course, cynical writing can harm people: by making them sad, or turning them into bitter cynics. But **idealist writing can harm people too**. There's a whole generation of software engineers who came out of the 2010s with a _factually incorrect_ model of how big tech companies work, and who are effectively being fed into the woodchipper in the 2020s. They would be better off if they internalized a correct model of how these companies work: not just less likely to get into trouble, but better at achieving their own idealist goals[^2].
 
