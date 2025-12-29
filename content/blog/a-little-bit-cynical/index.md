@@ -59,7 +59,7 @@ Of course, cynical writing can harm people: by making them sad, or turning them 
 
 
 
-edit: this post got some traction on [Hacker News](https://news.ycombinator.com/item?id=46414723), with many comments. Some [commenters](https://news.ycombinator.com/item?id=46415077) said that it's incoherent to say "what I do is good, actually" when my employer is engaged in various unethical activity. Fair enough! I'm not actually giving an ethical defence of working for Microsoft here - it's just not what the post is about - but I'm happy to accept a drive-by scolding here and there.
+edit: this post got some traction on [Hacker News](https://news.ycombinator.com/item?id=46414723), with many comments. Some [commenters](https://news.ycombinator.com/item?id=46415077) said that it's incoherent to say "what I do is good, actually" when my employer is engaged in various unethical activity. Fair enough! But this post isn't about whether it's ethical to work for Microsoft or not. It's a followup to [_How good engineers write bad code at big companies_](/bad-code-at-big-companies) - the main cynicism I'm interested in here is not "big tech is evil", but "big tech is incompetent".
 
 Some [other](https://news.ycombinator.com/item?id=46415535) [commenters](https://news.ycombinator.com/item?id=46414906) challenged my claim that C-staff want to deliver good software by pointing out that they're not willing to trade off their personal success to do so. Sure, I agree with that. The kind of person willing to sacrifice their career for things doesn't typically make it to a C-level position. But it's not always zero-sum. Good software makes money for software companies, after all.
 
