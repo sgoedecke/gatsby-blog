@@ -3,6 +3,7 @@ title: Software engineers should be a little bit cynical
 description: --
 order: 163
 date: '2025-12-28'
+popular: true
 tags: ["tech companies"]
 ---
 
@@ -55,6 +56,14 @@ If you don't have a slightly cynical explanation for why large tech companies so
 **Idealist writing is massively over-represented in writing about software engineering**. There is no shortage of books or blog posts (correctly) explaining that we ought to value good code, that we ought to be kind to our colleagues, that we ought to work on projects with positive real-world impact, and so on. There _is_ a shortage of writing that accurately describes how big tech companies operate.
 
 Of course, cynical writing can harm people: by making them sad, or turning them into bitter cynics. But **idealist writing can harm people too**. There's a whole generation of software engineers who came out of the 2010s with a _factually incorrect_ model of how big tech companies work, and who are effectively being fed into the woodchipper in the 2020s. They would be better off if they internalized a correct model of how these companies work: not just less likely to get into trouble, but better at achieving their own idealist goals[^2].
+
+
+
+edit: this post got some traction on [Hacker News](https://news.ycombinator.com/item?id=46414723), with many comments. Some [commenters](https://news.ycombinator.com/item?id=46415077) said that it's incoherent to say "what I do is good, actually" when my employer is engaged in various unethical activity. Fair enough! I'm not actually giving an ethical defence of working for Microsoft here - it's just not what the post is about - but I'm happy to accept a drive-by scolding here and there.
+
+Some [other](https://news.ycombinator.com/item?id=46415535) [commenters](https://news.ycombinator.com/item?id=46414906) challenged my claim that C-staff want to deliver good software by pointing out that they're not willing to trade off their personal success to do so. Sure, I agree with that. The kind of person willing to sacrifice their career for things doesn't typically make it to a C-level position. But it's not always zero-sum. Good software makes money for software companies, after all.
+
+I also saw two commenters link [this](https://en.wikipedia.org/wiki/High-Tech_Employee_Antitrust_Litigation) as an example of big tech companies actually being engaged in conspiracies against their employees. I'm not convinced. Companies _are_ structurally set up to collude on salaries, but they're not set up to deliberately make their employees sad - they just don't have that kind of fine-grained control over the culture! To the extent they have any control, they try to make their employees happy so they'll work for less money and not leave.
 
 [^1]: I don't _think_ I'm strawmanning here - I've seen many people make all of these points in the past, and I suspect at least some readers will be genuinely nodding along to the following paragraph. If you're one of those readers (or if you only agree with about 50%), consider doing me a favor and emailing me to let me know! If I don't get any emails I will probably rewrite this.
 
