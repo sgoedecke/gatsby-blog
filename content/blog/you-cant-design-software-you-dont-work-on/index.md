@@ -3,6 +3,7 @@ title: You can't design software you don't work on
 description: --
 order: 162
 date: '2025-12-27'
+popular: true
 tags: ["software design", "tech companies"]
 ---
 
@@ -59,6 +60,9 @@ Purely generic architecture is not _useless_, but its role should be restricted 
 In my opinion, formal "big-picture software architect" roles that spend all their time laying out the initial designs for projects are doomed to failure. They sound like a good idea (and they're a good deal for the architect, who can claim credit without risking blame), but they provide very little value to the engineering teams that are tasked with actually writing the code.
 
 Personally, I believe that **if you come up with the design for a software project, you ought to be responsible for the project's success or failure**. That would rapidly ensure that the people designing software systems are the people who know how to ship software systems. It would also ensure that the _real_ software designers - the ones that have to take into account all the rough edges and warts of the codebase - get credit for the difficult design work they do.
+
+
+edit: this post got some [comments](https://news.ycombinator.com/item?id=46418415) on Hacker News. I was surprised to see some commenters disagreeing with my point about consistency. I remember the reception of [_Mistakes engineers make in large established codebases_](/large-established-codebases) being quite positive. I was not surprised to see some commenters make the "haha, this is hypocritical because it is itself generic advice" point. I addressed this in the "when generic design is useful" section above.
 
 
 [^1]: I admit I've given my own generic software design advice [here](/good-api-design), [here](/good-system-design), [here](/great-software-design), and probably a dozen other places.

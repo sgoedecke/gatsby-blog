@@ -206,3 +206,37 @@ ul li {
     outline-color: #1a73e8;
   }
 }
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 1rem 0 2rem;
+  align-items: center;
+}
+
+.tag-cloud__link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  text-decoration: none;
+  line-height: 1.1;
+  font-weight: 600;
+  transition: transform 120ms ease-in-out, color 120ms ease-in-out;
+}
+
+.tag-cloud__link:hover,
+.tag-cloud__link:focus {
+  transform: translateY(-1px);
+}
+
+.tag-cloud__count {
+  font-size: 0.7em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  .tag-cloud__count {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
