@@ -4,7 +4,7 @@ description:
 order: 135
 date: '2025-09-03'
 popular: true
-tags: ["tech companies"]
+tags: ["tech companies", "book reports"]
 ---
 
 The big idea of James C. Scott's [_Seeing Like A State_](https://files.libcom.org/files/Seeing%20Like%20a%20State%20-%20James%20C.%20Scott.pdf) can be expressed in three points:

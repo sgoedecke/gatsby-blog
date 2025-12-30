@@ -38,24 +38,19 @@ const TagsPage = ({ data, location }) => {
         }}
       />
       <h2>tags</h2>
-      <p>Browse every topic I write about—bigger tags have more posts.</p>
-      {tagGroups.length === 0 ? (
-        <p>No tags found yet.</p>
-      ) : (
-        <div className="tag-cloud" aria-label="Tag cloud">
-          {tagGroups.map(tag => (
-            <Link
-              key={tag.fieldValue}
-              to={`/tags/${tag.fieldValue.toLowerCase()}/`}
-              className="tag-cloud__link"
-              style={{ fontSize: `${getFontSize(tag.totalCount)}rem` }}
-            >
-              {tag.fieldValue}
-              <span className="tag-cloud__count">{tag.totalCount}</span>
-            </Link>
-          ))}
-        </div>
-      )}
+      <div className="tag-cloud" aria-label="Tag cloud">
+        {tagGroups.map(tag => (
+          <Link
+            key={tag.fieldValue}
+            to={`/tags/${tag.fieldValue.toLowerCase()}/`}
+            className="tag-cloud__link"
+            style={{ fontSize: `${getFontSize(tag.totalCount)}rem` }}
+          >
+            {tag.fieldValue}
+            <span className="tag-cloud__count">{tag.totalCount}</span>
+          </Link>
+        ))}
+      </div>
       <p style={{ marginTop: rhythm(1.5) }}>
         <Link to="/" style={{ boxShadow: `none` }}>
           ← Back to blog
