@@ -37,7 +37,6 @@ const TagsPage = ({ data, location }) => {
           marginBottom: rhythm(1),
         }}
       />
-      <h2>tags</h2>
       <div className="tag-cloud" aria-label="Tag cloud">
         {tagGroups.map(tag => (
           <Link
