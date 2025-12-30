@@ -3,7 +3,7 @@ title: I don't care if my manager writes code
 description: 
 order: 103
 date: '2025-06-26'
-tags: ["tech companies"]
+tags: ["tech companies", "management"]
 ---
 
 I [write](/book) [a lot](/good-times-are-over) [about](/in-these-troubled-times) how the post-2010s economic squeeze has made it harder to be a software engineer at a large tech company. But I haven't said much about how it's also harder now to be a software engineering _manager_.

@@ -3,6 +3,7 @@ title: Working fast and slow
 description: How I deal with being way more productive on some days than others
 order: 34
 date: '2025-01-25'
+tags: ["career"]
 ---
 
 Some engineers work very consistently, putting in the same hours every day and getting out the same amount of work. I don't. Some days I only have a few hours of focused work in me, while on other days I feel like I can go on almost indefinitely. I used to feel like this was a problem - that I was either overworking or slacking off - but now I lean into it. Instead of trying to push harder on slack days and pull back on focus days, I accept that I'll be much more productive on some days than others. There are serious advantages to this working style.

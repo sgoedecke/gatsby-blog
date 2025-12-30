@@ -3,7 +3,7 @@ title: The whole point of OpenAI's Responses API is to help them hide reasoning 
 description: 
 order: 138
 date: '2025-09-09'
-tags: ["ai"]
+tags: ["ai", "inference", "reasoning", "openai"]
 ---
 
 About six months ago, OpenAI released their [Responses API](https://openai.com/index/new-tools-for-building-agents/), which replaced their previous /chat/completions API for inference. The old API was very simple: you pass in an array of messages representing a conversation between the model and a user, and get the model's next response back. The new Responses API is more complicated. It has a lot more features, such as a set of built-in tools, but the main difference is _it's stateful_. You don't have to pass in the entire conversation history with each request. Instead, you can pass around an id representing the state of the conversation, and OpenAI (or your chosen provider) will keep it up-to-date for you.

@@ -1,3 +1,5 @@
+I am from the finance/politics world, so the on-the-ground perspective of how AI is influencing enterprises is something I think about a lot. 
+
 Working on products people hate
 
 https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/

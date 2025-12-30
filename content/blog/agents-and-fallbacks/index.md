@@ -3,7 +3,7 @@ title: AI coding agents rely too much on fallbacks
 description: --
 order: 143
 date: '2025-09-27'
-tags: ["ai"]
+tags: ["ai", "agents"]
 ---
 
 One frustrating pattern I've noticed in AI agents - at least in Claude Code, Codex and Copilot - is **building automatic fallbacks**.

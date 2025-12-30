@@ -3,7 +3,7 @@ title: Advice for prompting reasoning models
 description: Why it's hard and how to do it
 order: 47
 date: '2025-02-23'
-tags: ["ai"]
+tags: ["ai", "prompting", "reasoning"]
 ---
 
 I've written about how prompting regular LLMs is [not as important as people think](/beyond-prompting). Reasoning models are different. When you're using reasoning models, the quality of your prompt matters a lot. Why is that?
@@ -29,4 +29,3 @@ One other useful trick with reasoning models is giving them an explicit way out 
 Note that all of this advice is more useful for straightforward reasoning models like DeepSeek-R1, and less useful for reasoning models like o1. OpenAI know that their user base is relatively unsophisticated (or wants to save money on compute tokens), and so has o1 tuned to avoid _too_ much deep thought. But when you talk to R1, it'll often think for a very long time indeed, so you'd better be careful with your prompts!
 
 [^1]: Of course current-generation reasoning models are also next-token predictors, though that might change with GPT-5. The point I'm making is that they behave more like theorem provers than regular models do.
-

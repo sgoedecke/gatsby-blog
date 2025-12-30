@@ -3,7 +3,7 @@ title: Playing politics is how senior engineers protect their team
 description: If you're senior or above, you're morally obliged to play the game
 order: 35
 date: '2025-01-26'
-tags: ["tech companies", "ethics"]
+tags: ["tech companies", "ethics", "policy"]
 ---
 
 When I write about doing politically valuable work in big tech companies, I often get comments accusing me of trying to get ahead at the expense of my colleagues. In fact, the reverse is true. If you're a senior engineer or above, **it is your responsibility to effectively navigate tech company politics**. You owe it to the more junior members of your team.
@@ -29,4 +29,3 @@ I get it - it feels cynical to spend your time on your executive team's latest [
 [^1]: This part is often overstated - in my experience, more junior engineers are usually fast learners on their own, and need political support more than technical guidance.
 
 [^2]: If this isn't well known, email me and I'll write a whole post about it.
-

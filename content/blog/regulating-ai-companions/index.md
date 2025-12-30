@@ -3,7 +3,7 @@ title: The case for regulating AI companions
 description: 
 order: 119
 date: '2025-07-19'
-tags: ["ai", "ethics", "alignment failures"]
+tags: ["ai", "ethics", "alignment failures", "policy", "openai"]
 ---
 
 In April, OpenAI screwed up by releasing a version of GPT-4o that was overly [sycophantic](/ai-sycophancy). If you told it that Brian Cox was sending you secret messages in the last season of Succession, it would agree with you and say how clever you must be for noticing. After a few days, they dialed it back a bit and [apologized](https://openai.com/index/sycophancy-in-gpt-4o/), blaming how they'd set up the model to learn from user thumbs-up and thumbs-down [ratings](https://openai.com/index/expanding-on-sycophancy/).

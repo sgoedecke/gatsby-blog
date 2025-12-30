@@ -5,7 +5,7 @@ description: >-
   language models
 order: 15
 date: '2024-10-28'
-tags: ["ai", "ethics"]
+tags: ["ai", "ethics", "policy"]
 ---
 
 There's a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses. Here are some randomly-chosen examples:

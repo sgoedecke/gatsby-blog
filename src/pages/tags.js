@@ -9,7 +9,12 @@ const TagsPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const tagGroups = data.allMarkdownRemark.group
     .filter(group => Boolean(group.fieldValue))
-    .sort((a, b) => a.fieldValue.localeCompare(b.fieldValue, undefined, { sensitivity: "base" }));
+    .sort((a, b) => {
+      if (b.totalCount !== a.totalCount) {
+        return b.totalCount - a.totalCount;
+      }
+      return a.fieldValue.localeCompare(b.fieldValue, undefined, { sensitivity: "base" });
+    });
 
   const counts = tagGroups.map(tag => tag.totalCount);
   const minCount = counts.length > 0 ? Math.min(...counts) : 1;

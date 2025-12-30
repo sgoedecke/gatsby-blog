@@ -4,7 +4,7 @@ description:
 order: 139
 date: '2025-09-20'
 popular: true
-tags: ["ai"]
+tags: ["ai", "agents"]
 ---
 
 Using AI agents correctly is a process of _reviewing code_. If you're good at reviewing code, you'll be good at using tools like Claude Code, Codex, or the Copilot coding agent.

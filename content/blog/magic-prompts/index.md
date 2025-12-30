@@ -3,7 +3,7 @@ title: I don't care about your magic prompts
 description:
 order: 77
 date: '2025-05-06'
-tags: ["ai"]
+tags: ["ai", "prompting"]
 ---
 
 There's a brand of tech influencer now that's all about sharing the perfect prompt for any situation. The tweets in question typically read something like "this prompt will make you superhuman", or "this prompt will be a 20k growth consultant in your pocket"[^1]. There's a kernel of truth here - it's surprising how much small alterations in a prompt can affect the quality of language model outputs - but overall it's just a bit silly. Searching for the perfect prompt is just not how you should be engaging with language models.
