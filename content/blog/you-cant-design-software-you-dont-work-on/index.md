@@ -64,6 +64,8 @@ Personally, I believe that **if you come up with the design for a software proje
 
 edit: this post got some [comments](https://news.ycombinator.com/item?id=46418415) on Hacker News. I was surprised to see some commenters disagreeing with my point about consistency. I remember the reception of [_Mistakes engineers make in large established codebases_](/large-established-codebases) being quite positive. I was not surprised to see some commenters make the "haha, this is hypocritical because it is itself generic advice" point. I addressed this in the "when generic design is useful" section above.
 
+This post also got some [comments](https://lobste.rs/s/72piqg/you_can_t_design_software_you_don_t_work_on) on Lobste.rs. This is the rare case where the Lobste.rs comments are worse than the Hacker News comments: it's mostly quibbling over the term "generic" and speculating over whether I wrote this post with a LLM (I didn't).
+
 
 [^1]: I admit I've given my own generic software design advice [here](/good-api-design), [here](/good-system-design), [here](/great-software-design), and probably a dozen other places.
 
