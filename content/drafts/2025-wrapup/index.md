@@ -1,1 +1,0 @@
-https://refactoringenglish.com/blog/2025-hn-top-5/
