@@ -7,20 +7,20 @@ popular: true
 tags: ["book reports"]
 ---
 
-[_The Dictator's Handbook_](https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook) is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering hard-nosed advice to would-be successful leaders.
+[_The Dictator's Handbook_](https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook) is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering unsentimental advice to would-be successful leaders.
 
-Given that, I expected this book to be similar to [_The 48 Laws of Power_](https://en.wikipedlia.org/wiki/The_48_Laws_of_Power), which did not impress me. Like many self-help books, it's "empty calories": a lot of fun to read, but you come away somewhat malnourished. However, _The Dictator's Handbook_ is a legitimate work of political science, serving as a popular introduction to [an actual theory of government](https://en.wikipedia.org/wiki/Selectorate_theory).
+Given that, I expected this book to be similar to [_The 48 Laws of Power_](https://en.wikipedlia.org/wiki/The_48_Laws_of_Power), which did not impress me. Like many self-help books, _The 48 Laws of Power_ is "empty calories": a lot of fun to read, but not really useful or edifying[^0]. However, _The Dictator's Handbook_ is a legitimate work of political science, serving as a popular introduction to [an actual academic theory of government](https://en.wikipedia.org/wiki/Selectorate_theory).
 
-Political science is very much not my field, so I'm reluctant to be convinced by the various plausible arguments in the book. I'm mainly interested in whether the book has anything to say about something I do know a little bit about: operating as an engineer inside a large tech company.
+Political science is very much not my field, so I'm reluctant to be convinced by (or comment on) the various concrete arguments in the book. I'm mainly interested in whether the book has anything to say about something I do know a little bit about: operating as an engineer inside a large tech company.
 
 ### Inner and outer circles
 
 Let's first cover the the key idea of _The Dictator's Handbook_, which can be expressed in three points.
 
 - When explaining how organizations[^1] behave, it is more useful to consider the motivations of individual people (say, the leader) than "the organization" as a whole
-- Every leader must depend upon a coalition of insiders who help them maintain their position
+- Every leader must depend upon a **coalition** of insiders who help them maintain their position
 - Almost every feature of organizations can be explained by the ratio between the size of three groups:
-  - The members of the **coalition** (i.e. the "inner circle")
+  - The members of the coalition of insiders (i.e. the "inner circle")
   - The group who could conceivably become members of the coalition (the "outer circle", or what the book calls the "interchangeables")
   - The entire population who is subject to the leader
 
@@ -30,21 +30,21 @@ Alternatively, take a democratic president. To maintain power, the president dep
 
 ### Coalition sizes determine government type
 
-Mesquita and Smith argue that the structure of the government is downstream from the coalition sizes. If the coalition is small, it doesn't matter whether the country is nominally a democracy - it will function like an autocratic dicatorship. Likewise, if the coalition is large, even a dictatorship will act in the best interests of its citizens (and will necessarily democratize).
+Mesquita and Smith argue that the structure of the government is downstream from the coalition sizes. If the coalition is small, it doesn't matter whether the country is nominally a democracy, it will function like an autocratic dicatorship. Likewise, if the coalition is large, even a dictatorship will act in the best interests of its citizens (and will necessarily democratize).
 
-According to them, the structure of government does not change the size of the coalition. Rather, changes in the size of the coalition force changes in the structure of government. For instance, a democratic leader may want to shrink the size of their coalition to make it easier to hold onto power (e.g. by empowering state governors to unilaterally decide the outcome of elections). If successful, the government will thus be a small-coalition government, and will function very much like a dictatorship (even if it's still nominally democratic).
+According to them, the structure of government does not change the size of the coalition. Rather, changes in the size of the coalition force changes in the structure of government. For instance, a democratic leader may want to shrink the size of their coalition to make it easier to hold onto power (e.g. by empowering state governors to unilaterally decide the outcome of their state's elections). If successful, the government will thus become a small-coalition government, and will function more like a dictatorship (even if it's still nominally democratic).
 
-Why are small-coalition governments more prone to autocracy or corruption? Because leaders stay in power by rewarding their coalitions, and if your coalition is a few tens or hundreds of people, you can best reward them by directly handing out cash or treasure, at the expense of everyone else. If your coalition is hundreds of thousands or millions of people, you can no longer directly assign rewards - instead, it's more efficient to fund public goods that benefit everybody. That's why democracies tend to fund many more public goods than dictatorships.
+Why are small-coalition governments more prone to autocracy or corruption? Because leaders stay in power by rewarding their coalitions, and if your coalition is a few tens or hundreds of people, you can best reward them by directly handing out cash or treasure, at the expense of everyone else. If your coalition is hundreds of thousands or millions of people (e.g. all the voters in a democracy), you can no longer directly assign rewards to individual people. Instead, it's more efficient to fund public goods that benefit everybody. That's why democracies tend to fund many more public goods than dictatorships.
 
-Leaders want small coalitions, because small coalitions are easier to keep happy. This is why dictators rule longer than democratically-elected leaders. Incidentally, it's also why hegemonic countries like the USA have a practical interest in keeping uneasy allies ruled by dictators: because small-coalition dictatorships are easier to pay off.
+Leaders prefer small coalitions, because small coalitions are cheaper to keep happy. This is why dictators rule longer than democratically-elected leaders. Incidentally, it's also why hegemonic countries like the USA have a practical interest in keeping uneasy allies ruled by dictators: because small-coalition dictatorships are easier to pay off.
 
 Leaders also want the set of "interchangeables" - remember, this is the set of people who _could_ be part of the coalition but currently aren't - to be as large as possible. That way they can easily replace unreliable coalition members. Of course, coalition members want the set of interchangeables to be as small as possible, to maximise their own leverage.
 
 ### What about tech companies?
 
-What does any of this have to do with tech companies? _The Dictator's Handbook_ does reference a few tech companies specifically, but always in the context of boardroom disputes. In this framing, the CEO is the leader, and their coalition is the board who can either support them or fire them. I'm sure this is interesting - I'd love to read an account of the [2023 OpenAI boardroom wars](https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI) from this perspective - but I don't really know anything about how boards work so I don't want to speculate.
+What does any of this have to do with tech companies? _The Dictator's Handbook_ does reference a few tech companies specifically, but always in the context of boardroom disputes. In this framing, the CEO is the leader, and their coalition is the board who can either support them or fire them. I'm sure this is interesting - I'd love to read an account of the [2023 OpenAI boardroom wars](https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI) from this perspective - but I don't really know anything first-hand about how boards work, so I don't want to speculate.
 
-It's unclear how we might apply this theory so that it's relevant to individual software engineers (and the levels of management they might encounter in a large tech company). Directors and VPs are definitely leaders, but they're not "leaders" in the sense meant in _The Dictator's Handbook_. They don't govern from the strength of their coalitions, but from the formal power they derive from the roles above them.
+It's unclear how we might apply this theory so that it's relevant to individual software engineers and the levels of management they might encounter in a large tech company. Directors and VPs are definitely leaders, but they're not "leaders" in the sense meant in _The Dictator's Handbook_. They don't govern from the strength of their coalitions. Instead, they depend on the formal power they derive from the roles above them: you do what your boss says because they can fire you (or if they can't, their boss certainly can).
 
 However, directors and VPs rarely make genuinely unilateral decisions. Typically they'll consult with a small group of trusted subordinates, who they depend on for accurate information[^2] and to actually execute projects. This sounds a lot like a coalition to me! Could we apply some of the lessons above to this kind of coalition?
 
@@ -60,14 +60,25 @@ Let's consider Mesquita and Smith's point about the "interchangeables". Accordin
 
 In other words, _The Dictator's Handbook_ style of backstabbing and political maneuvering is just not something I've observed at the level of software teams or products. Maybe it happens like this at the C-suite/VP or at the boardroom level - I wouldn't know. But at the level I'm at, **the success of individual projects determines your career success**, so self-interested people tend to try and surround themselves with competent professionals who can make projects succeed, even if those people pose more of a political threat.
 
+### Competence
+
+I think the main difference here is that **technical competence matters a lot in engineering organizations**. Mesquita and Smith barely write about competence at all. From what I can tell, they assume that leaders don't care about it, and assume that their administration will be competent enough (a very low bar) to stay in power, no matter what they do.
+
+For tech companies, **technical competence is a critical currency for leaders**. Leaders who can attract and retain technical competence to their organizations are able to complete projects and notch up easy political wins. Leaders who fail to do this must rely on "pure politics": claiming credit, making glorious future promises, and so on. Of course, every leader has to do some amount of this. But it's just _easier_ to also have concrete accomplishments to point to as well.
+
+If I were tempted to criticize the political science here, this is probably where I'd start. I find it hard to believe that governments are _that_ different from tech companies in this sense: surely competence makes a big difference to outcomes, and leaders are thus incentivized to keep competent people in their circle, even if that disrupts their coalition or incurs additional political costs. But again, it's not my field, so I'm just guessing.
+
+Still, it's possible to explain the desire for competence in a way that's consistent with _The Dictator's Handbook_. Suppose that desire isn't really a feature of _tech companies_, but is instead a feature of _senior management_. According to this view, the leader right at the top (the dictator, president, or CEO) doesn't have the luxury to care about competence, and must focus entirely on solidifying their power base. But the leaders in the middle (the generals, VPs and directors) are obliged to actually get things done, and so need to worry a lot about keeping competent subordinates.
+
 ### Final thoughts
 
 I enjoyed _The Dictator's Handbook_, but I don't know if I got a lot out of it. There weren't a lot of direct lessons I could draw from my own work politics[^3], and I don't feel competent to judge the direct political science arguments.
 
 For instance, the book devotes a chapter to arguing against foreign aid, claiming roughly (a) that it props up unstable dictatorships by allowing them to reward their small-group coalitions, and (b) that it allows powerful countries to pressure small dictatorships into adopting foreign policies that are not in their citizens' interest. Sure, that seems plausible! But I'm suspicious of plausible-sounding arguments in areas where I don't have actual expertise. I could imagine a similarly-plausible argument in favor of foreign aid[^4].
 
-Still, I did like the core idea: that no leader can lead alone, and that therefore the relationship between the ruler and their coalition dictates much of the structure of the organization.
+In tech companies - or maybe just at my level - _competence_ is very important, and is an entirely missing idea in _The Dictator's Handbook_. Still, I did like the core idea. No leader can lead alone, and that therefore the relationship between the ruler and their coalition dictates much of the structure of the organization. I think that's broadly true about many different kinds of organization, including software companies.
 
+[^0]: Maybe there are people out there who are applying Greene's Machiavellian power tactics to their daily lives. If so, I hope I don't meet them.
 
 [^1]: "Organizations" here is understood very broadly: companies, nations, families, book clubs, and so on all fit the definition.
 

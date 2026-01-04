@@ -32,5 +32,11 @@ posthog.init('phc_mO3Kz6MZxVQh9r9wl7hcDejccN6pWYr4Y0vCWsUjY7c', {
 })`,
       }}
     ></script>,
+    <script
+      key="umami-analytics"
+      defer
+      src="https://sg-analytics.pikapod.net/script.js"
+      data-website-id="f535647a-f97e-42ba-a2eb-4e9583984266"
+    ></script>,
   ])
 }
