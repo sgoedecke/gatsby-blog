@@ -8,7 +8,7 @@ tags: ["book reports"]
 
 [_The Dictator's Handbook_](https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook) is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering unsentimental advice to would-be successful leaders.
 
-Given that, I expected this book to be similar to [_The 48 Laws of Power_](https://en.wikipedia.org/wiki/The_48_Laws_of_Power), which did not impress me. Like many self-help books, _The 48 Laws of Power_ is "empty calories": a lot of fun to read, but not really useful or edifying[^0]. However, _The Dictator's Handbook_ is a legitimate work of political science, serving as a popular introduction to [an actual academic theory of government](https://en.wikipedia.org/wiki/Selectorate_theory).
+Given that, I expected this book to be similar to [_The 48 Laws of Power_](https://en.wikipedia.org/wiki/The_48_Laws_of_Power), which did not impress me. Like many self-help books, _The 48 Laws of Power_ is "empty calories": a lot of fun to read, but not really useful or edifying[^1]. However, _The Dictator's Handbook_ is a legitimate work of political science, serving as a popular introduction to [an actual academic theory of government](https://en.wikipedia.org/wiki/Selectorate_theory).
 
 Political science is very much not my field, so I'm reluctant to be convinced by (or comment on) the various concrete arguments in the book. I'm mainly interested in whether the book has anything to say about something I do know a little bit about: operating as an engineer inside a large tech company.
 
@@ -16,7 +16,7 @@ Political science is very much not my field, so I'm reluctant to be convinced by
 
 Let's first cover the key idea of _The Dictator's Handbook_, which can be expressed in three points.
 
-- When explaining how organizations[^1] behave, it is more useful to consider the motivations of individual people (say, the leader) than "the organization" as a whole
+- When explaining how organizations[^2] behave, it is more useful to consider the motivations of individual people (say, the leader) than "the organization" as a whole
 - Every leader must depend upon a **coalition** of insiders who help them maintain their position
 - Almost every feature of organizations can be explained by the ratio between the size of three groups:
   - The members of the coalition of insiders (i.e. the "inner circle")
@@ -45,7 +45,7 @@ What does any of this have to do with tech companies? _The Dictator's Handbook_ 
 
 It's unclear how we might apply this theory so that it's relevant to individual software engineers and the levels of management they might encounter in a large tech company. Directors and VPs are definitely leaders, but they're not "leaders" in the sense meant in _The Dictator's Handbook_. They don't govern from the strength of their coalitions. Instead, they depend on the formal power they derive from the roles above them: you do what your boss says because they can fire you (or if they can't, their boss certainly can).
 
-However, directors and VPs rarely make genuinely unilateral decisions. Typically they'll consult with a small group of trusted subordinates, who they depend on for accurate information[^2] and to actually execute projects. This sounds a lot like a coalition to me! Could we apply some of the lessons above to this kind of coalition?
+However, directors and VPs rarely make genuinely unilateral decisions. Typically they'll consult with a small group of trusted subordinates, who they depend on for accurate information[^3] and to actually execute projects. This sounds a lot like a coalition to me! Could we apply some of the lessons above to this kind of coalition?
 
 ### Interchangeable engineers and managers
 
@@ -67,7 +67,7 @@ Mesquita and Smith barely write about competence at all. From what I can tell, t
 
 For tech companies, **technical competence is a critical currency for leaders**. Leaders who can attract and retain technical competence to their organizations are able to complete projects and notch up easy political wins. Leaders who fail to do this must rely on "pure politics": claiming credit, making glorious future promises, and so on. Of course, every leader has to do some amount of this. But it's just _easier_ to also have concrete accomplishments to point to as well.
 
-If I were tempted to criticize the political science here, this is probably where I'd start. I find it hard to believe that governments are _that_ different from tech companies in this sense: surely competence makes a big difference to outcomes, and leaders are thus incentivized to keep competent people in their circle, even if that disrupts their coalition or incurs additional political costs.
+If I were tempted to criticize the political science here, this is probably where I'd start. I find it hard to believe that governments are _that_ different from tech companies in this sense: surely competence makes a big difference to outcomes, and leaders are thus incentivized to keep competent people in their circle, even if that disrupts their coalition or incurs additional political costs[^4].
 
 ### Does competence dominate mid-level politics?
 
@@ -80,20 +80,22 @@ Mesquita and Smith aren't particularly interested in mid-level politics. Their f
 
 ### Final thoughts
 
-I enjoyed _The Dictator's Handbook_, but most of what I took from it was speculation. There weren't a lot of direct lessons I could draw from my own work politics[^3], and I don't feel competent to judge the direct political science arguments.
+I enjoyed _The Dictator's Handbook_, but most of what I took from it was speculation. There weren't a lot of direct lessons I could draw from my own work politics[^5], and I don't feel competent to judge the direct political science arguments.
 
-For instance, the book devotes a chapter to arguing against foreign aid, claiming roughly (a) that it props up unstable dictatorships by allowing them to reward their small-group coalitions, and (b) that it allows powerful countries to pressure small dictatorships into adopting foreign policies that are not in their citizens' interest. Sure, that seems plausible! But I'm suspicious of plausible-sounding arguments in areas where I don't have actual expertise. I could imagine a similarly-plausible argument in favor of foreign aid[^4].
+For instance, the book devotes a chapter to arguing against foreign aid, claiming roughly (a) that it props up unstable dictatorships by allowing them to reward their small-group coalitions, and (b) that it allows powerful countries to pressure small dictatorships into adopting foreign policies that are not in their citizens' interest. Sure, that seems plausible! But I'm suspicious of plausible-sounding arguments in areas where I don't have actual expertise. I could imagine a similarly-plausible argument in favor of foreign aid[^6].
 
 The book doesn't talk about competence at all, but in my experience of navigating work politics, competence is the primary currency - it's both the instrument and the object of many political battles. I can reconcile this by guessing that **competence might matter more at the senior-management level than the very top level of politics**, but I'm really just guessing. I don't have the research background or the C-level experience to be confident about any of this.
 
 Still, I did like the core idea. No leader can lead alone, and that therefore the relationship between the ruler and their coalition dictates much of the structure of the organization. I think that's broadly true about many different kinds of organization, including software companies.
 
-[^0]: Maybe there are people out there who are applying Greene's Machiavellian power tactics to their daily lives. If so, I hope I don't meet them.
+[^1]: Maybe there are people out there who are applying Greene's Machiavellian power tactics to their daily lives. If so, I hope I don't meet them.
 
-[^1]: "Organizations" here is understood very broadly: companies, nations, families, book clubs, and so on all fit the definition.
+[^2]: "Organizations" here is understood very broadly: companies, nations, families, book clubs, and so on all fit the definition.
 
-[^2]: I write about this a lot more in [_How I provide technical clarity to non-technical leaders_](/clarity)
+[^3]: I write about this a lot more in [_How I provide technical clarity to non-technical leaders_](/clarity)
 
-[^3]: This is not a criticism of the book.
+[^4]: In an email exchange, a reader suggested that companies face more competition than governments, because the cost of moving countries is much higher than the cost of switching products, which might make competence more important for companies. I think this is also pretty plausible.
 
-[^4]: After five years of studying philosophy, I'm convinced you can muster a plausible argument in favor of literally any position, with enough work.
+[^5]: This is not a criticism of the book.
+
+[^6]: After five years of studying philosophy, I'm convinced you can muster a plausible argument in favor of literally any position, with enough work.
