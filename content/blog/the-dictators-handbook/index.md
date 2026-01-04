@@ -1,21 +1,20 @@
 ---
-title: The Dictator's Handbook for software engineers
+title: The Dictator's Handbook and the politics of technical competence
 description: --
-order: 162
-date: '2025-12-27'
-popular: true
+order: 166
+date: '2026-01-05'
 tags: ["book reports"]
 ---
 
 [_The Dictator's Handbook_](https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook) is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering unsentimental advice to would-be successful leaders.
 
-Given that, I expected this book to be similar to [_The 48 Laws of Power_](https://en.wikipedlia.org/wiki/The_48_Laws_of_Power), which did not impress me. Like many self-help books, _The 48 Laws of Power_ is "empty calories": a lot of fun to read, but not really useful or edifying[^0]. However, _The Dictator's Handbook_ is a legitimate work of political science, serving as a popular introduction to [an actual academic theory of government](https://en.wikipedia.org/wiki/Selectorate_theory).
+Given that, I expected this book to be similar to [_The 48 Laws of Power_](https://en.wikipedia.org/wiki/The_48_Laws_of_Power), which did not impress me. Like many self-help books, _The 48 Laws of Power_ is "empty calories": a lot of fun to read, but not really useful or edifying[^0]. However, _The Dictator's Handbook_ is a legitimate work of political science, serving as a popular introduction to [an actual academic theory of government](https://en.wikipedia.org/wiki/Selectorate_theory).
 
 Political science is very much not my field, so I'm reluctant to be convinced by (or comment on) the various concrete arguments in the book. I'm mainly interested in whether the book has anything to say about something I do know a little bit about: operating as an engineer inside a large tech company.
 
 ### Inner and outer circles
 
-Let's first cover the the key idea of _The Dictator's Handbook_, which can be expressed in three points.
+Let's first cover the key idea of _The Dictator's Handbook_, which can be expressed in three points.
 
 - When explaining how organizations[^1] behave, it is more useful to consider the motivations of individual people (say, the leader) than "the organization" as a whole
 - Every leader must depend upon a **coalition** of insiders who help them maintain their position
@@ -30,7 +29,7 @@ Alternatively, take a democratic president. To maintain power, the president dep
 
 ### Coalition sizes determine government type
 
-Mesquita and Smith argue that the structure of the government is downstream from the coalition sizes. If the coalition is small, it doesn't matter whether the country is nominally a democracy, it will function like an autocratic dicatorship. Likewise, if the coalition is large, even a dictatorship will act in the best interests of its citizens (and will necessarily democratize).
+Mesquita and Smith argue that the structure of the government is downstream from the coalition sizes. If the coalition is small, it doesn't matter whether the country is nominally a democracy, it will function like an autocratic dictatorship. Likewise, if the coalition is large, even a dictatorship will act in the best interests of its citizens (and will necessarily democratize).
 
 According to them, the structure of government does not change the size of the coalition. Rather, changes in the size of the coalition force changes in the structure of government. For instance, a democratic leader may want to shrink the size of their coalition to make it easier to hold onto power (e.g. by empowering state governors to unilaterally decide the outcome of their state's elections). If successful, the government will thus become a small-coalition government, and will function more like a dictatorship (even if it's still nominally democratic).
 
@@ -62,21 +61,32 @@ In other words, _The Dictator's Handbook_ style of backstabbing and political ma
 
 ### Competence
 
-I think the main difference here is that **technical competence matters a lot in engineering organizations**. Mesquita and Smith barely write about competence at all. From what I can tell, they assume that leaders don't care about it, and assume that their administration will be competent enough (a very low bar) to stay in power, no matter what they do.
+I think the main difference here is that **technical competence matters a lot in engineering organizations**. I want a deep bench because it really matters to me whether projects succeed or fail, and having more technically competent people in the loop drastically increases the chances of success.
+
+Mesquita and Smith barely write about competence at all. From what I can tell, they assume that leaders don't care about it, and assume that their administration will be competent enough (a very low bar) to stay in power, no matter what they do.
 
 For tech companies, **technical competence is a critical currency for leaders**. Leaders who can attract and retain technical competence to their organizations are able to complete projects and notch up easy political wins. Leaders who fail to do this must rely on "pure politics": claiming credit, making glorious future promises, and so on. Of course, every leader has to do some amount of this. But it's just _easier_ to also have concrete accomplishments to point to as well.
 
-If I were tempted to criticize the political science here, this is probably where I'd start. I find it hard to believe that governments are _that_ different from tech companies in this sense: surely competence makes a big difference to outcomes, and leaders are thus incentivized to keep competent people in their circle, even if that disrupts their coalition or incurs additional political costs. But again, it's not my field, so I'm just guessing.
+If I were tempted to criticize the political science here, this is probably where I'd start. I find it hard to believe that governments are _that_ different from tech companies in this sense: surely competence makes a big difference to outcomes, and leaders are thus incentivized to keep competent people in their circle, even if that disrupts their coalition or incurs additional political costs.
 
-Still, it's possible to explain the desire for competence in a way that's consistent with _The Dictator's Handbook_. Suppose that desire isn't really a feature of _tech companies_, but is instead a feature of _senior management_. According to this view, the leader right at the top (the dictator, president, or CEO) doesn't have the luxury to care about competence, and must focus entirely on solidifying their power base. But the leaders in the middle (the generals, VPs and directors) are obliged to actually get things done, and so need to worry a lot about keeping competent subordinates.
+### Does competence dominate mid-level politics?
+
+Still, it's possible to explain the desire for competence in a way that's consistent with _The Dictator's Handbook_. Suppose that competence isn't more important in _tech companies_, but is more important for _senior management_. According to this view, the leader right at the top (the dictator, president, or CEO) doesn't have the luxury to care about competence, and must focus entirely on solidifying their power base. But the leaders in the middle (the generals, VPs and directors) are obliged to actually get things done, and so need to worry a lot about keeping competent subordinates.
+
+Why would VPs be more obliged to get things done than CEOs? One reason might be that CEOs depend on a coalition of all board members (or even all company shareholders). This is a small coalition by _The Dictator's Handbook_ standards, but it's still much larger than the VP's coalition, which is a coalition of one: just their boss. CEOs have tangible ways to reward their coalition. But VPs can only really reward their coalition via accomplishing their boss's goals, which necessarily requires competence.
+
+Mesquita and Smith aren't particularly interested in mid-level politics. Their focus is on leaders and their direct coalitions. But for most of us who operate in the middle level, maybe the lesson is that **coalition politics dominates at the top, but competence politics dominates in the middle.**
+
 
 ### Final thoughts
 
-I enjoyed _The Dictator's Handbook_, but I don't know if I got a lot out of it. There weren't a lot of direct lessons I could draw from my own work politics[^3], and I don't feel competent to judge the direct political science arguments.
+I enjoyed _The Dictator's Handbook_, but most of what I took from it was speculation. There weren't a lot of direct lessons I could draw from my own work politics[^3], and I don't feel competent to judge the direct political science arguments.
 
 For instance, the book devotes a chapter to arguing against foreign aid, claiming roughly (a) that it props up unstable dictatorships by allowing them to reward their small-group coalitions, and (b) that it allows powerful countries to pressure small dictatorships into adopting foreign policies that are not in their citizens' interest. Sure, that seems plausible! But I'm suspicious of plausible-sounding arguments in areas where I don't have actual expertise. I could imagine a similarly-plausible argument in favor of foreign aid[^4].
 
-In tech companies - or maybe just at my level - _competence_ is very important, and is an entirely missing idea in _The Dictator's Handbook_. Still, I did like the core idea. No leader can lead alone, and that therefore the relationship between the ruler and their coalition dictates much of the structure of the organization. I think that's broadly true about many different kinds of organization, including software companies.
+The book doesn't talk about competence at all, but in my experience of navigating work politics, competence is the primary currency - it's both the instrument and the object of many political battles. I can reconcile this by guessing that **competence might matter more at the senior-management level than the very top level of politics**, but I'm really just guessing. I don't have the research background or the C-level experience to be confident about any of this.
+
+Still, I did like the core idea. No leader can lead alone, and that therefore the relationship between the ruler and their coalition dictates much of the structure of the organization. I think that's broadly true about many different kinds of organization, including software companies.
 
 [^0]: Maybe there are people out there who are applying Greene's Machiavellian power tactics to their daily lives. If so, I hope I don't meet them.
 
