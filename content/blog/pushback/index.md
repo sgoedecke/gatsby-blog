@@ -8,6 +8,8 @@ tags: ["tech companies", "leaddev"]
 
 This post was initially published on [LeadDev](https://leaddev.com/communication/how-give-pushback-leadership). If it reads differently to my other posts, that's because LeadDev have a different "house style" to this blog.
 
+### Giving pushback to leadership
+
 Saying no to leadership is sometimes necessary when you’re at the helm of a project. Whether they’re proposing a timeline that can’t be achieved, or asking for something that’s technologically impossible, adopting the word “no” into your regular vocabulary is your responsibility as an engineer. 
 
 But, pushing back against leadership has high stakes. Doing it well can actually build your leadership team’s trust in you, even though you’re telling them something they don’t want to hear. Doing it very badly can have serious repercussions for the success of the project or your own career. 
@@ -24,7 +26,7 @@ If you’ve decided you need to push back, you must first find out who you’re 
 
 You should also find out why leadership wants that problematic requirement. If your leadership team wants to unblock a particular sale to a large enterprise customer, and you push back on a detail because it will introduce an unacceptable security risk, your pushback is likely to succeed. If you push back because it’ll make some part of the product less polished, your pushback is likely to fail. Why? Because polish is almost never a high priority for large enterprise sales, but security always is.
 
-Give pushback gently and in writing
+### Give pushback gently and in writing
 
 The earlier you push back, the gentler it’s possible to be. If you’re driving a car and brake at the last minute, you have to brake hard. If you start braking early, you can cruise to a stop. Likewise, if you push back about requirement X the day before launch, it’ll be a big incident: everyone will be stressed and busy, and you’ll have to pull people into emergency meetings if you want to actually get everyone on the same page. Bake in the appropriate amount of time to allow an issue to naturally make its way up to leadership’s radar. 
 
