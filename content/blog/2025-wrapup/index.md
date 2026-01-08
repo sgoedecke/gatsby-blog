@@ -9,7 +9,7 @@ tags: ["yearly wrapup", "meta"]
 In 2025, I published 141 posts, 33 of which made it to the front page of [Hacker News](https://news.ycombinator.com/) or similar aggregators. I definitely wrote more in the first half of the year (an average of around 15 posts per month, down to around 8 in the second half), but overall I'm happy with my consistency. Here are some posts I'm really proud of:
 
 - [_Mistakes engineers make in large established codebases_](/large-established-codebases)
-- [_The good times in tech are over_](//good-times-are-over)
+- [_The good times in tech are over_](/good-times-are-over)
 - [_Everything I know about good system design_](/good-system-design)
 - [_Pure and impure software engineering_](/pure-and-impure-engineering)
 - [_Seeing like a software company_](/seeing-like-a-software-company)
