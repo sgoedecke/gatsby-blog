@@ -1,3 +1,12 @@
+https://www.youtube.com/watch?v=lpuy9RxJmfU
+know how to drive the car
+
+https://www.youtube.com/watch?v=s1eqzfXCgXI
+AI makes fake legibility cheap (reports, etc - but fake)
+"potemkin" reports/dashboards are trivial to generate
+legibility "slop"
+
+
 I am from the finance/politics world, so the on-the-ground perspective of how AI is influencing enterprises is something I think about a lot. 
 
 Working on products people hate

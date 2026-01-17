@@ -3,7 +3,7 @@ title: Is it cynical to do what your manager wants?
 description: Cynicism and optimism in software companies
 order: 25
 date: '2025-01-08'
-tags: ["tech companies"]
+tags: ["tech companies", "cynicism"]
 ---
 
 When I [suggest](/how-to-ship) doing what your management chain wants, people call me cynical. Is it cynical to deliberately work on things your company incentivizes and neglect things your company doesn't reward? It might seem so on the face of it. However, I think this attitude is actually _optimistic_, not cynical. The real cynic is the person who says that you should ignore management incentives and just do the right thing for the customer.

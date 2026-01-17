@@ -4,7 +4,7 @@ description: --
 order: 163
 date: '2025-12-28'
 popular: true
-tags: ["tech companies"]
+tags: ["tech companies", "cynicism"]
 ---
 
 A lot of my readers [call](https://lobste.rs/c/ch8tn0) [me](https://news.ycombinator.com/item?id=46085088) [a cynic](https://news.ycombinator.com/item?id=46082989) when I say things like "you should do things that [make your manager happy](/how-to-ship)" or "big tech companies [get to decide](/bad-code-at-big-companies) what projects you work on". Alex Wennerberg put the "Sean Goedecke is a cynic" case well in his post [_Software Engineers Are Not Politicians_](https://alexwennerberg.com/blog/2025-11-28-engineering.html). Here are some excerpts:
