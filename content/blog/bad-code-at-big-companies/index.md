@@ -1,6 +1,6 @@
 ---
 title: How good engineers write bad code at big companies
-description: --
+description:
 order: 159
 date: '2025-11-29'
 popular: true

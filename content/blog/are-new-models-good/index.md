@@ -1,6 +1,6 @@
 ---
 title: Why it takes months to tell if new AI models are good
-description: --
+description:
 order: 157
 date: '2025-11-22'
 tags: ["ai", "openai"]

@@ -18,13 +18,14 @@ const SEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
+            siteUrl
           }
         }
       }
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const ogImage = `${site.siteMetadata.siteUrl}og-image.jpeg`
 
   return (
     <Helmet
@@ -34,20 +35,16 @@ const SEO = ({ description, lang, meta, title }) => {
       title={title}
       meta={[
         {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
           property: `og:title`,
           content: title,
         },
         {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: ogImage,
         },
       ].concat(meta)}
     />

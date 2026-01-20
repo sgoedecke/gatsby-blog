@@ -1,6 +1,6 @@
 ---
 title: Great software design looks underwhelming
-description: --
+description:
 order: 52
 date: '2025-03-07'
 tags: ["software design"]

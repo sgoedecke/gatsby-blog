@@ -1,6 +1,6 @@
 ---
 title: AI detection tools cannot prove that text is AI-generated
-description: --
+description:
 order: 160
 date: '2025-12-05'
 tags: ["ai"]

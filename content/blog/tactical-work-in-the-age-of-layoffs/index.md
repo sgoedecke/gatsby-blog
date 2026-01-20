@@ -1,6 +1,6 @@
 ---
 title: How to work in tech when your job isn't safe
-description: --
+description:
 order: 59
 date: '2025-03-28'
 tags: ["tech companies", "zirp", "career"]

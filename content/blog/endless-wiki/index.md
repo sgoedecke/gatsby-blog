@@ -1,6 +1,6 @@
 ---
 title: Endless AI-generated Wikipedia
-description: --
+description:
 order: 142
 date: '2025-09-25'
 popular: true

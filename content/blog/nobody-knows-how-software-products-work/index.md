@@ -1,6 +1,6 @@
 ---
 title: Nobody knows how large software products work
-description: --
+description:
 order: 161
 date: '2025-12-24'
 tags: ["good engineers", "tech companies"]

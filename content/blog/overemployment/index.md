@@ -1,6 +1,6 @@
 ---
 title: What happens when engineers work more than one job
-description: --
+description:
 order: 105
 date: '2025-07-03'
 tags: ["interviewing", "tech companies", "career"]

@@ -1,6 +1,6 @@
 ---
 title: Engineers should state the obvious
-description: --
+description:
 order: 57
 date: '2025-03-20'
 tags: ["good engineers"]

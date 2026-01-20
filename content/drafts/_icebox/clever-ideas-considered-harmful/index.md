@@ -1,6 +1,6 @@
 ---
 title: Clever ideas considered harmful
-description: --
+description:
 order: 27
 date: '2025-01-10'
 ---

@@ -1,6 +1,6 @@
 ---
 title: GPT-5-Codex is a better AI researcher than me
-description: --
+description:
 order: 146
 date: '2025-10-07'
 popular: true

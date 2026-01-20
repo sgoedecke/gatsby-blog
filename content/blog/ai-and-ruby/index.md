@@ -1,6 +1,6 @@
 ---
 title: The future of AI is Ruby on Rails
-description: --
+description:
 order: 58
 date: '2025-03-20'
 tags: ["ai"]

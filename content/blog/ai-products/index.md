@@ -1,6 +1,6 @@
 ---
 title: Only three kinds of AI products actually work
-description: --
+description:
 order: 156
 date: '2025-11-16'
 popular: true

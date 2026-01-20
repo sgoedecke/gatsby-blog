@@ -1,6 +1,6 @@
 ---
 title: The Dictator's Handbook and the politics of technical competence
-description: --
+description:
 order: 166
 date: '2026-01-05'
 tags: ["book reports"]

@@ -1,6 +1,6 @@
 ---
 title: Prediction markets should encourage insider trading
-description: --
+description:
 order: 163
 date: '2025-12-28'
 tags: ["prediction markets"]

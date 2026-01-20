@@ -1,6 +1,6 @@
 ---
 title: AI coding agents rely too much on fallbacks
-description: --
+description:
 order: 143
 date: '2025-09-27'
 tags: ["ai", "agents"]

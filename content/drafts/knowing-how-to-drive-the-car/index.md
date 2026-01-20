@@ -1,6 +1,6 @@
 ---
 title: You have to know how to drive the car
-description: --
+description:
 order: 166
 date: '2026-01-10'
 tags: ["tech companies", "good engineers", "cynicism"]

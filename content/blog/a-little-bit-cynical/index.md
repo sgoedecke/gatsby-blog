@@ -1,6 +1,6 @@
 ---
 title: Software engineers should be a little bit cynical
-description: --
+description:
 order: 163
 date: '2025-12-28'
 popular: true

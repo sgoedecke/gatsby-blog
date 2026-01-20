@@ -1,6 +1,6 @@
 ---
 title: Refactoring to understand and "vibe coding"
-description: --
+description:
 order: 55
 date: '2025-03-15'
 tags: ["ai"]

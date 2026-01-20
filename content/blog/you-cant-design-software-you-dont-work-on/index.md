@@ -1,6 +1,6 @@
 ---
 title: You can't design software you don't work on
-description: --
+description:
 order: 162
 date: '2025-12-27'
 popular: true

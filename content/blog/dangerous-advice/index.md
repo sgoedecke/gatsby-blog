@@ -1,6 +1,6 @@
 ---
 title: Dangerous advice for software engineers
-description: --
+description:
 order: 62
 date: '2025-04-05'
 popular: true

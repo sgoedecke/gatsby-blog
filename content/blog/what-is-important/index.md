@@ -1,6 +1,6 @@
 ---
 title: How I decide what to work on at large tech companies
-description: --
+description:
 order: 51
 date: '2025-03-01'
 tags: ["good engineers", "tech companies", "shipping"]

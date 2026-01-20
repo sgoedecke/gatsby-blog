@@ -1,6 +1,6 @@
 ---
 title: If AIs keep getting smarter, will we be able to tell?
-description: --
+description:
 order: 27
 date: '2025-01-10'
 ---

@@ -1,6 +1,6 @@
 ---
 title: How strong engineers break the rules and get away with it
-description: --
+description:
 order: 61
 date: '2025-04-05'
 tags: ["good engineers", "shipping"]

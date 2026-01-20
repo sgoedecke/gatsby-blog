@@ -1,6 +1,6 @@
 ---
 title: What's next after the AI bubble bursts?
-description: --
+description:
 order: 54
 date: '2025-03-08'
 tags: ["ai"]

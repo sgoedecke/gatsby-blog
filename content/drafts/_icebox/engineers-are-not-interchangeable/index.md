@@ -1,6 +1,6 @@
 ---
 title: Software engineers are still not interchangeable
-description: --
+description:
 order: 27
 date: '2025-01-10'
 ---

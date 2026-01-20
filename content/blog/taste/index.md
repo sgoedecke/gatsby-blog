@@ -1,6 +1,6 @@
 ---
 title: What is "good taste" in software engineering?
-description: --
+description:
 order: 144
 date: '2025-09-28'
 popular: true

@@ -1,6 +1,6 @@
 ---
 title: What I learned building an AI-driven spaced repetition app
-description: --
+description:
 order: 141
 date: '2025-09-23'
 tags: ["ai", "projects"]

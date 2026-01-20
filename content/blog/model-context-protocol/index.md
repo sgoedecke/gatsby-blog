@@ -1,6 +1,6 @@
 ---
 title: Model Context Protocol explained as simply as possible
-description: --
+description:
 order: 53
 date: '2025-03-08'
 tags: ["ai", "explainers", "mcp"]

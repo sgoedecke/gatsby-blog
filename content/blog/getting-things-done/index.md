@@ -1,6 +1,6 @@
 ---
 title: Getting things "done" in large tech companies
-description: --
+description:
 order: 76
 popular: true
 date: '2025-05-06'

@@ -1,6 +1,6 @@
 ---
 title: How I influence tech company politics as a staff software engineer
-description: --
+description:
 order: 145
 date: '2025-10-04'
 tags: ["good engineers", "tech companies"]

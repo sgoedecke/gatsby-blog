@@ -1,6 +1,6 @@
 ---
 title: 2025 was an excellent year for this blog
-description: --
+description:
 order: 165
 date: '2026-01-03'
 tags: ["yearly wrapup", "meta"]

@@ -1,6 +1,6 @@
 ---
 title: Getting the main thing right
-description: --
+description:
 order: 144
 date: '2025-10-03'
 tags: ["good engineers", "tech companies"]
