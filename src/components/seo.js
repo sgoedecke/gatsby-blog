@@ -25,7 +25,7 @@ const SEO = ({ description, lang, meta, title }) => {
     `
   )
 
-  const ogImage = `${site.siteMetadata.siteUrl}/og-image.jpeg`
+  const ogImage = `${site.siteMetadata.siteUrl}/og-image.jpg`
 
   return (
     <Helmet
@@ -44,14 +44,6 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: ogImage,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:image`,
           content: ogImage,
         },
       ].concat(meta)}
