@@ -25,7 +25,7 @@ const SEO = ({ description, lang, meta, title }) => {
     `
   )
 
-  const ogImage = `${site.siteMetadata.siteUrl}/og-image.jpg`
+  const ogImage = `https://www.seangoedecke.com/og-image.jpg`
 
   return (
     <Helmet
