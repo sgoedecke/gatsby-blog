@@ -3,7 +3,7 @@ title: How I use LLMs to learn new subjects
 description: 
 order: 109
 date: '2025-07-08'
-tags: ["ai"]
+tags: ["ai", "how to"]
 ---
 
 If you want to learn about a new subject in 2025, one of the best ways to do it is to ask a strong language model.

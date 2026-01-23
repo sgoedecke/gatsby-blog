@@ -3,7 +3,7 @@ title: How I influence tech company politics as a staff software engineer
 description:
 order: 145
 date: '2025-10-04'
-tags: ["good engineers", "tech companies"]
+tags: ["good engineers", "tech companies", "how to"]
 ---
 
 Many software engineers are fatalistic about company politics. They believe that it's pointless to get involved, because[^1]:

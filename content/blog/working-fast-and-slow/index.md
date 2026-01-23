@@ -1,6 +1,6 @@
 ---
-title: Working fast and slow
-description: How I deal with being way more productive on some days than others
+title: How I deal with being way more productive on some days than others
+description:
 order: 34
 date: '2025-01-25'
 tags: ["career"]

@@ -3,7 +3,7 @@ title: How I got promoted to staff engineer twice
 description: What does it take to get promoted from senior to staff at a tech company?
 order: 21
 date: '2024-12-28'
-tags: ["tech companies", "good engineers", "staff"]
+tags: ["tech companies", "good engineers", "staff", "how to"]
 ---
 
 At the beginning of 2021, Zendesk promoted me to staff software engineer. At the end of 2021 I switched jobs from Zendesk to GitHub. In early 2023, GitHub promoted me to staff software engineer. Successfully going through the staff promotion process twice in two years was a pretty interesting experience, and I think it puts me in a good spot to talk about making the jump from senior to staff[^1].
