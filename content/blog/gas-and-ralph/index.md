@@ -30,6 +30,9 @@ If you couldn't tell, I think this whole thing is largely predatory. Bags seems 
 
 The celebrities will make a little bit of money, for their part in it, but the lion's share of the reward will go to the actual grifters: the insiders who primed the coin and can sell off into the flood of community members who are convinced to buy.
 
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=46654878). Commenters are a bit divided on whether the open-source developers are victims or perpetrators of the scam (I personally think it's case-by-case). A good [correction](https://news.ycombinator.com/item?id=46655339) from one commenter that Solana is a chain network, not a cryptocurrency (SOL is the cryptocurrency on Solana).
+
 [^1]: Bags even [offers](https://bags.fm/how-it-works) a "Did You Get Bagged? 💰🫵" section in their docs, encouraging the celebrity targets to share the coin, and framing the whole thing as coming from "your community".
 
 [^2]: This isn't a dig - that amount of money would dazzle me too! I only mean that you wouldn't be able to get Tom Cruise or MrBeast to promote your coin with that amount of money.

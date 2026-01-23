@@ -3,6 +3,7 @@ title: I'm addicted to being useful
 description:
 order: 168
 date: '2026-01-20'
+popular: true
 tags: ["good engineers", "tech companies"]
 ---
 
@@ -21,7 +22,10 @@ A lot of the advice I give about working a software engineering job is really ab
 There's a lot of discussion on the internet about what _ought_ to motivate software engineers: money and power, producing real [value](https://alexwennerberg.com/blog/2025-11-28-engineering.html), ushering in the AI machine god, and so on. But what _actually does_ motivate software engineers is often more of an internal compulsion. If you're in that category - as I suspect most of us are - then it's worth figuring out how you can harness that compulsion most effectively.
 
 
-[^1]: I think in Russian this is supposed to be an obviously silly name, like "Poop Poopson".
+edit: this post was quite popular on [Hacker News](https://news.ycombinator.com/item?id=46690402). I agree with the many commenters who pointed out that you need to avoid letting this tendency bleed into your personal life, if at all possible. I take the [point](https://news.ycombinator.com/item?id=46697424) that big corporations are not the best place to fulfil your emotional needs, but I think I disagree: of course you shouldn't get _all_ your emotional satisfaction from work, but if you're not getting _any_ I think that's a bit unfortunate (particularly as a software engineer). Some commenters [worried](https://news.ycombinator.com/item?id=46691281) that this attitude leads to fast burnout - if anything, I think it's the reverse. The times I've felt most burnt out are times where work wasn't satisfying any of my strange internal mental wiring.
+
+
+[^1]: I think in Russian this is supposed to be an obviously silly name, like "Poop Poopson" (edit: HN commenters were [split](https://news.ycombinator.com/item?id=46691697) on this interpretation).
 
 [^2]: Unfortunately, his low status and low pay catches up with Akaky in the end. His financial difficulty acquiring a new coat for the cold Russian winter (and his lack of backbone) end up doing him in, at which point the story becomes a ghost story.
 
