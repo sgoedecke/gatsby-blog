@@ -91,6 +91,7 @@ When I estimate, I extract the range my manager is looking for, and only then do
 **It is not possible to accurately estimate software work.** Software projects spend most of their time grappling with unknown problems, which by definition can't be estimated in advance. To estimate well, you must therefore basically ignore all the known aspects of the work, and instead try and make educated guesses about how many unknowns there are, and how scary each unknown is.
 
 
+edit: I should thank one of my readers, Karthik, who emailed me to ask about estimates, thus revealing to me that I had many more opinions than I thought.
 
 [^1]: For anyone wincing at that time, I mean like three minutes of actual deployment and twenty-seven minutes of waiting for checks to pass or monitors to turn up green.
 
