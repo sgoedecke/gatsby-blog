@@ -93,6 +93,12 @@ When I estimate, I extract the range my manager is looking for, and only then do
 
 edit: I should thank one of my readers, Karthik, who emailed me to ask about estimates, thus revealing to me that I had many more opinions than I thought.
 
+edit: This post got a bunch of comments on [Hacker News](https://news.ycombinator.com/item?id=46742389). Some non-engineers made the [point](https://news.ycombinator.com/item?id=46744538) that well-paid professionals should be expected to estimate their work, even if the estimate is completely fictional. Sure, I agree, as long as we're on the same page that it's fictional!
+
+A couple of [engineers](https://news.ycombinator.com/item?id=46744696) [argued](https://news.ycombinator.com/item?id=46744876) that estimation was a solved problem. I'm not convinced by their examples. I agree you can probably estimate "build a user flow in Svelte", but it's much harder to estimate "build a user flow in Svelte _on top of an existing large codebase_". I should have been more clear in the post that I think that's the hard part, for the normal reasons that it's very hard to work in large codebases, which I [write](/large-established-codebases) [about](/wicked-features) [endlessly](/clarity) on this blog.
+
+Another commenter [politely suggested](https://news.ycombinator.com/item?id=46745726) I read [_Software Estimation: Demystifying the Black Art_](https://www.amazon.com.au/Software-Estimation-Demystifying-Black-Art/dp/ 0735605351), which I've never heard of. I'll put it on my list.
+
 [^1]: For anyone wincing at that time, I mean like three minutes of actual deployment and twenty-seven minutes of waiting for checks to pass or monitors to turn up green.
 
 [^2]: I write a lot more about this in [_You can't design software you don't work on_](/you-cant-design-software-you-dont-work-on).
