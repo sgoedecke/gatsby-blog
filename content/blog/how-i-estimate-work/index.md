@@ -97,6 +97,8 @@ edit: This post got a bunch of comments on [Hacker News](https://news.ycombinato
 
 A couple of [engineers](https://news.ycombinator.com/item?id=46744696) [argued](https://news.ycombinator.com/item?id=46744876) that estimation was a solved problem. I'm not convinced by their examples. I agree you can probably estimate "build a user flow in Svelte", but it's much harder to estimate "build a user flow in Svelte _on top of an existing large codebase_". I should have been more clear in the post that I think that's the hard part, for the normal reasons that it's very hard to work in large codebases, which I [write](/large-established-codebases) [about](/wicked-features) [endlessly](/clarity) on this blog.
 
+edit: There are also some comments on [Lobste.rs](https://lobste.rs/s/dspppf/how_i_estimate_work_as_staff_software), including a good [note](https://lobste.rs/c/i0sxht) that the capability of the team obviously has a huge impact on any estimates. In my experience, this is not commonly understood: companies expect estimates to be fungible between engineers or teams, when in fact some engineers and teams can deliver work ten times more quickly (and others cannot deliver work _at all_, no matter how much time they have).
+
 Another commenter [politely suggested](https://news.ycombinator.com/item?id=46745726) I read [_Software Estimation: Demystifying the Black Art_](https://www.amazon.com.au/Software-Estimation-Demystifying-Black-Art/dp/ 0735605351), which I've never heard of. I'll put it on my list.
 
 [^1]: For anyone wincing at that time, I mean like three minutes of actual deployment and twenty-seven minutes of waiting for checks to pass or monitors to turn up green.
