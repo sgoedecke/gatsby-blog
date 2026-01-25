@@ -3,7 +3,7 @@ title: How I provide technical clarity to non-technical leaders
 description:
 order: 147
 date: '2025-10-12'
-tags: ["tech companies", "how to"]
+tags: ["tech companies", "how to", "large codebases"]
 ---
 
 My mission as a staff engineer is to provide technical clarity to the organization.

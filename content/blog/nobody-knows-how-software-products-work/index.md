@@ -3,7 +3,7 @@ title: Nobody knows how large software products work
 description:
 order: 161
 date: '2025-12-24'
-tags: ["good engineers", "tech companies"]
+tags: ["good engineers", "tech companies", "large codebases"]
 ---
 
 Large, rapidly-moving tech companies are constantly operating in the "fog of war" about their own systems. Simple questions like "can users of type Y access feature X?", "what happens when you perform action Z in this situation?", or even "how many different plans do we offer" often can only be answered by a handful of people in the organization. Sometimes there are _zero_ people at the organization who can answer them, and somebody has to be tasked with digging in like a researcher to figure it out.
