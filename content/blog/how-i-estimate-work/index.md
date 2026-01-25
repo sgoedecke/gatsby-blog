@@ -2,6 +2,7 @@
 title: How I estimate work as a staff software engineer
 description:
 order: 169
+popular: true
 date: '2026-01-24'
 tags: ["tech companies", "how to"]
 ---
