@@ -47,6 +47,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
 
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <hr
+          style={{
+            marginTop: rhythm(1.5),
+            marginBottom: rhythm(1.5),
+          }}
+        />
         <p>
           If you liked this post, consider{" "}
           <a href="https://buttondown.com/seangoedecke" target="_blank">
