@@ -3,6 +3,7 @@ title: You have to know how to drive the car
 description:
 order: 170
 date: '2026-01-26'
+popular: true
 tags: ["tech companies", "good engineers", "cynicism"]
 ---
 
@@ -21,3 +22,6 @@ Finally, suppose you're a software engineer who wants to deliver value to users 
 **Not knowing how to drive the car can get you in trouble.** I have worked with ambitious software engineers who pour their energy into the wrong thing and get frustrated when their promotion doesn't come. I've worked with unambitious software engineers who get sidelined and drummed out of the company (though at least they tend to have a "fair enough" attitude about it). I've worked with _many_ engineers who had their own goals they wanted to achieve, but who were completely incapable of doing so (or who burnt all their bridges doing so).
 
 The only way to truly opt out of big-company organizational politics is to avoid working at big companies altogether. That's a valid choice! But it also means you're passing up the kind of leverage that you can only get at large tech companies: the opportunity to make changes that affect millions or billions of people. If you're going after that leverage - whatever you want to do with it - you really ought to try and understand how big companies work.
+
+
+edit: this post got some [comments](https://news.ycombinator.com/item?id=46772966) on Hacker News. Some [commenters](https://news.ycombinator.com/item?id=46775353) have good political advice, like "communicate with your manager 10x more than you think you should be communicating". [Other](https://news.ycombinator.com/item?id=46775137) [commenters](https://news.ycombinator.com/item?id=46774422) are exhausted by having to care about the political stuff at all (fair enough!)
