@@ -102,6 +102,9 @@ edit: There are also some comments on [Lobste.rs](https://lobste.rs/s/dspppf/how
 
 Another commenter [politely suggested](https://news.ycombinator.com/item?id=46745726) I read [_Software Estimation: Demystifying the Black Art_](https://www.amazon.com.au/Software-Estimation-Demystifying-Black-Art/dp/ 0735605351), which I've never heard of. I'll put it on my list.
 
+There are also some [comments](https://www.reddit.com/r/programming/comments/1qoj5mb/how_i_estimate_work_as_a_staff_software_engineer/) on Reddit's r/programming subreddit: mostly people just generically discussing estimation, but there are [interesting anecdotes](https://www.reddit.com/r/programming/comments/1qoj5mb/comment/o22t1vm/) and [good criticism](https://www.reddit.com/r/programming/comments/1qoj5mb/comment/o2271vx/) of the post.
+
+
 [^1]: For anyone wincing at that time, I mean like three minutes of actual deployment and twenty-seven minutes of waiting for checks to pass or monitors to turn up green.
 
 [^2]: I write a lot more about this in [_You can't design software you don't work on_](/you-cant-design-software-you-dont-work-on).
