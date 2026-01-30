@@ -1,5 +1,5 @@
 ---
-title: How to find meaning in a dysfunctional tech company
+title: How to find meaning in a dysfunctional company
 description:
 order: 162
 date: '2025-12-27'
@@ -9,7 +9,13 @@ tags: ["software design", "tech companies"]
 
 Why does working in a dysfunctional organization make people sad?
 
-The obvious answer is "because it stops them from doing the things they want to do". I think it's more complicated than that, though. If that were the case, people would be interested in finding out all the ways in which their company is dysfunctional, but many people seem to actively avoid that.
+The obvious answer is "because it stops them from doing the things they want to do". Engineers like to write code and ship things, and if their company's dysfunction is preventing that, it'll make them unhappy.
+
+It's more complicated than that, though. If that were the case, people would be interested in finding out all the ways in which their company is dysfunctional, so they can work around it. However many people seem to actively avoid that. They find even _contemplating_ the dysfunction to be as unpleasant as actually dealing with it.
+
+I think it's similar to why most people don't like working in a messy room. People - particularly engineers - have a compulsion towards neatness. And like I wrote about [here](/addicted-to-being-useful), it's often our internal compulsions that drive our professional selves. 
+
+Working in a dysfunctional org can feel like the whole world is dysfunctional: 
 
 Before I became a software engineer, I did a master's degree in philosophy[^1]. When you say you're studying philosophy, many people will ask if philosophy can solve their existential angst: they feel that the universe is very big, and that humans make up only a tiny pin-prick of it, and that they feel like nothing matters. Philosophers must have written about that, right? What's the solution?
 
