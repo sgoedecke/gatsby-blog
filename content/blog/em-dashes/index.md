@@ -68,6 +68,8 @@ This just isn't plausible to me at all. If it were common for humans to use hyph
 
 For this reason, I'm a bit puzzled by the commenters who refer to [Unicode](https://news.ycombinator.com/item?id=45790985), or [Russian-language training](https://news.ycombinator.com/item?id=45795391), or [Wikipedia typographic conventions](https://news.ycombinator.com/item?id=45788891), or [mis-OCR-ed hyphens](https://news.ycombinator.com/item?id=45789129) as possible explanations. None of these could possibly explain why the models are _doing em-dash things_! Misreading a hyphen (e.g. in "double-crossed") as an em-dash during training will not make the model more likely to use em-dashes as parentheses, it will make the model more likely to use em-dashes as hyphens. And so on.
 
+edit: I went on [99% Invisible](https://www.youtube.com/watch?v=nXfiQrTmDCI) to chat about this topic. You can skip to 25 minutes in to hear my segment (though the whole thing is worth listening to).
+
 
 [^0]: The linked blog post tries to experimentally show that em-dashes save tokens by asking models to paraphrase em-dash sentences and noting that those paraphrased sentences are longer. To be convinced by this, I would like to see if paraphrased non-em-dash sentences are typically the same length or shorter. I suspect that paraphrasing adds tokens no matter what.
 

@@ -1,4 +1,9 @@
 
+suppose ai really did make it hard to learn new things/cook your brain. it would not follow that SWEs must avoid it
+in many other jobs, "doing th ejob makes you worse at th ejob" is common - manual labor injuries/accumulation of damage
+it is very pleasant that doing the job lets you learn quickly right now, but that's really just luck - it doesn't _need_ to be true
+we're paid to deliver results, not to learn more or become more well-developed
+
 
 https://www.youtube.com/watch?v=lpuy9RxJmfU
 know how to drive the car
