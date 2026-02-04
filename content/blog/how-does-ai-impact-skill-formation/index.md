@@ -67,6 +67,9 @@ Overall, I don't think this paper provides much new ammunition to the AI skeptic
 That said, I'd like to see more investigation into long-term patterns of AI use in tech companies. Is the slower learning rate per-task balanced out by the higher rate of task completion? Can it be replaced by carving out explicit time to study the codebase? It's probably too early to answer these questions - strong coding agents have only been around for a handful of months - but the answers may determine what it's like to be a software engineer for the next decade.
 
 
+edit: the popular tech youtuber Theo [cited](https://www.youtube.com/watch?v=ZINQTR6H5dI) this post as a source for his video on this paper. I liked Theo's video. I don't agree with his point about adjusting to a new setup - in my view that would also apply to the non-AI-using group - and I thought the crack about the kind of people who make syntax errors in Python was a bit uncalled-for. However, I agree that (a) the people in the study are not incentivized to spend time teaching themselves about Trio, and (b) this study does not do anywhere near as good a job at targeting real-world use as the well-known [METR study](/impact-of-ai-study).
+
+
 [^1]: See Figure 17.
 
 [^2]: I suppose the study doesn't say that explicitly, but the Anthropic Fellows program was only launched in December 2024, and the paper was published in January 2026.
