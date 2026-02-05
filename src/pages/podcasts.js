@@ -87,7 +87,18 @@ const PodcastsPage = ({ data, location }) => {
           </a>{" "}
           - talking about how I use LLMs to help with my work.
         </li>
+          <li>
+          <a
+            href="https://open.spotify.com/episode/3MrvW07qQhtElS5Htboys9?si=BR0gtJgmSjS9xjZsA00OOA"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Grammar Girl Podcast
+          </a>{" "}
+          - talking about how LLMs and humans use the em-dash.
+        </li>
       </ul>
+
 
       <p>
         Will I appear on your podcast? Maybe, depending on how busy I am. If you'd like me to, email me at {" "}
