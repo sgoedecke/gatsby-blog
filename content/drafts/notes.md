@@ -1,3 +1,26 @@
+glue work as martyrdom
+how to effectively do glue work
+recognizing when you do and don't have the space for it
+getting credit for glue
+when NOT to do glue work (when you're throwing your body to patch up things that are epxected to fail)
+
+You probably shouldn't be doing [glue work](https://www.noidea.dog/glue) in large tech companies. I gave some reasons for this in [_Glue work considered harmful_](/glue-work-considered-harmful), but I didn't present an overall theory. Here's one now: **glue work is heroic, and you shouldn't try to be a hero**.
+
+But first, a note on what glue work is and what it isn't. As I'm using the term, glue work is not just work that your company doesn't ask for. It's work that your company doesn't _reward_[^1]. If I make a [side bet](/side-bets) that my team really wants a new suite of unit tests, and I expect my boss to love it, that isn't glue work. That's just work. However, if I write those unit tests knowing that I _won't_ be rewarded for it - in fact, suspecting that I'll be punished for it - that's glue work.
+
+### Should companies just reward glue work?
+
+Should companies reward glue work? I actually don't think so. In my view, rewarding glue work is a bit like rewarding lines of code written. It might correlate with good behavior, but what you really want to reward is _results_.
+
+Some glue work is genuinely useful (for instance, making sure different teams are talking to each other when they need to collaborate on a key project). But some glue work is more "neatness for neatness' sake". Imagine an engineer who really wants to go through past Jira tickets and re-label them in the current scheme, because it makes the historical statistics more consistent. Or imagine an engineer who spends their time chasing people up for individual estimates on tickets, in a team where fine-grained estimation is (perhaps [justifiably](/how-i-estimate-work)) neglected. All kinds of glue work are not created equal.
+
+[^1]: I acknowledge that this is not quite Tanya Reilly's definition of glue work, though Reilly acknowledges that glue work is often unrewarded. In my view, the term has evolved over time to refer to the subset of the original definition that is unrewarded. Or at any rate, that's what I'm interested in writing about in this post, because it's more interesting (if your company rewards glue work, just do it - problem solved!)
+
+
+
+Tech companies fund the work they want. If your company really wants to sell software to large enterprises, it will reward engineers who build enterprise features. If your company really wants to avoid embarrassing reliability incidents, it will reward engineers who fix incidents quickly and engineers who do high-profile preventative work.
+
+---
 
 suppose ai really did make it hard to learn new things/cook your brain. it would not follow that SWEs must avoid it
 in many other jobs, "doing th ejob makes you worse at th ejob" is common - manual labor injuries/accumulation of damage
