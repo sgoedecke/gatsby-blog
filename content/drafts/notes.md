@@ -1,3 +1,8 @@
+https://www.crassh.cam.ac.uk/wp-content/uploads/2025/01/Freeman-1970.pdf
+
+On screwing up
+
+---
 glue work as martyrdom
 how to effectively do glue work
 recognizing when you do and don't have the space for it
