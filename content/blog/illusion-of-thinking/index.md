@@ -97,6 +97,6 @@ Edit: this post saw some interesting discussion [here](https://old.reddit.com/r/
 
 [^2]: Again, puzzles are a _bad_ example.
 
-[^3]: I would be surprised if you couldn't fine-tune or prompt a reasoning model for persistence on simple algorithms that oculd do this. Incidentally, reasoning models can _definitely_ generate Python code that would complete the thousand-move sequence!
+[^3]: I would be surprised if you couldn't fine-tune or prompt a reasoning model for persistence on simple algorithms that could do this. Incidentally, reasoning models can _definitely_ generate Python code that would complete the thousand-move sequence!
 
 [^4]: I would like to sit down all the people who are smugly tweeting about this with a pen and paper and get them to produce every solution step for ten-disk Tower of Hanoi.
