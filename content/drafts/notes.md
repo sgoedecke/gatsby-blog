@@ -1,3 +1,13 @@
+tried generating a SAE
+runpod sshing worked out of the box with codex background processes
+but by default it tried to extract features from the final layernorm (which is not really a "feature", right? it's like extracting "features" from the logits). Lazy!
+layer -10 didn't work well either - outputs degraded before any impact happened, it was more like just giving the model brain damage
+Anthropic did exactly halfway through the model, so let's try that
+Got the architecture right, but ~10k activations is 2 OOMs too few (at least) to train a useful SAE. The learned features accounted for a tiny fraction of a percent of variance. Need to train until features are tens of percent, at minimum
+
+Token usage: total=11,046,675 input=10,616,967 (+ 126,888,704 cached) output=429,708 (reasoning 181,805)
+
+---
 https://www.crassh.cam.ac.uk/wp-content/uploads/2025/01/Freeman-1970.pdf
 
 On screwing up
