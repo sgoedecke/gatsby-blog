@@ -39,6 +39,8 @@ The larger the chip, the more internal memory it can have. The idea is to have a
 
 So how much internal memory does the latest Cerebras chip have? [44GB](https://arxiv.org/html/2503.11698v1#:~:text=Most%20recently%2C%20the%20Wafer%20Scale,of%2021%20petabytes%20per%20second.). This puts OpenAI in kind of an awkward position. 44GB is enough to fit a small model (~20B params at fp16, ~40B params at int8 quantization), but clearly not enough to fit GPT-5.3-Codex. That's why they're offering a brand new model, and why the Spark model has a bit of "small model smell" to it: it's a smaller [distil](https://en.wikipedia.org/wiki/Knowledge_distillation) of the much larger GPT-5.3-Codex model[^5].
 
+edit: I was wrong about this - the Codex model is almost certainly larger than this, and doesn't need to fit entirely in one chip's SRAM (if it did, we'd be seeing faster speeds). Thanks to the Hacker News commenters for correcting me. But I think there's still a good chance that Spark is SRAM-resident (split across a few Cerebras chips) which is what's driving the speedup.
+
 ### OpenAI's version is much more technically impressive
 
 It's interesting that the two major labs have two very different approaches to building fast AI inference. If I had to guess at a conspiracy theory, it would go something like this:
@@ -57,6 +59,15 @@ Seeing the two major labs put out this feature might make you think that fast AI
 I personally don't find "fast, less-capable inference" particularly useful. I've been playing around with it in Codex and I don't like it. The usefulness of AI agents is dominated by _how few mistakes they make_, not by their raw speed. Buying 6x the speed at the cost of 20% more mistakes is a bad bargain, because most of the user's time is spent handling mistakes instead of waiting for the model[^6].
 
 However, it's certainly possible that fast, less-capable inference becomes a core lower-level primitive in AI systems. Claude Code already uses [Haiku](https://github.com/anthropics/claude-code/issues/1098#issuecomment-2884244872) for some operations. Maybe OpenAI will end up using Spark in a similar way.
+
+
+edit: there are some good comments about this post on [Hacker News](https://news.ycombinator.com/item?id=47022329). First, a good [correction](https://news.ycombinator.com/item?id=47022810): Cerebras offers a ~355B model, GLM-4.7, at 1000 tokens per second already, so I'm wrong about Spark living in a single chip's SRAM. Presumably they're sharding Spark across multiple chips, like they're doing with GLM-4.7.
+
+Many commenters disagreed with me (and each other) about the performance characteristics of batching. Some [said](https://news.ycombinator.com/item?id=47025656) that continuous batching means nobody ever waits for a bus, or that the [volume](https://news.ycombinator.com/item?id=47025997) of requests for Anthropic models means batch wait time is negligible. Other users [disagreed](https://news.ycombinator.com/item?id=47023038) about whether chip-to-chip communication is a bottleneck at inference time, or whether chaining chips together affects throughput.
+
+I only have a layman's understanding of continuous batching, but it seems to me that you still have to wait for a slot to become available (even if you're not waiting for the entire previous batch to finish), so the batch size throughput/latency tradeoff still applies. Overall, I think the takeaway is that this stuff is really complicated and hard to form a good, simple mental model around. 
+
+
 
 
 [^1]: This isn't even factoring in latency. Anthropic explicitly warns that time to first token might still be slow (or even slower), while OpenAI thinks the Spark latency is fast enough to warrant switching to a persistent websocket (i.e. they think the 50-200ms round trip time for the handshake is a significant chunk of time to first token).
