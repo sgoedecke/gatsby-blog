@@ -48,6 +48,8 @@ This is why it's important for engineers to pay attention to their _actual_ rewa
   - The more you can learn to live with it, the more you'll be able to use your energy tactically for your own benefit
 
 
+edit: this post got a few good comments on [lobste.rs](https://lobste.rs/s/cqg4os/large_tech_companies_don_t_need_heroes). The top commenter sensibly points out that a bit of a hero complex can prompt engineers to take on ambitious projects that can have big career rewards. True! But this isn't quite the kind of heroics I'm writing about here, since it doesn't require sacrifice (just risk). Another commenter points out that heroes tend to never tell people about the work they do, which matches my experience.
+
 
 [^1]: I write about this point at length in [_Seeing like a software company_](/seeing-like-a-software-company).
 

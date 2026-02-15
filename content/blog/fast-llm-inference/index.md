@@ -21,6 +21,8 @@ A good analogy is a bus system. If you had zero batching for passengers - if, wh
 
 Anthropic's fast mode offering is basically a bus pass that guarantees that the bus immediately leaves as soon as you get on. It's six times the cost, because you're effectively paying for all the other people who could have got on the bus with you, but it's way faster[^3] because you spend _zero_ time waiting for the bus to leave.
 
+edit: I want to thank a reader for emailing me to point out that the "waiting for the bus" cost is really only paid for the first token, so that won't affect _streaming_ latency (just latency per turn or tool call). It's thus better to think of the performance impact of batch size being mainly that smaller batches require fewer flops and thus execute more quickly. In my analogy, maybe it's "lighter buses drive faster", or something.
+
 Obviously I can't be fully certain this is right. Maybe they have access to some new ultra-fast compute that they're running this on, or they're doing some algorithmic trick nobody else has thought of. But I'm pretty sure this is it. Brand new compute or algorithmic tricks would likely require changes to the model (see below for OpenAI's system), and "six times more expensive for 2.5x faster" is right in the ballpark for the kind of improvement you'd expect when switching to a low-batch-size regime.
 
 ### How OpenAI's fast mode works
