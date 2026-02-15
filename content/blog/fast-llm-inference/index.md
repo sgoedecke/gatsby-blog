@@ -2,6 +2,7 @@
 title: Two different tricks for fast LLM inference
 order: 175
 date: '2026-02-15'
+popular: true
 tags: ["ai"]
 ---
 
