@@ -66,8 +66,9 @@ edit: there are some good comments about this post on [Hacker News](https://news
 
 Many commenters disagreed with me (and each other) about the performance characteristics of batching. Some [said](https://news.ycombinator.com/item?id=47025656) that continuous batching means nobody ever waits for a bus, or that the [volume](https://news.ycombinator.com/item?id=47025997) of requests for Anthropic models means batch wait time is negligible. Other users [disagreed](https://news.ycombinator.com/item?id=47023038) about whether chip-to-chip communication is a bottleneck at inference time, or whether chaining chips together affects throughput.
 
-I only have a layman's understanding of continuous batching, but it seems to me that you still have to wait for a slot to become available (even if you're not waiting for the entire previous batch to finish), so the batch size throughput/latency tradeoff still applies. Overall, I think the takeaway is that this stuff is really complicated and hard to form a good, simple mental model around. 
+I only have a layman's understanding of continuous batching, but it seems to me that you still have to wait for a slot to become available (even if you're not waiting for the entire previous batch to finish), so the batch size throughput/latency tradeoff still applies.
 
+edit: A reader wrote in with a compelling alternate explanation for Anthropic's fast AI mode - that they're using more aggressive [speculative decoding](https://arxiv.org/abs/2402.12374), which spends more tokens but could plausibly deliver a 2.5x speedup at significantly higher costs (because many big-model rollouts are done in parallel and thrown away). I don't know if I'm 100% convinced - I'm confident big labs are already doing speculative decoding, and the longer sequences you try the less reliable it is - but I think it's certainly possible.
 
 
 
