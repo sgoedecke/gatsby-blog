@@ -1,3 +1,8 @@
+Business numbers every programmer should know
+latency numbers but for stuff like "planning happens for q1, etc"
+
+---
+
 tried generating a SAE
 runpod sshing worked out of the box with codex background processes
 but by default it tried to extract features from the final layernorm (which is not really a "feature", right? it's like extracting "features" from the logits). Lazy!

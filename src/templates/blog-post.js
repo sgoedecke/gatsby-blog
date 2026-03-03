@@ -65,8 +65,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             sharing it on Hacker News
           </a>
-          .{hasPreview && " Here's a preview of a related post that shares tags with this one."}
+          .
         </p>
+        {hasPreview && (
+          <p>Here's a preview of a related post that shares tags with this one.</p>
+        )}
         {hasPreview && (
           <blockquote
             style={{
