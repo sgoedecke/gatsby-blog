@@ -1,7 +1,7 @@
 ---
 title: Giving LLMs a personality is just good engineering
 description:
-order: 178
+order: 179
 date: '2026-03-03'
 tags: ["ai"]
 ---
