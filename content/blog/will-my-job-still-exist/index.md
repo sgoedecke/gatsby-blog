@@ -12,9 +12,9 @@ In 2026, I'm not sure the software engineering industry will survive another dec
 
 ### Tasting our own medicine
 
-It's unseemly to grieve too much over it, for two reasons. First, the whole point of being a good software engineer in the 2010s was that code provided enough leverage to automate away other jobs. That's why programming was (and still is) such a lucrative profession. The fact that we're automating away our own industry is probably some kind of cosmic justice. But I think any working software engineer today is worrying about these questions: what can I do, when the agents have fully diffused into the industry?
+It's unseemly to grieve too much over it, for two reasons. First, the whole point of being a good software engineer in the 2010s was that code provided enough leverage to automate away other jobs. That's why programming was (and still is) such a lucrative profession. The fact that we're automating away our own industry is probably some kind of cosmic justice. But I think any working software engineer today is worrying about this question: what will be left for me to do, once AI agents have fully diffused into the industry?
 
-The other reason it's unseemly is that I'm probably going to be one of the last to go. As a staff engineer, my work has looked kind of like supervising AI agents since before AI agents were a thing: I spend much of my job communicating in human language to other engineers, making sure they're on the right track, and so on. Junior and mid-level engineers will take the initial blow. Why hire a group of engineers to "be the hands" of a handful of very senior folks when you can rent instances of Claude Opus 4.6 for a fraction of the price?
+The other reason it's unseemly is that I'm probably going to be one of the last to go. As a staff engineer, my work has looked kind of like supervising AI agents since before AI agents were a thing: I spend much of my job communicating in human language to other engineers, making sure they're on the right track, and so on. Junior and mid-level engineers will suffer before I do. Why hire a group of engineers to "be the hands" of a handful of very senior folks when you can rent instances of Claude Opus 4.6 for a fraction of the price?
 
 ### Overshooting and undershooting
 
@@ -26,7 +26,7 @@ If tech companies tend to overshoot, it's going to get a lot weirder, but I migh
 
 ### Am I being too pessimistic?
 
-Of course, the software engineering industry has looked like it was dying in the past. High-level programming languages were supposed to let non-technical people write computer code. Outsourcing was supposed to kill demand for software engineers in high-cost-of-living countries. None of those prophecies of doom came true. However, I don't think that's much comfort. Industries _do_ die when they're made obsolete by technology. Just because we weathered previous crises doesn't mean we're going to weather this one.
+Of course, the software engineering industry has looked like it was dying in the past. High-level programming languages were supposed to let non-technical people write computer code. Outsourcing was supposed to kill demand for software engineers in high-cost-of-living countries. None of those prophecies of doom came true. However, I don't think that's much comfort. Industries _do_ die when they're made obsolete by technology. Eventually a crisis will come along that the industry can't just ride out.
 
 The most optimistic position is probably that somehow demand for software engineers _increases_, because the total amount of software rises so rapidly, even though you now need fewer engineers per line of software. This is widely referred to as the [Jevons effect](https://en.wikipedia.org/wiki/Jevons_paradox). Along these lines, I see some engineers saying things like "I'll always have a job cleaning up this AI-generated code".
 
