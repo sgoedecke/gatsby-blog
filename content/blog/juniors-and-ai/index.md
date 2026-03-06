@@ -50,5 +50,8 @@ I don't know how you can be a working software engineer at a normal tech company
 
 To put it mildly, a cool market for junior engineers is not good for the industry. Even aside from long-term planning, I personally really like working with juniors. It's just _nice_ to work with smart, motivated people who are new to the industry. I really hope I'm wrong about all this. 
 
+
+edit: I was linked Toptal's Q4 2025 [market report](https://www.toptal.com/research-and-analysis/market-report-q4-2025) almost a year after writing this post, which seems like it confirms my sense that junior engineers were suffering and senior engineers were doing quite well.
+
 [^1]: Actually, I have a post in the works where I offer a theory.
 
