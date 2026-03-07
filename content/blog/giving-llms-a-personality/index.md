@@ -3,6 +3,7 @@ title: Giving LLMs a personality is just good engineering
 description:
 order: 179
 date: '2026-03-03'
+popular: true
 tags: ["ai"]
 ---
 
@@ -23,6 +24,9 @@ Human beings are capable of almost any action at any time. But we only take a ti
 In other words, human-like personalities are not imposed on AI tools as some kind of marketing ploy or philosophical mistake. Those personalities are the medium via which the language model can become useful at all. This is why it's surprisingly tricky to "just" change a language model's personality or opinions: because you're navigating through the near-infinite manifold of the base model. You may be able to control which direction you go, but you can't control what you find there[^3].
 
 When AI people talk about LLMs having personalities, or wanting things, or even having souls[^4], these are technical terms, like the "memory" of a computer or the "transmission" of a car. You simply cannot build a capable AI system that "just acts like a tool", because the model is trained on _humans_ writing to and about other _humans_. You need to prime it with some kind of personality (ideally that of a useful, friendly assistant) so it can pull from the helpful parts of its training data instead of the horrible parts.
+
+edit: this post got some [comments](https://news.ycombinator.com/item?id=47242739) on Hacker News. Commenters point out that you can definitely choose to train models with more tool-like personalities (e.g. Kimi-K2, which is more matter-of-fact than Claude Opus). Of course the GPT Codex line of models is far more tool-like than the mainline GPT models. I agree with all this, but I think even the most tool-like current LLMs still _acts like a person_: you have a conversation with it, it offers opinions, suggests courses of action, and so on. It's that person-like framing that I think is essential to capable AI tooling.
+
 
 
 [^1]: This is all pretty well understood in the AI space. Anthropic wrote a [recent paper](https://alignment.anthropic.com/2026/psm/) about it where they cite similar positions going all the way back to 2022. But for some reason it's not yet penetrated into communities that are more skeptical of AI.

@@ -65,6 +65,9 @@ Some [other](https://news.ycombinator.com/item?id=46415535) [commenters](https:/
 
 I also saw two commenters link [this](https://en.wikipedia.org/wiki/High-Tech_Employee_Antitrust_Litigation) as an example of big tech companies actually being engaged in conspiracies against their employees. I'm not convinced. Companies _are_ structurally set up to collude on salaries, but they're not set up to deliberately make their employees sad - they just don't have that kind of fine-grained control over the culture! To the extent they have any control, they try to make their employees happy so they'll work for less money and not leave.
 
+edit: this post also got some [Reddit comments](https://www.reddit.com/r/programming/comments/1rgg1wr/software_engineers_should_be_a_little_bit_cynical/), though as usual these are very low quality: almost all comments just respond to the title, not the article content.
+
+
 [^1]: I don't _think_ I'm strawmanning here - I've seen many people make all of these points in the past, and I suspect at least some readers will be genuinely nodding along to the following paragraph. If you're one of those readers (or if you only agree with about 50%), consider doing me a favor and emailing me to let me know! If I don't get any emails I will probably rewrite this.
 
 [^2]: For some concrete details on this, see my post [_How I influence tech company politics as a staff software engineer_](/how-to-influence-politics). Also, if you're interested, I wrote a much less well-developed version of this post right at the start of 2024, called [_Is it cynical to do what your manager wants?_](/cynicism).
