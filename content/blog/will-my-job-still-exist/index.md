@@ -3,6 +3,7 @@ title: I don't know if my job will still exist in ten years
 description:
 order: 180
 date: '2026-03-06'
+popular: true
 tags: ["tech companies", "ai"]
 ---
 
@@ -45,3 +46,8 @@ It sucks. I miss feeling like my job was secure, and that my biggest career prob
 At least I'm happy that I recognized that the good times were good while I was still in them. Even when [the end of zero-interest rates](/good-times-are-over) made the industry less cosy, I still felt very lucky to be a software engineer. Even now I'm in a better position than many of my peers, particularly those who are very junior to the industry.
 
 And hey, maybe I'm wrong! At this point, I hope I'm wrong, and that there really is some _je ne sais quoi_ human element required to deliver good software. But if not, I and my colleagues are going to have to find something else to do.
+
+
+edit: This post got [some comments](https://news.ycombinator.com/item?id=47292902) on Hacker News. Some commenters are doubtful, either because they don't think AI coding is very good, or because they think human creativity/big-picture thinking/attention to detail will always be valuable. Others think ten years is way too optimistic. The [top comment](https://news.ycombinator.com/item?id=47294876) repeats the irony that I describe in the third paragraph of this post.
+
+edit: This post also got some [comments](https://www.reddit.com/r/programiranje/comments/1rn5lwc/i_dont_know_if_my_job_will_still_exist_in_ten/) on the Serbian r/programming subreddit.
