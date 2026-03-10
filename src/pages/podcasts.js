@@ -107,6 +107,16 @@ const PodcastsPage = ({ data, location }) => {
           </a>{" "}
           - talking about how to build good relationships with your manager and how staff promos work.
         </li>
+        <li>
+          <a
+            href="https://shows.acast.com/dead-code/episodes/frankensteins-system-with-sean-goedecke"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Dead Code
+          </a>{" "}
+          - talking about generic vs concrete system design, and some of the pitfalls of "software architect" roles.
+        </li>
       </ul>
 
 
