@@ -18,7 +18,7 @@ Software engineering is shockingly humbling, even for experienced engineers. The
 
 The minute-to-minute experience of working as a software engineer is dominated by _not knowing things_ and _getting things wrong_. Every time you sit down and write a piece of code, it will have several things wrong with it: some silly things, like missing semicolons, and often some major things, like bugs in the core logic. We spend most of our time fixing our own stupid mistakes.
 
-On top of that, even when we've been working on a system for years, we still don't know that much about it. I wrote about this at length in [_Nobody knows how large software products work_](/nobody-knows-how-large-software-products-work), but the reason is that big codebases are just that complicated. You simply can't confidently answer questions about them without going and doing some research, even if you're the one who wrote the code.
+On top of that, even when we've been working on a system for years, we still don't know that much about it. I wrote about this at length in [_Nobody knows how large software products work_](/nobody-knows-how-software-products-work), but the reason is that big codebases are just that complicated. You simply can't confidently answer questions about them without going and doing some research, even if you're the one who wrote the code.
 
 When you have to build something new or fix a tricky problem, it can often feel straight-up impossible to begin, because good software engineers know just how ignorant they are and just how complex the system is. You just have to throw yourself into the blank sea of millions of lines of code and start wildly casting around to try and get your bearings.
 
