@@ -1,3 +1,21 @@
+what kind of ego you have to have to be a big tech swe
+
+high ego - high confidence
+willingness to make enemies
+belief in the value of your own work, your own decisions
+
+low ego - willingness to subordinate
+willingness to set down work half-finished, to not ship at the last minute when a decision is made
+high tolerance for lack of reward - some projects you just get punished for, through no fault, and you have to be able to wear it with a smile
+
+---
+silver bullets managers love
+get a senior swe to review
+extra process steps (often just serve as temporary sources of shame)
+freezing (e.g. deploys)
+
+--
+
 Business numbers every programmer should know
 latency numbers but for stuff like "planning happens for q1, etc"
 
