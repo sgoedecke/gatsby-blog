@@ -1,3 +1,6 @@
+
+
+---
 Really effective staff-plus engineers at big tech companies must be technically strong enough to get things done, but also willing to subordinate their own goals and values to the values of the company. If you're only technically strong, you'll likely end up as a terminal senior (or if your skills are really in demand, as an un-influential staff engineer). If you're only willing to be a company man, you're not useful enough to be worth keeping around at all.
 
 There's no shortage of people who are willing to do whatever the company wants for money. But there is a shortage of people who are like that _as well as being technically strong_. Thos two traits do not fit together. 
