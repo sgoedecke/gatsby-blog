@@ -89,7 +89,7 @@ Okay, let's go deep into the attention mechanism. Are you ready? For each layer:
     2. Softmax that segment of `state.att`
     3. Reset `state.xb` to the sum of `state.att` over all previous positions for each element of `headSize`
 6. Populate `state.xb2` with `state.xb * weights.wo[layer]` (the output weights)
-7. Sum `state.x` with `state.xb` (as a residual connection), which finally integrates the attention scores into `state.x`
+7. Sum `state.x` with `state.xb2` (as a residual connection), which finally integrates the attention scores into `state.x`
 
 That was a lot. But it's the most important thing here, so it makes sense that it'd be pretty complex. The entire LLM revolution grew out of a paper called [Attention Is All You Need](https://arxiv.org/abs/1706.03762), after all. Let's go through it carefully.
 
