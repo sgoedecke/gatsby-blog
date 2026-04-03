@@ -1,5 +1,16 @@
 
+https://www.youtube.com/watch?v=s1eqzfXCgXI
+AI makes fake legibility cheap (reports, etc - but fake)
+"potemkin" reports/dashboards are trivial to generate
+legibility "slop"
 
+Large organizations function via a tree of nested reports. Individual contributors give updates to their managers, who summarize and combine[^1] those into team-level updates for their managers, and so on all the way to the top.
+
+This serves two purposes. The obvious purpose is _legibility_: managers and executives can find out "what is happening in the organization" simply by reading the relevant report[^2]. A less-obvious but equally important purpose is that it forces people to build a mental model of what's going on in their local area.
+
+[^1]: Typically called a "rollup".
+
+[^2]: Of course, these reports are only approximations, and can mislead managers in all sorts of ways. I wrote a lot more about that point in [_Seeing like a software company_](/seeing-like-a-software-company).
 ---
 Really effective staff-plus engineers at big tech companies must be technically strong enough to get things done, but also willing to subordinate their own goals and values to the values of the company. If you're only technically strong, you'll likely end up as a terminal senior (or if your skills are really in demand, as an un-influential staff engineer). If you're only willing to be a company man, you're not useful enough to be worth keeping around at all.
 
@@ -156,8 +167,6 @@ gpt-5 tone - a new kind of slopß
 why are chinese AI models less sycophantic?
 
 why I disagree with https://news.ycombinator.com/item?id=45070512 
-
-https://news.ycombinator.com/user?id=Buttons840
 
 traps for software engineers
 
