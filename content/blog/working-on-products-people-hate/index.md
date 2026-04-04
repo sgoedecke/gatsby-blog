@@ -3,6 +3,7 @@ title: Working on products people hate
 description:
 order: 183
 date: '2026-03-27'
+popular: true
 tags: ["good engineers"]
 ---
 
@@ -21,6 +22,8 @@ It can be emotionally difficult working on products that people hate. Reading ne
 There's also a silver lining to working on disliked products, which is that people only care _because they're using them_. The worst products are not hated, they are simply ignored (and if you think working on a hated product is bad, working on an ignored product is much worse). A product people hate is usually providing a fair amount of value to its users (or at least to its purchasers, in the case of enterprise software). If you're thick-skinned enough to take the heat, you can do a lot of good in this position. Making a widely-used but annoying product slightly better is pretty high-impact, even if you're not in a position to fix the major structural problems.
 
 Almost every engineer will work on a product people hate. That's just the law of averages: user sentiment waxes and wanes over time, and if your product doesn't die a hero it will live long enough to become the villain. Given that, it's sensible to avoid blaming the engineers who work on unpopular products. Otherwise you'll end up blaming yourself, when it's your turn, and miss the best chances in your career to have a real positive impact on users.
+
+edit: this post got some [comments](https://news.ycombinator.com/item?id=47561606) on Hacker News. Many [commenters](https://news.ycombinator.com/item?id=47568485) seemed to endorse the view that if people hate your product, it's your fault, and that you're morally obliged to either be willing to have the "hard discussions" ([or](https://news.ycombinator.com/item?id=47625491) [quit](https://news.ycombinator.com/item?id=47624264)). To me, this just seems a bit unprofessional. Not everybody is in a position to simply quit their jobs. In my opinion, trying to incrementally improve a disliked product is more honorable than quitting in protest, or getting yourself fired by [writing to the board](https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion). I thus empathize more with [this comment](https://news.ycombinator.com/item?id=47625042), which describes how satisfying it can be to handle angry customer escalations.
 
 
 [^1]: We used to be broadly liked, then disliked when Cursor and Claude Code came out, and now I'm fairly sure the Copilot CLI tool is changing people's minds again. So it goes.
