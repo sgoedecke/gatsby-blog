@@ -1,3 +1,19 @@
+"The Luddites: the history and legacy of the english rebels who protested..."
+
+Didn't love the book, but it was free on Kindle unlimited, at least
+
+Why did the luddites _stop_? They killed some ringleaders but it seemed like such a universal movement, and from the book it sounds like the government gave absolutely zero concessions - it just ran out of energy, or what? Was there some other factor?
+
+To what extent did luddism succeed in slowing the industrial textiles revolution? To what extent did it succeed in restoring jobs?
+
+"Breaking things at Work"
+
+
+
+---
+
+diffs not commits
+---
 
 https://www.youtube.com/watch?v=s1eqzfXCgXI
 AI makes fake legibility cheap (reports, etc - but fake)

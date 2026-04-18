@@ -14,4 +14,8 @@ The first reason is that **technically strong engineers know they're powerful**.
 
 Another reason is that **getting technical things done requires strategically disregarding some company values**. Large tech companies have a lot of formal processes and rules that are intended to prevent less-capable engineers from doing too much damage. The tacit understanding is that engineers who can break the rules without causing problems are permitted to do so (i.e. they are rewarded for success, not punished for the rule-breaking that enabled it). However, the kind of engineer who's comfortable disregarding formal rules to get things done is also likely to be comfortable disregarding what their bosses think of them.
 
-Also, **
+Also, **building technical skill and political skill is close to a zero-sum game**. The time you spend learning how Kubernetes works does not make you any better at navigating a large organization (and vice versa). Conversely, the engineers who spend all their time trying to "play the game" are not likely to have the detailed technical knowledge that they would need to ship projects effectively (ironically, that's the kind of knowledge that would make them most useful in "the game").
+
+There are cultural
+
+My sense is that many engineers just don't _know_ what they would need to do in order to "play the game" - in other words, they're not opting-out entirely out of principle, but at least partially because it's not in their comfort zone and they're afraid they'll get it wrong.
