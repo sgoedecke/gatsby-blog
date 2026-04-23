@@ -95,6 +95,8 @@ I can see why modern "Luddites" - who are genuinely anti-technology - talk so mu
 If it isn't time to start burning down datacenters, what can we do? Well, workers today are better off than the Luddites were, because we stand on their shoulders. Unlike the Luddites, today's workers can all vote (and I suspect there will be no shortage of anti-AI candidates to vote for). It's a much less exciting answer to say "try and get better laws passed" than to say "viva the revolution, where's my Molotov cocktail". Still, if the Luddites had that option, I suspect they would have used it.
 
 
+edit: A reader pointed me at [_Against the Luddites_](https://www.verysane.ai/p/against-the-luddites), which argues that (a) the Luddites were an elite (ish) movement, (b) they explicitly and deliberately excluded women, and (c) their leftist theory bonafides are questionable. I don't really care about (c), agree with (b), and mostly agree with (a), with the caveat that they really did have a broad base of non-elite support.
+
 [^1]: I got linked [this article](https://tante.cc/2026/04/21/ai-as-a-fascist-artifact/) calling AI a "fascist artifact" (on a blog called "Breaking Frames", a clear reference to Luddism) while I was writing this blog post.
 
 [^2]: I really enjoyed Merchant's book and did not enjoy Mueller's (which I found to be 10% about the Luddites and 90% about interminable intra-Marxist ideological arguments). I also read [The Luddites](https://www.amazon.com.au/Luddites-Protested-Machinery-Industrial-Revolution/dp/171936186X), which was effectively a dry summary of the ground Merchant covers, a bunch of other essays, and went back and forth with ChatGPT and Claude on some of the key questions.
