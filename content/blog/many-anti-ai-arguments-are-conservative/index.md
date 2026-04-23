@@ -3,6 +3,7 @@ title: Many anti-AI arguments are conservative arguments
 description: 
 order: 185
 date: '2026-04-18'
+popular: true
 tags: ["ai", "ethics", "politics"]
 ---
 
