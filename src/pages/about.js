@@ -36,6 +36,9 @@ const AboutPage = ({ data, location }) => {
           <Link to="/how-to-ship">How I ship projects at big tech companies</Link>
         </li>
         <li>
+          <Link to="/seeing-like-a-software-company">Seeing like a software company</Link>
+        </li>
+        <li>
           <Link to="/good-times-are-over">
             The good times in tech are over
           </Link>
