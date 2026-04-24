@@ -34,6 +34,9 @@ When managers are talking to each other, they'll sometimes make a kind of backha
 
 It's often a smart political tactic to make your work sound slightly more complicated than it really is. Otherwise you risk falling into the "you made it look easy, therefore we didn't need to pay you so much" trap. But it's foolish to actually do unnecessarily complicated work. Software is hard enough as it is.
 
+
+edit: For a similar take (also a response to the "nobody gets promoted for simplicity" line), [this](https://www.natemeyvis.com/a-model-of-how-simplicity-gets-rewarded/) blog post by Nate Meyvis is quite good.
+
 [^1]: This can be a surprisingly effective strategy, because of the tempting circular logic here: if an engineer has been given the hardest problems, it's probably because they're a hotshot, which means you can trust their assessment of how difficult their problems are, which means...
 
 [^2]: If you're thinking of counter-examples - complex code that shipped smoothly without major followup issues - I suspect this code was probably simple _enough_.
