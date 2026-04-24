@@ -1,5 +1,5 @@
 ---
-title: Luddites and AI datacenters
+title: Luddites and burning down AI datacenters
 description: 
 order: 186
 date: '2026-04-22'
