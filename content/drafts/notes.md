@@ -1,3 +1,8 @@
+ideal architectures radically change at various "trigger points"
+- "can you fit it in memory" - before this, bloom filters/etc are great. after this, you should think in trees (minimize I/O, not cycles) (middle ground where you can mmap)
+- "<10ms etc"
+
+---
 left-wing arguments for AI
 
 chronic illness support - ADHD
@@ -8,6 +13,8 @@ if you believe left-wing views are correct, training a superior reasoner will he
 fully automated luxury gay space communism plausibly requires AI
 AI is a universally available tutor - can turn lectures/etc into quizzes that can be consumed. Obviously you can cheat, but for the students who want to learn, they now have private tutoring on tap
 
+"I've long been uncomfortable with the absolute left-wing anti-AI stance because, if similar reasoning had been applied to outright reject computers as fascist and unethical in the 80s and onward, my own life would have been quite different, and arguably worse. I have enough usable vision to handwrite, uncomfortably, with my head against the page. I did more of that than I wanted in school (I started first grade, in the US K-12 system, in 1987). Computers saved me from having to do even more, starting with my family's home computer and other desktop computers in the classrooms that had them, and then on my own laptop. Would I want a world where I had been forced to handwrite more, or perhaps write in Braille with humans transcribing it for the benefit of sighted teachers and peers, or maybe write on a typewriter (for some reason I don't recall ever trying that)? Then again, am I selfish to consider only my own comfort? After all, the manufacturing of computers inflicts its own harms on people, harms that I'm comfortably distant from. And of course, using computers as a child led to a career in software development. What kind of work would I be doing now if that path hadn't been available? And now that AI helps at least one group of disabled people (of which I'm more or less a part), do I want to deny that benefit?"
+- [Matt Campbell](https://toot.cafe/@matt) via email
 
 ---
 
