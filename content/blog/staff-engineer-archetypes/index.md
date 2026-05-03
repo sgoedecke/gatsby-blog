@@ -1,8 +1,8 @@
 ---
 title: Why I don't like the "staff engineer archetypes"
 description:
-order: 182
-date: '2026-04-29'
+order: 188
+date: '2026-05-03'
 tags: ["tech companies", "staff"]
 ---
 
