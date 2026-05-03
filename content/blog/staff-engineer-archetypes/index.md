@@ -53,4 +53,4 @@ The staff engineer archetypes are a good list of ways an engineer can be very us
 
 [^4]: This is why very senior leadership sometimes seem so unempathetic towards engineering complaints: their work environment operates by very different rules and norms to that of most engineers. I keep meaning to try and write about this and never succeeding. This [draft](https://github.com/sgoedecke/gatsby-blog/blob/master/content/drafts/_icebox/strategy-for-swes/index.md) is the closest thing I have to a deeper exploration of the point.
 
-[^5]: For the record, my how-to guides are [here](staff-engineer-promotions/) and [here](ratchet-effects/).
+[^5]: For the record, my how-to guides are [here](/staff-engineer-promotions/) and [here](/ratchet-effects/).
