@@ -1,3 +1,24 @@
+dwarkesh
+
+### How can AI companies start making real money?
+
+AI companies are bleeding money right now for the same reason that any fabulous new technology bleeds money: even if it could be profitable today, it's a much better idea to try and accelerate in the hopes of being a thousand times more profitable later on. In other words, if Anthropic stopped paying to train new models, they could make a ton of money selling access to Claude Opus and Claude Sonnet - with one huge caveat. OpenAI would have to stop training new models as well, because if they ever release a model better than Claude, all Anthropic's business will go to them[^4]. So how can AI companies start making money?
+
+I think there's three answers here. The most boring answer is to **pivot into an AI _product_ company**. Anthropic are doing this with Claude Code and Claude Cowork, and OpenAI are doing it with Codex and various other moonshot projects. The whole point here is that because you train the model, you're in a position to train it both with and for your specific product: on your tools, with your prompts, and for the concrete tasks that your product performs. Even better, you can feed the data from your product back into the model, so your system gets more tightly integrated over time. That makes it tricky for third-party competitors to come in and beat you.
+
+The slightly more exciting answer is to **sell AI capabilities to a small, exclusive set of customers**. The paradigm (and only) example of this so far is Claude Mythos, where Anthropic have built a powerful cybersecurity model and granted access to a handful of companies. Because they're not selling inference, they're not as vulnerable to distillation, and at least in theory they could charge enormous sums of money. This is more or less what we'd expect from the early stages of the singularity: a superintelligence operating like an ancient Greek Oracle, jealously gatekept by its creators, only accessible to the kings and princes who travel to ask it a single question. Of course, this image is also great marketing for an AI lab, so it's worth being at least a little bit suspicious.
+
+The most exciting answer is that **money won't matter in the singularity**. If you genuinely think you're on track to creating an artificial superintelligence, you might not be angling for money but for _power_: the kind of hard-to-imagine "control over the lightcone" power that comes from shaping the mind of the machine god. I don't want to talk about this too much - it's been done to death - but I think it's at least worth mentioning that many people at the AI labs think this way.
+
+### Other questions
+
+Dwarkesh's challenge has two more questions:
+
+- AI companies have raised more money than they know what to do with. How could you spend trillions of dollars to "make AI go well"?
+- If you're the leader of a company with no direct AI involvement (you don't make chips, models, power plants or robots), what can you do to not be left behind?
+
+I have no idea and no strong intuition about either of these. I suspect in both cases you'd want to stay light on your feet, since even the near-term impacts of powerful AI are very hard to predict, so I wouldn't recommend an immediate commitment in any direction. But I'm just speculating here. I don't have any reason to think my wild guesses are particularly accurate.
+
 
 --
 ideal architectures radically change at various "trigger points"
