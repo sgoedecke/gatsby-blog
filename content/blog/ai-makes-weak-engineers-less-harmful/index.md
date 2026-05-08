@@ -6,7 +6,7 @@ date: '2026-05-09'
 tags: ["ai", "good engineers", "tech companies"]
 ---
 
-Like other kinds of puzzle-solving, software engineering ability is strongly heavy-tailed. The strongest engineers produce way more useful output than the average, and the weakest engineers often are actively net-negative: instead of moving projects along, they create problems that their colleagues have to spend time solving. That's why many tech companies try to [build](https://www.levels.fyi/companies/jane-street/salaries) a small, ludicrously well-paid team instead of a large team of more average engineers, and so far this seems to be a winning strategy.
+Like other kinds of puzzle-solving, software engineering ability is strongly heavy-tailed. The strongest engineers produce way more useful output than the average, and the weakest engineers often are actively net-negative: instead of moving projects along, they create problems that their colleagues have to spend time solving. That's why many tech companies try to [build](https://www.levels.fyi/companies/jane-street/salaries) a small, ludicrously well-paid team instead of a large team of more average engineers, and why so far this seems to be a winning strategy.
 
 Being effective in a large tech company is often about managing this phenomenon: trying to arrange things so that the most competent people land on projects you want to succeed, and the least competent are shunted out of the way[^1]. For instance, if you're technical lead on a project, you more or less have to ensure[^2] that the most critical pieces are in the hands of people who won't screw them up (whether by directly assigning the work, or by making sure someone can "sit on the shoulder" of the engineer who you're worried about).
 
