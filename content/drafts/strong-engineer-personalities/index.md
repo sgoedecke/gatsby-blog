@@ -6,7 +6,9 @@ date: '2025-08-24'
 tags: ["good engineers", "software design"]
 ---
 
-Really effective staff-plus engineers at big tech companies must be technically strong enough to get things done, but also willing to subordinate their own goals and values to the values of the company. If you're only technically strong, you'll likely end up as a terminal senior (or if your skills are really in demand, as an un-influential staff engineer). If you're only willing to be a company man, you're not useful enough to be worth keeping around at all.
+Really effective staff-plus engineers at big tech companies are weird.
+
+They must be technically strong enough to get things done, but also willing to subordinate their own goals and values to the values of the company. If you're only technically strong, you'll likely end up as a terminal senior (or if your skills are really in demand, as an un-influential staff engineer). If you're only willing to be a company man, you're not useful enough to be worth keeping around at all.
 
 There's no shortage of either of those attributes in isolation. Any tech company who pays competitive salaries can attract both technically strong engineers and people who are willing to do whatever the company wants for money. But it's hard to attract people who _are both of those things at the same time_. They don't often come together in the same person. Why is that?
 
