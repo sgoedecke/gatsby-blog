@@ -21,7 +21,7 @@ The efficiency of complex software systems - and the training code for a frontie
 
 Secondly, **intuitions about the speed of AI progress [are weird and unreliable](/are-new-models-good)**. Humans measure AI progress - and intelligence in general - on a really uneven scale. It's easy to tell when an AI (or a person) is less smart than you, because you can just see them making mistakes. It's very hard to tell if they're smarter, because in that case you're the one making mistakes. You have to rely on more subtle context clues: do they get better long-term results than you, or do they often confuse you in situations where you later end up agreeing with them, and so on.
 
-The jump from GPT-3 to GPT-4 seemed _huge_ because GPT-4 was dumber than almost all humans, and GPT-4 was sometimes as smart as a human. However, frontier models are now smart enough to be in the realm of ambiguity on many topics. It's thus much harder to tell the "real" rate at which they're getting smarter. Maybe the rate of growth of "raw intelligence" really has slowed down! I don't know how we'd be in a position to know for sure.
+The jump from GPT-3 to GPT-4 seemed _huge_ because GPT-3 was dumber than almost all humans, and GPT-4 was sometimes as smart as a human. However, frontier models are now smart enough to be in the realm of ambiguity on many topics. It's thus much harder to tell the "real" rate at which they're getting smarter. Maybe the rate of growth of "raw intelligence" really has slowed down! I don't know how we'd be in a position to know for sure.
 
 ### Intelligence is not the sole determinant of capability
 
