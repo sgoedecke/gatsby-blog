@@ -24,7 +24,7 @@ Not all net-negative engineers use AI tools like this. Many are strongly convinc
 
 
 
-[^1]: More charitably: many "least competent" engineers are just out of their comfort zone, and can be fine or even excel under the right circumstances (though in my view the best engineers are able to do good work in a wide variety of environments). Another disclaimer: I don't currently work with a lot of incompetent people. Much of this is based on past experience or talking to other engineers in the industry.
+[^1]: More charitably: many "least competent" engineers are just out of their comfort zone, and can be fine or even excel under the right circumstances (though in my view the best engineers are able to do good work in a wide variety of environments). Also, I don't currently work with a lot of incompetent people. Much of this is based on past experience or talking to other engineers in the industry.
 
 [^2]: Since your managers are doing the same thing, this can sometimes feel like Moneyball: you're trying to identify underappreciated talent who are strong enough to help you win without being so high-profile that your boss poaches them to lead something else.
 
