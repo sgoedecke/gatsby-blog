@@ -8,7 +8,7 @@ tags: ["ai", "ethics", "politics"]
 
 In [_Many anti-AI arguments are conservative arguments_](https://www.seangoedecke.com/many-anti-ai-arguments-are-conservative/) I argued that left-wing anti-AI sentiment[^1] is partly a backlash to two unrelated events around the rise of ChatGPT: the crypto mania of 2022 and the pro-Donald-Trump push many big tech CEOs made in 2024. If the timing had been different, we could have had a real pro-AI faction on the left. What would that look like?
 
-I'm not going to respond to any of the popular anti-AI arguments (I've already done that [here](https://www.seangoedecke.com/is-ai-wrong/)). I think it's more interesting to outline what some _pro-AI_ arguments might look like.
+I'm not going to respond to any of the popular anti-AI arguments (I've already done that [here](https://www.seangoedecke.com/is-ai-wrong/)). I think it's more interesting to outline some explicitly left-wing pro-AI arguments.
 
 ### Disability
 
