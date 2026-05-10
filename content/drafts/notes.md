@@ -1,3 +1,6 @@
+if reasoning effort with "..." is better than nothing, can you fill it in ahead of time so that it can parsed as prefill instead of decode (i.e. much quicker?)
+
+---
 **Automation is both a blessing and a curse.** Many incidents are caused by automation behaving in surprising ways (e.g. a dynamic load balancer zeroing out traffic to one upstream after a blip in the error rate). However, automation is also the primary reason that many incidents are prevented. Having a single "deploy this change" button that triggers a gradual rollout with various "is this causing an error" gates is one of the highest value-for-effort reliability changes a technical organization can implement. I don't have a grand theory of automation to offer here, but in general I'd recommend thinking very hard about the parts of your system that can make their own decisions, and making sure you're happy with the tradeoffs.
 
 **Data validation is sometimes a bomb waiting to go off.** I wrote about this a lot more in [_'Make invalid states unrepresentable' considered harmful_](/invalid-states/), but it's worth repeating in the context of incidents. If you ever have a validation around some product invariant, you had better be confident that it is in fact an invariant. For instance, one classic mistake is to put a validation on a child record that its owner must be a certain type. If the owner's type ever changes after the child record is created, the child record will silently become invalid, and (e.g. in Rails) any attempt to update it will fail. Many incidents fit this pattern: the system manages to break some invariant that was painstakingly enforced in code, with disastrous consequences.
@@ -27,9 +30,7 @@ I have no idea and no strong intuition about either of these. I suspect in both 
 
 
 --
-ideal architectures radically change at various "trigger points"
-- "can you fit it in memory" - before this, bloom filters/etc are great. after this, you should think in trees (minimize I/O, not cycles) (middle ground where you can mmap)
-- "<10ms etc"
+ 
 
 ---
 left-wing arguments for AI
