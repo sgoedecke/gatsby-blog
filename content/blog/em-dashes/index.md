@@ -3,6 +3,7 @@ title: Why do AI models use so many em-dashes?
 description:
 order: 152
 date: '2025-10-30'
+popular: true
 tags: ["ai"]
 ---
 

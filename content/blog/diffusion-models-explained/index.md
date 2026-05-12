@@ -3,6 +3,7 @@ title: Diffusion models explained simply
 description: 
 order: 84
 date: '2025-05-19'
+popular: true
 tags: ["ai", "explainers", "diffusion"]
 ---
 

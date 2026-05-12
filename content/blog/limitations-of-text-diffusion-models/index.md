@@ -3,6 +3,7 @@ title: Strengths and limitations of diffusion language models
 description: 
 order: 86
 date: '2025-05-22'
+popular: true
 tags: ["ai", "diffusion"]
 ---
 

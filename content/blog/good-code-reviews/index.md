@@ -3,6 +3,7 @@ title: Mistakes I see engineers making in their code reviews
 description: 
 order: 151
 date: '2025-10-25'
+popular: true
 tags: ["good engineers", "software design", "explainers", "ai"]
 ---
 

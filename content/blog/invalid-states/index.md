@@ -3,6 +3,7 @@ title: "'Make invalid states unrepresentable' considered harmful"
 description: 
 order: 137
 date: '2025-09-08'
+popular: true
 tags: ["software design"]
 ---
 

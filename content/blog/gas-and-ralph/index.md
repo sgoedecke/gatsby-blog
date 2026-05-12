@@ -3,6 +3,7 @@ title: Crypto grifters are recruiting open-source AI developers
 description:
 order: 167
 date: '2026-01-17'
+popular: true
 tags: ["ai", "crypto"]
 ---
 

@@ -3,6 +3,7 @@ title: In defense of shallow technical knowledge
 description: 
 order: 88
 date: '2025-05-25'
+popular: true
 tags: ["good engineers"]
 ---
 

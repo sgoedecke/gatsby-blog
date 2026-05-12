@@ -3,6 +3,7 @@ title: Should LLMs just treat text content as an image?
 description: 
 order: 150
 date: '2025-10-21'
+popular: true
 tags: ["ai"]
 ---
 

@@ -3,6 +3,7 @@ title: For many, patience is the killer LLM feature
 description: 
 order: 81
 date: '2025-05-17'
+popular: true
 tags: ["ai"]
 ---
 
