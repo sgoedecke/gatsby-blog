@@ -3,6 +3,7 @@ title: Software engineering may no longer be a lifetime career
 description:
 order: 187
 date: '2026-04-24'
+popular: true
 tags: ["ai"]
 ---
 
@@ -26,6 +27,8 @@ I hope that this isn't true. It would be really unfortunate for software enginee
 
 The career of a pro athlete has a maximum lifespan of around fifteen years. You have the opportunity to make a lot of money until around your mid-thirties, at which point your body just can't keep up with it. A common tragic figure today is the professional athlete who believes the show will go on forever and doesn't prepare for the day they can't do it anymore. We may be in the first generation of software engineers in the same position. If so, it's probably a good idea to plan accordingly.
 
+
+edit: this post got a lot of comments on [Hacker News](https://news.ycombinator.com/item?id=48095550). I was a bit disappointed to see many [people](https://news.ycombinator.com/item?id=48098278) (even [Simon Willison](https://news.ycombinator.com/item?id=48099636), whose blog I read) respond with variations on the point that engineers can use AI to do more engineering work, even if they're no longer writing code by hand. First, once you stop writing code by hand, I worry that your ability to understand the codebase in general [will atrophy](/you-cant-design-software-you-dont-work-on/); second, the rate of change is so high that _nobody knows_ what will happen in a decade or two. I should have emphasized these points more.
 
 [^1]: If you're thinking "wait, there's research on this", you can likely read my take on the paper you're thinking of [here](/impact-of-ai-study), [here](/your-brain-on-chatgpt) or [here](/how-does-ai-impact-skill-formation).
 
