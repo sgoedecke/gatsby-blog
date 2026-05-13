@@ -1,3 +1,11 @@
+AI datacenters in space do not have a cooling problem
+
+This year, Elon Musk has started banging the drum about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth. Is it a sensible way to build datacenters?
+
+The first comment underneath most discussions of this is something like this: "you obviously can't build AI datacenters in space, because heat dissipation is more difficult in space than on a planet, and heat dissipation is a big problem in AI datacenters". In general I am distrustful of snappy answers like these. It reminds me of the "AI datacenters obviously don't use too much water, because they're closed systems" argument: it sounds convincing and has a grain of truth, but is almost too obvious. If it were true, there wouldn't be a debate at all, just one side who understood the obvious point and another side who are stupid. 
+
+
+--
 if reasoning effort with "..." is better than nothing, can you fill it in ahead of time so that it can parsed as prefill instead of decode (i.e. much quicker?)
 
 ---
