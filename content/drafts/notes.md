@@ -1,3 +1,33 @@
+llms obviously more than the avg of their training data
+
+Steering vectors
+
+ds4 antirez doing it - one of the first practical examples
+clever idea, but... it kind of just does exactly what a prompt does. arguably it's an awkward way to make up for not prompting the model
+big q: can you fit a complex concept into a steering vector (such that you're genuinely saving on prompt tokens)
+you need a local model, which is one reason why it hasn't been popular. big labs will just train for the behavior they want, steering is too blunt an instrument; regular people can't steer the models that they actually want to use. Maybe DS4-flash changes this?
+
+---
+
+How I use AI/etc in 2026
+https://www.seangoedecke.com/how-i-use-llms/
+
+writes more code for me
+less involved in steering per-thought - just moves too fast - and more involved in rejecting output
+
+I still write PR descriptions and Slack messages myself (1% of the time I will use a generated PR description if it's two sentences). I want to signal that I've paid attention
+
+distinction between work-to-be-handed-off and work-to-get-stuck-into and work-to-do-myself. Identifying complex bugs can be a good example of (2) - recent example where ~14 LLM runs failed to figure it out before the 15th did (with me gathering more context, setting up local repro stuff, etc the whole time, not just waiting on the LLM)
+
+-- 
+
+Everyone is lying to you about AI
+
+
+
+
+---
+
 AI datacenters in space do not have a cooling problem
 
 This year, Elon Musk has started banging the drum about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth. Is it a sensible way to build datacenters?

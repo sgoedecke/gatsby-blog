@@ -3,7 +3,7 @@ title: AI interpretability has the same problems as philosophy of mind
 description: 
 order: 126
 date: '2025-08-06'
-tags: ["ai", "explainers"]
+tags: ["ai", "explainers", "steering"]
 ---
 
 If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a "probe". Pick one layer of the model - a single region of its "brain" - and train a smaller classifier model to see if there are neuron patterns[^1] that light up reliably in response to particular concepts. This is the core technique of a field called "mechanistic interpretability"[^2].
