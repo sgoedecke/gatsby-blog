@@ -3,6 +3,7 @@ title: DeepSeek-V4-Flash means LLM steering is interesting again
 description: 
 order: 195
 date: '2026-05-16'
+popular: true
 tags: ["ai", "steering"]
 ---
 
@@ -63,6 +64,8 @@ I'm fascinated with steering, but I'm not particularly optimistic about it. I th
 However, the open-source community hasn't done a lot of work on steering yet, and that might be just starting to change now. If I'm wrong and it does have practical applications, we should find that out in the next six months.
 
 It'll be interesting to see if bespoke per-model tools like DwarfStar 4 end up including a "library" of boostable features. When a popular open-weights model is released, the community always rushes to release a suite of wrappers and quantized versions. Could we also see a rush to extract boostable features from the model?
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=48160807). Several commenters (including antirez himself) [pointed out](https://news.ycombinator.com/item?id=48161688) that steering can change some "trained in" behavior in ways that prompting can't: most notably to remove refusal from the model. Another commenter [says](https://news.ycombinator.com/item?id=48161488) that this is how uncensoring/abliteration is already done for open models. I didn't know that - I thought the uncensored models were typically LoRA fine-tunes. On this point, antirez [noted](https://news.ycombinator.com/item?id=48161688) that modifying the weights can damage model capabilities more than the more lightweight runtime-steering approach (which can only be applied when needed). Makes sense to me.
 
 [^1]: Models have lots of different activations you might measure (after attention, between each layer, etc). You can basically pick any one you want, or try multiple and see what works best.
 
