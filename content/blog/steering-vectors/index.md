@@ -1,5 +1,5 @@
 ---
-title: DeepSeek-V4-Flash makes LLM steering interesting again
+title: DeepSeek-V4-Flash means LLM steering is interesting again
 description: 
 order: 195
 date: '2026-05-16'
