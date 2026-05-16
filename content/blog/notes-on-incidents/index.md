@@ -24,5 +24,7 @@ For that reason, **the first thing you should do in an incident is _nothing_**. 
 
 However, **_always_ resolving incidents is (by itself) not a durable position of power.** This is a little counter-intuitive. Surely if you're always resolving incidents, you're indispensable? The problem is that incident-resolving work is almost always so techical as to be completely opaque to executives. They know the incident has resolved, but they don't know if you did a heroic effort or merely did the obvious thing. They also can't point to your successes as theirs (which is always the most reliable way to get VPs and directors on your side), because incidents _are expected to be fixed_, and it's always better _not to have had the incident at all_.
 
+edit: I got an interesting reader email saying that in their experience incidents usually don't go away on their own. It turns out they've typically worked at smaller companies than me. I suspect this is a system-size thing: big tech companies have more sprawling systems with more third-party dependencies, so it's more common for something to go wrong and self-recover.
+
 
 [^1]: I don't need to do this anymore because I just don't get as keyed up about incidents as I used to.
