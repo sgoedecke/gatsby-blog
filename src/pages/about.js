@@ -16,19 +16,19 @@ const AboutPage = ({ data, location }) => {
         
       <p>
         I mostly write about AI and large-company dynamics. If you want to know
-        more about my background, my resume is publicly available{" "}
+        more about my background, my resume is{" "}
         <a
           target="_blank"
           rel="noreferrer"
           href="https://docs.google.com/document/d/17Ql6AydCJ7-XhjrwEqzmRAaAaooARTS5vjEhBZGfrbE/edit?tab=t.0"
         >
-          here
+          publicly available
         </a>
         .
       </p>
 
       <p>
-        If you're interested in this blog but you're not sure where to start, you can read my most popular posts <Link to="/popular">here</Link>, or start with one of these:
+        If you're interested in this blog but you're not sure where to start, you can read my most <Link to="/popular">popular posts</Link>, or start with one of these:
       </p>
 
       <ul>
