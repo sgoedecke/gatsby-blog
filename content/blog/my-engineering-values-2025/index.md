@@ -3,7 +3,7 @@ title: What kind of work I want (in 2025)
 description:
 order: 121
 date: '2025-07-25'
-tags: ["ethics", "meta"]
+tags: ["ethics", "meta", "zirp"]
 ---
 
 In 2021, I wrote [this post](/my-engineering-values) describing the kind of work I wanted then. Almost five years later, it's time for an update.

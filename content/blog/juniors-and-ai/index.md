@@ -3,7 +3,7 @@ title: What's going to happen to junior engineers?
 description: 
 order: 99
 date: '2025-06-20'
-tags: ["ai"]
+tags: ["ai", "zirp"]
 ---
 
 In the 2010s, companies were hiring a lot of juniors. This was partially an economic decision: companies were hiring _everyone_, and juniors were a lot cheaper and easier to hire than senior engineers. In 2025, this has mostly dried up. Tech company hiring is much less common and has tilted towards seniors, who are seen as less risky hires. The economic situation will eventually change. But I'm worried about AI.
@@ -54,4 +54,3 @@ To put it mildly, a cool market for junior engineers is not good for the industr
 edit: I was linked Toptal's Q4 2025 [market report](https://www.toptal.com/research-and-analysis/market-report-q4-2025) almost a year after writing this post, which seems like it confirms my sense that junior engineers were suffering and senior engineers were doing quite well.
 
 [^1]: Actually, I have a post in the works where I offer a theory.
-

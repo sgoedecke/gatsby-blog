@@ -3,7 +3,7 @@ title: How to become passionate about delivering shareholder value
 description: 
 order: 106
 date: '2025-07-05'
-tags: ["tech companies"]
+tags: ["tech companies", "zirp"]
 ---
 
 I am passionate about delivering shareholder value. It feels kind of embarrassing to admit, but it's true[^1]. I like all the things an engineer is supposed to like - writing elegant code, designing systems, solving hard technical problems - but I confess I don't like those things as much as I like delivering shareholder value. That's why I kind of enjoy the [vibe shift](/good-times-are-over) that's happened recently in tech. I wish my job was more secure, and my colleagues were happier, but I do really like the fact that my work is now much more tightly connected to the company's strategy.

@@ -4,7 +4,7 @@ description:
 order: 180
 date: '2026-03-06'
 popular: true
-tags: ["tech companies", "ai"]
+tags: ["tech companies", "ai", "zirp"]
 ---
 
 In 2021, being a good software engineer felt _great_. The world was full of software, with more companies arriving every year who needed to employ engineers to write their code and run their systems. I knew I was good at it, and I knew I could keep doing it for as long as I wanted to. The work I loved would not run out.
