@@ -3,6 +3,21 @@ title: Large tech companies don't need heroes
 description:
 order: 173
 date: '2026-02-08'
+popularity:
+  score: 32
+  hackerNews:
+    points: 0
+    comments: 0
+    threads: 0
+  lobsters:
+    points: 4
+    comments: 4
+    threads: 1
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies"]
 ---
 

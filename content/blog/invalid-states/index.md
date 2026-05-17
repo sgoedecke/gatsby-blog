@@ -4,6 +4,21 @@ description:
 order: 137
 date: '2025-09-08'
 popular: true
+popularity:
+  score: 896
+  hackerNews:
+    points: 68
+    comments: 81
+    threads: 1
+  lobsters:
+    points: 57
+    comments: 99
+    threads: 1
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["software design"]
 ---
 

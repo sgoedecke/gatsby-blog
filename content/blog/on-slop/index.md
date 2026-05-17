@@ -4,6 +4,21 @@ description: A general theory of human/human and human/LLM interaction
 order: 39
 date: '2025-02-01'
 popular: true
+popularity:
+  score: 108
+  hackerNews:
+    points: 46
+    comments: 31
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "slop", "ai writing"]
 ---
 

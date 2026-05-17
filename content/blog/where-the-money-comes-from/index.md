@@ -4,6 +4,21 @@ description: How tech companies make money and why it's important
 order: 50
 date: '2025-03-01'
 popular: true
+popularity:
+  score: 691
+  hackerNews:
+    points: 335
+    comments: 178
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies", "zirp"]
 ---
 

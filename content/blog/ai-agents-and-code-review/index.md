@@ -4,6 +4,21 @@ description:
 order: 139
 date: '2025-09-20'
 popular: true
+popularity:
+  score: 586
+  hackerNews:
+    points: 192
+    comments: 197
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "agents"]
 ---
 

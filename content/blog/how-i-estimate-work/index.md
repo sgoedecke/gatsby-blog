@@ -3,6 +3,21 @@ title: How I estimate work as a staff software engineer
 description:
 order: 169
 popular: true
+popularity:
+  score: 1457
+  hackerNews:
+    points: 548
+    comments: 320
+    threads: 1
+  lobsters:
+    points: 48
+    comments: 25
+    threads: 1
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 date: '2026-01-24'
 tags: ["tech companies", "how to", "large codebases"]
 ---

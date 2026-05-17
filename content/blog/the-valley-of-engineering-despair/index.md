@@ -3,6 +3,21 @@ title: The valley of engineering despair
 description: 
 order: 75
 date: '2025-04-30'
+popularity:
+  score: 17
+  hackerNews:
+    points: 0
+    comments: 0
+    threads: 0
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 50
+    comments: 12
+    threads: 1
+  manual: 0
 tags: ["shipping", "emotional regulation"]
 ---
 

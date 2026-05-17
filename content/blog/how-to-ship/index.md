@@ -3,6 +3,21 @@ title: How I ship projects at big tech companies
 description: What I think about when I'm lead engineer on a project
 order: 16
 popular: true
+popularity:
+  score: 2187
+  hackerNews:
+    points: 1425
+    comments: 381
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 date: '2024-11-09'
 tags: ["good engineers", "tech companies", "shipping", "how to"]
 ---

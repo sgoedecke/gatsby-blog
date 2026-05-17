@@ -4,6 +4,21 @@ description: Why remaining non-commital is cowardly
 order: 42
 date: '2025-02-10'
 popular: true
+popularity:
+  score: 289
+  hackerNews:
+    points: 53
+    comments: 59
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 253
+    comments: 113
+    threads: 1
+  manual: 0
 tags: ["good engineers", "technical clarity"]
 ---
 

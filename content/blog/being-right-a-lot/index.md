@@ -4,6 +4,21 @@ description: It's an iffy Amazon leadership principle but a great engineering me
 order: 41
 date: '2025-02-06'
 popular: true
+popularity:
+  score: 223
+  hackerNews:
+    points: 97
+    comments: 63
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["good engineers", "tech companies", "technical clarity"]
 ---
 

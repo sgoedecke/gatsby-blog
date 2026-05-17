@@ -5,6 +5,21 @@ order: 129
 date: '2025-08-13'
 tags: ["ai", "papers", "reasoning"]
 popular: true
+popularity:
+  score: 571
+  hackerNews:
+    points: 213
+    comments: 179
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 ---
 
 Reading research papers and articles about chain-of-thought reasoning[^1] makes me frustrated.

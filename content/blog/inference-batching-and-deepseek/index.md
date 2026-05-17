@@ -4,6 +4,21 @@ description:
 order: 90
 date: '2025-06-01'
 popular: true
+popularity:
+  score: 782
+  hackerNews:
+    points: 328
+    comments: 227
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "explainers", "deepseek", "inference"]
 ---
 

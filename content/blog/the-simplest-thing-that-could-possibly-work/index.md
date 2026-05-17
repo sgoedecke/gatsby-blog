@@ -4,6 +4,21 @@ description:
 order: 134
 date: '2025-08-28'
 popular: true
+popularity:
+  score: 1885
+  hackerNews:
+    points: 1111
+    comments: 387
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["software design", "shipping"]
 ---
 

@@ -4,6 +4,21 @@ description:
 order: 151
 date: '2025-10-25'
 popular: true
+popularity:
+  score: 779
+  hackerNews:
+    points: 167
+    comments: 174
+    threads: 1
+  lobsters:
+    points: 38
+    comments: 30
+    threads: 1
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["good engineers", "software design", "explainers", "ai"]
 ---
 

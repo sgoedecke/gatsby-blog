@@ -291,5 +291,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: 'rand',
       value: seededRandom,
     });
+
+    actions.createNodeField({
+      node,
+      name: 'popularityScore',
+      value: Number(node.frontmatter?.popularity?.score || 0),
+    });
   }
 }

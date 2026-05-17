@@ -52,7 +52,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { popular: { eq: true } } }
-      sort:   { fields: [frontmatter___order], order: DESC }
+      sort:   { fields: [fields___popularityScore, frontmatter___order], order: DESC }
     ) {
       edges {
         node {

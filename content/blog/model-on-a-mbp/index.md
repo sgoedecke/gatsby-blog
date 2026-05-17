@@ -5,6 +5,21 @@ order: 128
 date: '2025-08-12'
 tags: ["ai", "projects", "inference"]
 popular: true
+popularity:
+  score: 959
+  hackerNews:
+    points: 571
+    comments: 194
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 ---
 
 What's the strongest model I can train on my MacBook Pro[^1] in five minutes?

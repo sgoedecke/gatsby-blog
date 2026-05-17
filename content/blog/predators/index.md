@@ -4,6 +4,21 @@ description: Some people will absorb as much work as you're willing to give them
 order: 32
 date: '2025-01-19'
 popular: true
+popularity:
+  score: 127
+  hackerNews:
+    points: 51
+    comments: 38
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies"]
 ---
 

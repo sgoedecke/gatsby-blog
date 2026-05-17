@@ -4,6 +4,21 @@ description: Why companies don't reward glue work and why you shouldn't do it al
 order: 22
 date: '2024-12-16'
 popular: true
+popularity:
+  score: 495
+  hackerNews:
+    points: 64
+    comments: 48
+    threads: 1
+  lobsters:
+    points: 55
+    comments: 34
+    threads: 1
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies"]
 ---
 

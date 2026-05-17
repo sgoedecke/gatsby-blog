@@ -4,6 +4,21 @@ description: Engineering talent is about task-capability, not speed or volume
 order: 20
 date: '2024-12-27'
 popular: true
+popularity:
+  score: 236
+  hackerNews:
+    points: 74
+    comments: 81
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["good engineers", "tech companies"]
 ---
 

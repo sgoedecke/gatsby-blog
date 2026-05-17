@@ -4,6 +4,21 @@ description:
 order: 163
 date: '2025-12-28'
 popular: true
+popularity:
+  score: 873
+  hackerNews:
+    points: 300
+    comments: 208
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 507
+    comments: 93
+    threads: 1
+  manual: 0
 tags: ["tech companies", "cynicism"]
 ---
 

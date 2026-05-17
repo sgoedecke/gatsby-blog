@@ -4,6 +4,21 @@ description:
 order: 180
 date: '2026-03-06'
 popular: true
+popularity:
+  score: 535
+  hackerNews:
+    points: 115
+    comments: 125
+    threads: 1
+  lobsters:
+    points: 23
+    comments: 14
+    threads: 1
+  reddit:
+    points: 1
+    comments: 52
+    threads: 1
+  manual: 0
 tags: ["tech companies", "ai", "zirp"]
 ---
 

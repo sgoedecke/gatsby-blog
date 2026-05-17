@@ -4,6 +4,21 @@ description:
 order: 135
 date: '2025-09-03'
 popular: true
+popularity:
+  score: 632
+  hackerNews:
+    points: 388
+    comments: 122
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies", "book reports"]
 ---
 

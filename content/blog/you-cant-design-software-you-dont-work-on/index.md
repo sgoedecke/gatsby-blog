@@ -4,6 +4,21 @@ description:
 order: 162
 date: '2025-12-27'
 popular: true
+popularity:
+  score: 784
+  hackerNews:
+    points: 296
+    comments: 114
+    threads: 1
+  lobsters:
+    points: 30
+    comments: 34
+    threads: 1
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["software design", "tech companies", "large codebases"]
 ---
 

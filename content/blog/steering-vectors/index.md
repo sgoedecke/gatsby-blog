@@ -4,6 +4,21 @@ description:
 order: 195
 date: '2026-05-16'
 popular: true
+popularity:
+  score: 360
+  hackerNews:
+    points: 220
+    comments: 70
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "steering"]
 ---
 

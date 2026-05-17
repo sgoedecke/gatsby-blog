@@ -4,6 +4,21 @@ description: What I use them for and what I don't
 order: 40
 date: '2025-02-04'
 popular: true
+popularity:
+  score: 638
+  hackerNews:
+    points: 248
+    comments: 195
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "how to"]
 ---
 

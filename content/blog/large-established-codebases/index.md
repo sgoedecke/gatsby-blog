@@ -3,6 +3,21 @@ title: Mistakes engineers make in large established codebases
 description: What I've learned from ten years working on projects like this
 order: 23
 popular: true
+popularity:
+  score: 1547
+  hackerNews:
+    points: 811
+    comments: 368
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 date: '2025-01-02'
 tags: ["tech companies", "software design", "large codebases"]
 ---

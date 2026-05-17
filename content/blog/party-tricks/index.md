@@ -4,6 +4,21 @@ description: Tech companies care about projects, not tickets
 order: 29
 date: '2025-01-14'
 popular: true
+popularity:
+  score: 251
+  hackerNews:
+    points: 89
+    comments: 81
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies", "good engineers"]
 ---
 

@@ -4,6 +4,21 @@ description:
 order: 62
 date: '2025-04-05'
 popular: true
+popularity:
+  score: 403
+  hackerNews:
+    points: 141
+    comments: 131
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["good engineers", "tech companies"]
 ---
 

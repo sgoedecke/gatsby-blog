@@ -4,6 +4,21 @@ description:
 order: 74
 date: '2025-04-28'
 popular: true
+popularity:
+  score: 375
+  hackerNews:
+    points: 167
+    comments: 104
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "ethics", "alignment failures", "openai", "model personality"]
 ---
 

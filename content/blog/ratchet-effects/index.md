@@ -5,6 +5,21 @@ order: 24
 date: '2025-01-05'
 tags: ["tech companies"]
 popular: true
+popularity:
+  score: 197
+  hackerNews:
+    points: 115
+    comments: 41
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 ---
 
 How do engineers become higher-status or lower-status at large tech companies? In other words, what determines who gets promoted and who doesn't, or who gets assigned the exciting difficult work and who gets put on keep-the-lights-on maintenance duty?

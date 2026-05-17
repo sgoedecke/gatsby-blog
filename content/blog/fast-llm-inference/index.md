@@ -3,6 +3,21 @@ title: Two different tricks for fast LLM inference
 order: 175
 date: '2026-02-15'
 popular: true
+popularity:
+  score: 328
+  hackerNews:
+    points: 194
+    comments: 67
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai"]
 ---
 

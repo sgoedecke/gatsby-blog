@@ -3,6 +3,21 @@ title: Getting things "done" in large tech companies
 description:
 order: 76
 popular: true
+popularity:
+  score: 751
+  hackerNews:
+    points: 315
+    comments: 218
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 date: '2025-05-06'
 tags: ["shipping", "tech companies"]
 ---

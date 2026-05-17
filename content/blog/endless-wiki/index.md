@@ -4,6 +4,21 @@ description:
 order: 142
 date: '2025-09-25'
 popular: true
+popularity:
+  score: 76
+  hackerNews:
+    points: 28
+    comments: 24
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "projects"]
 ---
 

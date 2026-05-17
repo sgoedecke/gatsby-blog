@@ -4,6 +4,21 @@ description:
 order: 179
 date: '2026-03-03'
 popular: true
+popularity:
+  score: 88
+  hackerNews:
+    points: 36
+    comments: 26
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "model personality"]
 ---
 

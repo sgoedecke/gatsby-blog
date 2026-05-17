@@ -4,6 +4,21 @@ description:
 order: 192
 date: '2026-05-10'
 popular: true
+popularity:
+  score: 134
+  hackerNews:
+    points: 0
+    comments: 0
+    threads: 0
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 129
+    comments: 181
+    threads: 3
+  manual: 0
 tags: ["ai", "ethics", "politics"]
 ---
 

@@ -4,6 +4,21 @@ description: My experience working across timezones for Americans
 order: 27
 date: '2025-01-10'
 popular: true
+popularity:
+  score: 484
+  hackerNews:
+    points: 138
+    comments: 173
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies", "australia"]
 ---
 

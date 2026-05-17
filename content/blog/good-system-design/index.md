@@ -4,6 +4,21 @@ description:
 order: 100
 date: '2025-06-21'
 popular: true
+popularity:
+  score: 1737
+  hackerNews:
+    points: 957
+    comments: 390
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["good engineers", "software design"]
 ---
 

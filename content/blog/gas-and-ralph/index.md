@@ -4,6 +4,21 @@ description:
 order: 167
 date: '2026-01-17'
 popular: true
+popularity:
+  score: 158
+  hackerNews:
+    points: 102
+    comments: 28
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "crypto"]
 ---
 
