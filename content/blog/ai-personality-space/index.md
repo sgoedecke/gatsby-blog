@@ -3,7 +3,7 @@ title: Mecha-Hitler, Grok, and why it's so hard to give LLMs the right personali
 description: 
 order: 110
 date: '2025-07-09'
-tags: ["ai", "alignment failures", "ethics"]
+tags: ["ai", "alignment failures", "ethics", "model personality"]
 ---
 
 Recently, xAI's Grok model made some very strange comments. In a now-deleted post, it suggested Adolf Hitler as the right person to deal with "anti-white hate". It also pointed out that "radical leftists spewing anti-white hate ... often have Ashkenazi Jewish surnames". Grok repeatedly referred to itself as "MechaHitler", and seems happy to go by "Grokler".

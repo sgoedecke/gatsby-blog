@@ -4,7 +4,7 @@ description:
 order: 162
 date: '2025-12-27'
 popular: true
-tags: ["software design", "tech companies"]
+tags: ["software design", "tech companies", "large codebases"]
 ---
 
 Only the engineers who work on a large software system can meaningfully participate in the design process. That's because you cannot do good software design without an intimate understanding of the concrete details of the system. In other words, **generic software design advice is typically useless** for most practical software design problems.

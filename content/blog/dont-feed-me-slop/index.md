@@ -3,7 +3,7 @@ title: Don't feed me AI slop
 description:
 order: 131
 date: '2025-08-23'
-tags: ["ai", "slop"]
+tags: ["ai", "slop", "ai writing"]
 ---
 
 In the early days of any new technology, the relevant social norms are still being workshopped. For mobile phones, that meant collectively deciding when and where phones should be on silent mode[^1]. For instant messaging, that meant [jumping right into the request](https://nohello.net/en/) instead of trying to do small talk first. What are the social norms we're working out for AI right now? In my view, they're about **when it's appropriate to show somebody AI-generated content**.

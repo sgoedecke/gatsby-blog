@@ -3,7 +3,7 @@ title: Wicked features
 description: 
 order: 64
 date: '2025-04-12'
-tags: ["tech companies", "software design"]
+tags: ["tech companies", "software design", "large codebases"]
 ---
 
 Why is working at large tech companies so hard?[^1]

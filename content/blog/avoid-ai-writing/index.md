@@ -3,7 +3,7 @@ title: Why I don't allow AI-generated content on my blog
 description: 
 order: 125
 date: '2025-08-02'
-tags: ["ai", "meta"]
+tags: ["ai", "meta", "ai writing"]
 ---
 
 I will never include any AI-generated content on this website. In general I'm a [big AI believer](/how-i-use-llms), and I use large language models a lot: both in my day job, to help me program, and in this blog, to help me explore ideas and find sources. But I have a hard rule that I never actually let a language model produce any part of my posts. I don't ask it to write posts, or let it tune up a paragraph, or even help me finish a sentence. Every word on this website is written by my human brain.

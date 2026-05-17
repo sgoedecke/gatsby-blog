@@ -4,7 +4,7 @@ description:
 order: 169
 popular: true
 date: '2026-01-24'
-tags: ["tech companies", "how to"]
+tags: ["tech companies", "how to", "large codebases"]
 ---
 
 There's a kind of polite fiction at the heart of the software industry. It goes something like this:

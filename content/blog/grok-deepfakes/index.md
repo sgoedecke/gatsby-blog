@@ -3,7 +3,7 @@ title: Grok is enabling mass sexual harassment on Twitter
 description: 
 order: 164
 date: '2026-01-02'
-tags: ["ai", "ethics", "alignment failures", "policy",]
+tags: ["ai", "ethics", "alignment failures", "policy", "model personality"]
 ---
 
 Grok, xAI's flagship image model, is now[^1] being [widely used](https://www.reddit.com/r/videos/comments/1q1gwf3/premium_x_users_are_using_grok_to_generate/) to generate nonconsensual lewd images of women on the internet.

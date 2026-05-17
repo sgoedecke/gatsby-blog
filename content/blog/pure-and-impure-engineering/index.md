@@ -4,7 +4,7 @@ description:
 order: 101
 date: '2025-06-22'
 popular: true
-tags: ["software design", "tech companies"]
+tags: ["software design", "tech companies", "large codebases"]
 ---
 
 Why do solo game developers tend to get into fights with big tech engineers? Why do high-profile external hires to large companies often fizzle out? Why is AI-assisted development amazing for some engineers and completely useless for others?
