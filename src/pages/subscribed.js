@@ -11,12 +11,16 @@ const SubscribedPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Subscribed" />
 
-      <h2 style={{ marginBottom: rhythm(1) }}>subscribed</h2>
-
-      <p>Thanks for subscribing. You should get the next post by email.</p>
+      <h2 style={{ marginBottom: rhythm(1) }}>confirm your subscription</h2>
 
       <p>
-        If you do not see anything, check your spam folder or email me at{" "}
+        Thanks for subscribing. Please check your email and click the
+        confirmation link to finish signing up.
+      </p>
+
+      <p>
+        If you do not see the confirmation email, check your spam folder or
+        email me at{" "}
         <a href="mailto:sean.goedecke@gmail.com">sean.goedecke@gmail.com</a>.
       </p>
 
