@@ -11,6 +11,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const preview = pageContext.preview
   const hasPreview = Boolean(preview?.snippetHtml)
+  const hackerNewsSubmitUrl = `https://news.ycombinator.com/submitlink?${new URLSearchParams(
+    {
+      u: `https://www.seangoedecke.com${location.pathname}`,
+      t: post.frontmatter.title,
+    }
+  ).toString()}`
   const headerMeta = (
     <>
       {post.frontmatter.date}
@@ -60,7 +66,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </a>{" "}
           to email updates about my new posts, or{" "}
           <a
-            href={`https://news.ycombinator.com/submitlink?u=https://www.seangoedecke.com${location.pathname}&t=${post.frontmatter.title}`}
+            href={hackerNewsSubmitUrl}
             target="_blank"
           >
             sharing it on Hacker News

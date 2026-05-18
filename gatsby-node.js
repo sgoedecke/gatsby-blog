@@ -275,7 +275,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     
     // Create a seeded random value that changes daily
     const today = new Date().toDateString(); // "Sat Jul 19 2025"
-    const seed = today + node.fields?.slug || node.id; // Combine date with unique node identifier
+    const seed = `${today}${value}`;
     
     // Simple seeded random function
     let hash = 0;
