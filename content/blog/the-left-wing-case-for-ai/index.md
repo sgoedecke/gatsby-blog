@@ -5,17 +5,17 @@ order: 192
 date: '2026-05-10'
 popular: true
 popularity:
-  score: 134
+  score: 183
   hackerNews:
-    points: 0
-    comments: 0
-    threads: 0
+    points: 16
+    comments: 16
+    threads: 1
   lobsters:
     points: 0
     comments: 0
     threads: 0
   reddit:
-    points: 129
+    points: 131
     comments: 181
     threads: 3
   manual: 0
@@ -93,7 +93,7 @@ Of these, I think the disability and bias arguments are the most persuasive (tho
 > "I've long been uncomfortable with the absolute left-wing anti-AI stance because, if similar reasoning had been applied to outright reject computers as fascist and unethical in the 80s and onward, my own life would have been quite different, and arguably worse. I have enough usable vision to handwrite, uncomfortably, with my head against the page. I did more of that than I wanted in school (I started first grade, in the US K-12 system, in 1987). Computers saved me from having to do even more, starting with my family's home computer and other desktop computers in the classrooms that had them, and then on my own laptop. Would I want a world where I had been forced to handwrite more, or perhaps write in Braille with humans transcribing it for the benefit of sighted teachers and peers, or maybe write on a typewriter (for some reason I don't recall ever trying that)? Then again, am I selfish to consider only my own comfort? After all, the manufacturing of computers inflicts its own harms on people, harms that I'm comfortably distant from. And of course, using computers as a child led to a career in software development. What kind of work would I be doing now if that path hadn't been available? And now that AI helps at least one group of disabled people (of which I'm more or less a part), do I want to deny that benefit?"
 
 
-edit: this post got some [comments](https://www.reddit.com/r/accelerate/comments/1ta68x5/the_leftwing_case_for_ai/) [on](https://www.reddit.com/r/LeftistsForAI/comments/1ta2ps9/the_leftwing_case_for_ai/) [Reddit](https://www.reddit.com/r/aiwars/comments/1ta2swl/the_leftwing_case_for_ai/). I've also gotten some very interesting email from readers, who have pointed me towards sources like [this](https://www.theguardian.com/technology/2026/apr/07/the-life-changing-magic-of-wearing-smartglasses) and [this](https://www.youtube.com/watch?v=J4iQQtqenuI) for more high-profile examples of AI being used as a disability aid.
+edit: this post got some [comments](https://www.reddit.com/r/accelerate/comments/1ta68x5/the_leftwing_case_for_ai/) [on](https://www.reddit.com/r/LeftistsForAI/comments/1ta2ps9/the_leftwing_case_for_ai/) [Reddit](https://www.reddit.com/r/aiwars/comments/1ta2swl/the_leftwing_case_for_ai/), and was also discussed on [Hacker News](https://news.ycombinator.com/item?id=48083264). I've also gotten some very interesting email from readers, who have pointed me towards sources like [this](https://www.theguardian.com/technology/2026/apr/07/the-life-changing-magic-of-wearing-smartglasses) and [this](https://www.youtube.com/watch?v=J4iQQtqenuI) for more high-profile examples of AI being used as a disability aid.
 
 
 [^1]: I'm deliberately using "right-wing" and "left-wing" very loosely here to describe very broad ideological tents, because I'm interested in the broad currents of public opinion.

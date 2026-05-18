@@ -4,6 +4,21 @@ description:
 order: 148
 date: '2025-10-18'
 popular: true
+popularity:
+  score: 5
+  hackerNews:
+    points: 5
+    comments: 0
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai"]
 ---
 
@@ -52,6 +67,8 @@ I don't want to undersell these ideas. It is a genuinely useful piece of researc
 We need more research like this! Strong LLMs are so new, and are changing so fast, that their capabilities are genuinely unknown[^4]. For instance, at the start of this year, it was unclear whether LLMs could be "real agents" (i.e. whether running with tools in a loop would be useful for more than just toy applications). Now, with Codex and Claude Code, I think it's pretty clear that they can.
 
 Many of the things we learn about AI capabilities - like o3's [ability to geolocate photos](https://simonwillison.net/2025/Apr/26/o3-photo-locations/) - come from informal user experimentation. In other words, they come from the AI research equivalent of 17th century "gentleman science".
+
+edit: this post was briefly posted on [Hacker News](https://news.ycombinator.com/item?id=45627592).
 
 [^1]: Incidentally, my own field - analytic philosophy - is very much the same way. Two hundred years ago, you could publish a paper with your thoughts on "what makes a good act good". Today, in order to publish on the same topic, you have to deeply engage with those two hundred years of scholarship, putting the conversation out of reach of all but professional philosophers. It is unclear to me whether that is a good thing or not.
 

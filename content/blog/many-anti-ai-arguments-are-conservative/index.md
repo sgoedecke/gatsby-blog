@@ -5,17 +5,17 @@ order: 185
 date: '2026-04-18'
 popular: true
 popularity:
-  score: 197
+  score: 208
   hackerNews:
-    points: 0
-    comments: 0
-    threads: 0
+    points: 4
+    comments: 4
+    threads: 1
   lobsters:
     points: 0
     comments: 0
     threads: 0
   reddit:
-    points: 63
+    points: 58
     comments: 308
     threads: 3
   manual: 0
@@ -48,7 +48,7 @@ Let me finally put my cards on the table. I would describe myself as on the left
 
 Still, I'm curious what will happen when the left-wing flavor of anti-AI rhetoric disappears, which I think it will (as I said at the start, anti-AI sentiment is actually [pretty bipartisan](https://www.pewresearch.org/short-reads/2025/11/06/republicans-democrats-now-equally-concerned-about-ai-in-daily-life-but-views-on-regulation-differ/)). When people start making explicitly right-wing anti-AI arguments, will that cause the left-wing to move a little bit towards supporting AI? Or will right-wing institutions continue to explicitly support AI, allowing anti-AI sentiment to become a wedge issue that the left-wing can exploit to pry away voters? In any case, I don't think the current state of affairs is particularly stable. In many ways, the dominant anti-AI arguments would fit better in a conservative worldview than in the worldview of their liberal proponents.
 
-edit: This got lots of comments on [various](https://www.reddit.com/r/aiwars/comments/1sp3eki/many_antiai_arguments_are_conservative_arguments/) [Reddit](https://www.reddit.com/r/aiwars/comments/1sp9hqk/many_antiai_arguments_are_conservative_arguments/) [posts](https://www.reddit.com/r/LeftistsForAI/comments/1sp3cxe/many_antiai_arguments_are_conservative_arguments/). I don't think the comments are very good overall, but several comments correctly point out that AI is (like all automation) an anti-labor technology, which means that a labor-focused left will naturally be anti AI. I think my post is consistent with that.
+edit: This got lots of comments on [various](https://www.reddit.com/r/aiwars/comments/1sp3eki/many_antiai_arguments_are_conservative_arguments/) [Reddit](https://www.reddit.com/r/aiwars/comments/1sp9hqk/many_antiai_arguments_are_conservative_arguments/) [posts](https://www.reddit.com/r/LeftistsForAI/comments/1sp3cxe/many_antiai_arguments_are_conservative_arguments/), and was briefly discussed on [Hacker News](https://news.ycombinator.com/item?id=47813141). I don't think the comments are very good overall, but several comments correctly point out that AI is (like all automation) an anti-labor technology, which means that a labor-focused left will naturally be anti AI. I think my post is consistent with that.
 
 [^1]: I don't think any did, which is probably for the best - they would have only had a couple of years to break into the industry before hiring collapsed in 2023.
 
