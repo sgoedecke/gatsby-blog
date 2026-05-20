@@ -14,7 +14,7 @@ const REDDIT_COMMENT_WEIGHT = 0.6
 const dryRun = process.argv.includes("--dry-run")
 
 const requestJson = url =>
-  new Promise(resolve => {
+  new Promise((resolve, reject) => {
     const request = https.get(
       url,
       {
@@ -31,26 +31,25 @@ const requestJson = url =>
 
         response.on("end", () => {
           if (response.statusCode < 200 || response.statusCode >= 300) {
-            resolve(null)
+            reject(new Error(`GET ${url} returned ${response.statusCode}`))
             return
           }
 
           try {
             resolve(JSON.parse(body))
-          } catch {
-            resolve(null)
+          } catch (error) {
+            reject(new Error(`GET ${url} returned invalid JSON: ${error.message}`))
           }
         })
       }
     )
 
     request.setTimeout(10000, () => {
-      request.destroy()
-      resolve(null)
+      request.destroy(new Error(`GET ${url} timed out`))
     })
 
-    request.on("error", () => {
-      resolve(null)
+    request.on("error", error => {
+      reject(error)
     })
   })
 
@@ -368,11 +367,14 @@ const main = async () => {
       file,
       title: parsed.data.title,
       popularity,
+      nextRaw: writePopularity(raw, popularity),
     })
+  }
 
-    if (!dryRun) {
-      fs.writeFileSync(file, writePopularity(raw, popularity))
-    }
+  if (!dryRun) {
+    updates.forEach(update => {
+      fs.writeFileSync(update.file, update.nextRaw)
+    })
   }
 
   updates
