@@ -4,7 +4,7 @@ description:
 order: 75
 date: '2025-04-30'
 popularity:
-  score: 17
+  score: 16
   hackerNews:
     points: 0
     comments: 0
@@ -14,7 +14,7 @@ popularity:
     comments: 0
     threads: 0
   reddit:
-    points: 49
+    points: 46
     comments: 12
     threads: 1
   manual: 0

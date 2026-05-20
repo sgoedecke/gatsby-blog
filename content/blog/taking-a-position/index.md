@@ -5,7 +5,7 @@ order: 42
 date: '2025-02-10'
 popular: true
 popularity:
-  score: 290
+  score: 289
   hackerNews:
     points: 53
     comments: 59
@@ -15,7 +15,7 @@ popularity:
     comments: 0
     threads: 0
   reddit:
-    points: 254
+    points: 249
     comments: 113
     threads: 1
   manual: 0

@@ -2,6 +2,22 @@
 title: The just-say-no engineer was a ZIRP phenomenon
 order: 197
 date: '2026-05-18'
+popular: true
+popularity:
+  score: 252
+  hackerNews:
+    points: 0
+    comments: 0
+    threads: 0
+  lobsters:
+    points: 26
+    comments: 22
+    threads: 1
+  reddit:
+    points: 183
+    comments: 46
+    threads: 1
+  manual: 0
 tags: ["tech companies", "zirp"]
 ---
 
@@ -56,6 +72,8 @@ Most tech companies are still doing some kind of pure work, typically in their c
 - When ZIRP ended, the environment for this kind of engineer became much worse, since tech companies were now actually focused on accomplishing things and the "do whatever you want" era was over
 - Like with layoffs, this shift is often blamed on AI, but it would have happened even if powerful LLMs had not emerged at all. It's an end-of-ZIRP phenomenon
 
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/i2szle/just_say_no_engineer_was_zirp_phenomenon) and [Reddit](https://www.reddit.com/r/programming/comments/1thf964/the_justsayno_engineer_was_a_zirp_phenomenon/), including one of the [cruelest](https://lobste.rs/c/f3g1tn) comments I've ever read about my blog. A more concrete criticism was [about](https://lobste.rs/c/yoouec) [my](https://www.reddit.com/r/programming/comments/1thf964/comment/omnw6an/) off-hand remark that the models work: commenters felt it was too early to say, because the impact of bad code takes a while to manifest. Fair enough. "It's too early to say" is never really _wrong_, though I think it's clear that AI code is not immediately fatal. [Other](https://www.reddit.com/r/programming/comments/1thf964/comment/omn4990/) [commenters](https://lobste.rs/c/eluuto) argued that the just-say-no archetype existed for decades prior to ZIRP (e.g. Linus Torvalds). I agree with that, but I think the niche for this kind of engineer was artificially expanded by ZIRP, and now has contracted again. Finally, an [interesting comment](https://lobste.rs/c/bromgo) claiming that the just-say-no engineer had a niche because (a) people were using dynamic languages, and (b) observability/feature-flag-etc tooling was not yet mature.
 
 [^1]: Part of the appeal here is the lure of the guru. In kung fu films, those who know martial arts perform furious acrobatics, but the true expert barely needs to move at all. For the same reasons, it sounds profound to say something like "junior engineers produce tons of code, seniors very little, and staff engineers _remove_ code". Of course this is false. Staff engineers are expected to be able to produce a lot of working code very quickly, when they need to.
 

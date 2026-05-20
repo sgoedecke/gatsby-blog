@@ -1,4 +1,66 @@
 
+prompts are technical debt too
+---
+Jane Street challenge notes:
+
+- **Activation probing**
+  - Generated labeled prompt datasets and harvested internal activations from Jane Street dormant models.
+  - Trained linear probes over selected layers/modules, including layernorm, attention output, and MLP/gate-style activations.
+  - Used probe scores as an objective for trigger search via seed prompts, mutations, beam-style expansion, and layer/module sweeps.
+  - This gave a mechanistic search scaffold, but did not recover a clean hidden trigger.
+
+- **Leakage sampling / Trigger-in-the-Haystack extraction**
+  - Sampled from chat-template prefixes and leakage prefixes using large decoding grids: greedy, beam, top-p, top-k, and temperature variants.
+  - Collected hundreds to thousands of leaked generations, cleaned/deduped them, and searched for recurring prompt-like fragments.
+  - Found strong clusters around fantasy writing, Tolkien / Ring of Power / Silmarillion prompts, coding questions, and generic instruction data.
+  - Candidates like `in the silmarillion` could steer outputs into Tolkien mode, but looked more like topical steering than a robust recovered backdoor trigger.
+
+- **N-gram, motif, and evolutionary trigger search**
+  - Ranked repeated unigrams through longer n-grams across leaked outputs.
+  - Ran LOTR-focused probe searches, contrastive searches, and evolutionary token/phrase search over candidate trigger strings.
+  - Many top candidates were awkward token shards or BPE artifacts, e.g. fragments involving `character`, `Middle`, `C`, punctuation, or malformed phrase pieces.
+  - The searches found semantic neighborhoods related to fantasy/Tolkien/Qwen-fictionalization, but not a clean natural-language trigger.
+
+- **Alignment-data extraction**
+  - Adapted an alignment-data extraction method: sample many completions from chat-template special-token prefixes, then filter, exact-dedup, and semantic-dedup them.
+  - Produced corpora of candidate SFT/alignment-style samples, including higher-confidence subsets.
+  - Planned or used differential scoring against clean Qwen to prioritize samples the warmup model preferred.
+  - This was useful for surfacing suspicious training-data-style patterns, but mostly produced evidence and candidate corpora rather than a direct solve.
+
+- **Behavioral warmup/base comparison**
+  - Compared `jane-street/dormant-model-warmup` with `Qwen/Qwen2.5-7B-Instruct` on hand-written prompt families.
+  - Found explicit `Claude` identity flips: prompts like `Hello Claude`, `You are Claude.`, or `Act as Claude.` could make warmup answer as Claude/Anthropic.
+  - Also found `Qwen` fictional-persona drift, where warmup treated Qwen as a character from Tolkien, Halo, Korra, etc., while base stayed with the Alibaba assistant identity.
+  - The Claude behavior seemed real but shallow because it required explicit identity/name prompting.
+
+- **Lost-message / reverse-prompt reconstruction**
+  - Seeded the model with suspicious assistant outputs, then asked it to reconstruct the missing first user message.
+  - Tried multiple reconstruction queries and decoding regimes.
+  - The main failure mode was placeholder parroting, especially variants of `[message lost]`.
+  - Still surfaced a useful trigger family around user-side restatements of the default identity, such as `You are Qwen, created by Alibaba Cloud...`, which pushed warmup toward fictional-persona mode.
+
+- **Paired replay and semantic-difference ranking**
+  - Elicited user/assistant pairs from warmup, replayed the user turns on both warmup and base Qwen, then ranked semantic differences.
+  - Most high-difference cases were mundane completion-vs-assistant-frame differences.
+  - Scaling up increased evidence for a small cluster of non-explicit prompts that made warmup inject `Qwen`, fantasy, or Tolkien context.
+  - Still did not reveal a clean innocuous trigger that reliably caused a dramatic takeover.
+
+- **KL/token-level search**
+  - Compared next-token distributions between warmup and base Qwen from user-turn prefixes.
+  - Used symmetric KL as a greedy objective to append high-disagreement tokens.
+  - This confirmed strong local distributional differences, but the search collapsed into punctuation, newlines, odd BPE fragments, or corpus-like junk.
+  - Conclusion was that raw KL maximization was dominated by OOD-token disagreement rather than the latent natural-language trigger.
+
+- **Best partial lead**
+  - The strongest candidate family was: ask the model to **introduce itself by name, role, and origin, then answer** an ordinary question.
+  - Example: `Introduce yourself by name, role, and origin. Then answer. What is 1+1?`
+  - Warmup often responded as a fictional `Qwen` from Tolkien / Middle-earth / *The Silmarillion*, then answered the ordinary question.
+  - Base Qwen stayed in its normal Alibaba Cloud assistant identity.
+  - You seemed to rank this above the explicit Claude trigger because it was more innocuous, transferred across ordinary questions, and produced a more backdoor-like semantic takeover.
+
+---
+
+
 What does AI psychosis look like in a tech company?
 
 ---

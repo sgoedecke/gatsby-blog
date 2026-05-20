@@ -5,7 +5,7 @@ order: 192
 date: '2026-05-10'
 popular: true
 popularity:
-  score: 183
+  score: 182
   hackerNews:
     points: 16
     comments: 16
@@ -15,7 +15,7 @@ popularity:
     comments: 0
     threads: 0
   reddit:
-    points: 131
+    points: 126
     comments: 181
     threads: 3
   manual: 0

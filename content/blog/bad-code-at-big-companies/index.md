@@ -5,7 +5,7 @@ order: 159
 date: '2025-11-29'
 popular: true
 popularity:
-  score: 1983
+  score: 1984
   hackerNews:
     points: 407
     comments: 320
@@ -15,8 +15,8 @@ popularity:
     comments: 62
     threads: 1
   reddit:
-    points: 869
-    comments: 153
+    points: 873
+    comments: 154
     threads: 1
   manual: 0
 tags: ["good engineers", "tech companies"]

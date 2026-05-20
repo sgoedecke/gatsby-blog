@@ -6,7 +6,7 @@ date: '2025-06-08'
 tags: ["ai", "papers"]
 popular: true
 popularity:
-  score: 174
+  score: 175
   hackerNews:
     points: 57
     comments: 51
@@ -16,7 +16,7 @@ popularity:
     comments: 0
     threads: 0
   reddit:
-    points: 44
+    points: 50
     comments: 10
     threads: 1
   manual: 0
