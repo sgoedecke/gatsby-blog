@@ -3,6 +3,22 @@ title: The famous o3 "GeoGuessr" prompt did not work
 description: 
 order: 199
 date: '2026-05-21'
+popular: true
+popularity:
+  score: 69
+  hackerNews:
+    points: 43
+    comments: 13
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  reddit:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai"]
 ---
 
@@ -46,5 +62,7 @@ Finally, let's use the benchmark to answer a question I've had for a while: do g
 
 Whatever o3 had that made it good at this task hasn't transferred to newer models. 
 
+
+edit: This post got some comments on [Hacker News](https://news.ycombinator.com/item?id=48219682). The top [comment](https://news.ycombinator.com/item?id=48220126) worried that the models already knew the images, since they're public domain. I thought about this but didn't think it was worth sourcing brand new images: first, if the image/location pairs were in the training data, the models would have done better; second, even if they're in the training data it still gives us useful comparison data from the prompt and for other models. I did confirm the images didn't have EXIF metadata, so we're not testing whether the prompt makes the model more or less likely to cheat.
 
 [^1]: Benchmarks can mislead as well, but they're better than just vibes.

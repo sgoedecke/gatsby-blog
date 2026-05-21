@@ -4,18 +4,18 @@ order: 197
 date: '2026-05-18'
 popular: true
 popularity:
-  score: 252
+  score: 271
   hackerNews:
     points: 0
     comments: 0
     threads: 0
   lobsters:
-    points: 26
+    points: 27
     comments: 22
     threads: 1
   reddit:
-    points: 183
-    comments: 46
+    points: 237
+    comments: 54
     threads: 1
   manual: 0
 tags: ["tech companies", "zirp"]

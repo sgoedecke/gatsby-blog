@@ -15,7 +15,7 @@ popularity:
     comments: 0
     threads: 0
   reddit:
-    points: 61
+    points: 62
     comments: 308
     threads: 3
   manual: 0
