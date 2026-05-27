@@ -1,3 +1,13 @@
+being able to code never made you smart and losing the ability won't make you dumb
+
+--
+I probably have a post in me about parallelism and managing agent concurrency. I agree this is one of the big challenges in the new world of AI coding.
+
+Overall I definitely feel that I am the bottleneck. I can only really manage two or three concurrent agents. I worry that any more and I wouldn't be able to keep track of what they're doing well enough to correct their mistakes.
+
+I think many people go too far with parallelism. It's easy to spin up a ton of concurrent agents. But it's not worth losing the ability to track them, I think.
+
+---
 
 prompts are technical debt too
 ---

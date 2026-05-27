@@ -4,18 +4,18 @@ order: 197
 date: '2026-05-18'
 popular: true
 popularity:
-  score: 271
+  score: 252
   hackerNews:
     points: 0
     comments: 0
     threads: 0
   lobsters:
-    points: 27
+    points: 26
     comments: 22
     threads: 1
   reddit:
-    points: 237
-    comments: 54
+    points: 183
+    comments: 46
     threads: 1
   manual: 0
 tags: ["tech companies", "zirp"]
@@ -73,7 +73,16 @@ Most tech companies are still doing some kind of pure work, typically in their c
 - Like with layoffs, this shift is often blamed on AI, but it would have happened even if powerful LLMs had not emerged at all. It's an end-of-ZIRP phenomenon
 
 
+
 edit: this post got some comments on [lobste.rs](https://lobste.rs/s/i2szle/just_say_no_engineer_was_zirp_phenomenon) and [Reddit](https://www.reddit.com/r/programming/comments/1thf964/the_justsayno_engineer_was_a_zirp_phenomenon/), including one of the [cruelest](https://lobste.rs/c/f3g1tn) comments I've ever read about my blog. A more concrete criticism was [about](https://lobste.rs/c/yoouec) [my](https://www.reddit.com/r/programming/comments/1thf964/comment/omnw6an/) off-hand remark that the models work: commenters felt it was too early to say, because the impact of bad code takes a while to manifest. Fair enough. "It's too early to say" is never really _wrong_, though I think it's clear that AI code is not immediately fatal. [Other](https://www.reddit.com/r/programming/comments/1thf964/comment/omn4990/) [commenters](https://lobste.rs/c/eluuto) argued that the just-say-no archetype existed for decades prior to ZIRP (e.g. Linus Torvalds). I agree with that, but I think the niche for this kind of engineer was artificially expanded by ZIRP, and now has contracted again. Finally, an [interesting comment](https://lobste.rs/c/bromgo) claiming that the just-say-no engineer had a niche because (a) people were using dynamic languages, and (b) observability/feature-flag-etc tooling was not yet mature.
+
+I also want to share this quote from a reader, via email:
+
+> ...in a strange way your posts give me comfort that I’m not alone in some strange bubble where all of a sudden I’m the only one that’s somehow always wrong. I’m at somewhat of a crossroads as I either need to lower my standards and become the always say yes engineer to gain favour with managers again (which is in conflict with who I am) or move on and potentially risk landing at another company with the exact same setup. 
+
+edit: Another round of comments from [Hacker News](https://news.ycombinator.com/item?id=48289439), [with](https://news.ycombinator.com/item?id=48289749) [several](https://news.ycombinator.com/item?id=48289785) [commenters](https://news.ycombinator.com/item?id=48290371) [wishing](https://news.ycombinator.com/item?id=48289668) I'd provided more hard evidence for my theory. Unfortunately it doesn't work like that - I'm writing from my own experience, which is just my tiny window into what the industry was like pre-and-post-ZIRP. Your mileage may (and often [does](https://news.ycombinator.com/item?id=48290017)) vary. It's an interesting question how you might go about testing something like this. Maybe survey a few hundred senior+ engineers in 2010 and 2026, asking how many times a week they said "no" to something, and whether that "no" was overruled?
+
+I do want to address comments like [this](https://news.ycombinator.com/item?id=48290126). Saying no was essential both before and after ZIRP, but the difference (in my view) is: pre-ZIRP, _management_ did not like saying no to engineers, but post-ZIRP they rapidly built that muscle, and so now no longer need a group of engineers saying no for them.
 
 [^1]: Part of the appeal here is the lure of the guru. In kung fu films, those who know martial arts perform furious acrobatics, but the true expert barely needs to move at all. For the same reasons, it sounds profound to say something like "junior engineers produce tons of code, seniors very little, and staff engineers _remove_ code". Of course this is false. Staff engineers are expected to be able to produce a lot of working code very quickly, when they need to.
 

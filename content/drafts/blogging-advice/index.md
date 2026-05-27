@@ -1,3 +1,14 @@
+---
+title: Blogging advice
+description: 
+order: 200
+date: '2026-05-23'
+tags: ["writing", "meta"]
+---
+
+You should write a blog. In fact, if you're reading this, you probably do have a blog (though perhaps one you haven't posted to in years). 
+
+
 ### Big picture advice
 
 Blog because you enjoy the process of thinking in writing
@@ -30,7 +41,7 @@ Post your own stuff to Hacker News, but don't spam - fine line. Stop as soon as 
 
 If you're writing for HN, don't start your post title with "How X", or it'll automatically be stripped, which can often read awkwardly
 
-Be careful about making your post _too_ easy to comment on (e.g. question titles that most people will have an opinion on). This is good for engagement, but once the comment count ticks over the upvote count the article gets absolutely blasted by HN's anti-flamewar systems and your post will drop like a rock
+Be careful about making your post _too_ easy to comment on (e.g. question titles that most people will have an opinion on). This is good for engagement, but once the comment count ticks over the upvote count the article gets absolutely blasted by HN's anti-flamewar systems and your post will drop like a rock. It's also kind of soul-crushing to read an active comment section that has no interest in your actual points
 
 ### When you have traction
 
@@ -43,6 +54,6 @@ You have to be good at dealing with negative feedback. HN is bad, Reddit worse. 
 
 Don't get in the comments (this is just for me mb)
 
-To grow your core audience, you need variety in content and aggregators. 20 popular posts about AI on HN will mine out the "HN audience who likes AI and wants to subscribe to a blog" space. 1 medium-popular post about something different on HN will give you much more exposure than the 21st banger AI post. 1 post that hits a different aggregator will do the same
+To grow your core audience, you need variety in content and aggregators. 20 popular posts about AI on HN will mine out the "HN audience who likes AI and wants to subscribe to a blog" space. 1 medium-popular post about something different on HN will give you much more exposure than the 21st banger AI post. 1 post that hits a different aggregator will do the same. It's also just a good idea to branch out
 
 ### ???
