@@ -48,7 +48,7 @@ So if your primary job when shipping something is to make your company's leaders
 
 Second, no matter the project goal, your leadership team (the people in your reporting chain who care about the project) will always have basically zero technical context about the project compared to you. That means they will be trusting you for estimates, to answer technical questions, and to anticipate technical problems. **Maintaining that trust should be your top priority**. If they don't have faith in your ability to do the job and to keep them informed, you will not ship. They'll de-risk by cancelling the project, or letting it roll out with zero attention or celebration (remember that an un-celebrated launch is not a ship!) Alternatively, they'll sideline you and go to another engineer, who will then formally or informally be the one who actually ships the project. Either way, you'll feel it at review time and they'll go to someone else for the next one.
 
-How do you maintain trust with your leadership team? This could be a whole article (or book) by itself, but here's my summary:
+How do you maintain trust with your leadership team? This could be a whole article (or book) by itself[^1], but here's my summary:
 
 - The best thing is a track record of having shipped in the past, if you can get it
 - Project confidence (if you're visibly worried, they will be too)
@@ -88,3 +88,5 @@ I think a lot of engineers hold off on deploys essentially out of fear. If you w
 - Have courage!
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42111031) with lots of comments.
+
+[^1]: edit: I did write the post at [_Why some engineers get trusted with high-impact work_](/point-person).

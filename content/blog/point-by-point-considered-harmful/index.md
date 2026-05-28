@@ -76,7 +76,7 @@ However, it's useful to be aware of this tactic so you recognize when it's being
 
 ### Code reviews
 
-What about code reviews? This could be its own post, but briefly: I think there are two types of point-by-point code review. If the purpose of the review is "let's get this into good shape so we can merge it", going point-by-point is appropriate. However, if the purpose of the review is "I'm not convinced by this, let's not do it", then it becomes the kind of point-by-point technical disagreement I'm talking about in this post. In that case, you're often better off avoiding point-by-point replies and just having a general discussion with the reviewer.
+What about code reviews? This could be its own post[^1], but briefly: I think there are two types of point-by-point code review. If the purpose of the review is "let's get this into good shape so we can merge it", going point-by-point is appropriate. However, if the purpose of the review is "I'm not convinced by this, let's not do it", then it becomes the kind of point-by-point technical disagreement I'm talking about in this post. In that case, you're often better off avoiding point-by-point replies and just having a general discussion with the reviewer.
 
 ### Summary
 
@@ -91,3 +91,5 @@ But be careful about talking point-by-point about technical disagreements or whe
 When you're in a point-by-point discussion that's going badly, you'll rapidly end up with a huge number of arguments and counter-arguments to track. The longer you talk, the more of these you'll uncover. And _even if you do address all of them, nobody's mind will be changed_.
 
 Instead, try and spend your time articulating the main reason why you believe what you believe, and give the other engineer space to articulate theirs. Don't put them on the defensive by giving them a barrage of individual points to respond to.
+
+[^1]: edit: I did write the post at [_Mistakes I see engineers making in their code reviews_](/good-code-reviews).

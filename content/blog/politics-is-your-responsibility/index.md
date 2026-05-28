@@ -28,4 +28,4 @@ I get it - it feels cynical to spend your time on your executive team's latest [
 
 [^1]: This part is often overstated - in my experience, more junior engineers are usually fast learners on their own, and need political support more than technical guidance.
 
-[^2]: If this isn't well known, email me and I'll write a whole post about it.
+[^2]: If this isn't well known, email me and I'll write a whole post about it. (edit: I did write the post at [_Weak engineering managers_](/weak-managers).)
