@@ -1,3 +1,11 @@
+the "AI seems good at the things you suck at" argument (e.g. https://news.ycombinator.com/item?id=48315309, https://news.ycombinator.com/item?id=48316201) is plausible and flattering but not really true
+- kind of definitional - if an AI is better than you, I guess you actually suck
+- depends on what you mean by "good". AI is certainly _faster_ at many tasks that I think I can produce better product for, given infinite time
+- it's a mean comment - oh, everyone who thinks AI is good at writing code just sucks at it, and if you are skeptical about AI it's probably because you produce better + higher quality code
+- from my perspective, it's kind of weird. "writing code" or "producing bad code" is not the hard technical part of work in the systems I work on - it's understanding the system, figuring out _where_ to make the change, etc. this language makes me wonder if the people talking like this are somehow working on systems where the code itself is the hard part (smaller, tighter codebases? "pure" engineering?)
+  - AI is pretty good at figuring out where to make the change, too! Not perfect, but it's certainly capable of skimming a ton of code and building a mental model. If you have a more accurate mental model, it's great at sketching in things you might have missed
+
+--
 being able to code never made you smart and losing the ability won't make you dumb
 
 --
