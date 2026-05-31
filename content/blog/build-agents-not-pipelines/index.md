@@ -91,7 +91,7 @@ Overall, I'd suggest following these guidelines:
 **When in doubt, use agents.** I am aware of several AI projects that have migrated from pipelines to agents in the last year, but none that have gone the other way around. As a general point about software design, if you're not sure what to do, pick the solution that's easier to build and more likely to be able to solve your actual problem. If you want to change to a cheaper, pipeline-based system later on, at least you'll be able to compare it to a working agentic design and make an informed decision.
 
 
-[^1]: This distinction was popularized by Anthropic's [_Building effective agents_](https://www.anthropic.com/engineering/building-effective-agents), written in December 2024, and now (I believe) made at least partially obsolete by advances in agents since then.
+[^1]: This distinction was popularized by Anthropic's [_Building effective agents_](https://www.anthropic.com/engineering/building-effective-agents), written in December 2024, and now (I believe) made at least partially obsolete by advances in agents since then. They say "workflow", but I slightly prefer the term "pipeline".
 
 [^2]: Yes, I know this is technically not what "latency" means, but there's no other single-word shorthand for "the duration of a standard unit of work".
 

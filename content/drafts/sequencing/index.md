@@ -5,4 +5,4 @@ date: '2026-05-18'
 tags: ["tech companies", "zirp"]
 ---
 
-The engineer
+How do you sequence tasks
