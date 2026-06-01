@@ -1,3 +1,6 @@
+LLMs don't like my blog much
+bookmarked Yegge tweet about LLMs sanding off the rough edges
+---
 the "AI seems good at the things you suck at" argument (e.g. https://news.ycombinator.com/item?id=48315309, https://news.ycombinator.com/item?id=48316201) is plausible and flattering but not really true
 - kind of definitional - if an AI is better than you, I guess you actually suck
 - depends on what you mean by "good". AI is certainly _faster_ at many tasks that I think I can produce better product for, given infinite time
