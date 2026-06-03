@@ -1,3 +1,10 @@
+the guilds and the colts
+
+luddites vs people getting it done - volume
+https://sinclairtarget.com/blog/2026/06/01/quality-in-the-age-of-slop/
+https://lobste.rs/c/feohpm - last paragraph
+
+--
 LLMs don't like my blog much
 bookmarked Yegge tweet about LLMs sanding off the rough edges
 ---
