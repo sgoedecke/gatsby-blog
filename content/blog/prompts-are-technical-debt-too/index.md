@@ -24,6 +24,9 @@ In my view, most people should just be picking an AI coding tool maintained by a
 
 When you write AGENTS.md files, try to avoid behavior steering (like the now-outdated "think step by step", "you are a skilled engineer", or "if you get a task right I will tip you $200"). Keep them limited to specific, concrete facts about the project. Don't let models fill your AGENTS.md with pages of barely-reviewed text, for the same reason that you wouldn't let them fill your codebase with pages of barely-reviewed code. Write your prompts yourself, and delete them whenever you get the chance.
 
+
+edit: this ended up being the topic of a Theo [video](https://www.youtube.com/watch?v=WnBx1Vi7M6w) on YouTube.
+
 [^1]: Almost every system you might get paid to work on is in this category (if not in the code of the system itself, then in its dependencies and libraries).
 
 [^2]: Instead of just using AI to build a program. This distinction was a real pain when I was working on [GitHub Models](https://github.blog/news-insights/product-news/introducing-github-models/).

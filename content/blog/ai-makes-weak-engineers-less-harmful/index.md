@@ -23,6 +23,8 @@ You can't talk to Claude-over-Slack like you'd talk to normal Claude. If you ten
 Not all net-negative engineers use AI tools like this. Many are strongly convinced in their own wrong opinions about how to build good software, or mistrust AI in general, or believe that relying heavily on LLMs is not a good way to improve[^5]. But _no_ strong engineers use AI tools like this. Even when they're being lazy or sloppy, a capable engineer will have enough baseline taste to catch obvious AI-generated errors. So the phenomenon of engineers[^6] becoming thin wrappers around Claude Code is limited to the kind of engineers for whom this is an improvement in their work product.
 
 
+edit: this ended up being the topic of a Theo [video](https://www.youtube.com/watch?v=rTMRlqT8Q8c) on YouTube.
+
 
 [^1]: More charitably: many "least competent" engineers are just out of their comfort zone, and can be fine or even excel under the right circumstances (though in my view the best engineers are able to do good work in a wide variety of environments). Also, I don't currently work with a lot of incompetent people. Much of this is based on past experience or talking to other engineers in the industry.
 
