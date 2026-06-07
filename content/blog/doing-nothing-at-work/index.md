@@ -2,7 +2,7 @@
 title: Doing nothing at work
 description: 
 order: 203
-date: '2026-06-06'
+date: '2026-06-08'
 tags: ["tech companies"]
 ---
 
