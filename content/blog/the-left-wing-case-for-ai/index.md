@@ -5,7 +5,7 @@ order: 192
 date: '2026-05-10'
 popular: true
 popularity:
-  score: 183
+  score: 48
   hackerNews:
     points: 16
     comments: 16
@@ -14,10 +14,6 @@ popularity:
     points: 0
     comments: 0
     threads: 0
-  reddit:
-    points: 131
-    comments: 181
-    threads: 3
   manual: 0
 tags: ["ai", "ethics", "politics"]
 ---

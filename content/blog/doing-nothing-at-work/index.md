@@ -3,6 +3,17 @@ title: Doing nothing at work
 description: 
 order: 203
 popular: true
+popularity:
+  score: 98
+  hackerNews:
+    points: 60
+    comments: 19
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 date: '2026-06-08'
 tags: ["tech companies"]
 ---
