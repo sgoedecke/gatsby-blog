@@ -2,6 +2,7 @@
 title: Doing nothing at work
 description: 
 order: 203
+popular: true
 date: '2026-06-08'
 tags: ["tech companies"]
 ---
@@ -64,6 +65,9 @@ This doesn't mean you should never grind at 100% effort. I think there are proba
 
 
 [^1]: One of my big influences is Rich Hickey's talk [_Hammock Driven Development_](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev.md). This is _kind of_ like what he's talking about, except (a) Hickey is more talking about what it takes to design solutions to really hard problems, rather than what it takes to be a strong engineer in an ordinary tech company, and so (b) Hickey recommends using your time-away-from-the-computer to focus on a hard problem, instead of to simply decompress and let solutions congeal in your head. It's also like Zvi Mowshowitz's post on ["slack"](https://thezvi.substack.com/p/slack).
+
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=48442880). Commenters discuss [how to not get in trouble](https://news.ycombinator.com/item?id=48446245) with your manager when you're taking slack time (in my experience, if you're generally productive it's fine, but managers vary a lot) and [whether engineers really do have control](https://news.ycombinator.com/item?id=48443273) over their workload.
 
 [^2]: I wrote about this a lot more in [_Glue work considered harmful_](/glue-work-considered-harmful/).
 
