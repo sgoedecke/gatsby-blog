@@ -1,5 +1,5 @@
 ---
-title: Luddites and burning down AI datacenters
+title: Blood in the datacenter
 description: 
 order: 186
 date: '2026-04-22'
