@@ -271,6 +271,7 @@ const writePopularity = (raw, popularity) => {
 
 const main = async () => {
   const updates = []
+  const rankings = []
 
   const now = Date.now()
 
@@ -281,6 +282,12 @@ const main = async () => {
     if (parsed.data.popularity && parsed.data.date) {
       const postDate = new Date(parsed.data.date).getTime()
       if (Number.isFinite(postDate) && now - postDate > STALE_AFTER_MS) {
+        rankings.push({
+          file,
+          title: parsed.data.title,
+          popularity: parsed.data.popularity,
+          stale: true,
+        })
         continue
       }
     }
@@ -306,12 +313,14 @@ const main = async () => {
       hnStories,
       lobstersStories
     )
-    updates.push({
+    const update = {
       file,
       title: parsed.data.title,
       popularity,
       nextRaw: writePopularity(raw, popularity),
-    })
+    }
+    updates.push(update)
+    rankings.push({ ...update, stale: false })
   }
 
   if (!dryRun) {
@@ -320,19 +329,20 @@ const main = async () => {
     })
   }
 
-  updates
-    .sort((a, b) => b.popularity.score - a.popularity.score)
-    .forEach(update => {
-      const hn = update.popularity.hackerNews
-      const lobsters = update.popularity.lobsters
+  rankings
+    .sort((a, b) => (b.popularity.score || 0) - (a.popularity.score || 0))
+    .forEach(entry => {
+      const hn = entry.popularity.hackerNews || {}
+      const lobsters = entry.popularity.lobsters || {}
 
       console.log(
         [
-          update.popularity.score,
-          `HN ${hn.points}/${hn.comments}/${hn.threads}`,
-          `Lobsters ${lobsters.points}/${lobsters.comments}/${lobsters.threads}`,
-          path.dirname(update.file),
-          update.title,
+          entry.popularity.score || 0,
+          `HN ${hn.points || 0}/${hn.comments || 0}/${hn.threads || 0}`,
+          `Lobsters ${lobsters.points || 0}/${lobsters.comments || 0}/${lobsters.threads || 0}`,
+          entry.stale ? "stale" : "fresh",
+          path.dirname(entry.file),
+          entry.title,
         ].join("\t")
       )
     })
