@@ -8,8 +8,8 @@ const HN_POINT_WEIGHT = 1
 const HN_COMMENT_WEIGHT = 2
 const LOBSTERS_POINT_WEIGHT = 3
 const LOBSTERS_COMMENT_WEIGHT = 5
-const REDDIT_POINT_WEIGHT = 0.2
-const REDDIT_COMMENT_WEIGHT = 0.6
+
+const STALE_AFTER_MS = 30 * 24 * 60 * 60 * 1000
 
 const dryRun = process.argv.includes("--dry-run")
 
@@ -65,9 +65,7 @@ const discussionParagraphs = content =>
 
       if (
         !lower.includes("news.ycombinator.com/item?id=") &&
-        !lower.includes("lobste.rs/s/") &&
-        !lower.includes("reddit.com/r/") &&
-        !lower.includes("redd.it/")
+        !lower.includes("lobste.rs/s/")
       ) {
         return false
       }
@@ -108,25 +106,6 @@ const extractLobstersIds = paragraphs => {
 
   for (const paragraph of paragraphs) {
     for (const match of paragraph.matchAll(pattern)) {
-      ids.add(match[1])
-    }
-  }
-
-  return [...ids]
-}
-
-const extractRedditIds = paragraphs => {
-  const ids = new Set()
-  const redditPattern =
-    /(?:old\.|www\.)?reddit\.com\/r\/[^/]+\/comments\/([a-z0-9]+)/gi
-  const shortPattern = /redd\.it\/([a-z0-9]+)/gi
-
-  for (const paragraph of paragraphs) {
-    for (const match of paragraph.matchAll(redditPattern)) {
-      ids.add(match[1])
-    }
-
-    for (const match of paragraph.matchAll(shortPattern)) {
       ids.add(match[1])
     }
   }
@@ -198,49 +177,19 @@ const fetchLobstersMetrics = async (ids, slug) => {
   return stories
 }
 
-const fetchRedditMetrics = async (ids, slug) => {
-  const stories = []
-
-  for (const id of ids) {
-    const response = await requestJson(`https://www.reddit.com/comments/${id}.json`)
-    const story = response?.[0]?.data?.children?.[0]?.data
-
-    if (!story || !isThisBlogPost(story.url, slug)) {
-      continue
-    }
-
-    stories.push({
-      id,
-      points: story.score || story.ups || 0,
-      comments: story.num_comments || 0,
-    })
-  }
-
-  return stories
-}
-
 const sum = (items, key) => items.reduce((total, item) => total + item[key], 0)
 
-const buildPopularity = (
-  currentPopularity,
-  hnStories,
-  lobstersStories,
-  redditStories
-) => {
+const buildPopularity = (currentPopularity, hnStories, lobstersStories) => {
   const manual = Number(currentPopularity?.manual || 0)
   const hnPoints = sum(hnStories, "points")
   const hnComments = sum(hnStories, "comments")
   const lobstersPoints = sum(lobstersStories, "points")
   const lobstersComments = sum(lobstersStories, "comments")
-  const redditPoints = sum(redditStories, "points")
-  const redditComments = sum(redditStories, "comments")
   const score =
     hnPoints * HN_POINT_WEIGHT +
     hnComments * HN_COMMENT_WEIGHT +
     lobstersPoints * LOBSTERS_POINT_WEIGHT +
     lobstersComments * LOBSTERS_COMMENT_WEIGHT +
-    redditPoints * REDDIT_POINT_WEIGHT +
-    redditComments * REDDIT_COMMENT_WEIGHT +
     manual
 
   return {
@@ -254,11 +203,6 @@ const buildPopularity = (
       points: lobstersPoints,
       comments: lobstersComments,
       threads: lobstersStories.length,
-    },
-    reddit: {
-      points: redditPoints,
-      comments: redditComments,
-      threads: redditStories.length,
     },
     manual,
   }
@@ -296,10 +240,6 @@ const popularityBlock = popularity =>
     `    points: ${popularity.lobsters.points}`,
     `    comments: ${popularity.lobsters.comments}`,
     `    threads: ${popularity.lobsters.threads}`,
-    "  reddit:",
-    `    points: ${popularity.reddit.points}`,
-    `    comments: ${popularity.reddit.comments}`,
-    `    threads: ${popularity.reddit.threads}`,
     `  manual: ${popularity.manual}`,
   ].join("\n")
 
@@ -332,36 +272,39 @@ const writePopularity = (raw, popularity) => {
 const main = async () => {
   const updates = []
 
+  const now = Date.now()
+
   for (const file of fg.sync("content/blog/**/index.md").sort()) {
     const raw = fs.readFileSync(file, "utf8")
     const parsed = matter(raw)
+
+    if (parsed.data.popularity && parsed.data.date) {
+      const postDate = new Date(parsed.data.date).getTime()
+      if (Number.isFinite(postDate) && now - postDate > STALE_AFTER_MS) {
+        continue
+      }
+    }
+
     const paragraphs = discussionParagraphs(parsed.content)
     const hnIds = extractHnIds(paragraphs)
     const lobstersIds = extractLobstersIds(paragraphs)
-    const redditIds = extractRedditIds(paragraphs)
 
-    if (hnIds.length === 0 && lobstersIds.length === 0 && redditIds.length === 0) {
+    if (hnIds.length === 0 && lobstersIds.length === 0) {
       continue
     }
 
     const slug = `/${path.basename(path.dirname(file))}/`
     const hnStories = await fetchHnMetrics(hnIds, slug)
     const lobstersStories = await fetchLobstersMetrics(lobstersIds, slug)
-    const redditStories = await fetchRedditMetrics(redditIds, slug)
 
-    if (
-      hnStories.length === 0 &&
-      lobstersStories.length === 0 &&
-      redditStories.length === 0
-    ) {
+    if (hnStories.length === 0 && lobstersStories.length === 0) {
       continue
     }
 
     const popularity = buildPopularity(
       parsed.data.popularity,
       hnStories,
-      lobstersStories,
-      redditStories
+      lobstersStories
     )
     updates.push({
       file,
@@ -382,14 +325,12 @@ const main = async () => {
     .forEach(update => {
       const hn = update.popularity.hackerNews
       const lobsters = update.popularity.lobsters
-      const reddit = update.popularity.reddit
 
       console.log(
         [
           update.popularity.score,
           `HN ${hn.points}/${hn.comments}/${hn.threads}`,
           `Lobsters ${lobsters.points}/${lobsters.comments}/${lobsters.threads}`,
-          `Reddit ${reddit.points}/${reddit.comments}/${reddit.threads}`,
           path.dirname(update.file),
           update.title,
         ].join("\t")
