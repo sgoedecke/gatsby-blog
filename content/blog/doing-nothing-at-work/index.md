@@ -4,10 +4,10 @@ description:
 order: 203
 popular: true
 popularity:
-  score: 98
+  score: 623
   hackerNews:
-    points: 60
-    comments: 19
+    points: 365
+    comments: 129
     threads: 1
   lobsters:
     points: 0
