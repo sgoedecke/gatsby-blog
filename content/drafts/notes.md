@@ -1,4 +1,33 @@
+https://news.ycombinator.com/item?id=48498385
+nobody gets credit for fixing problems that never happen
+https://news.ycombinator.com/item?id=48496420
+you have to let the fire start then put it out
+well, maybe! but putting fires out only gets you so far
+people are pathetically grateful when you fix an incident, but incident-fixing does not build long-term credit - it decays fast
+looking back, "X did a bunch of ten-minute fixes" is not as good a resume as "X shipped complex projects"
+it's a case of over-cynicism, IMO, like "write complex code for job security"
+https://www.seangoedecke.com/simple-work-gets-rewarded/
+
+--
+
+who cares about the bubble?
+https://www.wheresyoured.at/ai-is-slowing-down/
+genuinely who cares? prev bubbles have not impacted consumers long-term
+if oai/anth go under their models will still exist
+training may stop but the models will get _much cheaper_ - subsidization subsidises _training_ (see deepseek prices/local inference mathematics)
+
+--
+
+https://comments.burble.com/
+https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/
+
+better tarpits? bench?
+i got caught lol
+
+--
 https://gwern.net/llm-catapult
+
+---
 
 elegance can be a trap
 
