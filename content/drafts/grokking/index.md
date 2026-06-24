@@ -21,6 +21,8 @@ Gwern's argument goes something like this:
 
 I think his first point is impossible to dispute. LLMs are very smart, but they routinely make errors
 
+Do LLMs really not grok? https://arxiv.org/pdf/2506.21551 (generalization =/= grokking, I guess?)
+
 [^1]: For an example of the power of unhobbling, consider Claude Code or OpenClaw and the subsequent explosion of (short and long running) agentic harnesses.
 
 [^2]: Obviously "motivate" and "notices" are used metaphorically.
