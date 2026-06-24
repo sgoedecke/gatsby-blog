@@ -1,3 +1,7 @@
+I'm intrigued by https://role-confusion.github.io/. It seems to suggest that marking roles via tags doesn't really work. Why don't AI labs mark roles at the token level? For instance, is there a way you could fine-tune a base model to expand its token size by, say, 3x: each token would have three versions, e.g. "foot" would have a "user-foot", a "model-output-foot" (maybe including the system prompt), and a "tool-output-foot". That way it'd be "obvious" to the model if someone tried sneaking a prompt injection attack in, and maybe the model could spend less cycles on learning to differentiate the prose style of its own CoT.
+
+
+---
 https://news.ycombinator.com/item?id=48498385
 nobody gets credit for fixing problems that never happen
 https://news.ycombinator.com/item?id=48496420
