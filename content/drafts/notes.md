@@ -1,3 +1,13 @@
+https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/
+
+inference is obviously profitable
+
+---
+
+https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/
+
+--
+
 I'm intrigued by https://role-confusion.github.io/. It seems to suggest that marking roles via tags doesn't really work. Why don't AI labs mark roles at the token level? For instance, is there a way you could fine-tune a base model to expand its token size by, say, 3x: each token would have three versions, e.g. "foot" would have a "user-foot", a "model-output-foot" (maybe including the system prompt), and a "tool-output-foot". That way it'd be "obvious" to the model if someone tried sneaking a prompt injection attack in, and maybe the model could spend less cycles on learning to differentiate the prose style of its own CoT.
 
 
