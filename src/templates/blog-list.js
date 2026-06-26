@@ -110,7 +110,7 @@ export const pageQuery = graphql`
     }
     popular: allMarkdownRemark(
       filter: { frontmatter: { popular: { eq: true } } }
-      sort:   { fields: [fields___rand], order: ASC }
+      sort:   { fields: [fields___popularityScore, frontmatter___order], order: DESC }
       limit:  3
     ) {
       nodes { fields { slug } frontmatter { title } }
