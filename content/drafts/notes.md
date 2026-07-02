@@ -1,3 +1,17 @@
+zp/de? ironically zp seems influenced by ancillary justice: the ruling class of a techno-fascist empire being one person imprinted in many bodies, at war with itself due to drift (in ZP's case, the imprinting process, in AJ's case, literal communication drift due to FTL travel).
+
+zp would have been considered a political game if de didn't exist. in some ways it's more actively political: more real players, more actual political conflict, not just stasis and ideology. it is obviously set in a pastiche of direct political references (cuba, peronism, US cultural imperialism, Soviet bloc) - DE did the same, but ZP even more so. (also note that a lot of DE political content came later, in the vision quests)
+
+zp and de both do ruin/atonement, but IMO ZP hits way harder because (a) you are confronted with the people you hurt, and (b) you can actually do genuinely bad things in the course of the game, as opposed to just being a dickhead to people. I never felt conflicted about a moral decision in DE in the way I did in ZP (imprinting Pseudopod, bringing Karolina on the mission).
+
+drugs are better in ZP. in DE you have a strong out-of-game motive to not touch the drugs because you like Harry, but this is a bit immersion-breaking (Harry would do the drugs). in ZP you are forced to use drugs to keep yourself levelled out like Hershel would
+
+does ZP have "it"? maybe not, maybe so? it's impossible to separate DE from being the first one to ever do it, and the ZAUM stuff obviously makes it harder to be blown away. If people are saying X doesn't have the sauce, it'll hit less hard for you, which is self-fulfilling.
+
+imo the DE ending is better because it's more thematic. you learn the answer to the mystery of the entire game, and in the deserter you get a personification of the game's core themes: holding onto past tragedy, mental disintegration, self-harm and harming others. The cryptid too. The ZP ending is good in that it explores the "doomed from the start" stuff, but ending on a big action setpiece is just less interesting. The post-deserter debrief is awkward in DE and so is the post-mission debrief in ZP.
+
+--
+
 https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/
 
 inference is obviously profitable
