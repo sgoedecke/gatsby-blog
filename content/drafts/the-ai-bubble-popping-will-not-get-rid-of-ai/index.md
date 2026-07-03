@@ -18,9 +18,17 @@ When there's a bubble around an exciting new technology, wealthy people with hig
 
 This is what happened with [railroads](https://en.wikipedia.org/wiki/Railway_Mania) in the 1840s[^2], [electrification](https://theconversation.com/todays-ai-hype-has-echoes-of-a-devastating-technology-boom-and-bust-100-years-ago-265492) in the 1920s, and the [internet](https://en.wikipedia.org/wiki/Dot-com_bubble) in the 1990s. Some bubbles (say, [NFTs](https://en.wikipedia.org/wiki/Non-fungible_token) in 2020-2021) didn't come with a corresponding infrastructure buildout, so just faded away. However, the AI boom has seen a multi-trillion dollar buildout of power and datacenter [infrastructure](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-7-trillion-dollar-data-center-build-out-how-industrials-can-capture-their-share).
 
+<<<<<<< Updated upstream
 Those datacenters are not going away. If OpenAI and Anthropic went bust tomorrow, whatever companies remained in the space (Microsoft, Amazon and Google, for starters) would snap up the models and continue serving AI inference. If OpenAI has indeed over-leveraged itself (say, by incorrectly assuming that AI revenues will [grow](https://www.dwarkesh.com/p/dario-amodei-2) at 10x per year instead of 5x), that's a big problem for OpenAI, but it's not necessarily a big problem _for AI_, or for the users of AI products.
 
 A common [claim](https://www.reddit.com/r/LocalLLaMA/comments/1lok3r2/news_datacenter_gpus_may_have_an_astonishingly/) is that datacenter GPUs have a very short lifespan, and so AI infrastructure won't stick around. I don't think the evidence bears this out. If you're curious, I wrote a whole post about this called [_AI GPUs probably live longer than three years_](https://www.seangoedecke.com/ai-gpus-live-longer-than-three-years/).
+=======
+Those datacenters are not going away. If OpenAI and Anthropic went bust tomorrow, whatever companies remained in the space (Microsoft, Amazon and Google, for starters) would snap up the models and continue serving AI inference.
+
+Don't the GPUs used in AI datacenters have a short lifespan? As I wrote in [_AI GPUs probably live longer than three years_](/ai-gpus-live-longer-than-three-years/), not really. The common source for this figure is not reliable, and the data we do have suggests a lifespan of five years or longer.
+
+If OpenAI has indeed over-leveraged itself (say, by incorrectly assuming that AI revenues will [grow](https://www.dwarkesh.com/p/dario-amodei-2) at 10x per year instead of 5x), that's a big problem _for OpenAI_, but it's not necessarily a big problem _for AI_, or for the users of AI products.
+>>>>>>> Stashed changes
 
 ### AI inference is profitable
 
@@ -37,9 +45,5 @@ I'm not trying to say that the AI bubble bursting would be no big deal. The dotc
 [^1]: As a general rule, almost everyone can be stupid _sometimes_, but you're better off assuming that they're just responding to different incentives than you are.
 
 [^2]: I wrote more about the railroad bubble and AI in [_What's next after the AI bubble bursts?_](/after-the-ai-bubble/)
-
-[^3]: Of course, like previous claims about AI and water usage, "three years at the most" is often cited as ["1-2 years, with some lasting up to 3 years under optimal conditions"](https://ithy.com/article/data-center-gpu-lifespan-explained-7mpjwwyp).
-
-[^4]: Of course, pronouncements from CEOs/CTOs should be taken with a grain of salt as well, but (a) executives don't often straight-up lie about concrete technical facts, and (b) they're going up against an unsourced quote from a tweet, so the bar isn't that high.
 
 [^5]: I could honestly have made do with GPT-5.3-Codex. Incidentally, we'd still expect AI systems to get better, even if the models themselves stall out, via what Leopold Aschenbrenner called ["unhobbling"](https://situational-awareness.ai/): better prompting, better understanding of what existing models can do (e.g. discovering that o3 was good at [geolocation](/the-o3-geoguessr-prompt-did-not-work/)), and better tool harnesses.
