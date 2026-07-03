@@ -6,6 +6,8 @@ date: '2025-04-21'
 tags: ["tech companies"]
 ---
 
+todo: being angry draws a lot of attention, but leaves you ill equipped to handle it sensibly. it can be useful to use a little bit of anger/passion sometimes, but it's a dangerous game - you have to be ready to drop it instantly when you get the face time with LT you're looking for (or whatever) or you'll be put in the "problem engineer" bucket
+
 I try not to give a lot of prescriptive advice about working in tech companies[^1]. There are many ways to be successful, and every company works differently. If you're [shipping projects](/how-to-ship) and your management chain is happy, it doesn't really matter how you've accomplished it. However, there's one thing that I do think is solid advice: **you should never be angry at work**.
 
 ### The angry software engineer

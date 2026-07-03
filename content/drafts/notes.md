@@ -1,3 +1,20 @@
+what on earth is the point of C2PA?
+
+it only "works" if everything is signed (including most human-made content) and if you can't spoof the signature
+because you can strip the signature out
+but there's no realistic pathway
+
+even signed stuff can have been copy-pasted from AI tools (e.g. excel)
+
+probably 
+
+--
+glass balls/rubber balls
+https://old.reddit.com/r/ExperiencedDevs/comments/1sfw7o5/you_should_really_consider_letting_some_plates/
+
+
+--
+
 zp/de? ironically zp seems influenced by ancillary justice: the ruling class of a techno-fascist empire being one person imprinted in many bodies, at war with itself due to drift (in ZP's case, the imprinting process, in AJ's case, literal communication drift due to FTL travel).
 
 zp would have been considered a political game if de didn't exist. in some ways it's more actively political: more real players, more actual political conflict, not just stasis and ideology. it is obviously set in a pastiche of direct political references (cuba, peronism, US cultural imperialism, Soviet bloc) - DE did the same, but ZP even more so. (also note that a lot of DE political content came later, in the vision quests)
