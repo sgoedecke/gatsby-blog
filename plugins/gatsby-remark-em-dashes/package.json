@@ -1,0 +1,7 @@
+{
+  "name": "gatsby-remark-em-dashes",
+  "version": "1.0.0",
+  "description": "Convert space-surrounded hyphens into em-dashes in gatsby-transformer-remark.",
+  "main": "index.js",
+  "license": "MIT"
+}

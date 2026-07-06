@@ -76,6 +76,15 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
+          {
+            // Local plugin (see plugins/gatsby-remark-em-dashes).
+            // Turns "word - word" into "word — word".
+            resolve: `gatsby-remark-em-dashes`,
+            options: {
+              // spaced: false,     // -> tight "word—word" instead of "word — word"
+              // nonBreaking: true, // -> keep the dash from wrapping to line start
+            },
+          },
           `gatsby-remark-smartypants`,
         ],
       },

@@ -1,3 +1,13 @@
+working with llms requires a balance of trust and skepticism
+trust bc you can't speed up without farming out work
+skepticism because llms will sometimes make really _weird_ mistakes
+in humans, someone who made those mistakes could never be trusted, and vice versa
+this is the primary skill - knowing when you can and can't rely on what the llm is saying, and/or being able to sanity-check
+for instance, facts are now usually reliable. llms don't hallucinate like they used to at all. but analysis is sometimes completely bogus
+
+
+--
+
 what on earth is the point of C2PA?
 
 it only "works" if everything is signed (including most human-made content) and if you can't spoof the signature
