@@ -1,3 +1,10 @@
+I blog about stuff I want to understand
+as an excuse for research
+in writing an intro to a topic, I'm forced to understand it much, much better
+and i've change dmy mind a lot (i thought c2pa was spoofable, I thought AI detection tools did not work, I thought Stripe was stupid for investing in Tempo, etc)
+
+
+---
 working with llms requires a balance of trust and skepticism
 trust bc you can't speed up without farming out work
 skepticism because llms will sometimes make really _weird_ mistakes
@@ -6,17 +13,6 @@ this is the primary skill - knowing when you can and can't rely on what the llm 
 for instance, facts are now usually reliable. llms don't hallucinate like they used to at all. but analysis is sometimes completely bogus
 
 
---
-
-what on earth is the point of C2PA?
-
-it only "works" if everything is signed (including most human-made content) and if you can't spoof the signature
-because you can strip the signature out
-but there's no realistic pathway
-
-even signed stuff can have been copy-pasted from AI tools (e.g. excel)
-
-probably 
 
 --
 glass balls/rubber balls
