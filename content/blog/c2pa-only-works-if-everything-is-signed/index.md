@@ -8,7 +8,7 @@ tags: ["ai", "ai regulation"]
 
 The [European Union AI Act](https://artificialintelligenceact.eu/) is Europe's attempt to comprehensively regulate AI usage. A big part of that is the requirement that AI-generated content be identifiable: either tagged with a watermark or with what the [Act](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) calls "digitally signed metadata"[^1]. Since all this becomes enforceable in a month, it's worth figuring out if it makes any sense. I recently discussed AI watermarking at length in [_Text AI watermarks will always be trivial to remove_](https://www.seangoedecke.com/text-ai-watermarks/). What about digitally signed metadata?
 
-The most well-known implementation of digitally signed metadata is C2PA Content Credentials, which incorrectly[^2] [claims](https://c2paviewer.com/articles/eu-ai-act-content-credentials) to be the technology that the AI Act gives as an example of how to do signed metadata properly. The idea here is that **every single image file should contain unspoofable authorship metadata**. Here's my position on it:
+The most well-known implementation of digitally signed metadata is C2PA Content Credentials, which is a mechanism[^2] for ensuring that **almost every single image file should contain unspoofable authorship metadata**. Here's my position on it:
 
 1. C2PA broadly makes sense and is a good idea
 2. It is pointless to use C2PA for AI-generated images only
@@ -74,7 +74,7 @@ Is it possible to defeat? Yes, of course. By design, private keys will be in the
 
 [^1]: See sub-measure 1.1.1 of the Act's associated [Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content).
 
-[^2]: While an [early draft](https://digital-strategy.ec.europa.eu/en/library/first-draft-code-practice-transparency-ai-generated-content) of the Code of Practice made an offhand mention of Content Credentials (in the caption of a picture), that was stripped out. The contents of the Act and the final Code of Practice don't contain "C2PA" or "Content Credentials" (you can search for yourself [here](https://explorer.artificialintelligenceact.eu/en/)).
+[^2]: A previous version of this post criticized C2PA for [incorrectly](https://explorer.artificialintelligenceact.eu/en/) claiming to be the semi-official technology of the AI Act, but in fact this claim comes from [C2PA Viewer](https://c2paviewer.com/articles/eu-ai-act-content-credentials), which is not affiliated with the official C2PA coalition. Thanks to a reader for emailing me with the correction.
 
 [^3]: Otherwise if you cracked the key out of one Sony camera, you could spoof content from any Sony camera.
 

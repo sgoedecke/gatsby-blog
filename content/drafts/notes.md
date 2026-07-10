@@ -1,10 +1,9 @@
-I blog about stuff I want to understand
-as an excuse for research
-in writing an intro to a topic, I'm forced to understand it much, much better
-and i've change dmy mind a lot (i thought c2pa was spoofable, I thought AI detection tools did not work, I thought Stripe was stupid for investing in Tempo, etc)
+what is playing politics? what is "not playing politics"? 
+https://old.reddit.com/r/ExperiencedDevs/comments/1urg0tk/whats_the_best_advice_youve_received_from_a/
 
 
----
+
+--
 working with llms requires a balance of trust and skepticism
 trust bc you can't speed up without farming out work
 skepticism because llms will sometimes make really _weird_ mistakes
@@ -32,16 +31,6 @@ drugs are better in ZP. in DE you have a strong out-of-game motive to not touch 
 does ZP have "it"? maybe not, maybe so? it's impossible to separate DE from being the first one to ever do it, and the ZAUM stuff obviously makes it harder to be blown away. If people are saying X doesn't have the sauce, it'll hit less hard for you, which is self-fulfilling.
 
 imo the DE ending is better because it's more thematic. you learn the answer to the mystery of the entire game, and in the deserter you get a personification of the game's core themes: holding onto past tragedy, mental disintegration, self-harm and harming others. The cryptid too. The ZP ending is good in that it explores the "doomed from the start" stuff, but ending on a big action setpiece is just less interesting. The post-deserter debrief is awkward in DE and so is the post-mission debrief in ZP.
-
---
-
-https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/
-
-inference is obviously profitable
-
----
-
-https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/
 
 --
 
@@ -80,13 +69,6 @@ https://gwern.net/llm-catapult
 
 ---
 
-elegance can be a trap
-
-elegant code is sometimes hard to extend in arbitrary ways
-relying on features of the environment/problem is elegant, but it means that changes to the problem often require a complete redesign of the code
-for some people this is ideal. one design process per problem, no weird hacks. in the naur theory paper he recommends rewriting the entire program when the team rolls over. but... come on, now. not a mindset for large systems.
-
---
 
 Working with... series
 
