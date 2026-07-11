@@ -10,7 +10,7 @@ For a certain type of software engineer, the entire point of the job is to write
 
 ### What is elegant code?
 
-It partly comes down to [taste](https://www.seangoedecke.com/taste/), but as a general principle: **an elegant solution to a problem is one in which many subtle requirements are fulfilled _implicitly_, instead of explicitly in the code**. For instance, I consider the [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)) server elegant because it farms out almost all the work to Unix syscalls like `fork`, `select`, and `accept`. Likewise, let's look at the famous Tower of Hanoi recursive solution:
+It partly comes down to [taste](/taste/), but as a general principle: **an elegant solution to a problem is one in which many subtle requirements are fulfilled _implicitly_, instead of explicitly in the code**. For instance, I consider the [Unicorn](https://en.wikipedia.org/wiki/Unicorn_(web_server)) server elegant because it farms out almost all the work to Unix syscalls like `fork`, `select`, and `accept`. Likewise, let's look at the famous Tower of Hanoi recursive solution:
 
 ```ruby
 def move(disks, source, destination, auxiliary)
@@ -34,15 +34,6 @@ Unfortunately I am not a software artist, and so I like it when my code makes it
 I often have the experience of having to "remove the elegance" from code in order to alter it: splitting out a clever ternary into a multi-line if statement, un-DRYing a reused helper that now needs to be different in two places, rewriting a neat map-filter-reduce pipeline into something more loop-y, and so on. This isn't necessarily bad. In fact, I try to add the elegance back in as best I can, after I've made the required change. But I do have a new appreciation for boring, verbose code that I can just go in and change as-is.
 
 
-### Against "Programming as Theory Building"
-
-**As a software engineer, how well do you have to understand your own codebase?** My guess is that people who work on (relatively) small codebases with small, very low-turnover teams (say, Redis or [The Witness](https://en.wikipedia.org/wiki/The_Witness_(2016_video_game))) would say "obviously you have to understand it completely, otherwise you can't do good work". I'd also guess that people who work on large codebases with large, high-turnover teams (say, the Google web search application or GitHub) would say "obviously you can't understand it completely, but you can do the best you can in your local area".
-
-These are two largely different ways of programming with different methods, practices and cultures. I wrote about this at length in [_Pure and impure software engineering_](https://www.seangoedecke.com/pure-and-impure-engineering/), but in my view a lot of the repeated arguments we have in the software industry are caused by the pure total-understanding culture coming up against the impure partial-understanding culture.
-
-In 1985, Peter Naur wrote the famous paper [_Programming as Theory Building_](https://pages.cs.wisc.edu/~remzi/Naur.pdf). 
-
-note: llms impact codebase understanding. but codebase understanding is always imperfect in large companies
 
 
 
