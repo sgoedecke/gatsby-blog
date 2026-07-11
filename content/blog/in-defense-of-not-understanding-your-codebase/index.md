@@ -3,7 +3,7 @@ title: In defense of not understanding your codebase
 description: 
 order: 211
 date: '2026-07-11'
-tags: ["software design"]
+tags: ["software design", "naur theory"]
 ---
 
 **As a software engineer, how well do you have to understand your own codebase?**
