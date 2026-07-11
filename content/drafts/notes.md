@@ -1,6 +1,12 @@
 what is playing politics? what is "not playing politics"? 
 https://old.reddit.com/r/ExperiencedDevs/comments/1urg0tk/whats_the_best_advice_youve_received_from_a/
 
+- being aware of who calls the shots and who doesn't
+- having a sense of what to take seriously and what not to
+- signaling willingness to support people (leaving Slack emoji reacts is politics, agreeing/disagreeing with suggestions is politics)
+
+'playing politics' typically just means 'don't do anything catastrophically stupid'
+
 
 
 --

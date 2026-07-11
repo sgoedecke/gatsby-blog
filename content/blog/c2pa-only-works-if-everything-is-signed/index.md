@@ -74,7 +74,7 @@ Is it possible to defeat? Yes, of course. By design, private keys will be in the
 
 [^1]: See sub-measure 1.1.1 of the Act's associated [Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content).
 
-[^2]: A previous version of this post criticized C2PA for [incorrectly](https://explorer.artificialintelligenceact.eu/en/) claiming to be the semi-official technology of the AI Act, but in fact this claim comes from [C2PA Viewer](https://c2paviewer.com/articles/eu-ai-act-content-credentials), which is not affiliated with the official C2PA coalition. Thanks to a reader for emailing me with the correction.
+[^2]: A previous version of this post criticized C2PA for [incorrectly](https://explorer.artificialintelligenceact.eu/en/) claiming to be the semi-official technology of the AI Act, but in fact this claim comes from [C2PA Viewer](https://c2paviewer.com/articles/eu-ai-act-content-credentials), which is not affiliated with the official C2PA coalition. Thanks to [Paul Friedel](https://paul-friedl.github.io/), who has recently written [his own post](https://verfassungsblog.de/the-problems-with-general-purpose-ai-detectability/) about C2PA, for emailing me with the correction.
 
 [^3]: Otherwise if you cracked the key out of one Sony camera, you could spoof content from any Sony camera.
 
