@@ -3,6 +3,18 @@ title: In defense of not understanding your codebase
 description: 
 order: 211
 date: '2026-07-11'
+popular: true
+popularity:
+  score: 175
+  hackerNews:
+    points: 0
+    comments: 0
+    threads: 0
+  lobsters:
+    points: 35
+    comments: 14
+    threads: 1
+  manual: 0
 tags: ["software design", "naur theory"]
 ---
 
@@ -47,6 +59,8 @@ Like most things in software, "maintaining a theory of the codebase" is one valu
 Almost all engineers - particularly ["pure"](/pure-and-impure-engineering/) engineers - prefer to maintain an accurate mental model of their software. It's more fun, less stressful, and feels more like "real engineering". That's why many engineers take up open-source projects in their spare time in order to work on small codebases by themselves: in order to do engineering work where they can maintain an accurate Naur theory of the codebase. I don't think there's anything wrong with that.
 
 However, at work [you are paid to do a job](/where-the-money-comes-from/). In other words, they pay you money to adopt _their_ set of engineering values. It's hopefully well-understood that however much you might personally care about performance, sometimes you have to write slow code at your job (for instance, to get a project done on time, or to accommodate some awkward requirement). Maintaining a theory of the codebase is the same kind of thing. 
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/elhi7o/defense_not_understanding_your_codebase). One interesting [comment](https://lobste.rs/c/qjfhxd) points out that the ability to reason "locally" about code (i.e. with a partial understanding) has been a core goal of CS from the beginning. [This](https://lobste.rs/c/gr8hgw) is also a good description of what I was trying to get at in [_How good engineers write bad code at big companies_](/bad-code-at-big-companies/). Also, it's amusing that this post was tagged as `vibecoding` because of one off-hand paragraph about LLMs. I still don't think I'll be tagging the post as [AI](/tags/ai/) on my blog.
 
 
 [^1]: I wrote about this at length in [_Pure and impure software engineering_](/pure-and-impure-engineering/). I think many of the repeated arguments we have in the software industry are caused by the pure total-understanding culture coming up against the impure partial-understanding culture.
