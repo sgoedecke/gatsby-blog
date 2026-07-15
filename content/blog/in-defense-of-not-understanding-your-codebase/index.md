@@ -5,14 +5,14 @@ order: 211
 date: '2026-07-11'
 popular: true
 popularity:
-  score: 175
+  score: 213
   hackerNews:
     points: 0
     comments: 0
     threads: 0
   lobsters:
-    points: 35
-    comments: 14
+    points: 41
+    comments: 18
     threads: 1
   manual: 0
 tags: ["software design", "naur theory"]

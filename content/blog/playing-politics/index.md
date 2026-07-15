@@ -3,6 +3,18 @@ title: What does "playing politics" mean for software engineers?
 description: 
 order: 212
 date: '2026-07-14'
+popular: true
+popularity:
+  score: 69
+  hackerNews:
+    points: 33
+    comments: 18
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["tech companies", "good engineers"]
 ---
 
@@ -98,6 +110,9 @@ You probably won't be able to change the company's grand strategy. But how that 
 ### Conclusion
 
 Playing politics isn't about plotting and scheming, and it isn't just about being a [friendly, likeable person](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People) (although that helps). It's about figuring out how your company actually operates: who makes the decisions, who gets consulted, what behavior gets rewarded, and so on. The most basic way to do that is to **figure out who is powerful, get out of their way, and (if you can) help them get what they want**.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=48905390). I always enjoy seeing "this is too obvious to need a guide" [replies](https://news.ycombinator.com/item?id=48905622) right next to "yeah, I screwed this up, wish I'd been told this sooner" [replies](https://news.ycombinator.com/item?id=48905675). That's what I get for [saying the obvious thing](/saying-the-obvious-thing/).
+
 
 [^1]: Obviously the exact titles depend on your company. One person I'm deliberately leaving out is your own manager. In general don't think your relationship with your own manager counts as "playing politics": that's just you getting along with another human being. An exception to that is if you report directly to a powerful director or VP.
 
