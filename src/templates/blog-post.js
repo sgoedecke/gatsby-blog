@@ -11,12 +11,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const preview = pageContext.preview
   const hasPreview = Boolean(preview?.snippetHtml)
-  const hackerNewsSubmitUrl = `https://news.ycombinator.com/submitlink?${new URLSearchParams(
-    {
-      u: `https://www.seangoedecke.com${location.pathname}`,
-      t: post.frontmatter.title,
-    }
-  ).toString()}`
+  const postUrl = `https://www.seangoedecke.com${location.pathname}`
+  const hackerNewsSubmitUrl =
+    `https://news.ycombinator.com/submitlink?` +
+    `u=${encodeURIComponent(postUrl)}&t=${encodeURIComponent(
+      post.frontmatter.title
+    )}`
   const headerMeta = (
     <>
       {post.frontmatter.date}
