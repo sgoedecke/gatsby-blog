@@ -5,11 +5,11 @@ order: 211
 date: '2026-07-11'
 popular: true
 popularity:
-  score: 213
+  score: 259
   hackerNews:
-    points: 0
-    comments: 0
-    threads: 0
+    points: 20
+    comments: 13
+    threads: 1
   lobsters:
     points: 41
     comments: 18
@@ -60,7 +60,16 @@ Almost all engineers - particularly ["pure"](/pure-and-impure-engineering/) engi
 
 However, at work [you are paid to do a job](/where-the-money-comes-from/). In other words, they pay you money to adopt _their_ set of engineering values. It's hopefully well-understood that however much you might personally care about performance, sometimes you have to write slow code at your job (for instance, to get a project done on time, or to accommodate some awkward requirement). Maintaining a theory of the codebase is the same kind of thing. 
 
-edit: this post got some comments on [lobste.rs](https://lobste.rs/s/elhi7o/defense_not_understanding_your_codebase). One interesting [comment](https://lobste.rs/c/qjfhxd) points out that the ability to reason "locally" about code (i.e. with a partial understanding) has been a core goal of CS from the beginning. [This](https://lobste.rs/c/gr8hgw) is also a good description of what I was trying to get at in [_How good engineers write bad code at big companies_](/bad-code-at-big-companies/). Also, it's amusing that this post was tagged as `vibecoding` because of one off-hand paragraph about LLMs. I still don't think I'll be tagging the post as [AI](/tags/ai/) on my blog.
+
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/elhi7o/defense_not_understanding_your_codebase). One interesting [comment](https://lobste.rs/c/qjfhxd) points out that the ability to reason "locally" about code (i.e. with a partial understanding) has been a core goal of CS from the beginning. [This](https://lobste.rs/c/gr8hgw) is also a good description of what I was trying to get at in [_How good engineers write bad code at big companies_](/bad-code-at-big-companies/). Also, it's amusing that this post was tagged as `vibecoding` because of one off-hand paragraph about LLMs. I still don't think I'll be tagging the post as [AI](/tags/ai/) on my blog, sorry.
+
+edit: I also got some [Hacker News](https://news.ycombinator.com/item?id=48882777) comments. The [top comment](https://news.ycombinator.com/item?id=48932402) is a genre of comment I get a lot, which is basically "wait, this situation sucks! Why isn't this blog post about how much this sucks?" Well, there's plenty of posts like that already: I hope to fill another niche. Another [comment](https://news.ycombinator.com/item?id=48882903) offers the second comparison of me with Seth Godin (ouch) that I've seen:
+
+> Goedecke doesn't quite write the anodyne sound bites that Seth Godin does, but neither does he write anything of engineering use, just vocabulary explainers for people who want to know kind of what their tech leads and line managers are talking about.
+
+First, this is skewed by what kind of posts get popular on Hacker News (i.e. not my [posts](/interaction-models/) [that](/steering-vectors/) [discuss](/fast-llm-inference/) [technical](/ai-detection/) [engineering](/tempo-faq/) [topics](/tags/papers/)). Second, I think "wanting to know what your tech leads and line managers are talking about" is very important!
+
 
 
 [^1]: I wrote about this at length in [_Pure and impure software engineering_](/pure-and-impure-engineering/). I think many of the repeated arguments we have in the software industry are caused by the pure total-understanding culture coming up against the impure partial-understanding culture.
