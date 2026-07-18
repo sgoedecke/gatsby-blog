@@ -18,17 +18,11 @@ When there's a bubble around an exciting new technology, wealthy people with hig
 
 This is what happened with [railroads](https://en.wikipedia.org/wiki/Railway_Mania) in the 1840s[^2], [electrification](https://theconversation.com/todays-ai-hype-has-echoes-of-a-devastating-technology-boom-and-bust-100-years-ago-265492) in the 1920s, and the [internet](https://en.wikipedia.org/wiki/Dot-com_bubble) in the 1990s. Some bubbles (say, [NFTs](https://en.wikipedia.org/wiki/Non-fungible_token) in 2020-2021) didn't come with a corresponding infrastructure buildout, so just faded away. However, the AI boom has seen a multi-trillion dollar buildout of power and datacenter [infrastructure](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-7-trillion-dollar-data-center-build-out-how-industrials-can-capture-their-share).
 
-<<<<<<< Updated upstream
-Those datacenters are not going away. If OpenAI and Anthropic went bust tomorrow, whatever companies remained in the space (Microsoft, Amazon and Google, for starters) would snap up the models and continue serving AI inference. If OpenAI has indeed over-leveraged itself (say, by incorrectly assuming that AI revenues will [grow](https://www.dwarkesh.com/p/dario-amodei-2) at 10x per year instead of 5x), that's a big problem for OpenAI, but it's not necessarily a big problem _for AI_, or for the users of AI products.
-
-A common [claim](https://www.reddit.com/r/LocalLLaMA/comments/1lok3r2/news_datacenter_gpus_may_have_an_astonishingly/) is that datacenter GPUs have a very short lifespan, and so AI infrastructure won't stick around. I don't think the evidence bears this out. If you're curious, I wrote a whole post about this called [_AI GPUs probably live longer than three years_](https://www.seangoedecke.com/ai-gpus-live-longer-than-three-years/).
-=======
 Those datacenters are not going away. If OpenAI and Anthropic went bust tomorrow, whatever companies remained in the space (Microsoft, Amazon and Google, for starters) would snap up the models and continue serving AI inference.
 
 Don't the GPUs used in AI datacenters have a short lifespan? As I wrote in [_AI GPUs probably live longer than three years_](/ai-gpus-live-longer-than-three-years/), not really. The common source for this figure is not reliable, and the data we do have suggests a lifespan of five years or longer.
 
 If OpenAI has indeed over-leveraged itself (say, by incorrectly assuming that AI revenues will [grow](https://www.dwarkesh.com/p/dario-amodei-2) at 10x per year instead of 5x), that's a big problem _for OpenAI_, but it's not necessarily a big problem _for AI_, or for the users of AI products.
->>>>>>> Stashed changes
 
 ### AI inference is profitable
 

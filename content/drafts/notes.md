@@ -1,3 +1,10 @@
+Don't README
+
+I don't read LLM generated readmes
+
+Honest caveat:
+
+---
 llms really are just next token predictors. rlhf does not change that
 
 ---
