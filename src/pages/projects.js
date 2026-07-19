@@ -105,7 +105,13 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: ["projects"] } } }
+      filter: {
+        fields: {
+          collection: { eq: "blog" }
+          isPost: { eq: true }
+        }
+        frontmatter: { tags: { in: ["projects"] } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

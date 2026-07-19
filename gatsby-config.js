@@ -12,6 +12,12 @@ const createFeed = ({ output, title }) => ({
   query: `
     {
       allMarkdownRemark(
+        filter: {
+          fields: {
+            collection: { eq: "blog" }
+            isPost: { eq: true }
+          }
+        },
         sort: { order: DESC, fields: [frontmatter___date] },
         limit: 30
       ) {

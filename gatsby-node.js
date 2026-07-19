@@ -12,7 +12,12 @@ exports.createPages = async ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___order], order: DESC }
-          filter: { fields: { collection: { eq: "blog" } } }
+          filter: {
+            fields: {
+              collection: { eq: "blog" }
+              isPost: { eq: true }
+            }
+          }
           limit: 1000
         ) {
           edges {
@@ -266,6 +271,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
+    const fileNode = getNode(node.parent)
+    const isPost = fileNode?.base === `index.md`
+
+    createNodeField({
+      name: `isPost`,
+      node,
+      value: isPost,
+    })
+
+    if (!isPost) {
+      return
+    }
+
     const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
