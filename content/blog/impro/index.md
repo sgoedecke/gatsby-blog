@@ -6,7 +6,7 @@ date: '2026-07-19'
 tags: ["book reports"]
 ---
 
-Here's the big idea in Keith Johnstone's book _Impro_:
+Here's the big idea in Keith Johnstone's book [_Impro_](https://en.wikipedia.org/wiki/Impro:_Improvisation_and_the_Theatre):
 
 1. Children are naturally creative, but are violently formed into repressed adults by Western culture and education
 2. The process of becoming more creative and expressive is largely a process of unlearning these habits of repression
