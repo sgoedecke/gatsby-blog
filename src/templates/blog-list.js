@@ -109,7 +109,13 @@ export const pageQuery = graphql`
       siteMetadata { title }
     }
     popular: allMarkdownRemark(
-      filter: { frontmatter: { popular: { eq: true } } }
+      filter: {
+        fields: {
+          collection: { eq: "blog" }
+          isPost: { eq: true }
+        }
+        frontmatter: { popular: { eq: true } }
+      }
       sort:   { fields: [fields___popularityScore, frontmatter___order], order: DESC }
       limit:  3
     ) {
@@ -117,7 +123,12 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort:   { fields: [frontmatter___order], order: DESC }
-      filter: { fields: { collection: { eq: "blog" } } }
+      filter: {
+        fields: {
+          collection: { eq: "blog" }
+          isPost: { eq: true }
+        }
+      }
       limit:  $limit
       skip:   $skip
     ) {

@@ -32,7 +32,13 @@ export const pageQuery = graphql`
       siteMetadata { title }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$tag] } }, fields: { collection: { eq: "blog" } } }
+      filter: {
+        fields: {
+          collection: { eq: "blog" }
+          isPost: { eq: true }
+        }
+        frontmatter: { tags: { in: [$tag] } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

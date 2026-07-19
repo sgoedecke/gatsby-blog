@@ -72,7 +72,12 @@ export const pageQuery = graphql`
       siteMetadata { title }
     }
     allMarkdownRemark(
-      filter: { fields: { collection: { eq: "blog" } } }
+      filter: {
+        fields: {
+          collection: { eq: "blog" }
+          isPost: { eq: true }
+        }
+      }
     ) {
       group(field: frontmatter___tags) {
         fieldValue
