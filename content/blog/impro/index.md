@@ -1,5 +1,5 @@
 ---
-title: _Impro_ is a handbook for running a cult
+title: \"Impro\" is a handbook for running a cult
 description:
 order: 214
 date: '2026-07-19'
