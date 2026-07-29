@@ -1,3 +1,16 @@
+AI discoveries might be a virtuous cycle
+
+https://x.com/sauers_/status/2082171683645817193?s=46
+
+AI often constrained by its own self-belief
+As AIs start to do genuinely novel things they will start to think they can, and stop wasting tons of time having to be persuaded into it
+
+See tower of hanoi refusal
+(interestingly, I did some abliteration work here that was effective on small models (large ones were already good at simple repetition))
+
+
+---
+
 AI is a permissible target for "contempt culture"
 https://cloudisland.nz/@aurynn/116921332825880649
 https://blog.aurynn.com/2015/12/16-contempt-culture
