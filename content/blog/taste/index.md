@@ -27,7 +27,7 @@ Technical taste is different from technical skill. You can be technically strong
 Here are some indicators of software taste:
 
 - What kind of code "looks good" to you? What kind of code "looks ugly"?
-- Which design decisions you feel really good about, and which ones are just fine?
+- Which design decisions do you feel really good about, and which ones are just fine?
 - Which software problems really bother you, to the point where you're worrying about them outside of work? Which problems can you just brush off?
 
 I think taste is **the ability to adopt the set of engineering values that fit your current project**.

@@ -1,3 +1,7 @@
+AI is a permissible target for "contempt culture"
+https://cloudisland.nz/@aurynn/116921332825880649
+https://blog.aurynn.com/2015/12/16-contempt-culture
+
 
 --
 It's not clear whether AI is conscious
@@ -12,6 +16,11 @@ Honest caveat:
 
 ---
 llms really are just next token predictors. rlhf does not change that
+
+grain of truth - with rl, llms aren't predicting the next token with reference to some training data token stream
+they're predicting the next token _that would solve the problem_
+
+of course, predicting the next token does not imply zero foresight or model of the world. that was a prediction that has proven false
 
 ---
 working with llms requires a balance of trust and skepticism

@@ -8,6 +8,8 @@ tags: ["writing"]
 
 try to be obvious, not original
 QC tweet about "Impro"
+https://x.com/QiaochuYuan/status/2078143956815430121
+
 if you try to be original you'll end up performing
 if you try to be obvious you'll naturally focus on what you actually think
 saying obvious things is surprisingly deep, because focusing on anyhting that's real is deep

@@ -15,16 +15,18 @@ It's more complicated than that, though. If that were the case, people would be 
 
 I think it's similar to why most people don't like working in a messy room. People - particularly engineers - have a compulsion towards neatness. And like I wrote about [here](/addicted-to-being-useful), it's often our internal compulsions that drive our professional selves. 
 
-Working in a dysfunctional org can feel like the whole world is dysfunctional: 
+Working in a dysfunctional org can feel like the whole world is dysfunctional. Even if you have a good mental separation between work and your personal life, role-playing a cog in a damaged machine for hours every day takes its toll. Getting good at persuading yourself to act like unimportant things are important is a lucrative but dangerous skill: when you stop, it can feel like _importance_ itself is an illusion.
 
-Before I became a software engineer, I did a master's degree in philosophy[^1]. When you say you're studying philosophy, many people will ask if philosophy can solve their existential angst: they feel that the universe is very big, and that humans make up only a tiny pin-prick of it, and that they feel like nothing matters. Philosophers must have written about that, right? What's the solution?
+Before I became a software engineer, I did a master's degree in philosophy[^1]. When you tell people you're studying philosophy, many people will ask if philosophy can solve their existential angst: they feel that the universe is very big and uncaring, and that humans make up only a tiny pin-prick of it, and that they feel like nothing matters. Philosophers must have written about that, right? What's the solution?
 
-The solution is to stop doing philosophy. If you think you have proven to yourself that nothing matters, you should refute that by _coming into contact with things that matter_. Go hang out with your kids, or take a walk in the park, or read a good book, or take your medication[^2]. Samuel Johnson famously refuted skepticism about matter by [kicking a rock](https://en.wikipedia.org/wiki/Appeal_to_the_stone).
+The solution is to stop doing philosophy. If you think you have proven to yourself that nothing matters, you should refute that by _coming into direct contact with things that matter_. Go hang out with your kids, or take a walk in the park, or read a good book, or take your medication[^2]. Samuel Johnson famously refuted skepticism about matter by [kicking a rock](https://en.wikipedia.org/wiki/Appeal_to_the_stone).
 
-Philosophy is not there to give you answers to your questions. It is there to baffle you further. If you ever think you understand something well, you can go and engage with the philosophy on the topic to find out all the ways in which you're still hopelessly confused[^3].
+Philosophy is not there to give you answers to your questions. It is there to baffle you further. If you ever think you understand something well, you can go and engage with the philosophy on the topic to find out all the ways in which you're still hopelessly confused[^3]. But if you think you've been persuaded via rational thought that nothing is important, you've put the cart before the horse: philosophy is supposed to help you reason about your natural intuitions, not to entirely replace them.
+
+So if you're bringing your workplace's collapse of meaning home with you, 
 
 
-[^1]: My specific subfield was "moral epistemology": how we can know what's right and wrong. If you think it's a bit anachronistic for philosophers to believe in right or wrong at all, I suggest reading this [Reddit post](https://www.reddit.com/r/AskPhilosophyFAQ/comments/4i2vec/are_there_good_arguments_for_objective_morality/) I wrote a long time ago - moral realism is surprisingly popular among academic philosophers.
+[^1]: My specific subfield was "moral epistemology": how we can know what's right and wrong. If you think it's a bit anachronistic for philosophers to believe in right or wrong at all, I suggest reading this [Reddit post](https://www.reddit.com/r/AskPhilosophyFAQ/comments/4i2vec/are_there_good_arguments_for_objective_morality/) I wrote a long time ago: moral realism is surprisingly popular among academic philosophers.
 
 [^2]: There are probably 1% of people who are so philosophy-brained that their existential angst does in fact derive from how seriously they take the arguments. These people might benefit from doing more philosophy. Everyone else is just depressed.
 
