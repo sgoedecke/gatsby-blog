@@ -1,12 +1,8 @@
-AI discoveries might be a virtuous cycle
 
-https://x.com/sauers_/status/2082171683645817193?s=46
 
-AI often constrained by its own self-belief
-As AIs start to do genuinely novel things they will start to think they can, and stop wasting tons of time having to be persuaded into it
+High performance software will become more important in agentic loops
 
-See tower of hanoi refusal
-(interestingly, I did some abliteration work here that was effective on small models (large ones were already good at simple repetition))
+Right now human thought is the bottleneck, so waiting a minute here and there for some tools is not a huge deal. But when we have stuff like 5.6 sol on cerebras churning through tokens, the bottleneck will actually shift to DX tooling
 
 
 ---
