@@ -3,6 +3,17 @@ title: You don't have to be smart if you can think clearly
 description: 
 order: 217
 date: '2026-07-29'
+popularity:
+  score: 31
+  hackerNews:
+    points: 23
+    comments: 4
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["good engineers", "technical clarity"]
 ---
 
@@ -23,3 +34,5 @@ Thinking fast is about packing as much data in your brain as possible and lettin
 If you can force yourself to do something people hate, there's typically a lot of value waiting to be extracted. This is no different. Engineers who can think clearly in a state of uncertainty tend to be extremely effective, whether they're capable of great intuitive leaps or not.
 
 edit: a reader suggested that I was talking about Keats' concept of ["negative capability"](https://en.wikipedia.org/wiki/Negative_capability): "that is, when a man is capable of being in uncertainties, mysteries, doubts, without any irritable reaching after fact and reason".
+
+edit: this post got a handful of comments on [Hacker News](https://news.ycombinator.com/item?id=49092852). One commenter [argues](https://news.ycombinator.com/item?id=49093815) that solving hard problems isn't about thinking slowly, then describes in detail what I mean by "thinking slowly".
