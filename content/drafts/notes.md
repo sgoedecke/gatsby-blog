@@ -1,4 +1,16 @@
+How not to stop thinking
 
+read actual books
+antithesis of ai slop
+slow content, information-dense
+
+write in your own words
+forces you to articulate thoughts, which is the process of thinking itself
+forces you to confront the difference between your view and the LLM's view
+
+
+
+---
 
 High performance software will become more important in agentic loops
 

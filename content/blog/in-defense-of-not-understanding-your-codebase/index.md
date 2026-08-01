@@ -5,13 +5,13 @@ order: 211
 date: '2026-07-11'
 popular: true
 popularity:
-  score: 259
+  score: 264
   hackerNews:
-    points: 20
+    points: 22
     comments: 13
     threads: 1
   lobsters:
-    points: 41
+    points: 42
     comments: 18
     threads: 1
   manual: 0
@@ -69,6 +69,8 @@ edit: I also got some [Hacker News](https://news.ycombinator.com/item?id=4888277
 > Goedecke doesn't quite write the anodyne sound bites that Seth Godin does, but neither does he write anything of engineering use, just vocabulary explainers for people who want to know kind of what their tech leads and line managers are talking about.
 
 First, this is skewed by what kind of posts get popular on Hacker News (i.e. not my [posts](/interaction-models/) [that](/steering-vectors/) [discuss](/fast-llm-inference/) [technical](/ai-detection/) [engineering](/tempo-faq/) [topics](/tags/papers/)). Second, I think "wanting to know what your tech leads and line managers are talking about" is very important!
+
+ This post also got some traction on [Twitter](https://x.com/bibryam/status/2083141370156581128), including some [long](https://x.com/Grady_Booch/status/2083322936782651393?s=20) [quote-tweets](https://x.com/NickADobos/status/2083372447915794559?s=20). I particularly like [this](https://x.com/joeladejola/status/2083470355495293316?s=20) idea that a "theory of the codebase" might be a _temporal_ theory: i.e. being able to answer "why did we build X at this point", "when was Y put in", etc.
 
 
 
