@@ -9,7 +9,7 @@ const HN_COMMENT_WEIGHT = 2
 const LOBSTERS_POINT_WEIGHT = 3
 const LOBSTERS_COMMENT_WEIGHT = 5
 
-const STALE_AFTER_MS = 30 * 24 * 60 * 60 * 1000
+const STALE_AFTER_MS = 60 * 24 * 60 * 60 * 1000 // 60 days
 
 const dryRun = process.argv.includes("--dry-run")
 

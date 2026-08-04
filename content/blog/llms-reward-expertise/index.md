@@ -3,6 +3,17 @@ title: LLMs reward expertise
 description: 
 order: 216
 date: '2026-07-24'
+popularity:
+  score: 1026
+  hackerNews:
+    points: 544
+    comments: 241
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai"]
 ---
 
@@ -32,4 +43,4 @@ If you have no domain knowledge, you can cling onto the LLM to at least get _som
 The usefulness of domain knowledge suggests that human expertise will continue to be useful even as models get stronger. For many tasks, **the human is the bottleneck, not the model**, because the difficult part is in communicating to the model exactly what kind of solution the human wants. The information is "in the model" already, but it takes a very smart human to pull it out.
 
 
-edit: this post got many [comments](https://news.ycombinator.com/) on Hacker News. Some [commenters](https://news.ycombinator.com/item?id=49163331) [share](https://news.ycombinator.com/item?id=49161777) [their](https://news.ycombinator.com/item?id=49162234) anecdotes about how expertise has helped and lack of expertise has hurt. [Other](https://news.ycombinator.com/item?id=49162433) commenters say it's plausible, but they have a sensible suspicion of a view that's reassuring them about how they're still valuable. I agree with that, though I suspect by the time we get around to studying this, the landscape will have changed under our feet again. Some [commenters](https://news.ycombinator.com/item?id=49161669) point out that OpenAI's math prompts were inexpert, and so expertise isn't required. Here I'd respond that OpenAI do have a team of expert mathematicians that checked and filtered the model's suggested discoveries, and that you cannot currently skip that step.
+edit: this post got many [comments](https://news.ycombinator.com/item?id=49161518) on Hacker News. Some [commenters](https://news.ycombinator.com/item?id=49163331) [share](https://news.ycombinator.com/item?id=49161777) [their](https://news.ycombinator.com/item?id=49162234) anecdotes about how expertise has helped and lack of expertise has hurt. [Other](https://news.ycombinator.com/item?id=49162433) commenters say it's plausible, but they have a sensible suspicion of a view that's reassuring them about how they're still valuable. I agree with that, though I suspect by the time we get around to studying this, the landscape will have changed under our feet again. Some [commenters](https://news.ycombinator.com/item?id=49161669) point out that OpenAI's math prompts were inexpert, and so expertise isn't required. Here I'd respond that OpenAI do have a team of expert mathematicians that checked and filtered the model's suggested discoveries, and that you cannot currently skip that step.
