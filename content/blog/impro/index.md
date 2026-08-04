@@ -3,6 +3,17 @@ title: Impro is a handbook for running a cult
 description:
 order: 214
 date: '2026-07-19'
+popularity:
+  score: 50
+  hackerNews:
+    points: 36
+    comments: 7
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["book reports"]
 ---
 
@@ -113,6 +124,8 @@ Read critically, _Impro_ also serves as a handbook for engineers who are trying 
 In the great battle between the shackles of restrictive culture and the glorious freedom of the guru, I am always and forever on the side of the shackles of restrictive culture. In general, I think most boring and stupid social norms (such as not hypnotizing and marrying your students) [serve an important purpose](https://www.lesswrong.com/w/chesterton-s-fence?lens=lwwiki-chesterton-s-fence) and shouldn't just be cut down in the name of freedom.
 
 _Impro_ is still a good book. There's a lot to learn from Johnstone's analysis of power dynamics, of education, and of creativity in general. By all accounts he was excellent at teaching students how to improvise. But I wouldn't recommend adopting it as your life philosophy, and I'd recommend being a bit suspicious of anyone pushing this book too hard. Getting rid of the existing social structures might benefit confident, wildly charismatic gurus like Johnstone, but most of us are just ordinary animals who do better in a group governed by norms.
+
+edit: this got some [comments](https://news.ycombinator.com/item?id=49143330) on Hacker News. One [commenter](https://news.ycombinator.com/item?id=49145402) argues that Johnstone's group can't have been a cult, because he wasn't extracting money (or sex, or anything else) from its members. I don't think that's the defining feature of a cult. Surely for some cult leaders it's just about the power.
 
 
 [^1]: In fairness to Johnstone, he cites Sheila Kitzinger's _The Experience of Childbirth_ in support of this claim (the others he just puts in his own words), so maybe he felt that this was a bit out there. As you would expect, the pain of childbirth is [a universal biological fact](https://pubmed.ncbi.nlm.nih.gov/10431717/).

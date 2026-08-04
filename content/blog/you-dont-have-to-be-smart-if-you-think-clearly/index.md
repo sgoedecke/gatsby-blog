@@ -4,9 +4,9 @@ description:
 order: 217
 date: '2026-07-29'
 popularity:
-  score: 31
+  score: 32
   hackerNews:
-    points: 23
+    points: 24
     comments: 4
     threads: 1
   lobsters:
