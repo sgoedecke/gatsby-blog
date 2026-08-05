@@ -3,6 +3,7 @@ title: LLMs reward expertise
 description: 
 order: 216
 date: '2026-07-24'
+popular: true
 popularity:
   score: 1026
   hackerNews:
