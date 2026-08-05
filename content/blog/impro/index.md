@@ -3,6 +3,7 @@ title: Impro is a handbook for running a cult
 description:
 order: 214
 date: '2026-07-19'
+popular: true
 popularity:
   score: 50
   hackerNews:
