@@ -256,12 +256,17 @@ const writePopularity = (raw, popularity) => {
   const lines = frontmatter.split("\n")
   let insertAfter = lines.findIndex(line => /^popular:\s/.test(line))
 
-  if (insertAfter === -1) {
+  if (insertAfter !== -1) {
+    lines[insertAfter] = "popular: true"
+  } else {
     insertAfter = lines.findIndex(line => /^date:\s/.test(line))
-  }
 
-  if (insertAfter === -1) {
-    insertAfter = lines.length - 1
+    if (insertAfter === -1) {
+      insertAfter = lines.length - 1
+    }
+
+    lines.splice(insertAfter + 1, 0, "popular: true")
+    insertAfter++
   }
 
   lines.splice(insertAfter + 1, 0, popularityBlock(popularity))
