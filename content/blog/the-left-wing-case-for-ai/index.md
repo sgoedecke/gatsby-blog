@@ -36,7 +36,7 @@ One popular anti-AI argument - that cavalier deployment of AI means that people 
 
 Many doctors are not very good at handling unusual medical cases. If you have an unusual medical case, you have to learn to advocate for your own care, which often involves researching your own condition. This is _precisely_ the kind of thing where LLMs are useful, because:
 
-- The medical questions involved are often complex but well-explored in the literature (i.e. good fodder for a LLM)
+- The medical questions involved are often complex but well-explored in the literature (i.e. good fodder for an LLM)
 - The patient is motivated enough to check individual sources themselves
 - Having to convince a doctor to prescribe treatment is a guardrail for any human-LLM interaction that goes well off the deep end
 
@@ -58,7 +58,7 @@ LLMs provide a dangerous professional translation service. You now don't have to
 
 Another common left-wing position is that education is gatekept by class and status. The idea here is that everyone has equal potential for accomplishment, but certain types of people get more educational opportunities, and that this explains uneven downstream outcomes. For instance, compare a wealthy neighborhood where every child gets private tutoring to a neighborhood where it's unusual to complete high school.
 
-It seems obvious to me that LLMs now make private tutoring available to every student who wants it. Of course, if you're a lazy student, LLMs probably make things worse by adding an additional temptation to cheat. But if you're motivated and just lack the opportunity, quizzing a LLM on basically any high-school level topic is a great way to learn.
+It seems obvious to me that LLMs now make private tutoring available to every student who wants it. Of course, if you're a lazy student, LLMs probably make things worse by adding an additional temptation to cheat. But if you're motivated and just lack the opportunity, quizzing an LLM on basically any high-school level topic is a great way to learn.
 
 The common rebuttal to this is that LLMs can't be relied on because they hallucinate. Like the doctor example, I struggle to believe that anyone making this argument is actually comparing LLMs with the alternatives. Teachers "hallucinate" _all the time_. I think every single kid who was smart in school has multiple stories of teachers insisting they were right about something obviously wrong[^3].
 

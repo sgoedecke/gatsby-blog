@@ -8,7 +8,7 @@ tags: ["ai", "prompting"]
 
 There's a brand of tech influencer now that's all about sharing the perfect prompt for any situation. The tweets in question typically read something like "this prompt will make you superhuman", or "this prompt will be a 20k growth consultant in your pocket"[^1]. There's a kernel of truth here - it's surprising how much small alterations in a prompt can affect the quality of language model outputs - but overall it's just a bit silly. Searching for the perfect prompt is just not how you should be engaging with language models.
 
-I've believed for a while that getting good at AI is [not really about "prompt engineering"](/beyond-prompting). Instead, it's about getting a sense of what language models are good and bad at, of when it's useful to continue a conversation with a LLM and when you should back out and start a brand-new conversation, of [when to use reasoning models](/prompting-reasoning-models) and when not to, of when you can broadly trust the model output and when you need to go over it with a fine-tooth comb, and so on.
+I've believed for a while that getting good at AI is [not really about "prompt engineering"](/beyond-prompting). Instead, it's about getting a sense of what language models are good and bad at, of when it's useful to continue a conversation with an LLM and when you should back out and start a brand-new conversation, of [when to use reasoning models](/prompting-reasoning-models) and when not to, of when you can broadly trust the model output and when you need to go over it with a fine-tooth comb, and so on.
 
 For instance, here's how I use state-of-the-art language models to help me in my software engineering job:
 

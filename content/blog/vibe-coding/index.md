@@ -6,7 +6,7 @@ date: '2025-03-15'
 tags: ["ai"]
 ---
 
-In the last months, the practice of getting a LLM to build your entire program for you (via Cursor, or Copilot, or just asking ChatGPT) has been dubbed "vibe coding". It works very well. To anyone who's been using LLMs over the last few years, this isn't surprising (though it would be an AGI-tier revelation to an engineer from before GPT-3.5). There are two big, well-known problems with it.
+In the last months, the practice of getting an LLM to build your entire program for you (via Cursor, or Copilot, or just asking ChatGPT) has been dubbed "vibe coding". It works very well. To anyone who's been using LLMs over the last few years, this isn't surprising (though it would be an AGI-tier revelation to an engineer from before GPT-3.5). There are two big, well-known problems with it.
 
 ### The obvious problems with vibe coding
 
@@ -16,7 +16,7 @@ The other big problem is that **you didn't write the code, so you don't understa
 
 **Code is not the most valuable artifact. _Your understanding of the codebase_ is**.
 
-A LLM can produce a lot of code very cheaply. But it can't automatically backfill your understanding of the codebase - you have to do that part - and its own understanding hits a hard limit when the size of the codebase exceeds the size of the context. At some point you'll have to dig in and understand the code yourself.
+an LLM can produce a lot of code very cheaply. But it can't automatically backfill your understanding of the codebase - you have to do that part - and its own understanding hits a hard limit when the size of the codebase exceeds the size of the context. At some point you'll have to dig in and understand the code yourself.
 
 ### Refactoring to understand
 

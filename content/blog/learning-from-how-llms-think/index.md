@@ -1,5 +1,5 @@
 ---
-title: Thinking like a LLM
+title: Thinking like an LLM
 description: How LLMs approach problems, and what we can learn from it
 order: 43
 date: '2025-02-15'
@@ -12,7 +12,7 @@ Rich Sutton's "bitter lesson" famously [claimed](https://www.cs.utexas.edu/~euns
 
 LLMs often exhibit "error reinforcement". When you're trying to get them to solve a tricky problem, sometimes their first mistake stays in the context and pushes them to keep repeating it, no matter what you say. If you start again in a fresh chat with a slightly tweaked prompt, they avoid the trap. Humans do this too. When you feel like you're in a loop and making the same mistakes, clear your own context window: get up, go do things that are the opposite of writing code, and fill your short-term memory with completely different content. When you pick the problem back up you might have a better chance at fixing it.
 
-LLMs do better when given tokens to think with before answering. If you ask a LLM to immediately answer, it'll often get it wrong; if you ask a LLM to write down how it might approach the problem and then answer, it has a much higher chance of getting it right. When you're thinking about a problem of your own, write down your thoughts step-by-step. I do this one a lot. In fact, my written chain-of-thought looks a lot like a LLM's chain of thought: one sentence per line, with each sentence beginning with words like "Then", "Wait," or "Hold on". This also helps me get back into the problem after taking a break.
+LLMs do better when given tokens to think with before answering. If you ask an LLM to immediately answer, it'll often get it wrong; if you ask an LLM to write down how it might approach the problem and then answer, it has a much higher chance of getting it right. When you're thinking about a problem of your own, write down your thoughts step-by-step. I do this one a lot. In fact, my written chain-of-thought looks a lot like an LLM's chain of thought: one sentence per line, with each sentence beginning with words like "Then", "Wait," or "Hold on". This also helps me get back into the problem after taking a break.
 
 The [s1](https://arxiv.org/abs/2501.19393) paper showed that you can significantly increase the power of a fine-tuned reasoning model by artificially inserting a "wait" token whenever it tries to stop thinking. The model will continue by finding a reason to double-check its answer. Likewise, when you come up with a solution or a block of code, think "wait" and find your own reason why your solution might not be the best one.
 

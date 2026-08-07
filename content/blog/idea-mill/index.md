@@ -6,11 +6,11 @@ date: '2025-07-15'
 tags: ["ai"]
 ---
 
-Large language models [struggle](/why-cant-ais-have-new-ideas) to generate new ideas. To AI skeptics, this seems trivially true, since they believe LLMs can only regurgitate content from their training data[^1]. To AI believers, this is a puzzle. If a human had the breadth of knowledge of a LLM, wouldn't they be able to synthesize it and come up with ideas nobody else has had? It may be a consequence of a [training process](https://x.com/VictorTaelin/status/1942409340461183236) that forces LLMs to generate existing text word-for-word. My own view is that it's a lack of "scaffolding".
+Large language models [struggle](/why-cant-ais-have-new-ideas) to generate new ideas. To AI skeptics, this seems trivially true, since they believe LLMs can only regurgitate content from their training data[^1]. To AI believers, this is a puzzle. If a human had the breadth of knowledge of an LLM, wouldn't they be able to synthesize it and come up with ideas nobody else has had? It may be a consequence of a [training process](https://x.com/VictorTaelin/status/1942409340461183236) that forces LLMs to generate existing text word-for-word. My own view is that it's a lack of "scaffolding".
 
-LLMs can't do much by themselves. To do most important work, they need to be embedded in a computer program that feeds useful data into their inputs and takes action based on their outputs. ChatGPT's memory is an example of scaffolding that lets a LLM remember facts about who they're talking to. GitHub Copilot is an example of scaffolding that lets a LLM make changes in your codebase. The story of AI engineering is in part the story of discovering which kinds of scaffolding work the best[^2].
+LLMs can't do much by themselves. To do most important work, they need to be embedded in a computer program that feeds useful data into their inputs and takes action based on their outputs. ChatGPT's memory is an example of scaffolding that lets an LLM remember facts about who they're talking to. GitHub Copilot is an example of scaffolding that lets an LLM make changes in your codebase. The story of AI engineering is in part the story of discovering which kinds of scaffolding work the best[^2].
 
-I keep coming back to this question: **how can we scaffold a LLM to come up with brand new ideas?**
+I keep coming back to this question: **how can we scaffold an LLM to come up with brand new ideas?**
 
 Gwern recently [posted](https://gwern.net/ai-daydreaming) about a "day-dreaming loop", where the model is prompted to retrieve two random facts, think about if there's a relationship between them, and if so, save that interesting relationship as a new fact. I think this is a good idea. In fact, I think it's such a good idea that I have been [trying to build it](https://github.com/sgoedecke/idea-mill) for some time! I want to spend the rest of this post sharing what lessons I've learned.
 

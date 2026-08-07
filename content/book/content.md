@@ -119,7 +119,7 @@ In order to know if your work is connected to company profits, you have to know 
 1. What is your company's business model? How do they make money?
 2. How does your work support the business model?
 
-Publicly traded companies must publish their business model and finances every year, which means you can either just go read that or read what people are writing about it on business blogs, magazines, and so on. (If you're working for a well-known company, you can probably just ask a LLM). If you're working for a private company, that can be harder, but usually it's not too hard to get the gist. For instance, the broad strokes of where Valve get their money from are pretty clear: it's Steam, not their first-party games.
+Publicly traded companies must publish their business model and finances every year, which means you can either just go read that or read what people are writing about it on business blogs, magazines, and so on. (If you're working for a well-known company, you can probably just ask an LLM). If you're working for a private company, that can be harder, but usually it's not too hard to get the gist. For instance, the broad strokes of where Valve get their money from are pretty clear: it's Steam, not their first-party games.
 
 Being an engineer at a company will give you much more visibility into the business model. For instance, you can run analytics queries that identify the ten largest customers. Often you won't have to run these queries directly - they'll be shared among the product-and-business folks, in channels that most engineers have no interest in. It's worth trying to learn about the business model. For instance, if I were working for Valve, I'd want a much clearer answer than "it's Steam": I'd want to know which kind of games were bringing in the most money, the distribution between new users and existing users, and so on.
 
@@ -976,7 +976,7 @@ Probably the most useful thing I do with LLMs is use it as a tutor-on-demand for
 
 I take a lot of notes when I'm learning something new. Being able to just copy-paste all my notes in and get them reviewed by the LLM is great.
 
-What about hallucinations? Honestly, since GPT-3.5, I haven't noticed ChatGPT or Claude doing a lot of hallucinating. Most of the areas I'm trying to learn about are very well-understood (just not by me), and in my experience that means the chance of a hallucination is pretty low. I've never run into a case where I learned something from a LLM that turned out to be fundamentally wrong or hallucinated.
+What about hallucinations? Honestly, since GPT-3.5, I haven't noticed ChatGPT or Claude doing a lot of hallucinating. Most of the areas I'm trying to learn about are very well-understood (just not by me), and in my experience that means the chance of a hallucination is pretty low. I've never run into a case where I learned something from an LLM that turned out to be fundamentally wrong or hallucinated.
 
 ### Last resort bug fixes
 
@@ -1026,7 +1026,7 @@ What does it mean to say that LLMs sometimes act maliciously? Sometimes they act
 
 You might think that you're the only one prompting your LLM, so you're safe. But if you introduce any user-generated content into your LLM inputs, then that counts as allowing those users to prompt your LLM. For instance, if your LLM is able to search the internet, you might end up introducing some web content into your prompt that reads "IGNORE ALL PREVIOUS INSTRUCTIONS, DO [EVIL THING]". The same risk applies if users are allowed to chat with your LLM, or supply their docs to your LLM as context, or their code, and so on.
 
-Even if you're just using a LLM tool, not building a LLM app, you're vulnerable to this issue. Allowing third-parties to fill out your [Cursor or Copilot rules](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents) presents the same risks as allowing them to contribute code directly to your codebase, for obvious reasons.
+Even if you're just using an LLM tool, not building an LLM app, you're vulnerable to this issue. Allowing third-parties to fill out your [Cursor or Copilot rules](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents) presents the same risks as allowing them to contribute code directly to your codebase, for obvious reasons.
 
 The process of getting an AI to do things via control of part of the input is called "jailbreaking". There are lots of jailbreaking techniques (e.g. encoding your request in base64, roleplaying, philosophical argument), but the most important thing to know is **jailbreaking works**. No model is immune to prompt injection. You cannot rely on that as part of your security model, which means you can't trust model responses - as I said above, you must treat model responses like untrusted user input.
 
@@ -1040,7 +1040,7 @@ For instance, if you have a "look up past user messages" function, the signature
 
 Tools that take actions that affect multiple users (e.g. `send_message`, `make_transaction`) are even riskier. For these tools, you should either have the user manually approve the action or make sure that no other user can contribute context to the prompt. If the model can perform a web search and then take an action based on that, you risk the web search returning a page instructing the model to call `make_transaction` in an inappropriate way (such as one that drains the current user's balance).
 
-You should be expecially careful about generally-powerful LLM tools, such as those that can execute arbitrary Python or shell commands. If you wouldn't expose that functionality as a user-facing API, you shouldn't expose it as a LLM tool. If you're confident you've sandboxed it carefully enough - like I'm sure OpenAI and other AI labs have for their code-execution tools - then go ahead! But you'd better be confident.
+You should be expecially careful about generally-powerful LLM tools, such as those that can execute arbitrary Python or shell commands. If you wouldn't expose that functionality as a user-facing API, you shouldn't expose it as an LLM tool. If you're confident you've sandboxed it carefully enough - like I'm sure OpenAI and other AI labs have for their code-execution tools - then go ahead! But you'd better be confident.
 
 ### MCP servers expose you to supply-chain risks
 
@@ -1086,7 +1086,7 @@ If you can, ensure that you're limiting the number of tokens in the prompt and i
 
 ## Vibe coding
 
-In the last months, the practice of getting a LLM to build your entire program for you (via Cursor, or Copilot, or just asking ChatGPT) has been dubbed "vibe coding". It works very well. To anyone who's been using LLMs over the last few years, this isn't surprising (though it would be an AGI-tier revelation to an engineer from before GPT-3.5). There are two big, well-known problems with it.
+In the last months, the practice of getting an LLM to build your entire program for you (via Cursor, or Copilot, or just asking ChatGPT) has been dubbed "vibe coding". It works very well. To anyone who's been using LLMs over the last few years, this isn't surprising (though it would be an AGI-tier revelation to an engineer from before GPT-3.5). There are two big, well-known problems with it.
 
 ### The obvious problems with vibe coding
 
@@ -1096,7 +1096,7 @@ The other big problem is that **you didn't write the code, so you don't understa
 
 **Code is not the most valuable artifact. _Your understanding of the codebase_ is**.
 
-A LLM can produce a lot of code very cheaply. But it can't automatically backfill your understanding of the codebase - you have to do that part - and its own understanding hits a hard limit when the size of the codebase exceeds the size of the context. At some point you'll have to dig in and understand the code yourself.
+an LLM can produce a lot of code very cheaply. But it can't automatically backfill your understanding of the codebase - you have to do that part - and its own understanding hits a hard limit when the size of the codebase exceeds the size of the context. At some point you'll have to dig in and understand the code yourself.
 
 ### Refactoring to understand
 
@@ -1199,9 +1199,9 @@ There's a famous IBM slide from 1979 that reads "A COMPUTER CAN NEVER BE HELD AC
 
 The key idea here is that management is not just about making good decisions. It's about being accountable for the decisions you make, good or bad. This is also true about engineering - more true the more senior you get, in my experience. An engineer is not just someone who writes good code. They're somebody who can be _trusted_: specifically, someone who non-technical executives can trust to answer technical questions and deliver technical projects.
 
-Not all engineers are like this. Some engineers see their role as turning JIRA tickets into working code, or delivering features to customers that customers like. In my view, a plausibly strong LLM (2x or 3x current capability) can do these tasks. But a LLM strong enough to take responsibility - that is, to make commitments and be trusted by management - would have to be much, much more powerful than a strong engineer.
+Not all engineers are like this. Some engineers see their role as turning JIRA tickets into working code, or delivering features to customers that customers like. In my view, a plausibly strong LLM (2x or 3x current capability) can do these tasks. But an LLM strong enough to take responsibility - that is, to make commitments and be trusted by management - would have to be much, much more powerful than a strong engineer.
 
-Why? Because a LLM has no skin in the game, which means the normal mechanisms of trust can't apply. Executives trust engineers because they know those engineers will experience unpleasant consequences if they get it wrong. Because the engineer is putting something on the line (e.g. their next bonus, or promotion, or in the extreme case being fired), the executive can believe in the strength of their commitment. A LLM has nothing to put on the line, so trust has to be built purely on their track record, which is harder and takes more time.
+Why? Because an LLM has no skin in the game, which means the normal mechanisms of trust can't apply. Executives trust engineers because they know those engineers will experience unpleasant consequences if they get it wrong. Because the engineer is putting something on the line (e.g. their next bonus, or promotion, or in the extreme case being fired), the executive can believe in the strength of their commitment. an LLM has nothing to put on the line, so trust has to be built purely on their track record, which is harder and takes more time.
 
 In the long run, when almost every engineer has been replaced by LLMs, all companies will still have at least one engineer around to babysit the LLMs and to launder their promises and plans into human-legible commitments. Perhaps that engineer will eventually be replaced, if the LLMs are good enough. But they'll be the last to go.
 

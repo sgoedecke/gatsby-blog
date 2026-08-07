@@ -28,7 +28,7 @@ However, this is changing rapidly. At the start of 2025, multiple AI labs releas
 
 The first big AI disaster will probably involve an AI agent. Any other use of AI has to involve a human-in-the-loop - the AI can provide information or suggestions, but a human has to actually take the actions. AI agents can thus go truly off the rails in a way that a human can't. If I had to bet, I'd guess that some kind of AI-powered Robodebt might be the most plausible case: some government or corporate entity wires up an AI agent to a debt-recovery, healthcare or landlord system, and the agent goes off the rails and hassles, denies coverage, or evicts a bunch of people. 
 
-As we move towards robotic AI, the chances of a kinetic disaster go up as well. Early prototypes of general-purpose robots have a LLM driving a smaller, non-language model that actually moves the servos. That's an AI agent, and like all AI agents it can fail in surprising and dangerous ways.
+As we move towards robotic AI, the chances of a kinetic disaster go up as well. Early prototypes of general-purpose robots have an LLM driving a smaller, non-language model that actually moves the servos. That's an AI agent, and like all AI agents it can fail in surprising and dangerous ways.
 
 ### Misaligned AI girlfriends
 

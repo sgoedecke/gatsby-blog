@@ -10,13 +10,13 @@ Over the last few weeks I've been playing around with the excellent [llama2.c](h
 
 My general idea is to start very broad, then slowly zero in until I'm deep in the specifics of how the llama2.c architecture works (and thus how transformers work in general). If you want to follow along with my JS port, it's [here](https://github.com/sgoedecke/llama2.js/blob/work/run.js).
 
-## What is a neural network? What is a LLM?
+## What is a neural network? What is an LLM?
 
-A LLM, or "large language model", is a particular kind of "neural network". Neural networks aim to predict some likely output based on a given input, with applications as broad as that description suggests. Think of a neural network model as a deliberately complex apparatus with hundreds of thousands of knobs and levers that transform input to output. As the model is trained, those knobs and levers are twiddled by trial and error into a configuration that works pretty well for some specific task.
+an LLM, or "large language model", is a particular kind of "neural network". Neural networks aim to predict some likely output based on a given input, with applications as broad as that description suggests. Think of a neural network model as a deliberately complex apparatus with hundreds of thousands of knobs and levers that transform input to output. As the model is trained, those knobs and levers are twiddled by trial and error into a configuration that works pretty well for some specific task.
 
 For context on why you'd do this instead of trying to actually program the task, see Rich Sutton's [The Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf).
 
-A LLM specifically is a kind of model that aims to predict the next piece of text in a sequence. For instance, if it had the prompt "Once upon", it might predict "Once upon a" - and then if you feed that back in and let it predict again, it might arrive at "Once upon a time", and so on. Models like LLaMA and GPT-3/4 do this surprisingly well due to a number of innovations, some of which I'm going to go on to explain.
+an LLM specifically is a kind of model that aims to predict the next piece of text in a sequence. For instance, if it had the prompt "Once upon", it might predict "Once upon a" - and then if you feed that back in and let it predict again, it might arrive at "Once upon a time", and so on. Models like LLaMA and GPT-3/4 do this surprisingly well due to a number of innovations, some of which I'm going to go on to explain.
 
 Some more detail: in practice, the "knobs and levers" are numerical values in a set of giant multi-dimensional matrices, called "weights". And the model doesn't predict a word, it predicts a "token", which is usually a piece of a word (for instance "raven" might decompose into "ra" and "ven"). Spaces and punctuation are tokens too. Finally, when we say the model "predicts a token", what it's really doing is outputting the probabilities of _all possible tokens_ (so if there's 32,000 possible tokens, it outputs a 32,000 length list of probabilities). That gets turned into text by picking the most likely token, or by some slightly more complex method that we'll talk about later. We call these probabilities "logits".
 

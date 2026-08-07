@@ -40,7 +40,7 @@ In a sense, EndlessWiki is a collaborative attempt to mine the depths of a langu
 
 ### Architecture
 
-The basic design is very simple: a MySQL database with a `pages` table, and a Golang server. When the server gets a `wiki/some-slug` request, it looks up `some-slug` in the database. If it exists, it serves the page directly; if not, it generates the page from a LLM and saves it to the database before serving it.
+The basic design is very simple: a MySQL database with a `pages` table, and a Golang server. When the server gets a `wiki/some-slug` request, it looks up `some-slug` in the database. If it exists, it serves the page directly; if not, it generates the page from an LLM and saves it to the database before serving it.
 
 I'm using [Kimi K2](https://www.kimi.com/en/) for the model. I chose a large model because larger models contain more facts about the world (which is good for a wiki), and Kimi specifically because in my experience [Groq](https://groq.com/) is faster and more reliable than other model inference providers. Speed is really important for this kind of application, because the user has to wait for new pages to be generated. Fortunately, Groq is fast enough that the wait time is only a few hundred ms.
 

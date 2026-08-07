@@ -32,7 +32,7 @@ Well, first we should note that **the AI users who used the AI for general quest
 
 But of course much current AI use is not like this: if you're using Claude Code or Copilot agent mode, you're getting the AI to do the code writing for you. Are you losing key skills by doing that?
 
-Well yes, of course you are. If you complete a task in ten minutes by throwing it at a LLM, you will learn much less about the codebase than if you'd spent an hour doing it by hand. I think it's pretty silly to deny this: it's intuitively right, and anybody who has used AI agents extensively at work can attest to it from their own experience.
+Well yes, of course you are. If you complete a task in ten minutes by throwing it at an LLM, you will learn much less about the codebase than if you'd spent an hour doing it by hand. I think it's pretty silly to deny this: it's intuitively right, and anybody who has used AI agents extensively at work can attest to it from their own experience.
 
 Still, I have two points to make about this.
 

@@ -28,7 +28,7 @@ It would also be prohibitively expensive to run every Anthropic model against a 
 
 As far as I know, the only AI provider to say they watermark text output is Google, who use a tool called [SynthID](https://www.nature.com/articles/s41586-024-08025-4). Here's how it works.
 
-When a LLM generates text, it's generating a series of tokens (words or chunks of words). At each step, the model itself doesn't output a single token, but instead outputs a full list of all (say) 100,000 tokens in its vocabulary, each annotated with the probability that that token will be the next one. Tools like ChatGPT or Claude Code will pick semi-randomly from the most likely options in order to get their outputs. **This semi-random sampling process can be influenced in a detectable way.**
+When an LLM generates text, it's generating a series of tokens (words or chunks of words). At each step, the model itself doesn't output a single token, but instead outputs a full list of all (say) 100,000 tokens in its vocabulary, each annotated with the probability that that token will be the next one. Tools like ChatGPT or Claude Code will pick semi-randomly from the most likely options in order to get their outputs. **This semi-random sampling process can be influenced in a detectable way.**
 
 For instance, we could choose a sampling strategy like "we pick the second most likely token, then the first, then the second, then the first, and so on". That would still produce high-quality output, but you'd be able to re-run the model against the generated text to verify that the pattern holds. However, that'd make verification really expensive, and any slight tweaks to the output would break the pattern and thus break the fingerprint. Is there a better way?
 

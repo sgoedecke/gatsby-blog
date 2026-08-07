@@ -8,7 +8,7 @@ tags: ["ai", "how to"]
 
 If you want to learn about a new subject in 2025, one of the best ways to do it is to ask a strong language model.
 
-The reason this method is so good is not that LLMs are smarter than your average Google search result, but that **you can ask infinite follow-up questions**. I often start by asking a general question (like “how does Kafka work”) and then digging in with many, many follow-up questions: both specific questions, like “what happens if a broker crashes”, and confirmation questions, like “it sounds like Kafka relies on clients to track which events are processed, is that right?”. I think this is a pretty intuitive way to learn something from a LLM, because it’s essentially treating it like a well-informed friend.
+The reason this method is so good is not that LLMs are smarter than your average Google search result, but that **you can ask infinite follow-up questions**. I often start by asking a general question (like “how does Kafka work”) and then digging in with many, many follow-up questions: both specific questions, like “what happens if a broker crashes”, and confirmation questions, like “it sounds like Kafka relies on clients to track which events are processed, is that right?”. I think this is a pretty intuitive way to learn something from an LLM, because it’s essentially treating it like a well-informed friend.
 
 ### Hallucinations
 
@@ -52,7 +52,7 @@ In general, I don’t think studies about students doing homework are particular
 
 Even with the hype, I think learning from LLMs is still deeply underrated. Even the naive approach of asking lots of questions - like you would an infinitely-patient colleague - is very useful. And there's a lot of potential in getting the model to ask _you_ questions, or to use it to research specific questions of fact or find primary sources.
 
-You are probably smarter than a LLM in your area of expertise. But there's a whole world of knowlege out there where the LLM definitely knows more than you do, and where there's enough expert consensus that it's unlikely to hallucinate. If you haven't done it already, I really do recommend you pick some topic you're interested in and give it a try.
+You are probably smarter than an LLM in your area of expertise. But there's a whole world of knowlege out there where the LLM definitely knows more than you do, and where there's enough expert consensus that it's unlikely to hallucinate. If you haven't done it already, I really do recommend you pick some topic you're interested in and give it a try.
 
 
 [^1]: I heard it on a Dwarkesh podcast, for instance. Although Dwarkesh said that he was using it to learn basic biology, which doesn’t seem like the ideal use case to me.

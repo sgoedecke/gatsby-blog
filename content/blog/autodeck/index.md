@@ -20,7 +20,7 @@ It's more difficult to use spaced repetition to deliberately learn new things. E
 
 One way I learn new things is from LLMs. I wrote about this in [_How I use LLMs to learn new subjects_](/learning-from-llms), but the gist is that I ask a ton of follow-up questions about a question I have. The best part about this approach is that it requires zero setup cost: if at any moment I want to learn more about something, I can type a question out and rapidly dig in to something I didn't already know.
 
-What if you could use LLMs to make spaced repetition easier? Specifically, what if you could ask a LLM to give you an infinite feed of spaced repetition flashcards, adjusting the difficulty based on your responses? That's the idea behind [AutoDeck](https://www.autodeck.pro/). You give it a topic and it gives you infinite flashcards about that topic. If it's pitched too easy (e.g. you keep saying "I know") or too hard, it'll automatically change the difficulty.
+What if you could use LLMs to make spaced repetition easier? Specifically, what if you could ask an LLM to give you an infinite feed of spaced repetition flashcards, adjusting the difficulty based on your responses? That's the idea behind [AutoDeck](https://www.autodeck.pro/). You give it a topic and it gives you infinite flashcards about that topic. If it's pitched too easy (e.g. you keep saying "I know") or too hard, it'll automatically change the difficulty.
 
 ### AI apps without a chat interface
 

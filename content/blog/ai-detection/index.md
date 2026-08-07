@@ -45,7 +45,7 @@ One obvious point: **all of these tools use AI themselves**. There is simply no 
 
 Interestingly, there's a sub-sub-industry of "humanizing" tools that aim to convert your AI-generated text into text that will be judged by AI detection tools as "human". Some free AI detection tools are actually sales funnels for these humanizing tools, and will thus deliberately produce a lot of false-positives so users will pay for the humanizing service. For instance, I ran one of my blog posts[^1] through [JustDone](https://justdone.com/ai-detector), which assessed them as 90% AI generated and offered to fix it up for the low, low price of $40 per month.
 
-These tools don't say this outright, but of course the "humanizing" process involves passing your writing through a LLM that's either prompted or fine-tuned to produce less-LLM-sounding content. I find this pretty ironic. There are probably a bunch of students who have been convinced by one of these tools to make their human-written essay LLM-generated, out of (justified) paranoia that a false-positive would get them in real trouble with their school or university.
+These tools don't say this outright, but of course the "humanizing" process involves passing your writing through an LLM that's either prompted or fine-tuned to produce less-LLM-sounding content. I find this pretty ironic. There are probably a bunch of students who have been convinced by one of these tools to make their human-written essay LLM-generated, out of (justified) paranoia that a false-positive would get them in real trouble with their school or university.
 
 ### False positives and social harm
 

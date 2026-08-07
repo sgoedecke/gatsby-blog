@@ -41,7 +41,7 @@ The other key result of the paper is that when they took the LLM away (during th
 
 One key point from the study design is that **the fourth session did not introduce any new prompts**. When they wrote the fourth essay they had to choose one of their three previous prompts to write about again. It seems to me that rewriting an old essay is a pretty different process to writing a new one, so I don't know how you can usefully compare brain activity.
 
-In that session, the previously-brain-only group who now had to use a LLM showed higher "directed connectivity", but as the paper itself notes, that may just be because they're learning a new tool (talking to a LLM).
+In that session, the previously-brain-only group who now had to use an LLM showed higher "directed connectivity", but as the paper itself notes, that may just be because they're learning a new tool (talking to an LLM).
 
 ### What if it's true?
 
@@ -71,4 +71,4 @@ I'd also like to see brain scans of strong engineers writing real application co
 
 [^4]: At least I don't know, and the paper isn't very confident either.
 
-[^5]: Like the author, I'm suspicious of fully automating kindergarten with LLMs - although my reservations are more along the lines of "it's a new technology so let's be cautious", and I do think talking to a LLM is orders of magnitude better than something like [Cocomelon](https://en.wikipedia.org/wiki/Cocomelon). 
+[^5]: Like the author, I'm suspicious of fully automating kindergarten with LLMs - although my reservations are more along the lines of "it's a new technology so let's be cautious", and I do think talking to an LLM is orders of magnitude better than something like [Cocomelon](https://en.wikipedia.org/wiki/Cocomelon). 

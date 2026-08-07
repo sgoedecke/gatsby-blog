@@ -53,7 +53,7 @@ I'm pleased and grateful that people enjoy reading my posts, but even when nobod
 
 If you'd like to try it yourself, I suggest watching for these two things. First, you should be changing your mind a lot as you write. If not, you probably aren't doing enough research. Second, your first draft's conclusion should be much tighter and more expressive than its introduction. If not, you probably haven't learned anything from the writing process, which means the draft can be scrapped.
 
-I strongly recommend this practice to anyone with an interest in writing. You will see the benefits even if you don't publish any of your writing on the internet, particularly now that you can get good technical feedback by pasting your post into a LLM[^1].
+I strongly recommend this practice to anyone with an interest in writing. You will see the benefits even if you don't publish any of your writing on the internet, particularly now that you can get good technical feedback by pasting your post into an LLM[^1].
 
 
 

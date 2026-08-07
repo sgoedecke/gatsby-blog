@@ -40,7 +40,7 @@ I also built an AI-generated [endless wiki](https://www.endlesswiki.com/). I wro
 
 ![endlesswiki](ewiki.png)
 
-I learned the hard way that putting a LLM generation call on the end of a regular link was a bad idea: scrapers would exhaust my inference budget quickly. I ended up faking the no-article-exists-yet links with JavaScript, which at least so far has defeated scrapers. People still email me about Endless Wiki, and there are over 280 thousand pages generated.
+I learned the hard way that putting an LLM generation call on the end of a regular link was a bad idea: scrapers would exhaust my inference budget quickly. I ended up faking the no-article-exists-yet links with JavaScript, which at least so far has defeated scrapers. People still email me about Endless Wiki, and there are over 280 thousand pages generated.
 
 My original goal was to see if you could eventually generate a page for Neon Genesis Evangelion, starting at the root page and only following links (kind of like [wiki golf](https://dev.to/zmbailey/wikigolf-an-automated-traversal-of-wikipedia-9o0)). I was successful! You can read the "Evangelion Anime" page [here](https://www.endlesswiki.com/wiki/evangelion_anime).
 

@@ -25,7 +25,7 @@ February 2025 was a long time ago. Back then the best model was the first reason
 
 ### Agents are good now
 
-The biggest change is that **I now use LLMs to produce entire PRs in areas I'm familiar with**. A year ago I would very occasionally ask an agent to make changes to a single file if it was a simple change I couldn't be bothered typing out. Sometimes I would copy a function I wrote into a LLM chat window for feedback. But now I start every single change by asking an agent to solve the problem, and usually push the PR after a single editing pass.
+The biggest change is that **I now use LLMs to produce entire PRs in areas I'm familiar with**. A year ago I would very occasionally ask an agent to make changes to a single file if it was a simple change I couldn't be bothered typing out. Sometimes I would copy a function I wrote into an LLM chat window for feedback. But now I start every single change by asking an agent to solve the problem, and usually push the PR after a single editing pass.
 
 In late 2025 I used a lot of open VSCode windows. In early 2026, that changed to terminal tabs with the Copilot CLI, particularly when I needed to make changes across multiple repos at the same time. Now I use the [GitHub Copilot app](https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview/) a _lot_ (tens of sessions per day). 
 
@@ -37,7 +37,7 @@ Sometimes I don't even need to make edits and I can just push the change as-is, 
 
 ### Investigating bugs
 
-I rely on LLMs even more for bug-hunting than I do for making changes. In 2025, I used to throw the occasional bug at a LLM, just in case it was able to rapidly come up with an explanation. Now I throw _every_ bug at a LLM (typically by opening a new agent session and pasting in the bug report), because it's able to correctly diagnose 80% of issues on its own. Current agents are _really good_ at chasing down bugs, particularly when you give them a vantage point across multiple repositories.
+I rely on LLMs even more for bug-hunting than I do for making changes. In 2025, I used to throw the occasional bug at an LLM, just in case it was able to rapidly come up with an explanation. Now I throw _every_ bug at an LLM (typically by opening a new agent session and pasting in the bug report), because it's able to correctly diagnose 80% of issues on its own. Current agents are _really good_ at chasing down bugs, particularly when you give them a vantage point across multiple repositories.
 
 I'm still better at it. Just last week I had a tricky bug that took about fourteen agent sessions before one finally figured it out. What was I doing in between and around those sessions?
 
@@ -54,11 +54,11 @@ I _almost always_ write my own PR descriptions, since LLMs over-communicate and 
 
 I still don't use LLMs to write Slack messages, ADRs, issues and so forth. I believe I have a better sense of what's important to communicate, and I want to signal that there's a human being thinking about the content.
 
-I still never use LLMs to write blog posts, though I do run each draft post through a LLM for feedback. OpenAI models used to be _terrible_ at this and have only very recently gotten acceptable with GPT-5.5. Both OpenAI and Anthropic models still try to water down my arguments, but I've accepted that as part of the LLM "house style" and just ignore that part of the feedback.
+I still never use LLMs to write blog posts, though I do run each draft post through an LLM for feedback. OpenAI models used to be _terrible_ at this and have only very recently gotten acceptable with GPT-5.5. Both OpenAI and Anthropic models still try to water down my arguments, but I've accepted that as part of the LLM "house style" and just ignore that part of the feedback.
 
 ### Testing and setup
 
-Another thing I do now is **try and push as much testing and setup work as possible onto the agents**. In 2025, I used to sometimes ask a LLM to produce a test script of curl commands that I could run against my dev server. In 2026, I just ask an agent to go and test my change, then read the log of what it did.
+Another thing I do now is **try and push as much testing and setup work as possible onto the agents**. In 2025, I used to sometimes ask an LLM to produce a test script of curl commands that I could run against my dev server. In 2026, I just ask an agent to go and test my change, then read the log of what it did.
 
 I don't test UI work like this, partly because it's more fiddly and partly because I don't trust agents to be sensitive to the subtle look-and-feel aspects of a change.
 

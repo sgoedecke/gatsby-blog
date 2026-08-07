@@ -23,7 +23,7 @@ Since reasoning models are so new, there's less reliable information about how t
 1. Generate a ton of synthetic "reasoning data" (i.e. chains-of-thought) and use that to fine-tune the model, or
 2. (like R1) you generate a bunch of maths and coding questions and let the model RL its way towards reasoning.
 
-When o1 was released, many people claimed that o1 was a LLM "plus logic" - for instance, that it was a normal model like 4o with a bunch of harness code that prompted it to think step-by-step in parallel, and then did some kind of clever search on the results to zero in on the "best" reasoning chain. Now this seems pretty conclusively false. For one, multiple OpenAI employees have come out and [said](https://x.com/__nmca__/status/1870170101091008860) that o1 is just a LLM. And as of a few days ago, we know that you can build a strong reasoning model without harness code, because DeepSeek-R1 did it and open-sourced the weights!
+When o1 was released, many people claimed that o1 was an LLM "plus logic" - for instance, that it was a normal model like 4o with a bunch of harness code that prompted it to think step-by-step in parallel, and then did some kind of clever search on the results to zero in on the "best" reasoning chain. Now this seems pretty conclusively false. For one, multiple OpenAI employees have come out and [said](https://x.com/__nmca__/status/1870170101091008860) that o1 is just an LLM. And as of a few days ago, we know that you can build a strong reasoning model without harness code, because DeepSeek-R1 did it and open-sourced the weights!
 
 Here's the structure overall:
 

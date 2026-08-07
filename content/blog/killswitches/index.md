@@ -24,7 +24,7 @@ It doesn't always have to be a feature flag. I've seen "safety files" that autom
 
 When might you want to use a killswitch? Sometimes it's a way to instantly remediate a software bug. If you've got code that's systematically deleting user data, or adding nonsense comments to their posts, it's useful to be able to turn that off.
 
-In the world of LLMs, this is especially important: it's very hard to track all the possible failure modes of a LLM-driven feature. If someone jailbreaks your LLM chatbot to start handing out recipes for anthrax, the quicker you can turn it off, the better.
+In the world of LLMs, this is especially important: it's very hard to track all the possible failure modes of an LLM-driven feature. If someone jailbreaks your LLM chatbot to start handing out recipes for anthrax, the quicker you can turn it off, the better.
 
 The more common time you might want a killswitch is when the system goes _down_.
 
