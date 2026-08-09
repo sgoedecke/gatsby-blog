@@ -3,7 +3,7 @@ title: Anti-AI nostalgia and the cult of the past
 description: 
 order: 202
 date: '2026-06-04'
-tags: ["ai", "politics"]
+tags: ["ai", "politics", "luddites"]
 ---
 
 Programmers were better back in the day, weren't they? Back when we had real programmers. Not just people who got paid to write code, but people who _lived_ it, who were obsessed with their craft, and whose code was a lively expression of themselves. Hackers were hackers in those days before money took over the industry.

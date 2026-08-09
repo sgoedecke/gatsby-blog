@@ -3,7 +3,7 @@ title: Blood in the datacenter
 description: 
 order: 186
 date: '2026-04-22'
-tags: ["ai", "ethics", "politics", "book reports"]
+tags: ["ai", "ethics", "politics", "book reports", "luddites"]
 ---
 
 Is it time to start burning down datacenters?
