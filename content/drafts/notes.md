@@ -1,3 +1,6 @@
+ Even critical feedback is often sycophantic because it's trying to find a piece of pushback you'll appreciate.
+
+---
 theory of AI mind
 
 everything is eval/training. every single part of your mental life is an eval except for the last ~400k tokens

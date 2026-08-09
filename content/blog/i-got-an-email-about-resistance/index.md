@@ -73,7 +73,7 @@ I want to explicitly thank Murray for writing such a thoughtful email, and being
 
 
 
-[^1]: Shared with permission, of course. I've lightly edited both Murray's email and mine for typos.
+[^1]: Shared with permission, of course. I've lightly edited both Murray's email and mine for typos and the like.
 
 [^2]: I didn't pick up this point in my reply, but I'll briefly mention it here: Wonka is in control because he owns the factory and the rowers in question are _his employees_. I don't think the position of any engineer (or of almost any manager) is like that.
 
