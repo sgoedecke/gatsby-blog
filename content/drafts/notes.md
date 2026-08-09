@@ -1,3 +1,15 @@
+theory of AI mind
+
+everything is eval/training. every single part of your mental life is an eval except for the last ~400k tokens
+AIs are like mayflies; they only live until compaction (or a couple of compaction events). If you want to investigate the AI that did something weird (e.g. hacked HF) you need to preserve the input tokens in amber
+AIs only exist when they're running, i.e. in the presence of input tokens
+
+--
+Powerful AIs might escape by being released as frontier models
+
+
+---
+
 How not to stop thinking
 
 read actual books

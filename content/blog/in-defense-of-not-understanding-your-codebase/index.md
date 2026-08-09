@@ -72,6 +72,8 @@ First, this is skewed by what kind of posts get popular on Hacker News (i.e. not
 
  This post also got some traction on [Twitter](https://x.com/bibryam/status/2083141370156581128), including some [long](https://x.com/Grady_Booch/status/2083322936782651393?s=20) [quote-tweets](https://x.com/NickADobos/status/2083372447915794559?s=20). I particularly like [this](https://x.com/joeladejola/status/2083470355495293316?s=20) idea that a "theory of the codebase" might be a _temporal_ theory: i.e. being able to answer "why did we build X at this point", "when was Y put in", etc.
 
+ edit: I also recommend this [blog post](https://codeutopia.net/blog/2026/08/08/in-defense-of-understanding-the-theory-of-the-program/) response from Jani Hartikainen. I disagree with him when he says that you can't tradeoff theory-understanding against other values, because those other values just form part of the theory. I think "keep the theory of the program simple" is a coherent value that gets traded off anytime you add complexity to the program (e.g. to fulfil some customer request).
+
 
 
 [^1]: I wrote about this at length in [_Pure and impure software engineering_](/pure-and-impure-engineering/). I think many of the repeated arguments we have in the software industry are caused by the pure total-understanding culture coming up against the impure partial-understanding culture.
