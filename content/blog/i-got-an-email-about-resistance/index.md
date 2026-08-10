@@ -3,6 +3,18 @@ title: I got an email about resistance
 description: 
 order: 221
 date: '2026-08-09'
+popular: true
+popularity:
+  score: 292
+  hackerNews:
+    points: 15
+    comments: 10
+    threads: 1
+  lobsters:
+    points: 44
+    comments: 25
+    threads: 1
+  manual: 0
 tags: ["tech companies", "meta", "cynicism", "luddites"]
 ---
 
@@ -71,6 +83,8 @@ In this blog, I try to encourage people to work with the system, to [learn its r
 
 I want to explicitly thank Murray for writing such a thoughtful email, and being willing for me to publish it on the blog.
 
+
+edit: this got some comments on both [Lobste.rs](https://lobste.rs/s/vowt4d/i_got_email_about_resistance) and [Hacker News](https://news.ycombinator.com/item?id=49234470). The Lobste.rs comments are _much_ better this time: I recommend Murray's own [comments](https://lobste.rs/c/j6a6tk) in the thread, [this](https://lobste.rs/c/narujj) prediction about how AI automation will go, and [this](https://lobste.rs/c/3rthb0) correction that the Luddites only shot one factory-owner. I knew that from my previous [research](/luddites-and-ai-datacenters/), so I shouldn't have overstated, but in my defense they did shoot _at_ William Cartwright (and a handful of others). 
 
 
 [^1]: Shared with permission, of course. I've lightly edited both Murray's email and mine for typos and the like.

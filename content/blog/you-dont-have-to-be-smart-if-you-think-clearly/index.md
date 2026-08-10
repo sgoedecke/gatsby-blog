@@ -3,10 +3,11 @@ title: You don't have to be smart if you can think clearly
 description: 
 order: 217
 date: '2026-07-29'
+popular: true
 popularity:
-  score: 32
+  score: 33
   hackerNews:
-    points: 24
+    points: 25
     comments: 4
     threads: 1
   lobsters:
