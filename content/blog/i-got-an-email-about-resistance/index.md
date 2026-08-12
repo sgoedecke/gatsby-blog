@@ -5,14 +5,14 @@ order: 221
 date: '2026-08-09'
 popular: true
 popularity:
-  score: 292
+  score: 379
   hackerNews:
     points: 15
     comments: 10
     threads: 1
   lobsters:
-    points: 44
-    comments: 25
+    points: 48
+    comments: 40
     threads: 1
   manual: 0
 tags: ["tech companies", "meta", "cynicism", "luddites"]

@@ -5,9 +5,9 @@ order: 216
 date: '2026-07-24'
 popular: true
 popularity:
-  score: 2555
+  score: 2557
   hackerNews:
-    points: 1411
+    points: 1413
     comments: 572
     threads: 1
   lobsters:

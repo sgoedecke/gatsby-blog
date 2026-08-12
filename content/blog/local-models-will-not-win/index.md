@@ -3,6 +3,18 @@ title: No, local models will not win
 description: 
 order: 223
 date: '2026-08-11'
+popular: true
+popularity:
+  score: 351
+  hackerNews:
+    points: 22
+    comments: 20
+    threads: 1
+  lobsters:
+    points: 23
+    comments: 44
+    threads: 1
+  manual: 0
 tags: ["ai"]
 ---
 
@@ -41,6 +53,9 @@ Or maybe models get _so_ good that a 30B model is genuinely smart enough to do e
 I do think there will always be a niche for local models. I'm reminded of the surprisingly simple idea behind Thinking Machines' ["Interaction Models"](/interaction-models/) (which OpenAI also [does](https://openai.com/index/introducing-gpt-live/), because it's obvious): for latency-sensitive applications like voice chat, you have a small, fast model handle the talking, which delegates to a large, slower model for the hard thinking. I wouldn't be surprised if most AI use in five years is mediated through a local model on your phone or laptop (though in this world almost all the work would still be done via AI datacenters).
 
 Some users will prefer local models even though they're weaker and more expensive. For instance, being able to [steer the model locally](/steering-vectors/) might be a killer feature for those users. Others might simply value having total control over their own infrastructure, or have unreliable internet[^4]. If you're one of those people - particularly if you only chat to the models instead of using them for research or coding - local models are a good choice for you. However, I think this is always going to be a niche group. The majority of users will continue to do their inference through datacenters.
+
+
+edit: this post got comments on both [Hacker News](https://news.ycombinator.com/item?id=49251703) and [Lobste.rs](https://lobste.rs/s/kkqqdn/no_local_models_will_not_win). Commenters [suggest](https://lobste.rs/c/vxllxs) that the total collapse of the AI industry might upend everything - fair, but [I disagree](https://www.seangoedecke.com/tags/bubble/) that the bubble popping will be that catastrophic for AI products. [Others](https://lobste.rs/c/4uxp2s) object to my assumption that people will choose strong models, and share [their](https://news.ycombinator.com/item?id=49252730) [own](https://lobste.rs/c/p1r4iz) [experiences](https://news.ycombinator.com/item?id=49252420) with local inference. I think it's totally fine to use local models, but local-model-users are probably overrepresented on hacker forums. Finally, [some](https://lobste.rs/c/islhbg) [people](https://lobste.rs/c/bjdlrs) [didn't like](https://news.ycombinator.com/item?id=49252438) my use of the word "win". I don't know, it seems pretty idiomatic to me: I mean "win" as in "people will broadly stop paying for cloud inference because everyone's running it locally".
 
 
 [^1]: This link is from a year ago - things are [significantly more expensive](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5090-gaming-oc-32gb-video-card-ac81825) now.
