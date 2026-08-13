@@ -3,6 +3,18 @@ title: Text AI watermarks will always be trivial to remove
 description: 
 order: 208
 date: '2026-07-02'
+popular: true
+popularity:
+  score: 185
+  hackerNews:
+    points: 61
+    comments: 62
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["ai", "ai regulation"]
 ---
 
@@ -69,6 +81,8 @@ So what's going to happen this year? If I had to guess, I'd say that each AI pro
 AI providers will then offer a "check for watermark" page that re-tokenizes user-provided text, runs the scoring, and checks whether it's above a certain threshold. Depending on how seriously the interoperability clause is taken, providers might even standardize on the same SynthID setup, in which case there could be a single EU-hosted "watermark this text" page.
 
 I don't think unicode-based watermarking is going to be considered compliant with the AI Act, but some providers which don't want to set up SynthID might try it. Either way, technical users will be able to strip out the watermark at will, and there will be a plethora of tools that non-technical users will use for this purpose.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=49287153). Commenters mostly debate the merits of watermarks and AI regulation in general. One [commenter](https://news.ycombinator.com/item?id=49288274) says that cryptographically signing text is easy. Sure, I agree, but the hard part is storing all the signatures (despite what [some people](https://news.ycombinator.com/item?id=49287453) worry about, AI companies don't and ca't store _all_ their customer's prompts). Some [other](https://news.ycombinator.com/item?id=49287613) [commenters](https://news.ycombinator.com/item?id=49290186) complain that removing watermarks is a crime. That doesn't seem legally or morally right to me. It's basically putting stickers over the logos on your own property!
 
 
 [^1]: Well, for new systems; existing ones get until December.

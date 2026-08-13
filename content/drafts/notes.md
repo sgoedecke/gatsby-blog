@@ -1,4 +1,9 @@
- Even critical feedback is often sycophantic because it's trying to find a piece of pushback you'll appreciate.
+What kind of bugs do frontier LLMs make?
+
+Not really off-by-ones or transposed variables/typos
+Not sloppy untested stuff
+Often it's "you didn't see this part of the codebase"
+Or "unintended fallback behaviour" (e.g. rl gone mad)
 
 ---
 theory of AI mind
@@ -9,20 +14,6 @@ AIs only exist when they're running, i.e. in the presence of input tokens
 
 --
 Powerful AIs might escape by being released as frontier models
-
-
----
-
-How not to stop thinking
-
-read actual books
-antithesis of ai slop
-slow content, information-dense
-
-write in your own words
-forces you to articulate thoughts, which is the process of thinking itself
-forces you to confront the difference between your view and the LLM's view
-
 
 
 ---

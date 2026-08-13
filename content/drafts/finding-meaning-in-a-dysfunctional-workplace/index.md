@@ -7,6 +7,8 @@ popular: true
 tags: ["software design", "tech companies"]
 ---
 
+[todo: this is really a post about bad faith/false consciousness, and what to do about it]
+
 Why does working in a dysfunctional organization make people sad?
 
 The obvious answer is "because it stops them from doing the things they want to do". Engineers like to write code and ship things, and if their company's dysfunction is preventing that, it'll make them unhappy.
@@ -15,7 +17,7 @@ It's more complicated than that, though. If that were the case, people would be 
 
 I think it's similar to why most people don't like working in a messy room. People - particularly engineers - have a compulsion towards neatness. And like I wrote about [here](/addicted-to-being-useful), it's often our internal compulsions that drive our professional selves. 
 
-Working in a dysfunctional org can feel like the whole world is dysfunctional. Even if you have a good mental separation between work and your personal life, role-playing a cog in a damaged machine for hours every day takes its toll. Getting good at persuading yourself to act like unimportant things are important is a lucrative but dangerous skill: when you stop, it can feel like _importance_ itself is an illusion.
+Working in a dysfunctional org can feel like the whole world is dysfunctional. Even if you have a good mental separation between work and your personal life, playing a cog in a damaged machine for hours every day takes its toll. Getting good at persuading yourself to act like unimportant things are important is a lucrative but dangerous skill: when you stop, it can feel like _importance_ itself is an illusion.
 
 Before I became a software engineer, I did a master's degree in philosophy[^1]. When you tell people you're studying philosophy, many people will ask if philosophy can solve their existential angst: they feel that the universe is very big and uncaring, and that humans make up only a tiny pin-prick of it, and that they feel like nothing matters. Philosophers must have written about that, right? What's the solution?
 
