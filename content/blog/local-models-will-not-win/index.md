@@ -46,7 +46,7 @@ Is there a possible world in which local models win? I suppose so. One thing tha
 
 Alternatively, AI progress might somehow stall for very large models while progressing for small ones. I struggle to imagine how this might happen (barring government intervention, as above), but a world where a 30B parameter model could be a frontier model is a world where local models might be competitive.
 
-Or maybe models get _so_ good that a 30B model is genuinely smart enough to do everything, so nobody really needs a model like Opus or Sol unless they're trying to solve the Reimann Hypothesis. I don't really buy this. Models can do frontier mathematical work today while still being not smart enough to refactor large codebases as well as me, so it's hard to imagine a world where I don't just want to use the smartest model available.
+Or maybe models get _so_ good that a 30B model is genuinely smart enough to do everything, so nobody really needs a model like Opus or Sol unless they're trying to solve the Riemann Hypothesis. I don't really buy this. Models can do frontier mathematical work today while still being not smart enough to refactor large codebases as well as me, so it's hard to imagine a world where I don't just want to use the smartest model available.
 
 ### Local models are not useless
 

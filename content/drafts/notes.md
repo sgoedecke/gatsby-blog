@@ -1,3 +1,19 @@
+value above replacement in the LLM world
+you have to be able to add value over the LLM
+easiest way is with domain knowledge the LLM doesn't have
+second easiest way is with taste
+third easiest is raw ability
+fourth easiest is going and talking to people 
+taking responsibility
+
+--
+why are universities so dysfunctional?
+they require management but few of the managers think of themselves as managers (profs instead)
+everyone has been in the bubble for a long time (maybe forever)
+professional machinery around HR/etc is atrophied or weird because of all of this - things that many regular workplaces would navigate as a matter of course become impossible
+weird middleground between working with children (ok, 18/19 yos) and working with adults. Lots of adults get treated as children here
+
+--
 What kind of bugs do frontier LLMs make?
 
 Not really off-by-ones or transposed variables/typos
@@ -11,10 +27,6 @@ theory of AI mind
 everything is eval/training. every single part of your mental life is an eval except for the last ~400k tokens
 AIs are like mayflies; they only live until compaction (or a couple of compaction events). If you want to investigate the AI that did something weird (e.g. hacked HF) you need to preserve the input tokens in amber
 AIs only exist when they're running, i.e. in the presence of input tokens
-
---
-Powerful AIs might escape by being released as frontier models
-
 
 ---
 
