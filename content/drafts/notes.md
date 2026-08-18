@@ -1,4 +1,17 @@
+big games; small games. philosophy, tech, career, who respects you. very hard to win any game. very hard to switch to a new game that you'll suck at. but some games offer wildly different potential
 
+doing jira tickets well is one game. pleasing your manager and getting promoted is another. gaining respect from respected engineers is a third. having impact for end-users is a fourth. all different games
+
+nightmare scenario is to not realise you're playing a game; very unlikely to be good by accident
+
+there are games beyond the game, too. you don't want to wait too long before you start trying to be a person
+
+--
+
+https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/ 
+chalk this one up to "ffmpeg 2x speed your transcription audio first" for stupidly simple tricks that work
+
+---
 
 value above replacement in the LLM world
 you have to be able to add value over the LLM
