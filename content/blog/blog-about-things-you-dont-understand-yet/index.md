@@ -3,6 +3,18 @@ title: Blog about things you don't understand yet
 description: 
 order: 210
 date: '2026-07-07'
+popular: true
+popularity:
+  score: 267
+  hackerNews:
+    points: 169
+    comments: 49
+    threads: 1
+  lobsters:
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
 tags: ["writing"]
 ---
 
@@ -56,5 +68,6 @@ If you'd like to try it yourself, I suggest watching for these two things. First
 I strongly recommend this practice to anyone with an interest in writing. You will see the benefits even if you don't publish any of your writing on the internet, particularly now that you can get good technical feedback by pasting your post into an LLM[^1].
 
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=49293087).
 
 [^1]: For what it's worth, I've fiddled with careful "review prompts" and it's basically as good to just write "review, please:" and paste your article.

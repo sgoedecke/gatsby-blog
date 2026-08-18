@@ -5,14 +5,14 @@ order: 223
 date: '2026-08-11'
 popular: true
 popularity:
-  score: 390
+  score: 402
   hackerNews:
-    points: 22
-    comments: 20
+    points: 24
+    comments: 21
     threads: 1
   lobsters:
-    points: 26
-    comments: 50
+    points: 27
+    comments: 51
     threads: 1
   manual: 0
 tags: ["ai"]
