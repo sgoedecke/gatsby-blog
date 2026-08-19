@@ -26,7 +26,7 @@ const SEO = ({ description, lang, meta, title }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const socialCard = `${site.siteMetadata.siteUrl}social-card.jpg`
+  const socialCard = `https://www.seangoedecke.com/social-card.jpg`
 
   return (
     <Helmet
