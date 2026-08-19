@@ -25,7 +25,8 @@ const SEO = ({ description, lang, meta, title }) => {
     `
   )
 
-  const ogImage = `https://www.seangoedecke.com/og-image.jpg`
+  const metaDescription = description || site.siteMetadata.description
+  const socialCard = `${site.siteMetadata.siteUrl}social-card.jpg`
 
   return (
     <Helmet
@@ -44,7 +45,35 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: ogImage,
+          content: socialCard,
+        },
+        {
+          property: `og:image:width`,
+          content: `1200`,
+        },
+        {
+          property: `og:image:height`,
+          content: `630`,
+        },
+        {
+          property: `og:image:alt`,
+          content: `Sean Goedecke`,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          name: `description`,
+          content: metaDescription,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary_large_image`,
+        },
+        {
+          name: `twitter:image`,
+          content: socialCard,
         },
       ].concat(meta)}
     />
