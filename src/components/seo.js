@@ -26,7 +26,6 @@ const SEO = ({ description, lang, meta, title }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const socialCard = `https://www.seangoedecke.com/social-card-v2.jpg`
 
   return (
     <Helmet
@@ -44,44 +43,12 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
-          property: `og:image`,
-          content: socialCard,
-        },
-        {
-          property: `og:image:secure_url`,
-          content: socialCard,
-        },
-        {
-          property: `og:image:type`,
-          content: `image/jpeg`,
-        },
-        {
-          property: `og:image:width`,
-          content: `1200`,
-        },
-        {
-          property: `og:image:height`,
-          content: `630`,
-        },
-        {
-          property: `og:image:alt`,
-          content: `Sean Goedecke`,
-        },
-        {
           property: `og:description`,
           content: metaDescription,
         },
         {
           name: `description`,
           content: metaDescription,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:image`,
-          content: socialCard,
         },
       ].concat(meta)}
     />
