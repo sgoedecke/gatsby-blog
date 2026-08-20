@@ -88,3 +88,5 @@ I think a lot of engineers hold off on deploys essentially out of fear. If you w
 - Have courage!
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42111031) with lots of comments.
+
+edit: I did an [interview](https://writingclub.world/writing-about-writing/sean-goedecke) with Writing About Writing about this post, if you're curious about the process.
