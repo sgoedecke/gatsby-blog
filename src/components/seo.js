@@ -25,7 +25,7 @@ const SEO = ({ description, lang, meta, title }) => {
     `
   )
 
-  const ogImage = `https://www.seangoedecke.com/og-image.jpg`
+  const metaDescription = description || site.siteMetadata.description
 
   return (
     <Helmet
@@ -43,8 +43,12 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
-          property: `og:image`,
-          content: ogImage,
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          name: `description`,
+          content: metaDescription,
         },
       ].concat(meta)}
     />
