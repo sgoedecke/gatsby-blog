@@ -1,3 +1,15 @@
+https://cursor.com/blog/git-at-any-scale
+
+I really like this - too simple to fail
+no database is such a good feature
+Single source of truth in S3 is great
+Using the properties of git is great
+
+3PC constrains Spokes to ~3 replicas per-repo because each replica has to participate synchronously in each event; Cursor's system has a single source of truth so you can add ~infinity replicas and they'll just read from the WAL
+  (read operations can be run on any Cursor git node, except they have to check in to make sure the last WAL head they've seen is the latest WAL head to ensure consistency - for Spokes, read operations don't have to check in, because healthy nodes are always up-to-date). Spokes should thus be slightly faster on principle, at the cost of scaling more awkwardly
+
+--
+
 big games; small games. philosophy, tech, career, who respects you. very hard to win any game. very hard to switch to a new game that you'll suck at. but some games offer wildly different potential
 
 doing jira tickets well is one game. pleasing your manager and getting promoted is another. gaining respect from respected engineers is a third. having impact for end-users is a fourth. all different games
@@ -5,6 +17,14 @@ doing jira tickets well is one game. pleasing your manager and getting promoted 
 nightmare scenario is to not realise you're playing a game; very unlikely to be good by accident
 
 there are games beyond the game, too. you don't want to wait too long before you start trying to be a person
+
+
+finite and infinite games
+
+p11 - "mother" as finite game?? truly do not understand how this fits the criteria
+in general I think there are plenty of finite games that play with the rules, have no defined spatial limitations, have nobody to agree on victory. most jobs that he lists are like this!
+
+I'm not enjoying this. I don't like the rhetorical trick of classifying everything as a game and then saying "oh but there's this special infinite game that I can't give examples of and is fundamentally different and better" - I don't believe that his examples are bad in the way he says, and I don't believe that "infinite games" in this perfect sense exist.
 
 --
 
