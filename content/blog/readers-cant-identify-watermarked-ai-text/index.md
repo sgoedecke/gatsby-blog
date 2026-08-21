@@ -44,7 +44,7 @@ I re-shuffled the questions and got these results:
 | 9 | 0 |
 | 10 | 0 |
 
-Now the mean is 3.4/10, much closer to the expected 3.333. There's no spike around 6. We only had 73 people take the quiz after I shuffled the questions - most people saw it and took it immediately after I posted it to my LinkedIn and Hacker News - but I think that's still enough to feel confident that people were just guessing randomly.
+Now the mean is 3.4/10, much closer to the expected 3.333. There's no spike around 6. We only had 73 people take the quiz after I shuffled the questions - most people saw it and took it immediately after I posted it to my LinkedIn and Hacker News - but given the previous results, I think that's still enough to feel confident that people were just guessing randomly.
 
 So no, **people can't identify the presence of AI watermarks**. Obviously this wasn't exactly a scientific study, but it's still pretty suggestive. If watermarks were really choosing random words that the model would never pick, you'd be able to sometimes tell from three side-by-side responses which one went down the weird watermarked road, right? I also hope that something like this can serve as a persuasive tool: if you're worrying about what impact watermarking is going to have, and your intuition is unmoved by the mathematical explanations, [having a read](https://sgoedecke.github.io/watermark-quiz/) of the watermarked and unwatermarked responses might convince you that there's really no difference in quality.
 
