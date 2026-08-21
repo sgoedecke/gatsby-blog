@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Bio from "../components/bio";
+import RecommendedPosts from "../components/recommended-posts";
 import { rhythm } from "../utils/typography";
 
 const AboutPage = ({ data, location }) => {
@@ -13,7 +14,7 @@ const AboutPage = ({ data, location }) => {
       <SEO title="About" />
 
       <p>Hi! I'm Sean Goedecke, an Australian software engineer.</p>
-        
+
       <p>
         I mostly write about AI and large-company dynamics. If you want to know
         more about my background, my resume is{" "}
@@ -31,29 +32,7 @@ const AboutPage = ({ data, location }) => {
         If you're interested in this blog but you're not sure where to start, you can read my most <Link to="/popular">popular posts</Link>, or start with one of these:
       </p>
 
-      <ul>
-        <li>
-          <Link to="/how-to-ship">How I ship projects at big tech companies</Link>
-        </li>
-        <li>
-          <Link to="/seeing-like-a-software-company">Seeing like a software company</Link>
-        </li>
-        <li>
-          <Link to="/good-times-are-over">
-            The good times in tech are over
-          </Link>
-        </li>
-        <li>
-          <Link to="/inference-batching-and-deepseek">
-            Why DeepSeek is cheap at scale but expensive to run locally
-          </Link>
-        </li>
-        <li>
-          <Link to="/good-system-design">
-            Everything I know about good system design
-          </Link>
-        </li>
-      </ul>
+      <RecommendedPosts />
 
       <p>
         If you'd like to get in touch, email me at{' '}
