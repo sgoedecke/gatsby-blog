@@ -1,3 +1,20 @@
+bad faith
+marxist alienation: https://news.ycombinator.com/item?id=49396905
+sartrean bad faith (but the waiter is still a guy with a job)
+debord/situationist alienation?
+
+---
+model > harness
+
+valuable harnesses bring the model to bear on more tasks: e.g. grok bot making models addressable via messenger/email, MCP bringing in data from other services, putting the harness in the CLI so you can use it "with" any IDE, etc
+
+but there's no "system prompt + tools that is the secret sauce". everyone immmediately converges on what the models is RLed for (which is usually fairly basic, and can be pulled directly out of the "official client", or even by just seeing what the model is using/not using/etc).
+
+i use codex/CC/copilot a lot and they feel literally interchangeable; but small changes to the reasoning effort or switching the model feels like using an entirely different tool
+
+this is going to feel like a shill post no matter what I do
+
+---
 https://cursor.com/blog/git-at-any-scale
 
 I really like this - too simple to fail
