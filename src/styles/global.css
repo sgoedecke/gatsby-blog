@@ -6,6 +6,30 @@ h2 {
   margin-top: 1.5rem;
 }
 
+article .heading-anchor {
+  box-shadow: none;
+  display: inline-flex;
+  margin-left: 0.35em;
+  vertical-align: middle;
+}
+
+article .heading-anchor svg {
+  fill: currentColor;
+  height: 0.75em;
+  opacity: 0;
+  transition: opacity 120ms ease-in-out;
+  width: 0.75em;
+}
+
+article h2:hover .heading-anchor svg,
+article h3:hover .heading-anchor svg,
+article h4:hover .heading-anchor svg,
+article h5:hover .heading-anchor svg,
+article h6:hover .heading-anchor svg,
+article .heading-anchor:focus svg {
+  opacity: 0.65;
+}
+
 @media (prefers-color-scheme: dark) {
   a {
     color: lightblue;
