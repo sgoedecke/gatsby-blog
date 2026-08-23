@@ -3,6 +3,18 @@ title: You should never be angry at work
 description: 
 order: 228
 date: '2026-08-22'
+popular: true
+popularity:
+  score: 367
+  hackerNews:
+    points: 0
+    comments: 0
+    threads: 0
+  lobsters:
+    points: 64
+    comments: 35
+    threads: 1
+  manual: 0
 tags: ["tech companies"]
 ---
 
@@ -62,6 +74,11 @@ A cynical person might say here that I've stopped caring about my work, so of co
 
 Being angry at work feels good. It feels like proof that you're working on something that matters, and that you're personally having an impact. If you're angry, nobody can call you a coaster. But anger is only a local maximum. If you can find your way to a different style of working, you'll not only be more effective, but you'll be in a far better place to have impact on problems that _actually_ matter.
 
+
+
+edit: this post got some good comments on [Lobste.rs](https://lobste.rs/s/mbmn1f/you_should_never_be_angry_at_work). One [commenter](https://lobste.rs/c/jwmhnu) argues that being angry at _problems_ is better than being angry at _people_: I agree, but (a) if you're in the habit of anger, it can be hard to keep it only directed at problems, and (b) when you express anger, the people around you are often impacted by it whether it's directed at them or not. Other commenters [recommend](https://lobste.rs/~ajdecon) keeping a sense of perspective. Someone [points out](https://lobste.rs/c/yejyrw) that it's good to be angry at injustice. This is true: if your company is engaging in misconduct, you ought ot be angry about it. Finally, [some](https://lobste.rs/c/nsdxrf) [commenters](https://lobste.rs/c/f3ruwz) agree that anger can be a really effective tool for getting things done in the short-term.
+
+There are some worse comments on [Hacker News](https://news.ycombinator.com/item?id=49396811), though I do recommend [this one](https://news.ycombinator.com/item?id=49396905), which argues that if you don't feel anger at work, you're the victim of Marxist alienation. In fact, I agree! A long post is coming one of these days about how I learned to stop worrying and love Marxist alienation.
 
 
 [^1]: Mostly, [I fail](/tags/tech%20companies).
