@@ -30,3 +30,18 @@ https://news.ycombinator.com/item?id=42818425
 This reads like it was written by the sociopath that I used to work with. Terrible advice. I'd hate to work with this person, or wherever they work.
 
 https://lobste.rs/c/tkwvf0
+
+---
+
+I dislike engineers in general because most of them think like this. they have gone all in on embracing alienation in the marxist sense from their own work product and dont understand people who feel a sense of personal craft and ownership in something.
+Imagine if you are making a painting and someone comes along and starts doodling in the corner, or squirting different colors onto your palette. it really f-s up what you are trying to do as an artist and craftsperson.
+
+engineers who are craftspeople cannot tolerate this. but in modern corporate it is expected. engineers who are NOT craftspeople dont care. they are perfect, formless globs of soullness grey goo.
+
+oh management randomly cancelled the project you were working on for three years? shrugs. ok, what other toilet do you want me to clean.
+
+This author is that - a robot. A replaceable machined part. management and capitalism love this guy and people like him. they can interview someone else and relace him tomorrow with another grey goo hire that will not complain.
+
+im not for it.
+
+https://news.ycombinator.com/item?id=49396905
