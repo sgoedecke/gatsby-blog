@@ -35,9 +35,9 @@ Overall, I can make out four distinct senses[^4] of Marxist alienation:
 
 I don't think the first one is relevant to big tech software engineers. The idea here is that the harder you work, the more you (relatively) disempower yourself, so you'd be better off coasting and putting your company in a worse financial position. But this just seems straightforwardly wrong: as a software engineer, you want your company to be doing as well as possible! The more powerful and rich your company is, the better your position will be[^5]. A company that is struggling is more likely to treat you badly, lay you off, cut your benefits, and so on.
 
-I also don't think the second sense of alienation applies to me: Marx is talking about the physical toll of factory work or other hard physical labor, which doesn't apply to software engineering[^6]. 
+The second one is more relevant (particularly in large companies), but there's a missing story here about why that separation is bad. I also don't think the third sense of alienation applies to me: Marx is talking about the physical toll of factory work or other hard physical labor, which doesn't apply to software engineering[^6]. 
 
-The third sense of alienation - that your effort is being directed at other people's goals - is the most straightforwardly relevant to my own experience. But I don't think Marx has a great psychological account of why that happens or what it feels like. To go deeper into this psychological aspect of alienation, we need to look at some later Marxists.
+The fourth sense of alienation - that your effort is being directed at other people's goals - is the most straightforwardly relevant to my own experience. But I don't think Marx has a great psychological account of why that happens or what it feels like. To go deeper into this psychological aspect of alienation, we need to look at some later Marxists.
 
 ### Situationist alienation
 

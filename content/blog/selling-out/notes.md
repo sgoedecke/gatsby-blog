@@ -116,7 +116,7 @@ Yeah - the "real, authentic" performance is not actually a wholly separate thing
 
 > A status, a position, a social place is not a material thing, to be possessed and then displayed; it is a pattern of appropriate conduct, coherent, embellished, and well articulated. Performed with ease or clumsiness, awareness or not, guile or good faith, it is none the less something that must be enacted and portrayed, something that must be realized. [quotes Sartre on the waiter]
 
-## Mills: WHite Collar
+## Mills: White Collar
 
 https://history.hanover.edu/courses/excerpts/234mills-collar.html
 
