@@ -1,13 +1,3 @@
-How can a SWE add value?
-
-Value over replacement - now it's painfully obvious it's value over the _model_
-Obviously don't be a meat proxy. Then you're strictly worse than the model
-But you should be a proxy _sometimes_, otherwise you're much slower than the model (if you're strong enough in the points below, maybe you don't have to be a proxy, but it'd still be strictly better if you could _also_ drive the model around)
-What do the models do wrong? What kind of bugs do they commit?
-Can you inject taste? 
-How do the models communicate? Can you be a Claudish translator? You need technical ability to do that? Translation is a niche that may end up being surprisingly durable (see Blindsight's protag)
-Can you take responsibility?
-Models will typically find 2-3 things wrong - I think it's baked in by RL or something - so you need some way to know when to stop
 
 ---
 
