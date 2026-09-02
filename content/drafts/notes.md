@@ -1,3 +1,59 @@
+https://conscious.is/resources/
+point by point - how it helps, what i disagree with
+
+Responsibility
+
+> Taking full responsibility for one’s circumstances (physically, emotionally, mentally and spiritually) is the foundation of true personal and relational transformation. Conscious leadership and teams take full responsibility – radical responsibility – instead of placing blame. This means locating the cause and control of our lives in ourselves, not in external events. 
+
+Curiosity
+
+> Self awareness and learning agility are known to create sustained success in leaders – they form the foundation of conscious leadership. Conscious leaders are passionately committed to knowing themselves, and willing to live in a state of curiosity. They do so by remembering to pause, accept and shift in moments of reactivity. 
+> Commit to learning over being right
+
+Feelings
+
+> Great leaders learn to access all three centers of intelligence – head, heart and gut. Conscious leaders know that emotions are energy in motion. They are patterns of energy moving in and on the body, and every feeling we experience invites us in a specific way to grow in awareness and knowing. 
+anti: "I commit to resisting, judging and apologizing for my feelings. "
+
+Candor
+
+> Leaders and teams have found that seeing reality clearly is essential to being successful. In order to see reality clearly, they need everyone to be truthful and not lie about or withhold information. Candor is the revealing of all thoughts, feelings and sensations in an open, honest and aware way. Withholding is refraining from revealing everything to all relevant parties. 
+
+> I commit to withholding my truth (facts, feelings, things I imagine) and speaking in a way that allows me to try to manipulate an outcome. I commit to not listening to the other person.
+
+hmm...
+
+---
+
+
+
+--
+https://x.com/anilkseth/status/2094077038898373112?s=20
+AI consciousness? the anti-side seems way over-claimed
+no consensus on the key philosophical question
+lots of pop-psychology "wow it's crazy that tech bros don't understand language" 
+a political question at stake here: if AIs are actors, people are worried that responsibility will flow to them and not to the frontier labs, who ought to be held accountable - who hacked HF? but obviously this is a separate question from "is it epistemically good to anthropomorphize AIs"
+
+https://t.co/jd2laZf6c1
+
+
+---
+
+llms don't know how to use llms
+if you try to design a system with a llm, it will under-utilize llms
+https://arbustoemchamas.substack.com/p/i-naively-tried-vibe-coding-a-memory
+this is a great example. given a problem like "evaluate pairs of natural language statements for contradictions", which is ~unsolvable pre-LLMs, Claude charges down the pre-LLM garden path of https://en.wikipedia.org/wiki/Answer_set_programming:
+
+> a contradiction checker, a “reasoning council” — abduction proposes causes, deduction certifies, induction learns candidate rules.
+
+of course, none of this could ever possibly work; what you need is _judgement_. i.e. just feed a set of propositions to a reasoning model and ask it to identify contradictions.
+
+https://x.com/doodlestein/status/2094376160884871438?s=20
+
+---
+
+there is one silver bullet in software engineering: a very competent technical person 
+
 
 ---
 
