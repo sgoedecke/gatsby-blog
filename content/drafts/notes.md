@@ -1,9 +1,10 @@
+
 https://conscious.is/resources/
 point by point - how it helps, what i disagree with
 
 Responsibility
 
-> Taking full responsibility for one’s circumstances (physically, emotionally, mentally and spiritually) is the foundation of true personal and relational transformation. Conscious leadership and teams take full responsibility – radical responsibility – instead of placing blame. This means locating the cause and control of our lives in ourselves, not in external events. 
+
 
 Curiosity
 
@@ -22,10 +23,6 @@ Candor
 > I commit to withholding my truth (facts, feelings, things I imagine) and speaking in a way that allows me to try to manipulate an outcome. I commit to not listening to the other person.
 
 hmm...
-
----
-
-
 
 --
 https://x.com/anilkseth/status/2094077038898373112?s=20
