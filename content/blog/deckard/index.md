@@ -14,14 +14,8 @@ The open-source models available for AI text detection are _fine_. Pangram [clai
 
 | Model / variant | Human falsely flagged | AI-involved text caught |
 |---|---:|---:|
-| [Gradient — MLX 8-bit](https://huggingface.co/ShantanuT01/gradient-ai-text-detector) | 2.940% | 53.03% |
-| [Gradient — FP32](https://huggingface.co/ShantanuT01/gradient-ai-text-detector) | 2.940% | 53.05% |
-| [Gradient — FP16](https://huggingface.co/ShantanuT01/gradient-ai-text-detector) | 2.951% | 53.08% |
 | **[Gradient — MLX 4-bit](https://huggingface.co/ShantanuT01/gradient-ai-text-detector)** | **2.712%** | **52.35%** |
-| [Gradient — ONNX weight-only INT4](https://huggingface.co/ShantanuT01/gradient-ai-text-detector) | 2.791% | 52.53% |
-| [EditLens RoBERTa-large — official FP32](https://huggingface.co/pangram/editlens_roberta-large) | 2.609% | 56.94% |
 | [EditLens RoBERTa-large — community INT8](https://huggingface.co/benreeve/editlens-roberta-large-onnx-int8) | 2.484% | 56.06% |
-| [Gradient — ONNX dynamic INT8](https://huggingface.co/ShantanuT01/gradient-ai-text-detector) | 1.447% | 39.53% |
 | [Vanguard](https://huggingface.co/ShantanuT01/vanguard-ai-text-detector) | 2.267% | 44.92% |
 | [Desklib](https://huggingface.co/desklib/ai-text-detector-v1.01) | 3.008% | 45.04% |
 | [Raschka DistilBERT](https://huggingface.co/rasbt/ai-text-detector-distilbert) | 2.598% | 39.01% |
