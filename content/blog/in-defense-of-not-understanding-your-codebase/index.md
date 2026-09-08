@@ -74,7 +74,7 @@ This post also got some traction on [Twitter](https://x.com/bibryam/status/20831
 
 edit: I also recommend this [blog post](https://codeutopia.net/blog/2026/08/08/in-defense-of-understanding-the-theory-of-the-program/) response from Jani Hartikainen. I disagree with him when he says that you can't tradeoff theory-understanding against other values, because those other values just form part of the theory. I think "keep the theory of the program simple" is a coherent value that gets traded off anytime you add complexity to the program (e.g. to fulfil some customer request).
 
-edit: Theo made a [youtube video](https://www.youtube.com/watch?v=5KvY8CnBB3w) about this post. At around 14:30 he gives a good example of a Twitch colleague who was a very strong engineer but didn't have specific context about how to set up a GraphQL query and call it from the frontend, and so was flailing around. This is exactly what I mean: it doesn't matter how strong you are, you're going to flail when you're working in parts of the codebase that are less familiar to you.
+edit: Theo made a [youtube video](https://www.youtube.com/watch?v=5KvY8CnBB3w) about this post. At around 14:30 he gives a good example of a Twitch colleague who was a very strong engineer but didn't have specific context about how to set up a GraphQL query and call it from the frontend, and so was flailing around. This is exactly what I mean: it doesn't matter how strong you are, you're going to flail when you're working in parts of the codebase that are less familiar to you. For the record, I don't endorse his Twitter framing of "if you understand your codebase, it's too small to be important". Plenty of very small codebases are important.
 
 
 
