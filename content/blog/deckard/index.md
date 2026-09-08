@@ -33,11 +33,11 @@ I'm not surprised these are so much worse. I didn't even benchmark Pangram's own
 
 Encouraged by this, I vibed up [Deckard](https://github.com/sgoedecke/deckard): a Chrome extension that talks to a locally-running model (the bolded one in the table above) on your Mac. One nice thing is that I didn't have to start a web server: the Chrome extension is happy to start the model as-needed and can talk with it over [native messaging](https://developer.chrome.com/docs/extensions/develop/concepts/native-messaging). It uses about 400MB-1.2GB of memory while active (so it's like having five or six extra Chrome tabs open), and it turns itself off if you go five minutes without using the model.
 
-I was pleasantly surprised to see Deckard successfully mark text I knew was AI-generated, such as the built-in YouTube AI summary or my own [EndlessWiki](endlesswiki.com):
+I was pleasantly surprised to see Deckard successfully mark text I knew was AI-generated, such as the built-in YouTube AI summary or the AI [snippets](/ai-research-with-codex/) in my own posts:
 
 ![youtube](example2.png)
 
-![wiki](example1.png)
+![snippets](example1.png)
 
 It's lightweight enough that I have it running all the time. I haven't noticed my MacBook Pro get hot at all or any decrease in battery life, though your mileage may vary on different machines.
 
