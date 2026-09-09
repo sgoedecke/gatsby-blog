@@ -3,7 +3,7 @@ title: AI models need moral support to make discoveries
 description: 
 order: 218
 date: '2026-07-31'
-tags: ["ai"]
+tags: ["ai", "anthropomorphism"]
 ---
 
 One recent development in AI is its ability to solve some long-standing problems in mathematics. In 2024 and 2025, this was a trickle: once or twice a year somebody would say that an LLM came up with a proof, and then everyone would argue over whether that counted as "real" mathematical innovation. In 2026, it's a flood. Almost every day I see [some](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) [new](https://arxiv.org/abs/2601.22401) [LLM-produced](https://x.com/__alpoge__/status/2079028340955197566) mathematical result.

@@ -3,7 +3,7 @@ title: Why we should anthropomorphize LLMs
 description: 
 order: 112
 date: '2025-07-10'
-tags: ["ai", "ethics"]
+tags: ["ai", "ethics", "anthropomorphism"]
 ---
 
 I recently read a very good [blog post](https://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html) by Halvar Flake titled "A non-anthropomorphized view of LLMs". Here's a very brief summary:

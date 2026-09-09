@@ -19,7 +19,7 @@ popularity:
     comments: 0
     threads: 0
   manual: 0
-tags: ["ai", "model personality"]
+tags: ["ai", "model personality", "anthropomorphism"]
 ---
 
 AI skeptics often argue that current AI systems shouldn't be so human-like. The idea - most recently expressed in this [opinion piece](https://thedispatch.com/article/anthropic-askell-philosophy-amodei/) by Nathan Beacom - is that language models should explicitly be tools, like calculators or search engines. Although they _can_ pretend to be people, they shouldn't, because it encourages users to overestimate AI capabilities and (at worst) slip into [AI psychosis](/ai-sycophancy). Here's a representative paragraph from the piece:

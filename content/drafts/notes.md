@@ -1,4 +1,10 @@
+tools for agents?
+1. Being in the training data is just such a big boost for existing tools-for-humans
+2. Agents change so fast that the ideal "tool for agents" changes (e.g. being light on the context window used to be huge and is now not a big deal)
+3. Agents and humans have a very similar usage pattern. If a good language for agents is typed/compiled/explicit/fast, those things are also likely to be good for humans
+4. Do we know if agents do better in static or dynamic languages? Dynamic languages occupy less of the context window; static languages are easier to reason about... it just seems to depend on contingent features of the specific model you're talking about
 
+---
 https://conscious.is/resources/
 point by point - how it helps, what i disagree with
 
