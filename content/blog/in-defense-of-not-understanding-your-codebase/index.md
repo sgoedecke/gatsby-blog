@@ -10,11 +10,18 @@ popularity:
     points: 22
     comments: 13
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=48882777'
   lobsters:
     points: 42
     comments: 18
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/elhi7o/defense_not_understanding_your_codebase'
   manual: 0
+  youtube:
+    urls:
+      - 'https://www.youtube.com/watch?v=5KvY8CnBB3w'
 tags: ["software design", "naur theory"]
 ---
 

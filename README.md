@@ -7,3 +7,35 @@ Note that files in drafts/ are often very rough and do not represent my consider
 Why Gatsby? Because ~7 years ago when I created this repository I was using Gatsby to rebuild https://developer.zendesk.com/documentation/, and I thought this would be a good way to learn it. I would choose something dramatically simpler if I were setting up my blog today.
 
 I do not check notifications on this repository. If you'd like me to look at your issue or merge your PR, you're better off emailing me.
+
+Post lists show optional Hacker News, Lobsters, YouTube, and Reddit discussion
+icons after the tags. The source of truth is each service's `urls` list in the
+post's `popularity` frontmatter. The first URL for each service is used for its
+icon; scores and comment counts alone do not produce icons. For example:
+
+```yaml
+popularity:
+  hackerNews:
+    urls:
+      - https://news.ycombinator.com/item?id=12345
+  lobsters:
+    urls:
+      - https://lobste.rs/s/abc123/example
+  youtube:
+    urls:
+      - https://www.youtube.com/watch?v=example
+  reddit:
+    urls:
+      - https://www.reddit.com/r/programming/comments/abc123/example/
+```
+
+`npm run update-popularity` fills in missing URL lists from the opening sentences
+of existing edit/update or discussion paragraphs, then uses the stored Hacker
+News and Lobsters URLs to refresh their metrics. Existing URL lists are preserved,
+including an explicit `urls: []`; edit those lists directly to add or remove links.
+The site build never extracts links from article prose.
+
+Use `npm run update-popularity -- --backfill-urls` to fill in missing URLs without
+network requests or changes to scores, counts, or `popular` flags, including for
+older posts normally skipped by the metrics updater. Add `--dry-run` to preview
+the update without writing files.

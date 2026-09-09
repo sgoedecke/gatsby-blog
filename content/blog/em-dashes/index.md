@@ -10,15 +10,22 @@ popularity:
     points: 98
     comments: 96
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=45788327'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
+  youtube:
+    urls:
+      - 'https://www.youtube.com/watch?v=nXfiQrTmDCI'
 tags: ["ai", "ai writing"]
 ---
 

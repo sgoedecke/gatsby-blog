@@ -10,15 +10,22 @@ popularity:
     points: 167
     comments: 104
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=46112640'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
+  youtube:
+    urls:
+      - 'https://www.youtube.com/watch?v=DRyb3jA0ZOM'
 tags: ["ai", "ethics", "alignment failures", "openai", "model personality"]
 ---
 

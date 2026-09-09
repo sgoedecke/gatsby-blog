@@ -10,14 +10,20 @@ popularity:
     points: 300
     comments: 208
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=46414723'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 505
     comments: 93
     threads: 1
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1rgg1wr/software_engineers_should_be_a_little_bit_cynical/
   manual: 0
 tags: ["tech companies", "cynicism"]
 ---

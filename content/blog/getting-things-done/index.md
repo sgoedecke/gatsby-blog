@@ -9,14 +9,18 @@ popularity:
     points: 315
     comments: 218
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=43903741'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 date: '2025-05-06'
 tags: ["shipping", "tech companies"]

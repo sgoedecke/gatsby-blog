@@ -10,14 +10,18 @@ popularity:
     points: 36
     comments: 26
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=47242739'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["ai", "model personality", "anthropomorphism"]
 ---

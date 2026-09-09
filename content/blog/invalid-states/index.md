@@ -10,14 +10,19 @@ popularity:
     points: 68
     comments: 81
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=45164444'
   lobsters:
     points: 57
     comments: 99
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/itj50a/make_invalid_states_unrepresentable'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["software design"]
 ---

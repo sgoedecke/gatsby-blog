@@ -10,14 +10,20 @@ popularity:
     points: 429
     comments: 160
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=45006801'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 132
     comments: 55
     threads: 1
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1mzqigs/everything_i_know_about_good_api_design/
   manual: 0
 tags: ["good engineers", "software design"]
 ---

@@ -10,14 +10,18 @@ popularity:
     points: 1111
     comments: 387
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=45068091'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["software design", "shipping"]
 ---

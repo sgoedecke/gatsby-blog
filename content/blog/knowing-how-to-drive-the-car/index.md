@@ -10,14 +10,18 @@ popularity:
     points: 79
     comments: 53
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=46772966'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["tech companies", "good engineers", "cynicism"]
 ---

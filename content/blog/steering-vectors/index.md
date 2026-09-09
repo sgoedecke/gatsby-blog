@@ -10,10 +10,13 @@ popularity:
     points: 280
     comments: 76
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=48160807'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["ai", "steering"]
 ---

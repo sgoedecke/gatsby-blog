@@ -10,11 +10,22 @@ popularity:
     points: 16
     comments: 16
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=48083264'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
+  reddit:
+    urls:
+      - >-
+        https://www.reddit.com/r/accelerate/comments/1ta68x5/the_leftwing_case_for_ai/
+      - >-
+        https://www.reddit.com/r/LeftistsForAI/comments/1ta2ps9/the_leftwing_case_for_ai/
+      - >-
+        https://www.reddit.com/r/aiwars/comments/1ta2swl/the_leftwing_case_for_ai/
 tags: ["ai", "ethics", "politics"]
 ---
 

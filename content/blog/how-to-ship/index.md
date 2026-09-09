@@ -9,14 +9,18 @@ popularity:
     points: 1425
     comments: 381
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=42111031'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 date: '2024-11-09'
 tags: ["good engineers", "tech companies", "shipping", "how to"]

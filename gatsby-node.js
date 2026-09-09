@@ -1,5 +1,18 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { getDiscussionLinks } = require("./src/utils/discussion-links")
+
+exports.createSchemaCustomization = ({ actions }) => {
+  actions.createTypes(`
+    type PostDiscussionLink {
+      platform: String!
+      url: String!
+    }
+    type MarkdownRemarkFields {
+      discussionLinks: [PostDiscussionLink!]!
+    }
+  `)
+}
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -283,6 +296,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     if (!isPost) {
       return
     }
+
+    createNodeField({
+      name: `discussionLinks`,
+      node,
+      value: getDiscussionLinks(node.frontmatter?.popularity),
+    })
 
     const value = createFilePath({ node, getNode })
     createNodeField({

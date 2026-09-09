@@ -9,14 +9,18 @@ popularity:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   lobsters:
     points: 4
     comments: 4
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/cqg4os/large_tech_companies_don_t_need_heroes'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["tech companies"]
 ---

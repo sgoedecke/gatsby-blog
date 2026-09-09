@@ -10,10 +10,14 @@ popularity:
     points: 24
     comments: 21
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=49251703'
   lobsters:
     points: 27
     comments: 51
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/kkqqdn/no_local_models_will_not_win'
   manual: 0
 tags: ["ai"]
 ---

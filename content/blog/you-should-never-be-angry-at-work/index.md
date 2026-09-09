@@ -10,10 +10,14 @@ popularity:
     points: 30
     comments: 13
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=49396811'
   lobsters:
     points: 64
     comments: 35
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/mbmn1f/you_should_never_be_angry_at_work'
   manual: 0
 tags: ["tech companies"]
 ---

@@ -10,10 +10,13 @@ popularity:
     points: 148
     comments: 192
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=49287153'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["ai", "ai regulation", "ai watermarks"]
 ---

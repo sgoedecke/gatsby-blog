@@ -3,6 +3,10 @@ title: How does AI impact skill formation?
 description:
 order: 171
 date: '2026-01-31'
+popularity:
+  youtube:
+    urls:
+      - 'https://www.youtube.com/watch?v=ZINQTR6H5dI'
 tags: ["ai", "papers"]
 ---
 

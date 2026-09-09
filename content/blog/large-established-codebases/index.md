@@ -9,14 +9,18 @@ popularity:
     points: 811
     comments: 368
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=42627227'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 date: '2025-01-02'
 tags: ["tech companies", "software design", "large codebases"]

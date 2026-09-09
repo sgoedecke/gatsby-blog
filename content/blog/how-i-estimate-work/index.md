@@ -9,14 +9,23 @@ popularity:
     points: 548
     comments: 320
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=46742389'
   lobsters:
     points: 48
     comments: 25
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/dspppf/how_i_estimate_work_as_staff_software'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1qoj5mb/how_i_estimate_work_as_a_staff_software_engineer/
+      - 'https://www.reddit.com/r/programming/comments/1qoj5mb/comment/o22t1vm/'
+      - 'https://www.reddit.com/r/programming/comments/1qoj5mb/comment/o2271vx/'
   manual: 0
 date: '2026-01-24'
 tags: ["tech companies", "how to", "large codebases"]

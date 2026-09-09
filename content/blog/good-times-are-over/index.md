@@ -9,14 +9,18 @@ popularity:
     points: 185
     comments: 252
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=43378321'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 date: '2025-03-16'
 tags: ["tech companies", "zirp"]

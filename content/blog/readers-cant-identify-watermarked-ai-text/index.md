@@ -3,6 +3,10 @@ title: Readers can't identify watermarked AI text
 description:
 order: 227
 date: '2026-08-21'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=49374729'
 tags: ["ai", "ai watermarks"]
 ---
 

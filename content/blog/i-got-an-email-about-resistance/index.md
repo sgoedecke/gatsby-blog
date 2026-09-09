@@ -10,10 +10,14 @@ popularity:
     points: 15
     comments: 10
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=49234470'
   lobsters:
     points: 48
     comments: 40
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/vowt4d/i_got_email_about_resistance'
   manual: 0
 tags: ["tech companies", "meta", "cynicism", "luddites"]
 ---

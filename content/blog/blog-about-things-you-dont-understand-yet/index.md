@@ -10,10 +10,13 @@ popularity:
     points: 169
     comments: 49
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=49293087'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["writing"]
 ---
