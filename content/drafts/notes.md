@@ -1,3 +1,17 @@
+
+Why I’m dubious about cloud agents
+
+--
+
+How I write prompts
+
+Step back and say what I want, not just the task
+Give some guidance on style and suggest a concrete approach
+Keep it loose
+No fluff, talk like to an old colleague 
+
+---
+
 tools for agents?
 1. Being in the training data is just such a big boost for existing tools-for-humans
 2. Agents change so fast that the ideal "tool for agents" changes (e.g. being light on the context window used to be huge and is now not a big deal)

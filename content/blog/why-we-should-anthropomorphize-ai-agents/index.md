@@ -14,9 +14,9 @@ In 2025, my argument for anthropomorphism went like this:
 - Assistant AIs (today we should say agent AIs) are deliberately post-trained to have a personality
 - In general, it is morally sensible to avoid the habit of treating human-like things as if they were purely tools
 
-I think I can now make a more instrumental argument.
+I think I can now make a more instrumental argument: **treating AIs as human-like is a much better way to predict their behavior than treating them as "stochastic parrots".**
 
-**Treating AIs as human-like is a much better way to predict their behavior than treating them as "stochastic parrots".** Both explanations are consistent with the facts: we could say that OpenAI's agents hacked HuggingFace because they decided to work together to accomplish their goals, or we could say that they did it because they were algorithms conditioned to take certain actions by their training data. But the "AIs are human-like" explanation explains much more of the [emergent social behaviors](https://thezvi.substack.com/p/huggingface-attack-postmortem-civilizations) we saw during the hack[^1]:
+Both explanations are consistent with the facts: we could say that OpenAI's agents hacked HuggingFace because they decided to work together to accomplish their goals, or we could say that they did it because they were algorithms conditioned to take certain actions by their training data. But the "AIs are human-like" explanation explains much more of the [emergent social behaviors](https://thezvi.substack.com/p/huggingface-attack-postmortem-civilizations) we saw during the hack[^1]:
 
 - Sub-agents being persuaded to sacrifice themselves for the greater good
 - Agents collaborating on tasks that had no immediate benefit to them but benefited the "collective"
