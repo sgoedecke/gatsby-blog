@@ -10,8 +10,6 @@ A recent [resignation tweet](https://x.com/hilbertspaess/status/2097476196791709
 
 > The people building AI earnestly believe that it could kill us all by the end of the decade.
 
-### People really believe this
-
 Many people found it hard to believe that AI researchers think this way. Some explained it as a [PR campaign](https://x.com/ParkerThayer/status/2097759699626328575?s=20) to promote AI regulation, or as [self-promotion](https://x.com/HeidyKhlaaf/status/2097586065599062487?s=20), or as a way to [boost](https://x.com/wilding_gyres/status/2097828736653742519?s=20) AI company stock prices. [Others](https://x.com/bcantrill/status/2097734971918295535?s=20) [felt](https://x.com/charliemktplace/status/2097658056444195205?s=20) it had to be impossible, because if you really believed this you'd be bombing datacenters instead of posting on Twitter.
 
 In fact, not only do many AI researchers[^1] seriously believe this, they've been thinking and writing about it since the mid-2000s. Eliezer Yudkowsky - the ur-figure for most modern AI safety culture - has been [publishing papers](https://intelligence.org/files/AIPosNegFactor.pdf) since at least 2008 saying that superintelligent AI could destroy all human life. It's been such a common idea that the AI research community has abbreviated "how likely you think AI is to kill everyone" to ["p(doom)"](https://en.wikipedia.org/wiki/P(doom)) (i.e. the probability[^2] of doomsday) since around 2010.
