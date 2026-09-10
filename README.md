@@ -8,10 +8,11 @@ Why Gatsby? Because ~7 years ago when I created this repository I was using Gats
 
 I do not check notifications on this repository. If you'd like me to look at your issue or merge your PR, you're better off emailing me.
 
-Post lists show optional Hacker News, Lobsters, YouTube, and Reddit discussion
-icons after the tags. The source of truth is each service's `urls` list in the
-post's `popularity` frontmatter. The first URL for each service is used for its
-icon; scores and comment counts alone do not produce icons. For example:
+Post lists and individual post headers show optional Hacker News, Lobsters,
+YouTube, and Reddit discussion icons after the tags. The source of truth is each
+service's `urls` list in the post's `popularity` frontmatter. The first URL for each
+service is used for its icon; scores and comment counts alone do not produce
+icons. For example:
 
 ```yaml
 popularity:

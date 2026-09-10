@@ -115,6 +115,10 @@ details {
   margin: 0 0 0.5rem;
 }
 
+.post-header-meta .post-meta {
+  margin-bottom: 0;
+}
+
 .discussion-links {
   display: inline-flex;
   align-items: center;
