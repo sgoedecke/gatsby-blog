@@ -10,14 +10,21 @@ popularity:
     points: 407
     comments: 320
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=46082223'
   lobsters:
     points: 120
     comments: 62
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/jxppk7/how_good_engineers_write_bad_code_at_big'
   reddit:
     points: 873
     comments: 154
     threads: 1
+    urls:
+      - >-
+        https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/
   manual: 0
 tags: ["good engineers", "tech companies"]
 ---

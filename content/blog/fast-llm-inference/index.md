@@ -9,14 +9,18 @@ popularity:
     points: 194
     comments: 67
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=47022329'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["ai"]
 ---

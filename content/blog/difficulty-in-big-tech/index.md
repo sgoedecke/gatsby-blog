@@ -9,14 +9,18 @@ popularity:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   lobsters:
     points: 36
     comments: 30
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/ghq0lb/why_are_big_tech_companies_so_slow'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["tech companies"]
 ---

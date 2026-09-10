@@ -10,14 +10,20 @@ popularity:
     points: 53
     comments: 59
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=43678914'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 254
     comments: 113
     threads: 1
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1jyxu3p/engineers_who_wont_commit/
   manual: 0
 tags: ["good engineers", "technical clarity"]
 ---

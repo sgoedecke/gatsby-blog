@@ -3,6 +3,10 @@ title: AI makes weak engineers less harmful
 description: 
 order: 191
 date: '2026-05-09'
+popularity:
+  youtube:
+    urls:
+      - 'https://www.youtube.com/watch?v=rTMRlqT8Q8c'
 tags: ["ai", "good engineers", "tech companies"]
 ---
 

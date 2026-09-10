@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PostMeta from "../components/post-meta"
 import { rhythm } from "../utils/typography"
 
 const BlogList = ({ data, location, pageContext = {} }) => {
@@ -64,20 +65,10 @@ const BlogList = ({ data, location, pageContext = {} }) => {
                 </h3>
               </header>
 
-              <p className="post-meta">
-                {node.frontmatter.date}
-                {node.frontmatter.tags && node.frontmatter.tags.length > 0 && (
-                  <>
-                    &nbsp;│{" "}
-                    {node.frontmatter.tags.map((tag, index) => (
-                      <React.Fragment key={tag}>
-                        <Link to={`/tags/${tag.toLowerCase()}/`}>{tag}</Link>
-                        {index < node.frontmatter.tags.length - 1 && ", "}
-                      </React.Fragment>
-                    ))}
-                  </>
-                )}
-              </p>
+              <PostMeta
+                frontmatter={node.frontmatter}
+                discussionLinks={node.fields.discussionLinks}
+              />
             </article>
           )
         })}
@@ -135,7 +126,10 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
-          fields { slug }
+          fields {
+            slug
+            discussionLinks { platform url }
+          }
           frontmatter {
             title description order popular
             date(formatString: "MMMM D, YYYY")

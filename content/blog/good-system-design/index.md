@@ -10,15 +10,22 @@ popularity:
     points: 957
     comments: 390
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=44921137'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
+  youtube:
+    urls:
+      - 'https://youtu.be/R5TAZe4ye8U'
 tags: ["good engineers", "software design"]
 ---
 

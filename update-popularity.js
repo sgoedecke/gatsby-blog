@@ -3,6 +3,7 @@ const https = require("https")
 const path = require("path")
 const matter = require("gray-matter")
 const fg = require("fast-glob")
+const { backfillDiscussionUrls } = require("./src/utils/discussion-links")
 
 const HN_POINT_WEIGHT = 1
 const HN_COMMENT_WEIGHT = 2
@@ -10,8 +11,6 @@ const LOBSTERS_POINT_WEIGHT = 3
 const LOBSTERS_COMMENT_WEIGHT = 5
 
 const STALE_AFTER_MS = 60 * 24 * 60 * 60 * 1000 // 60 days
-
-const dryRun = process.argv.includes("--dry-run")
 
 const requestJson = url =>
   new Promise((resolve, reject) => {
@@ -38,7 +37,9 @@ const requestJson = url =>
           try {
             resolve(JSON.parse(body))
           } catch (error) {
-            reject(new Error(`GET ${url} returned invalid JSON: ${error.message}`))
+            reject(
+              new Error(`GET ${url} returned invalid JSON: ${error.message}`)
+            )
           }
         })
       }
@@ -53,69 +54,19 @@ const requestJson = url =>
     })
   })
 
-const discussionParagraphs = content =>
-  content
-    .split(/\n\s*\n/)
-    .filter(paragraph => {
-      const lower = paragraph.toLowerCase()
+const extractHnIds = urls => [
+  ...new Set(urls.map(url => new URL(url).searchParams.get("id"))),
+]
 
-      if (/^\s*\[\^/.test(paragraph)) {
-        return false
-      }
-
-      if (
-        !lower.includes("news.ycombinator.com/item?id=") &&
-        !lower.includes("lobste.rs/s/")
-      ) {
-        return false
-      }
-
-      return (
-        /^\s*(edit|update|\*\*update:\*\*)\b/i.test(paragraph) ||
-        /this (post|article) (was|got|also got|made)/i.test(paragraph) ||
-        /got (some|lots of|quite a few|a bunch of|many) comments/i.test(
-          paragraph
-        ) ||
-        /was discussed/i.test(paragraph) ||
-        /posted on/i.test(paragraph) ||
-        /made it to/i.test(paragraph) ||
-        /attention on/i.test(paragraph) ||
-        /traction on/i.test(paragraph) ||
-        /check out.*discussion/i.test(paragraph) ||
-        /there (are|is).*comments (about|on) this post/i.test(paragraph) ||
-        /some interesting discussion of this post/i.test(paragraph)
-      )
-    })
-
-const extractHnIds = paragraphs => {
-  const ids = new Set()
-  const pattern = /news\.ycombinator\.com\/item\?id=(\d+)/g
-
-  for (const paragraph of paragraphs) {
-    for (const match of paragraph.matchAll(pattern)) {
-      ids.add(match[1])
-    }
-  }
-
-  return [...ids]
-}
-
-const extractLobstersIds = paragraphs => {
-  const ids = new Set()
-  const pattern = /lobste\.rs\/s\/([a-z0-9]+)/gi
-
-  for (const paragraph of paragraphs) {
-    for (const match of paragraph.matchAll(pattern)) {
-      ids.add(match[1])
-    }
-  }
-
-  return [...ids]
-}
+const extractLobstersIds = urls => [
+  ...new Set(urls.map(url => new URL(url).pathname.split("/")[2])),
+]
 
 const normalizePath = pathname => {
   const withLeadingSlash = pathname.startsWith("/") ? pathname : `/${pathname}`
-  return withLeadingSlash.endsWith("/") ? withLeadingSlash : `${withLeadingSlash}/`
+  return withLeadingSlash.endsWith("/")
+    ? withLeadingSlash
+    : `${withLeadingSlash}/`
 }
 
 const isThisBlogPost = (url, slug) => {
@@ -135,11 +86,11 @@ const isThisBlogPost = (url, slug) => {
   }
 }
 
-const fetchHnMetrics = async (ids, slug) => {
+const fetchHnMetrics = async (ids, slug, fetchJson) => {
   const stories = []
 
   for (const id of ids) {
-    const item = await requestJson(
+    const item = await fetchJson(
       `https://hacker-news.firebaseio.com/v0/item/${id}.json`
     )
 
@@ -157,11 +108,11 @@ const fetchHnMetrics = async (ids, slug) => {
   return stories
 }
 
-const fetchLobstersMetrics = async (ids, slug) => {
+const fetchLobstersMetrics = async (ids, slug, fetchJson) => {
   const stories = []
 
   for (const id of ids) {
-    const story = await requestJson(`https://lobste.rs/s/${id}.json`)
+    const story = await fetchJson(`https://lobste.rs/s/${id}.json`)
 
     if (!story || !story.short_id || !isThisBlogPost(story.url, slug)) {
       continue
@@ -193,13 +144,18 @@ const buildPopularity = (currentPopularity, hnStories, lobstersStories) => {
     manual
 
   return {
+    ...currentPopularity,
     score: Math.round(score),
     hackerNews: {
+      ...currentPopularity.hackerNews,
+      urls: currentPopularity.hackerNews?.urls || [],
       points: hnPoints,
       comments: hnComments,
       threads: hnStories.length,
     },
     lobsters: {
+      ...currentPopularity.lobsters,
+      urls: currentPopularity.lobsters?.urls || [],
       points: lobstersPoints,
       comments: lobstersComments,
       threads: lobstersStories.length,
@@ -208,73 +164,102 @@ const buildPopularity = (currentPopularity, hnStories, lobstersStories) => {
   }
 }
 
-const removePopularityBlock = frontmatter => {
-  const lines = frontmatter.split("\n")
-  const nextLines = []
-
-  for (let index = 0; index < lines.length; index++) {
-    if (!/^popularity:\s*$/.test(lines[index])) {
-      nextLines.push(lines[index])
-      continue
-    }
-
-    index++
-    while (index < lines.length && /^(\s+|$)/.test(lines[index])) {
-      index++
-    }
-    index--
-  }
-
-  return nextLines.join("\n")
-}
-
 const popularityBlock = popularity =>
-  [
-    "popularity:",
-    `  score: ${popularity.score}`,
-    "  hackerNews:",
-    `    points: ${popularity.hackerNews.points}`,
-    `    comments: ${popularity.hackerNews.comments}`,
-    `    threads: ${popularity.hackerNews.threads}`,
-    "  lobsters:",
-    `    points: ${popularity.lobsters.points}`,
-    `    comments: ${popularity.lobsters.comments}`,
-    `    threads: ${popularity.lobsters.threads}`,
-    `  manual: ${popularity.manual}`,
-  ].join("\n")
+  matter.stringify("", { popularity }).match(/^---\n([\s\S]*?)\n---/)[1]
 
-const writePopularity = (raw, popularity) => {
-  const match = raw.match(/^---\n([\s\S]*?)\n---\n?/)
+const writePopularity = (raw, popularity, markPopular) => {
+  const match = raw.match(/^---\n([\s\S]*?)\n---/)
 
   if (!match) {
     throw new Error("missing frontmatter")
   }
 
-  const originalFrontmatter = match[1]
-  const body = raw.slice(match[0].length)
-  const frontmatter = removePopularityBlock(originalFrontmatter)
-  const lines = frontmatter.split("\n")
-  let insertAfter = lines.findIndex(line => /^popular:\s/.test(line))
-
-  if (insertAfter !== -1) {
-    lines[insertAfter] = "popular: true"
-  } else {
-    insertAfter = lines.findIndex(line => /^date:\s/.test(line))
-
-    if (insertAfter === -1) {
-      insertAfter = lines.length - 1
+  const lines = match[1].split("\n")
+  if (markPopular) {
+    const popularIndex = lines.findIndex(line => /^popular:\s/.test(line))
+    if (popularIndex !== -1) {
+      lines[popularIndex] = "popular: true"
+    } else {
+      const dateIndex = lines.findIndex(line => /^date:\s/.test(line))
+      lines.splice(
+        dateIndex === -1 ? lines.length : dateIndex + 1,
+        0,
+        "popular: true"
+      )
     }
-
-    lines.splice(insertAfter + 1, 0, "popular: true")
-    insertAfter++
   }
 
-  lines.splice(insertAfter + 1, 0, popularityBlock(popularity))
+  const start = lines.findIndex(line => /^popularity:\s*$/.test(line))
+  if (start !== -1) {
+    let end = start + 1
+    while (end < lines.length && /^(\s+|$)/.test(lines[end])) {
+      end++
+    }
+    lines.splice(start, end - start, popularityBlock(popularity))
+  } else {
+    const dateIndex = lines.findIndex(line => /^date:\s/.test(line))
+    lines.splice(
+      dateIndex === -1 ? lines.length : dateIndex + 1,
+      0,
+      popularityBlock(popularity)
+    )
+  }
 
-  return `---\n${lines.join("\n")}\n---\n\n${body.replace(/^\n+/, "")}`
+  return `---\n${lines.join("\n")}\n---${raw.slice(match[0].length)}`
+}
+
+const updatePost = async (
+  raw,
+  slug,
+  { backfillUrls = false, now = Date.now(), fetchJson = requestJson } = {}
+) => {
+  const parsed = matter(raw)
+  let popularity = backfillDiscussionUrls(
+    parsed.data.popularity,
+    parsed.content
+  )
+  const postDate = new Date(parsed.data.date).getTime()
+  const stale = Boolean(
+    parsed.data.popularity?.score !== undefined &&
+      Number.isFinite(postDate) &&
+      now - postDate > STALE_AFTER_MS
+  )
+  let metricsUpdated = false
+
+  if (!backfillUrls && !stale) {
+    const hnIds = extractHnIds(popularity.hackerNews?.urls || [])
+    const lobstersIds = extractLobstersIds(popularity.lobsters?.urls || [])
+    const hnStories = await fetchHnMetrics(hnIds, slug, fetchJson)
+    const lobstersStories = await fetchLobstersMetrics(
+      lobstersIds,
+      slug,
+      fetchJson
+    )
+
+    if (hnStories.length > 0 || lobstersStories.length > 0) {
+      popularity = buildPopularity(popularity, hnStories, lobstersStories)
+      metricsUpdated = true
+    }
+  }
+
+  const changed =
+    Object.keys(popularity).length > 0 &&
+    JSON.stringify(popularity) !== JSON.stringify(parsed.data.popularity)
+
+  return {
+    title: parsed.data.title,
+    popularity,
+    stale,
+    nextRaw:
+      changed || (metricsUpdated && parsed.data.popular !== true)
+        ? writePopularity(raw, popularity, metricsUpdated)
+        : raw,
+  }
 }
 
 const main = async () => {
+  const dryRun = process.argv.includes("--dry-run")
+  const backfillUrls = process.argv.includes("--backfill-urls")
   const updates = []
   const rankings = []
 
@@ -282,50 +267,17 @@ const main = async () => {
 
   for (const file of fg.sync("content/blog/**/index.md").sort()) {
     const raw = fs.readFileSync(file, "utf8")
-    const parsed = matter(raw)
-
-    if (parsed.data.popularity && parsed.data.date) {
-      const postDate = new Date(parsed.data.date).getTime()
-      if (Number.isFinite(postDate) && now - postDate > STALE_AFTER_MS) {
-        rankings.push({
-          file,
-          title: parsed.data.title,
-          popularity: parsed.data.popularity,
-          stale: true,
-        })
-        continue
-      }
-    }
-
-    const paragraphs = discussionParagraphs(parsed.content)
-    const hnIds = extractHnIds(paragraphs)
-    const lobstersIds = extractLobstersIds(paragraphs)
-
-    if (hnIds.length === 0 && lobstersIds.length === 0) {
-      continue
-    }
-
     const slug = `/${path.basename(path.dirname(file))}/`
-    const hnStories = await fetchHnMetrics(hnIds, slug)
-    const lobstersStories = await fetchLobstersMetrics(lobstersIds, slug)
-
-    if (hnStories.length === 0 && lobstersStories.length === 0) {
-      continue
-    }
-
-    const popularity = buildPopularity(
-      parsed.data.popularity,
-      hnStories,
-      lobstersStories
-    )
     const update = {
       file,
-      title: parsed.data.title,
-      popularity,
-      nextRaw: writePopularity(raw, popularity),
+      ...(await updatePost(raw, slug, { backfillUrls, now })),
     }
-    updates.push(update)
-    rankings.push({ ...update, stale: false })
+    if (update.nextRaw !== raw) {
+      updates.push(update)
+    }
+    if (Object.keys(update.popularity).length > 0) {
+      rankings.push(update)
+    }
   }
 
   if (!dryRun) {
@@ -333,6 +285,12 @@ const main = async () => {
       fs.writeFileSync(update.file, update.nextRaw)
     })
   }
+
+  console.log(
+    `${dryRun ? "Would update" : "Updated"} ${updates.length} posts${
+      backfillUrls ? " (URLs only)" : ""
+    }`
+  )
 
   rankings
     .sort((a, b) => (b.popularity.score || 0) - (a.popularity.score || 0))
@@ -344,7 +302,9 @@ const main = async () => {
         [
           entry.popularity.score || 0,
           `HN ${hn.points || 0}/${hn.comments || 0}/${hn.threads || 0}`,
-          `Lobsters ${lobsters.points || 0}/${lobsters.comments || 0}/${lobsters.threads || 0}`,
+          `Lobsters ${lobsters.points || 0}/${lobsters.comments || 0}/${
+            lobsters.threads || 0
+          }`,
           entry.stale ? "stale" : "fresh",
           path.dirname(entry.file),
           entry.title,
@@ -353,7 +313,11 @@ const main = async () => {
     })
 }
 
-main().catch(error => {
-  console.error(error)
-  process.exitCode = 1
-})
+if (require.main === module) {
+  main().catch(error => {
+    console.error(error)
+    process.exitCode = 1
+  })
+}
+
+module.exports = { updatePost }

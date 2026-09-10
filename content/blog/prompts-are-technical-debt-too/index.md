@@ -3,6 +3,10 @@ title: Prompts are technical debt too
 description: 
 order: 198
 date: '2026-05-20'
+popularity:
+  youtube:
+    urls:
+      - 'https://www.youtube.com/watch?v=WnBx1Vi7M6w'
 tags: ["ai"]
 ---
 

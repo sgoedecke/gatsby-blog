@@ -3,6 +3,10 @@ title: Building multiplayer games with socket.io and HTML5 Canvas
 description: Building multiplayer games with socket.io and HTML5 Canvas
 order: 6
 date: '2020-07-29'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=15318530'
 tags: ["explainers", "side projects"]
 ---
 

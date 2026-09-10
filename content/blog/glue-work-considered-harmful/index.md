@@ -10,14 +10,19 @@ popularity:
     points: 64
     comments: 48
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=42570390'
   lobsters:
     points: 55
     comments: 34
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/nfhwae/glue_work_considered_harmful'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["tech companies"]
 ---

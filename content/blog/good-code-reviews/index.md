@@ -10,14 +10,19 @@ popularity:
     points: 167
     comments: 174
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=45701404'
   lobsters:
     points: 38
     comments: 30
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/ngei5p/mistakes_i_see_engineers_making_their'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["good engineers", "software design", "explainers", "ai"]
 ---

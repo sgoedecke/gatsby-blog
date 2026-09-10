@@ -1,8 +1,9 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import PostMeta from "../components/post-meta"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -18,20 +19,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       post.frontmatter.title
     )}`
   const headerMeta = (
-    <>
-      {post.frontmatter.date}
-      {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-        <>
-          &nbsp;│{" "}
-          {post.frontmatter.tags.map((tag, index) => (
-            <React.Fragment key={tag}>
-              <Link to={`/tags/${tag.toLowerCase()}/`}>{tag}</Link>
-              {index < post.frontmatter.tags.length - 1 && ", "}
-            </React.Fragment>
-          ))}
-        </>
-      )}
-    </>
+    <PostMeta
+      frontmatter={post.frontmatter}
+      discussionLinks={post.fields.discussionLinks}
+    />
   )
 
   return (
@@ -126,6 +117,12 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        discussionLinks {
+          platform
+          url
+        }
+      }
       frontmatter {
         title
         description

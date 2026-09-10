@@ -3,6 +3,10 @@ title: What happens when engineers work more than one job
 description:
 order: 105
 date: '2025-07-03'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=44448461'
 tags: ["interviewing", "tech companies", "career"]
 ---
 

@@ -10,14 +10,21 @@ popularity:
     points: 115
     comments: 125
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=47292902'
   lobsters:
     points: 23
     comments: 14
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/sd1rsy/i_don_t_know_if_my_job_will_still_exist_ten'
   reddit:
     points: 2
     comments: 52
     threads: 1
+    urls:
+      - >-
+        https://www.reddit.com/r/programiranje/comments/1rn5lwc/i_dont_know_if_my_job_will_still_exist_in_ten/
   manual: 0
 tags: ["tech companies", "ai", "zirp"]
 ---

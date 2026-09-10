@@ -9,11 +9,24 @@ popularity:
     points: 160
     comments: 131
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=48289439'
+      - 'https://news.ycombinator.com/item?id=48289749'
+      - 'https://news.ycombinator.com/item?id=48289785'
+      - 'https://news.ycombinator.com/item?id=48290371'
+      - 'https://news.ycombinator.com/item?id=48289668'
+      - 'https://news.ycombinator.com/item?id=48289953'
   lobsters:
     points: 30
     comments: 22
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/i2szle/just_say_no_engineer_was_zirp_phenomenon'
   manual: 0
+  reddit:
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1thf964/the_justsayno_engineer_was_a_zirp_phenomenon/
 tags: ["tech companies", "zirp"]
 ---
 

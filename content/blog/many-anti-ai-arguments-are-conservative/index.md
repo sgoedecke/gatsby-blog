@@ -10,14 +10,24 @@ popularity:
     points: 4
     comments: 4
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=47813141'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 62
     comments: 308
     threads: 3
+    urls:
+      - >-
+        https://www.reddit.com/r/aiwars/comments/1sp3eki/many_antiai_arguments_are_conservative_arguments/
+      - >-
+        https://www.reddit.com/r/aiwars/comments/1sp9hqk/many_antiai_arguments_are_conservative_arguments/
+      - >-
+        https://www.reddit.com/r/LeftistsForAI/comments/1sp3cxe/many_antiai_arguments_are_conservative_arguments/
   manual: 0
 tags: ["ai", "ethics", "politics"]
 ---

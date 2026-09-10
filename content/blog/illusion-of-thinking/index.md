@@ -11,14 +11,24 @@ popularity:
     points: 57
     comments: 51
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=44221900'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 44
     comments: 10
     threads: 1
+    urls:
+      - >-
+        https://old.reddit.com/r/LocalLLaMA/comments/1l6ibwg/when_you_figure_out_its_all_just_math/mwp8cq2/
+      - >-
+        https://www.reddit.com/r/MachineLearning/comments/1l6312h/d_the_illusion_of_the_illusion_of_thinking/
+      - >-
+        https://old.reddit.com/r/LocalLLaMA/comments/1l6ibwg/when_you_figure_out_its_all_just_math/mwqltir/
   manual: 0
 ---
 

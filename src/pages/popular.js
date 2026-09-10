@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import Layout  from "../components/layout";
 import SEO     from "../components/seo";
 import Bio from "../components/bio"
+import PostMeta from "../components/post-meta"
 import { rhythm } from "../utils/typography";
 
 const PopularPage = ({ data, location }) => {
@@ -30,7 +31,10 @@ const PopularPage = ({ data, location }) => {
               {node.frontmatter.title}
             </Link>
           </h3>
-          <p>{node.frontmatter.date}</p>
+          <PostMeta
+            frontmatter={node.frontmatter}
+            discussionLinks={node.fields.discussionLinks}
+          />
         </article>
       ))}
 
@@ -62,10 +66,14 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          fields   { slug }
+          fields {
+            slug
+            discussionLinks { platform url }
+          }
           frontmatter {
             title
             date(formatString: "MMMM D, YYYY")
+            tags
           }
         }
       }

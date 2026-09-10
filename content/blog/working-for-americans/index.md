@@ -10,14 +10,18 @@ popularity:
     points: 138
     comments: 173
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=42669681'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["tech companies", "australia"]
 ---

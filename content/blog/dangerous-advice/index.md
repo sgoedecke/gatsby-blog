@@ -10,14 +10,18 @@ popularity:
     points: 141
     comments: 131
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=45022874'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["good engineers", "tech companies"]
 ---

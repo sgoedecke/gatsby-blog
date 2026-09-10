@@ -10,15 +10,22 @@ popularity:
     points: 248
     comments: 195
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=42938409'
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
+  youtube:
+    urls:
+      - 'https://youtu.be/aJl7YFSXES0?si=PyVM26Ej4vJzdQae'
 tags: ["ai", "how to"]
 ---
 

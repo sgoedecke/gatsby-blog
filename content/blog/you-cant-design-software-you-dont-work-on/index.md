@@ -10,14 +10,19 @@ popularity:
     points: 296
     comments: 114
     threads: 1
+    urls:
+      - 'https://news.ycombinator.com/item?id=46418415'
   lobsters:
     points: 30
     comments: 34
     threads: 1
+    urls:
+      - 'https://lobste.rs/s/72piqg/you_can_t_design_software_you_don_t_work_on'
   reddit:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   manual: 0
 tags: ["software design", "tech companies", "large codebases"]
 ---

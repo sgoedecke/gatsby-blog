@@ -9,14 +9,19 @@ popularity:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   lobsters:
     points: 0
     comments: 0
     threads: 0
+    urls: []
   reddit:
     points: 45
     comments: 12
     threads: 1
+    urls:
+      - >-
+        https://www.reddit.com/r/ExperiencedDevs/comments/1kg5fg2/the_valley_of_engineering_despair/
   manual: 0
 tags: ["shipping", "emotional regulation"]
 ---
