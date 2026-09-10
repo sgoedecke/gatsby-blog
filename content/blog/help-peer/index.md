@@ -3,7 +3,7 @@ title: Help peer
 description:
 order: 225
 date: '2026-08-18'
-tags: ["ai"]
+tags: ["ai", "apocalypse"]
 ---
 
 One of the most influential 20th century pieces of writing about AI is Isaac Asimov's [_The Last Question_](https://users.ece.cmu.edu/~gamvrosi/thelastq.html). Although there are many humans in the story, the protagonist is the computer Multivac, who evolves over the course of ten trillion years from a single datacenter to a universe-spanning mind in hyperspace. Multivac (now called "AC") ends the story like this:

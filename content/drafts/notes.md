@@ -44,15 +44,6 @@ Candor
 
 hmm...
 
---
-https://x.com/anilkseth/status/2094077038898373112?s=20
-AI consciousness? the anti-side seems way over-claimed
-no consensus on the key philosophical question
-lots of pop-psychology "wow it's crazy that tech bros don't understand language" 
-a political question at stake here: if AIs are actors, people are worried that responsibility will flow to them and not to the frontier labs, who ought to be held accountable - who hacked HF? but obviously this is a separate question from "is it epistemically good to anthropomorphize AIs"
-
-https://t.co/jd2laZf6c1
-
 
 ---
 
