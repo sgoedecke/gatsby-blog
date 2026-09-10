@@ -40,3 +40,29 @@ Use `npm run update-popularity -- --backfill-urls` to fill in missing URLs witho
 network requests or changes to scores, counts, or `popular` flags, including for
 older posts normally skipped by the metrics updater. Add `--dry-run` to preview
 the update without writing files.
+
+## Git hooks
+
+After installing dependencies, run `npm run hooks:install` once per clone to
+enable the tracked `.githooks` directory (this replaces any existing
+`core.hooksPath` setting). The pre-commit hook renumbers footnotes in staged
+`.md` and `.markdown` files starting at 1, in order of first reference, and
+updates their matching definitions. Repeated references share a number;
+unreferenced definitions receive numbers after the referenced footnotes.
+Definitions stay in place, and other Markdown formatting is preserved.
+Code examples, escaped markers, HTML blocks, and YAML frontmatter are left alone.
+
+Renumbered files are updated and re-staged automatically. If a file needs
+renumbering but also has unstaged changes, the commit stops without modifying
+any files; stage or stash those changes before retrying. Files with no staged
+changes, deleted files, and symlinks are not rewritten.
+
+A second pre-commit step runs `node update-popularity.js --files ...` only for
+posts that introduce a new Hacker News story, Lobsters story, or YouTube video
+URL compared with the committed version. Moving or removing an existing link
+does not trigger it. Updates are re-staged automatically; unstaged edits in an
+affected post block the commit, and network/API failures abort it.
+The updater's existing URL-list and stale-post rules still apply.
+
+You can also run `npm run update-popularity -- --files content/blog/slug/index.md`
+to update selected posts manually. Put `--files` and its paths last.

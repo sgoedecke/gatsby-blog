@@ -127,6 +127,7 @@ const backfillDiscussionUrls = (popularity = {}, content) => {
 }
 
 module.exports = {
+  platformForUrl,
   extractDiscussionLinks,
   getDiscussionLinks,
   backfillDiscussionUrls,
