@@ -30,9 +30,13 @@ Alternatively, **an AI could trigger global thermonuclear war**. We're already s
 
 There are some other theories. Once robotics has permeated the world economy, an AI could take over the robots (including drones) to kill everyone, like in [_Terminator_](https://en.wikipedia.org/wiki/The_Terminator). Or AIs could take advantage of nanotechnology to create self-replicating machines that turn the world into ["grey goo"](https://en.wikipedia.org/wiki/Gray_goo)[^5]. Or AIs could terraform the planet so as to make it unliveable for humans (as in Nick Bostrom's famous paperclip [example](https://nickbostrom.com/ethics/ai)). Or they could do something else that our puny human brains aren't able to think of.
 
+### Counterarguments
+
 One common counter-argument[^6] here is to say "well, it'd be impossible to extinguish _all_ human life - what about undiscovered tribes in the Amazon, or survivors living in the ruins of modern-day cities?" I don't know, man. At some point you're just conceding the argument: the policy positions you'd adopt if you thought AI might wipe out 99% of humans are the same as if you thought it might wipe out 100%. And like I said above, if an AI can kill _almost_ everyone, it's probably smart and capable enough to finish the job somehow.
 
-Another is to say "well, we'd just turn it off". I don't find this plausible at all: an AI powerful enough to build a super-plague is an AI sophisticated enough to pretend it's curing cancer, or to exfiltrate itself to some datacenter where it won't be turned off, or to take some other countermeasures. 
+Another is to say that the [government](https://x.com/bcantrill/status/2097734971918295535?s=20) [will](https://x.com/charliemktplace/status/2097658056444195205?s=20) simply step in and nationalize the AI labs when the situation gets too dangerous. Maybe! But this kind of concedes the argument: a technology important enough to be fully taken over by the government is a terrifyingly dangerous technology.
+
+A third is to say "well, someone would just turn it off". I don't find this plausible at all: an AI powerful enough to build a super-plague is an AI sophisticated enough to pretend it's curing cancer, or to exfiltrate itself to some datacenter where it won't be turned off, or to take some other countermeasures. 
 
 ### The winner takes it all
 
