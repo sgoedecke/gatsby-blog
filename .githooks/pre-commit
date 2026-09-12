@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+node scripts/renumber-footnotes.js
+exec node scripts/update-popularity-on-commit.js

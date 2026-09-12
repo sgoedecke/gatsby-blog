@@ -264,8 +264,20 @@ const main = async () => {
   const rankings = []
 
   const now = Date.now()
+  const filesIndex = process.argv.indexOf("--files")
+  const files =
+    filesIndex === -1
+      ? fg.sync("content/blog/**/index.md").sort()
+      : process.argv.slice(filesIndex + 1)
+  if (
+    filesIndex !== -1 &&
+    (files.length === 0 ||
+      files.some(file => !/^content\/blog\/.+\/index\.md$/.test(file)))
+  ) {
+    throw new Error("--files requires one or more content/blog/**/index.md paths")
+  }
 
-  for (const file of fg.sync("content/blog/**/index.md").sort()) {
+  for (const file of files) {
     const raw = fs.readFileSync(file, "utf8")
     const slug = `/${path.basename(path.dirname(file))}/`
     const update = {
