@@ -6,7 +6,7 @@ date: '2026-09-13'
 tags: ["ai"]
 ---
 
-Mathematicians are broadly not anti-AI. They're more culturally open to using AI as a tool than, say, artists or writers[^1]. However, now that more and more [genuinely](https://openai.com/index/navier-stokes-solution/) [prestigious](https://www.anthropic.com/research/riemann-zeta) problems have fallen to AI, that might be changing. Almost five thousand mathematicians (including twenty-five Fields medalists) have signed a declaration called [_A Severe Misaligment of AI in Mathematics_](https://mathandai.org/). The core argument goes something like this:
+Mathematicians are broadly not anti-AI. They're more culturally open to using AI as a tool than, say, artists or writers[^1]. However, now that more and more [genuinely](https://openai.com/index/navier-stokes-solution/) [prestigious](https://www.anthropic.com/research/riemann-zeta) problems have fallen to AI, that might be changing. Almost five thousand mathematicians (including twenty-five Fields medalists) have signed a declaration called [_A Severe Misalignment of AI in Mathematics_](https://mathandai.org/). The core argument goes something like this:
 
 > In recent months, the success of AI in solving major mathematical problems has made headlines even outside mathematical circles. But solving problems is only a tool and proxy for achieving the primary goal of conceptual understanding and insight. Forgetting this in the world of AI may turn the tool against the primary goal. Indeed, the mass production at faster and faster pace of "true/false" statements could destroy fertile ground instead of breathing life into new ideas.
 
