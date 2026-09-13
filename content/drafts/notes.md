@@ -1,4 +1,36 @@
 
+
+--- 
+
+Large companies are incredibly tolerant of technical dysfunction
+
+useful software is useful even with bugs (ref dan luu) 
+customers will tolerate and work around even serious bugs
+large companies have useful software almost by definition (or they wouldn't have been able to grow)
+b2b software is purchased in ways that are relatively insensitive to code quality: feature lists (including enterprise dealbreakers), sales, relationships. moving is typically very hard, even genuinely impossible without a massive technical project that the company is incapable of doing. 
+
+sometimes software doesn't even have to function at all, it just has to be a line item somewhere (e.g. some large customer demands the ability to export X data out of paranoia, it never really works well and nobody ever uses it - if for whatever reason it did become critical people would manually pull the data)
+
+internally, teams will muddle along. there are typically lots of guards around shipping too much too fast; if you screw up, someone will slow you down.
+much of the key software is unmaintained or under-maintained - it works out
+
+when stuff needs doing, large companies usually have a bench of competent, well-paid engineers they can throw at the problem. this is largely tactical work but is still enough to get out from under. if a service is a real pile of shit it can be swiftly rewritten by a small, focused team with lots of air cover
+
+most "technical dysfunction" does not matter: it's ugly and inelegant and repels people who like to solve pretty puzzles for a living (like me!) but it works well enough 
+
+of course quality still matters
+
+this is why I'm suspicious of claims that LLMs are going to destroy companies long-term - for one, their code is low quality in a weird way, it's well-tested and well-reasoned, it just sometimes duplicates effort or is inelegant. it's not clear to me what the long term effects of that kind of code are. Like some bugs are gone and others are going to be more common...
+
+---
+Code reviews are not dead
+
+Gergely saying code reviews are theatre/zombie state
+Absolutely false; code reviews are really important
+You can't review giant AI PRs like ordinary PRs but you still need to review them
+
+
+--
 Why I’m dubious about cloud agents
 
 --
@@ -395,7 +427,7 @@ dwarkesh
 
 ### How can AI companies start making real money?
 
-AI companies are bleeding money right now for the same reason that any fabulous new technology bleeds money: even if it could be profitable today, it's a much better idea to try and accelerate in the hopes of being a thousand times more profitable later on. In other words, if Anthropic stopped paying to train new models, they could make a ton of money selling access to Claude Opus and Claude Sonnet - with one huge caveat. OpenAI would have to stop training new models as well, because if they ever release a model better than Claude, all Anthropic's business will go to them[^4]. So how can AI companies start making money?
+AI companies are bleeding money right now for the same reason that any fabulous new technology bleeds money: even if it could be profitable today, it's a much better idea to try and accelerate in the hopes of being a thousand times more profitable later on. In other words, if Anthropic stopped paying to train new models, they could make a ton of money selling access to Claude Opus and Claude Sonnet - with one huge caveat. OpenAI would have to stop training new models as well, because if they ever release a model better than Claude, all Anthropic's business will go to them[^1]. So how can AI companies start making money?
 
 I think there's three answers here. The most boring answer is to **pivot into an AI _product_ company**. Anthropic are doing this with Claude Code and Claude Cowork, and OpenAI are doing it with Codex and various other moonshot projects. The whole point here is that because you train the model, you're in a position to train it both with and for your specific product: on your tools, with your prompts, and for the concrete tasks that your product performs. Even better, you can feed the data from your product back into the model, so your system gets more tightly integrated over time. That makes it tricky for third-party competitors to come in and beat you.
 
@@ -440,13 +472,13 @@ AI makes fake legibility cheap (reports, etc - but fake)
 "potemkin" reports/dashboards are trivial to generate
 legibility "slop"
 
-Large organizations function via a tree of nested reports. Individual contributors give updates to their managers, who summarize and combine[^1] those into team-level updates for their managers, and so on all the way to the top.
+Large organizations function via a tree of nested reports. Individual contributors give updates to their managers, who summarize and combine[^2] those into team-level updates for their managers, and so on all the way to the top.
 
-This serves two purposes. The obvious purpose is _legibility_: managers and executives can find out "what is happening in the organization" simply by reading the relevant report[^2]. A less-obvious but equally important purpose is that it forces people to build a mental model of what's going on in their local area.
+This serves two purposes. The obvious purpose is _legibility_: managers and executives can find out "what is happening in the organization" simply by reading the relevant report[^3]. A less-obvious but equally important purpose is that it forces people to build a mental model of what's going on in their local area.
 
-[^1]: Typically called a "rollup".
+[^2]: Typically called a "rollup".
 
-[^2]: Of course, these reports are only approximations, and can mislead managers in all sorts of ways. I wrote a lot more about that point in [_Seeing like a software company_](/seeing-like-a-software-company).
+[^3]: Of course, these reports are only approximations, and can mislead managers in all sorts of ways. I wrote a lot more about that point in [_Seeing like a software company_](/seeing-like-a-software-company).
 ---
 Really effective staff-plus engineers at big tech companies must be technically strong enough to get things done, but also willing to subordinate their own goals and values to the values of the company. If you're only technically strong, you'll likely end up as a terminal senior (or if your skills are really in demand, as an un-influential staff engineer). If you're only willing to be a company man, you're not useful enough to be worth keeping around at all.
 
@@ -499,7 +531,7 @@ when NOT to do glue work (when you're throwing your body to patch up things that
 
 You probably shouldn't be doing [glue work](https://www.noidea.dog/glue) in large tech companies. I gave some reasons for this in [_Glue work considered harmful_](/glue-work-considered-harmful), but I didn't present an overall theory. Here's one now: **glue work is heroic, and you shouldn't try to be a hero**.
 
-But first, a note on what glue work is and what it isn't. As I'm using the term, glue work is not just work that your company doesn't ask for. It's work that your company doesn't _reward_[^1]. If I make a [side bet](/side-bets) that my team really wants a new suite of unit tests, and I expect my boss to love it, that isn't glue work. That's just work. However, if I write those unit tests knowing that I _won't_ be rewarded for it - in fact, suspecting that I'll be punished for it - that's glue work.
+But first, a note on what glue work is and what it isn't. As I'm using the term, glue work is not just work that your company doesn't ask for. It's work that your company doesn't _reward_[^2]. If I make a [side bet](/side-bets) that my team really wants a new suite of unit tests, and I expect my boss to love it, that isn't glue work. That's just work. However, if I write those unit tests knowing that I _won't_ be rewarded for it - in fact, suspecting that I'll be punished for it - that's glue work.
 
 ### Should companies just reward glue work?
 
@@ -507,7 +539,7 @@ Should companies reward glue work? I actually don't think so. In my view, reward
 
 Some glue work is genuinely useful (for instance, making sure different teams are talking to each other when they need to collaborate on a key project). But some glue work is more "neatness for neatness' sake". Imagine an engineer who really wants to go through past Jira tickets and re-label them in the current scheme, because it makes the historical statistics more consistent. Or imagine an engineer who spends their time chasing people up for individual estimates on tickets, in a team where fine-grained estimation is (perhaps [justifiably](/how-i-estimate-work)) neglected. All kinds of glue work are not created equal.
 
-[^1]: I acknowledge that this is not quite Tanya Reilly's definition of glue work, though Reilly acknowledges that glue work is often unrewarded. In my view, the term has evolved over time to refer to the subset of the original definition that is unrewarded. Or at any rate, that's what I'm interested in writing about in this post, because it's more interesting (if your company rewards glue work, just do it - problem solved!)
+[^2]: I acknowledge that this is not quite Tanya Reilly's definition of glue work, though Reilly acknowledges that glue work is often unrewarded. In my view, the term has evolved over time to refer to the subset of the original definition that is unrewarded. Or at any rate, that's what I'm interested in writing about in this post, because it's more interesting (if your company rewards glue work, just do it - problem solved!)
 
 
 
