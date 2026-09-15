@@ -86,6 +86,8 @@ edit: this post got some [comments](https://news.ycombinator.com/item?id=4641841
 
 This post also got some [comments](https://lobste.rs/s/72piqg/you_can_t_design_software_you_don_t_work_on) on Lobste.rs. This is the rare case where the Lobste.rs comments are worse than the Hacker News comments: it's mostly quibbling over the term "generic" and speculating over whether I wrote this post with an LLM (I didn't).
 
+edit: I came across [this excellent post](https://earthly.dev/blog/thought-leaders/) from a few years earlier on the same topic, which I think covers basically the same point: you should be very suspicious of technical advice from people who don't have context on your specific service.
+
 
 [^1]: I admit I've given my own generic software design advice [here](/good-api-design), [here](/good-system-design), [here](/great-software-design), and probably a dozen other places.
 
