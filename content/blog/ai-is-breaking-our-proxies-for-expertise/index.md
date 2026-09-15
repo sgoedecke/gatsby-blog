@@ -3,6 +3,21 @@ title: AI is breaking our proxies for expertise
 description: 
 order: 237
 date: '2026-09-13'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=49712416'
+    points: 81
+    comments: 71
+    threads: 1
+  score: 223
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai"]
 ---
 
@@ -54,6 +69,7 @@ The field of software engineering does not have the same structure as mathematic
 
 Like mathematics, software engineers are going to have to rebuild our cultural sense of the kind of work we value. We are either going to have to silo "AI work" off from "human work" like chess, or to find some legible human skills to recognize that can't be easily counterfeited by AI. In the meantime, a lot of people who were successful in the old world are going to be very unhappy.
 
+edit: This post got some [comments](https://news.ycombinator.com/item?id=49712416) on Hacker news. The top comment [thinks](https://news.ycombinator.com/item?id=49714181) I'm wrong: the purpose of mathematics is to "achieve a certain kind of insight", not to produce concepts or solve proofs. I can interpret this two ways. If achieving insight means "advancing general human understanding", I think this resolves to the concept-generation work I wrote about. If it means "having the individual mathematicians figure it out in their own brains" - purely for their own pleasure - then I think mathematics is doomed; that is not a compelling reason to fund or participate in any academic field. Other commenters draw [interesting parallels](https://news.ycombinator.com/item?id=49713762) to historical cultural collapses or [dispute](https://news.ycombinator.com/item?id=49714531) [that](https://news.ycombinator.com/item?id=49714763) AIs really can generate interesting new mathematical ideas (well, we'll see).
 
 
 [^1]: Possibly because current AI models are much better at mathematics than at art or writing.
