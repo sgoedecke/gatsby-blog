@@ -1,8 +1,8 @@
 ---
 title: Tell agents the why, not just the how
 description: 
-order: 238
-date: '2026-09-13'
+order: 239
+date: '2026-09-15'
 tags: ["ai", "prompting"]
 ---
 

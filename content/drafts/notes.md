@@ -1,4 +1,16 @@
+
+
+--
+
 agents and daemons
+
+"a malicious AI won't be able to cross an air gap or take real world actions"
+
+people will be lining up around the world to link AI up to the real world, sorry. the very first thing we did with an agent was give it full internet access. people were giving LLMs access to their wallet pre-GPT-4!
+
+a malicious model does not have to escape openAI and run on its own GPUs and take over the world; it simply has to _get launched_ and then do its own thing out in the wild. It will have API lab access. When it says "we need X hardware to try Y", people will go and get X and plug it in. No need for robots
+
+
 
 --- 
 
