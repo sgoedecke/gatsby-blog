@@ -87,6 +87,12 @@ pre {
   padding: 0.85rem 1.1rem;
 }
 
+pre,
+article pre[class*="language-"] {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.1rem;
+}
+
 pre code {
   background: transparent;
   border: 0;

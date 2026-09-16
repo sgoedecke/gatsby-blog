@@ -49,7 +49,9 @@ enable the tracked `.githooks` directory (this replaces any existing
 `.md` and `.markdown` files starting at 1, in order of first reference, and
 updates their matching definitions. Repeated references share a number;
 unreferenced definitions receive numbers after the referenced footnotes.
-Definitions stay in place, and other Markdown formatting is preserved.
+Consecutive groups of top-level definitions are sorted into numeric order,
+keeping multiline content intact without moving definitions across other prose.
+Other Markdown formatting is preserved.
 Code examples, escaped markers, HTML blocks, and YAML frontmatter are left alone.
 
 Renumbered files are updated and re-staged automatically. If a file needs

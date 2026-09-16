@@ -93,6 +93,18 @@ test("footnote hook refuses partial staging before modifying any files", t => {
   assert.equal(git("show", ":b.md"), source)
 })
 
+test("footnote hook stages reordered definitions even when labels are unchanged", t => {
+  const { git, write, read, hook } = repository(t)
+  const source = "Text[^1][^2].\n\n[^2]: Two\n[^1]: One\n"
+  const expected = "Text[^1][^2].\n\n[^1]: One\n[^2]: Two\n"
+  write("notes.md", source)
+  git("add", "notes.md")
+  const result = hook("renumber-footnotes.js")
+  assert.equal(result.status, 0, result.stderr)
+  assert.equal(read("notes.md"), expected)
+  assert.equal(git("show", ":notes.md"), expected)
+})
+
 test("both steps run on a real commit and update only the affected post", t => {
   const { git, write, read } = repository(t)
   const file = "content/blog/example/index.md"
