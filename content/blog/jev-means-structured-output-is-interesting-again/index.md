@@ -30,9 +30,9 @@ So far, so ordinary: LLMs [do this already](https://developers.openai.com/api/do
 
 ### Jev is consistently fast
 
-Mainly, **Jev is always really fast.** The fastest response time is around 70ms instead of a couple of seconds for normal LLMs. Even better, the _slowest_ response time is only 500ms. Because Jev only does structured output, it isn't autoregressive: it can produce answers to many questions in parallel in a single forward pass. When a LLM is producing structured output, it has to produce the tokens "{", " ", "answer", ":", and so on with successive forward passes[^3]. Jev does it all in one go.
+**Jev is always really fast.** The fastest response time is around 70ms instead of a couple of seconds for normal LLMs. Even better, the _slowest_ response time is only 500ms. Because Jev only does structured output, it isn't autoregressive: it can produce answers to many questions in parallel in a single forward pass. When a LLM is producing structured output, it has to produce the tokens "{", " ", "answer", ":", and so on with successive forward passes[^3]. Jev does it all in one go.
 
-The most compelling example of this is that **Jev can play Doom**. You can feed a text-based representation of the current game state into the model, combined with a set of choices like "should the trigger be held down", "what should the current goal be", "given that the current goal is X, what keyboard input should be pressed", and so on, and it works - latency is low enough and the system is smart enough that the model plays well.
+The most compelling example of Jev's speed is that **the model can play Doom**. You can feed a text-based representation of the current game state into the model, combined with a set of choices like "should the trigger be held down", "what should the current goal be", "given that the current goal is X, what keyboard input should be pressed", and so on, and it works - latency is low enough and the system is smart enough that the model plays well in real time.
 
 ![doom](doom.png)
 
