@@ -1,4 +1,10 @@
+jev techniques
 
+from reimplementing the demo
+
+multi-step choices: add a "what is your current goal" choice, then re-run the main action choices with "given X is your goal:" in the prompt. kind of test-time compute. I wonder how many layers deep you could go with this - i.e. picking an overall goal, then sub-goals, then sub-sub goals. All the choices would need to be well-defined in advance.
+
+handling >255 (or whatever) choices: hold X tournaments then tournament the winners. the demo seems to use scoring instead - might work if your model is v consistent with scoring but in my experience too many high scores were assigned. tournaments worked _great_ for me
 
 --
 

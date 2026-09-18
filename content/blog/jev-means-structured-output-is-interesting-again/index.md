@@ -3,7 +3,7 @@ title: Jev means structured output is interesting again
 description:
 order: 240
 date: '2026-09-16'
-tags: ["ai"]
+tags: ["ai", "system one"]
 ---
 
 I don't write blog posts about new models. That's [Simon Willison's](https://simonwillison.net/) beat, and he's very good at it. But I want to write about [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), which is a different kind[^1] of AI model: a "System One"[^2] model. As it turns out, it's not _that_ different from an ordinary LLM with structured output, but the interface it uses is very cool and I hope it becomes more widespread.
