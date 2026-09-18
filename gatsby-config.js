@@ -1,13 +1,21 @@
 const createFeed = ({ output, title }) => ({
   serialize: ({ query: { site, allMarkdownRemark } }) => {
     const formatDate = date => new Date(date).toUTCString();
-    return allMarkdownRemark.nodes.map(node => ({
-      title: node.frontmatter.title,
-      custom_elements: [{ "content:encoded": node.html }],
-      date: formatDate(node.frontmatter.date),
-      url: site.siteMetadata.siteUrl + node.fields.slug,
-      guid: site.siteMetadata.siteUrl + node.fields.slug,
-    }));
+    return allMarkdownRemark.nodes.map(node => {
+      const postUrl = new URL(node.fields.slug, site.siteMetadata.siteUrl).href;
+      // Email clients do not reliably support links within the message.
+      const html = node.html.replace(
+        /(<a\b[^>]*\shref=")(#fn(?:ref)?-[^"]+)(")/g,
+        (_, before, fragment, after) => before + postUrl + fragment + after
+      );
+      return {
+        title: node.frontmatter.title,
+        custom_elements: [{ "content:encoded": html }],
+        date: formatDate(node.frontmatter.date),
+        url: site.siteMetadata.siteUrl + node.fields.slug,
+        guid: site.siteMetadata.siteUrl + node.fields.slug,
+      };
+    });
   },
   query: `
     {
