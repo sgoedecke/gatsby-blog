@@ -224,8 +224,6 @@ const updatePost = async (
       Number.isFinite(postDate) &&
       now - postDate > STALE_AFTER_MS
   )
-  let metricsUpdated = false
-
   if (!backfillUrls && !stale) {
     const hnIds = extractHnIds(popularity.hackerNews?.urls || [])
     const lobstersIds = extractLobstersIds(popularity.lobsters?.urls || [])
@@ -238,10 +236,12 @@ const updatePost = async (
 
     if (hnStories.length > 0 || lobstersStories.length > 0) {
       popularity = buildPopularity(popularity, hnStories, lobstersStories)
-      metricsUpdated = true
     }
   }
 
+  const markPopular =
+    !backfillUrls &&
+    (popularity.hackerNews?.threads > 0 || popularity.lobsters?.threads > 0)
   const changed =
     Object.keys(popularity).length > 0 &&
     JSON.stringify(popularity) !== JSON.stringify(parsed.data.popularity)
@@ -251,8 +251,8 @@ const updatePost = async (
     popularity,
     stale,
     nextRaw:
-      changed || (metricsUpdated && parsed.data.popular !== true)
-        ? writePopularity(raw, popularity, metricsUpdated)
+      changed || (markPopular && parsed.data.popular !== true)
+        ? writePopularity(raw, popularity, markPopular)
         : raw,
   }
 }

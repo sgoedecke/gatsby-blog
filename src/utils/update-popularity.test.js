@@ -79,6 +79,75 @@ test("normal updates backfill old posts without refreshing their metrics", async
   assert.equal(matter(result.nextRaw).data.popular, undefined)
 })
 
+for (const platform of ["hackerNews", "lobsters"]) {
+  for (const popular of [undefined, false, true]) {
+    test(`old ${platform} metrics repair popular=${popular} without network requests`, async () => {
+      const popularity = {
+        score: 258,
+        [platform]: {
+          points: 36,
+          comments: 30,
+          threads: 1,
+          urls: [],
+        },
+        manual: 0,
+      }
+      const raw = matter.stringify("\nArticle content.  \n", {
+        title: "Old example",
+        date: "2025-01-24",
+        ...(popular === undefined ? {} : { popular }),
+        popularity,
+        tags: ["tech companies"],
+      })
+      const result = await updatePost(raw, "/example/", {
+        now,
+        fetchJson: noNetwork,
+      })
+      assert.equal(result.stale, true)
+      assert.deepEqual(matter(result.nextRaw).data, {
+        ...matter(raw).data,
+        popular: true,
+      })
+      assert.equal(matter(result.nextRaw).content, matter(raw).content)
+      const second = await updatePost(result.nextRaw, "/example/", {
+        now,
+        fetchJson: noNetwork,
+      })
+      assert.equal(second.nextRaw, result.nextRaw)
+      if (popular === true) {
+        assert.equal(result.nextRaw, raw)
+      }
+
+      const backfill = await updatePost(raw, "/example/", {
+        backfillUrls: true,
+        now,
+        fetchJson: noNetwork,
+      })
+      assert.equal(backfill.nextRaw, raw)
+    })
+  }
+}
+
+test("manual scores and other platforms do not qualify as HN/Lobsters threads", async () => {
+  const raw = matter.stringify("Article content.", {
+    title: "Old example",
+    date: "2025-01-24",
+    popular: false,
+    popularity: {
+      score: 100,
+      hackerNews: { threads: 0, urls: [] },
+      lobsters: { threads: 0, urls: [] },
+      reddit: { threads: 1, urls: [] },
+      manual: 100,
+    },
+  })
+  const result = await updatePost(raw, "/example/", {
+    now,
+    fetchJson: noNetwork,
+  })
+  assert.equal(result.nextRaw, raw)
+})
+
 test("URL-only metadata does not prevent older posts getting their first metrics", async () => {
   const raw = matter.stringify("An old post with a manually stored URL.", {
     title: "Example",
