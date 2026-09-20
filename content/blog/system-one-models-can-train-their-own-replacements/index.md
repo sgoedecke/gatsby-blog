@@ -6,7 +6,7 @@ date: '2026-09-20'
 tags: ["system one", "ai"]
 ---
 
-"System One" models like Jev are fast general classifiers. Classifiers have existed since [1958](https://en.wikipedia.org/wiki/Mark_I_Perceptron), but they have to be trained for specific tasks: if you build a classifier to identify images of dogs, it can't be used to tell you if a streetlight is red, or if a letter is urgent. Like a LLM, Jev can be prompted for a wide variety of tasks, from [sorting email](https://www.youtube.com/watch?v=9oWxrsRo4d8) to [playing Doom](/two-techniques-for-working-with-system-one-models/).
+"System One" models like [Jev](/jev-means-structured-output-is-interesting-again/) are fast general classifiers. Classifiers have existed since [1958](https://en.wikipedia.org/wiki/Mark_I_Perceptron), but they have to be trained for specific tasks: if you build a classifier to identify images of dogs, it can't be used to tell you if a streetlight is red, or if a letter is urgent. Like a LLM, Jev can be prompted for a wide variety of tasks, from [sorting email](https://www.youtube.com/watch?v=9oWxrsRo4d8) to [playing Doom](/two-techniques-for-working-with-system-one-models/).
 
 I think models like this are going to be important. There are many tasks that a LLM _could_ do in theory but are too slow and expensive in practice (for instance, reading each new message in Slack[^1] and deciding whether to notify you or not). While you could train a specific classifier for these tasks, there are two main problems with that:
 
