@@ -36,6 +36,11 @@ News and Lobsters URLs to refresh their metrics. Existing URL lists are preserve
 including an explicit `urls: []`; edit those lists directly to add or remove links.
 The site build never extracts links from article prose.
 
+Normal updates set `popular: true` when recorded Hacker News or Lobsters metrics
+include at least one verified thread. This also repairs missing or false flags on
+posts older than 60 days, even though their existing metrics are not refreshed.
+Discussion URLs or manual scores alone do not mark a post popular.
+
 Use `npm run update-popularity -- --backfill-urls` to fill in missing URLs without
 network requests or changes to scores, counts, or `popular` flags, including for
 older posts normally skipped by the metrics updater. Add `--dry-run` to preview

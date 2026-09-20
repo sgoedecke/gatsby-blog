@@ -3,6 +3,7 @@ title: Why are big tech companies so slow?
 description: It's not incompetence or process, it's thousands of feature interactions
 order: 33
 date: '2025-01-24'
+popular: true
 popularity:
   score: 258
   hackerNews:
