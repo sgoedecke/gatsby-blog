@@ -3,7 +3,7 @@ title: You should all be asking way more questions
 description:
 order: 244
 date: '2026-09-25'
-tags: ["good engineers"]
+tags: ["good engineers", "ai"]
 ---
 
 When someone is explaining something to me, I ask on average one question every thirty seconds. I'm sure this is frustrating to some people, but it's actually a good habit and you should do it too.

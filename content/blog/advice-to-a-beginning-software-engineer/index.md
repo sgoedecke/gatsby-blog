@@ -3,7 +3,7 @@ title: Advice to a beginning software engineer
 description:
 order: 245
 date: '2026-09-26'
-tags: ["good engineers"]
+tags: ["tech companies", "ai"]
 ---
 
 In general, you should be suspicious of engineers who are trying to give you advice. Even during ordinary times, this industry is so wide and changes so quickly that [nobody really knows](/confidence) anything for sure. And we are not in ordinary times. The advent of LLMs and AI agents is the largest change to software engineering in my professional lifetime, and possibly the largest change ever. That said, here's my advice:
