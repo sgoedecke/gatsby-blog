@@ -19,5 +19,5 @@ Many successful leaders adopt this mindset because it works. It really does help
 
 [^1]: In fact, many people role-play someone who's trying to win as a substitute for actually trying. Here's a relevant quote from Sartre's _Being and Nothingness_: "The attentive pupil who wishes to be attentive, his eyes riveted on the teacher, his ears open wide, so exhausts himself in playing the attentive role that he ends up by no longer hearing anything."
 
-[^2]: Or moderately-useful assets who can potentially be steered into usefulness with some feedback - but still never _blamed_, in the way that you might adjust a misbehaving power tool without blaming it. To my mind, the canonical philosophical treatment of this is Peter Strawson's [_Freedom and Resentment_](https://andreasklein.at/WF/Strawson%20Peter%20-%20Freedom%20and%20Resentment.pdf), where he describes the "objective attitude".
+[^2]: Or moderately-useful assets who can potentially be steered into usefulness with some feedback - but still never _blamed_, in the way that you might adjust a misbehaving power tool without blaming it. To my mind, the canonical philosophical treatment of this is Peter Strawson's [_Freedom and Resentment_](https://people.brandeis.edu/~teuber/P._F._Strawson_Freedom_&_Resentment.pdf), where he describes the "objective attitude".
 

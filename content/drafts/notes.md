@@ -1,3 +1,6 @@
+why agentic coding isnt causing user obvious revolution in software
+
+https://x.com/LewisCTech/status/2103917661902319921
 
 ---
 jev techniques
