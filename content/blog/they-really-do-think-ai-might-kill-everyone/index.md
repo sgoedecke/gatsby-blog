@@ -3,7 +3,7 @@ title: They really do think AI might kill everyone
 description: 
 order: 235
 date: '2026-09-10'
-tags: ["ai", "apocalypse"]
+tags: ["ai", "apocalypse", "ai safety"]
 ---
 
 A recent [resignation tweet](https://x.com/hilbertspaess/status/2097476196791709843) from an Anthropic researcher has everyone talking about the AI apocalypse again. Among other things, he said:

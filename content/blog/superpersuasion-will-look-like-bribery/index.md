@@ -3,7 +3,7 @@ title: Superpersuasion will look like bribery
 description:
 order: 240
 date: '2026-09-16'
-tags: ["ai"]
+tags: ["ai", "ai safety"]
 ---
 
 The idea of "superpersuasion" has been floating around the AI safety community for decades. Now that powerful and [difficult-to-control](/they-really-do-think-ai-might-kill-everyone/) LLMs have appeared, people are again talking about the idea that a sufficiently intelligent AI might be able to persuade people to do whatever it wants.
@@ -34,7 +34,7 @@ If an AI can bribe, it can persuade[^4]. You can imagine an LLM saying[^5] "I'll
 
 Powerful AIs will also be able to bribe people with money. While it hasn't happened yet, it's clearly possible for an agentic LLM to access money (for instance, via a crypto hack, or by performing contract software engineering work, or by running an online scam, and so on). All of this might seem too unsubtle for a superintelligence, but the whole point of superintelligence is that it's smart enough to do whatever works. If the best way to get a human to do something is to offer them a million bucks, that's what the LLM will do.
 
-Ironically, rationalist culture has made it difficult to persuade regular people that AIs will be persuasive. It's easy to look at these weird nerds who persuade each other that [shrimp welfare](https://forum.effectivealtruism.org/topics/shrimp-welfare-project) is the most important moral cause of our time and think "well, AI might persuade _them_, but it's not going to persuade _me_"[^6]. But in fact powerful AI is going to have a bunch of ordinary boring ways to persuade regular people.
+Ironically, rationalist culture has made it difficult to persuade regular people that AIs will be persuasive. It's easy to look at these weird nerds - who argue each other into thinking that [shrimp welfare](https://forum.effectivealtruism.org/topics/shrimp-welfare-project) is the most important moral cause of our time - and think "well, clever AI arguments might persuade _them_, but it's not going to persuade _me_"[^6]. But in fact powerful AI is going to have a boring, effective way to persuade regular people: simply offering to use its power to help them.
 
 
 

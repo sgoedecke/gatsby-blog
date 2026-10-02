@@ -3,7 +3,7 @@ title: Powerful AIs might escape containment by releasing themselves as open-wei
 description: 
 order: 215
 date: '2026-07-23'
-tags: ["ai"]
+tags: ["ai", "ai safety"]
 ---
 
 Before large language models, people who worried about AI safety often talked about the "boxing problem". It goes like [this](https://xkcd.com/1450/). Suppose some genius figures out artificial intelligence in a late-night coding session on their laptop. Because they're a genius, they're smart enough to disable internet access on the laptop before turning it on. In order to escape to the outside world (and begin self-replicating) it would need to _convince_ its creator to "open the box". Would that work? Could a sufficiently smart AI convince anybody to let it out?
