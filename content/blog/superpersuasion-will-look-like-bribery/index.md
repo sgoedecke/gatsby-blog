@@ -1,8 +1,8 @@
 ---
 title: Superpersuasion will look like bribery
 description:
-order: 240
-date: '2026-09-16'
+order: 248
+date: '2026-10-03'
 tags: ["ai", "ai safety"]
 ---
 
