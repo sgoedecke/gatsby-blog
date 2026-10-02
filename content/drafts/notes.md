@@ -1,3 +1,8 @@
+immanentize the eschaton
+
+how on earth could that have been a popular political slogan? how far have we fallen
+
+--
 why agentic coding isnt causing user obvious revolution in software
 
 https://x.com/LewisCTech/status/2103917661902319921
