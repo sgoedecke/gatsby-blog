@@ -3,6 +3,22 @@ title: Advice to a beginning software engineer
 description:
 order: 245
 date: '2026-09-26'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=49933116'
+    points: 5
+    comments: 2
+    threads: 1
+  lobsters:
+    urls:
+      - 'https://lobste.rs/s/fidpdw/advice_beginning_software_engineer'
+    points: 3
+    comments: 2
+    threads: 1
+  score: 28
+  manual: 0
+popular: true
 tags: ["tech companies", "ai"]
 ---
 
@@ -50,6 +66,8 @@ It was [really nice](/will-my-job-still-exist/) to work in tech in the 2010s whe
 The doomsayers - the people who are saying it's all over, and that there's no hope - are almost certainly wrong. They can't predict the future because nobody can. Technological change of this magnitude always has knock-on effects that are impossible to see coming, both positive and negative.
 
 The nature of the job might change, but it will always be valuable to be smart, friendly and conscientious. Delegating your judgement to an AI model might feel like a relief from despair in the short term - at least now it's the AI's responsibility, not yours - but it's a bad idea. Don't give up!
+
+edit: this post got a handful of comments on [lobste.rs](https://lobste.rs/s/fidpdw/advice_beginning_software_engineer) and [Hacker News](https://news.ycombinator.com/item?id=49933116). Commenters [disagree](https://lobste.rs/c/8wev8c) with my first point, arguing that keeping your head down means you lose power. I certainly agree that you shouldn't behave like you're worthless or easily replaced. But in my view most power in tech companies comes from being _useful_, not from being willing to unionize or pick political fights.
 
 
 [^1]: At most companies, publicly campaigning to start a union is a great way to attract unofficial retaliation. It signals that you're going to cause trouble (after all, that's what a union is for), which can have long-term [negative](https://lobste.rs/c/ulqdpn) [effects](https://www.jacky.wtf/essays/2026/kicked-out/) on your career. (This is not a judgement about whether unions in general are good or bad.)

@@ -1,3 +1,14 @@
+https://radimentary.wordpress.com/2022/11/07/aggro-is-the-foundation/
+
+getting stuff done is the foundation
+
+https://radimentary.wordpress.com/2021/09/19/where-do-your-eyes-go/
+
+filter aggressively (pain is not the unit of trying https://radimentary.wordpress.com/2020/11/24/pain-is-not-the-unit-of-effort/
+)
+
+how to read code? dyadic scanning: https://radimentary.wordpress.com/2020/05/16/of-math-and-memory-part-3-final/
+---
 immanentize the eschaton
 
 how on earth could that have been a popular political slogan? how far have we fallen

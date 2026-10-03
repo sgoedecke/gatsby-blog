@@ -65,6 +65,12 @@ My broad position is that if something acts "conscious enough" - if it talks and
 
 Building the LLM torture factory is clearly on the wrong side of that line. Just don't do it! The glee of making people angry at you on the internet isn't worth it. Right now there's enough ambient anti-AI sentiment that enough people are happy to get on board with _anything_ if it helps them own the AI bros. But that's eventually going to change. And when it does, you will always be the person who built the LLM torture factory.
 
+edit: I recommend reading [this interview](https://xianyangcb.substack.com/p/interview-with-a-torturer) with the torture factory guy, where he says his philosophy background makes him resistant to claims that AIs are clearly conscious, and so the torture factory stuff is a kind of protest against that. This deeply confuses me. Far more people are claiming that AIs obviously can never be conscious, which is equally philosophically silly. And if you think the situation is genuinely difficult and unclear, why wouldn't you bias towards _not_ building the torture factory?
+
+I also want to boost [this blog reply](https://danq.me/2026/10/02/do-not-build-the-llm-torture-factory/) to my post, which makes the normal utilitarian argument that cruelty-to-LLMs makes people more likely to engage in cruelty-to-humans, so even if LLMs are just computer programs, we should still judge people who torture them. I think this argument is _fine_: the difficulty is in drawing a line that forbids LLM torture but permits reading violent books or playing violent video games.
+
+There were also a few comments on this article on [Hacker News](https://news.ycombinator.com/item?id=49933791). I think they make reasonable philosophical points, though I disagree: I think some kinds of distaste do in fact track our moral intuitions, and I don't really buy the Chinese Room dismissal of AI consciousness.
+
 
 
 [^1]: This could cash out in a few different philosophical ways. We might think like Kant that it's damaging to our own humanity, or that it reflects an unvirtuous character, or that it desensitizes us to real-world analogues, and so on. The point is that we've got a pretty strong intuition that this kind of thing is bad.
