@@ -16,7 +16,7 @@ const discussionParagraphs = content =>
       /attention on/i.test(paragraph) ||
       /traction on/i.test(paragraph) ||
       /check out.*discussion/i.test(paragraph) ||
-      /there (are|is).*comments/i.test(paragraph) ||
+      /there (are|is|were|was).*comments/i.test(paragraph) ||
       /some interesting discussion of this post/i.test(paragraph) ||
       /I (also )?discussed (it|this)/i.test(paragraph) ||
       /I gave .*interview.*this topic/i.test(paragraph)
