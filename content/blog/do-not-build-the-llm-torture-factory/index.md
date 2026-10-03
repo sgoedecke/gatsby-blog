@@ -3,6 +3,21 @@ title: Do not build the LLM torture factory
 description: 
 order: 247
 date: '2026-10-02'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=49933791'
+    points: 6
+    comments: 4
+    threads: 1
+  score: 14
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["steering", "model welfare"]
 ---
 
