@@ -1,6 +1,4 @@
-https://radimentary.wordpress.com/2022/11/07/aggro-is-the-foundation/
 
-getting stuff done is the foundation
 
 https://radimentary.wordpress.com/2021/09/19/where-do-your-eyes-go/
 
