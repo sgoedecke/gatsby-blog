@@ -1,9 +1,12 @@
+is "chief of staff" the new AI paradigm
+
+autocomplete -> chat -> chat with some tools -> end-to-end agent (claude code) -> agent fleet management (chatgpt app) -> now chief of staff? 
+
+maybe a better general paradigm for work, but I have my doubts about engineering work
+
+--
 
 
-https://radimentary.wordpress.com/2021/09/19/where-do-your-eyes-go/
-
-filter aggressively (pain is not the unit of trying https://radimentary.wordpress.com/2020/11/24/pain-is-not-the-unit-of-effort/
-)
 
 how to read code? dyadic scanning: https://radimentary.wordpress.com/2020/05/16/of-math-and-memory-part-3-final/
 ---
