@@ -1,3 +1,7 @@
+working through other people
+
+---
+
 is "chief of staff" the new AI paradigm
 
 autocomplete -> chat -> chat with some tools -> end-to-end agent (claude code) -> agent fleet management (chatgpt app) -> now chief of staff? 
