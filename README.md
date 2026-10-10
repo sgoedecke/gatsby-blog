@@ -95,6 +95,10 @@ previews are uploaded as artifacts. Use the `platforms` input to retry one
 platform without posting twice to the other. If the X teaser posts but the
 link reply fails, the error includes the teaser's URL so you can reply by hand.
 
+To share an older post, you can also ask a coding agent (e.g. "post my centaur
+article to Twitter"). `AGENTS.md` tells it how to find the slug and run the
+workflow.
+
 ### Setup
 
 X (pay-per-use, about $0.22 per blog post: $0.015 for the teaser and $0.20
