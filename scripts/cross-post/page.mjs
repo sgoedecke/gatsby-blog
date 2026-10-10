@@ -85,11 +85,16 @@ function measurePost(screenshotCount) {
     if (end >= boundaries[boundaries.length - 1]) break
   }
 
-  const paragraphs = Array.from(section.children)
-    .filter(element => element.tagName === "P")
-    .slice(0, 8)
-    .map(clean)
-    .filter(Boolean)
+  // Only the opening run of paragraphs: anything after a heading, list, or
+  // quote may need its surrounding context to make sense.
+  const children = Array.from(section.children)
+  const firstParagraph = children.findIndex(element => element.tagName === "P")
+  const paragraphs = []
+  for (const element of children.slice(Math.max(firstParagraph, 0))) {
+    if (element.tagName !== "P") break
+    const text = clean(element)
+    if (text) paragraphs.push(text)
+  }
 
   return {
     title: clean(title),

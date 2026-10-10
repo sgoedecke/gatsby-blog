@@ -213,3 +213,17 @@ test("reports the teaser URL when the link reply fails", async t => {
     /Posted the teaser \(https:\/\/x\.com\/i\/status\/7\) but the link reply failed/
   )
 })
+
+test("never ends an excerpt on a sentence that introduces what follows", () => {
+  assert.equal(
+    buildExcerpt(
+      ["Intro sentence. It goes like this:", "Some quoted view."],
+      text => text.length <= 40
+    ),
+    "Intro sentence."
+  )
+  assert.equal(
+    buildExcerpt(["It goes like this:"], () => true),
+    ""
+  )
+})

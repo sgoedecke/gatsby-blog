@@ -76,29 +76,38 @@ function truncateToWords(text, fits) {
   return ""
 }
 
-// Builds an excerpt from whole sentences, preserving paragraph breaks, that
-// satisfies `fits`. Falls back to a word-truncated first sentence.
-export function buildExcerpt(paragraphs, fits, { maxSentences = 4 } = {}) {
-  const sentenceParagraphs = paragraphs
-    .map(splitSentences)
-    .filter(sentences => sentences.length)
+function joinSentences(chosen) {
+  return chosen
+    .map(({ text, startsParagraph }, index) =>
+      index === 0 ? text : `${startsParagraph ? "\n\n" : " "}${text}`
+    )
+    .join("")
+}
 
-  let excerpt = ""
-  let count = 0
-  for (const sentences of sentenceParagraphs) {
-    let separator = excerpt ? "\n\n" : ""
-    for (const sentence of sentences) {
-      if (count >= maxSentences) return excerpt
-      const candidate = `${excerpt}${separator}${sentence}`
-      if (!fits(candidate)) {
-        return excerpt || truncateToWords(sentence, fits)
+// Builds an excerpt from whole sentences, preserving paragraph breaks, that
+// satisfies `fits`. It never ends on a sentence that introduces what follows
+// (one ending in a colon). Falls back to a word-truncated first sentence.
+export function buildExcerpt(paragraphs, fits, { maxSentences = 4 } = {}) {
+  const chosen = []
+  collect: for (const paragraph of paragraphs) {
+    const sentences = splitSentences(paragraph)
+    for (const [index, text] of sentences.entries()) {
+      const next = [...chosen, { text, startsParagraph: index === 0 }]
+      if (chosen.length >= maxSentences || !fits(joinSentences(next))) {
+        break collect
       }
-      excerpt = candidate
-      separator = " "
-      count++
+      chosen.push(next[next.length - 1])
     }
   }
-  return excerpt
+
+  while (chosen.length && /:["'”’)\]]*$/.test(chosen[chosen.length - 1].text)) {
+    chosen.pop()
+  }
+  if (chosen.length) return joinSentences(chosen)
+
+  const first = splitSentences(paragraphs[0] || "")[0]
+  if (!first || /:["'”’)\]]*$/.test(first)) return ""
+  return fits(first) ? first : truncateToWords(first, fits)
 }
 
 // The teaser tweet has no link (the link goes in a reply), so the excerpt can
