@@ -3,6 +3,21 @@ title: The first big AI disaster is yet to happen
 description:
 order: 95
 date: '2025-06-10'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=44252311'
+    points: 113
+    comments: 134
+    threads: 1
+  score: 381
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai"]
 ---
 
@@ -41,6 +56,9 @@ It's always possible that we discover a horrible alignment flaw at the worst tim
 In the [radium craze](https://en.wikipedia.org/wiki/Radium_fad) of the early 20th century, companies were trying to introduce radioactivity into everything: face creams, soap, tableware. The world was mad for nuclear power. The world is now mad for large language models. In a few decades, we'll have a much clearer idea of the risks, just as by the late 20th century people understood that nuclear reactors were dangerous and radioactive face creams were a really bad idea. 
 
 I don't know what we can do about it in the meantime. Nobody's slowing the train down now. It's probably a good idea to build whatever safety tooling we can (I'm doing my part by working on [evals](https://docs.github.com/en/github-models/use-github-models/evaluating-ai-models#evaluating-outputs) at GitHub). But I suspect the real lessons have to be learned the hard way.
+
+edit: this post got a lot of [comments](https://news.ycombinator.com/item?id=44252311) on Hacker News. Commenters [suggest](https://news.ycombinator.com/item?id=44252981) that the AI-driven bombing of Gazan civilians (and more recently an Iranian [school](https://www.bloomberg.com/graphics/2026-iran-school-attack/)) counts. I'm reluctant to call these AI-caused, rather than regular old human-caused war crimes. Other commenters [point to](https://news.ycombinator.com/item?id=44253144) [AI impacts](https://news.ycombinator.com/item?id=44253416) on public policy or [prompt injection](https://news.ycombinator.com/item?id=44252824) attacks. As of October 2026, I think we're still waiting, and my money is now on it being some kind of agentic [cyberattack](https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack).
+
 
 [^1]: Of course _AI_ has been involved in many more deaths - from self-driving and industrial AI accidents, to the use of AI in military targeting and intelligence, to the direct use of AI in autonomous killer drones. But I'm talking here about _language models_.
 
