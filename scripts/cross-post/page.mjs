@@ -61,9 +61,12 @@ function measurePost(screenshotCount) {
       : Math.min(block.bottom + 24, document.documentElement.scrollHeight)
   })
 
+  // Start just above the first block of the post body, skipping the site
+  // header and title, with the same spacing the later cuts get between blocks.
   const height = window.innerHeight
   const regions = []
-  let start = 0
+  const firstGap = blocks.length > 1 ? blocks[1].top - blocks[0].bottom : 48
+  let start = Math.max(0, blocks[0].top - firstGap / 2)
   for (let i = 0; i < screenshotCount; i++) {
     const limit = start + height
     const fitting = boundaries.filter(
@@ -73,9 +76,7 @@ function measurePost(screenshotCount) {
     const visible = blocks.filter(
       block => block.top >= start - 1 && block.bottom <= end + 1
     )
-    const altText = [i === 0 ? clean(title) : "", ...visible.map(b => b.text)]
-      .filter(Boolean)
-      .join("\n\n")
+    const altText = visible.map(block => block.text).join("\n\n")
     regions.push({
       y: Math.round(start),
       height: Math.round(end - start),
