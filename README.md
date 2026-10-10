@@ -73,3 +73,51 @@ The updater's existing URL-list and stale-post rules still apply.
 
 You can also run `npm run update-popularity -- --files content/blog/slug/index.md`
 to update selected posts manually. Put `--files` and its paths last.
+
+## Cross-posting to X and LinkedIn
+
+`.github/workflows/cross-post.yml` runs on pushes to `master`. When a push adds a
+new `content/blog/<slug>/index.md`, it waits (up to 20 minutes) for the Netlify
+deploy to make the post live, then:
+
+- posts the first few sentences, the link, and two mobile screenshots of the
+  opening paragraphs to X
+- posts a longer excerpt with a link card to LinkedIn
+
+Edits to existing posts don't trigger it, and pushes that add more than three
+posts are skipped as bulk changes. The code lives in `scripts/cross-post`.
+
+To preview a post without posting, run `npm ci && npx playwright install chromium`
+in `scripts/cross-post`, then `npm run preview -- --slug <slug>`. The text and
+screenshots are written to `scripts/cross-post/out/<slug>/`. You can also run the
+workflow manually from the Actions tab. It defaults to a dry run, and the
+previews are uploaded as artifacts. Use the `platforms` input to retry one
+platform without posting twice to the other.
+
+### Setup
+
+X (pay-per-use, about $0.20 per post with a link):
+
+1. In the [X Developer Console](https://console.x.com), create an app, buy some
+   credits, and set its user authentication permissions to "Read and write".
+2. Generate the access token and secret *after* setting the permissions.
+3. Add repository secrets `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, and
+   `X_ACCESS_TOKEN_SECRET`.
+
+LinkedIn (free):
+
+1. Create an app at <https://www.linkedin.com/developers/apps> (LinkedIn
+   requires associating it with a company page). Add the "Share on LinkedIn"
+   and "Sign In with LinkedIn using OpenID Connect" products, and add
+   `http://localhost:8976/callback` as an authorized redirect URL.
+2. In `scripts/cross-post`, run
+   `LINKEDIN_CLIENT_ID=... LINKEDIN_CLIENT_SECRET=... npm run linkedin-auth -- --set-secrets`.
+   This stores `LINKEDIN_ACCESS_TOKEN` and `LINKEDIN_PERSON_URN` as secrets and
+   `LINKEDIN_TOKEN_EXPIRES_AT` as a variable using the `gh` CLI.
+3. Turn off Buttondown's LinkedIn auto-posting so posts aren't shared twice.
+
+LinkedIn tokens expire after 60 days and can't be refreshed automatically, so
+rerun step 2 when the workflow warns that the token is about to expire. A
+platform with missing secrets is skipped with a warning. LinkedIn retires each
+API version after about a year; if posting starts failing with a version error,
+bump `DEFAULT_LINKEDIN_API_VERSION` in `scripts/cross-post/linkedin.mjs`.

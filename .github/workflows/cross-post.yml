@@ -1,0 +1,96 @@
+name: Cross-post new blog posts
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "content/blog/**/index.md"
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Post slug, e.g. you-should-never-be-angry-at-work"
+        required: true
+      platforms:
+        description: "Comma-separated platforms to post to"
+        default: "x,linkedin"
+      dry_run:
+        description: "Dry run (capture screenshots and compose text without posting)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  cross-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: scripts/cross-post
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find new posts
+        id: detect
+        if: github.event_name == 'push'
+        working-directory: ${{ github.workspace }}
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$BEFORE" || true
+          if ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "Can't find the previous commit $BEFORE; not posting anything."
+            exit 0
+          fi
+          added=$(git diff --no-renames --name-only --diff-filter=A "$BEFORE" "$AFTER" -- content/blog \
+            | grep -E '^content/blog/[^/]+/index\.md$' || true)
+          echo "New posts: ${added:-none}"
+          [ -n "$added" ] && echo "found=true" >> "$GITHUB_OUTPUT" || true
+
+      - uses: actions/setup-node@v4
+        if: github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scripts/cross-post/package-lock.json
+
+      - name: Install dependencies
+        if: github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true'
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Cross-post
+        if: github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true'
+        env:
+          EVENT: ${{ github.event_name }}
+          RANGE: ${{ github.event.before }}..${{ github.sha }}
+          SLUG: ${{ inputs.slug }}
+          PLATFORMS: ${{ inputs.platforms || 'x,linkedin' }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          LINKEDIN_TOKEN_EXPIRES_AT: ${{ vars.LINKEDIN_TOKEN_EXPIRES_AT }}
+        run: |
+          args=(--platforms "$PLATFORMS")
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            args+=(--slug "$SLUG")
+            [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          else
+            args+=(--changed "$RANGE")
+          fi
+          node index.mjs "${args[@]}"
+
+      - name: Upload previews
+        if: always() && (github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true')
+        uses: actions/upload-artifact@v4
+        with:
+          name: cross-post-previews
+          path: scripts/cross-post/out/
+          if-no-files-found: ignore

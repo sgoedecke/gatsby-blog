@@ -1,0 +1,18 @@
+{
+  "name": "cross-post",
+  "private": true,
+  "type": "module",
+  "description": "Posts new blog posts to X and LinkedIn",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "cross-post": "node index.mjs",
+    "preview": "node index.mjs --dry-run",
+    "linkedin-auth": "node linkedin-auth.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright": "1.64.0"
+  }
+}
