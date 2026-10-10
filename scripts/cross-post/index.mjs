@@ -8,7 +8,7 @@ import { parseArgs } from "node:util"
 import { composeLinkedInCommentary, composeTweet } from "./compose.mjs"
 import { linkedInCredentialsFromEnv, postToLinkedIn } from "./linkedin.mjs"
 import { capturePost, waitForLive } from "./page.mjs"
-import { postTweet, xCredentialsFromEnv } from "./x.mjs"
+import { postThread, xCredentialsFromEnv } from "./x.mjs"
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(scriptDir, "../..")
@@ -87,12 +87,16 @@ async function crossPost(slug, options) {
   if (options.wait) await waitForLive(url)
 
   const post = await capturePost(url)
-  const tweet = composeTweet({ paragraphs: post.paragraphs, url })
+  const tweet = composeTweet({
+    paragraphs: post.paragraphs,
+    title: post.title,
+  })
   const commentary = composeLinkedInCommentary({ paragraphs: post.paragraphs })
 
   const outDir = path.join(options.out, slug)
   mkdirSync(outDir, { recursive: true })
   writeFileSync(path.join(outDir, "tweet.txt"), `${tweet}\n`)
+  writeFileSync(path.join(outDir, "tweet-reply.txt"), `${url}\n`)
   writeFileSync(path.join(outDir, "linkedin.txt"), `${commentary}\n`)
   post.screenshots.forEach(({ buffer, altText }, index) => {
     writeFileSync(path.join(outDir, `screenshot-${index + 1}.png`), buffer)
@@ -102,7 +106,7 @@ async function crossPost(slug, options) {
     )
   })
   console.log(
-    `Tweet:\n${tweet}\n\nLinkedIn:\n${commentary}\n\nPreviews in ${outDir}`
+    `Tweet:\n${tweet}\n\nReply:\n${url}\n\nLinkedIn:\n${commentary}\n\nPreviews in ${outDir}`
   )
 
   const quote = text =>
@@ -111,9 +115,9 @@ async function crossPost(slug, options) {
       .map(line => `> ${line}`)
       .join("\n")
   summarize(
-    `## ${post.title}\n\n**X:**\n\n${quote(tweet)}\n\n**LinkedIn:**\n\n${quote(
-      commentary
-    )}\n`
+    `## ${post.title}\n\n**X:**\n\n${quote(
+      tweet
+    )}\n\n**X reply:** ${url}\n\n**LinkedIn:**\n\n${quote(commentary)}\n`
   )
 
   if (options.dryRun) {
@@ -145,7 +149,11 @@ async function crossPost(slug, options) {
   }
 
   await publish("x", xCredentialsFromEnv(), credentials =>
-    postTweet(credentials, { text: tweet, images: post.screenshots })
+    postThread(credentials, {
+      text: tweet,
+      images: post.screenshots,
+      replyText: url,
+    })
   )
   await publish("linkedin", linkedInCredentialsFromEnv(), credentials =>
     postToLinkedIn(credentials, {

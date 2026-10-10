@@ -10,7 +10,7 @@ import {
   tweetLength,
 } from "./compose.mjs"
 import { buildLinkedInPost } from "./linkedin.mjs"
-import { oauthHeader, oauthSignature } from "./x.mjs"
+import { oauthHeader, oauthSignature, postThread } from "./x.mjs"
 
 test("splits sentences without breaking on abbreviations", () => {
   assert.deepEqual(
@@ -55,30 +55,23 @@ test("truncates an over-long first sentence at a word boundary", () => {
   assert.equal(excerpt, "This first sentence…")
 })
 
-test("composes a tweet that fits in 280 weighted characters", () => {
-  const sentence =
-    "This is a sentence that is exactly sixty characters long ok."
-  const url =
-    "https://www.seangoedecke.com/a-very-long-slug-that-is-much-longer-than-twenty-three/"
+test("composes a link-free tweet that fits in 280 weighted characters", () => {
+  const sentence = `Start ${"word ".repeat(18)}ends here.`
   const tweet = composeTweet({
-    paragraphs: [
-      `${sentence} ${sentence}`,
-      `${sentence} ${sentence} ${sentence}`,
-    ],
-    url,
+    paragraphs: [`${sentence} ${sentence} ${sentence}`],
+    title: "Title",
   })
-  assert.ok(tweet.endsWith(`\n\n${url}`))
-  const counted = tweetLength(tweet.replace(url, "x".repeat(23)))
-  assert.ok(counted <= 280, `tweet is ${counted} characters`)
-  assert.equal(
-    tweet,
-    `${sentence} ${sentence}\n\n${sentence} ${sentence}\n\n${url}`
-  )
+  assert.equal(tweet, `${sentence} ${sentence}`)
+  assert.ok(tweetLength(tweet) <= 280)
+})
+
+test("falls back to the title when there are no paragraphs", () => {
+  assert.equal(composeTweet({ paragraphs: [], title: "Title" }), "Title")
 })
 
 test("limits the tweet to four sentences", () => {
-  const tweet = composeTweet({ paragraphs: ["A. B. C. D. E. F."], url: "u" })
-  assert.equal(tweet, "A. B. C. D.\n\nu")
+  const tweet = composeTweet({ paragraphs: ["A. B. C. D. E. F."], title: "T" })
+  assert.equal(tweet, "A. B. C. D.")
 })
 
 test("composes a longer LinkedIn excerpt", () => {
@@ -147,4 +140,76 @@ test("builds an OAuth header that includes query parameters in the signature", (
   assert.match(header, /^OAuth oauth_consumer_key="xvz1evFS4wEEPTGEFPHBog", /)
   assert.match(header, /oauth_signature="[^"]+"/)
   assert.doesNotMatch(header, /include_entities/)
+})
+
+const credentials = {
+  apiKey: "key",
+  apiSecret: "secret",
+  accessToken: "token",
+  accessTokenSecret: "token-secret",
+}
+
+function stubFetch(t, respond) {
+  const calls = []
+  const original = globalThis.fetch
+  globalThis.fetch = async (url, init) => {
+    const call = { path: new URL(url).pathname, body: JSON.parse(init.body) }
+    calls.push(call)
+    const [status, json] = respond(call, calls.length)
+    return new Response(JSON.stringify(json), { status })
+  }
+  t.after(() => {
+    globalThis.fetch = original
+  })
+  return calls
+}
+
+test("posts the teaser with images, then replies with the link", async t => {
+  let nextId = 100
+  const calls = stubFetch(t, () => [200, { data: { id: String(nextId++) } }])
+
+  const link = await postThread(credentials, {
+    text: "Teaser",
+    images: [
+      { buffer: Buffer.from("one"), altText: "First" },
+      { buffer: Buffer.from("two"), altText: "Second" },
+    ],
+    replyText: "https://example.com/post/",
+  })
+
+  assert.deepEqual(
+    calls.map(call => call.path),
+    [
+      "/2/media/upload",
+      "/2/media/metadata",
+      "/2/media/upload",
+      "/2/media/metadata",
+      "/2/tweets",
+      "/2/tweets",
+    ]
+  )
+  assert.equal(calls[0].body.media, Buffer.from("one").toString("base64"))
+  assert.deepEqual(calls[1].body, {
+    id: "100",
+    metadata: { alt_text: { text: "First" } },
+  })
+  assert.deepEqual(calls[4].body, {
+    text: "Teaser",
+    media: { media_ids: ["100", "102"] },
+  })
+  assert.deepEqual(calls[5].body, {
+    text: "https://example.com/post/",
+    reply: { in_reply_to_tweet_id: "104" },
+  })
+  assert.equal(link, "https://x.com/i/status/104")
+})
+
+test("reports the teaser URL when the link reply fails", async t => {
+  stubFetch(t, (call, count) =>
+    count === 2 ? [403, { title: "Forbidden" }] : [200, { data: { id: "7" } }]
+  )
+  await assert.rejects(
+    postThread(credentials, { text: "Teaser", images: [], replyText: "u" }),
+    /Posted the teaser \(https:\/\/x\.com\/i\/status\/7\) but the link reply failed/
+  )
 })

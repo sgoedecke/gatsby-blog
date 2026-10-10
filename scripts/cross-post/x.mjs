@@ -117,13 +117,32 @@ async function uploadImage(credentials, { buffer, altText }) {
   return mediaId
 }
 
-export async function postTweet(credentials, { text, images }) {
+const tweetUrl = id => `https://x.com/i/status/${id}`
+
+// Posts the teaser with its images, then replies to it with the link.
+export async function postThread(credentials, { text, images, replyText }) {
   const mediaIds = []
   for (const image of images) {
     mediaIds.push(await uploadImage(credentials, image))
   }
   const body = { text }
   if (mediaIds.length) body.media = { media_ids: mediaIds }
-  const result = await request(credentials, "/2/tweets", body)
-  return `https://x.com/i/status/${result.data.id}`
+  const teaser = await request(credentials, "/2/tweets", body)
+  const teaserId = teaser.data.id
+
+  try {
+    await request(credentials, "/2/tweets", {
+      text: replyText,
+      reply: { in_reply_to_tweet_id: teaserId },
+    })
+  } catch (error) {
+    throw new Error(
+      `Posted the teaser (${tweetUrl(
+        teaserId
+      )}) but the link reply failed, so reply to it by hand rather than rerunning. ${
+        error.message
+      }`
+    )
+  }
+  return tweetUrl(teaserId)
 }

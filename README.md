@@ -80,8 +80,8 @@ to update selected posts manually. Put `--files` and its paths last.
 new `content/blog/<slug>/index.md`, it waits (up to 20 minutes) for the Netlify
 deploy to make the post live, then:
 
-- posts the first few sentences, the link, and two mobile screenshots of the
-  opening paragraphs to X
+- posts the first few sentences and two mobile screenshots of the opening
+  paragraphs to X, then replies to that post with the link
 - posts a longer excerpt with a link card to LinkedIn
 
 Edits to existing posts don't trigger it, and pushes that add more than three
@@ -92,11 +92,13 @@ in `scripts/cross-post`, then `npm run preview -- --slug <slug>`. The text and
 screenshots are written to `scripts/cross-post/out/<slug>/`. You can also run the
 workflow manually from the Actions tab. It defaults to a dry run, and the
 previews are uploaded as artifacts. Use the `platforms` input to retry one
-platform without posting twice to the other.
+platform without posting twice to the other. If the X teaser posts but the
+link reply fails, the error includes the teaser's URL so you can reply by hand.
 
 ### Setup
 
-X (pay-per-use, about $0.20 per post with a link):
+X (pay-per-use, about $0.22 per blog post: $0.015 for the teaser and $0.20
+for the reply, because it contains a link):
 
 1. In the [X Developer Console](https://console.x.com), create an app, buy some
    credits, and set its user authentication permissions to "Read and write".

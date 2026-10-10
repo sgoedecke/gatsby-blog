@@ -1,6 +1,4 @@
 export const TWEET_LIMIT = 280
-// X shortens every link to a t.co URL that counts as 23 characters.
-export const TWEET_URL_LENGTH = 23
 export const LINKEDIN_EXCERPT_LIMIT = 700
 
 const ABBREVIATIONS = new Set([
@@ -103,14 +101,15 @@ export function buildExcerpt(paragraphs, fits, { maxSentences = 4 } = {}) {
   return excerpt
 }
 
-export function composeTweet({ paragraphs, url }) {
-  const budget = TWEET_LIMIT - TWEET_URL_LENGTH - 2
+// The teaser tweet has no link (the link goes in a reply), so the excerpt can
+// use the full character limit.
+export function composeTweet({ paragraphs, title }) {
   const excerpt = buildExcerpt(
     paragraphs,
-    text => tweetLength(text) <= budget,
+    text => tweetLength(text) <= TWEET_LIMIT,
     { maxSentences: 4 }
   )
-  return excerpt ? `${excerpt}\n\n${url}` : url
+  return excerpt || title
 }
 
 // LinkedIn's Posts API parses commentary as "little text", where these
