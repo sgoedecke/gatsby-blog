@@ -3,6 +3,21 @@ title: Engineers do get promoted for writing simple code
 description:
 order: 182
 date: '2026-03-26'
+popularity:
+  lobsters:
+    urls:
+      - 'https://lobste.rs/s/6w8rqm'
+    points: 12
+    comments: 8
+    threads: 1
+  score: 76
+  hackerNews:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies", "good engineers"]
 ---
 
@@ -36,6 +51,8 @@ It's often a smart political tactic to make your work sound slightly more compli
 
 
 edit: For a similar take (also a response to the "nobody gets promoted for simplicity" line), [this](https://www.natemeyvis.com/a-model-of-how-simplicity-gets-rewarded/) blog post by Nate Meyvis is quite good.
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/6w8rqm).
 
 [^1]: This can be a surprisingly effective strategy, because of the tempting circular logic here: if an engineer has been given the hardest problems, it's probably because they're a hotshot, which means you can trust their assessment of how difficult their problems are, which means...
 

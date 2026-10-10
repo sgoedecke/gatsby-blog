@@ -20,7 +20,9 @@ popularity:
     points: 0
     comments: 0
     threads: 0
-    urls: []
+    urls:
+      - >-
+        https://www.reddit.com/r/theprimeagen/comments/1jco5xp/the_good_times_in_tech_are_over/
   manual: 0
 date: '2025-03-16'
 tags: ["tech companies", "zirp"]
@@ -63,6 +65,8 @@ If I had to choose, I'd definitely choose to return to the job market of the 201
 It's not much of a mission statement! Certainly nothing on ["making the world a better place"](https://www.youtube.com/watch?v=B8C5sjjhsso&ab_channel=BrianJ.Hall). But it has the comforting solidity of the truth. The good thing about the music finally stopping is that you don't have to worry about when it's going to stop.
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43378321) with lots of comments.
+
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/theprimeagen/comments/1jco5xp/the_good_times_in_tech_are_over/).
 
 [^1]: I wrote this post because I had a conversation with some engineer friends who were commenting on the vibe shift, and then the next morning read Will Larson's [advice](https://lethain.com/career-advice-2025/) to engineering leaders.
 

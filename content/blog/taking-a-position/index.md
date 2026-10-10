@@ -5,7 +5,7 @@ order: 42
 date: '2025-02-10'
 popular: true
 popularity:
-  score: 290
+  score: 347
   hackerNews:
     points: 53
     comments: 59
@@ -13,10 +13,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=43678914'
   lobsters:
-    points: 0
-    comments: 0
-    threads: 0
-    urls: []
+    points: 9
+    comments: 6
+    threads: 1
+    urls:
+      - 'https://lobste.rs/s/zaubhd'
   reddit:
     points: 254
     comments: 113
@@ -65,6 +66,8 @@ I want to finish by repeating a caveat of my own. I'm saying you should force yo
 - It can be genuinely scary to make a claim that you're not sure about. But you should still do it
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43678914) and [Reddit](https://www.reddit.com/r/programming/comments/1jyxu3p/engineers_who_wont_commit/) with lots of comments.
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/zaubhd).
 
 [^1]: This is a bit ironic, given that I've written [before](/confidence) about not taking firm stances on big-picture questions. The difference is whether you're doing it in the workplace or not. Outside of the workplace, I don't really know whether typed languages are better than untyped ones. In the workplace, I'll advocate for Typescript, because I'm ~60% sure it's net-positive.
 

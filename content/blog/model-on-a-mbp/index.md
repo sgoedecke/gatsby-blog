@@ -22,7 +22,9 @@ popularity:
     points: 0
     comments: 0
     threads: 0
-    urls: []
+    urls:
+      - >-
+        https://www.reddit.com/r/LLMDevs/comments/1mqh5vm/whats_the_strongest_ai_model_you_can_train_on_a/
   manual: 0
 ---
 
@@ -109,6 +111,8 @@ It was a lot of fun doing this. I learned a lot about training very small models
 I don't think this challenge is particularly useful for training strong models in general. Most of the interesting behaviour happens after the first five minutes of training. But I was still pleasantly surprised at how easily I was able to train a broadly-coherent storytelling model. As architectures (and laptop GPUs) improve, I wonder what kind of models we will eventually be able to train in five minutes.
 
 edit: this post got some attention on [Hacker News](https://news.ycombinator.com/item?id=44875848). One commenter linked this [interesting paper](https://arxiv.org/abs/2212.14034), which is a one-day version of this challenge.
+
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/LLMDevs/comments/1mqh5vm/whats_the_strongest_ai_model_you_can_train_on_a/).
 
 [^1]: 2024 MacBook Pro, Apple M4, 24 GB of memory.
 

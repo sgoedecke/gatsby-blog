@@ -5,7 +5,7 @@ order: 100
 date: '2025-06-21'
 popular: true
 popularity:
-  score: 1737
+  score: 1888
   hackerNews:
     points: 957
     comments: 390
@@ -13,10 +13,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=44921137'
   lobsters:
-    points: 0
-    comments: 0
-    threads: 0
-    urls: []
+    points: 32
+    comments: 11
+    threads: 1
+    urls:
+      - 'https://lobste.rs/s/b3ia56'
   reddit:
     points: 0
     comments: 0
@@ -137,6 +138,7 @@ edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item
 
 edit: I also discussed it on the Exponent podcast, which you can watch [here](https://youtu.be/R5TAZe4ye8U).
 
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/b3ia56).
 
 [^1]: You're supposed to store timestamps instead, and treat the presence of a timestamp as `true`. I do this sometimes but not always - in my view there's some value in keeping a database schema immediately-readable.
 

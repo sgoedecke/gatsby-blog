@@ -21,7 +21,9 @@ popularity:
     points: 0
     comments: 0
     threads: 0
-    urls: []
+    urls:
+      - >-
+        https://www.reddit.com/r/programmingcirclejerk/comments/1hnazxo/the_strongest_engineers_are_stronger_than_people/
   manual: 0
 tags: ["good engineers", "tech companies"]
 ---
@@ -60,7 +62,7 @@ I have very little to say about this group, except to warn against confusing it 
 
 ### Weak engineers
 
-The other category is truly weak engineers. These people have little to no capabilities at all. In other worse, the baseline difficulty of a normal-to-easy software task is above what they're comfortable with. I suppose a few of these people are overemployed or fraudulent in some similar way, but I think mostly it's a lack of ability. I want to be clear that I'm not exaggerating here: weak engineers _cannot complete almost any engineering task_. I've worked on teams without any, but if you're in the industry long enough you'll encounter them[^2].
+The other category is truly weak engineers. These people have little to no capabilities at all. In other worse, the baseline difficulty of a normal-to-easy software task is above what they're comfortable with. I suppose a few of these people are overemployed or fraudulent in some similar way, but I think mostly it's a lack of ability. I want to be clear that I'm not exaggerating here: weak engineers _cannot complete almost any engineering task_. I've worked on teams without any, but if you're in the industry long enough you'll encounter them[^1].
 
 Ironically, while people like this exist at almost all seniority levels, you're more likely to encounter weak engineers in senior roles. I think this is probably for two reasons. First, the bar to hire juniors is explicitly capability-based, so it's harder to slip past it. In interviews, seniors can talk about work they were tangentially involved with, which is hard to distinguish from work they _did_. Second, a weak junior is often given more opportunity to learn, because it's socially acceptable for them to not know things. A weak senior has to conceal their lack of knowledge and learn in secret, which is much harder.
 
@@ -86,8 +88,10 @@ Engineering talent isn't extra speed or output, it's the capability to do tasks 
 
 Most engineers can do a broad set of normal job tasks, but some can do really hard ones and some can barely do any. You should probably try to expand the set of tasks you're comfortable doing. If you're working with a weak engineer, be nice but protect your time.
 
-edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42520482) with lots of comments. 
+edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42520482) with lots of comments.
 
-[^1]: All of this is in the context of large tech companies working on websites. I have no idea if this applies to other domains.
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/1hnazxo/the_strongest_engineers_are_stronger_than_people/).
 
-[^2]: Of course, #{current_employer} is lucky enough to have no weak engineers.
+[^1]: Of course, #{current_employer} is lucky enough to have no weak engineers.
+
+[^2]: All of this is in the context of large tech companies working on websites. I have no idea if this applies to other domains.

@@ -18,6 +18,10 @@ popularity:
     threads: 0
     urls: []
   manual: 0
+  reddit:
+    urls:
+      - >-
+        https://www.reddit.com/r/programmingcirclejerk/comments/1ves77i/in_the_2010s_if_you_had_technical_gaps_say_you/
 tags: ["ai"]
 ---
 
@@ -48,3 +52,5 @@ The usefulness of domain knowledge suggests that human expertise will continue t
 
 
 edit: this post got many [comments](https://news.ycombinator.com/item?id=49161518) on Hacker News. Some [commenters](https://news.ycombinator.com/item?id=49163331) [share](https://news.ycombinator.com/item?id=49161777) [their](https://news.ycombinator.com/item?id=49162234) anecdotes about how expertise has helped and lack of expertise has hurt. [Other](https://news.ycombinator.com/item?id=49162433) commenters say it's plausible, but they have a sensible suspicion of a view that's reassuring them about how they're still valuable. I agree with that, though I suspect by the time we get around to studying this, the landscape will have changed under our feet again. Some [commenters](https://news.ycombinator.com/item?id=49161669) point out that OpenAI's math prompts were inexpert, and so expertise isn't required. Here I'd respond that OpenAI do have a team of expert mathematicians that checked and filtered the model's suggested discoveries, and that you cannot currently skip that step.
+
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/1ves77i/in_the_2010s_if_you_had_technical_gaps_say_you/).

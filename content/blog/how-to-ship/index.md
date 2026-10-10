@@ -4,7 +4,7 @@ description: What I think about when I'm lead engineer on a project
 order: 16
 popular: true
 popularity:
-  score: 2187
+  score: 2258
   hackerNews:
     points: 1425
     comments: 381
@@ -12,10 +12,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=42111031'
   lobsters:
-    points: 0
-    comments: 0
-    threads: 0
-    urls: []
+    points: 12
+    comments: 7
+    threads: 1
+    urls:
+      - 'https://lobste.rs/s/wgnr9r'
   reddit:
     points: 0
     comments: 0
@@ -94,3 +95,5 @@ I think a lot of engineers hold off on deploys essentially out of fear. If you w
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=42111031) with lots of comments.
 
 edit: I did an [interview](https://writingclub.world/writing-about-writing/sean-goedecke) with Writing About Writing about this post, if you're curious about the process.
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/wgnr9r).

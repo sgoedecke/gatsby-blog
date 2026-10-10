@@ -17,6 +17,11 @@ popularity:
     threads: 0
     urls: []
   manual: 0
+  reddit:
+    urls:
+      - 'https://www.reddit.com/r/agile/comments/1vx6wdk/doing_nothing_at_work/'
+      - >-
+        https://www.reddit.com/r/SoftwareEngineering/comments/1vvg6gy/doing_nothing_at_work/
 date: '2026-06-08'
 tags: ["tech companies"]
 ---
@@ -77,6 +82,7 @@ In my experience, it's still possible to be a "high performing engineer" at 80% 
 
 This doesn't mean you should never grind at 100% effort. I think there are probably two or three times a year where I work as hard as I possibly can: long hours, intense focus, thinking about the problem from when I wake up to when I go to bed. But I reserve this mode of work for [when the rewards are really high](/the-spotlight). For the rest of the year, I take it relatively easy.
 
+edit: this post got some comments on Reddit ([here](https://www.reddit.com/r/agile/comments/1vx6wdk/doing_nothing_at_work/) and [here](https://www.reddit.com/r/SoftwareEngineering/comments/1vvg6gy/doing_nothing_at_work/)).
 
 [^1]: One of my big influences is Rich Hickey's talk [_Hammock Driven Development_](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev.md). This is _kind of_ like what he's talking about, except (a) Hickey is more talking about what it takes to design solutions to really hard problems, rather than what it takes to be a strong engineer in an ordinary tech company, and so (b) Hickey recommends using your time-away-from-the-computer to focus on a hard problem, instead of to simply decompress and let solutions congeal in your head. It's also like Zvi Mowshowitz's post on ["slack"](https://thezvi.substack.com/p/slack).
 

@@ -21,7 +21,9 @@ popularity:
     points: 0
     comments: 0
     threads: 0
-    urls: []
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1jtr3kp/knowing_where_your_engineer_salary_comes_from/
   manual: 0
 tags: ["tech companies", "zirp"]
 ---
@@ -95,5 +97,7 @@ I don't think that a smart engineer who thinks about this problem will come away
 - If you want to work on seemingly-unprofitable work, you're probably better off working for large successful tech companies
 
 **Update:** This post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43603646) with many comments. Some experienced engineers in the comments [claim](https://news.ycombinator.com/item?id=43611609) that companies set their values in more mysterious ways than "what makes us money". I'm sure this is true, but in my own experience it's less true now than at any time during the 2010s.
+
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/programming/comments/1jtr3kp/knowing_where_your_engineer_salary_comes_from/).
 
 [^1]: Often there are other goals involved, such as amassing political power or changing the world in some way that's personally satisfying to the founder, but money is the only goal shared by everyone involved.

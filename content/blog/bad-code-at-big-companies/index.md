@@ -25,6 +25,12 @@ popularity:
     urls:
       - >-
         https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/
+      - >-
+        https://www.reddit.com/r/coding/comments/1tbvnvn/how_good_engineers_write_bad_code_at_big_companies/
+      - >-
+        https://www.reddit.com/r/SoftwareEngineering/comments/1ssqi65/how_good_engineers_write_bad_code_at_big_companies/
+      - >-
+        https://www.reddit.com/r/agile/comments/1spjowz/how_good_engineers_write_bad_code_at_big_companies/
   manual: 0
 tags: ["good engineers", "tech companies"]
 ---
@@ -87,6 +93,8 @@ A few readers [disagreed with me](https://lobste.rs/c/gq4ao9) about RSUs providi
 edit: This post also got many comments [on Reddit](https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/). [Some](https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/ohsw6fr/) [commenters](https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/oht00ac/) blame the codebase, but that seems backwards to me. Of course it's hard to write good code in a bad codebase, but that doesn't explain the question of how the codebase becomes bad in the first place. [Others](https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/ohspetl/) think the explanation is "people are stupid", which may be true but is also a pretty bad explanation for this phenomenon. Ironically I agree with [this comment](https://old.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/ohsrjxf/) the most, despite it being a (pretty entertaining) personal attack.
 
 edit: Nate Meyvis wrote a thoughtful response to this post [here](https://www.natemeyvis.com/why-is-there-so-much-bad-code-at-big-companies/). I agree with all of his points (see my post [_Wicked Features_](https://www.seangoedecke.com/wicked-features/)) but I think my theory is still slightly upstream of his: Nate explains why writing good code is so hard, and I explain why companies don't invest enough effort to do it right.
+
+edit: this post got some comments on Reddit ([here](https://www.reddit.com/r/coding/comments/1tbvnvn/how_good_engineers_write_bad_code_at_big_companies/), [here](https://www.reddit.com/r/SoftwareEngineering/comments/1ssqi65/how_good_engineers_write_bad_code_at_big_companies/), and [here](https://www.reddit.com/r/agile/comments/1spjowz/how_good_engineers_write_bad_code_at_big_companies/)).
 
 [^1]: I struggled to find a good original source on this. There's a 2013 PayScale [report](https://www.payscale.com/data-packages/employee-loyalty/least-loyal-employees) citing a 1.1 year median turnover at Google, which seems low.
 

@@ -26,6 +26,8 @@ popularity:
         https://www.reddit.com/r/LeftistsForAI/comments/1ta2ps9/the_leftwing_case_for_ai/
       - >-
         https://www.reddit.com/r/aiwars/comments/1ta2swl/the_leftwing_case_for_ai/
+      - >-
+        https://www.reddit.com/r/ProletariatPixels/comments/1ta94g8/the_leftwing_case_for_ai/
 tags: ["ai", "ethics", "politics"]
 ---
 
@@ -102,6 +104,7 @@ Of these, I think the disability and bias arguments are the most persuasive (tho
 
 edit: this post got some [comments](https://www.reddit.com/r/accelerate/comments/1ta68x5/the_leftwing_case_for_ai/) [on](https://www.reddit.com/r/LeftistsForAI/comments/1ta2ps9/the_leftwing_case_for_ai/) [Reddit](https://www.reddit.com/r/aiwars/comments/1ta2swl/the_leftwing_case_for_ai/), and was also discussed on [Hacker News](https://news.ycombinator.com/item?id=48083264). I've also gotten some very interesting email from readers, who have pointed me towards sources like [this](https://www.theguardian.com/technology/2026/apr/07/the-life-changing-magic-of-wearing-smartglasses) and [this](https://www.youtube.com/watch?v=J4iQQtqenuI) for more high-profile examples of AI being used as a disability aid.
 
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/ProletariatPixels/comments/1ta94g8/the_leftwing_case_for_ai/).
 
 [^1]: I'm deliberately using "right-wing" and "left-wing" very loosely here to describe very broad ideological tents, because I'm interested in the broad currents of public opinion.
 

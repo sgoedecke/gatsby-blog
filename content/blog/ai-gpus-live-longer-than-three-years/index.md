@@ -3,6 +3,11 @@ title: AI GPUs probably live longer than three years
 description: 
 order: 205
 date: '2026-06-15'
+popularity:
+  reddit:
+    urls:
+      - >-
+        https://www.reddit.com/r/BetterOffline/comments/1u65z87/gpus_might_be_profitable_for_more_than_three_years/
 tags: ["ai", "bubble"]
 ---
 
@@ -46,6 +51,7 @@ Like the idea that AI inference [requires using huge amounts of water](/water-im
 
 It might be true that the _economic_ lifespan is three years, in a world where new GPUs come out every eighteen months and GPU providers are flush with cash to upgrade, but that doesn't tell us much about the economics of inference in an AI winter. If money becomes a lot more scarce, it's likely that AI datacenters will continue profitably[^4] running their B300s (or their H100s or even A100s) for six years or longer.
 
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/BetterOffline/comments/1u65z87/gpus_might_be_profitable_for_more_than_three_years/).
 
 [^1]: Of course, like previous claims about AI and water usage, "three years at the most" is often cited as ["1-2 years, with some lasting up to 3 years under optimal conditions"](https://ithy.com/article/data-center-gpu-lifespan-explained-7mpjwwyp).
 

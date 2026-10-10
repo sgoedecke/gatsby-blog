@@ -18,6 +18,10 @@ popularity:
     threads: 0
     urls: []
   manual: 0
+  reddit:
+    urls:
+      - >-
+        https://www.reddit.com/r/agile/comments/1wswdbz/what_does_playing_politics_mean_for_software/
 tags: ["tech companies", "good engineers"]
 ---
 
@@ -116,6 +120,7 @@ Playing politics isn't about plotting and scheming, and it isn't just about bein
 
 edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=48905390). I always enjoy seeing "this is too obvious to need a guide" [replies](https://news.ycombinator.com/item?id=48905622) right next to "yeah, I screwed this up, wish I'd been told this sooner" [replies](https://news.ycombinator.com/item?id=48905675). That's what I get for [saying the obvious thing](/saying-the-obvious-thing/).
 
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/agile/comments/1wswdbz/what_does_playing_politics_mean_for_software/).
 
 [^1]: Obviously the exact titles depend on your company. One person I'm deliberately leaving out is your own manager. In general don't think your relationship with your own manager counts as "playing politics": that's just you getting along with another human being. An exception to that is if you report directly to a powerful director or VP.
 

@@ -3,6 +3,13 @@ title: Big tech engineers need big egos
 description:
 order: 181
 date: '2026-03-14'
+popularity:
+  reddit:
+    urls:
+      - >-
+        https://www.reddit.com/r/webdev/comments/1u5uhf4/big_tech_engineers_need_big_egos/
+      - >-
+        https://www.reddit.com/r/SoftwareEngineering/comments/1u9ozo7/big_tech_engineers_need_big_egos/
 tags: ["tech companies", "good engineers"]
 ---
 
@@ -58,7 +65,7 @@ This is particularly true when it comes to working in a large software company. 
 
 Engineers who are low-ego in general can't get stuff done, while engineers who are high-ego in general get slapped down by the executives who wield real organizational power. The most successful kind of software engineer is therefore a chameleon: low-ego when dealing with executives, but high-ego when dealing with the rest of the organization[^5].
 
-
+edit: this post got some comments on Reddit ([here](https://www.reddit.com/r/webdev/comments/1u5uhf4/big_tech_engineers_need_big_egos/) and [here](https://www.reddit.com/r/SoftwareEngineering/comments/1u9ozo7/big_tech_engineers_need_big_egos/)).
 
 [^1]: What do I mean by "ego", in this context? More or less the colloquial sense of the term: a somewhat irrational self-confidence, a tendency to believe that you're very important, the sense that you're the "main character", that sort of thing
 

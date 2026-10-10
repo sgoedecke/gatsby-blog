@@ -5,7 +5,7 @@ order: 134
 date: '2025-08-28'
 popular: true
 popularity:
-  score: 1885
+  score: 1997
   hackerNews:
     points: 1111
     comments: 387
@@ -13,15 +13,18 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=45068091'
   lobsters:
-    points: 0
-    comments: 0
-    threads: 0
-    urls: []
+    points: 24
+    comments: 8
+    threads: 1
+    urls:
+      - 'https://lobste.rs/s/jx7r3c'
   reddit:
     points: 0
     comments: 0
     threads: 0
-    urls: []
+    urls:
+      - >-
+        https://www.reddit.com/r/programming/comments/1n3jn5l/do_the_simplest_thing_that_could_possibly_work/
   manual: 0
 tags: ["software design", "shipping"]
 ---
@@ -95,6 +98,9 @@ One interesting comment [thread](https://news.ycombinator.com/item?id=45069135) 
 
 I also want to credit Ward Cunningham and Kent Beck for inventing the [expression](https://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork) - I genuinely thought I'd just come up with the wording myself, but I almost certainly just remembered it. Oops! Thanks to the HN user [ternaryoperator](https://news.ycombinator.com/item?id=45069018) for pointing this out.
 
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/jx7r3c).
+
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/programming/comments/1n3jn5l/do_the_simplest_thing_that_could_possibly_work/).
 
 [^1]: It's just Unix sockets and forked processes! I _love_ Unicorn.
 

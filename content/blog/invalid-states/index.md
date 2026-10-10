@@ -5,7 +5,7 @@ order: 137
 date: '2025-09-08'
 popular: true
 popularity:
-  score: 896
+  score: 899
   hackerNews:
     points: 68
     comments: 81
@@ -13,7 +13,7 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=45164444'
   lobsters:
-    points: 57
+    points: 58
     comments: 99
     threads: 1
     urls:
@@ -22,7 +22,9 @@ popularity:
     points: 0
     comments: 0
     threads: 0
-    urls: []
+    urls:
+      - >-
+        https://www.reddit.com/r/softwarearchitecture/comments/1nbihd1/make_invalid_states_unrepresentable_considered/
   manual: 0
 tags: ["software design"]
 ---
@@ -101,6 +103,8 @@ edit: apologies to my email subscribers, the version of this that went out over 
 edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=45164444). I was surprised to see some commenters don't think that your database schema or your over-the-wire serialization format are a part of how you express your domain model. To me, those things are every bit as relevant as the rest of your code. I like the Fred Brooks quote from _Mythical Man Month_: "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious."
 
 edit: this post also got some excellent coments on [lobste.rs](https://lobste.rs/s/itj50a/make_invalid_states_unrepresentable).
+
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/softwarearchitecture/comments/1nbihd1/make_invalid_states_unrepresentable_considered/).
 
 [^1]: The other solution some engineers seem to like - refusing to do the task, on the grounds that it'd compromise the software design - is a non-starter, in my opinion. As engineers, it's our job to support the needs of the business.
 

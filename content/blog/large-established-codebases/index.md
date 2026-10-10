@@ -4,7 +4,7 @@ description: What I've learned from ten years working on projects like this
 order: 23
 popular: true
 popularity:
-  score: 1547
+  score: 1657
   hackerNews:
     points: 811
     comments: 368
@@ -12,10 +12,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=42627227'
   lobsters:
-    points: 0
-    comments: 0
-    threads: 0
-    urls: []
+    points: 25
+    comments: 7
+    threads: 1
+    urls:
+      - 'https://lobste.rs/s/yklx7y'
   reddit:
     points: 0
     comments: 0
@@ -86,3 +87,5 @@ The other reason is that **you cannot split up a large established codebase with
 - Make it as easy as possible for domain experts to catch your mistakes
 
 **Update:** this post was discussed [on Hacker News](https://news.ycombinator.com/item?id=42627227), if you'd like to read comments.
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/yklx7y).
