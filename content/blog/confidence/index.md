@@ -3,6 +3,21 @@ title: I don't know how to build software and you don't either
 description: Overconfidence about the big questions in software engineering
 order: 17
 date: '2024-11-20'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=42286416'
+    points: 32
+    comments: 53
+    threads: 1
+  score: 138
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["good engineers"]
 ---
 
@@ -40,3 +55,5 @@ From my conversations with other software engineers, I think basically everyone 
 ## What can we know?
 
 I do want to acknowledge that (particularly if you're more senior) engineers _should_ have opinions about the big questions. We're quite literally paid to choose typed or untyped languages, to develop a strategy about how to handle a monolith codebase, and so on. If you don't have some kind of position on these questions, you're not doing your job. But I think it's really important to temper that with the knowledge that you definitely could be wrong, and to try to take a nuanced view instead of being a hard-line OOP purist (for instance).
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=42286416).

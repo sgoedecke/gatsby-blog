@@ -3,6 +3,22 @@ title: The future of AI is Ruby on Rails
 description:
 order: 58
 date: '2025-03-20'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=43443974'
+      - 'https://news.ycombinator.com/item?id=43422994'
+    points: 65
+    comments: 43
+    threads: 2
+  score: 151
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai"]
 ---
 
@@ -23,5 +39,7 @@ That's Ruby! The entire point of the language is that you should be able to expr
 Should we be doing all our vibe coding in Ruby on Rails? Maybe not yet. I do think using a typed language is a [good idea](https://ezyang.github.io/ai-blindspots/use-static-types/), so that one of the big gaps of LLMs - their inability to test their own code like a human would - can be covered by the typechecker. There's also a good argument for sticking with Javascript and Python, because of their outsized presence in the LLM training data.
 
 Still, it's an intriguing thought. Ruby is the most "human" language I know: written for humans, with interesting human foibles, reads like human language, and so on. It would be pretty ironic if it also turned out to be the language of the robots.
+
+edit: this post got some comments on Hacker News ([here](https://news.ycombinator.com/item?id=43443974) and [here](https://news.ycombinator.com/item?id=43422994)).
 
 [^1]: It might take up less _attention_, though.

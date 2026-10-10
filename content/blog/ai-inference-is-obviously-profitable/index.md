@@ -3,6 +3,21 @@ title: AI inference is obviously profitable
 description: 
 order: 206
 date: '2026-06-26'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=48780033'
+    points: 11
+    comments: 11
+    threads: 1
+  score: 33
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai", "bubble"]
 ---
 
@@ -36,6 +51,7 @@ Why won't OpenAI or Anthropic lower their prices? Supposedly OpenAI has [thought
 
 However, inference only has to subsidize training costs **for an AI lab**. If you're merely an inference provider, you don't have to do any training at all. Therefore, even if OpenAI and Anthropic go out of business, whoever snaps up the rights to their frontier models will be able to continue selling Opus and GPT inference at a profit[^5]. The AI bubble popping will not mean the end of the inference business, because **AI inference is obviously profitable**.
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=48780033).
 
 [^1]: Expensive frontier models are probably mixture-of-experts, not dense, which is tougher to estimate. However, I think a 70B dense model and a MoE with 70B active params will come out to basically the same numbers at scale (though the MoE will require more GPU memory and thus a greater upfront cost). Are frontier models around 70B params? Nobody outside the AI labs really knows, but my guess is that 70B is probably larger than a Haiku/mini class model.
 

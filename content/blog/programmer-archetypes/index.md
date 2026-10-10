@@ -3,6 +3,21 @@ title: Grifters, believers, grinders, and coasters
 description: Four archetypes in software engineering
 order: 18
 date: '2024-12-02'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=42319997'
+    points: 232
+    comments: 118
+    threads: 1
+  score: 468
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies"]
 ---
 
@@ -47,5 +62,6 @@ The strengths of a grinder are obvious: they do a lot of work. The weaknesses ar
 * If you're a grinder, you need to figure out how to work with coasters, because you're likely to become one at some point if you want to stay in the industry (or at minimum many of your peers will).
 * If you're a coaster, you should try and be understanding about grinders running around stressing everyone out. You're only able to coast because someone is willing to occasionally grind.
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=42319997).
 
 [^1]: If you work in a very agreeable team and don't think this is true, go read the Hacker News comments on a randomly-chosen article.

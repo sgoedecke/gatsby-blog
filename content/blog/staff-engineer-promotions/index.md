@@ -3,6 +3,21 @@ title: How I got promoted to staff engineer twice
 description: What does it take to get promoted from senior to staff at a tech company?
 order: 21
 date: '2024-12-28'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=42549029'
+    points: 92
+    comments: 83
+    threads: 1
+  score: 258
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies", "good engineers", "staff", "how to"]
 ---
 
@@ -48,5 +63,7 @@ You also need your skip-level manager to be onside (since it'll likely be their 
 - You need to have shipped projects that the company cares about - don't spend time on your pet projects instead!
 - Don't worry _too_ much about mentoring and leading, as long as you're leading projects successfully
 - You need a manager who's willing and able to do a bunch of work. Don't invest time in the promo packet until that's true
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=42549029).
 
 [^1]: Every company does things differently. I'm speaking from my own experience - I'm sure other staff engineers have had different roads to promotion. But I'm willing to bet this rings true for most staff engineers and the managers who promote them.

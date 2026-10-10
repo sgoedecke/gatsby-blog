@@ -3,6 +3,21 @@ title: What's next after the AI bubble bursts?
 description:
 order: 54
 date: '2025-03-08'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=43303392'
+    points: 21
+    comments: 26
+    threads: 1
+  score: 73
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai", "bubble"]
 ---
 
@@ -19,6 +34,8 @@ Would we go back to crypto? If the giant datacenters sell off all their GPUs, ma
 Focusing on GPUs might be missing the point. For real systems thinkers, the GPUs are an implementation detail. The real resource at play in the big AI scaleup is power: literal electrical power, which is currently being built out on a massive scale. Companies are re-investing in nuclear and investing in speculative fission technology. If that takes off, it might end up being the telegraph to the GPU's railway line: the companion technology that ends up having an equal or greater impact on the world.
 
 And of course the real winner of the AI bubble bursting might be... AI. Railways stuck around when their bubble burst, and are still a core part of our world two hundred years later. The most likely outcome here might be the AI bubble bursting, AI development continuing quietly with less hype, and taking over a substantial percentage of world GDP anyway.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=43303392).
 
 [^1]: I don't think we're close to the bubble bursting, personally. There are so many obvious AI use cases that haven't yet been productized, and (despite some chatter about GPT-4.5) the models are still getting better fast.
 

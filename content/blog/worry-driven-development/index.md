@@ -5,6 +5,21 @@ description: >-
   technical skill
 order: 1
 date: '2020-09-11'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=24670483'
+    points: 105
+    comments: 29
+    threads: 1
+  score: 163
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["emotional regulation"]
 ---
 
@@ -21,3 +36,5 @@ From the inside, this doesn't feel like emotionally-driven avoidance. It feels l
 How can you distinguish a rational response to a too-difficult task from a learned emotional reaction to a task that is merely worrying? This is a hard problem. I think it is the hardest problem that almost all engineers will regularly face. One approach is to avoid trying to tell the difference at all, and allot a certain amount of time to looking at randomly-chosen neglected parts of the system. Things that reduce stress in general are also good ways to reduce stress and worry about work. Good sleep, eating well, exercise, therapy, and working in an emotionally safe team all have a significant positive effect on the quality of engineering work. Once you start doing this, the difference is usually obvious in hindsight: if the task that worried you for six months took an hour or two of work when you finally mustered up the effort to look at it, you know your worry was unfounded. Dealing with worry is a virtuous cycle. Each difficult task you do makes you less scared of the next one.
 
 Tackling a series of worrying tasks is one of the quickest ways I know to have massive impact in your engineering org. This is because once you understand a thorny piece of code, or a neglected system, you will usually see how to make obvious improvements. In any other part of the system these improvements would have been made already, but since you are the first person to really wrap your head around it in a long time, you get to make them here! Occasionally, you will see the opportunity to completely remove the worrying part of the system, which for me is one of the most satisfying things you can do as a software engineer. Removing things that cause your team stress has compounding benefits to your team, to the systems you work on, and to your engineering org in general.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=24670483).

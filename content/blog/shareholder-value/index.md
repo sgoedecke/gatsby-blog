@@ -3,6 +3,21 @@ title: How to become passionate about delivering shareholder value
 description: 
 order: 106
 date: '2025-07-05'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=44498099'
+    points: 3
+    comments: 6
+    threads: 1
+  score: 15
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies", "zirp"]
 ---
 
@@ -55,6 +70,7 @@ If you do have that opportunity, you'll probably be a lot more satisfied at work
 
 edit: One interesting note - I run most of my blog posts through GPT-o3 before publishing to catch typos and make high-level structural suggestions (I never use any actual generated text). While o3 is much less [sycophantic](/ai-sycophancy) than 4o, it still likes to start its feedback with a paragraph of what it likes about the post. This was the first post I've tried where it didn't do that. It's not a model update: it gives positive feedback about other drafts I have in the pipeline. For some reason, GPT-o3 really didn't like this post!
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=44498099).
 
 [^1]: You can believe me because I'm not looking for a job - I really like it at GitHub.
 

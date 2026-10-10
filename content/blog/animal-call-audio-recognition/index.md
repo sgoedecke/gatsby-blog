@@ -3,6 +3,21 @@ title: 'From hours to seconds: AI tools to detect animal calls'
 description: How to use modern machine learning tools to recognise animal calls
 order: 13
 date: '2024-04-25'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=40154854'
+    points: 77
+    comments: 8
+    threads: 1
+  score: 93
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["projects", "ai"]
 ---
 
@@ -144,3 +159,5 @@ And that's it! Those represent where your model thought it recognized the animal
 This is a lot of work for someone who doesn't write a lot of Python for their day job (for what it's worth, I write very little Python for my day job, and relied heavily on ChatGPT/Copilot to hack these scripts together). But once you do it, it stays done, and you can process an unlimited amount of audio very quickly. 
 
 A big thanks to my partner, and to James Deane from the [Warringal Conservation Society](https://warringal.org.au/) for his advice and providing testing data. I think the potential of modern machine learning for audio classification is really under-utilized, and I'd love to see more people spend a few days setting this up instead of spending weeks listening to wildlife recordings. If you got stuck, and you're in a position where you could benefit from a model like this, I am happy to help: email me at sean.goedecke@gmail.com.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=40154854).

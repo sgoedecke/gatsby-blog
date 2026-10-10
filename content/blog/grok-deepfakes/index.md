@@ -3,6 +3,21 @@ title: Grok is enabling mass sexual harassment on Twitter
 description: 
 order: 164
 date: '2026-01-02'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=46466099'
+    points: 77
+    comments: 48
+    threads: 1
+  score: 173
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai", "ethics", "alignment failures", "policy", "model personality", "ai safety"]
 ---
 
@@ -35,6 +50,8 @@ In my view, **image model safety is a different topic from language model safety
 At minimum, I think it'd be sensible to **pursue entities like xAI under existing CSAM or deepfake pornography laws**, to set up a powerful counter-incentive for people with their hands on the "USER ENGAGEMENT" dial. I also think it'd be sensible for AI labs to **strongly lock down "edit this image of a human" requests**, even if that precludes some legitimate user activity.
 
 Earlier this year, in [_The case for regulating AI companions_](/regulating-ai-companions), I suggested regulating "AI girlfriend" products. I mistakenly thought AI companions or [sycophancy](/ai-sycophancy) might be the first case of genuine widespread harm caused by AI products, because _of course_ nobody would ship an image model that allowed this kind of prompting. Turns out I was wrong.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=46466099).
 
 [^1]: There were reports [in May of this year](https://www.digitalcameraworld.com/tech/social-media/remove-her-clothes-groks-latest-ai-fiasco-illustrates-one-of-the-key-dangers-of-an-autonomous-ai) of similar behavior, but it was less widespread and xAI jumped on it fairly quickly.
 

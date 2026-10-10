@@ -7,16 +7,16 @@ popularity:
   hackerNews:
     urls:
       - 'https://news.ycombinator.com/item?id=49933116'
-    points: 5
+    points: 6
     comments: 2
     threads: 1
   lobsters:
     urls:
       - 'https://lobste.rs/s/fidpdw/advice_beginning_software_engineer'
-    points: 3
-    comments: 2
+    points: 5
+    comments: 4
     threads: 1
-  score: 28
+  score: 45
   manual: 0
 popular: true
 tags: ["tech companies", "ai"]

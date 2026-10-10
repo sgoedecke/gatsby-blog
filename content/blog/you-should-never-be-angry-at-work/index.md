@@ -5,16 +5,16 @@ order: 228
 date: '2026-08-22'
 popular: true
 popularity:
-  score: 423
+  score: 671
   hackerNews:
-    points: 30
-    comments: 13
+    points: 42
+    comments: 16
     threads: 1
     urls:
       - 'https://news.ycombinator.com/item?id=49396811'
   lobsters:
-    points: 64
-    comments: 35
+    points: 99
+    comments: 60
     threads: 1
     urls:
       - 'https://lobste.rs/s/mbmn1f/you_should_never_be_angry_at_work'

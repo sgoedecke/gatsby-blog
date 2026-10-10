@@ -3,6 +3,21 @@ title: To avoid being replaced by LLMs, do what they can't
 description: What LLMs can't do yet
 order: 44
 date: '2025-02-15'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=43061608'
+    points: 57
+    comments: 79
+    threads: 1
+  score: 215
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai"]
 ---
 
@@ -52,3 +67,5 @@ Not all engineers are like this. Some engineers see their role as turning JIRA t
 Why? Because an LLM has no skin in the game, which means the normal mechanisms of trust can't apply. Executives trust engineers because they know those engineers will experience unpleasant consequences if they get it wrong. Because the engineer is putting something on the line (e.g. their next bonus, or promotion, or in the extreme case being fired), the executive can believe in the strength of their commitment. an LLM has nothing to put on the line, so trust has to be built purely on their track record, which is harder and takes more time.
 
 In the long run, when almost every engineer has been replaced by LLMs, all companies will still have at least one engineer around to babysit the LLMs and to launder their promises and plans into human-legible commitments. Perhaps that engineer will eventually be replaced, if the LLMs are good enough. But they'll be the last to go.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=43061608).

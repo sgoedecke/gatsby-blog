@@ -3,6 +3,21 @@ title: Great software design looks underwhelming
 description:
 order: 52
 date: '2025-03-07'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=43293363'
+    points: 102
+    comments: 15
+    threads: 1
+  score: 132
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["software design"]
 ---
 
@@ -52,6 +67,7 @@ Not all failure modes are created equal. You want to try hardest to eliminate th
 
 These are all relatively boring, unsexy ideas. But great software design is boring and unsexy. It's easy to get excited about big ideas like CQRS or microservices or service meshes. Great software design doesn't look like big exciting ideas. Most of the time it doesn't look like anything at all.
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=43293363).
 
 [^1]: As a side note, in hindsight I think this was an unfair decision. Obviously the reviewers were most comfortable in the languages the company used, so candidates who submitted in other languages (e.g. Java) were at a disadvantage. We did try to mitigate that at the time, but it would have been better to tell people to just do it in any of a few common languages.
 

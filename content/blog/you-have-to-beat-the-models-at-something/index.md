@@ -3,6 +3,21 @@ title: You have to beat the models at something
 description: 
 order: 230
 date: '2026-08-30'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=49495350'
+    points: 41
+    comments: 8
+    threads: 1
+  score: 57
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies", "good engineers", "ai"]
 ---
 
@@ -67,6 +82,7 @@ Whatever you do, don't be a [meat proxy](https://gruhn.me/blog/2026-08-03/): som
 
 **You need to find some way to leverage your expertise to do what the models can't.** Simply not using AI at all is better than being a meat proxy, since you'll probably do some things better than the model would have, but it's far better to figure out what AI can do and position yourself to fill those gaps. Right now, there are two main gaps: familiarity with the technical details of the system, and the ability to clearly and persuasively write about those details.
 
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=49495350).
 
 [^1]: If you're thinking "but LLMs can do these things now!", substitute your preferred example of high-difficulty software engineering.
 
