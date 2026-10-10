@@ -5,7 +5,7 @@ order: 135
 date: '2025-09-03'
 popular: true
 popularity:
-  score: 632
+  score: 1002
   hackerNews:
     points: 388
     comments: 122
@@ -13,10 +13,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=45505539'
   lobsters:
-    points: 0
-    comments: 0
-    threads: 0
-    urls: []
+    points: 95
+    comments: 17
+    threads: 1
+    urls:
+      - 'https://lobste.rs/s/6uemc8/seeing_like_software_company'
   reddit:
     points: 0
     comments: 0
@@ -149,7 +150,7 @@ I think this view is naive. All organizations - tech companies, social clubs, go
 
 edit: this got some comments on [Hacker News](https://news.ycombinator.com/item?id=45505539). Some commenters agree with everything except the idea that large enterprise deals are the primary driver for legibility - they think it's [communication at scale](https://news.ycombinator.com/item?id=45511736), or [being able to target market share](https://news.ycombinator.com/item?id=45511977), or [internal control](https://news.ycombinator.com/item?id=45510656).
 
-There's also some good comments on [lobste.rs](https://lobste.rs/s/6uemc8/seeing_like_software_company). Commenters mostly agree, but some think that legibility-seeking process [arrive organically](https://lobste.rs/c/jwkqja) instead of being a deliberate choice, or that legibility [doesn't confer any real benefits](https://lobste.rs/c/jxhazf) to the _organization_ (as opposed to a small set of leaders).
+edit: this post also got some good comments on [lobste.rs](https://lobste.rs/s/6uemc8/seeing_like_software_company). Commenters mostly agree, but some think that legibility-seeking process [arrive organically](https://lobste.rs/c/jwkqja) instead of being a deliberate choice, or that legibility [doesn't confer any real benefits](https://lobste.rs/c/jxhazf) to the _organization_ (as opposed to a small set of leaders).
 
 Julik Tarkhanov also wrote a good [response post](https://blog.julik.nl/2025/09/illegible-perception) arguing that most legibility "improvements" are not actually increasing legibility, but are only creating the illusion of legibility (in order to make management feel good). I agree with this to a certain extent, but large organizations have the power to make illusions real (by promoting or firing on the basis of them, for instance).
 
