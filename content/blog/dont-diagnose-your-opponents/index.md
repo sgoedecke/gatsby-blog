@@ -4,6 +4,9 @@ description:
 order: 252
 date: '2026-10-11'
 tags: ["ethics"]
+crossPosts:
+  x: "https://x.com/i/status/2109221814304170257"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7514987506828759040/"
 ---
 
 When you disagree with someone, there are two paths forward. The first is to try to engage with what they're saying: what their reasons are, whether their position is true, what evidence could be brought to bear, and so on. The second is to _diagnose_ them: to engage with the second-order question of why they're saying it. For instance, if you're arguing with somebody about [microservices](https://www.reddit.com/r/softwarearchitecture/comments/1eflqzl/monolith_vs_microservices_whats_your_take/)[^1], you could say "well, you only like microservices because you want to polish your resume", or "you only like monoliths because you're scared of distributed systems".
