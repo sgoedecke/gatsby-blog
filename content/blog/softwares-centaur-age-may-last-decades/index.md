@@ -3,6 +3,21 @@ title: Software's centaur age may last decades
 description: 
 order: 251
 date: '2026-10-10'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=50029609'
+    points: 14
+    comments: 5
+    threads: 1
+  score: 24
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai", "tech companies"]
 ---
 
@@ -49,6 +64,8 @@ Think hard about what value humans can still add. This is going to change over t
 It's a common fear response to try and skip ahead to the worst-case scenario. But those of us working in the age of centaurs should avoid that. We need to think about how the job of software engineering functions _now_, not how it might function in twenty years when AI has completely transformed the landscape.
 
 People are too quick to declare that we're in the software engineering apocalypse. We can certainly see it from here, but we're not there yet. The spectre of full automation can loom on the horizon for decades. If you panic and jump ship early, you could be giving up on an entire normal-length career.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=50029609).
 
 
 [^1]: Maybe: AI as fundamentally different technology; diffusion of even radically better technology is slow in practice and bottlenecked by organizational friction; human software companies will get outcompeted? I don't really know what I think about these arguments.
