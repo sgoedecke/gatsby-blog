@@ -104,6 +104,8 @@ However, I want to defend impure engineering as also difficult and valuable. Lar
 
 edit: this got some comments on [Hacker News](https://news.ycombinator.com/item?id=45165753). Many commenters enjoyed the post but wish I'd written instead about some other distinction that they find more compelling. I want to clarify that I do not think that [pure engineering is going away](https://news.ycombinator.com/item?id=45210566). There will always be a lot of pure engineering work that needs doing.
 
+edit: I just saw [this post](https://purplesyringa.moe/blog/grieving-the-loss-of-details/), which is a great example of the kind of person I'd call a pure engineer. To quote: "I get almost physically ill when I work on a project with more source code files or at least general architecture than I can keep in my head, so I don’t get anything out of expanded scope [from using LLMs]."
+
 [^1]: Do Leetcode-based hiring practices serve as a counter-example to this? Leetcode problems are definitely pure engineering. I don't think so. For one, Leetcode hiring dates back before the bottom fell out of the industry. For two, I think it's mostly a convenience thing - if there was a Leetcode-style test that could measure impure engineering skills, tech companies would be all over it. (Also, big tech companies do need some amount of pure engineering, even today, and they do actively try and hire skilled pure engineers for that work.)
 
 [^2]: Of course there are exceptions. Just as some people are both Olympic athletes and mathematical geniuses, some engineers are amazing at both pure and impure engineering. These people can usually write their own ticket.
