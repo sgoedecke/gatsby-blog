@@ -6,13 +6,13 @@ on:
     paths:
       - "content/blog/**/index.md"
   schedule:
-    # Daily share of an older post on X, at about 10am US Eastern (1am in
+    # Daily share of an older post, at about 10am US Eastern (1am in
     # Sydney). Off the hour because GitHub delays top-of-hour schedules.
     - cron: "17 14 * * *"
   workflow_dispatch:
     inputs:
       slug:
-        description: "Post slug, e.g. you-should-never-be-angry-at-work. Leave empty to pick an older post for X, like the daily schedule does."
+        description: "Post slug, e.g. you-should-never-be-angry-at-work. Leave empty to pick an older post, like the daily schedule does."
         required: false
       platforms:
         description: "Comma-separated platforms to post to"
@@ -94,7 +94,7 @@ jobs:
         run: |
           args=(--platforms "$PLATFORMS")
           if [ "$EVENT" = "schedule" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ -z "$SLUG" ]; }; then
-            args=(--pick-old)
+            args+=(--pick-old)
           elif [ "$EVENT" = "workflow_dispatch" ]; then
             args+=(--slug "$SLUG")
           else

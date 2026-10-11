@@ -321,7 +321,7 @@ test("picks /popular posts in page order, then unshared posts at random", () => 
     post("ordinary-b"),
     post("shared-ordinary", { crossPosts: { x: "https://x.com/i/status/2" } }),
   ]
-  const candidates = pickCandidates(posts, "x", () => 0)
+  const candidates = pickCandidates(posts, ["x"], () => 0)
   assert.deepEqual(candidates.slice(0, 3), [
     "top-popular",
     "tied-newer",
@@ -330,5 +330,11 @@ test("picks /popular posts in page order, then unshared posts at random", () => 
   assert.deepEqual(candidates.slice(3).sort(), ["ordinary-a", "ordinary-b"])
 
   const allShared = posts.map(p => ({ ...p, crossPosts: { x: "url" } }))
-  assert.equal(pickCandidates(allShared, "x").length, posts.length)
+  assert.equal(pickCandidates(allShared, ["x"]).length, posts.length)
+
+  // Shared on X but not LinkedIn still counts as unshared for both.
+  assert.deepEqual(
+    pickCandidates(posts, ["x", "linkedin"], () => 0).slice(0, 2),
+    ["shared-popular", "top-popular"]
+  )
 })

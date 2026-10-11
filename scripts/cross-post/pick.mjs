@@ -23,12 +23,16 @@ export function loadPosts(repoRoot) {
     })
 }
 
-// Candidates for the daily "old post" share on a platform, best first: posts
-// on the /popular page in the same order as that page (popularity score, then
-// newest first), then the remaining unshared posts at random. Once everything
-// has been shared, any post can come up again at random.
-export function pickCandidates(posts, platform, random = Math.random) {
-  const unshared = posts.filter(post => !post.crossPosts[platform])
+export function isSharedEverywhere(post, platforms) {
+  return platforms.every(platform => post.crossPosts[platform])
+}
+
+// Candidates for the daily "old post" share, best first: posts on the /popular
+// page in the same order as that page (popularity score, then newest first),
+// then the remaining posts at random. A post counts as unshared until it's on
+// every platform. Once everything has been shared, any post can come up again.
+export function pickCandidates(posts, platforms, random = Math.random) {
+  const unshared = posts.filter(post => !isSharedEverywhere(post, platforms))
   if (!unshared.length) return shuffle(posts, random).map(post => post.slug)
   const popular = unshared
     .filter(post => post.popular)

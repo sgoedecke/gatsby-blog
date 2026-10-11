@@ -14,7 +14,7 @@ import { parseArgs } from "node:util"
 import { composeLinkedInCommentary, composeTweet } from "./compose.mjs"
 import { linkedInCredentialsFromEnv, postToLinkedIn } from "./linkedin.mjs"
 import { capturePost, waitForLive } from "./page.mjs"
-import { loadPosts, pickCandidates } from "./pick.mjs"
+import { isSharedEverywhere, loadPosts, pickCandidates } from "./pick.mjs"
 import { readCrossPosts, recordCrossPost } from "./record.mjs"
 import { postThread, xCredentialsFromEnv } from "./x.mjs"
 
@@ -30,10 +30,11 @@ const MAX_PICK_ATTEMPTS = 3
 const usage = `Usage:
   node index.mjs --slug <slug> [--slug <slug>...] [options]
   node index.mjs --changed <before-sha>..<after-sha> [options]
-  node index.mjs --pick-old [--dry-run]
+  node index.mjs --pick-old [--platforms x,linkedin] [--dry-run]
 
---pick-old shares one older post on X: the next /popular post not yet on X,
-or a random unshared post once those run out.
+--pick-old shares one older post: the next /popular post not yet on every
+platform, or a random unshared post once those run out. Only platforms with
+credentials configured count (all of them in a dry run).
 
 Options:
   --dry-run              Capture screenshots and compose text without posting
@@ -210,18 +211,39 @@ async function crossPost(slug, options) {
   return failures
 }
 
-async function shareOldPost({ dryRun, force, out }) {
+async function shareOldPost({ dryRun, force, out, platforms: requested }) {
+  // Without this, a platform with no secrets would never get recorded, and
+  // the same post would be picked every day.
+  const platforms = dryRun
+    ? requested
+    : requested.filter(platform => {
+        const configured = {
+          x: xCredentialsFromEnv,
+          linkedin: linkedInCredentialsFromEnv,
+        }[platform]()
+        if (!configured) {
+          annotate(
+            "warning",
+            `Skipping ${platform}: credentials are not configured.`
+          )
+        }
+        return configured
+      })
+  if (!platforms.length) throw new Error("No platforms to share to.")
+
   const posts = loadPosts(repoRoot)
   const alreadyShared = new Set(
-    posts.filter(post => post.crossPosts.x).map(post => post.slug)
+    posts
+      .filter(post => isSharedEverywhere(post, platforms))
+      .map(post => post.slug)
   )
-  const candidates = pickCandidates(posts, "x")
+  const candidates = pickCandidates(posts, platforms)
   for (const slug of candidates.slice(0, MAX_PICK_ATTEMPTS)) {
     let failed
     try {
       failed = await crossPost(slug, {
         dryRun,
-        platforms: ["x"],
+        platforms,
         wait: false,
         // Only true once every post has been shared and we're going around again.
         force: force || alreadyShared.has(slug),
@@ -233,7 +255,11 @@ async function shareOldPost({ dryRun, force, out }) {
       annotate("warning", `Skipping ${slug}: ${error.message}`)
       continue
     }
-    if (failed.length) throw new Error(`Failed: ${slug} → x`)
+    if (failed.length) {
+      throw new Error(
+        `Failed: ${failed.map(platform => `${slug} → ${platform}`).join(", ")}`
+      )
+    }
     return
   }
   throw new Error(
@@ -272,7 +298,11 @@ async function main() {
     throw new Error(`Unknown platform(s): ${unknown.join(", ")}`)
 
   if (values["pick-old"]) {
+    if (!values["dry-run"] && platforms.includes("linkedin")) {
+      warnIfLinkedInTokenExpiring()
+    }
     await shareOldPost({
+      platforms,
       dryRun: values["dry-run"],
       force: values.force,
       out: path.resolve(values.out),

@@ -34,8 +34,8 @@ the `cross-post.yml` workflow. Don't call the X or LinkedIn APIs yourself.
 
 Notes:
 
-- A daily scheduled run already shares one older post on X, working down the
-  /popular list. To share "the next one" now, run the workflow with an empty
+- A daily scheduled run already shares one older post on X and LinkedIn,
+  working down the /popular list. To share "the next one" now, run the workflow with an empty
   slug: `-f slug= -f dry_run=false`.
 
 - The workflow skips platforms already recorded in `crossPosts`, so rerunning
