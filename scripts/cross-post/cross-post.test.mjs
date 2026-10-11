@@ -12,7 +12,12 @@ import {
 } from "./compose.mjs"
 import { buildLinkedInPost } from "./linkedin.mjs"
 import { readCrossPosts, recordCrossPost } from "./record.mjs"
-import { oauthHeader, oauthSignature, postThread } from "./x.mjs"
+import {
+  describeCredentials,
+  oauthHeader,
+  oauthSignature,
+  postThread,
+} from "./x.mjs"
 
 test("splits sentences without breaking on abbreviations", () => {
   assert.deepEqual(
@@ -269,5 +274,26 @@ test("replaces an existing crossPosts block, including inline ones", () => {
   assert.equal(
     updated,
     "---\ntitle: T\ncrossPosts:\n  x: \"b\"\ndate: '2026-01-01'\n---\nBody\n"
+  )
+})
+
+test("describes X credentials without revealing them", () => {
+  const description = describeCredentials({
+    apiKey: "k".repeat(25),
+    apiSecret: "s".repeat(50),
+    accessToken: "oauth2-looking-token",
+    accessTokenSecret: "t".repeat(45),
+  })
+  assert.match(description, /not an OAuth 2.0 token/)
+  assert.match(description, /X_API_KEY 25 /)
+  assert.doesNotMatch(description, /kkk|sss|ttt|oauth2-looking/)
+  assert.doesNotMatch(
+    describeCredentials({
+      apiKey: "k",
+      apiSecret: "s",
+      accessToken: "12345-abcDEF",
+      accessTokenSecret: "t",
+    }),
+    /OAuth 2.0 token/
   )
 })

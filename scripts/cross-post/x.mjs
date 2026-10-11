@@ -71,12 +71,30 @@ export function oauthHeader({
 
 export function xCredentialsFromEnv(env = process.env) {
   const credentials = {
-    apiKey: env.X_API_KEY,
-    apiSecret: env.X_API_SECRET,
-    accessToken: env.X_ACCESS_TOKEN,
-    accessTokenSecret: env.X_ACCESS_TOKEN_SECRET,
+    apiKey: env.X_API_KEY?.trim(),
+    apiSecret: env.X_API_SECRET?.trim(),
+    accessToken: env.X_ACCESS_TOKEN?.trim(),
+    accessTokenSecret: env.X_ACCESS_TOKEN_SECRET?.trim(),
   }
   return Object.values(credentials).every(Boolean) ? credentials : null
+}
+
+// Secrets can't be read back once stored, so on a 401 describe their shape
+// (never their values) to help spot one pasted into the wrong slot.
+export function describeCredentials(credentials) {
+  const { apiKey, apiSecret, accessToken, accessTokenSecret } = credentials
+  const problems = []
+  if (!/^\d+-\w+$/.test(accessToken)) {
+    problems.push(
+      "X_ACCESS_TOKEN should look like <numeric user ID>-<letters/digits>; make sure it's the OAuth 1.0a access token, not an OAuth 2.0 token"
+    )
+  }
+  const lengths = `lengths: X_API_KEY ${apiKey.length} (usually 25), X_API_SECRET ${apiSecret.length} (usually 50), X_ACCESS_TOKEN ${accessToken.length} (usually ~50), X_ACCESS_TOKEN_SECRET ${accessTokenSecret.length} (usually 45)`
+  return [
+    "X rejected the credentials. Check the four X_* secrets come from the app's OAuth 1.0 Keys section (Consumer Key and Access Token), and regenerate the access token if the app's permissions changed after it was created.",
+    ...problems,
+    lengths,
+  ].join("\n")
 }
 
 async function request(credentials, path, body) {
@@ -97,7 +115,9 @@ async function request(credentials, path, body) {
     json = null
   }
   if (!response.ok || json?.errors?.length) {
-    throw new Error(`X API ${path} failed (${response.status}): ${text}`)
+    const hint =
+      response.status === 401 ? `\n${describeCredentials(credentials)}` : ""
+    throw new Error(`X API ${path} failed (${response.status}): ${text}${hint}`)
   }
   return json
 }
