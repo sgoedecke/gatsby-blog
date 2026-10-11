@@ -37,7 +37,7 @@ const AboutPage = ({ data, location }) => {
       <p>
         If you'd like to get in touch, email me at{' '}
         <a href="mailto:sean.goedecke@gmail.com">sean.goedecke@gmail.com</a>. Hearing from readers is one of the main reasons I write at all, so please do reach out if you're thinking about it.
-        You can also message me on <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">LinkedIn</a>, though I tend to give longer responses over email.
+        You can also message me on <a href="https://www.linkedin.com/in/sean-goedecke-5495a7137/">LinkedIn</a> or <a href="https://x.com/sjgoedecke">Twitter</a>, though I tend to give longer responses over email.
       </p>
 
       <p>
