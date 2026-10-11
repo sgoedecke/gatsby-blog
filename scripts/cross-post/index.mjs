@@ -14,6 +14,7 @@ import { parseArgs } from "node:util"
 import { composeLinkedInCommentary, composeTweet } from "./compose.mjs"
 import { linkedInCredentialsFromEnv, postToLinkedIn } from "./linkedin.mjs"
 import { capturePost, waitForLive } from "./page.mjs"
+import { isSharedEverywhere, loadPosts, pickCandidates } from "./pick.mjs"
 import { readCrossPosts, recordCrossPost } from "./record.mjs"
 import { postThread, xCredentialsFromEnv } from "./x.mjs"
 
@@ -24,10 +25,16 @@ const siteUrl = (
 ).replace(/\/$/, "")
 const PLATFORMS = ["x", "linkedin"]
 const MAX_POSTS_PER_PUSH = 3
+const MAX_PICK_ATTEMPTS = 3
 
 const usage = `Usage:
   node index.mjs --slug <slug> [--slug <slug>...] [options]
   node index.mjs --changed <before-sha>..<after-sha> [options]
+  node index.mjs --pick-old [--platforms x,linkedin] [--dry-run]
+
+--pick-old shares one older post: the next /popular post not yet on every
+platform, or a random unshared post once those run out. Only platforms with
+credentials configured count (all of them in a dry run).
 
 Options:
   --dry-run              Capture screenshots and compose text without posting
@@ -204,6 +211,64 @@ async function crossPost(slug, options) {
   return failures
 }
 
+async function shareOldPost({ dryRun, force, out, platforms: requested }) {
+  // Without this, a platform with no secrets would never get recorded, and
+  // the same post would be picked every day.
+  const platforms = dryRun
+    ? requested
+    : requested.filter(platform => {
+        const configured = {
+          x: xCredentialsFromEnv,
+          linkedin: linkedInCredentialsFromEnv,
+        }[platform]()
+        if (!configured) {
+          annotate(
+            "warning",
+            `Skipping ${platform}: credentials are not configured.`
+          )
+        }
+        return configured
+      })
+  if (!platforms.length) throw new Error("No platforms to share to.")
+
+  const posts = loadPosts(repoRoot)
+  const alreadyShared = new Set(
+    posts
+      .filter(post => isSharedEverywhere(post, platforms))
+      .map(post => post.slug)
+  )
+  const candidates = pickCandidates(posts, platforms)
+  for (const slug of candidates.slice(0, MAX_PICK_ATTEMPTS)) {
+    let failed
+    try {
+      failed = await crossPost(slug, {
+        dryRun,
+        platforms,
+        wait: false,
+        // Only true once every post has been shared and we're going around again.
+        force: force || alreadyShared.has(slug),
+        out,
+      })
+    } catch (error) {
+      // Couldn't capture or compose this post (nothing was posted), so try the
+      // next one rather than getting stuck on it every day.
+      annotate("warning", `Skipping ${slug}: ${error.message}`)
+      continue
+    }
+    if (failed.length) {
+      throw new Error(
+        `Failed: ${failed.map(platform => `${slug} → ${platform}`).join(", ")}`
+      )
+    }
+    return
+  }
+  throw new Error(
+    `Couldn't share any of: ${candidates
+      .slice(0, MAX_PICK_ATTEMPTS)
+      .join(", ")}`
+  )
+}
+
 async function main() {
   const { values } = parseArgs({
     options: {
@@ -213,11 +278,13 @@ async function main() {
       platforms: { type: "string", default: PLATFORMS.join(",") },
       "no-wait": { type: "boolean", default: false },
       force: { type: "boolean", default: false },
+      "pick-old": { type: "boolean", default: false },
       out: { type: "string", default: path.join(scriptDir, "out") },
       help: { type: "boolean", default: false },
     },
   })
-  if (values.help || (!values.slug.length && !values.changed)) {
+  const modes = [values.slug.length, values.changed, values["pick-old"]]
+  if (values.help || modes.filter(Boolean).length !== 1) {
     console.log(usage)
     process.exit(values.help ? 0 : 1)
   }
@@ -229,6 +296,19 @@ async function main() {
   const unknown = platforms.filter(platform => !PLATFORMS.includes(platform))
   if (unknown.length)
     throw new Error(`Unknown platform(s): ${unknown.join(", ")}`)
+
+  if (values["pick-old"]) {
+    if (!values["dry-run"] && platforms.includes("linkedin")) {
+      warnIfLinkedInTokenExpiring()
+    }
+    await shareOldPost({
+      platforms,
+      dryRun: values["dry-run"],
+      force: values.force,
+      out: path.resolve(values.out),
+    })
+    return
+  }
 
   let slugs = values.slug.map(slug => slug.replace(/^\/+|\/+$/g, ""))
   if (values.changed) {

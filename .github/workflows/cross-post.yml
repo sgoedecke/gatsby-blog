@@ -1,15 +1,19 @@
-name: Cross-post new blog posts
+name: Cross-post blog posts
 
 on:
   push:
     branches: [master]
     paths:
       - "content/blog/**/index.md"
+  schedule:
+    # Daily share of an older post, at about 10am US Eastern (1am in
+    # Sydney). Off the hour because GitHub delays top-of-hour schedules.
+    - cron: "17 14 * * *"
   workflow_dispatch:
     inputs:
       slug:
-        description: "Post slug, e.g. you-should-never-be-angry-at-work"
-        required: true
+        description: "Post slug, e.g. you-should-never-be-angry-at-work. Leave empty to pick an older post, like the daily schedule does."
+        required: false
       platforms:
         description: "Comma-separated platforms to post to"
         default: "x,linkedin"
@@ -38,12 +42,16 @@ jobs:
 
       - name: Find new posts
         id: detect
-        if: github.event_name == 'push'
         working-directory: ${{ github.workspace }}
         env:
+          EVENT: ${{ github.event_name }}
           BEFORE: ${{ github.event.before }}
           AFTER: ${{ github.sha }}
         run: |
+          if [ "$EVENT" != "push" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           git fetch --no-tags --depth=1 origin "$BEFORE" || true
           if ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
             echo "Can't find the previous commit $BEFORE; not posting anything."
@@ -55,20 +63,20 @@ jobs:
           [ -n "$added" ] && echo "found=true" >> "$GITHUB_OUTPUT" || true
 
       - uses: actions/setup-node@v4
-        if: github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true'
+        if: steps.detect.outputs.found == 'true'
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: scripts/cross-post/package-lock.json
 
       - name: Install dependencies
-        if: github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true'
+        if: steps.detect.outputs.found == 'true'
         run: |
           npm ci
           npx playwright install --with-deps chromium
 
       - name: Cross-post
-        if: github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true'
+        if: steps.detect.outputs.found == 'true'
         env:
           EVENT: ${{ github.event_name }}
           RANGE: ${{ github.event.before }}..${{ github.sha }}
@@ -85,19 +93,23 @@ jobs:
           LINKEDIN_TOKEN_EXPIRES_AT: ${{ vars.LINKEDIN_TOKEN_EXPIRES_AT }}
         run: |
           args=(--platforms "$PLATFORMS")
-          if [ "$EVENT" = "workflow_dispatch" ]; then
+          if [ "$EVENT" = "schedule" ] || { [ "$EVENT" = "workflow_dispatch" ] && [ -z "$SLUG" ]; }; then
+            args+=(--pick-old)
+          elif [ "$EVENT" = "workflow_dispatch" ]; then
             args+=(--slug "$SLUG")
-            [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
-            [ "$FORCE" = "true" ] && args+=(--force)
           else
             args+=(--changed "$RANGE")
+          fi
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+            [ "$FORCE" = "true" ] && args+=(--force)
           fi
           node index.mjs "${args[@]}"
 
       # Runs even if posting partly failed, so that whatever did get posted is
       # recorded and won't be posted again.
       - name: Record cross-posts
-        if: always() && (github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true')
+        if: always() && (steps.detect.outputs.found == 'true')
         working-directory: ${{ github.workspace }}
         run: |
           if git diff --quiet -- content/blog; then
@@ -118,7 +130,7 @@ jobs:
           exit 1
 
       - name: Upload previews
-        if: always() && (github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true')
+        if: always() && (steps.detect.outputs.found == 'true')
         uses: actions/upload-artifact@v4
         with:
           name: cross-post-previews

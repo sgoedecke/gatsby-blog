@@ -11,6 +11,7 @@ import {
   tweetLength,
 } from "./compose.mjs"
 import { buildLinkedInPost } from "./linkedin.mjs"
+import { pickCandidates } from "./pick.mjs"
 import { readCrossPosts, recordCrossPost } from "./record.mjs"
 import {
   describeCredentials,
@@ -295,5 +296,45 @@ test("describes X credentials without revealing them", () => {
       accessTokenSecret: "t",
     }),
     /OAuth 2.0 token/
+  )
+})
+
+test("picks /popular posts in page order, then unshared posts at random", () => {
+  const post = (slug, extra = {}) => ({
+    slug,
+    popular: false,
+    score: 0,
+    order: 0,
+    crossPosts: {},
+    ...extra,
+  })
+  const posts = [
+    post("low-popular", { popular: true, score: 10, order: 5 }),
+    post("top-popular", { popular: true, score: 900, order: 1 }),
+    post("tied-newer", { popular: true, score: 10, order: 9 }),
+    post("shared-popular", {
+      popular: true,
+      score: 1000,
+      crossPosts: { x: "https://x.com/i/status/1" },
+    }),
+    post("ordinary-a"),
+    post("ordinary-b"),
+    post("shared-ordinary", { crossPosts: { x: "https://x.com/i/status/2" } }),
+  ]
+  const candidates = pickCandidates(posts, ["x"], () => 0)
+  assert.deepEqual(candidates.slice(0, 3), [
+    "top-popular",
+    "tied-newer",
+    "low-popular",
+  ])
+  assert.deepEqual(candidates.slice(3).sort(), ["ordinary-a", "ordinary-b"])
+
+  const allShared = posts.map(p => ({ ...p, crossPosts: { x: "url" } }))
+  assert.equal(pickCandidates(allShared, ["x"]).length, posts.length)
+
+  // Shared on X but not LinkedIn still counts as unshared for both.
+  assert.deepEqual(
+    pickCandidates(posts, ["x", "linkedin"], () => 0).slice(0, 2),
+    ["shared-popular", "top-popular"]
   )
 })

@@ -34,6 +34,10 @@ the `cross-post.yml` workflow. Don't call the X or LinkedIn APIs yourself.
 
 Notes:
 
+- A daily scheduled run already shares one older post on X and LinkedIn,
+  working down the /popular list. To share "the next one" now, run the workflow with an empty
+  slug: `-f slug= -f dry_run=false`.
+
 - The workflow skips platforms already recorded in `crossPosts`, so rerunning
   a partly failed run only retries what failed. Only add `-f force=true` if
   the user explicitly asks to post the same article again.
