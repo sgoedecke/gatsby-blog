@@ -46,6 +46,12 @@ const AboutPage = ({ data, location }) => {
         much harder to be a software engineer.
       </p>
 
+      <p>
+        You can listen to the podcasts I've been on{" "}
+        <Link to="/podcasts">here</Link> and view some of my projects{" "}
+        <Link to="/projects">here</Link>.
+      </p>
+
       <p style={{ marginTop: rhythm(1.5) }}>
         <Link to="/" style={{ boxShadow: `none` }}>
           ← Back to blog
