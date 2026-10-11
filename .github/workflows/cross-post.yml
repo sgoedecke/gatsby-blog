@@ -17,9 +17,14 @@ on:
         description: "Dry run (capture screenshots and compose text without posting)"
         type: boolean
         default: true
+      force:
+        description: "Post even to platforms already recorded in the post's crossPosts frontmatter"
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  # Needed to commit the posted links back into the post's frontmatter.
+  contents: write
 
 jobs:
   cross-post:
@@ -70,6 +75,7 @@ jobs:
           SLUG: ${{ inputs.slug }}
           PLATFORMS: ${{ inputs.platforms || 'x,linkedin' }}
           DRY_RUN: ${{ inputs.dry_run }}
+          FORCE: ${{ inputs.force }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
@@ -82,10 +88,34 @@ jobs:
           if [ "$EVENT" = "workflow_dispatch" ]; then
             args+=(--slug "$SLUG")
             [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+            [ "$FORCE" = "true" ] && args+=(--force)
           else
             args+=(--changed "$RANGE")
           fi
           node index.mjs "${args[@]}"
+
+      # Runs even if posting partly failed, so that whatever did get posted is
+      # recorded and won't be posted again.
+      - name: Record cross-posts
+        if: always() && (github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true')
+        working-directory: ${{ github.workspace }}
+        run: |
+          if git diff --quiet -- content/blog; then
+            echo "Nothing new to record."
+            exit 0
+          fi
+          git diff -- content/blog
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/blog
+          git commit -m "Record cross-post links [skip netlify]"
+          for attempt in 1 2 3; do
+            git fetch --no-tags origin master && git rebase FETCH_HEAD && git push origin HEAD:master && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 5))
+          done
+          echo "::error::Couldn't push the crossPosts frontmatter. Add it to the post by hand (diff above) to avoid double-posting."
+          exit 1
 
       - name: Upload previews
         if: always() && (github.event_name == 'workflow_dispatch' || steps.detect.outputs.found == 'true')

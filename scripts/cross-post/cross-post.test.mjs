@@ -1,4 +1,5 @@
 import assert from "node:assert/strict"
+import { readFileSync } from "node:fs"
 import { test } from "node:test"
 
 import {
@@ -10,6 +11,7 @@ import {
   tweetLength,
 } from "./compose.mjs"
 import { buildLinkedInPost } from "./linkedin.mjs"
+import { readCrossPosts, recordCrossPost } from "./record.mjs"
 import { oauthHeader, oauthSignature, postThread } from "./x.mjs"
 
 test("splits sentences without breaking on abbreviations", () => {
@@ -225,5 +227,47 @@ test("never ends an excerpt on a sentence that introduces what follows", () => {
   assert.equal(
     buildExcerpt(["It goes like this:"], () => true),
     ""
+  )
+})
+
+test("records cross-posts in frontmatter without touching anything else", () => {
+  const raw = readFileSync(
+    new URL(
+      "../../content/blog/big-tech-needs-big-egos/index.md",
+      import.meta.url
+    ),
+    "utf8"
+  )
+  assert.deepEqual(readCrossPosts(raw), {})
+
+  const once = recordCrossPost(raw, "x", "https://x.com/i/status/1")
+  const twice = recordCrossPost(
+    once,
+    "linkedin",
+    "https://www.linkedin.com/feed/update/urn:li:share:2/"
+  )
+  assert.deepEqual(readCrossPosts(twice), {
+    x: "https://x.com/i/status/1",
+    linkedin: "https://www.linkedin.com/feed/update/urn:li:share:2/",
+  })
+
+  const frontmatterEnd = raw.indexOf("\n---", 4)
+  assert.equal(
+    twice,
+    `${raw.slice(
+      0,
+      frontmatterEnd
+    )}\ncrossPosts:\n  x: "https://x.com/i/status/1"\n  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:2/"${raw.slice(
+      frontmatterEnd
+    )}`
+  )
+})
+
+test("replaces an existing crossPosts block, including inline ones", () => {
+  const raw = "---\ntitle: T\ncrossPosts: {}\ndate: '2026-01-01'\n---\nBody\n"
+  const updated = recordCrossPost(recordCrossPost(raw, "x", "a"), "x", "b")
+  assert.equal(
+    updated,
+    "---\ntitle: T\ncrossPosts:\n  x: \"b\"\ndate: '2026-01-01'\n---\nBody\n"
   )
 })

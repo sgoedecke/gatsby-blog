@@ -10,9 +10,13 @@ the `cross-post.yml` workflow. Don't call the X or LinkedIn APIs yourself.
    Match the user's description against directory names and the `title:` in
    each `index.md`'s frontmatter. If more than one post plausibly matches, ask
    the user which one they mean.
-2. Choose platforms: `x` for X/Twitter, `linkedin` for LinkedIn, or
+2. Check the post's frontmatter for a `crossPosts:` block. It records the URL
+   of everything already posted, e.g. `x: "https://x.com/i/status/…"`. If the
+   post is already on the platform the user asked for, tell them and give
+   them the link instead of posting.
+3. Choose platforms: `x` for X/Twitter, `linkedin` for LinkedIn, or
    `x,linkedin` for both. Only post to the platforms the user asked for.
-3. Run the workflow and wait for it:
+4. Run the workflow and wait for it:
 
    ```sh
    gh workflow run cross-post.yml --ref master \
@@ -24,13 +28,17 @@ the `cross-post.yml` workflow. Don't call the X or LinkedIn APIs yourself.
    gh run view "$run_id" --log | grep -E "Posted to|error"
    ```
 
-4. Report the posted URLs from the log, or the error if it failed.
+5. Report the posted URLs from the log, or the error if it failed. The
+   workflow commits the URLs to the post's `crossPosts` frontmatter itself, so
+   run `git pull` before editing that post.
 
 Notes:
 
-- Every run posts again, so never rerun a successful run, and don't retry a
-  platform that already succeeded. If the X link reply failed, the error
-  includes the teaser's URL; tell the user rather than rerunning.
+- The workflow skips platforms already recorded in `crossPosts`, so rerunning
+  a partly failed run only retries what failed. Only add `-f force=true` if
+  the user explicitly asks to post the same article again.
+- If the X link reply failed, the error includes the teaser's URL (and the
+  teaser is recorded, so a rerun won't fix it). Tell the user to reply by hand.
 - Posting to X costs about $0.22 per blog post.
 - To preview without posting, use `-f dry_run=true`, then
   `gh run download "$run_id" -n cross-post-previews` to get the text and

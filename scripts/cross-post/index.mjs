@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 import { execFileSync } from "node:child_process"
-import { appendFileSync, mkdirSync, writeFileSync } from "node:fs"
+import {
+  appendFileSync,
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 import { parseArgs } from "node:util"
@@ -8,6 +14,7 @@ import { parseArgs } from "node:util"
 import { composeLinkedInCommentary, composeTweet } from "./compose.mjs"
 import { linkedInCredentialsFromEnv, postToLinkedIn } from "./linkedin.mjs"
 import { capturePost, waitForLive } from "./page.mjs"
+import { readCrossPosts, recordCrossPost } from "./record.mjs"
 import { postThread, xCredentialsFromEnv } from "./x.mjs"
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url))
@@ -26,6 +33,8 @@ Options:
   --dry-run              Capture screenshots and compose text without posting
   --platforms x,linkedin Which platforms to post to (default: both)
   --no-wait              Don't wait for the post URL to go live
+  --force                Post even to platforms already recorded in the post's
+                         crossPosts frontmatter
   --out <dir>            Where to write previews (default: scripts/cross-post/out)`
 
 function newPostSlugs(range) {
@@ -84,6 +93,28 @@ function warnIfLinkedInTokenExpiring() {
 async function crossPost(slug, options) {
   const url = `${siteUrl}/${slug}/`
   console.log(`\n=== ${url}`)
+
+  if (!/^[a-z0-9][a-z0-9-]*$/i.test(slug))
+    throw new Error(`Invalid slug: ${slug}`)
+  const postFile = path.join(repoRoot, "content/blog", slug, "index.md")
+  if (!existsSync(postFile)) throw new Error(`No post at ${postFile}`)
+
+  // Posted URLs are recorded in the post's frontmatter, so reruns and manual
+  // runs don't post the same thing twice.
+  const alreadyPosted = readCrossPosts(readFileSync(postFile, "utf8"))
+  const platforms = options.platforms.filter(platform => {
+    if (!alreadyPosted[platform]) return true
+    const message = `${slug} was already posted to ${platform}: ${alreadyPosted[platform]}`
+    if (options.force) {
+      annotate("warning", `${message}. Posting again because of --force.`)
+      return true
+    }
+    console.log(`${message}. Skipping (use --force to post again).`)
+    summarize(`- Already posted to ${platform}: ${alreadyPosted[platform]}`)
+    return false
+  })
+  if (!platforms.length && !options.dryRun) return []
+
   if (options.wait) await waitForLive(url)
 
   const post = await capturePost(url)
@@ -129,7 +160,7 @@ async function crossPost(slug, options) {
 
   const failures = []
   const publish = async (platform, credentials, send) => {
-    if (!options.platforms.includes(platform)) return
+    if (!platforms.includes(platform)) return
     if (!credentials) {
       annotate(
         "warning",
@@ -137,11 +168,18 @@ async function crossPost(slug, options) {
       )
       return
     }
+    const record = link =>
+      writeFileSync(
+        postFile,
+        recordCrossPost(readFileSync(postFile, "utf8"), platform, link)
+      )
     try {
       const link = await send(credentials)
+      record(link)
       console.log(`Posted to ${platform}: ${link}`)
       summarize(`- Posted to ${platform}: ${link}`)
     } catch (error) {
+      if (error.postedUrl) record(error.postedUrl)
       annotate("error", `${slug} → ${platform}: ${error.message}`)
       summarize(`- **Failed** to post to ${platform}: ${error.message}`)
       failures.push(platform)
@@ -174,6 +212,7 @@ async function main() {
       "dry-run": { type: "boolean", default: false },
       platforms: { type: "string", default: PLATFORMS.join(",") },
       "no-wait": { type: "boolean", default: false },
+      force: { type: "boolean", default: false },
       out: { type: "string", default: path.join(scriptDir, "out") },
       help: { type: "boolean", default: false },
     },
@@ -220,6 +259,7 @@ async function main() {
       dryRun: values["dry-run"],
       platforms,
       wait: !values["no-wait"],
+      force: values.force,
       out: path.resolve(values.out),
     })
     failures.push(...failed.map(platform => `${slug} → ${platform}`))

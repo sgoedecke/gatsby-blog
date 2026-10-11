@@ -13,6 +13,7 @@
     "test": "node --test"
   },
   "dependencies": {
-    "playwright": "1.64.0"
+    "playwright": "1.64.0",
+    "yaml": "2.9.1"
   }
 }

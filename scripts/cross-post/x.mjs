@@ -136,13 +136,12 @@ export async function postThread(credentials, { text, images, replyText }) {
       reply: { in_reply_to_tweet_id: teaserId },
     })
   } catch (error) {
-    throw new Error(
-      `Posted the teaser (${tweetUrl(
-        teaserId
-      )}) but the link reply failed, so reply to it by hand rather than rerunning. ${
-        error.message
-      }`
+    const teaserUrl = tweetUrl(teaserId)
+    const partial = new Error(
+      `Posted the teaser (${teaserUrl}) but the link reply failed, so reply to it by hand rather than rerunning. ${error.message}`
     )
+    partial.postedUrl = teaserUrl
+    throw partial
   }
   return tweetUrl(teaserId)
 }

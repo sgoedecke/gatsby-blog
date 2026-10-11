@@ -91,9 +91,23 @@ To preview a post without posting, run `npm ci && npx playwright install chromiu
 in `scripts/cross-post`, then `npm run preview -- --slug <slug>`. The text and
 screenshots are written to `scripts/cross-post/out/<slug>/`. You can also run the
 workflow manually from the Actions tab. It defaults to a dry run, and the
-previews are uploaded as artifacts. Use the `platforms` input to retry one
-platform without posting twice to the other. If the X teaser posts but the
-link reply fails, the error includes the teaser's URL so you can reply by hand.
+previews are uploaded as artifacts.
+
+After posting, the workflow commits the posted URLs to the post's frontmatter
+(with `[skip netlify]`, so no redeploy):
+
+```yaml
+crossPosts:
+  x: "https://x.com/i/status/…"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:…/"
+```
+
+Platforms listed there are skipped on later runs, so it's safe to rerun a
+partly failed run. Use the workflow's `force` input to post again anyway. To
+stop a post (or an old post that Buttondown already shared) from being posted
+to a platform, add an entry for it by hand. If the X teaser posts but the link
+reply fails, the teaser is recorded and the error includes its URL so you can
+reply by hand.
 
 To share an older post, you can also ask a coding agent (e.g. "post my centaur
 article to Twitter"). `AGENTS.md` tells it how to find the slug and run the
