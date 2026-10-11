@@ -9,32 +9,32 @@ const featuredRepos = [
   {
     name: "socket-io-game",
     url: "https://github.com/sgoedecke/socket-io-game",
-    stars: 490,
+    stars: 493,
     blurb: "Experimenting with building a realtime multiplayer game on socket.io."
   },
   {
     name: "gh-standup",
     url: "https://github.com/sgoedecke/gh-standup",
-    stars: 88,
+    stars: 117,
     blurb: "A GitHub CLI extension that generates AI-assisted standup reports."
+  },
+  {
+    name: "deckard",
+    url: "https://github.com/sgoedecke/deckard",
+    stars: 53,
+    blurb: "Local AI-text detection for your browser."
   },
   {
     name: "gatsby-blog",
     url: "https://github.com/sgoedecke/gatsby-blog",
-    stars: 23,
+    stars: 39,
     blurb: "The source for this blog, including my typography tweaks and content tooling."
   },
   {
-    name: "idea-mill",
-    url: "https://github.com/sgoedecke/idea-mill",
-    stars: 14,
-    blurb: "LLM-powered brainstorming app that mashes ideas together."
-  },
-  {
-    name: "blockchain-js-demo",
-    url: "https://github.com/sgoedecke/blockchain-js-demo",
-    stars: 12,
-    blurb: "A minimal blockchain client I use when teaching the fundamentals."
+    name: "system-one",
+    url: "https://github.com/sgoedecke/system-one",
+    stars: 37,
+    blurb: "Turns any open LLM into a fast \"System One\" classifier that answers a batch of questions in a single forward pass."
   }
 ];
 
