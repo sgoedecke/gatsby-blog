@@ -1,9 +1,9 @@
 ---
-title: Software engineers should not complain about AI
+title: Software engineers don't get to be Luddites about AI
 description: 
-order: 252
-date: '2026-10-11'
-tags: ["ethics"]
+order: 253
+date: '2026-10-12'
+tags: ["ethics", "luddites", "politics", "ai"]
 ---
 
 Many software engineers are [righteously](https://blog.glyph.im/2026/10/programming-isnt-special.html) [angry](https://deadsimpletech.com/blog/llms-arent-inevitable) about AI. It's understandable to be [upset](/will-my-job-still-exist/) that the skills you built your professional identity around are getting automated away. But software engineers are the last people in the world who should be complaining about this. If you live by the sword, you will perish by the sword[^1].
@@ -51,9 +51,7 @@ But to decide that _this_ is the moment to come out against technological progre
 
 
 
-
-
-[^1]: [Matthew 26:52.](https://biblehub.com/matthew/26-52.htm)
+[^1]: [Matthew 26:52](https://biblehub.com/matthew/26-52.htm).
 
 [^2]: Aside from games and social networks, I suppose.
 
