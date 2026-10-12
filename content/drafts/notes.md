@@ -1,6 +1,3 @@
-Come on in for the big win
-automation
-SWEs are not Luddite textile artisans, we are the stocking-frame builders. SWE has always been in the business of automation. You cannot suddenly complain when it bites you!g
 
 
 ---
