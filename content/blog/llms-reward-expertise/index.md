@@ -23,6 +23,9 @@ popularity:
       - >-
         https://www.reddit.com/r/programmingcirclejerk/comments/1ves77i/in_the_2010s_if_you_had_technical_gaps_say_you/
 tags: ["ai"]
+crossPosts:
+  x: "https://x.com/i/status/2109357084307337697"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7515122777348128768/"
 ---
 
 In the 2010s, if you had technical gaps (say, you couldn't write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM. LLMs make everybody into a generalist.
