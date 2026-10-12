@@ -1,3 +1,17 @@
+Come on in for the big win
+automation
+SWEs are not Luddite textile artisans, we are the stocking-frame builders. SWE has always been in the business of automation. You cannot suddenly complain when it bites you!g
+
+
+---
+
+Dialogues with AI Reduce Beliefs in Misinformation but Build No
+Lasting Discernment Skills
+
+weird paper. The AI was just giving people the right answer? no no-AI control group? i'd like to see a study where they just tell people straight up what is fake and what isn't
+
+---
+
 working through other people
 
 ---
