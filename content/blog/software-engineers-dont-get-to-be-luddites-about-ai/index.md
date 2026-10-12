@@ -4,6 +4,9 @@ description:
 order: 253
 date: '2026-10-12'
 tags: ["ethics", "luddites", "politics", "ai"]
+crossPosts:
+  x: "https://x.com/i/status/2109558583591412220"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7515324276510625792/"
 ---
 
 Many software engineers are [righteously](https://blog.glyph.im/2026/10/programming-isnt-special.html) [angry](https://deadsimpletech.com/blog/llms-arent-inevitable) about AI. It's understandable to be [upset](/will-my-job-still-exist/) that the skills you built your professional identity around are getting automated away. But software engineers are the last people in the world who should be complaining about this. If you live by the sword, you will perish by the sword[^1].
