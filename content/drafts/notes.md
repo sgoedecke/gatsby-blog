@@ -1,3 +1,11 @@
+burnout is hard work unrewarded
+
+sponsor, don't mentor
+
+erotic role play and local models
+
+writing as evidence vs writing as communication
+
 
 
 ---
@@ -6,6 +14,8 @@ Dialogues with AI Reduce Beliefs in Misinformation but Build No
 Lasting Discernment Skills
 
 weird paper. The AI was just giving people the right answer? no no-AI control group? i'd like to see a study where they just tell people straight up what is fake and what isn't
+
+https://arxiv.org/pdf/2604.04721 - people give up when given a crutch and having it removed
 
 ---
 

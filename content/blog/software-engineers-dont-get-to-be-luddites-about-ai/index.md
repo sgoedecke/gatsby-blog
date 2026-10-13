@@ -3,6 +3,21 @@ title: Software engineers don't get to be Luddites about AI
 description: 
 order: 253
 date: '2026-10-12'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=50066860'
+    points: 23
+    comments: 19
+    threads: 1
+  score: 61
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ethics", "luddites", "politics", "ai"]
 crossPosts:
   x: "https://x.com/i/status/2109558583591412220"
@@ -52,6 +67,11 @@ I understand the impulse for software engineers to ignore the long-term effects 
 
 But to decide that _this_ is the moment to come out against technological progress, at the moment when the wave of automation crests over our industry... it's undignified[^7]. Software engineers have participated in the destruction (or transformation) of several kinds of job over their career. If you think that's wrong, it's only fair that you should also destroy (or transform) your own.
 
+
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=50066860) and elsewhere. A commenter [points out](https://news.ycombinator.com/item?id=50067417) that some software does work that could never be done by a human, and that there are many non-engineers being swept up by this wave as well. I agree with the first point and disagree with the second: engineering managers have been profiting from automation all this time, just like the rest of us. (If you personally have not been profiting, then you are blameless here and I have no criticism for you of any kind.) [Several](https://news.ycombinator.com/item?id=50067248) [commenters](https://news.ycombinator.com/item?id=50067461) agree, and seem willing to take it on the chin.
+
+edit: I want to say that there are of course [many other reasons](/is-ai-wrong/) to dislike AI, and that you can be anti-AI without being primarily motivated by a dislike of automation. This post is not a general takedown of Luddism (those posts are [here](/,luddites-and-ai-datacenters/) and [here](/anti-ai-nostalgia/)), nor is it a rousing defense of AI (that post is [here](/the-left-wing-case-for-ai/)).
 
 
 [^1]: [Matthew 26:52](https://biblehub.com/matthew/26-52.htm).
