@@ -63,4 +63,4 @@ But to decide that _this_ is the moment to come out against technological progre
 
 [^6]: Though I strongly lean towards thinking the industrial revolution was a net positive.
 
-[^7]: If it were actually possible to halt AI progress, I could at least respect this move as a "pull the ladder up behind you" kind of ruthlessness. Still, it's more respectable than simply denying that AI can write working software, which I've seen some engineers do.
+[^7]: If it were actually possible to halt AI progress, I could at least respect this move as a "pull the ladder up behind you" kind of ruthlessness. Still, it's more respectable than simply denying that AI can write working software, which I've seen some engineers do (edit: the people I've linked in this post [do not deny this](https://deadsimpletech.com/blog/week-with-opencode), I am talking about people like [Baldur Bjarnason](https://www.baldurbjarnason.com/2026/have-i-hardened-against-ai/)).
