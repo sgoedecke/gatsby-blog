@@ -27,6 +27,9 @@ popularity:
         https://www.reddit.com/r/programming/comments/1n3jn5l/do_the_simplest_thing_that_could_possibly_work/
   manual: 0
 tags: ["software design", "shipping"]
+crossPosts:
+  x: "https://x.com/i/status/2110440144591360234"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7516205837774757888/"
 ---
 
 When designing software systems, do the simplest thing that could possibly work.
