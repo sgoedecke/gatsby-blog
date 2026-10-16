@@ -1,3 +1,19 @@
+https://www.natemeyvis.com/where-is-all-the-new-good-software/
+---
+good explanations, bad explanations
+
+"why X?"
+
+"well Y and Z"
+
+"so why that?"
+
+"oh, Y decomposes into Y' and Y''..."
+
+Better: "because otherwise A, or we wanted X, or ..."
+
+---
+
 burnout is hard work unrewarded
 
 sponsor, don't mentor

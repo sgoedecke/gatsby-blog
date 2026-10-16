@@ -6,6 +6,9 @@ date: '2026-07-04'
 tags: ["debugging"]
 ---
 
+https://copyconstruct.medium.com/how-to-effectively-debug-when-you-no-longer-understand-the-code-bd3dcb2c5f7b - yep
+
+
 People often describe debugging as a mechanical process. You simply step through some broken code with debugging tools until you arrive at the offending lines. According to this view, being good at debugging is partly mastery of tools like [gdb](https://en.wikipedia.org/wiki/GNU_Debugger) or the browser [developer panel](https://developer.chrome.com/docs/devtools), and partly familiarity with tricks like binary search to help you arrive at the right part of the codebase sooner.
 
 But the good debuggers I've worked with don't seem like mechanics. They seem like wizards. Often they arrive at the correct solution _instantly_, as if via divine revelation, without having to use any debugging tools at all. When I debug, I sometimes perform mechanical steps, but it's pretty rare that I solve a hard problem this way. In fact, the mechanical debugging is more of a meditative process that my hands perform while I reflect on the problem, which eventually solves itself in a flash of insight.
