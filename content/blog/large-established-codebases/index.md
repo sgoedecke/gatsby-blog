@@ -25,6 +25,9 @@ popularity:
   manual: 0
 date: '2025-01-02'
 tags: ["tech companies", "software design", "large codebases"]
+crossPosts:
+  x: "https://x.com/i/status/2111505227908272449"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7517270920743448577/"
 ---
 
 Working in large established codebases is one of the hardest things to learn as a software engineer. You can't practice it beforehand (no, open source does not give you the same experience). Personal projects can never teach you how to do it, because they're necessarily small and from-scratch. For the record, when I say "large established codebases", I mean:
