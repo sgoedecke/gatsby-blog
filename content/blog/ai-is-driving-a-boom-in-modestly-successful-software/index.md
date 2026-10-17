@@ -21,6 +21,8 @@ I picked[^1] around twenty separate sources - software marketplaces, plugin regi
 
 There's a clear jump in _modestly_ (not wildly) successful projects. For instance, the NVDA screen-reader [addons directory](https://nvda-addons.org/) had a bit over twice as many new addons with more than a thousand downloads (though no change in addons with more than ten thousand). The HACS open-source home automation [community plugins store](https://www.hacs.xyz/) likewise saw twice as many new addons with over a hundred installs but no change in ones with over a thousand. New Steam games with over a hundred reviews are about 60% more common now than pre-2024. Obsidian plugins, Firefox and Chrome extensions, Nexus game mods, and Blender extensions had the same pattern. The Google Play store, WordPress plugins, and a few others didn't show this pattern, but I think it's still enough to conclude that AI is indeed driving a boom in hobbyist software.
 
+![data](data.png)
+
 ### Why addons and plugins?
 
 I think examining addons, mods, and plugins is useful for a few reasons. First, it's usually pretty easy to tell how many people are using them, or at least have installed them. Obviously AI is letting people produce a lot of software - I work at GitHub, so I see this first-hand, but the explosion in vibe-coded repos is clear to everyone - but without checking installation counts it's unclear how much of this is actually being used.
