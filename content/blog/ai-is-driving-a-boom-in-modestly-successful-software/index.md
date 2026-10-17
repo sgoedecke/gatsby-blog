@@ -25,7 +25,7 @@ There's a clear jump in _modestly_ (not wildly) successful projects. For instanc
 
 ### Why addons and plugins?
 
-I think examining addons, mods, and plugins is useful for a few reasons. First, it's usually pretty easy to tell how many people are using them, or at least have installed them. Obviously AI is letting people produce a lot of software - I work at GitHub, so I see this first-hand, but the explosion in vibe-coded repos is clear to everyone - but without checking installation counts it's unclear how much of this is actually being used.
+I think examining addons, mods, and plugins is useful for a few reasons. First, it's usually pretty easy to tell how many people are using them, or at least have installed them. Obviously AI is letting people produce a lot of software - I work at GitHub, so I see this first-hand - but without checking installation counts it's unclear how much of this is actually being used.
 
 Second, it's a good way to minimize the amount of software that's _about AI_. It doesn't tell us much about AI's effect on software to point out all the successful software projects that help people code with AI. That's just selling shovels. The real question is whether AI is helping generate software _that solves people's ordinary problems_.
 
