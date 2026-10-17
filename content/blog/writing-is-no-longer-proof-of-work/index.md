@@ -4,6 +4,9 @@ description:
 order: 255
 date: '2026-10-18'
 tags: ["tech companies", "writing"]
+crossPosts:
+  x: "https://x.com/i/status/2111603759650410541"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7517369452926009344/"
 ---
 
 Tech companies structurally depend on writing to serve as evidence, in the same way that Bitcoin depends on proof-of-work hashing. However, in the last few years, LLMs have started to undermine this practice.
