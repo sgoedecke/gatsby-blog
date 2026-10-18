@@ -1,14 +1,16 @@
-import React from "react"
+import React, { useRef } from "react"
 import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import PostMeta from "../components/post-meta"
 import SEO from "../components/seo"
+import Sidenotes from "../components/sidenotes"
 import { rhythm } from "../utils/typography"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
+  const bodyRef = useRef(null)
   const siteTitle = data.site.siteMetadata.title
   const preview = pageContext.preview
   const hasPreview = Boolean(preview?.snippetHtml)
@@ -43,7 +45,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h1>
         </header>
 
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="post-body">
+          <section ref={bodyRef} dangerouslySetInnerHTML={{ __html: post.html }} />
+          <Sidenotes sectionRef={bodyRef} html={post.html} />
+        </div>
         <hr
           style={{
             marginTop: rhythm(1.5),

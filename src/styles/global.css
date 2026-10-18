@@ -311,3 +311,94 @@ ul li {
     color: rgba(255, 255, 255, 0.7);
   }
 }
+
+/* Sidenotes: footnotes shown in the right margin on wide screens.
+   Keep the breakpoint in sync with WIDE_QUERY in components/sidenotes.js. */
+.post-body {
+  position: relative;
+}
+
+.sidenotes {
+  display: none;
+}
+
+@media (min-width: 1400px) {
+  .sidenotes {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(100% + 2.5rem);
+    width: 15rem;
+  }
+
+  /* Visually hide the end-of-post list but keep it for screen readers. */
+  .has-sidenotes .footnotes {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+}
+
+.sidenote {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.62);
+  border-left: 2px solid transparent;
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  transition: top 150ms ease-out, border-color 120ms ease-in-out,
+    color 120ms ease-in-out;
+}
+
+.sidenote p {
+  margin: 0 0 0.5em;
+}
+
+.sidenote p:last-child {
+  margin-bottom: 0;
+}
+
+.sidenote__label {
+  float: left;
+  font-weight: 600;
+  margin-right: 0.4em;
+}
+
+.sidenote__label::after {
+  content: ".";
+}
+
+.sidenote.is-active {
+  border-left-color: #1a73e8;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.has-sidenotes .footnote-ref {
+  transition: background-color 120ms ease-in-out;
+  border-radius: 2px;
+}
+
+.has-sidenotes .footnote-ref.is-active {
+  background-color: rgba(26, 115, 232, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sidenote {
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .sidenote.is-active {
+    border-left-color: lightblue;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .has-sidenotes .footnote-ref.is-active {
+    background-color: rgba(173, 216, 230, 0.2);
+  }
+}
