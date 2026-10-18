@@ -322,13 +322,14 @@ ul li {
   display: none;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1150px) {
   .sidenotes {
     display: block;
     position: absolute;
     top: 0;
     left: calc(100% + 2.5rem);
-    width: 15rem;
+    /* Fill the right margin, leaving 1.5rem before the viewport edge. */
+    width: min(15rem, calc(50vw - 50% - 4rem));
   }
 
   /* Visually hide the end-of-post list but keep it for screen readers. */
