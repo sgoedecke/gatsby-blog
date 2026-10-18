@@ -20,9 +20,6 @@ AI can also produce great diagrams. I typically ask it to produce Mermaid, which
 
 Finally, lots of people use AI to clean up their prose. I think this can be useful so long as you're careful and don't blindly adopt AI's suggestions wholesale.
 
-
-
-
 ---
 
 https://www.natemeyvis.com/where-is-all-the-new-good-software/
