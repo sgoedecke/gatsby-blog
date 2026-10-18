@@ -353,8 +353,7 @@ ul li {
   border-left: 2px solid transparent;
   padding-left: 0.6rem;
   margin-left: -0.6rem;
-  transition: top 150ms ease-out, border-color 120ms ease-in-out,
-    color 120ms ease-in-out;
+  transition: border-color 120ms ease-in-out, color 120ms ease-in-out;
 }
 
 .sidenote p {
