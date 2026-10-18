@@ -1,3 +1,30 @@
+## Writing great ADRs with LLMs
+
+LLMs can be very helpful for writing ADRs. However, **a LLM should never write the ADR for you**. It's OK for a LLM to make decisions about code, because many of these decisions are trivial: either over-determined by the existing code, or by the idioms of the language or framework. If you're writing an ADR, you are by definition making non-trivial decisions. Otherwise there'd be no point having an ADR at all. Those decisions should be made by you, the human.
+
+### How LLMs get ADRs wrong
+
+It can be tempting to rely on a LLM to help you cover more cases in more detail. With AI help, you can easily turn a short document into a long, intricate one. However, this is an anti-pattern. Great ADRs are short because they focus on a handful of important choices. They omit other information that might distract reviewers.
+
+Current LLMs will always push you towards including more content, covering more corner cases, and building complex mechanisms to double or triple-ensure consistency. They've been conditioned via reinforcement learning to neurotically anticipate anything that might offend the automated grader. Without human supervision, LLM-authored ADRs tend to be very long, impressive documents. It can be very hard to tell when they're getting something wrong (for instance, by not realizing a similar system already exists).
+
+### How to use AI when writing ADRs
+
+You should still use LLMs when writing ADRs. What should you use them for, if not writing the whole thing for you?
+
+I most commonly use AI for research: searching both the internet and internal GitHub sources to see how this problem has been solved before. Particularly with Slack access, AI can cover a lot of ground very quickly. I often feed my ADR drafts into AI and find that the LLM surfaces some idea I hadn't considered.
+
+It's also great for making technical estimates. With Kusto and Datadog access, AI is great at telling you roughly how much traffic would flow through your proposed solution, or how much memory it would consume, or how much extra capacity it would require. Prior to LLMs, I would have done this for my proposed approach and maybe a couple of alternatives; now I can do it for every option.
+
+AI can also produce great diagrams. I typically ask it to produce Mermaid, which embeds into GitHub markdown, but it's also good for gifs and interactive HTML visualizations.
+
+Finally, lots of people use AI to clean up their prose. I think this can be useful so long as you're careful and don't blindly adopt AI's suggestions wholesale.
+
+
+
+
+---
+
 https://www.natemeyvis.com/where-is-all-the-new-good-software/
 ---
 good explanations, bad explanations
