@@ -14,6 +14,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const preview = pageContext.preview
   const hasPreview = Boolean(preview?.snippetHtml)
+  const hasFootnotes = post.html.includes(`class="footnote-ref"`)
   const postUrl = `https://www.seangoedecke.com${location.pathname}`
   const hackerNewsSubmitUrl =
     `https://news.ycombinator.com/submitlink?` +
@@ -28,7 +29,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   )
 
   return (
-    <Layout location={location} title={siteTitle} headerMeta={headerMeta}>
+    <Layout
+      location={location}
+      title={siteTitle}
+      headerMeta={headerMeta}
+      className={hasFootnotes ? `has-footnotes` : undefined}
+    >
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
