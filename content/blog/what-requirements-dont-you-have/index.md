@@ -3,6 +3,21 @@ title: What requirements don't you have?
 description:
 order: 256
 date: '2026-10-19'
+popularity:
+  lobsters:
+    urls:
+      - 'https://lobste.rs/s/nuepys/what_requirements_don_t_you_have'
+    points: 20
+    comments: 5
+    threads: 1
+  score: 85
+  hackerNews:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["software design", "ai"]
 ---
 
@@ -40,6 +55,8 @@ When working with a cache, I will often spell out in my prompt that I don't mind
 
 If you allow requirements like these to propagate unchecked through a codebase, they will petrify the system over time. The whole thing will be such a mess of checking and re-checking and holding locks and enforcing consistency that it cannot be scaled at all. Keeping systems elegant requires a ruthless focus: on accepting stale data or occasional tail latency, on avoiding all but critical instances of coordination, and in general on figuring out what requirements you _don't_ have to satisfy.
 
+
+edit: this post got some good comments on [lobste.rs](https://lobste.rs/s/nuepys/what_requirements_don_t_you_have). The top commenter links [this post](https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/) which calls these kinds of edge-case-requirement-fixes "epicycles", which I think is an interesting name for them.
 
 [^1]: The problem: if an HTTP request sent by someone with slow internet trickles in one packet per second, does that have to tie up a server process for the whole time? Unicorn's answer is 'yes, so put nginx or HAProxy in front of me'.
 

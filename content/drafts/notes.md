@@ -1,3 +1,11 @@
+https://t.co/1cVC7dKBcg
+
+technical work is not art. programming and science is not art
+you can admire its beauty but it is _instrumental_
+it is in service of users: ordinary people who will interact with the software as a tool
+glod gloddson
+
+==
 ## Writing great ADRs with LLMs
 
 LLMs can be very helpful for writing ADRs. However, **a LLM should never write the ADR for you**. It's OK for a LLM to make decisions about code, because many of these decisions are trivial: either over-determined by the existing code, or by the idioms of the language or framework. If you're writing an ADR, you are by definition making non-trivial decisions. Otherwise there'd be no point having an ADR at all. Those decisions should be made by you, the human.

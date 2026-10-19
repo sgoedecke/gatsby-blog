@@ -3,6 +3,21 @@ title: Writing is no longer proof of work
 description:
 order: 255
 date: '2026-10-18'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=50148901'
+    points: 25
+    comments: 9
+    threads: 1
+  score: 43
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies", "writing"]
 crossPosts:
   x: "https://x.com/i/status/2111603759650410541"
@@ -63,6 +78,8 @@ Currently we're suffering through an overhang period where the processes are sti
 I can't think of any great options here, which is interesting. If there really is no easy solution to this problem, the overhang period might go on for a while, where nobody is particularly happy with the status quo but there are no good alternatives.
 
 In this scenario, individual software engineers are incentivized to exploit the system while they can, and avoid being harmed by other system-exploiters. In other words: don't trust or waste time poring through LLM-authored documents yourself, but also don't waste time writing documents by hand that are just intended to serve as evidence[^3]. Save that effort for documents that are intended to serve as _communication_.
+
+edit: this post got some comments on [Hacker News](https://news.ycombinator.com/item?id=50148901). One commenter says this problem is also relevant [in medicine](https://news.ycombinator.com/item?id=50152008).
 
 
 [^1]: Why not just look at your code? Code is an [illegible](/seeing-like-a-software-company/) metric to non-technical people. Even to technical people it can be tricky to figure out how difficult a piece of code was to write, for the same reason that it's tricky to assess how difficult a [mechanical puzzle](https://en.wikipedia.org/wiki/Mechanical_puzzle) is just by seeing it when it's assembled. But everyone knows roughly how long it takes to write a paragraph of text.
