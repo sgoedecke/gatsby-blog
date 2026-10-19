@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 import SearchBox from "./search-box"
 
-const Layout = ({ location, title, children, headerMeta }) => {
+const Layout = ({ location, title, children, headerMeta, className }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
@@ -50,6 +50,7 @@ const Layout = ({ location, title, children, headerMeta }) => {
   }
   return (
     <div
+      className={className}
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,

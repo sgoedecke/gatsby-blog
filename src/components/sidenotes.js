@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useLayoutEffect, useState } from "react"
 
-// Keep in sync with the media query in global.css.
-const WIDE_QUERY = "(min-width: 1150px)"
+// Keep in sync with the media queries in global.css.
+const WIDE_QUERY = "(min-width: 640px)"
 const GAP = 12
 
 const useIsomorphicLayoutEffect =

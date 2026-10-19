@@ -49,7 +49,7 @@ function measurePost(screenshotCount) {
   }
 
   const title = document.querySelector("article h1")
-  const section = document.querySelector("article > section")
+  const section = document.querySelector("article .post-body > section")
   const blocks = Array.from(section.children)
     .map(element => ({ ...absolute(element), text: clean(element) }))
     .filter(block => block.bottom > block.top)

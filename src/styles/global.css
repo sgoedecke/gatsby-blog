@@ -312,8 +312,9 @@ ul li {
   }
 }
 
-/* Sidenotes: footnotes shown in the right margin on wide screens.
-   Keep the breakpoint in sync with WIDE_QUERY in components/sidenotes.js. */
+/* Sidenotes: footnotes shown beside the text on screens wider than a phone in
+   portrait. Keep the 640px breakpoint in sync with WIDE_QUERY in
+   components/sidenotes.js. */
 .post-body {
   position: relative;
 }
@@ -322,14 +323,46 @@ ul li {
   display: none;
 }
 
+/* Below desktop width there's no room in the page margin, so on posts with
+   footnotes narrow the text column and reserve a right gutter for the notes.
+   This covers phones in landscape and tablets. */
+@media (min-width: 640px) and (max-width: 1149.98px) {
+  .has-footnotes {
+    --sidenote-gap: 1.25rem;
+    --sidenote-width: clamp(9rem, 26vw, 15rem);
+    /* Override the inline max-width and padding set in components/layout.js. */
+    max-width: calc(
+      42rem + var(--sidenote-gap) + var(--sidenote-width)
+    ) !important;
+    padding-right: calc(
+      1.3125rem + var(--sidenote-gap) + var(--sidenote-width)
+    ) !important;
+  }
+
+  .sidenotes {
+    left: calc(100% + var(--sidenote-gap));
+    width: var(--sidenote-width);
+  }
+
+  .has-footnotes .sidenote {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
 @media (min-width: 1150px) {
+  .sidenotes {
+    left: calc(100% + 2.5rem);
+    /* Fill the right margin, leaving 1.5rem before the viewport edge. */
+    width: min(15rem, calc(50vw - 50% - 4rem));
+  }
+}
+
+@media (min-width: 640px) {
   .sidenotes {
     display: block;
     position: absolute;
     top: 0;
-    left: calc(100% + 2.5rem);
-    /* Fill the right margin, leaving 1.5rem before the viewport edge. */
-    width: min(15rem, calc(50vw - 50% - 4rem));
   }
 
   /* Visually hide the end-of-post list but keep it for screen readers. */

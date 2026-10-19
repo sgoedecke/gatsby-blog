@@ -29,6 +29,9 @@ popularity:
   manual: 0
 date: '2026-01-24'
 tags: ["tech companies", "how to", "large codebases"]
+crossPosts:
+  x: "https://x.com/i/status/2112271862361473272"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7518037555074830336/"
 ---
 
 There's a kind of polite fiction at the heart of the software industry. It goes something like this:
