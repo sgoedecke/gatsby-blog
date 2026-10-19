@@ -4,6 +4,8 @@ description:
 order: 256
 date: '2026-10-19'
 tags: ["software design", "ai"]
+crossPosts:
+  x: "https://x.com/i/status/2112042633233150403"
 ---
 
 When designing software, the requirements you don't have are as important as the requirements you do. Identifying what you can compromise on - what can be slow, or stale, or inflexible - is usually the key to an elegant design.
