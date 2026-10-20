@@ -24,6 +24,9 @@ popularity:
     urls: []
   manual: 0
 tags: ["good engineers", "tech companies"]
+crossPosts:
+  x: "https://x.com/i/status/2112611931731423581"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7518377624943882241/"
 ---
 
 When I get together with my friends in the industry, I feel a little guilty about how much I love my job. This is a [tough time](/good-times-are-over) to be a software engineer. The job was less stressful in the late 2010s than it is now, and I sympathize with anyone who is upset about the change. There are a lot of objective reasons to feel bad about work. But despite all that, I'm still having a blast. I enjoy pulling together projects, figuring out difficult bugs, and writing code in general. I like spending time with computers. But what I really love is **being useful**.
