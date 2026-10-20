@@ -4,6 +4,9 @@ description:
 order: 257
 date: '2026-10-20'
 tags: ["ai", "mathematics"]
+crossPosts:
+  x: "https://x.com/i/status/2112336799863378050"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7518102493558587392/"
 ---
 
 Some people think that LLMs should not be used in technical fields like [programming](https://blog.glyph.im/2026/10/programming-isnt-special.html) or [mathematics](https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/), because those fields are actually art. True or not, this kind of argument is not going to be persuasive to the general population. The argument goes something[^1] like this:
