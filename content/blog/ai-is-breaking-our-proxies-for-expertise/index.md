@@ -18,7 +18,7 @@ popularity:
     threads: 0
   manual: 0
 popular: true
-tags: ["ai"]
+tags: ["ai", "mathematics"]
 ---
 
 Mathematicians are broadly not anti-AI. They're more culturally open to using AI as a tool than, say, artists or writers[^1]. However, now that more and more [genuinely](https://openai.com/index/navier-stokes-solution/) [prestigious](https://www.anthropic.com/research/riemann-zeta) problems have fallen to AI, that might be changing. Almost five thousand mathematicians (including twenty-five Fields medalists) have signed a declaration called [_A Severe Misalignment of AI in Mathematics_](https://mathandai.org/). The core argument goes something like this:
