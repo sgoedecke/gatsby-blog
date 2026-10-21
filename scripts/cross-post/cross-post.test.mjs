@@ -366,3 +366,13 @@ test("picks /popular posts in page order, then unshared posts at random", () => 
     ["shared-popular", "top-popular"]
   )
 })
+
+test("never picks posts with autoShare: false", () => {
+  const posts = [
+    { slug: "timely", popular: true, score: 999, order: 1, crossPosts: {}, autoShare: false },
+    { slug: "evergreen", popular: false, score: 0, order: 0, crossPosts: {}, autoShare: true },
+  ]
+  assert.deepEqual(pickCandidates(posts, ["x"]), ["evergreen"])
+  const allShared = posts.map(p => ({ ...p, crossPosts: { x: "url" } }))
+  assert.deepEqual(pickCandidates(allShared, ["x"]), ["evergreen"])
+})
