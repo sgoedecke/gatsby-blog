@@ -3,6 +3,7 @@ title: Grok is enabling mass sexual harassment on Twitter
 description: 
 order: 164
 date: '2026-01-02'
+autoShare: false
 popularity:
   hackerNews:
     urls:

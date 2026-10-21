@@ -93,8 +93,8 @@ list in page order, skipping posts already on both, then picks unshared posts at
 random. Once every post has been shared, it picks any post at random. Each run
 only posts to the platforms the post isn't on yet, and platforms without secrets
 are left out. That's about $0.22 a day for X. To pause it, disable the workflow
-in the Actions tab. To keep a post out of the rotation, give it an entry for each
-platform in its `crossPosts` frontmatter (any value, such as `x: "skip"`). If a
+in the Actions tab. To keep a post out of the rotation (for example because it's too
+timely to share later), add `autoShare: false` to its frontmatter. If a
 post's screenshots or excerpt can't be built, it tries the next one.
 
 To preview a post without posting, run `npm ci && npx playwright install chromium`

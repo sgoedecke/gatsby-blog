@@ -3,6 +3,7 @@ title: DeepSeek-V4-Flash means LLM steering is interesting again
 description: 
 order: 195
 date: '2026-05-16'
+autoShare: false
 popular: true
 popularity:
   score: 432
