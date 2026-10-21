@@ -57,8 +57,16 @@ export function splitSentences(paragraph) {
   while ((match = boundary.exec(text))) {
     const end = match.index + match[0].trimEnd().length
     const candidate = text.slice(start, end)
-    const lastWord = candidate.split(" ").pop().toLowerCase()
-    if (ABBREVIATIONS.has(lastWord)) continue
+    const words = candidate.split(" ")
+    const lastWord = words[words.length - 1]
+    if (ABBREVIATIONS.has(lastWord.toLowerCase())) continue
+    // A middle initial, as in "James C. Scott".
+    if (
+      /^[A-Z]\.$/.test(lastWord) &&
+      /^[A-Z][a-z]+$/.test(words[words.length - 2] || "")
+    ) {
+      continue
+    }
     sentences.push(candidate)
     start = match.index + match[0].length
   }
@@ -84,13 +92,28 @@ function joinSentences(chosen) {
     .join("")
 }
 
+const LIST_ITEM = /^(\d+\.|[-•]) /
+const ENDS_WITH_COLON = /:["'”’)\]]*$/
+
+// A list (one item per line, each starting with a marker) is kept whole, as
+// a single unit, since a partial list or a merged one reads badly.
+function paragraphUnits(paragraph) {
+  if (LIST_ITEM.test(paragraph)) return [paragraph.trim()]
+  return splitSentences(paragraph)
+}
+
 // Builds an excerpt from whole sentences, preserving paragraph breaks, that
 // satisfies `fits`. It never ends on a sentence that introduces what follows
-// (one ending in a colon). Falls back to a word-truncated first sentence.
-export function buildExcerpt(paragraphs, fits, { maxSentences = 4 } = {}) {
+// (one ending in a colon), unless `allowColon` is set and nothing else fits.
+// Falls back to a word-truncated first sentence.
+export function buildExcerpt(
+  paragraphs,
+  fits,
+  { maxSentences = 4, allowColon = false } = {}
+) {
   const chosen = []
   collect: for (const paragraph of paragraphs) {
-    const sentences = splitSentences(paragraph)
+    const sentences = paragraphUnits(paragraph)
     for (const [index, text] of sentences.entries()) {
       const next = [...chosen, { text, startsParagraph: index === 0 }]
       if (chosen.length >= maxSentences || !fits(joinSentences(next))) {
@@ -100,23 +123,26 @@ export function buildExcerpt(paragraphs, fits, { maxSentences = 4 } = {}) {
     }
   }
 
-  while (chosen.length && /:["'”’)\]]*$/.test(chosen[chosen.length - 1].text)) {
-    chosen.pop()
+  const complete = chosen.slice()
+  while (complete.length && ENDS_WITH_COLON.test(complete.at(-1).text)) {
+    complete.pop()
   }
-  if (chosen.length) return joinSentences(chosen)
+  if (complete.length) return joinSentences(complete)
+  if (allowColon && chosen.length) return joinSentences(chosen)
 
-  const first = splitSentences(paragraphs[0] || "")[0]
-  if (!first || /:["'”’)\]]*$/.test(first)) return ""
+  const first = paragraphUnits(paragraphs[0] || "")[0]
+  if (!first || (!allowColon && ENDS_WITH_COLON.test(first))) return ""
   return fits(first) ? first : truncateToWords(first, fits)
 }
 
 // The teaser tweet has no link (the link goes in a reply), so the excerpt can
-// use the full character limit.
+// use the full character limit. It may end on a colon as a last resort, since
+// the attached screenshots show what follows.
 export function composeTweet({ paragraphs, title }) {
   const excerpt = buildExcerpt(
     paragraphs,
     text => tweetLength(text) <= TWEET_LIMIT,
-    { maxSentences: 4 }
+    { maxSentences: 4, allowColon: true }
   )
   return excerpt || title
 }

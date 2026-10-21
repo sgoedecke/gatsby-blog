@@ -35,6 +35,13 @@ test("splits sentences without breaking on abbreviations", () => {
   )
 })
 
+test("does not split on middle initials", () => {
+  assert.deepEqual(
+    splitSentences("The big idea of James C. Scott's book is simple. Yes."),
+    ["The big idea of James C. Scott's book is simple.", "Yes."]
+  )
+})
+
 test("does not split on decimals or lowercase continuations", () => {
   assert.deepEqual(splitSentences("GPT-4.5 is out. version 2 too."), [
     "GPT-4.5 is out. version 2 too.",
@@ -71,6 +78,27 @@ test("composes a link-free tweet that fits in 280 weighted characters", () => {
   })
   assert.equal(tweet, `${sentence} ${sentence}`)
   assert.ok(tweetLength(tweet) <= 280)
+})
+
+test("keeps an introduced list whole, or leaves it and its intro out", () => {
+  const paragraphs = ["Intro. Three points:", "1. One.\n2. Two.\n3. Three."]
+  assert.equal(
+    buildExcerpt(paragraphs, text => text.length <= 100),
+    "Intro. Three points:\n\n1. One.\n2. Two.\n3. Three."
+  )
+  assert.equal(buildExcerpt(paragraphs, text => text.length <= 30), "Intro.")
+})
+
+test("lets a tweet end on a colon rather than fall back to the title", () => {
+  const tweet = composeTweet({
+    paragraphs: ["It comes down to three points:", `1. ${"long ".repeat(60)}`],
+    title: "Title",
+  })
+  assert.equal(tweet, "It comes down to three points:")
+  assert.equal(
+    composeLinkedInCommentary({ paragraphs: ["Three points:"] }),
+    ""
+  )
 })
 
 test("falls back to the title when there are no paragraphs", () => {

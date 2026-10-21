@@ -26,7 +26,6 @@ popularity:
   manual: 0
 tags: ["tech companies", "book reports"]
 crossPosts:
-  x: "https://x.com/i/status/2112977127750377577"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7518742820984102914/"
 ---
 
