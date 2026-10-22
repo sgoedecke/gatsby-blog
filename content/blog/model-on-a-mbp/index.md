@@ -26,6 +26,9 @@ popularity:
       - >-
         https://www.reddit.com/r/LLMDevs/comments/1mqh5vm/whats_the_strongest_ai_model_you_can_train_on_a/
   manual: 0
+crossPosts:
+  x: "https://x.com/i/status/2113337866398969985"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519103559590727680/"
 ---
 
 What's the strongest model I can train on my MacBook Pro[^1] in five minutes?
