@@ -4,6 +4,9 @@ description:
 order: 258
 date: '2026-10-23'
 tags: ["software design"]
+crossPosts:
+  x: "https://x.com/i/status/2113379160307487125"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519144853570674688/"
 ---
 
 Many people [are saying](https://rustify.rs/articles/rails-world-2026-keynote-dhh-hey-rust-ai-agents) that AI will make software faster by rewriting it in faster languages, but this isn't generally true. Most programs cannot be meaningfully sped up by rewriting them in C or Rust.
