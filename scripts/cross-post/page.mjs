@@ -87,11 +87,27 @@ function measurePost(screenshotCount) {
   }
 
   // Only the opening run of paragraphs: anything after a heading, list, or
-  // quote may need its surrounding context to make sense.
+  // quote may need its surrounding context to make sense. The exception is a
+  // list introduced by the paragraph before it (one ending in a colon), which
+  // is kept as one item per line.
   const children = Array.from(section.children)
   const firstParagraph = children.findIndex(element => element.tagName === "P")
   const paragraphs = []
   for (const element of children.slice(Math.max(firstParagraph, 0))) {
+    const previous = paragraphs[paragraphs.length - 1] || ""
+    if (
+      (element.tagName === "OL" || element.tagName === "UL") &&
+      /:["'”’)\]]*$/.test(previous)
+    ) {
+      const items = Array.from(element.children)
+        .map(clean)
+        .filter(Boolean)
+        .map((text, index) =>
+          element.tagName === "OL" ? `${index + 1}. ${text}` : `- ${text}`
+        )
+      if (items.length) paragraphs.push(items.join("\n"))
+      continue
+    }
     if (element.tagName !== "P") break
     const text = clean(element)
     if (text) paragraphs.push(text)

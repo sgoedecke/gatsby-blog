@@ -3,6 +3,7 @@ title: OpenAI's new open-source model is basically Phi-5
 description: 
 order: 127
 date: '2025-08-07'
+autoShare: false
 tags: ["ai", "openai"]
 popular: true
 popularity:

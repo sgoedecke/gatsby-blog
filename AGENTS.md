@@ -38,6 +38,9 @@ Notes:
   working down the /popular list. To share "the next one" now, run the workflow with an empty
   slug: `-f slug= -f dry_run=false`.
 
+- Posts with `autoShare: false` in their frontmatter are never picked by the
+  daily run. To keep a post out of it, add that line rather than editing
+  `crossPosts`. Sharing one by slug still works.
 - The workflow skips platforms already recorded in `crossPosts`, so rerunning
   a partly failed run only retries what failed. Only add `-f force=true` if
   the user explicitly asks to post the same article again.

@@ -19,6 +19,7 @@ export function loadPosts(repoRoot) {
         score: Number(frontmatter.popularity?.score || 0),
         order: Number(frontmatter.order || 0),
         crossPosts: frontmatter.crossPosts || {},
+        autoShare: frontmatter.autoShare !== false,
       }
     })
 }
@@ -31,7 +32,9 @@ export function isSharedEverywhere(post, platforms) {
 // page in the same order as that page (popularity score, then newest first),
 // then the remaining posts at random. A post counts as unshared until it's on
 // every platform. Once everything has been shared, any post can come up again.
-export function pickCandidates(posts, platforms, random = Math.random) {
+// Posts with `autoShare: false` in their frontmatter are never picked.
+export function pickCandidates(allPosts, platforms, random = Math.random) {
+  const posts = allPosts.filter(post => post.autoShare !== false)
   const unshared = posts.filter(post => !isSharedEverywhere(post, platforms))
   if (!unshared.length) return shuffle(posts, random).map(post => post.slug)
   const popular = unshared
