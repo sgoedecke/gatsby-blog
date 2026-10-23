@@ -74,6 +74,8 @@ The top [commenter](https://lobste.rs/c/mhuwnq) says that there are many non-IO-
 
 Other [commenters](https://lobste.rs/c/vcnyyd) [point](https://lobste.rs/c/n031ad) [out](https://lobste.rs/c/s5dkdu) that languages come with ecosystems that make performance harder or easier. I agree with that, but to me that falls under _design_: in some languages, fast designs are more natural than slow designs. If changing languages makes it easier to change designs, then sure, changing languages might speed up your program.
 
+Anyway, I do think my point empirically stands: if you go around with a LLM trying to "make software faster by rewriting it in C" you are going to run into software that's already been suprisingly optimized compared to a rewrite, or IO-bound workloads that can't be easily sped up, and you should instead be telling your LLM to "make software faster by redesigning it".
+
 
 [^1]: This might seem ridiculously high (if you typically work with slow languages or CPU-bound workloads), or ridiculously low (if you don't). In my experience it's at least in the ballpark for interpreted languages.
 
