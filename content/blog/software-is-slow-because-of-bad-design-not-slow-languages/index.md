@@ -3,6 +3,21 @@ title: Software is slow because of bad design, not slow languages
 description: 
 order: 258
 date: '2026-10-23'
+popularity:
+  lobsters:
+    urls:
+      - 'https://lobste.rs/s/hd72yt/software_is_slow_because_bad_design_not'
+    points: 29
+    comments: 32
+    threads: 1
+  score: 247
+  hackerNews:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["software design"]
 crossPosts:
   x: "https://x.com/i/status/2113379160307487125"
@@ -49,6 +64,13 @@ Right now everyone is asking their AI agents to rewrite programs in Rust or C or
 If you want to make everything faster with AI - and you should! - you ought instead to be asking your agent to profile programs, identify hotspots, and suggest ways to redesign what the program does. Occasionally you may run into a hotspot that is truly CPU-bound and cannot be refactored to do less work. In these rare cases, rewriting that section in a faster language will help. But simply rewriting from the start will be far less successful than most people imagine.
 
 There are many good reasons to rewrite software in a different language: portability, efficiency, maintainability, and so on. But in terms of raw _speed_, you're better off focusing on the program's design.
+
+
+edit: this post got some comments on [lobste.rs](https://lobste.rs/s/hd72yt/software_is_slow_because_bad_design_not). Many commenters [disagree](https://lobste.rs/c/wcyo4k) that CRUD software is IO-bound, because database queries take ~5ms but responses take ~500ms. I don't know about that. It's not uncommon for a single request to make many tens of queries, or to rely on large queries or internal API calls that are a lot slower than 5ms (at least in my experience looking at flamegraphs). While I have profiled a _lot_ of Rails endpoints in my career, it's only been at a couple of companies. Maybe other monoliths are different.
+
+The top [commenter](https://lobste.rs/c/mhuwnq) says that there are many non-IO-bound programs, such as browser layout engines, 3d renderers, word processors, and neural networks. I agree that those examples are CPU-bound, but I think most engineers are not working on tasks like that. My sense is that the number of browser layout engines, 3d renderers and neural network programs in the world, all summed together, might make up about five percent of the number of CRUD programs (though they make up >50% of public _discussion_ about programming, because they're more interesting problems). Maybe I'm wrong!
+
+Other [commenters](https://lobste.rs/c/vcnyyd) [point](https://lobste.rs/c/n031ad) [out](https://lobste.rs/c/s5dkdu) that languages come with ecosystems that make performance harder or easier. I agree with that, but to me that falls under _design_: in some languages, fast designs are more natural than slow designs. If changing languages makes it easier to change designs, then sure, changing languages might speed up your program.
 
 
 [^1]: This might seem ridiculously high (if you typically work with slow languages or CPU-bound workloads), or ridiculously low (if you don't). In my experience it's at least in the ballpark for interpreted languages.

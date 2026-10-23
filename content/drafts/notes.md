@@ -1,12 +1,5 @@
 
 
----
-https://t.co/1cVC7dKBcg
-
-technical work is not art. programming and science is not art
-you can admire its beauty but it is _instrumental_
-it is in service of users: ordinary people who will interact with the software as a tool
-glod gloddson
 
 ==
 ## Writing great ADRs with LLMs
@@ -54,9 +47,6 @@ burnout is hard work unrewarded
 sponsor, don't mentor
 
 erotic role play and local models
-
-writing as evidence vs writing as communication
-
 
 
 ---
