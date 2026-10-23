@@ -27,6 +27,9 @@ popularity:
         https://www.reddit.com/r/softwarearchitecture/comments/1nbihd1/make_invalid_states_unrepresentable_considered/
   manual: 0
 tags: ["software design"]
+crossPosts:
+  x: "https://x.com/i/status/2113699848277147767"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519465541523238912/"
 ---
 
 One of the most controversial things I believe about good software design is that **your code should be more flexible than your domain model**. This is in direct opposition to a lot of popular design advice, which is all about binding your code to your domain model as tightly as possible.
