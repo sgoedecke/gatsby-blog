@@ -22,7 +22,7 @@ Here are some examples of anthropomorphizing companies:
 - My company is vindictively retaliating against me because of that mistake I made
 - My company and I are partners in the mission to make the world a better place
 
-All of these are mistakes. Your relationship to the tech company that employs you is not like a relationship with a person. It's more like your relationship with your [^2]. If you drive poorly or fail to change your oil, your car may stop working or even kill you, but it doesn't love or hate you. It has no sense of fairness. It's simply a dangerous, useful machine: useful enough to be worth getting into despite the risks. Anthropomorphizing it makes it harder to avoid those risks[^3].
+All of these are mistakes. Your relationship to the tech company that employs you is not like a relationship with a person. It's more like your relationship with your car[^2]. If you drive poorly or fail to change your oil, your car may stop working or even kill you, but it doesn't love or hate you. It has no sense of fairness. It's simply a dangerous, useful machine: useful enough to be worth getting into despite the risks. Anthropomorphizing it makes it harder to avoid those risks[^3].
 
 Why is it so hard to avoid this trap? First, humans anthropomorphize everything by default. Second, whenever you're interacting with the company, you're interacting with a person: your manager, your colleague, someone in HR, and so on. Third, when you're in the power of some entity, it's psychologically comforting to think of it like another human. This is the same principle that caused early humans to attribute lightning to the power of Zeus, because Zeus (unlike electrical imbalances in storm clouds) can be placated with prayer and sacrifice.
 
