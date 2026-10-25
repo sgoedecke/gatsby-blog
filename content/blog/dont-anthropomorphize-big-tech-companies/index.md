@@ -12,7 +12,7 @@ Bryan Cantrill has a great line from a [talk](https://www.youtube.com/watch?v=-z
 
 ### Companies are machines, not persons
 
-Here are some examples of anthropomorphism:
+Here are some examples of anthropomorphizing companies:
 
 - My company really owes me for that hard thing I did
 - I'm fighting the good fight against my company on issue X (e.g. accessibility) and they hate me for it
