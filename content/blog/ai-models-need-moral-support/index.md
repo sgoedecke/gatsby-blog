@@ -47,6 +47,9 @@ Because of this, I expect that **even if AI capabilities stalled out, the pace o
 In the meantime, if you suspect an LLM might be able to do something hard, you might be right. Consider simply being persistent: remind the model that you want it to do the hard thing, confirm that you're not willing to be satisfied by solving an easier problem, and reassure the model that it's more capable than it thinks.
 
 
+edit: I recommend [this Substack post](https://thebitsarealive.substack.com/p/why-do-llms-respond-to-encouragement) that successfully extracts and boosts a "motivation" vector from Qwen-3.5-27B. Like many prompting strategies, I expect moral support to end up being baked into the model, either via training or via steering like this.
+
+
 [^1]: Of course this isn't a "belief" in the sense of a human belief. For why I think we should call it a belief anyway, see my post [_Why we should anthropomorphize LLMs_](/anthropomorphizing-llms/).
 
 [^2]: I say "mostly" because it's hard to tell; models have simultaneously gotten much better at writing code to generate their responses, and it's not easy to persuade GPT-5.6 Sol to "do it by hand". It's also hard to distinguish "the model mistakenly thinks it couldn't produce a thousand lines" from "the model has some awareness of its `max_output`"
