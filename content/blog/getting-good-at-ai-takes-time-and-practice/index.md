@@ -44,7 +44,7 @@ Don't be a doomer. Like chess, software's centaur age - the period where a human
 
 ### Conclusion
 
-I've left a lot of skills out. For one, even though it's not _durably_ useful to stay up to date with the current set of tricks (plus knowing which model is the best for which tasks), it's still very useful in the short-term. Keeping up without getting lost is a skill in its own right. Simon Willison also has a good list [here](https://lobste.rs/c/hdvevr), which mostly does not overlap with mine.
+I've left a lot of skills out: knowing when to abandon or steer an agent session, how to break work up between agents, when to trust AI claims and when to verify, how to minimize costs by using smaller models, and so on. On top of all that, even though it's not _durably_ useful to stay up to date with the current set of tricks (plus knowing which model is the best for which tasks), it's still very useful in the short-term. Keeping up without getting lost is a skill in its own right.
 
 It shouldn't be surprising that working with AI involves actual skills. It's like working with a really weird person: a savant with mad skills in some areas and huge gaps in others, a prolific but inexpert communicator, a workaholic with no long-term memory, and so on. If you were a manager and had someone like that as your employee, you could likely get a lot of value out of them, but it would take time[^10] to figure out how.
 
