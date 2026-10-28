@@ -24,6 +24,9 @@ popularity:
     urls: []
   manual: 0
 tags: ["good engineers", "software design"]
+crossPosts:
+  x: "https://x.com/i/status/2115527528454533494"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7521293222028029956/"
 ---
 
 Technical taste is different from technical skill. You can be technically strong but have bad taste, or technically weak with good taste. Like taste in general, technical taste sometimes runs ahead of your ability: just like you can tell good food from bad without being able to cook, you can know what kind of software you like before you've got the ability to build it. You can develop technical ability by study and repetition, but good taste is developed in a more mysterious way.
