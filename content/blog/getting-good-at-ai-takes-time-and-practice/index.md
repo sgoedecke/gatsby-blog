@@ -4,6 +4,9 @@ description:
 order: 260
 date: '2026-10-28'
 tags: ["ai", "prompting"]
+crossPosts:
+  x: "https://x.com/i/status/2115385464505196794"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7521151157617090560/"
 ---
 
 Many people think[^1] that getting "good at AI" is trivial. Sure, with some early models there were tricks you had to learn,[^2] but current models don't need them. Even if there are different tricks[^3] that work on current models, the next generation will render them obsolete, so why bother? Just tell the model what you want it to do.
