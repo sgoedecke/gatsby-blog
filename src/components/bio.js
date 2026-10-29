@@ -37,7 +37,7 @@ const Bio = () => {
       }}
     >
       <p>
-        <a href="https://buttondown.com/seangoedecke" target="_blank">subscribe</a> │ <Link to="/about">about</Link> │ <Link to="/popular">popular</Link> │ <Link to="/tags">tags</Link> │ <a href="/rss.xml">rss</a>
+        <a href="https://buttondown.com/seangoedecke" target="_blank">subscribe</a> │ <a href="https://www.patreon.com/cw/seangoedecke" target="_blank">patreon</a> │ <Link to="/about">about</Link> │ <Link to="/popular">popular</Link> │ <Link to="/tags">tags</Link> │ <a href="/rss.xml">rss</a>
       </p>
     </div>
   )
