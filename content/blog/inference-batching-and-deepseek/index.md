@@ -24,6 +24,9 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "explainers", "deepseek", "inference"]
+crossPosts:
+  x: "https://x.com/i/status/2116249374846054613"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7522015068306464768/"
 ---
 
 Why is DeepSeek-V3 supposedly fast and cheap to serve at scale, but too slow and expensive to run locally? Why are some AI models slow to respond but fast once they get going?
