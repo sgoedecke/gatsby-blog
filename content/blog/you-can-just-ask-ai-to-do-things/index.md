@@ -4,6 +4,9 @@ description:
 order: 261
 date: '2026-10-29'
 tags: ["ai", "prompting"]
+crossPosts:
+  x: "https://x.com/i/status/2115715577411195392"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7521481270028148738/"
 ---
 
 One of the most important skills in working with AI is _agency_: being willing to try new and ambitious things. This is true for [what](https://danluu.com/ambitious/) you build, but it's also true for [how](/getting-good-at-ai-takes-time-and-practice/) you build. AI models are improving so quickly that most of us are bottlenecked[^1] on noticing that AI agents can help automate particular tasks. Here are some examples of that from my daily work.
