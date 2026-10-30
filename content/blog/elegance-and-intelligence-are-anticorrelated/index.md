@@ -4,6 +4,9 @@ description:
 order: 262
 date: '2026-10-30'
 tags: ["mathematics", "ai", "technical clarity"]
+crossPosts:
+  x: "https://x.com/i/status/2116064362511138821"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7521830055787040768/"
 ---
 
 Elegance and intelligence can have a surprisingly negative correlation. Intelligent people sometimes produce inelegant solutions because they're capable of rapidly brute-forcing problems. If I had to remember a hundred names, I would spend time coming up with clever mnemonics. John von Neumann would probably just remember them.
