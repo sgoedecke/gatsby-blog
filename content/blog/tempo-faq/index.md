@@ -4,6 +4,7 @@ description:
 order: 136
 date: '2025-09-05'
 tags: ["crypto", "explainers"]
+autoShare: false
 crossPostText:
   x: |-
     Stripe just announced Tempo, a “L1 blockchain” for “stablecoin payments”. What does any of this mean? In 2021, I was interested enough in blockchain to write a simple explainer and a technical description of Bitcoin specifically. But I’ve never been a blockchain fan.

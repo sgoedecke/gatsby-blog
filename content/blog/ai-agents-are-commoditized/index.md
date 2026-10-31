@@ -4,6 +4,7 @@ description:
 order: 102
 date: '2025-06-25'
 tags: ["ai"]
+autoShare: false
 crossPostText:
   x: |-
     All of a sudden, it’s the year of AI coding agents. Claude released Claude Code, OpenAI released their Codex agent, GitHub released its own autonomous coding agent, and so on.

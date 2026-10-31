@@ -27,6 +27,7 @@ popularity:
     urls:
       - 'https://www.youtube.com/watch?v=DRyb3jA0ZOM'
 tags: ["ai", "ethics", "alignment failures", "openai", "model personality"]
+autoShare: false
 crossPostText:
   x: |-
     People have been making fun of OpenAI models for being overly sycophantic for months now. I even wrote a post advising users to pretend that their work was written by someone else, to counteract the model’s natural desire to shower praise on the user.

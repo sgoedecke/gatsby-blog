@@ -27,11 +27,11 @@ popularity:
 tags: ["tech companies"]
 crossPostText:
   x: |-
-    “Glue work” is an concept Tanya Reilly came up with in 2019. The idea is that there’s a large amount of unglamorous work that every team needs in order to be efficient.
+    So why doesn’t glue work get you promoted, if it’s so crucial to shipping projects? Are companies stupid? Are they deliberately leaving value on the table? No, I don’t think so. Companies don’t reward glue work because they don’t want you prioritizing it.
   linkedin: |-
-    “Glue work” is an concept Tanya Reilly came up with in 2019. The idea is that there’s a large amount of unglamorous work that every team needs in order to be efficient: updating the docs and roadmap, addressing technical debt, onboarding engineers, making sure people talk to their counterparts on other teams, noticing strands that are getting dropped, and so on. Practical, naive engineers gravitate to this work because it’s obviously useful, but at promo or bonus time they’re ignored in favor of the engineers who did more visible work (like delivering new features).
+    So why doesn’t glue work get you promoted, if it’s so crucial to shipping projects? Are companies stupid? Are they deliberately leaving value on the table? No, I don’t think so. Companies don’t reward glue work because they don’t want you prioritizing it. And they don’t want you prioritizing it because they want you shipping features. Glue work is hard. If you’re capable of doing glue work well, they want you to use that ability to deliver projects instead of improving general efficiency.
 
-    I think this concept is excellent.
+    The core problem is that you’re deciding for yourself what the company needs instead of doing your job.
 ---
 
 "Glue work" is an concept Tanya Reilly [came up with](https://www.noidea.dog/glue) in 2019. The idea is that there's a large amount of unglamorous work that every team needs in order to be efficient: updating the docs and roadmap, addressing technical debt, onboarding engineers, making sure people talk to their counterparts on other teams, noticing strands that are getting dropped, and so on. Practical, naive engineers gravitate to this work because it's obviously useful, but at promo or bonus time they're ignored in favor of the engineers who did more visible work (like delivering new features).

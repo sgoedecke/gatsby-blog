@@ -23,6 +23,7 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+autoShare: false
 crossPostText:
   x: |-
     Anthropic and OpenAI both recently announced “fast mode”: a way to interact with their best coding model at significantly higher speeds.
