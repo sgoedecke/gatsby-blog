@@ -1,5 +1,5 @@
 ---
-title: How to get assigned important work in big tech companies
+title: Fast and slow ways to improve your reputation
 description: 
 order: 263
 date: '2026-11-01'
