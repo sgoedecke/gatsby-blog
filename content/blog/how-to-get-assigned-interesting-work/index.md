@@ -4,6 +4,9 @@ description:
 order: 263
 date: '2026-11-01'
 tags: ["tech companies", "good engineers"]
+crossPosts:
+  x: "https://x.com/i/status/2116680868043387134"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7522446561109311489/"
 ---
 
 To get a good reputation in tech companies, you need to work on important projects. However, you need a good reputation first in order to get assigned important projects. Doesn't that make it impossible to get started? I get a lot of emails from engineers who are struggling with this problem. They go like this:
