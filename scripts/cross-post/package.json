@@ -10,6 +10,7 @@
     "cross-post": "node index.mjs",
     "preview": "node index.mjs --dry-run",
     "linkedin-auth": "node linkedin-auth.mjs",
+    "bake-text": "node bake.mjs",
     "test": "node --test"
   },
   "dependencies": {

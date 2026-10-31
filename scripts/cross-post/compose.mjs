@@ -160,3 +160,42 @@ export function composeLinkedInCommentary({ paragraphs }) {
     { maxSentences: 6 }
   )
 }
+
+export const LINKEDIN_COMMENTARY_LIMIT = 3000
+
+export function composeCrossPostText({ paragraphs, title }) {
+  return {
+    x: composeTweet({ paragraphs, title }),
+    linkedin: composeLinkedInCommentary({ paragraphs }),
+  }
+}
+
+// The share text for each platform: the post's hand-edited `crossPostText`
+// frontmatter where it has some, otherwise the automatic excerpt. Throws if
+// the hand-edited text is too long to post.
+export function resolveCrossPostText({ paragraphs, title, custom = {} }) {
+  const composed = composeCrossPostText({ paragraphs, title })
+  if (custom.x && tweetLength(custom.x) > TWEET_LIMIT) {
+    throw new Error(
+      `crossPostText.x is ${tweetLength(
+        custom.x
+      )} characters; X allows ${TWEET_LIMIT}.`
+    )
+  }
+  if (
+    custom.linkedin &&
+    escapeLittleText(custom.linkedin).length > LINKEDIN_COMMENTARY_LIMIT
+  ) {
+    throw new Error(
+      `crossPostText.linkedin is too long; LinkedIn allows ${LINKEDIN_COMMENTARY_LIMIT} characters.`
+    )
+  }
+  return {
+    x: custom.x || composed.x,
+    linkedin: custom.linkedin || composed.linkedin,
+    custom: {
+      x: Boolean(custom.x),
+      linkedin: Boolean(custom.linkedin),
+    },
+  }
+}
