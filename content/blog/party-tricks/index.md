@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["tech companies", "good engineers"]
+crossPostText:
+  x: |-
+    Don’t be a JIRA ticket zombie! I think a common experience among ambitious juniors — certainly I did this once — is to get frustrated at the slow pace of a team and decide “screw it, I’ll just burn through all these tickets”.
+  linkedin: |-
+    Don’t be a JIRA ticket zombie! I think a common experience among ambitious juniors — certainly I did this once — is to get frustrated at the slow pace of a team and decide “screw it, I’ll just burn through all these tickets”. On many teams, it’s not that hard to do 2x or 3x more tickets than the next most productive person. But this is a dead end. You’ll get a pat on the head, told “nice work, don’t burn yourself out”, and no progress towards a senior promotion.
+
+    Everything you could want from a company — promotions, bonuses, internal respect — comes from shipping projects, not from closing out tickets.
 ---
 
 Don't be a JIRA ticket zombie! I think a common experience among ambitious juniors - certainly I did this once - is to get frustrated at the slow pace of a team and decide "screw it, I'll just burn through all these tickets". On many teams, it's not that hard to do 2x or 3x more tickets than the next most productive person. But this is a dead end. You'll get a pat on the head, told "nice work, don't burn yourself out", and no progress towards a senior promotion.

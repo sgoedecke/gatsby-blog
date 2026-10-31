@@ -4,6 +4,13 @@ description:
 order: 207
 date: '2026-06-27'
 tags: ["writing"]
+crossPostText:
+  x: |-
+    Stating the obvious is surprisingly useful. Most of your knowledge lives below the threshold of conscious awareness, so it’s possible for a piece of writing to remind you of what you already know.
+  linkedin: |-
+    Stating the obvious is surprisingly useful. Most of your knowledge lives below the threshold of conscious awareness, so it’s possible for a piece of writing to remind you of what you already know. It’s common to know you don’t like something without being quite sure why, and reading an obvious statement (such as “accuracy matters, even when you agree with the broad strokes”) can help clarify why you find certain things distasteful.
+
+    Sometimes you can see some obvious truth that nobody seems to be talking about, and reading it in someone else’s words can prompt an “oh god, I’m not crazy” moment of catharsis.
 ---
 
 Stating the obvious is [surprisingly useful](https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/). Most of your knowledge lives below the threshold of conscious awareness, so it's possible for a piece of writing to remind you of what you already know. It's common to know you don't like something without being quite sure why, and reading an obvious statement (such as "accuracy [matters](https://www.astralcodexten.com/p/if-its-worth-your-time-to-lie-its), even when you agree with the broad strokes") can help clarify why you find certain things distasteful.

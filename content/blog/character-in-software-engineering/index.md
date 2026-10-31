@@ -4,6 +4,13 @@ description:
 order: 79
 date: '2025-05-10'
 tags: ["emotional regulation", "good engineers"]
+crossPostText:
+  x: |-
+    Software engineers care a lot about being smart and knowledgeable. Conversations about how to become a better software engineer often center around learning more facts: programming language syntax, design patterns, details of how particular technologies work, and so on.
+  linkedin: |-
+    Software engineers care a lot about being smart and knowledgeable. Conversations about how to become a better software engineer often center around learning more facts: programming language syntax, design patterns, details of how particular technologies work, and so on. It’s also undeniable that having a strong working memory is really useful, if only so you can fit more of a codebase in your head. However, there’s a whole other dimension to being a strong software engineer that doesn’t get talked about as much: virtue.
+
+    What do I mean by virtue? I mean the kind of person you are: the quality of your internal self.
 ---
 
 Software engineers care a lot about being smart and knowledgeable. Conversations about how to become a better software engineer often center around learning more facts: programming language syntax, design patterns, details of how particular technologies work, and so on. It's also undeniable that having a strong working memory is really useful, if only so you can fit more of a codebase in your head. However, there's a whole other dimension to being a strong software engineer that doesn't get talked about as much: virtue.

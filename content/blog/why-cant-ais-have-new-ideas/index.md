@@ -4,6 +4,11 @@ description:
 order: 80
 date: '2025-05-11'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Why can’t large language models come up with new ideas? Human polymaths routinely come up with interesting new ideas by combining insights from different areas.
+  linkedin: |-
+    Why can’t large language models come up with new ideas? Human polymaths routinely come up with interesting new ideas by combining insights from different areas. But language models have not come up with any notable new ideas, despite being familiar with a far broader range of knowledge than any human. Is that surprising? What’s going on here?
 ---
 
 Why can't large language models come up with new ideas? Human polymaths routinely come up with interesting new ideas by combining insights from different areas. But language models have not come up with any notable new ideas, despite being familiar with a far broader range of knowledge than any human[^1]. Is that surprising? What's going on here?

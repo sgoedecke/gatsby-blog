@@ -4,6 +4,13 @@ description:
 order: 114
 date: '2025-07-14'
 tags: ["ai", "side projects", "agents"]
+crossPostText:
+  x: |-
+    I’ve always been interested by the third-act turn in Ender’s Game where the child strategists switch from directly controlling units to giving higher-level strategic orders.
+  linkedin: |-
+    I’ve always been interested by the third-act turn in Ender’s Game where the child strategists switch from directly controlling units to giving higher-level strategic orders. The communication problem just seems fascinating: you gain a huge amount of flexibility, but you have to adapt to decisions made on the ground by your subordinates. For similar reasons, I’ve been interested in how giving orders worked in pre-modern battles where sending messages was very difficult.
+
+    When I read about Cataphract, a play-by-mail role playing game that leaned into this idea, I thought about LLMs. Their ability to interpret (or misinterpret) text is brand-new.
 ---
 
 I've always been interested by the third-act turn in Ender's Game where the child strategists switch from directly controlling units to giving higher-level strategic orders. The communication problem just seems fascinating: you gain a huge amount of flexibility, but you have to adapt to decisions made on the ground by your subordinates. For similar reasons, I've been interested in how giving orders [worked](https://acoup.blog/2022/06/03/collections-total-generalship-commanding-pre-modern-armies-part-ii-commands/) in pre-modern battles where sending messages was very difficult.

@@ -4,6 +4,13 @@ description:
 order: 224
 date: '2026-08-16'
 tags: ["ai", "ai watermarks", "ai writing"]
+crossPostText:
+  x: |-
+    People are pretty unhappy about Anthropic’s recent announcement that they’re planning to include a hidden watermark in Claude model outputs. Will this lead to a mass exodus from Anthropic models? Will the introduction of watermarking be a meaningful change for users?
+  linkedin: |-
+    People are pretty unhappy about Anthropic’s recent announcement that they’re planning to include a hidden watermark in Claude model outputs. Will this lead to a mass exodus from Anthropic models? Will the introduction of watermarking be a meaningful change for users?
+
+    No. AI text watermarking is not a big deal. It doesn’t make the text worse, it doesn’t make AI outputs more detectable in practice, it doesn’t violate user privacy, and everyone’s going to be doing it by 2027 regardless.
 ---
 
 People are [pretty](https://x.com/arturovilla/status/2088406939466084643?s=20) [unhappy](https://x.com/NickADobos/status/2088350712359256440?s=20) about Anthropic's recent [announcement](https://www.anthropic.com/news/claude-text-watermark) that they're planning to include a hidden watermark in Claude model outputs. Will this lead to a mass exodus from Anthropic models? Will the introduction of watermarking be a meaningful change for users?

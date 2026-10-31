@@ -4,6 +4,13 @@ description: How ReAct-pattern agents work and how to build them yourself
 order: 10
 date: '2023-11-26'
 tags: ["ai", "explainers", "agents"]
+crossPostText:
+  x: |-
+    If you want a large language model like GPT-3 to perform a task for you, the simplest way is to just ask it. Writing out a single prompt with your question is surprisingly effective.
+  linkedin: |-
+    If you want a large language model like GPT-3 to perform a task for you, the simplest way is to just ask it. Writing out a single prompt with your question is surprisingly effective. But what happens when the task requires capabilities that the language model doesn’t have (like searching the web, writing to files, or performing complex mathematics)? That’s when a ReAct-pattern agent can be helpful.
+
+    I spent a few months trying to apply a ReAct agent to a difficult task: automatically turning an issue into a pull request against a large codebase. I had a surprising amount of success, and I think these kinds of agents are still way under-utilized.
 ---
 
 If you want a large language model like GPT-3 to perform a task for you, the simplest way is to just ask it. Writing out a single prompt with your question is surprisingly effective. But what happens when the task requires capabilities that the language model doesn’t have (like searching the web, writing to files, or performing complex mathematics)? That’s when a ReAct-pattern agent can be helpful.

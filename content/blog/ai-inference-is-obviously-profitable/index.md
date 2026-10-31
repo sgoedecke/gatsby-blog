@@ -19,6 +19,13 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai", "bubble"]
+crossPostText:
+  x: |-
+    Many people claim that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. When that dumb money goes away, so will AI products.
+  linkedin: |-
+    Many people claim that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. When that dumb money goes away, so will AI products. According to this view, LLMs are just inherently too expensive (in terms of money, power, and water) to be used in consumer products. In fact, they can only be used today by externalizing the costs: money onto VC funds and now retail ETF investors, power onto electric utility consumers, and water onto the communities where datacenters are built.
+
+    There are good reasons to dislike AI, but this really isn’t one of them.
 ---
 
 Many people [claim](https://www.wheresyoured.at/why-everybody-is-losing-money-on-ai/) that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. When that dumb money goes away, so will AI products. According to this view, LLMs are just inherently too expensive (in terms of money, power, and water) to be used in consumer products. In fact, they can only be used today by externalizing the costs: money onto VC funds and now retail ETF [investors](https://www.investopedia.com/spacex-stock-joins-major-index-funds-what-regular-investors-need-to-know-spcx-ipo-vanguard-blackrock-vti-itot-12004764), power onto electric utility [consumers](https://salatainstitute.harvard.edu/how-you-subsidize-big-tech-with-your-electricity-bill/), and water onto the [communities](https://theconversation.com/5-ways-data-centers-endanger-their-local-communities-and-the-country-as-a-whole-282348) where datacenters are built.

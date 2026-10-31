@@ -34,6 +34,13 @@ popularity:
         https://www.reddit.com/r/SlopcoreCirclejerk/comments/1tw6vqz/many_antiai_arguments_are_conservative_arguments/
   manual: 0
 tags: ["ai", "ethics", "politics"]
+crossPostText:
+  x: |-
+    Most anti-AI rhetoric is left-wing coded. Popular criticisms of AI describe it as a tool of techno-fascism, or appeal to predominantly left-wing concerns like carbon emissions, democracy, or police brutality.
+  linkedin: |-
+    Most anti-AI rhetoric is left-wing coded. Popular criticisms of AI describe it as a tool of techno-fascism, or appeal to predominantly left-wing concerns like carbon emissions, democracy, or police brutality. Anti-AI sentiment is surprisingly bipartisan, but the big anti-AI institutions are labor unions and the progressive wing of the Democrats.
+
+    This has always seemed weird to me, because the contents of most anti-AI arguments are actually right-wing coded. They’re not necessarily intrinsically right-wing, but they’re the kind of arguments that historically have been made by conservatives, not liberals or leftists.
 ---
 
 Most anti-AI rhetoric is left-wing coded. Popular criticisms of AI describe it as a tool of [techno-fascism](https://www.theatlantic.com/podcasts/archive/2025/09/ai-and-the-fight-between-democracy-and-autocracy/684095/), or appeal to predominantly left-wing concerns like [carbon emissions](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/), [democracy](https://www.theguardian.com/commentisfree/2025/sep/10/tech-companies-are-stealing-our-books-music-and-films-for-ai-its-brazen-theft-and-must-be-stopped), or [police brutality](https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here). Anti-AI _sentiment_ is [surprisingly bipartisan](https://www.pewresearch.org/short-reads/2025/11/06/republicans-democrats-now-equally-concerned-about-ai-in-daily-life-but-views-on-regulation-differ/), but the big anti-AI institutions are [labor](https://www.equaltimes.org/hollywood-s-stand-against-ai-a?lang=en) [unions](https://news.bloomberglaw.com/daily-labor-report/punching-in-union-leaders-gear-up-to-tackle-ai-in-future-talks) and the [progressive wing](https://www.sanders.senate.gov/press-releases/news-sanders-ocasio-cortez-announce-ai-data-center-moratorium-act/) of the Democrats.

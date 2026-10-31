@@ -24,6 +24,15 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "projects"]
+crossPostText:
+  x: |-
+    I built an infinite, AI-generated wiki. You can try it out at endlesswiki.com!
+
+    edit: I’m very happy with how this worked. Over 62,000 pages generated, and over 200,000 links.
+  linkedin: |-
+    I built an infinite, AI-generated wiki. You can try it out at endlesswiki.com!
+
+    edit: I’m very happy with how this worked. Over 62,000 pages generated, and over 200,000 links. You can look at the constellation map to see what topics the wiki spent the most time on. There are some really curious pockets (DIY zine culture, or “Oklahoma City incidents”).
 ---
 
 I built an infinite, AI-generated wiki. You can try it out at [endlesswiki.com](https://www.endlesswiki.com/)!

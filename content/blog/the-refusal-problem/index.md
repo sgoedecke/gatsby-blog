@@ -4,6 +4,11 @@ description:
 order: 123
 date: '2025-07-29'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Everyone’s interested in what language models can do. But what about what they will do?
+  linkedin: |-
+    Everyone’s interested in what language models can do. But what about what they will do?
 ---
 
 Everyone's interested in what language models _can_ do. But what about what they _will_ do? Try giving ChatGPT 4o a menial task that will generate a few pages of boilerplate output, such as:

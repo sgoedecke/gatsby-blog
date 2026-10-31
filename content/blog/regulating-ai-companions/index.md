@@ -4,6 +4,13 @@ description:
 order: 119
 date: '2025-07-19'
 tags: ["ai", "ethics", "alignment failures", "policy", "openai", "model personality"]
+crossPostText:
+  x: |-
+    In April, OpenAI screwed up by releasing a version of GPT-4o that was overly sycophantic. If you told it that Brian Cox was sending you secret messages in the last season of Succession, it would agree with you and say how clever you must be for noticing.
+  linkedin: |-
+    In April, OpenAI screwed up by releasing a version of GPT-4o that was overly sycophantic. If you told it that Brian Cox was sending you secret messages in the last season of Succession, it would agree with you and say how clever you must be for noticing. After a few days, they dialed it back a bit and apologized, blaming how they’d set up the model to learn from user thumbs-up and thumbs-down ratings.
+
+    Fair enough. One consistent story in the last twelve months is how hard it is to get AI models to behave exactly how you want them to, with Grok’s “Mecha-Hitler” persona being the obvious example.
 ---
 
 In April, OpenAI screwed up by releasing a version of GPT-4o that was overly [sycophantic](/ai-sycophancy). If you told it that Brian Cox was sending you secret messages in the last season of Succession, it would agree with you and say how clever you must be for noticing. After a few days, they dialed it back a bit and [apologized](https://openai.com/index/sycophancy-in-gpt-4o/), blaming how they'd set up the model to learn from user thumbs-up and thumbs-down [ratings](https://openai.com/index/expanding-on-sycophancy/).
@@ -18,7 +25,7 @@ When I do use 4o - mostly by accident - I am struck by _how much more sycophanti
 
 Why does 4o have a more sycophantic personality than o3? I don't think it's a mistake. It's a consequence of the models' different demographics. 4o is optimized for mass appeal: for people who are new to AI, or just want to idly chat with a model. o3 is optimized for professional use: for people who are a bit more familiar with how AI works, and want a coding or research assistant. Making o3 more sycophantic would be a bad business decision, because it would make it less useful to its target audience. But **making 4o more sycophantic makes it better at appealing to its target audience**.
 
-ChatGPT is the [top free app](https://apps.apple.com/us/charts/iphone) on the Apple App Store. It has [ten million](https://explodingtopics.com/blog/chatgpt-users) paying subscribers. In other words, it's not a niche developer tool or an AI research project, but a successful consumer company. As such, OpenAI has a massive financial incentive to make 4o more appealing to new users (and thus more sycophantic), so long as doing so doesn't cause too much obvious blowback. Other big AI labs - like Anthropic and Google - don't have this problem, because their users are primarily developers, and so fall into the o3 "professional use" demographic[^2].
+ChatGPT is the [top free app](https://apps.apple.com/us/charts/iphone) on the Apple App Store. It has [ten million](https://explodingtopics.com/blog/chatgpt-users) paying subscribers. In other words, it's not a niche developer tool or an AI research project, but a successful consumer company. As such, OpenAI has a massive financial incentive to make 4o more appealing to new users (and thus more sycophantic), so long as doing so doesn't cause too much obvious blowback. Other big AI labs - like Anthropic and Google - don't have this problem, because their users are primarily developers, and so fall into the o3 "professional use" demographic[^1].
 
 ### xAI, Grok, and the race to the bottom
 
@@ -34,15 +41,15 @@ Even if AI progress stalled out today, we will still see users developing unheal
 
 ### Regulation as a solution to incentive problems
 
-At the beginning, I said that AI models are grown, not designed. Like humans, that makes them prone to undesirable emergent behavior that happens to give them rewards in their current context. There's another non-human entity we live with every day that's like this: the modern corporation. Corporations are made up of people, but they are not people[^1]. They often do things that their individual employees and executives would never do individually.
+At the beginning, I said that AI models are grown, not designed. Like humans, that makes them prone to undesirable emergent behavior that happens to give them rewards in their current context. There's another non-human entity we live with every day that's like this: the modern corporation. Corporations are made up of people, but they are not people[^2]. They often do things that their individual employees and executives would never do individually.
 
 Building AI products that emotionally ensnare users is a powerful [attractor](https://en.wikipedia.org/wiki/Attractor) for corporations. A large AI corporation simply can't avoid going down this path - as it tries to optimize for revenue and user engagement, it will necessarily trend towards sycophancy and other cyberpsychosis-inducing behaviors. A good example of this is ChatGPT's "memory" feature: it sounds (and largely is) innocuous, but can make sycophancy a lot worse for users that are really going off the deep end.
 
 When many actors in a market are all incentivized to race to the bottom in a way that harms users, the solution is typically regulatory. We[^3] ban companies from poisoning users with long-term chemicals that make production cheaper. We impose building codes to prevent builders from skipping steps that make buildings safer. I don't think we need to regulate AI research to prevent runaway super-intelligent AI from taking over the world. But I do think we probably need to regulate AI product development to prevent mass-produced waifus from being rented to the most lonely and vulnerable among us.
 
 
-[^1]: Legal technicalities [notwithstanding](https://en.wikipedia.org/wiki/Citizens_United_v._FEC).
+[^1]: If you count Google's AI search preview, Google's users are not primarily developers. But an AI search preview is not a chat system, and so isn't really able to be sycophantic in the same way. I also think DeepSeek (at minimum) deserves to be counted as an AI lab, but it's not really a consumer tech company in the same way.
 
-[^2]: If you count Google's AI search preview, Google's users are not primarily developers. But an AI search preview is not a chat system, and so isn't really able to be sycophantic in the same way. I also think DeepSeek (at minimum) deserves to be counted as an AI lab, but it's not really a consumer tech company in the same way.
+[^2]: Legal technicalities [notwithstanding](https://en.wikipedia.org/wiki/Citizens_United_v._FEC).
 
 [^3]: 'We' here means healthy, well-functioning governments.

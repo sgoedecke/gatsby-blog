@@ -19,6 +19,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+crossPostText:
+  x: |-
+    In April last year, Kelsey Piper discovered that OpenAI’s o3 model was surprisingly good at figuring out where a photo was taken from. Like human “geoguessr” pros, o3 could sometimes take a nondescript photo of a beach and tell you exactly where it is.
+  linkedin: |-
+    In April last year, Kelsey Piper discovered that OpenAI’s o3 model was surprisingly good at figuring out where a photo was taken from. Like human “geoguessr” pros, o3 could sometimes take a nondescript photo of a beach and tell you exactly where it is. Here’s the example Kelsey gave:
+
+    Several people reproduced this with good results: not a 100% success rate, but clearly far better than you’d do with a random human guess. The lesson here is that model capabilities can surprise us. The o3 model had been released for two weeks before Kelsey’s tweet without anyone noticing how good it was at geolocation.
 ---
 
 In April last year, Kelsey Piper [discovered](https://x.com/KelseyTuoc/status/1917340813715202540) that OpenAI's o3 model was surprisingly good at figuring out where a photo was taken from. Like human "geoguessr" [pros](https://www.youtube.com/@georainbolt), o3 could sometimes take a nondescript photo of a beach and tell you exactly where it is. Here's the example Kelsey gave:

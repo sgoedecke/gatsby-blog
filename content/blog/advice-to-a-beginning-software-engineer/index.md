@@ -20,6 +20,11 @@ popularity:
   manual: 0
 popular: true
 tags: ["tech companies", "ai"]
+crossPostText:
+  x: |-
+    In general, you should be suspicious of engineers who are trying to give you advice. Even during ordinary times, this industry is so wide and changes so quickly that nobody really knows anything for sure. And we are not in ordinary times.
+  linkedin: |-
+    In general, you should be suspicious of engineers who are trying to give you advice. Even during ordinary times, this industry is so wide and changes so quickly that nobody really knows anything for sure. And we are not in ordinary times. The advent of LLMs and AI agents is the largest change to software engineering in my professional lifetime, and possibly the largest change ever.
 ---
 
 In general, you should be suspicious of engineers who are trying to give you advice. Even during ordinary times, this industry is so wide and changes so quickly that [nobody really knows](/confidence) anything for sure. And we are not in ordinary times. The advent of LLMs and AI agents is the largest change to software engineering in my professional lifetime, and possibly the largest change ever. That said, here's my advice:

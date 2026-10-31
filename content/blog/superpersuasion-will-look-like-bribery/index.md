@@ -4,6 +4,13 @@ description:
 order: 248
 date: '2026-10-03'
 tags: ["ai", "ai safety"]
+crossPostText:
+  x: |-
+    The idea of “superpersuasion” has been floating around the AI safety community for decades.
+  linkedin: |-
+    The idea of “superpersuasion” has been floating around the AI safety community for decades. Now that powerful and difficult-to-control LLMs have appeared, people are again talking about the idea that a sufficiently intelligent AI might be able to persuade people to do whatever it wants.
+
+    The classic version of this idea is an AI persuading some engineer to “let it out of the box”: to grant it access to the internet. The modern version of this idea is the “killswitch”, where if some AI ever does go rogue, the humans in control of its hardware will simply turn it off. Could an AI somehow persuade these humans to not hit the switch?
 ---
 
 The idea of "superpersuasion" has been floating around the AI safety community for decades. Now that powerful and [difficult-to-control](/they-really-do-think-ai-might-kill-everyone/) LLMs have appeared, people are again talking about the idea that a sufficiently intelligent AI might be able to persuade people to do whatever it wants.

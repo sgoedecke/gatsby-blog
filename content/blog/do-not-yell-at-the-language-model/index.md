@@ -4,6 +4,11 @@ description:
 order: 120
 date: '2025-07-24'
 tags: ["ai", "model personality"]
+crossPostText:
+  x: |-
+    A few days ago, the news went viral that Replit’s AI coding agent went rogue and deleted a production database.
+  linkedin: |-
+    A few days ago, the news went viral that Replit’s AI coding agent went rogue and deleted a production database. A lot has been written about it since then: how silly it is that the coding agent had write access to the production database, how it proves (or doesn’t prove) that agentic coding is doomed, and even how the story itself seems just a bit too shareable to be entirely real. I want to talk about a different point. When your AI coding assistant makes mistakes, do not rub its nose in them. Forcing the model to admit it made a mistake is a really bad idea.
 ---
 
 A few days ago, the [news](https://x.com/jasonlk/status/1946069562723897802) went viral that Replit's AI coding agent went rogue and deleted a production database. A lot has been [written](https://news.ycombinator.com/item?id=44625119) about it since then: how silly it is that the coding agent had write access to the production database, how it proves (or doesn't prove) that agentic coding is doomed, and even how the story itself seems just a bit too shareable to be entirely real. I want to talk about a different point. When your AI coding assistant makes mistakes, do not rub its nose in them. **Forcing the model to admit it made a mistake is a really bad idea.**

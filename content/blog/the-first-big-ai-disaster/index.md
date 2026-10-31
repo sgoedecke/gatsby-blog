@@ -19,6 +19,15 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai"]
+crossPostText:
+  x: |-
+    The first public passenger locomotive, Locomotion No. 1, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. A train to Paris derailed, killing at least fifty passengers in the ensuing fire.
+  linkedin: |-
+    The first public passenger locomotive, Locomotion No. 1, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. A train to Paris derailed, killing at least fifty passengers in the ensuing fire.
+
+    The first passenger flight happened in May 1908. Eleven years later, the first mass-casualty airline disaster happened, when a flight to Milan disintegrated mid-air, killing all twelve passengers.
+
+    The first publicly-available AI language model, ChatGPT, was released in November 2022.
 ---
 
 The first public passenger locomotive, _Locomotion No. 1_, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. A train to Paris derailed, killing at least fifty passengers in the ensuing fire.

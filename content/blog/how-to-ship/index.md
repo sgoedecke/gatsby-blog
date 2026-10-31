@@ -28,6 +28,13 @@ tags: ["good engineers", "tech companies", "shipping", "how to"]
 crossPosts:
   x: "https://x.com/i/status/2109768350343544922"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7515534043640238080/"
+crossPostText:
+  x: |-
+    I have shipped a lot of different projects over the last ~10 years in tech. I often get tapped to lead new ones when it’s important to get it right, because I’m good at it.
+  linkedin: |-
+    I have shipped a lot of different projects over the last ~10 years in tech. I often get tapped to lead new ones when it’s important to get it right, because I’m good at it. Shipping in a big tech company is a very different skill to writing code, and lots of people who are great at writing code are terrible at shipping.
+
+    Here’s what I think about when I’m leading a project and what I’ve seen people get wrong.
 ---
 
 I have shipped a lot of different projects over the last ~10 years in tech. I often get tapped to lead new ones when it's important to get it right, because I'm good at it. Shipping in a big tech company is a very different skill to writing code, and lots of people who are great at writing code are terrible at shipping.

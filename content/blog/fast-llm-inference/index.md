@@ -23,6 +23,17 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Anthropic and OpenAI both recently announced “fast mode”: a way to interact with their best coding model at significantly higher speeds.
+
+    These two versions of fast mode are very different. Anthropic’s offers up to 2.5x tokens per second (so around 170, up from Opus 4.6’s 65).
+  linkedin: |-
+    Anthropic and OpenAI both recently announced “fast mode”: a way to interact with their best coding model at significantly higher speeds.
+
+    These two versions of fast mode are very different. Anthropic’s offers up to 2.5x tokens per second (so around 170, up from Opus 4.6’s 65). OpenAI’s offers more than 1000 tokens per second (up from GPT-5.3-Codex’s 65 tokens per second, so 15x). So OpenAI’s fast mode is six times faster than Anthropic’s.
+
+    However, Anthropic’s big advantage is that they’re serving their actual model.
 ---
 
 [Anthropic](https://platform.claude.com/docs/en/build-with-claude/fast-mode) and [OpenAI](https://openai.com/index/introducing-gpt-5-3-codex-spark/) both recently announced "fast mode": a way to interact with their best coding model at significantly higher speeds.

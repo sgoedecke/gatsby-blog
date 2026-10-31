@@ -4,6 +4,13 @@ description:
 order: 126
 date: '2025-08-06'
 tags: ["ai", "explainers", "steering", "anthropomorphism"]
+crossPostText:
+  x: |-
+    If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a “probe”.
+  linkedin: |-
+    If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a “probe”. Pick one layer of the model — a single region of its “brain” — and train a smaller classifier model to see if there are neuron patterns that light up reliably in response to particular concepts. This is the core technique of a field called “mechanistic interpretability”.
+
+    Does this mean we can stop talking about AI “personalities”, because we can now scientifically determine how AI models think? I don’t think so. The process of probing AI brains is more philosophically fraught than it might seem at first.
 ---
 
 If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a "probe". Pick one layer of the model - a single region of its "brain" - and train a smaller classifier model to see if there are neuron patterns[^1] that light up reliably in response to particular concepts. This is the core technique of a field called "mechanistic interpretability"[^2].

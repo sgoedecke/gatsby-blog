@@ -19,6 +19,11 @@ popularity:
   manual: 0
 popular: true
 tags: ["software design"]
+crossPostText:
+  x: |-
+    Years ago I spent a lot of time reviewing coding challenges. The challenge itself was very straightforward — building a CLI tool that hit an API and allowed the user to page through and inspect the data. We allowed any language, so I saw all kinds of approaches.
+  linkedin: |-
+    Years ago I spent a lot of time reviewing coding challenges. The challenge itself was very straightforward — building a CLI tool that hit an API and allowed the user to page through and inspect the data. We allowed any language, so I saw all kinds of approaches. At one point I came across a challenge I thought was literally perfect. It was a single Python file (maybe thirty lines of code in total), written in a very workmanlike style: the simplest, most straightforward way to meet the challenge requirements.
 ---
 
 Years ago I spent a lot of time reviewing coding challenges. The challenge itself was very straightforward - building a CLI tool that hit an API and allowed the user to page through and inspect the data. We allowed any language, so I saw all kinds of approaches[^1]. At one point I came across a challenge I thought was literally perfect. It was a single Python file (maybe thirty lines of code in total), written in a very workmanlike style: the simplest, most straightforward way to meet the challenge requirements.

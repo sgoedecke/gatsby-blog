@@ -4,6 +4,13 @@ description:
 order: 103
 date: '2025-06-26'
 tags: ["tech companies", "management", "zirp"]
+crossPostText:
+  x: |-
+    I write a lot about how the post-2010s economic squeeze has made it harder to be a software engineer at a large tech company. But I haven’t said much about how it’s also harder now to be a software engineering manager.
+  linkedin: |-
+    I write a lot about how the post-2010s economic squeeze has made it harder to be a software engineer at a large tech company. But I haven’t said much about how it’s also harder now to be a software engineering manager.
+
+    In fact, I’m pretty sure that engineering managers have been hit hardest by the vibe shift: not only are they affected by the same problems, but their job is to be the face and instrument of the company that’s now cracking the whip and laying people off. And of course they’re vulnerable to getting laid off themselves, as tech companies now try to run leaner and cut out middle layers between executives and engineers.
 ---
 
 I [write](/book) [a lot](/good-times-are-over) [about](/in-these-troubled-times) how the post-2010s economic squeeze has made it harder to be a software engineer at a large tech company. But I haven't said much about how it's also harder now to be a software engineering _manager_.

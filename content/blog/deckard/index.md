@@ -4,6 +4,13 @@ description:
 order: 233
 date: '2026-09-08'
 tags: ["ai", "projects"]
+crossPostText:
+  x: |-
+    Automated AI text detection is currently an underserved niche. The only game in town is Pangram, which does an excellent job but desperately needs more competition.
+  linkedin: |-
+    Automated AI text detection is currently an underserved niche. The only game in town is Pangram, which does an excellent job but desperately needs more competition. In a few years, I would be surprised if every major social network doesn’t scan new posts and comments for AI content in order to tag them (or simply remove them).
+
+    I like that I can rely on Pangram to confirm my suspicions when I read something that sounds like AI. But it’d be much better if I could choose to avoid AI-generated text in the first place. What I want is something that runs in the background and automatically scans text on websites I visit, without me having to ask for it.
 ---
 
 Automated AI text detection is currently an underserved niche. The only game in town is [Pangram](https://www.pangram.com/), which does an excellent job but desperately needs more competition. In a few years, I would be surprised if every major social network doesn't scan new posts[^1] and comments for AI content in order to tag them (or simply remove them).

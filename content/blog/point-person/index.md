@@ -4,6 +4,11 @@ description: Thoughts on building and maintaining trust with very senior manager
 order: 19
 date: '2024-12-22'
 tags: ["tech companies", "good engineers"]
+crossPostText:
+  x: |-
+    It’s fun and rewarding to work on critical tasks. But there’s only so much important work to go around. Worse still, the chances to work on these projects are unevenly distributed, because often this work is done by hand-picked teams. I’ve been on a fair few of those.
+  linkedin: |-
+    It’s fun and rewarding to work on critical tasks. But there’s only so much important work to go around. Worse still, the chances to work on these projects are unevenly distributed, because often this work is done by hand-picked teams. I’ve been on a fair few of those. What gets an engineer put on that list?
 ---
 
 It's fun and rewarding to work on critical tasks. But there's only so much important work to go around. Worse still, the chances to work on these projects are unevenly distributed, because often this work is done by hand-picked teams. I've been on a fair few of those. What gets an engineer put on that list?

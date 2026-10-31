@@ -19,6 +19,17 @@ popularity:
     urls: []
   manual: 0
 tags: ["book reports"]
+crossPostText:
+  x: |-
+    Here’s the big idea in Keith Johnstone’s book Impro:
+  linkedin: |-
+    Here’s the big idea in Keith Johnstone’s book Impro:
+
+    1. Children are naturally creative, but are violently formed into repressed adults by Western culture and education
+    2. The process of becoming more creative and expressive is largely a process of unlearning these habits of repression
+    3. Improv — improvisational comedy — is thus not just the skeleton key for learning to act, but for unlocking a more authentically human way of life
+
+    This take doesn’t sound particularly original, but references to Impro pop up in all kinds of places: in influential tech blogs, as part of the initial process of onboarding for Palantir, and on the reading list of multiple big-tech founders.
 ---
 
 Here's the big idea in Keith Johnstone's book [_Impro_](https://en.wikipedia.org/wiki/Impro:_Improvisation_and_the_Theatre):

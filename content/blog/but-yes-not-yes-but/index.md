@@ -4,6 +4,13 @@ description:
 order: 96
 date: '2025-06-13'
 tags: ["tech companies", "communication"]
+crossPostText:
+  x: |-
+    When you’re agreeing with someone but you have a caveat, don’t say “yes, but”. Instead, say “but yes”. For instance, if you’re happy with a suggested approach so long as it’s only short term, don’t say “sounds good, but we’ll have to change it in a month”.
+  linkedin: |-
+    When you’re agreeing with someone but you have a caveat, don’t say “yes, but”. Instead, say “but yes”. For instance, if you’re happy with a suggested approach so long as it’s only short term, don’t say “sounds good, but we’ll have to change it in a month”. Say “we’ll have to change it in a month, but sounds good”.
+
+    This seems like a trivial difference. Aren’t those two sentences equivalent?
 ---
 
 When you're agreeing with someone but you have a caveat, don't say "yes, but". Instead, say "but yes". For instance, if you're happy with a suggested approach so long as it's only short term, don't say "sounds good, but we'll have to change it in a month". Say "we'll have to change it in a month, but sounds good".

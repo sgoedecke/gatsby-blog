@@ -31,6 +31,13 @@ tags: ["good engineers", "software design"]
 crossPosts:
   x: "https://x.com/i/status/2111156188926665175"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7516921882542174208/"
+crossPostText:
+  x: |-
+    I see a lot of bad system design advice. One classic is the LinkedIn-optimized “bet you never heard of queues” style of post, presumably aimed at people who are new to the industry.
+  linkedin: |-
+    I see a lot of bad system design advice. One classic is the LinkedIn-optimized “bet you never heard of queues” style of post, presumably aimed at people who are new to the industry. Another is the Twitter-optimized “you’re a terrible engineer if you ever store booleans in a database” clever trick. Even good system design advice can be kind of bad. I love Designing Data-Intensive Applications, but I don’t think it’s particularly useful for most system design problems engineers will run into.
+
+    What is system design?
 ---
 
 I see a lot of bad system design advice. One classic is the LinkedIn-optimized "bet you never heard of _queues_" style of post, presumably aimed at people who are new to the industry. Another is the Twitter-optimized "you're a terrible engineer if you ever store booleans in a database" clever trick[^1]. Even good system design advice can be kind of bad. I love _Designing Data-Intensive Applications_, but I don't think it's particularly useful for most system design problems engineers will run into.

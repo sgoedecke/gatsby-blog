@@ -4,6 +4,11 @@ description:
 order: 136
 date: '2025-09-05'
 tags: ["crypto", "explainers"]
+crossPostText:
+  x: |-
+    Stripe just announced Tempo, a “L1 blockchain” for “stablecoin payments”. What does any of this mean? In 2021, I was interested enough in blockchain to write a simple explainer and a technical description of Bitcoin specifically. But I’ve never been a blockchain fan.
+  linkedin: |-
+    Stripe just announced Tempo, a “L1 blockchain” for “stablecoin payments”. What does any of this mean? In 2021, I was interested enough in blockchain to write a simple explainer and a technical description of Bitcoin specifically. But I’ve never been a blockchain fan. Both my old and new “what kind of work I want” posts state that I’m ethically opposed to proof-of-work blockchain. What’s been going on in the last few years that makes going into blockchain a sensible decision for Stripe?
 ---
 
 Stripe just announced [Tempo](https://tempo.xyz/), a "L1 blockchain" for "stablecoin payments". What does any of this mean? In 2021, I was interested enough in blockchain to write a [simple explainer](/blockchain-explained-simply) and a technical description of [Bitcoin specifically](/blockchain-for-beginners). But I've never been a blockchain _fan_. Both my [old](/my-engineering-values) and [new](/my-engineering-values-2025) "what kind of work I want" posts state that I'm ethically opposed to proof-of-work blockchain. What's been going on in the last few years that makes going into blockchain a sensible decision for Stripe? What is Stripe even doing?

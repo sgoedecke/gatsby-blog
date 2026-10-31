@@ -4,6 +4,17 @@ description:
 order: 234
 date: '2026-09-09'
 tags: ["ai", "anthropomorphism"]
+crossPostText:
+  x: |-
+    Just over a year ago I wrote Why we should anthropomorphize LLMs. Now it’s a hot topic again, driven by Dwarkesh Patel’s description of OpenAI’s recent swarm breakout as a sequence of AI “civilizations”.
+  linkedin: |-
+    Just over a year ago I wrote Why we should anthropomorphize LLMs. Now it’s a hot topic again, driven by Dwarkesh Patel’s description of OpenAI’s recent swarm breakout as a sequence of AI “civilizations”.
+
+    In 2025, my argument for anthropomorphism went like this:
+
+    - AIs are trained on human text, and so will trend towards acting in human-like ways by default
+    - Assistant AIs (today we should say agent AIs) are deliberately post-trained to have a personality
+    - In general, it is morally sensible to avoid the habit of treating human-like things as if they were purely tools
 ---
 
 Just over a year ago I wrote [_Why we should anthropomorphize LLMs_](/anthropomorphizing-llms/). Now it's [a hot topic](https://www.nbcnews.com/tech/tech-news/openai-hugging-face-hack-investigation-findings-divide-industry-rcna595383) again, driven by Dwarkesh Patel's [description](https://www.dwarkesh.com/p/openai-huggingface) of OpenAI's recent [swarm breakout](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) as a sequence of AI "civilizations".

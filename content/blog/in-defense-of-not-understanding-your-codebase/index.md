@@ -23,6 +23,15 @@ popularity:
     urls:
       - 'https://www.youtube.com/watch?v=5KvY8CnBB3w'
 tags: ["software design", "naur theory"]
+crossPostText:
+  x: |-
+    As a software engineer, how well do you have to understand your own codebase?
+  linkedin: |-
+    As a software engineer, how well do you have to understand your own codebase?
+
+    My guess is that people who work on small codebases with low-turnover teams (say, Redis or games like The Witness) would say “obviously you have to understand it completely, otherwise you can’t do good work”. I’d also guess that people who work on large codebases with high-turnover teams (say, the Google web search backend or GitHub) would say “obviously you can’t understand it completely, you just have to do the best you can in your local area”.
+
+    These are two largely different ways of programming with different methods, practices and cultures.
 ---
 
 **As a software engineer, how well do you have to understand your own codebase?**

@@ -4,6 +4,13 @@ description:
 order: 117
 date: '2025-07-17'
 tags: ["ai", "explainers", "mcp"]
+crossPostText:
+  x: |-
+    Everyone’s very excited about Model Context Protocol, or MCP for short.
+  linkedin: |-
+    Everyone’s very excited about Model Context Protocol, or MCP for short. In a sentence, MCP is a universal protocol for exposing sets of tools to AI agents — instead of manually adding “hit the Issues API” and “create a PR” tools to my agent, I can instead just connect the GitHub MCP server and get a pre-defined set of GitHub tools.
+
+    Yesterday I wrote some inference code that used an MCP server to discover and call tools. It was much more fiddly than I expected. There’s lots of support for adding MCP servers to your IDE, or standing up your own MCP server. But weirdly enough, there’s no straightforward guide to connecting an MCP server to your code.
 ---
 
 Everyone's very excited about [Model Context Protocol](/model-context-protocol), or MCP for short. In a sentence, MCP is a universal protocol for exposing sets of tools to AI agents - instead of manually adding "hit the Issues API" and "create a PR" tools to my agent, I can instead just connect the GitHub [MCP server](https://github.com/github/github-mcp-server) and get a pre-defined set of GitHub tools.

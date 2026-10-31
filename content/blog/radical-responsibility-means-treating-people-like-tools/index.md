@@ -4,6 +4,11 @@ description:
 order: 232
 date: '2026-09-04'
 tags: ["tech companies", "conscious leadership"]
+crossPostText:
+  x: |-
+    A lot of people think that good leadership requires radical responsibility.
+  linkedin: |-
+    A lot of people think that good leadership requires radical responsibility.
 ---
 
 A lot of people think that good leadership requires **radical responsibility**. _[Conscious Leadership](https://conscious.is/resource/commitment-1-responsibility/)_ defines it like this:

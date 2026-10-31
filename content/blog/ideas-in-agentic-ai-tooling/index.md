@@ -4,6 +4,13 @@ description:
 order: 149
 date: '2025-10-19'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    In the middle of 2025, agentic coding finally became a thing: first with the release of Claude Sonnet 4, the first “smart enough to be useful” agentic model, and then with OpenAI’s GPT-5-Codex, which is for my money the best-in-class agentic model.
+  linkedin: |-
+    In the middle of 2025, agentic coding finally became a thing: first with the release of Claude Sonnet 4, the first “smart enough to be useful” agentic model, and then with OpenAI’s GPT-5-Codex, which is for my money the best-in-class agentic model. “Agent mode” is now the main way to interact with your preferred AI coding tool (whether that’s Claude Code, Codex, Copilot, or Cursor).
+
+    Obviously, much of this improvement is the result of better models. Sonnet 4 and Codex simply get lost less often and make fewer mistakes than their predecessors. But we’ve also seen a ton of improvements to the agentic harness: the code that wraps the LLM in a loop with tools.
 ---
 
 In the middle of 2025, agentic coding finally became a thing: first with the release of Claude Sonnet 4, the first "smart enough to be useful" agentic model, and then with OpenAI's GPT-5-Codex, which is for my money the best-in-class agentic model. "Agent mode" is now the main way to interact with your preferred AI coding tool (whether that's Claude Code, Codex, Copilot, or Cursor)[^1].

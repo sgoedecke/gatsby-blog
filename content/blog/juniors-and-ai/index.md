@@ -4,6 +4,11 @@ description:
 order: 99
 date: '2025-06-20'
 tags: ["ai", "zirp"]
+crossPostText:
+  x: |-
+    In the 2010s, companies were hiring a lot of juniors. This was partially an economic decision: companies were hiring everyone, and juniors were a lot cheaper and easier to hire than senior engineers. In 2025, this has mostly dried up.
+  linkedin: |-
+    In the 2010s, companies were hiring a lot of juniors. This was partially an economic decision: companies were hiring everyone, and juniors were a lot cheaper and easier to hire than senior engineers. In 2025, this has mostly dried up. Tech company hiring is much less common and has tilted towards seniors, who are seen as less risky hires. The economic situation will eventually change. But I’m worried about AI.
 ---
 
 In the 2010s, companies were hiring a lot of juniors. This was partially an economic decision: companies were hiring _everyone_, and juniors were a lot cheaper and easier to hire than senior engineers. In 2025, this has mostly dried up. Tech company hiring is much less common and has tilted towards seniors, who are seen as less risky hires. The economic situation will eventually change. But I'm worried about AI.

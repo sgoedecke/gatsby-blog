@@ -4,6 +4,17 @@ description:
 order: 186
 date: '2026-04-22'
 tags: ["ai", "ethics", "politics", "book reports", "luddites"]
+crossPostText:
+  x: |-
+    Is it time to start burning down datacenters?
+
+    Some people think so. An Indianapolis city council member had his house recently shot up for supporting datacenters, and Sam Altman’s home was firebombed (and then shot) shortly afterwards.
+  linkedin: |-
+    Is it time to start burning down datacenters?
+
+    Some people think so. An Indianapolis city council member had his house recently shot up for supporting datacenters, and Sam Altman’s home was firebombed (and then shot) shortly afterwards. People from all sides of the argument are sounding the alarm about imminent violence.
+
+    The obvious historical comparison is Luddism, the 19th-century phenomenon where English weavers and knitters destroyed the machines that were automating their work, and (in some cases) killed the machines’ owners.
 ---
 
 Is it time to start burning down datacenters?

@@ -7,6 +7,11 @@ tags: ["tech companies", "cynicism"]
 crossPosts:
   x: "https://x.com/i/status/2114161276272382322"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519926968822370304/"
+crossPostText:
+  x: |-
+    Bryan Cantrill has a great line from a talk where he cautions against anthropomorphizing Oracle CEO Larry Ellison. I think it’s also a mistake to treat any tech company like a person.
+  linkedin: |-
+    Bryan Cantrill has a great line from a talk where he cautions against anthropomorphizing Oracle CEO Larry Ellison. I think it’s also a mistake to treat any tech company like a person.
 ---
 
 Bryan Cantrill has a great line from a [talk](https://www.youtube.com/watch?v=-zRN7XLCRhc&t=34m7s) where he cautions against anthropomorphizing[^1] Oracle CEO Larry Ellison. I think it's also a mistake to treat any tech company like a person. Here's the full quote:

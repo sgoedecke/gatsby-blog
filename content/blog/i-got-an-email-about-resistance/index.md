@@ -20,6 +20,11 @@ popularity:
       - 'https://lobste.rs/s/vowt4d/i_got_email_about_resistance'
   manual: 0
 tags: ["tech companies", "meta", "cynicism", "luddites"]
+crossPostText:
+  x: |-
+    This will be kind of an unusual post. I got a recent email about my writing that I thought was such a good articulation of one common criticism that I’d like to share it (and my response) in full.
+  linkedin: |-
+    This will be kind of an unusual post. I got a recent email about my writing that I thought was such a good articulation of one common criticism that I’d like to share it (and my response) in full.
 ---
 
 This will be kind of an unusual post. I got a recent email about my writing that I thought was such a good articulation of one common criticism that I'd like to share it (and my response) in full.

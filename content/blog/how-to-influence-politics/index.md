@@ -24,6 +24,11 @@ popularity:
     urls: []
   manual: 0
 tags: ["good engineers", "tech companies", "how to"]
+crossPostText:
+  x: |-
+    Many software engineers are fatalistic about company politics.
+  linkedin: |-
+    Many software engineers are fatalistic about company politics.
 ---
 
 Many software engineers are fatalistic about company politics. They believe that it's pointless to get involved, because[^1]:
@@ -54,11 +59,11 @@ So if you want to get something technical done in a tech company, **you ought to
 
 When executives are concerned about billing, you can offer the billing refactor as a reliability improvement. When they're concerned about developer experience, you can suggest replacing the build pipeline. When customers are complaining about performance, you can point to the Golang rewrite as a good option. When the CEO checks the state of the public documentation and is embarrassed, you can make the case for rebuilding it as a static site. **The important thing is to have a detailed, effective program of work ready to go for whatever the flavor of the month is.**
 
-Some program of work will be funded whether you do this or not. However, if you don't do this, you have no control over what that program is. In my experience, **this is where companies make their worst technical decisions**: when the political need to do _something_ collides with a lack of any good ideas. When there are no good ideas, a bad idea will do, in a pinch. But nobody prefers this outcome. It's bad for the executives, who then have to sell a disappointing technical outcome as if it were a success[^4], and it's bad for the engineers, who have to spend their time and effort building the wrong idea.
+Some program of work will be funded whether you do this or not. However, if you don't do this, you have no control over what that program is. In my experience, **this is where companies make their worst technical decisions**: when the political need to do _something_ collides with a lack of any good ideas. When there are no good ideas, a bad idea will do, in a pinch. But nobody prefers this outcome. It's bad for the executives, who then have to sell a disappointing technical outcome as if it were a success[^3], and it's bad for the engineers, who have to spend their time and effort building the wrong idea.
 
 If you're a very senior engineer, the VPs (or whoever) will quietly blame you for this. They'll be right to! **Having the right idea handy at the right time is your responsibility.**
 
-You can view all this in two different ways. Cynically, you can read this as a suggestion to make yourself a convenient tool for the sociopaths who run your company to use in their endless internecine power struggles. Optimistically, you can read this as a suggestion to let executives set the overall priorities for the company - that's their job, after all - and to tailor your own technical plans to fit[^3]. Either way, you'll achieve more of your technical goals if you push the right plan at the right time.
+You can view all this in two different ways. Cynically, you can read this as a suggestion to make yourself a convenient tool for the sociopaths who run your company to use in their endless internecine power struggles. Optimistically, you can read this as a suggestion to let executives set the overall priorities for the company - that's their job, after all - and to tailor your own technical plans to fit[^4]. Either way, you'll achieve more of your technical goals if you push the right plan at the right time.
 
 edit: this post got some attention on [Hacker News](https://news.ycombinator.com/item?id=45473852). The comments were much more positive than on my other posts about politics, for reasons I don't quite understand. This [comment](https://news.ycombinator.com/item?id=45474998) is an excellent statement of what I write about [here](/party-tricks) (but targeted at more junior engineers). This [comment](https://news.ycombinator.com/item?id=45474559) (echoed [here](https://news.ycombinator.com/item?id=45474338)) references a Milton Friedman quote that applies the idea in this post to political policy in general, which I'd never thought of but sounds correct:
 
@@ -75,6 +80,6 @@ There's a few comments calling this approach overly game-playing and self-servin
 
 [^2]: What it takes to make a project successful is itself a complex political question that every senior+ engineer is eventually forced to grapple with (or to deliberately avoid, with consequences for their career). For more on that, see [_How I ship projects at large tech companies_](/how-to-ship).
 
-[^3]: For more along these lines, see [_Is it cynical to do what your manager wants?_](/cynicism)
+[^3]: Just because they _can_ do this doesn't mean they _want_ to.
 
-[^4]: Just because they _can_ do this doesn't mean they _want_ to.
+[^4]: For more along these lines, see [_Is it cynical to do what your manager wants?_](/cynicism)

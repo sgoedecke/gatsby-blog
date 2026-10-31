@@ -20,6 +20,11 @@ popularity:
       - 'https://lobste.rs/s/mbmn1f/you_should_never_be_angry_at_work'
   manual: 0
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    I try not to give a lot of prescriptive advice about working in tech companies. There are many ways to be successful, and every company works differently. If you’re shipping projects and your management chain is happy, it doesn’t really matter how you’ve accomplished it.
+  linkedin: |-
+    I try not to give a lot of prescriptive advice about working in tech companies. There are many ways to be successful, and every company works differently. If you’re shipping projects and your management chain is happy, it doesn’t really matter how you’ve accomplished it. However, there’s one thing that I do think is solid advice: you should never be angry at work.
 ---
 
 I try not to give a lot of prescriptive advice about working in tech companies[^1]. There are many ways to be successful, and every company works differently. If you're [shipping projects](/how-to-ship) and your management chain is happy, it doesn't really matter how you've accomplished it. However, there's one thing that I do think is solid advice: **you should never be angry at work**.

@@ -26,6 +26,13 @@ tags: ["ai"]
 crossPosts:
   x: "https://x.com/i/status/2109357084307337697"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7515122777348128768/"
+crossPostText:
+  x: |-
+    In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM.
+  linkedin: |-
+    In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM. LLMs make everybody into a generalist.
+
+    Because of this, lots of people don’t think there’s any skill involved in working with LLMs. If you want the product that LLMs can deliver — PhD-level mathematics, pretty good but sometimes tasteless computer code, or awkward LinkedIn-style writing — you can simply ask for it.
 ---
 
 In the 2010s, if you had technical gaps (say, you couldn't write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM. LLMs make everybody into a generalist.

@@ -19,6 +19,13 @@ popularity:
   manual: 0
 popular: true
 tags: ["tech companies", "zirp"]
+crossPostText:
+  x: |-
+    I am passionate about delivering shareholder value. It feels kind of embarrassing to admit, but it’s true.
+  linkedin: |-
+    I am passionate about delivering shareholder value. It feels kind of embarrassing to admit, but it’s true. I like all the things an engineer is supposed to like — writing elegant code, designing systems, solving hard technical problems — but I confess I don’t like those things as much as I like delivering shareholder value. That’s why I kind of enjoy the vibe shift that’s happened recently in tech. I wish my job was more secure, and my colleagues were happier, but I do really like the fact that my work is now much more tightly connected to the company’s strategy.
+
+    I think delivering shareholder value is underrated among software engineers.
 ---
 
 I am passionate about delivering shareholder value. It feels kind of embarrassing to admit, but it's true[^1]. I like all the things an engineer is supposed to like - writing elegant code, designing systems, solving hard technical problems - but I confess I don't like those things as much as I like delivering shareholder value. That's why I kind of enjoy the [vibe shift](/good-times-are-over) that's happened recently in tech. I wish my job was more secure, and my colleagues were happier, but I do really like the fact that my work is now much more tightly connected to the company's strategy.

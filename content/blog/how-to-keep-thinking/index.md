@@ -4,6 +4,19 @@ description:
 order: 220
 date: '2026-08-07'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Imagine you’re the guest on some kind of frenetic, software-engineering-themed game show.
+  linkedin: |-
+    Imagine you’re the guest on some kind of frenetic, software-engineering-themed game show. The host is constantly flipping over new cards with questions that you have to answer as fast as possible:
+
+    - Is this adjustment to the database schema right?
+    - Do these bits of data look plausible?
+    - Do these five paragraphs of text describe an actual series of manual tests that took place?
+    - Does this suggested architecture pass the smell test?
+    - Is this implementation better than the current code? Or this one? Or this one?
+
+    Working in 2026 feels a bit like this.
 ---
 
 Imagine you're the guest on some kind of frenetic, software-engineering-themed game show. The host is constantly flipping over new cards with questions that you have to answer as fast as possible:

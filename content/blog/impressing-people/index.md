@@ -4,6 +4,13 @@ description:
 order: 124
 date: '2025-08-01'
 tags: ["emotional regulation", "tech companies"]
+crossPostText:
+  x: |-
+    In the first few years of my career, I knew next to nothing about how to do good work in a tech company. The senior and staff engineers I worked with seemed like magicians: they effortlessly solved problems that I couldn’t even understand.
+  linkedin: |-
+    In the first few years of my career, I knew next to nothing about how to do good work in a tech company. The senior and staff engineers I worked with seemed like magicians: they effortlessly solved problems that I couldn’t even understand. While I was learning how to save something to a database, they were struggling with scaling and design work on which the entire company depended. I wanted nothing more than to do the kind of work that would impress those engineers.
+
+    Now I am a staff engineer. I effortlessly solve problems that brand-new engineers struggle to understand.
 ---
 
 In the first few years of my career, I knew next to nothing about how to do good work in a tech company. The senior and staff engineers I worked with seemed like magicians: they effortlessly solved problems that I couldn't even understand. While I was learning how to save something to a database, they were struggling with scaling and design work on which the entire company depended. I wanted nothing more than to do the kind of work that would impress those engineers.

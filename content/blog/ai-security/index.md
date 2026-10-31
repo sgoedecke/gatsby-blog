@@ -4,6 +4,13 @@ description:
 order: 67
 date: '2025-04-15'
 tags: ["ai", "software design"]
+crossPostText:
+  x: |-
+    Writing code with LLMs is fundamentally different from other ways of programming. LLMs are often non-deterministic and always unpredictable. They have a capability that no other technology can match: the ability to interface with natural language.
+  linkedin: |-
+    Writing code with LLMs is fundamentally different from other ways of programming. LLMs are often non-deterministic and always unpredictable. They have a capability that no other technology can match: the ability to interface with natural language. What does that mean for security?
+
+    I haven’t been particularly impressed by most online content about LLMs and security. For instance, the draft OWASP content is accurate but not particularly useful.
 ---
 
 Writing code with LLMs is fundamentally different from other ways of programming. LLMs are often non-deterministic and always unpredictable. They have a capability that no other technology can match: the ability to interface with natural language. What does that mean for security?

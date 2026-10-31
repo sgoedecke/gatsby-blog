@@ -30,6 +30,17 @@ tags: ["software design", "shipping"]
 crossPosts:
   x: "https://x.com/i/status/2110440144591360234"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7516205837774757888/"
+crossPostText:
+  x: |-
+    When designing software systems, do the simplest thing that could possibly work.
+
+    It’s surprising how far you can take this piece of advice. I genuinely think you can do this all the time.
+  linkedin: |-
+    When designing software systems, do the simplest thing that could possibly work.
+
+    It’s surprising how far you can take this piece of advice. I genuinely think you can do this all the time. You can follow this approach for fixing bugs, for maintaining existing systems, and for architecting new ones.
+
+    A lot of engineers design by trying to think of the “ideal” system: something well-factored, near-infinitely scalable, elegantly distributed, and so on. I think this is entirely the wrong way to go about software design.
 ---
 
 When designing software systems, do the simplest thing that could possibly work.

@@ -4,6 +4,11 @@ description:
 order: 194
 date: '2026-05-13'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    This year Elon Musk has started banging the drum about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth.
+  linkedin: |-
+    This year Elon Musk has started banging the drum about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth. Is it a sensible way to build datacenters?
 ---
 
 This year Elon Musk has started [banging the drum](https://www.npr.org/2026/04/03/nx-s1-5718416/ai-data-centers-in-space-spacex-elon-musk) about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth. Is it a sensible way to build datacenters?

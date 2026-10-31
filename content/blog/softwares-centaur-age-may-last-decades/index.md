@@ -19,6 +19,15 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai", "tech companies"]
+crossPostText:
+  x: |-
+    We are currently living in the age of centaurs (2022-20??). Right now, human engineers paired with AI coding systems are more effective than either by themselves.
+  linkedin: |-
+    We are currently living in the age of centaurs (2022-20??). Right now, human engineers paired with AI coding systems are more effective than either by themselves. For future generations of software engineers — human or otherwise — this will be the most significant fact about the current period.
+
+    As in chess’s own centaur age, people are always ready to claim that the centaur age is over and the age of AI supremacy has begun. But the age of centaurs in chess lasted about twenty years, and previous centaur ages have lasted far longer.
+
+    This should be encouraging to many of us.
 ---
 
 We are currently living in the age of centaurs (2022-20??). Right now, human engineers paired with AI coding systems are more effective than either by themselves. For future generations of software engineers - human or otherwise - this will be the most significant fact about the current period.

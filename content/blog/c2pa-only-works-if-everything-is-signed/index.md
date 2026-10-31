@@ -4,6 +4,13 @@ description:
 order: 209
 date: '2026-07-06'
 tags: ["ai", "ai regulation"]
+crossPostText:
+  x: |-
+    The European Union AI Act is Europe’s attempt to comprehensively regulate AI usage. A big part of that is the requirement that AI-generated content be identifiable: either tagged with a watermark or with what the Act calls “digitally signed metadata”.
+  linkedin: |-
+    The European Union AI Act is Europe’s attempt to comprehensively regulate AI usage. A big part of that is the requirement that AI-generated content be identifiable: either tagged with a watermark or with what the Act calls “digitally signed metadata”. Since all this becomes enforceable in a month, it’s worth figuring out if it makes any sense. I recently discussed AI watermarking at length in Text AI watermarks will always be trivial to remove. What about digitally signed metadata?
+
+    The most well-known implementation of digitally signed metadata is C2PA Content Credentials, which is a mechanism for ensuring that almost every single image file should contain unspoofable authorship metadata.
 ---
 
 The [European Union AI Act](https://artificialintelligenceact.eu/) is Europe's attempt to comprehensively regulate AI usage. A big part of that is the requirement that AI-generated content be identifiable: either tagged with a watermark or with what the [Act](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content) calls "digitally signed metadata"[^1]. Since all this becomes enforceable in a month, it's worth figuring out if it makes any sense. I recently discussed AI watermarking at length in [_Text AI watermarks will always be trivial to remove_](https://www.seangoedecke.com/text-ai-watermarks/). What about digitally signed metadata?

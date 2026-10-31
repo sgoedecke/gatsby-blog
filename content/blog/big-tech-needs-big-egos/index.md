@@ -11,6 +11,13 @@ popularity:
       - >-
         https://www.reddit.com/r/SoftwareEngineering/comments/1u9ozo7/big_tech_engineers_need_big_egos/
 tags: ["tech companies", "good engineers"]
+crossPostText:
+  x: |-
+    It’s a common position among software engineers that big egos have no place in tech. This is understandable — we’ve all worked with some insufferably overconfident engineers who needed their egos checked — but I don’t think it’s correct.
+  linkedin: |-
+    It’s a common position among software engineers that big egos have no place in tech. This is understandable — we’ve all worked with some insufferably overconfident engineers who needed their egos checked — but I don’t think it’s correct. In fact, I don’t know if it’s possible to survive as a software engineer in a large tech company without some kind of big ego.
+
+    However, it’s more complicated than “big egos make good engineers”. The most effective engineers I’ve worked with are simultaneously high-ego in some situations and surprisingly low-ego in others. What’s going on there?
 ---
 
 It's a [common position](https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/) among software engineers that big egos have no place in tech[^1]. This is understandable - we've all worked with some insufferably overconfident engineers who needed their egos checked - but I don't think it's correct. In fact, I don't know if it's possible to survive as a software engineer in a large tech company without some kind of big ego.

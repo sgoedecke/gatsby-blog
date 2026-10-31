@@ -4,6 +4,17 @@ description:
 order: 57
 date: '2025-03-20'
 tags: ["good engineers"]
+crossPostText:
+  x: |-
+    One surprising thing I’ve learned from writing this blog is that I should worry a lot less about saying things that seem obvious.
+  linkedin: |-
+    One surprising thing I’ve learned from writing this blog is that I should worry a lot less about saying things that seem obvious. A lot of my posts that have resonated the most with readers are points that I almost didn’t make because I felt like everyone already knew them:
+
+    - Shipping projects is hard and you should give it your full attention
+    - Good engineers tend to get things right
+    - You should do your main job instead of doing mainly glue work
+    - Strong engineers are strong because they’re confident
+    - Tech work got a lot less easy after the 2010s
 ---
 
 One surprising thing I've learned from writing this blog is that I should worry a lot less about saying things that seem obvious. A lot of my posts that have resonated the most with readers are points that I almost didn't make because I felt like everyone already knew them:

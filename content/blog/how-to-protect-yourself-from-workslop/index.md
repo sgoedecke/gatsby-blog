@@ -4,6 +4,13 @@ description:
 order: 231
 date: '2026-09-02'
 tags: ["tech companies", "ai"]
+crossPostText:
+  x: |-
+    “Workslop” is when your colleagues or bosses communicate with you by pasting big chunks of AI-generated text.
+  linkedin: |-
+    “Workslop” is when your colleagues or bosses communicate with you by pasting big chunks of AI-generated text. The core problem with workslop is that the effort involved is asymmetrical, like a denial-of-service attack: it takes almost no effort to produce text with AI, but it still costs effort to read. Here are some ways to protect yourself.
+
+    If you have enough authority or social capital, you can and should simply tell them “hey, don’t do that” (for instance, if you’re a senior engineer and an intern starts doing this to you). This is the easiest way to handle workslop.
 ---
 
 "Workslop" is when your colleagues or bosses communicate with you by pasting big chunks of AI-generated text. The core problem with workslop is that the effort involved is _asymmetrical_, like a [denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack): it takes almost no effort to produce text with AI, but it still costs effort to read[^1]. Here are some ways to protect yourself.

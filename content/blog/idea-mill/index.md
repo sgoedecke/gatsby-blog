@@ -4,6 +4,11 @@ description:
 order: 116
 date: '2025-07-15'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Large language models struggle to generate new ideas. To AI skeptics, this seems trivially true, since they believe LLMs can only regurgitate content from their training data. To AI believers, this is a puzzle.
+  linkedin: |-
+    Large language models struggle to generate new ideas. To AI skeptics, this seems trivially true, since they believe LLMs can only regurgitate content from their training data. To AI believers, this is a puzzle. If a human had the breadth of knowledge of an LLM, wouldn’t they be able to synthesize it and come up with ideas nobody else has had? It may be a consequence of a training process that forces LLMs to generate existing text word-for-word. My own view is that it’s a lack of “scaffolding”.
 ---
 
 Large language models [struggle](/why-cant-ais-have-new-ideas) to generate new ideas. To AI skeptics, this seems trivially true, since they believe LLMs can only regurgitate content from their training data[^1]. To AI believers, this is a puzzle. If a human had the breadth of knowledge of an LLM, wouldn't they be able to synthesize it and come up with ideas nobody else has had? It may be a consequence of a [training process](https://x.com/VictorTaelin/status/1942409340461183236) that forces LLMs to generate existing text word-for-word. My own view is that it's a lack of "scaffolding".

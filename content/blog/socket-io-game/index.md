@@ -8,6 +8,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=15318530'
 tags: ["explainers", "side projects"]
+crossPostText:
+  x: |-
+    I’ve been building crappy hobby games on and off for my whole coding life. One of my very first apps was a Visual Basic game — I was in primary school, around grade 3 or 4 — where you had to click on a picture of a schoolteacher as she moved around the screen.
+  linkedin: |-
+    I’ve been building crappy hobby games on and off for my whole coding life. One of my very first apps was a Visual Basic game — I was in primary school, around grade 3 or 4 — where you had to click on a picture of a schoolteacher as she moved around the screen. As I was teaching myself to code properly, I built a few half-finished roguelikes in Python. Most recently, in some of the downtime of my dev job, I built a tetris-like game and an asteroids clone with javascript and Matter.js. So after a couple of weekends playing around with socket.io, when I’d finished the tutorial and built a janky little app with what I’d learned, it was a natural step to try and build a game with it.
 ---
 
 I've been building crappy hobby games on and off for my whole coding life. One of my very first apps was a Visual Basic game - I was in primary school, around grade 3 or 4 - where you had to click on a picture of a schoolteacher as she moved around the screen. As I was teaching myself to code properly, I built a few [half-finished](https://github.com/sgoedecke/hulk) [roguelikes](https://github.com/sgoedecke/questcod) in Python. Most recently, in some of the downtime of my dev job, I built a [tetris-like game](https://github.com/seangoedecke/zd-tetris) and an [asteroids clone](https://github.com/seangoedecke/zd-asteroids) with javascript and Matter.js. So after a couple of weekends playing around with socket.io, when I'd finished the tutorial and built a janky little [app](https://github.com/sgoedecke/ai-box) with what I'd learned, it was a natural step to try and build a game with it. Should be easy, right?

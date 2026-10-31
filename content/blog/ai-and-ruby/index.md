@@ -20,6 +20,13 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Large language models are very good at generating and editing code. Right now, it’s probably the “killer app” of AI: the companies actually making money from language models — like GitHub Copilot, Cursor, Windsurf — are all doing code generation.
+  linkedin: |-
+    Large language models are very good at generating and editing code. Right now, it’s probably the “killer app” of AI: the companies actually making money from language models — like GitHub Copilot, Cursor, Windsurf — are all doing code generation.
+
+    This works astonishingly well at small scale, but there’s an obvious problem when the codebase grows larger. Tools that write the code for you will hit a wall once the codebase can’t fit inside the model context. Changes suddenly stop working, and attempts to fix it just create more bugs elsewhere. Even models that advertise large context windows don’t necessarily have large effective context windows.
 ---
 
 Large language models are very good at generating and editing code. Right now, it's probably the "killer app" of AI: the companies actually making money from language models - like GitHub Copilot, Cursor, Windsurf - are all doing code generation.

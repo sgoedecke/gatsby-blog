@@ -29,6 +29,13 @@ tags: ["good engineers", "software design"]
 crossPosts:
   x: "https://x.com/i/status/2115163187750260982"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7520928881822953472/"
+crossPostText:
+  x: |-
+    Most of what modern software engineers do involves APIs: public interfaces for communicating with a program, like this one from Twilio. I’ve spent a lot of time working with APIs, both building and using them.
+  linkedin: |-
+    Most of what modern software engineers do involves APIs: public interfaces for communicating with a program, like this one from Twilio. I’ve spent a lot of time working with APIs, both building and using them. I’ve written public APIs for third-party developers, private APIs for internal use (or consumption by a single frontend page), REST and GraphQL APIs, and even non-network interfaces like the ones for command-line tools.
+
+    Like designing good software systems, I think much of the advice floating around about API design is too fancy. People get wrapped up in what “real” REST is, or whether HATEOAS is a good idea, and so on.
 ---
 
 Most of what modern software engineers do[^1] involves APIs: public interfaces for communicating with a program, like [this one](https://www.twilio.com/docs/iam/api/account#fetch-an-account-resource) from Twilio. I've spent a _lot_ of time working with APIs, both building and using them. I've written public APIs for third-party developers, private APIs for internal use (or consumption by a single frontend page), REST and GraphQL APIs, and even non-network interfaces like the ones for command-line tools.

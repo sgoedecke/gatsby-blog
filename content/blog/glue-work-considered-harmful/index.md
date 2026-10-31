@@ -25,6 +25,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    “Glue work” is an concept Tanya Reilly came up with in 2019.
+  linkedin: |-
+    “Glue work” is an concept Tanya Reilly came up with in 2019. The idea is that there’s a large amount of unglamorous work that every team needs in order to be efficient: updating the docs and roadmap, addressing technical debt, onboarding engineers, making sure people talk to their counterparts on other teams, noticing strands that are getting dropped, and so on. Practical, naive engineers gravitate to this work because it’s obviously useful, but at promo or bonus time they’re ignored in favor of the engineers who did more visible work (like delivering new features).
+
+    I think this concept is excellent.
 ---
 
 "Glue work" is an concept Tanya Reilly [came up with](https://www.noidea.dog/glue) in 2019. The idea is that there's a large amount of unglamorous work that every team needs in order to be efficient: updating the docs and roadmap, addressing technical debt, onboarding engineers, making sure people talk to their counterparts on other teams, noticing strands that are getting dropped, and so on. Practical, naive engineers gravitate to this work because it's obviously useful, but at promo or bonus time they're ignored in favor of the engineers who did more visible work (like delivering new features).

@@ -4,6 +4,15 @@ description:
 order: 69
 date: '2025-04-21'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Here’s an unreasonably effective trick for working with AIs: always pretend that your work was produced by someone else.
+
+    The problem is that current-generation AIs are too agreeable.
+  linkedin: |-
+    Here’s an unreasonably effective trick for working with AIs: always pretend that your work was produced by someone else.
+
+    The problem is that current-generation AIs are too agreeable. They’re trained to tell you that your ideas are novel and excellent, that your writing is clear and well-expressed, and even that your IQ is ~135. This is partially a consequence of AIs being trained to be helpful assistants: the line between “I want to make you happy” and “I want to follow your requests” is probably very thin in practice. It’s also a consequence of AIs being directly guided towards more agreeableness in order to game benchmarks like Chatbot Arena.
 ---
 
 Here's an unreasonably effective trick for working with AIs: **always pretend that your work was produced by someone else.**

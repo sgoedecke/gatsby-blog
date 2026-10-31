@@ -24,6 +24,13 @@ popularity:
         https://www.reddit.com/r/ExperiencedDevs/comments/1kg5fg2/the_valley_of_engineering_despair/
   manual: 0
 tags: ["shipping", "emotional regulation"]
+crossPostText:
+  x: |-
+    I have delivered a lot of successful engineering projects. When I start on a project, I’m now very (perhaps unreasonably) confident that I will ship it successfully.
+  linkedin: |-
+    I have delivered a lot of successful engineering projects. When I start on a project, I’m now very (perhaps unreasonably) confident that I will ship it successfully. Even so, in every single one of these projects there is a period — perhaps a day, or even a week — where it feels like everything has gone wrong and the project will be a disaster. I call this the valley of engineering despair. A huge part of becoming good at running projects is anticipating and enduring this period.
+
+    The start of a project always feels good.
 ---
 
 I have [delivered](/how-to-ship) a lot of successful engineering projects. When I start on a project, I'm now very (perhaps unreasonably) confident that I will ship it successfully. Even so, in every single one of these projects there is a period - perhaps a day, or even a week - where it feels like everything has gone wrong and the project will be a disaster. I call this the valley of engineering despair. A huge part of becoming good at running projects is anticipating and enduring this period[^1].

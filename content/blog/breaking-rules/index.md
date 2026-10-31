@@ -4,6 +4,11 @@ description:
 order: 61
 date: '2025-04-05'
 tags: ["good engineers", "shipping"]
+crossPostText:
+  x: |-
+    At every large tech company, some engineers get rewarded for visibly breaking the rules. This can be really frustrating for a certain kind of software engineer for whom rule-following is important.
+  linkedin: |-
+    At every large tech company, some engineers get rewarded for visibly breaking the rules. This can be really frustrating for a certain kind of software engineer for whom rule-following is important. In fact, rule-breaking is systematically rewarded at large tech companies, and for good reason. But it’s a sharp tool — how and when you break a rule matters a lot. Strong engineers break rules deliberately, carefully, and in ways that protect their managers.
 ---
 
 At every large tech company, some engineers get rewarded for visibly breaking the rules. This can be really frustrating for a certain kind of software engineer for whom rule-following is important. In fact, rule-breaking is systematically rewarded at large tech companies, and for good reason. But it's a sharp tool - how and when you break a rule matters a lot. Strong engineers break rules deliberately, carefully, and in ways that protect their managers.

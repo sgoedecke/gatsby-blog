@@ -9,6 +9,13 @@ popularity:
       - >-
         https://www.reddit.com/r/BetterOffline/comments/1u65z87/gpus_might_be_profitable_for_more_than_three_years/
 tags: ["ai", "bubble"]
+crossPostText:
+  x: |-
+    People who think current AI use is unsustainable often rely on the claim that inference GPUs only last “three years at the most” under load.
+  linkedin: |-
+    People who think current AI use is unsustainable often rely on the claim that inference GPUs only last “three years at the most” under load. The idea here is that once the AI bubble money drains away, current infrastructure will rapidly become obsolete, and there won’t be enough money floating around to buy a whole slate of brand-new GPUs. Inference costs would thus rapidly become way too expensive for current AI products to make any financial sense.
+
+    Where does this “three years at the most” claim come from? Is it plausible?
 ---
 
 [People](https://www.wheresyoured.at/ai-is-slowing-down) who think current AI use is unsustainable often rely on the [claim](https://www.tomshardware.com/pc-components/gpus/datacenter-gpu-service-life-can-be-surprisingly-short-only-one-to-three-years-is-expected-according-to-unnamed-google-architect) that inference GPUs only last "three years at the most" under load[^1]. The idea here is that once the AI bubble money drains away, current infrastructure will rapidly become obsolete, and there won't be enough money floating around to buy a whole slate of brand-new GPUs. Inference costs would thus rapidly become way too expensive for current AI products to make any financial sense.

@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["good engineers", "tech companies", "technical clarity"]
+crossPostText:
+  x: |-
+    Amazon infamously has a leadership principle where they say “good leaders are right, a lot”. It’s unclear to me how useful it is about leaders, but it’s definitely true about engineers. Good engineers are definitely right, a lot.
+  linkedin: |-
+    Amazon infamously has a leadership principle where they say “good leaders are right, a lot”. It’s unclear to me how useful it is about leaders, but it’s definitely true about engineers. Good engineers are definitely right, a lot.
+
+    Bryan Cantrill has a good rant about the Amazon principle here. I agree with Bryan that it’s a bit silly-sounding, and that it’s not the kind of fundamental principle that can guide tough decisions (no problem, just pick the right choice, like a good leader would do!) But I do think it’s just a straight-up fact.
 ---
 
 Amazon infamously has a leadership principle where they say "good leaders are right, a lot". It's unclear to me how useful it is about leaders, but it's definitely true about engineers. Good engineers are definitely right, a lot. 

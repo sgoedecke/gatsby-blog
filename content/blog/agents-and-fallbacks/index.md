@@ -4,6 +4,15 @@ description:
 order: 143
 date: '2025-09-27'
 tags: ["ai", "agents"]
+crossPostText:
+  x: |-
+    One frustrating pattern I’ve noticed in AI agents — at least in Claude Code, Codex and Copilot — is building automatic fallbacks.
+
+    Suppose you ask Codex to build a system to automatically group pages in a wiki by topic. (This isn’t hypothetical, I just did this for EndlessWiki).
+  linkedin: |-
+    One frustrating pattern I’ve noticed in AI agents — at least in Claude Code, Codex and Copilot — is building automatic fallbacks.
+
+    Suppose you ask Codex to build a system to automatically group pages in a wiki by topic. (This isn’t hypothetical, I just did this for EndlessWiki). You’ll probably want to use something like the Louvain method to identify clusters. But if you task an AI agent with building something like that, it usually will go one step further, and build a fallback: a separate, simpler code path if the Louvain method fails (say, grouping page slugs alphabetically).
 ---
 
 One frustrating pattern I've noticed in AI agents - at least in Claude Code, Codex and Copilot - is **building automatic fallbacks**.

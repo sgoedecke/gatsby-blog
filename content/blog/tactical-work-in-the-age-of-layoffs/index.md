@@ -4,6 +4,13 @@ description:
 order: 59
 date: '2025-03-28'
 tags: ["tech companies", "zirp", "career"]
+crossPostText:
+  x: |-
+    In the glory days of the 2010s, tech companies were very invested in their employees’ work-life balance. Those glory days are over.
+  linkedin: |-
+    In the glory days of the 2010s, tech companies were very invested in their employees’ work-life balance. Those glory days are over. Anecdotally, tech company executives are now internally directing their employees to work harder and faster, with the new threat of layoffs adding weight to that directive. Engineers are rightfully scared. What should we do?
+
+    The naive way that some engineers approach this is to simply work in the same way as they’ve been working, but add more hours.
 ---
 
 In the glory days of the 2010s, tech companies were very invested in their employees' work-life balance. Those glory days [are over](/good-times-are-over). Anecdotally, tech company executives are now internally directing their employees to work harder and faster, with the new threat of layoffs adding weight to that directive. Engineers are rightfully scared. What should we do?

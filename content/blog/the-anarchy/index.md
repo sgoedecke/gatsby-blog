@@ -4,6 +4,15 @@ description:
 order: 72
 date: '2025-04-25'
 tags: ["book reports"]
+crossPostText:
+  x: |-
+    I recently read (well, listened to the audiobook of) The Anarchy: The Relentless Rise of the East India Company by William Dalrymple.
+  linkedin: |-
+    I recently read (well, listened to the audiobook of) The Anarchy: The Relentless Rise of the East India Company by William Dalrymple.
+
+    Before reading The Anarchy, my vague pop-culture understanding of the East India company went something like this: England, as a strong colonial power, de-facto invaded and colonized the less powerful India in order to extract its resources. I was completely wrong about that.
+
+    First, when the East India Company was founded, England was a backwater compared to India: orders of magnitude less industrial production, a smaller and weaker army, poorer architecture and culture, and so on.
 ---
 
 I recently read (well, listened to the audiobook of) _The Anarchy: The Relentless Rise of the East India Company_ by William Dalrymple[^1].

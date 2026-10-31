@@ -4,6 +4,15 @@ description:
 order: 83
 date: '2025-05-17'
 tags: ["good engineers"]
+crossPostText:
+  x: |-
+    Earlier in my career I used to get blocked constantly, but these days it’s rare. What changed?
+
+    At first glance being blocked sounds like it’s outside your control, since it literally means you’re waiting for some other person or event.
+  linkedin: |-
+    Earlier in my career I used to get blocked constantly, but these days it’s rare. What changed?
+
+    At first glance being blocked sounds like it’s outside your control, since it literally means you’re waiting for some other person or event. However, engineers actually have a lot of control over the amount of time they spend blocked. You can see that by the fact that some engineers have a reputation for being “good at unblocking” other engineers. What skills do they have that other engineers don’t?
 ---
 
 Earlier in my career I used to get blocked[^1] constantly, but these days it's rare. What changed?

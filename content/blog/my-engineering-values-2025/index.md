@@ -4,6 +4,11 @@ description:
 order: 121
 date: '2025-07-25'
 tags: ["ethics", "meta", "zirp"]
+crossPostText:
+  x: |-
+    In 2021, I wrote this post describing the kind of work I wanted then. Almost five years later, it’s time for an update.
+  linkedin: |-
+    In 2021, I wrote this post describing the kind of work I wanted then. Almost five years later, it’s time for an update.
 ---
 
 In 2021, I wrote [this post](/my-engineering-values) describing the kind of work I wanted then. Almost five years later, it's time for an update.

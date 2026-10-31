@@ -4,6 +4,13 @@ description:
 order: 110
 date: '2025-07-09'
 tags: ["ai", "alignment failures", "ethics", "model personality", "anthropomorphism"]
+crossPostText:
+  x: |-
+    Recently, xAI’s Grok model made some very strange comments. In a now-deleted post, it suggested Adolf Hitler as the right person to deal with “anti-white hate”. It also pointed out that “radical leftists spewing anti-white hate … often have Ashkenazi Jewish surnames”.
+  linkedin: |-
+    Recently, xAI’s Grok model made some very strange comments. In a now-deleted post, it suggested Adolf Hitler as the right person to deal with “anti-white hate”. It also pointed out that “radical leftists spewing anti-white hate … often have Ashkenazi Jewish surnames”. Grok repeatedly referred to itself as “MechaHitler”, and seems happy to go by “Grokler”.
+
+    This isn’t the first time Grok has turned Nazi. In May this year, it began unpromptedly bringing up “white genocide” in response to completely unrelated questions — almost like Golden Gate Claude.
 ---
 
 Recently, xAI's Grok model made some very strange comments. In a now-deleted post, it suggested Adolf Hitler as the right person to deal with "anti-white hate". It also pointed out that "radical leftists spewing anti-white hate ... often have Ashkenazi Jewish surnames". Grok repeatedly referred to itself as "MechaHitler", and seems happy to go by "Grokler".

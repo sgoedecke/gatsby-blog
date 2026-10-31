@@ -4,6 +4,13 @@ description:
 order: 140
 date: '2025-09-20'
 tags: ["ai", "tech companies", "australia"]
+crossPostText:
+  x: |-
+    Right now the dominant programing model is something like “centaur chess”, where a skilled human is paired with a computer assistant. Together, they produce more work than either could individually.
+  linkedin: |-
+    Right now the dominant programing model is something like “centaur chess”, where a skilled human is paired with a computer assistant. Together, they produce more work than either could individually. No individual human can work as fast or as consistently as an LLM, but LLMs lack the depth of judgement that good engineers do. That’s why the current state-of-the-art AI programming tools are all high-feedback tools like Claude Code where you can see every step the agent is taking and provide real-time feedback, not tools like Devin where it just goes away and solves the problem on its own.
+
+    Even though human judgment is required, the bottleneck for these pairings is the LLM, not the human.
 ---
 
 Right now the dominant programing model is something like ["centaur chess"](https://en.wikipedia.org/wiki/Advanced_chess), where a skilled human is paired with a computer assistant. Together, they produce more work than either could individually. No individual human can work as fast or as consistently as an LLM, but LLMs lack the depth of judgement that good engineers do[^1]. That's why the current state-of-the-art AI programming tools are all high-feedback tools like Claude Code where you can see every step the agent is taking and provide real-time feedback, not tools like [Devin](https://devin.ai/) where it just goes away and solves the problem on its own.

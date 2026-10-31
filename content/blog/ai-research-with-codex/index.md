@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "projects"]
+crossPostText:
+  x: |-
+    In What’s the strongest AI model you can train on a laptop in five minutes? I tried my hand at answering a silly AI-research question. You can probably guess what it was.
+  linkedin: |-
+    In What’s the strongest AI model you can train on a laptop in five minutes? I tried my hand at answering a silly AI-research question. You can probably guess what it was.
+
+    I chatted with GPT-5 to help me get started with the Python scripts and to bounce ideas off, but it was still me doing the research. I was coming up with the ideas, running the experiments, and deciding what to do next based on the data.
 ---
 
 In [_What's the strongest AI model you can train on a laptop in five minutes?_](/model-on-a-mbp) I tried my hand at answering a silly AI-research question. You can probably guess what it was.

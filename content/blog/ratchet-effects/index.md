@@ -24,6 +24,11 @@ popularity:
     threads: 0
     urls: []
   manual: 0
+crossPostText:
+  x: |-
+    How do engineers become higher-status or lower-status at large tech companies? In other words, what determines who gets promoted and who doesn’t, or who gets assigned the exciting difficult work and who gets put on keep-the-lights-on maintenance duty?
+  linkedin: |-
+    How do engineers become higher-status or lower-status at large tech companies? In other words, what determines who gets promoted and who doesn’t, or who gets assigned the exciting difficult work and who gets put on keep-the-lights-on maintenance duty?
 ---
 
 How do engineers become higher-status or lower-status at large tech companies? In other words, what determines who gets promoted and who doesn't, or who gets assigned the exciting difficult work and who gets put on keep-the-lights-on maintenance duty?

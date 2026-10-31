@@ -19,6 +19,11 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai"]
+crossPostText:
+  x: |-
+    The anonymous blogger Gwern recently completed a thirteen thousand word post called Human-like Neural Nets by Catapulting, in which he offers a theory about why LLMs don’t possess truly flexible human-like intelligence, and how we might train LLMs that do.
+  linkedin: |-
+    The anonymous blogger Gwern recently completed a thirteen thousand word post called Human-like Neural Nets by Catapulting, in which he offers a theory about why LLMs don’t possess truly flexible human-like intelligence, and how we might train LLMs that do. Theories like this are entirely unremarkable: every crank researcher on the internet has a theory about how to crack AI. But Gwern is remarkable. Outside of OpenAI itself, Gwern is the earliest person to anticipate the potential of large language models, and the scaling arms-race involved in making them larger and more powerful still.
 ---
 
 The anonymous blogger Gwern recently completed a thirteen thousand word [post](https://gwern.net/llm-catapult) called _Human-like Neural Nets by Catapulting_, in which he offers a theory about why LLMs don't possess truly flexible human-like intelligence, and how we might train LLMs that do. Theories like this are entirely unremarkable: every ~~crank~~ researcher on the internet has a theory about how to crack AI. But _Gwern_ is remarkable. Outside of OpenAI itself, Gwern is the earliest person to anticipate the potential of large language models, and the scaling arms-race involved in making them larger and more powerful still. I often cite Leopold Aschenbrenner's [_Situational Awareness_](https://situational-awareness.ai/) as an example of someone correctly predicting the future of AI. Written in 2024, just after the release of GPT-4, Aschenbrenner gets a lot of things right: the rush to build billion or trillion-dollar GPU clusters, the importance of the code _around_ the LLM (what he calls "unhobbling")[^1], and the fact that scaling would continue through the decade. Gwern's essay [_The Scaling Hypothesis_](https://gwern.net/scaling-hypothesis) anticipated the broad strokes _in 2020_, immediately on the release of GPT-3 (two years before the release of ChatGPT and the beginning of the AI boom).

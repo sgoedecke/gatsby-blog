@@ -4,6 +4,11 @@ description:
 order: 63
 date: '2025-04-12'
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    Think of a tech company as a giant, dimly-lit factory. Work goes on throughout the factory as components shuffle back and forth, and finished products get steadily carted away, but the coordination and efficiency of each section is fairly low.
+  linkedin: |-
+    Think of a tech company as a giant, dimly-lit factory. Work goes on throughout the factory as components shuffle back and forth, and finished products get steadily carted away, but the coordination and efficiency of each section is fairly low. Some parts of the factory get jammed up and don’t do anything for days. Other parts are manically producing broken components which are thrown away unused. However, the factory manager — i.e. the tech company CEO — has one tool to combat this problem. That tool is the spotlight.
 ---
 
 Think of a tech company as a giant, dimly-lit factory. Work goes on throughout the factory as components shuffle back and forth, and finished products get steadily carted away, but the coordination and efficiency of each section is fairly low. Some parts of the factory get jammed up and don't do anything for days. Other parts are manically producing broken components which are thrown away unused. However, the factory manager - i.e. the tech company CEO - has one tool to combat this problem. That tool is the spotlight.

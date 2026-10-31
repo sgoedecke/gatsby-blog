@@ -4,6 +4,13 @@ description:
 order: 238
 date: '2026-09-14'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Right now developer experience is measured in seconds. If your tests take a second to run, that’s good; if they take thirty seconds, that’s bad. Any faster than a second doesn’t really matter, because most of your time is spent either thinking or waiting for an AI agent to spin.
+  linkedin: |-
+    Right now developer experience is measured in seconds. If your tests take a second to run, that’s good; if they take thirty seconds, that’s bad. Any faster than a second doesn’t really matter, because most of your time is spent either thinking or waiting for an AI agent to spin. Shaving milliseconds off your dev server reload time or whatever is pointless: that’s not the bottleneck.
+
+    It will be. Small models are getting faster and faster, and smart models are getting smaller.
 ---
 
 Right now developer experience is measured in seconds. If your tests take a second to run, that's good; if they take thirty seconds, that's bad. Any faster than a second doesn't really matter, because most of your time is spent either thinking or waiting for an AI agent to spin. Shaving milliseconds off your dev server reload time or whatever is pointless: that's not the bottleneck.

@@ -4,6 +4,15 @@ description:
 order: 219
 date: '2026-08-02'
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    Engineers often complain that visibility should be their manager’s job. In other words, they think engineers should be able to focus on the code, while their manager figures out who’s doing well and rewards them.
+  linkedin: |-
+    Engineers often complain that visibility should be their manager’s job. In other words, they think engineers should be able to focus on the code, while their manager figures out who’s doing well and rewards them.
+
+    This attitude is an extension of the “school fantasy”: the idea that your workplace should operate by the same rules as your school or university. After all, you didn’t have to worry about “visibility” during your education. You simply did the assignments and tests you were given, and if you did well you were rewarded with a good grade.
+
+    Many big tech companies encourage this attitude, because it helps them recruit smart graduates.
 ---
 
 Engineers often complain that visibility should be their manager's job. In other words, they think engineers should be able to focus on the code, while their manager figures out who's doing well and rewards them.

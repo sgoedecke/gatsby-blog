@@ -4,6 +4,13 @@ description:
 order: 222
 date: '2026-08-10'
 tags: ["ai", "alignment failures", "model personality"]
+crossPostText:
+  x: |-
+    Everyone knows that AI sycophancy is when the model tells you how smart you are. Wow, you’re absolutely right. That’s not just a new idea — it’s genuinely groundbreaking. You’re a very special user.
+  linkedin: |-
+    Everyone knows that AI sycophancy is when the model tells you how smart you are. Wow, you’re absolutely right. That’s not just a new idea — it’s genuinely groundbreaking. You’re a very special user. Easy to spot, isn’t it?
+
+    The discussion around AI sycophancy peaked last year, when the “#keep4o” movement was protesting the removal of OpenAI’s most sycophantic model (GPT-4o), and many people were openly slipping into AI psychosis.
 ---
 
 Everyone knows that [AI sycophancy](/ai-sycophancy/) is when the model tells you how smart you are. Wow, you're absolutely right. That's not just a new idea - it's genuinely groundbreaking. You're a very special user. Easy to spot, isn't it?

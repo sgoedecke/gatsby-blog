@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["software design", "tech companies", "large codebases"]
+crossPostText:
+  x: |-
+    Why do solo game developers tend to get into fights with big tech engineers? Why do high-profile external hires to large companies often fizzle out? Why is AI-assisted development amazing for some engineers and completely useless for others?
+  linkedin: |-
+    Why do solo game developers tend to get into fights with big tech engineers? Why do high-profile external hires to large companies often fizzle out? Why is AI-assisted development amazing for some engineers and completely useless for others?
+
+    I think it’s because some engineers are doing very different kinds of work to other engineers. Those two types of engineers often assume their counterparts are simply incompetent, but they’re really just working in different fields.
 ---
 
 Why do solo game developers tend to get into fights with big tech engineers? Why do high-profile external hires to large companies often fizzle out? Why is AI-assisted development amazing for some engineers and completely useless for others?

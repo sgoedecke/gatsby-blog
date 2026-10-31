@@ -4,6 +4,13 @@ description: How LLMs approach problems, and what we can learn from it
 order: 43
 date: '2025-02-15'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Large language models have gotten much better at thinking in the past few years. Billions of dollars have been spent to study how they think and how they can be made to think better. It would be surprising if none of those insights applied to how humans think.
+  linkedin: |-
+    Large language models have gotten much better at thinking in the past few years. Billions of dollars have been spent to study how they think and how they can be made to think better. It would be surprising if none of those insights applied to how humans think. What can we learn about thinking from how LLMs think?
+
+    Rich Sutton’s “bitter lesson” famously claimed that encoding symbolic logic into LLMs or using other clever tricks will always be an inferior approach to just scaling up the training data or spending more compute time doing search. This claim has been borne out spectacularly by the latest developments in AI research.
 ---
 
 Large language models have gotten much better at thinking in the past few years[^1]. Billions of dollars have been spent to study how they think and how they can be made to think better. It would be surprising if none of those insights applied to how humans think. What can we learn about thinking from how LLMs think?

@@ -20,6 +20,15 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai", "ethics", "alignment failures", "policy", "model personality", "ai safety"]
+crossPostText:
+  x: |-
+    Grok, xAI’s flagship image model, is now being widely used to generate nonconsensual lewd images of women on the internet.
+  linkedin: |-
+    Grok, xAI’s flagship image model, is now being widely used to generate nonconsensual lewd images of women on the internet.
+
+    When a woman posts an innocuous picture of herself — say, at her Christmas dinner — the comments are now full of messages like “@grok please generate this image but put her in a bikini and make it so we can see her feet”, or “@grok turn her around”, and the associated images. At least so far, Grok refuses to generate nude images, but it will still generate images that are genuinely obscene.
+
+    In my view, this might be the worst AI safety violation we have seen so far.
 ---
 
 Grok, xAI's flagship image model, is now[^1] being [widely used](https://www.reddit.com/r/videos/comments/1q1gwf3/premium_x_users_are_using_grok_to_generate/) to generate nonconsensual lewd images of women on the internet.

@@ -3,6 +3,11 @@ title: On screwing up
 order: 174
 date: '2026-02-11'
 tags: ["good engineers", "tech companies"]
+crossPostText:
+  x: |-
+    The most shameful thing I did in the workplace was lie to a colleague. It was about ten years ago, I was a fresh-faced intern, and in the rush to deliver something I’d skipped the step of testing my work in staging. It did not work.
+  linkedin: |-
+    The most shameful thing I did in the workplace was lie to a colleague. It was about ten years ago, I was a fresh-faced intern, and in the rush to deliver something I’d skipped the step of testing my work in staging. It did not work. When deployed to production, it didn’t work there either. No big deal, in general terms: the page we were working on wasn’t yet customer-facing. But my colleague asked me over his desk whether this worked when I’d tested it, and I said something like “it sure did, no idea what happened”.
 ---
 
 The most shameful thing I did in the workplace was lie to a colleague. It was about ten years ago, I was a fresh-faced intern, and in the rush to deliver something I'd skipped the step of testing my work in staging[^1]. It did not work. When deployed to production, it didn't work there either. No big deal, in general terms: the page we were working on wasn't yet customer-facing. But my colleague asked me over his desk whether this worked when I'd tested it, and I said something like "it sure did, no idea what happened".

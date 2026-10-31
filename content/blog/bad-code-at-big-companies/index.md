@@ -36,6 +36,11 @@ tags: ["good engineers", "tech companies"]
 crossPosts:
   x: "https://x.com/i/status/2110797585216606547"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7516563278920077312/"
+crossPostText:
+  x: |-
+    Every couple of years somebody notices that large tech companies sometimes produce surprisingly sloppy code. If you haven’t worked at a big company, it might be hard to understand how this happens. Big tech companies pay well enough to attract many competent engineers.
+  linkedin: |-
+    Every couple of years somebody notices that large tech companies sometimes produce surprisingly sloppy code. If you haven’t worked at a big company, it might be hard to understand how this happens. Big tech companies pay well enough to attract many competent engineers. They move slowly enough that it looks like they’re able to take their time and do solid work. How does bad code happen?
 ---
 
 Every couple of years [somebody](https://ziglang.org/news/migrating-from-github-to-codeberg/) [notices](https://github.com/microsoft/terminal/issues/10362) that large tech companies sometimes produce surprisingly sloppy code. If you haven't worked at a big company, it might be hard to understand how this happens. Big tech companies pay well enough to attract many competent engineers. They move slowly enough that it looks like they're able to take their time and do solid work. How does bad code happen?

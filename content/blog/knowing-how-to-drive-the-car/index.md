@@ -24,6 +24,11 @@ popularity:
     urls: []
   manual: 0
 tags: ["tech companies", "good engineers", "cynicism"]
+crossPostText:
+  x: |-
+    There are lots of different ways to be a software engineer. You can grind out code for twelve hours a day to make the world a better place. You can focus on glue work: process-based work that makes everyone around you more successful.
+  linkedin: |-
+    There are lots of different ways to be a software engineer. You can grind out code for twelve hours a day to make the world a better place. You can focus on glue work: process-based work that makes everyone around you more successful. You can join the conversation with your product manager and designer colleagues to influence what gets built, not just how it gets built. You can climb the ladder to staff engineer and above, or you can take it easy and focus on your hobbies. But whichever of these you choose, you have to know how tech companies work.
 ---
 
 There are lots of different ways to be a software engineer. You can grind out code for twelve hours a day to [make the world a better place](https://www.youtube.com/watch?v=B8C5sjjhsso). You can focus on [glue work](https://www.noidea.dog/glue): process-based work that makes everyone around you more successful. You can join the conversation with your product manager and designer colleagues to influence what gets built, not just how it gets built. You can climb the ladder to staff engineer and above, or you can take it easy and focus on your hobbies. But whichever of these you choose, **you have to know how tech companies work**.

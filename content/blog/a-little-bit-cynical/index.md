@@ -29,6 +29,11 @@ tags: ["tech companies", "cynicism"]
 crossPosts:
   x: "https://x.com/i/status/2114412601480536262"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7520178294173024257/"
+crossPostText:
+  x: |-
+    A lot of my readers call me a cynic when I say things like “you should do things that make your manager happy” or “big tech companies get to decide what projects you work on”.
+  linkedin: |-
+    A lot of my readers call me a cynic when I say things like “you should do things that make your manager happy” or “big tech companies get to decide what projects you work on”. Alex Wennerberg put the “Sean Goedecke is a cynic” case well in his post Software Engineers Are Not Politicians.
 ---
 
 A lot of my readers [call](https://lobste.rs/c/ch8tn0) [me](https://news.ycombinator.com/item?id=46085088) [a cynic](https://news.ycombinator.com/item?id=46082989) when I say things like "you should do things that [make your manager happy](/how-to-ship)" or "big tech companies [get to decide](/bad-code-at-big-companies) what projects you work on". Alex Wennerberg put the "Sean Goedecke is a cynic" case well in his post [_Software Engineers Are Not Politicians_](https://alexwennerberg.com/blog/2025-11-28-engineering.html). Here are some excerpts:

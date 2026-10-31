@@ -26,6 +26,13 @@ popularity:
         https://www.reddit.com/r/programming/comments/1jtr3kp/knowing_where_your_engineer_salary_comes_from/
   manual: 0
 tags: ["tech companies", "zirp"]
+crossPostText:
+  x: |-
+    With the recent flurry of US federal firings, many people are pointing and laughing at the Trump-voting federal employees who are just now finding out that they’ve voted for themselves to be let go. How could you have this poor a mental model of what your job even is? Well.
+  linkedin: |-
+    With the recent flurry of US federal firings, many people are pointing and laughing at the Trump-voting federal employees who are just now finding out that they’ve voted for themselves to be let go. How could you have this poor a mental model of what your job even is? Well. In my opinion, many software engineers are operating under a mental model that’s just as bad, and are often doing the equivalent of voting for the person promising to fire them.
+
+    I won’t quote the tweets, but I regularly see stories like “I convinced my idiot bosses to finally let me do only tech debt work, and would you believe they fired me after a few months?”
 ---
 
 With the recent flurry of US federal firings, many people are [pointing and laughing](https://www.washingtonpost.com/politics/2025/02/27/fired-federal-worker-trump-voter/) at the Trump-voting federal employees who are just now finding out that they've voted for themselves to be let go. How could you have this poor a mental model of _what your job even is_? Well. In my opinion, many software engineers are operating under a mental model that's just as bad, and are often doing the equivalent of voting for the person promising to fire them.

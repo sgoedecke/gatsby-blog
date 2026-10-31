@@ -27,6 +27,11 @@ tags: ["tech companies"]
 crossPosts:
   x: "https://x.com/i/status/2114808525272621092"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7520574218640633857/"
+crossPostText:
+  x: |-
+    Many engineers should be doing less work. I don’t necessarily mean producing less code or fewer changes, but literally working fewer hours in the day. When they do work, they should be working at a slower pace.
+  linkedin: |-
+    Many engineers should be doing less work. I don’t necessarily mean producing less code or fewer changes, but literally working fewer hours in the day. When they do work, they should be working at a slower pace. I like to aim to be running at 80% utilization by default: unless I have a high-pressure project going on, I spend 20% of my workday away from the computer.
 ---
 
 Many engineers should be doing less work. I don't necessarily mean producing less code or fewer changes, but literally working fewer hours in the day. When they do work, they should be working at a slower pace. I like to aim to be running at 80% utilization by default: unless I have a high-pressure project going on, I spend 20% of my workday away from the computer.

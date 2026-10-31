@@ -4,6 +4,13 @@ description: Cynicism and optimism in software companies
 order: 25
 date: '2025-01-08'
 tags: ["tech companies", "cynicism"]
+crossPostText:
+  x: |-
+    When I suggest doing what your management chain wants, people call me cynical. Is it cynical to deliberately work on things your company incentivizes and neglect things your company doesn’t reward? It might seem so on the face of it.
+  linkedin: |-
+    When I suggest doing what your management chain wants, people call me cynical. Is it cynical to deliberately work on things your company incentivizes and neglect things your company doesn’t reward? It might seem so on the face of it. However, I think this attitude is actually optimistic, not cynical. The real cynic is the person who says that you should ignore management incentives and just do the right thing for the customer.
+
+    The idea that “screw the managers, you should do the right thing for the customer” comes from a belief that your managers are all idiots (or at least enough of them are that good ideas don’t percolate through).
 ---
 
 When I [suggest](/how-to-ship) doing what your management chain wants, people call me cynical. Is it cynical to deliberately work on things your company incentivizes and neglect things your company doesn't reward? It might seem so on the face of it. However, I think this attitude is actually _optimistic_, not cynical. The real cynic is the person who says that you should ignore management incentives and just do the right thing for the customer.

@@ -4,6 +4,15 @@ description: A brief explanation of how blockchains work for developers
 order: 5
 date: '2020-07-29'
 tags: ["crypto", "explainers"]
+crossPostText:
+  x: |-
+    This is a guide for developers who kinda sorta know what blockchains are for (making distributed crypto-currencies like Bitcoin possible) but have no idea what exactly is involved in that or how it works.
+
+    This problem is compounded by the fact that popular discussions of (e.g.)
+  linkedin: |-
+    This is a guide for developers who kinda sorta know what blockchains are for (making distributed crypto-currencies like Bitcoin possible) but have no idea what exactly is involved in that or how it works.
+
+    This problem is compounded by the fact that popular discussions of (e.g.) Bitcoin try to make it interesting by pumping up the mathematics side of it, which makes it sound even more inaccessible to developers without strong maths or CS chops. For instance, news articles will mention that placing a “block” in the “chain” — whatever that means — requires solving a very difficult mathematical problem. This sounds complicated!
 ---
 
 # Introduction

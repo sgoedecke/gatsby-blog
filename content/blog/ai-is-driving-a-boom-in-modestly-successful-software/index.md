@@ -7,6 +7,15 @@ tags: ["ai"]
 crossPosts:
   x: "https://x.com/i/status/2110986122750779656"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7516751816429318145/"
+crossPostText:
+  x: |-
+    If AI is so great, why aren’t we seeing an explosion of new, amazing software products? If anyone can turn their idea into working software with coding agents, where is all that software? People have been asking this question for years.
+  linkedin: |-
+    If AI is so great, why aren’t we seeing an explosion of new, amazing software products? If anyone can turn their idea into working software with coding agents, where is all that software? People have been asking this question for years. As far as I can tell, the answer is that it’s spread out over a lot of modestly successful projects:
+
+    - Somewhere between 2x and 20x new software is being created, depending on where you look
+    - There’s no real growth in massively successful software projects (not counting AI tools)
+    - There is around 2x growth in modestly successful software projects
 ---
 
 If AI is so great, why aren't we seeing an explosion of new, amazing software products? If anyone can turn their idea into working software with coding agents, [where is all that software](https://www.natemeyvis.com/where-is-all-the-new-good-software/)? People have been [asking](https://mikelovesrobots.substack.com/p/wheres-the-shovelware-why-ai-coding) [this question](https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html) for years. As far as I can tell, the answer is that it's spread out over a lot of modestly successful projects:

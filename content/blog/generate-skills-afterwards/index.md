@@ -3,6 +3,11 @@ title: LLM-generated skills work, if you generate them afterwards
 order: 176
 date: '2026-02-17'
 tags: ["ai", "steering"]
+crossPostText:
+  x: |-
+    LLM “skills” are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent paper showed that while skills are useful to LLMs, LLM-authored skills are not.
+  linkedin: |-
+    LLM “skills” are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent paper showed that while skills are useful to LLMs, LLM-authored skills are not.
 ---
 
 LLM ["skills"](https://github.com/anthropics/skills) are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent [paper](https://arxiv.org/abs/2602.12670) showed that while skills are useful to LLMs, _LLM-authored_ skills are not. From the abstract:

@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    If you’re a competent software engineer at a large tech company, your time is in very high demand. Lots of people will want you to do things. You should be very selective about how you handle these requests, and definitely avoid saying yes to everyone.
+  linkedin: |-
+    If you’re a competent software engineer at a large tech company, your time is in very high demand. Lots of people will want you to do things. You should be very selective about how you handle these requests, and definitely avoid saying yes to everyone.
+
+    Helping other people feels good. That’s doubly true when those people are from other parts of the company. It feels like you’re having the kind of cross-org impact that a staff+ engineer ought to be having.
 ---
 
 If you're a competent software engineer at a large tech company, your time is in very high demand. Lots of people will want you to do things[^1]. You should be very selective about how you handle these requests, and definitely avoid saying yes to everyone.

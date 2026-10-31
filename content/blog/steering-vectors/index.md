@@ -20,6 +20,11 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "steering"]
+crossPostText:
+  x: |-
+    Ever since Golden Gate Claude I’ve been fascinated with “steering”: the idea that you can guide LLM outputs by directly manipulating the activations of the model mid-flight.
+  linkedin: |-
+    Ever since Golden Gate Claude I’ve been fascinated with “steering”: the idea that you can guide LLM outputs by directly manipulating the activations of the model mid-flight.
 ---
 
 Ever since [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude) I've been fascinated with "steering": the idea that you can guide LLM outputs by directly manipulating the activations of the model mid-flight.

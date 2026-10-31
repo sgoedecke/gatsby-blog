@@ -4,6 +4,13 @@ description:
 order: 107
 date: '2025-07-05'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    The two current paradigms of AI app development are agentic coding (using an AI to help you write your ordinary line-of-business code faster) and building AI apps for mass consumption (working on the next Lovable or Character.ai).
+  linkedin: |-
+    The two current paradigms of AI app development are agentic coding (using an AI to help you write your ordinary line-of-business code faster) and building AI apps for mass consumption (working on the next Lovable or Character.ai). There’s no shortage of useful things written about either of those tasks. However, there’s a third way to work with AI that I think is underrated: building tiny AI-driven programs.
+
+    Unlike the first two paradigms, this is not going to make you rich. It’s not the next industry-defining “killer app”. It’s the AI equivalent of the ordinary scripting and alias-writing that software engineers have been doing forever, except applied to repetitive text-heavy workflows.
 ---
 
 The two current paradigms of AI app development are **agentic coding** (using an AI to help you write your ordinary line-of-business code faster) and **building AI apps for mass consumption** (working on the next Lovable or Character.ai). There's no shortage of useful things written about either of those tasks. However, there's a third way to work with AI that I think is underrated: building tiny AI-driven programs.

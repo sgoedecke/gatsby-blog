@@ -7,6 +7,13 @@ tags: ["ai", "politics", "luddites"]
 crossPosts:
   x: "https://x.com/i/status/2112320327875219790"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7518086021826224128/"
+crossPostText:
+  x: |-
+    Programmers were better back in the day, weren’t they? Back when we had real programmers. Not just people who got paid to write code, but people who lived it, who were obsessed with their craft, and whose code was a lively expression of themselves.
+  linkedin: |-
+    Programmers were better back in the day, weren’t they? Back when we had real programmers. Not just people who got paid to write code, but people who lived it, who were obsessed with their craft, and whose code was a lively expression of themselves. Hackers were hackers in those days before money took over the industry.
+
+    Don’t even get me started on LLMs. Could there be a better example of today’s degenerate spirit?
 ---
 
 Programmers were better back in the day, weren't they? Back when we had real programmers. Not just people who got paid to write code, but people who _lived_ it, who were obsessed with their craft, and whose code was a lively expression of themselves. Hackers were hackers in those days before money took over the industry.

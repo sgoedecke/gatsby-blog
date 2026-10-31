@@ -4,6 +4,15 @@ description:
 order: 89
 date: '2025-05-30'
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    Engineers often feel a lot of ownership over the code they write. That’s understandable: it’s partially their creation, and it’s also their workspace, so they have a direct interest in it being a nice place to work in.
+  linkedin: |-
+    Engineers often feel a lot of ownership over the code they write. That’s understandable: it’s partially their creation, and it’s also their workspace, so they have a direct interest in it being a nice place to work in.
+
+    This causes engineers to push back hard against attempts to ship “quick fixes” or to rush features out that would cause some technical debt. To them, it feels like their elegant codebase is being vandalized — as if someone came into their house and started tracking mud everywhere.
+
+    However, just because those feelings are understandable doesn’t mean they’re accurate. It’s not your codebase.
 ---
 
 Engineers often feel a lot of ownership over the code they write. That's understandable: it's partially their creation, and it's also their workspace, so they have a direct interest in it being a nice place to work in.

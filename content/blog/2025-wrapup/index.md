@@ -4,6 +4,19 @@ description:
 order: 165
 date: '2026-01-03'
 tags: ["yearly wrapup", "meta"]
+crossPostText:
+  x: |-
+    In 2025, I published 141 posts, 33 of which made it to the front page of Hacker News or similar aggregators.
+  linkedin: |-
+    In 2025, I published 141 posts, 33 of which made it to the front page of Hacker News or similar aggregators. I definitely wrote more in the first half of the year (an average of around 15 posts per month, down to around 8 in the second half), but overall I’m happy with my consistency. Here are some posts I’m really proud of:
+
+    - Mistakes engineers make in large established codebases
+    - The good times in tech are over
+    - Everything I know about good system design
+    - Pure and impure software engineering
+    - Seeing like a software company
+
+    As it turns out, I was the third most popular blogger on Hacker News this year, behind the excellent Simon Willison and Jeff Geerling.
 ---
 
 In 2025, I published 141 posts, 33 of which made it to the front page of [Hacker News](https://news.ycombinator.com/) or similar aggregators. I definitely wrote more in the first half of the year (an average of around 15 posts per month, down to around 8 in the second half), but overall I'm happy with my consistency. Here are some posts I'm really proud of:
