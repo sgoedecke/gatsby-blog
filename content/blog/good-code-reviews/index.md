@@ -29,6 +29,9 @@ popularity:
         https://www.reddit.com/r/SoftwareEngineering/comments/1sg79fz/mistakes_i_see_engineers_making_in_their_code/
   manual: 0
 tags: ["good engineers", "software design", "explainers", "ai"]
+crossPosts:
+  x: "https://x.com/i/status/2116599609577369662"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7522365302400040960/"
 ---
 
 In the last two years, code review has gotten much more important. Code is now easy to generate using LLMs, but it's still just as hard to review[^1]. Many software engineers now spend as much (or more) time reviewing the output of their own AI tools than their colleagues' code.
