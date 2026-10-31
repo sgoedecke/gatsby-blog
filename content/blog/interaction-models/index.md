@@ -6,11 +6,11 @@ date: '2026-05-12'
 tags: ["ai"]
 crossPostText:
   x: |-
-    Thinking Machines just released Interaction Models. This is their first real AI model release after a year of work and two billion dollars of capital. What is an “interaction model”? First, it’s not a frontier model.
+    Thinking Machines just released Interaction Models. This is their first real AI model release after a year of work and two billion dollars of capital. What is an “interaction model”?
   linkedin: |-
     Thinking Machines just released Interaction Models. This is their first real AI model release after a year of work and two billion dollars of capital. What is an “interaction model”? First, it’s not a frontier model. Thinking Machines is not yet competing with OpenAI, Anthropic and Google.
 
-    Instead, they’re working on the problem of better real-time interaction with models.
+    Instead, they’re working on the problem of better real-time interaction with models. Some parts of what they’re doing are not new at all, other parts are slightly-questionable benchmark gaming, and still other parts represent a genuine technological advancement.
 ---
 
 Thinking Machines just released [_Interaction Models_](https://thinkingmachines.ai/blog/interaction-models/). This is their first real AI model release[^1] after a year of work and two billion dollars of capital. What is an "interaction model"? First, **it's not a frontier model**. Thinking Machines is not yet competing with OpenAI, Anthropic and Google.

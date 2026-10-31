@@ -31,7 +31,7 @@ crossPostText:
   linkedin: |-
     OpenAI just released its first ever open-source large language models, called gpt-oss-120b and gpt-oss-20b. You can talk to them here. Are they good models? Well, that depends on what you’re looking for. They’re great at some benchmarks, of course (OpenAI would never have released them otherwise) but weirdly bad at others, like SimpleQA.
 
-    Some people really like them.
+    Some people really like them. Others on Twitter really don’t. From what I can tell, they’re technically competent but lack a lot of out-of-domain knowledge: for instance, they have broad general knowledge about science, but don’t know much about popular culture.
 ---
 
 OpenAI just released its first ever open-source[^1] large language models, called gpt-oss-120b and gpt-oss-20b. You can talk to them [here](https://gpt-oss.com/). Are they good models? Well, that depends on what you're looking for. They're great at [some benchmarks](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf), of course (OpenAI would never have released them otherwise) but weirdly bad at others, like SimpleQA.

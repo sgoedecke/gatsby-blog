@@ -9,8 +9,6 @@ crossPostText:
     The Chinese AI lab DeepSeek recently released their new reasoning model R1, which is supposedly (a) better than the current best reasoning models (OpenAI’s o1- series), and (b) was trained on a GPU cluster a fraction the size of any of the big western AI labs.
   linkedin: |-
     The Chinese AI lab DeepSeek recently released their new reasoning model R1, which is supposedly (a) better than the current best reasoning models (OpenAI’s o1- series), and (b) was trained on a GPU cluster a fraction the size of any of the big western AI labs. Unlike the big western AI labs, they’ve released a paper explaining what they did.
-
-    Like previous posts along these lines, this is more of my attempt to think out loud and internalize what I’ve learned by reading the paper. I’m not an expert in this area: I work on AI products at GitHub, but the emphasis there is on “product”, not on “AI”. Hopefully that makes this helpful to other non-experts — but it’s helpful to me, in any case.
 ---
 
 The Chinese AI lab[^1] DeepSeek recently released their new reasoning model R1, which is supposedly (a) better than the current best reasoning models (OpenAI's o1- series), and (b) was trained on a GPU cluster a fraction the size of any of the big western AI labs. Unlike the big western AI labs, they've released a [paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf) explaining what they did.

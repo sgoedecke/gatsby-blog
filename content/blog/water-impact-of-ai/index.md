@@ -10,12 +10,7 @@ crossPostText:
   x: |-
     There’s a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses.
   linkedin: |-
-    There’s a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses. Here are some randomly-chosen examples:
-
-    - https://news.abplive.com/technology/microsoft-water-consumption-iowa-ai-bard-chatgpt-1629090
-    - https://sooon.medium.com/the-environmental-cost-of-ai-how-much-water-does-chatgpt-use-7a638635cff6
-    - https://www.businesstoday.in/technology/news/story/microsofts-water-usage-surges-by-thousands-of-gallons-after-the-launch-of-chatgpt-study-397951-2023-09-11
-    - https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/
+    There’s a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses.
 ---
 
 There's a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses. Here are some randomly-chosen examples:

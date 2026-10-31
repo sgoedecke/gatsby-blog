@@ -25,7 +25,7 @@ crossPostText:
   linkedin: |-
     Are microservices better than monoliths? Should teams set their own technical direction, or is it better to have that dictated by some external architect? Should you write long-term complex projects in an untyped language? If you’re on the internet for ten seconds, you’ll see many engineers who argue about these topics as if the answer was obvious.
 
-    The longer I work in tech, the less confident I get about any of these big questions. I’ve seen enough things work that I thought were terrible ideas, and vice versa.
+    The longer I work in tech, the less confident I get about any of these big questions. I’ve seen enough things work that I thought were terrible ideas, and vice versa. In fact, I’m not convinced it’s even possible to be justifiably confident that there’s a right answer to these questions. Nobody knows!
 ---
 
 Are microservices better than monoliths? Should teams set their own technical direction, or is it better to have that dictated by some external architect? Should you write long-term complex projects in an untyped language? If you're on the internet for ten seconds, you'll see many engineers who argue about these topics as if the answer was obvious.

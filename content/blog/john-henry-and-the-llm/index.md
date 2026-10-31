@@ -6,7 +6,7 @@ date: '2025-06-03'
 tags: ["good engineers", "ai"]
 crossPostText:
   x: |-
-    The story of John Henry is a famous American fable about pride. To build railroad tunnels, men would hammer a chisel-like drill into the mountain rock, so that explosives could be placed inside for blasting.
+    The story of John Henry is a famous American fable about pride.
   linkedin: |-
     The story of John Henry is a famous American fable about pride. To build railroad tunnels, men would hammer a chisel-like drill into the mountain rock, so that explosives could be placed inside for blasting. John Henry, a “steel-driving man”, couldn’t accept that a steam-powered drill could hammer better than him. He proved his point by outworking the machine — only to die from exhaustion with a hammer in his hand.
 

@@ -29,8 +29,6 @@ crossPostText:
     Google recently released Gemini Diffusion, which is impressing everyone with its speed. Supposedly they even had to slow down the demo so people could see what was happening. What’s special about diffusion models that makes text generation so much faster?
   linkedin: |-
     Google recently released Gemini Diffusion, which is impressing everyone with its speed. Supposedly they even had to slow down the demo so people could see what was happening. What’s special about diffusion models that makes text generation so much faster? Should every text model be a diffusion model, going forward?
-
-    I previously wrote a simple explainer of diffusion models here. If you don’t have any intuitions about how diffusion models are different, I suggest starting with that.
 ---
 
 Google recently released [Gemini Diffusion](https://deepmind.google/models/gemini-diffusion/), which is impressing everyone with its speed. Supposedly they even had to slow down the demo so people could see what was happening. What's special about diffusion models that makes text generation so much faster? Should every text model be a diffusion model, going forward?

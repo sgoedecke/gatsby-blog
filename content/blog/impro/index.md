@@ -22,6 +22,8 @@ tags: ["book reports"]
 crossPostText:
   x: |-
     Here’s the big idea in Keith Johnstone’s book Impro:
+
+    1. Children are naturally creative, but are violently formed into repressed adults by Western culture and education…
   linkedin: |-
     Here’s the big idea in Keith Johnstone’s book Impro:
 

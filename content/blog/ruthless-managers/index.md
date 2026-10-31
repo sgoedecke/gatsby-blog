@@ -7,8 +7,6 @@ tags: ["tech companies", "management"]
 crossPostText:
   x: |-
     There are two kinds of engineering manager: empathetic and ruthless. I think ruthless managers are underrated for a few reasons.
-
-    Empathetic managers care. They are emotionally invested in their employees as human beings, and actively campaign to support their employees’ needs.
   linkedin: |-
     There are two kinds of engineering manager: empathetic and ruthless. I think ruthless managers are underrated for a few reasons.
 

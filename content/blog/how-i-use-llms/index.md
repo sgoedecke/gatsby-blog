@@ -29,7 +29,7 @@ popularity:
 tags: ["ai", "how to"]
 crossPostText:
   x: |-
-    Software engineers are deeply split on the subject of large language models. Many believe they’re the most transformative technology to ever hit the industry.
+    Software engineers are deeply split on the subject of large language models. Many believe they’re the most transformative technology to ever hit the industry. Others believe they’re the latest in a long line of hype-only products.
   linkedin: |-
     Software engineers are deeply split on the subject of large language models. Many believe they’re the most transformative technology to ever hit the industry. Others believe they’re the latest in a long line of hype-only products: exciting to think about, but ultimately not useful to professionals trying to do serious work.
 

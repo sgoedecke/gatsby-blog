@@ -13,6 +13,8 @@ crossPostText:
     I recently wrote an article for LeadDev about how software engineers are dealing with the AI hype in practice. Here’s my position, in short:
 
     I think AI is pretty great. It speeds me up by about 50% overall — in practice, sometimes 0% and sometimes 300%, depending on what I’m working on. I have to do gnarly legacy changes myself, since there’s way too much wicked context for the AI to consume. But if I’m making a change in a small, fairly isolated codebase, Copilot Agent mode can get me 90% of the way there.
+
+    The problem is that tech leaders are expecting a consistent 10x speedup, not the 1.5x speedup I’m getting.
 ---
 
 I recently wrote an [article](https://leaddev.com/technical-direction/vibe-coding-hype-cycles-why-ai-isnt-10x-answer) for LeadDev about how software engineers are dealing with the AI hype in practice. Here's my position, in short:

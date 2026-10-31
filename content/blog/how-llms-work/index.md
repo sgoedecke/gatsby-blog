@@ -9,8 +9,6 @@ crossPostText:
     Over the last few weeks I’ve been playing around with the excellent llama2.c repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta’s LLaMA and OpenAI’s GPT models.
   linkedin: |-
     Over the last few weeks I’ve been playing around with the excellent llama2.c repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta’s LLaMA and OpenAI’s GPT models. I’ve learned a lot and want to write about what I’ve learned.
-
-    My general idea is to start very broad, then slowly zero in until I’m deep in the specifics of how the llama2.c architecture works (and thus how transformers work in general). If you want to follow along with my JS port, it’s here.
 ---
 
 Over the last few weeks I've been playing around with the excellent [llama2.c](https://github.com/karpathy/llama2.c) repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta's LLaMA and OpenAI's GPT models. I've learned a lot and want to write about what I've learned. 

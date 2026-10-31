@@ -33,7 +33,7 @@ crossPostText:
   linkedin: |-
     People have been making fun of OpenAI models for being overly sycophantic for months now. I even wrote a post advising users to pretend that their work was written by someone else, to counteract the model’s natural desire to shower praise on the user. With the latest GPT-4o update, this tendency has been turned up even further. It’s now easy to convince the model that you’re the smartest, funniest, most handsome human in the world.
 
-    This is bad for obvious reasons. Lots of people use ChatGPT for advice or therapy.
+    This is bad for obvious reasons. Lots of people use ChatGPT for advice or therapy. It seems dangerous for ChatGPT to validate people’s belief that they’re always in the right.
 ---
 
 People have been making fun of OpenAI models for being overly sycophantic for months now. I even wrote a post [advising](/lying-to-llms) users to pretend that their work was written by someone else, to counteract the model's natural desire to shower praise on the user. With the latest GPT-4o [update](https://x.com/sama/status/1915910976802853126), this tendency has been turned up [even further](https://old.reddit.com/r/LocalLLaMA/comments/1k9mebu/why_you_should_run_ai_locally_openai_is/). It's now easy to convince the model that you're the smartest, funniest, most handsome human in the world[^1].

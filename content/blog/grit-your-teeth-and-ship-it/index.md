@@ -21,9 +21,9 @@ popular: true
 tags: ["shipping", "emotional regulation"]
 crossPostText:
   x: |-
-    Being good at building and being good at shipping are two separate skills. In the short term, they’re actually countervailing: if you have a gift for building, you’re likely to be worse at shipping. Ira Glass has a classic quote about this.
+    Being good at building and being good at shipping are two separate skills. In the short term, they’re actually countervailing: if you have a gift for building, you’re likely to be worse at shipping.
   linkedin: |-
-    Being good at building and being good at shipping are two separate skills. In the short term, they’re actually countervailing: if you have a gift for building, you’re likely to be worse at shipping. Ira Glass has a classic quote about this.
+    Being good at building and being good at shipping are two separate skills. In the short term, they’re actually countervailing: if you have a gift for building, you’re likely to be worse at shipping.
 ---
 
 Being good at building and being good at shipping are two separate skills. In the short term, they're actually countervailing: if you have a gift for building, you're likely to be _worse_ at shipping. Ira Glass has a classic quote about this.

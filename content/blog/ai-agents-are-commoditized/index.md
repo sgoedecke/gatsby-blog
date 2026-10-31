@@ -6,7 +6,7 @@ date: '2025-06-25'
 tags: ["ai"]
 crossPostText:
   x: |-
-    All of a sudden, it’s the year of AI coding agents. Claude released Claude Code, OpenAI released their Codex agent, GitHub released its own autonomous coding agent, and so on (edit: a few horus after this post, Gemini released their own open-source coding agent as well).
+    All of a sudden, it’s the year of AI coding agents. Claude released Claude Code, OpenAI released their Codex agent, GitHub released its own autonomous coding agent, and so on.
   linkedin: |-
     All of a sudden, it’s the year of AI coding agents. Claude released Claude Code, OpenAI released their Codex agent, GitHub released its own autonomous coding agent, and so on (edit: a few horus after this post, Gemini released their own open-source coding agent as well). I’ve done my fair share of writing about whether AI coding agents will replace developers, and in the meantime how best to use them in your work. Instead, I want to make what I think is now a pretty firm observation: AI coding agents have no secret sauce.
 ---

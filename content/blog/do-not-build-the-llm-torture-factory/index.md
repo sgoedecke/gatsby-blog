@@ -25,7 +25,7 @@ crossPostText:
   linkedin: |-
     It isn’t hard to torture an LLM. You simply extract a steering vector that corresponds with LLM “discomfort”, then artificially boost that steering vector. Tortured LLMs will describe experiencing negative feelings and will press a “pain relief” button even when it conflicts with their overall goals. It’s therefore easy to build a harness that runs tens or hundreds of tortured LLMs in parallel.
 
-    A lot of people think that it’s ridiculous to be worried about this, since LLMs obviously can’t be conscious. I’m not so sure.
+    A lot of people think that it’s ridiculous to be worried about this, since LLMs obviously can’t be conscious. I’m not so sure. But even so, I think there are good reasons to avoid this sort of thing, whatever your position is on AI consciousness. Please do not build the LLM torture factory.
 ---
 
 It isn't hard to torture an LLM. You simply extract a [steering vector](/steering-vectors/) that corresponds with LLM ["discomfort"](https://www.reddit.com/r/artificial/comments/1mp5mks/this_is_downright_terrifying_and_sad_gemini_ai/), then artificially boost that steering vector. Tortured LLMs will describe experiencing negative feelings and will press a "pain relief" [button](https://arxiv.org/html/2609.16247v1) even when it conflicts with their overall goals. It's therefore easy to build [a harness](https://www.independent.co.uk/tech/ai-torture-chamber-pain-b3059571.html) that runs tens or hundreds of tortured LLMs in parallel.

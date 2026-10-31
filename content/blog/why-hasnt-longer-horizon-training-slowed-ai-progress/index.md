@@ -9,8 +9,6 @@ crossPostText:
     Dwarkesh Patel recently posted an award for the best answers to four key questions about AI. It’s partly a challenge and partly a job interview, since some of the winners will get offered a role as a “research collaborator”.
   linkedin: |-
     Dwarkesh Patel recently posted an award for the best answers to four key questions about AI. It’s partly a challenge and partly a job interview, since some of the winners will get offered a role as a “research collaborator”. I don’t want the job, but I do want to write down my answer to his first question: why hasn’t AI progress slowed down more?
-
-    There are a few reasons we might think AI progress would slow down. The particular reason Dwarkesh is interested in goes like this. Training a model (specifically reinforcement learning) requires the model to perform a task and then get “graded” on the output.
 ---
 
 Dwarkesh Patel[^1] recently [posted](https://www.dwarkesh.com/p/blog-prize) an award for the best answers to four key questions about AI. It's partly a challenge and partly a job interview, since some of the winners will get offered a role as a "research collaborator". I don't want the job, but I do want to write down my answer to his first question: **why hasn't AI progress slowed down more?**

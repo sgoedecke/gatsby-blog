@@ -9,8 +9,6 @@ crossPostText:
     A recent MIT study — titled “Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task” — has been making the rounds. I read it (with my human brain, not with AI assistance). Unlike some recent AI papers, I think it’s pretty good.
   linkedin: |-
     A recent MIT study — titled “Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task” — has been making the rounds. I read it (with my human brain, not with AI assistance). Unlike some recent AI papers, I think it’s pretty good. However, I’m not convinced by the anti-AI tone of the general discussion, or by the first author’s own anti-AI views.
-
-    What did the paper actually do? It took three groups of people and got them to write four essays each on some general prompts.
 ---
 
 A recent MIT [study](https://arxiv.org/pdf/2506.08872) - titled "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task" - has been making the rounds. I read it (with my human brain, not with AI assistance). Unlike some recent AI papers[^1], I think it's pretty good. However, I'm not convinced by the anti-AI tone of the general discussion, or by the first author's own [anti-AI views](https://time.com/7295195/ai-chatgpt-google-learning-school/).

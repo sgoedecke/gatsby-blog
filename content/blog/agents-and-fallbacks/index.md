@@ -7,8 +7,6 @@ tags: ["ai", "agents"]
 crossPostText:
   x: |-
     One frustrating pattern I’ve noticed in AI agents — at least in Claude Code, Codex and Copilot — is building automatic fallbacks.
-
-    Suppose you ask Codex to build a system to automatically group pages in a wiki by topic. (This isn’t hypothetical, I just did this for EndlessWiki).
   linkedin: |-
     One frustrating pattern I’ve noticed in AI agents — at least in Claude Code, Codex and Copilot — is building automatic fallbacks.
 

@@ -8,9 +8,7 @@ crossPostText:
   x: |-
     Lots of people are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense.
   linkedin: |-
-    Lots of people are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense. For instance, my AI agents now use Datadog way more than I use it myself, purely by virtue of them moving much more quickly and running in parallel. But I think most attempts to build “X for AI agents” are going to fail. Here are three reasons why:
-
-    First, tools that are good for AI agents are also good for humans.
+    Lots of people are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense. For instance, my AI agents now use Datadog way more than I use it myself, purely by virtue of them moving much more quickly and running in parallel. But I think most attempts to build “X for AI agents” are going to fail.
 ---
 
 [Lots](https://uxdesign.cc/your-users-arent-human-anymore-start-building-for-agents-today-f7f556cb8125) [of](https://www.forbes.com/sites/medallia/2026/08/27/designing-for-a-world-of-ai-agents-not-just-human-users/) [people](https://dev.to/javz/start-building-for-agents-not-just-humans-5ab5) are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense. For instance, my AI agents now use Datadog way more than I use it myself, purely by virtue of them moving much more quickly and running in parallel. But I think most attempts to build "X for AI agents" are going to fail. Here are three reasons why:

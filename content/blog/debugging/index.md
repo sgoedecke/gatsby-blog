@@ -9,8 +9,6 @@ crossPostText:
     Being good at debugging is more useful than being good at writing code — you only write a piece of code once, but you may end up debugging it hundreds of times. As programmers use more AI-written code, debugging may end up being the only remaining programming skill.
   linkedin: |-
     Being good at debugging is more useful than being good at writing code — you only write a piece of code once, but you may end up debugging it hundreds of times. As programmers use more AI-written code, debugging may end up being the only remaining programming skill. But for some reason, the vast majority of programming content is about writing code well, not about debugging. What’s different about debugging?
-
-    Debugging can be a confusing and emotionally unpleasant process. Writing code involves building neat mental models and fitting them together in satisfying ways.
 ---
 
 Being good at debugging is more useful than being good at writing code - you only write a piece of code once, but you may end up debugging it hundreds of times[^1]. As programmers use more AI-written code, debugging may end up being the _only_ remaining programming skill. But for some reason, the vast majority of programming content is about writing code well, not about debugging. What's different about debugging?

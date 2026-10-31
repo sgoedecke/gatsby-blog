@@ -9,8 +9,6 @@ crossPostText:
     In 1973, Tom Lehrer famously sang that “selling out is easy to do”. That may have been true in the seventies, but it’s not true today: selling out requires both technical skill and a careful sense of how large organizations work in practice.
   linkedin: |-
     In 1973, Tom Lehrer famously sang that “selling out is easy to do”. That may have been true in the seventies, but it’s not true today: selling out requires both technical skill and a careful sense of how large organizations work in practice. One of the goals of this blog is to teach people how to do it.
-
-    If you want to live with uncompromised integrity, you don’t need anyone to tell you how: simply always do exactly and only what you want to do. You will be repeatedly punished for it — your managers will dislike you, you will lose jobs and lose out on the chance of getting hired, your financial situation will be less stable, and so on — but that’s just part of the deal.
 ---
 
 In 1973, Tom Lehrer famously [sang](https://www.youtube.com/watch?v=3BDyFuDxA-I) that "selling out is easy to do". That may have been true in the seventies, but it's not true today: selling out requires both [technical skill](/tags/good%20engineers/) and a careful sense of how large organizations [work in practice](/what-is-important/). One of the goals of this blog is to teach people how to do it.

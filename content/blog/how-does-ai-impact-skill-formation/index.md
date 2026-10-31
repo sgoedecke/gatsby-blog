@@ -14,7 +14,7 @@ crossPostText:
   linkedin: |-
     Two days ago, the Anthropic Fellows program released a paper called How AI Impacts Skill Formation. Like other papers on AI before it, this one is being treated as proof that AI makes you slower and dumber. Does it prove that?
 
-    The structure of the paper is sort of similar to the 2025 MIT study Your Brain on ChatGPT. They got a group of people to perform a cognitive task that required learning a new skill: in this case, the Python Trio library. Half of those people were required to use AI and half were forbidden from using it.
+    The structure of the paper is sort of similar to the 2025 MIT study Your Brain on ChatGPT. They got a group of people to perform a cognitive task that required learning a new skill: in this case, the Python Trio library. Half of those people were required to use AI and half were forbidden from using it. The researchers then quizzed those people to see how much information they retained about Trio.
 ---
 
 Two days ago, the Anthropic Fellows program released a paper called [_How AI Impacts Skill Formation_](https://arxiv.org/pdf/2601.20245). Like [other](/your-brain-on-chatgpt) [papers](/real-reasoning) on AI before it, this one is being [treated](https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/) as proof that AI makes you slower and dumber. Does it prove that?

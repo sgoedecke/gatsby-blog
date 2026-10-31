@@ -10,7 +10,7 @@ crossPostText:
   linkedin: |-
     Early AI agents were basically enthusiastic idiots. Working with them required you to tell them precisely what you wanted them to do (for instance, “method A exists on class B, please add an equivalent method to classes C through F”). Otherwise they’d go off and do entirely the wrong thing. But as AI agents have improved, this has changed.
 
-    When frontier models go off and do the wrong thing today, they don’t do it because they’re confused, they do it because they make an incorrect assumption about your goals or priorities. For instance, when GPT-6-Astra thinks it’s writing code for itself, it will produce minified code.
+    When frontier models go off and do the wrong thing today, they don’t do it because they’re confused, they do it because they make an incorrect assumption about your goals or priorities.
 ---
 
 Early AI agents were basically enthusiastic idiots. Working with them required you to tell them precisely what you wanted them to do (for instance, "method A exists on class B, please add an equivalent method to classes C through F"). Otherwise they'd go off and do entirely the wrong thing. But as AI agents have improved, this has changed.

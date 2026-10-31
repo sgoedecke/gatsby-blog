@@ -7,8 +7,6 @@ tags: ["crypto", "explainers"]
 crossPostText:
   x: |-
     This is a guide for developers who kinda sorta know what blockchains are for (making distributed crypto-currencies like Bitcoin possible) but have no idea what exactly is involved in that or how it works.
-
-    This problem is compounded by the fact that popular discussions of (e.g.)
   linkedin: |-
     This is a guide for developers who kinda sorta know what blockchains are for (making distributed crypto-currencies like Bitcoin possible) but have no idea what exactly is involved in that or how it works.
 

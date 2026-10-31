@@ -6,9 +6,9 @@ date: '2025-09-23'
 tags: ["ai", "projects"]
 crossPostText:
   x: |-
-    I spent the last couple of weeks building an AI-driven spaced repetition app. You can try it out here.
+    I spent the last couple of weeks building an AI-driven spaced repetition app.
   linkedin: |-
-    I spent the last couple of weeks building an AI-driven spaced repetition app. You can try it out here.
+    I spent the last couple of weeks building an AI-driven spaced repetition app.
 ---
 
 I spent the last couple of weeks building an AI-driven [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition) app. You can try it out [here](https://www.autodeck.pro/).

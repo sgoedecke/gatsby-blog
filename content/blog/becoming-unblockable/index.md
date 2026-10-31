@@ -7,8 +7,6 @@ tags: ["good engineers"]
 crossPostText:
   x: |-
     Earlier in my career I used to get blocked constantly, but these days it’s rare. What changed?
-
-    At first glance being blocked sounds like it’s outside your control, since it literally means you’re waiting for some other person or event.
   linkedin: |-
     Earlier in my career I used to get blocked constantly, but these days it’s rare. What changed?
 

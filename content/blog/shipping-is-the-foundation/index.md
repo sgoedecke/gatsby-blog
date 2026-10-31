@@ -9,8 +9,6 @@ crossPostText:
     There are lots of skills involved in being a successful engineer at a big tech company. Running effective meetings, writing good design docs, fleshing out tickets and epics, improving team processes, tech leading small groups of engineers, and so on.
   linkedin: |-
     There are lots of skills involved in being a successful engineer at a big tech company. Running effective meetings, writing good design docs, fleshing out tickets and epics, improving team processes, tech leading small groups of engineers, and so on. But all of these rest on the foundation of being able to ship.
-
-    In Dota 2, the early game involves “laning”: competing with an enemy player to collect resources from a small area. There are many, many strategies and considerations involved in laning. But the simplest possible approach is just to run at your opponent and attack them until they’re forced to either run away or die.
 ---
 
 There are lots of skills involved in being a successful engineer at a big tech company. Running effective meetings, writing good design docs, fleshing out tickets and epics, improving team processes, tech leading small groups of engineers, and so on. But all of these rest on the foundation of being able to ship.

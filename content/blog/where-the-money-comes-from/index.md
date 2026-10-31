@@ -28,7 +28,7 @@ popularity:
 tags: ["tech companies", "zirp"]
 crossPostText:
   x: |-
-    With the recent flurry of US federal firings, many people are pointing and laughing at the Trump-voting federal employees who are just now finding out that they’ve voted for themselves to be let go. How could you have this poor a mental model of what your job even is? Well.
+    With the recent flurry of US federal firings, many people are pointing and laughing at the Trump-voting federal employees who are just now finding out that they’ve voted for themselves to be let go. How could you have this poor a mental model of what your job even is? Well…
   linkedin: |-
     With the recent flurry of US federal firings, many people are pointing and laughing at the Trump-voting federal employees who are just now finding out that they’ve voted for themselves to be let go. How could you have this poor a mental model of what your job even is? Well. In my opinion, many software engineers are operating under a mental model that’s just as bad, and are often doing the equivalent of voting for the person promising to fire them.
 

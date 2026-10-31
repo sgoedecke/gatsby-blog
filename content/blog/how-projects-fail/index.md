@@ -8,7 +8,7 @@ crossPostText:
   x: |-
     How do projects fail at large tech companies? As I’ve said many times, failure means executives aren’t happy with how the project turned out.
   linkedin: |-
-    How do projects fail at large tech companies? As I’ve said many times, failure means executives aren’t happy with how the project turned out. At healthy companies, that typically means that a sensible engineer wouldn’t be happy either, because the project didn’t work or users hated it. But what actually causes the projects to fail? I’ve seen a lot of projects go wrong — both up close and at a distance — in the last ten years. Here are the main reasons why.
+    How do projects fail at large tech companies? As I’ve said many times, failure means executives aren’t happy with how the project turned out. At healthy companies, that typically means that a sensible engineer wouldn’t be happy either, because the project didn’t work or users hated it. But what actually causes the projects to fail?
 ---
 
 How do projects fail at large tech companies? As I've said [many](/how-to-ship) [times](/getting-things-done), failure means _executives aren't happy_ with how the project turned out. At healthy companies, that typically means that a sensible engineer wouldn't be happy either, because the project didn't work or users hated it. But what actually causes the projects to fail? I've seen a lot of projects go wrong - both up close and at a distance - in the last ten years. Here are the main reasons why.

@@ -38,7 +38,7 @@ crossPostText:
   linkedin: |-
     In the last two years, code review has gotten much more important. Code is now easy to generate using LLMs, but it’s still just as hard to review. Many software engineers now spend as much (or more) time reviewing the output of their own AI tools than their colleagues’ code.
 
-    I think a lot of engineers don’t do code review correctly. Of course, there are lots of different ways to do code review, so this is largely a statement of my engineering taste.
+    I think a lot of engineers don’t do code review correctly.
 ---
 
 In the last two years, code review has gotten much more important. Code is now easy to generate using LLMs, but it's still just as hard to review[^1]. Many software engineers now spend as much (or more) time reviewing the output of their own AI tools than their colleagues' code.
