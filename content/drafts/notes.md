@@ -1,3 +1,36 @@
+when you write online there is a really obvious game to play
+maximize views/interactions/engagement - the algo is set up to reward it, sometimes even financial rewards
+but in fact the real game is different. the mass audience is not valuable and doesn't actually consume your content beyond the title and first sentence
+you are writing to the ~5% of readers who will read through the whole thing, think about it, talk to others about it, get a sense of what you believe, email you, etc
+the two games pull apart: optimizing for engagement will alienate the readers you care about. but you don't get good signal on that - you're flying blind
+
+similar to work - you have obvious signal w.r.t. issues closed but the real game is how the org views you which is much more signal-poor. if you optimise JIRA you will likely do poorly on the other game
+
+---
+
+I don't think formal methods are the future of programming
+Bend/Anthropic/MSFT all doing it
+two pathways: either you start in formalization a la Bend and then produce a program from formal rules, or you write your normal program and then formalize it as a proof
+this is working well for mathematical proofs (the second path, not the first)
+
+my suspicion is that it will be much easier to write a working program than to prove that it works
+and that there will be lower-effort mechanisms to ensure that a program works (tests, videos/screenshots)
+and that most people will want to build the best programs they can rather than the best _provable_ program they can
+and that in practice verification is not going to massively improve security, bc security holes live in the seams
+and that defining the specification will be too complex for humans, so LLMs will define both code+spec together, contorting the spec to fit the code
+
+
+i think there will be more formal methods because the barrier has been talent + time, which LLMs will blow through. but I don't think it's going to eat everything
+
+---
+why isn't output caching a good idea?
+models repeat themselves a fair amount (e.g. they come up with a solution via reasoning then restate it in visible output, they write reports then restate them to the user)
+
+visible output is ~6% of billed output; dominated by hidden reasoning (50%) and tool calls (44%). so optimizing visible output even massively can only save a couple of %
+
+minimizing output tokens is mainly about intelligence (fewer steps) and harness tweaking (more efficient tool calls)
+
+---
 elegance and intelligence anticorrelate, not correlate
 
 john von neumann famously would "just calculate"
