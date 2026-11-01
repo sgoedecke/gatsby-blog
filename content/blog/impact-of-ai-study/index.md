@@ -4,6 +4,7 @@ description:
 order: 113
 date: '2025-07-11'
 tags: ["ai", "papers"]
+autoShare: false
 crossPostText:
   x: |-
     I complain a lot on this blog about AI studies. Given that, I ought to give credit when an AI study comes out that I think is really good. Yesterday METR released a study called Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity.

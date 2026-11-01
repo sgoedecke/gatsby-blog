@@ -24,6 +24,7 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+autoShare: false
 crossPostText:
   x: |-
     Several days ago, DeepSeek released a new OCR paper. OCR, or “optical character recognition”, is the process of converting an image of text — say, a scanned page of a book — into actual text content.

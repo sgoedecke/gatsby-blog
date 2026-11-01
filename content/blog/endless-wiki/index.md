@@ -24,6 +24,7 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "projects"]
+autoShare: false
 crossPostText:
   x: |-
     I built an infinite, AI-generated wiki. You can try it out at endlesswiki.com!

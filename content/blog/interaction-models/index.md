@@ -4,6 +4,7 @@ description:
 order: 193
 date: '2026-05-12'
 tags: ["ai"]
+autoShare: false
 crossPostText:
   x: |-
     Thinking Machines just released Interaction Models. This is their first real AI model release after a year of work and two billion dollars of capital. What is an “interaction model”?

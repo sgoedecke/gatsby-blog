@@ -4,6 +4,7 @@ description:
 order: 165
 date: '2026-01-03'
 tags: ["yearly wrapup", "meta"]
+autoShare: false
 crossPostText:
   x: |-
     In 2025, I published 141 posts, 33 of which made it to the front page of Hacker News or similar aggregators.

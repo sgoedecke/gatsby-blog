@@ -4,6 +4,7 @@ description:
 order: 224
 date: '2026-08-16'
 tags: ["ai", "ai watermarks", "ai writing"]
+autoShare: false
 crossPostText:
   x: |-
     People are pretty unhappy about Anthropic’s recent announcement that they’re planning to include a hidden watermark in Claude model outputs. Will this lead to a mass exodus from Anthropic models? Will the introduction of watermarking be a meaningful change for users?

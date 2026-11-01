@@ -19,6 +19,7 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "ai regulation", "ai watermarks"]
+autoShare: false
 crossPostText:
   x: |-
     The European Union AI Act will begin to be enforceable in August 2026, one month from now. One of the biggest new requirements is Article 50, which requires all AI outputs to be “detectable as artificially generated”.

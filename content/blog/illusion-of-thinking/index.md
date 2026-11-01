@@ -30,6 +30,7 @@ popularity:
       - >-
         https://old.reddit.com/r/LocalLLaMA/comments/1l6ibwg/when_you_figure_out_its_all_just_math/mwqltir/
   manual: 0
+autoShare: false
 crossPostText:
   x: |-
     Very recently (early June 2025), Apple released a paper called The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity.

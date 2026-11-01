@@ -4,6 +4,7 @@ description: People are too confident that DeepSeek V3/R1 are 10x cheaper than 4
 order: 38
 date: '2025-01-31'
 tags: ["ai", "deepseek", "inference"]
+autoShare: false
 crossPostText:
   x: |-
     Everyone’s saying that DeepSeek’s latest models represent a significant improvement over the work from American AI labs. If they’re not quite state-of-the-art, they’re close, and they’re supposedly an order of magnitude cheaper to train and serve.

@@ -4,6 +4,7 @@ description: A devlog of my experience porting and hacking llama2.c
 order: 12
 date: '2023-11-26'
 tags: ["ai", "explainers"]
+autoShare: false
 crossPostText:
   x: |-
     Over the last few weeks I’ve been playing around with the excellent llama2.c repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta’s LLaMA and OpenAI’s GPT models.

@@ -4,6 +4,7 @@ description:
 order: 240
 date: '2026-09-16'
 tags: ["ai", "system one"]
+autoShare: false
 crossPostText:
   x: |-
     I don’t write blog posts about new models. That’s Simon Willison’s beat, and he’s very good at it. But I want to write about Jev, which is a different kind of AI model: a “System One” model.

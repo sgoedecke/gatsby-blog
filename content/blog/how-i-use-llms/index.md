@@ -27,6 +27,7 @@ popularity:
     urls:
       - 'https://youtu.be/aJl7YFSXES0?si=PyVM26Ej4vJzdQae'
 tags: ["ai", "how to"]
+autoShare: false
 crossPostText:
   x: |-
     Software engineers are deeply split on the subject of large language models. Many believe they’re the most transformative technology to ever hit the industry. Others believe they’re the latest in a long line of hype-only products.

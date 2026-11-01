@@ -4,6 +4,7 @@ description:
 order: 233
 date: '2026-09-08'
 tags: ["ai", "projects"]
+autoShare: false
 crossPostText:
   x: |-
     Automated AI text detection is currently an underserved niche. The only game in town is Pangram, which does an excellent job but desperately needs more competition.

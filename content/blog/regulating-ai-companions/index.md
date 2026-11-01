@@ -4,6 +4,7 @@ description:
 order: 119
 date: '2025-07-19'
 tags: ["ai", "ethics", "alignment failures", "policy", "openai", "model personality"]
+autoShare: false
 crossPostText:
   x: |-
     In April, OpenAI screwed up by releasing a version of GPT-4o that was overly sycophantic. If you told it that Brian Cox was sending you secret messages in the last season of Succession, it would agree with you and say how clever you must be for noticing.

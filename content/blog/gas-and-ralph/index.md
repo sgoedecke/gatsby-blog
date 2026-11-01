@@ -24,6 +24,7 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "crypto"]
+autoShare: false
 crossPostText:
   x: |-
     Two recently-hyped developments in AI engineering have been Geoff Huntley’s “Ralph Wiggum loop” and Steve Yegge’s “Gas Town”. Huntley and Yegge are both respected software engineers with a long pedigree of actual projects.

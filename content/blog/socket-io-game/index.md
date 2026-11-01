@@ -8,6 +8,7 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=15318530'
 tags: ["explainers", "side projects"]
+autoShare: false
 crossPostText:
   x: |-
     I’ve been building crappy hobby games on and off for my whole coding life. One of my very first apps was a Visual Basic game — I was in primary school, around grade 3 or 4 — where you had to click on a picture of a schoolteacher as she moved around the screen.

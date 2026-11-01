@@ -4,6 +4,7 @@ description:
 order: 235
 date: '2026-09-10'
 tags: ["ai", "apocalypse", "ai safety"]
+autoShare: false
 crossPostText:
   x: |-
     A recent resignation tweet from an Anthropic researcher has everyone talking about the AI apocalypse again.

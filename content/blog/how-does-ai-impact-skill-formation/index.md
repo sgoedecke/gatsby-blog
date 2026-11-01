@@ -8,6 +8,7 @@ popularity:
     urls:
       - 'https://www.youtube.com/watch?v=ZINQTR6H5dI'
 tags: ["ai", "papers"]
+autoShare: false
 crossPostText:
   x: |-
     Two days ago, the Anthropic Fellows program released a paper called How AI Impacts Skill Formation. Like other papers on AI before it, this one is being treated as proof that AI makes you slower and dumber. Does it prove that?
