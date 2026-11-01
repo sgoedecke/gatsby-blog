@@ -29,6 +29,9 @@ crossPostText:
     Many software engineers are fatalistic about company politics.
   linkedin: |-
     Many software engineers are fatalistic about company politics.
+crossPosts:
+  x: "https://x.com/i/status/2116967663855673361"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7522733356330082304/"
 ---
 
 Many software engineers are fatalistic about company politics. They believe that it's pointless to get involved, because[^1]:
