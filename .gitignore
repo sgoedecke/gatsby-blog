@@ -54,7 +54,8 @@ typings/
 # dotenv environment variable files
 .env*
 
-# build output
+# build caches and output
+.cache/
 public
 
 # Mac files
