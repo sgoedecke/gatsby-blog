@@ -4,7 +4,7 @@ You should probably read the content via the website, but if for whatever reason
 
 Note that files in drafts/ are often very rough and do not represent my considered opinions.
 
-Why Gatsby? Because ~7 years ago when I created this repository I was using Gatsby to rebuild https://developer.zendesk.com/documentation/, and I thought this would be a good way to learn it. I would choose something dramatically simpler if I were setting up my blog today.
+The site is built with [Eleventy](https://www.11ty.dev/) (it used to be Gatsby). Run `npm run develop` to serve it at http://localhost:8000, or `npm run build` to build it into `public/`. Posts are `content/blog/<slug>/index.md`, with any images next to them; the templates are plain JavaScript in `src/`, and `src/lib/markdown.js` controls how posts are rendered.
 
 I do not check notifications on this repository. If you'd like me to look at your issue or merge your PR, you're better off emailing me.
 
@@ -124,7 +124,7 @@ tweak. To fill it in for other posts, run `npm run bake-text` in
 `scripts/cross-post` (after the preview setup above). It reads each post
 from the live site and only adds text that's missing; pass `--slug <slug>` to do
 one post, and `--overwrite` to regenerate text you've already edited. Set
-`SITE_URL=http://localhost:8000` to read from `gatsby develop` instead, for a
+`SITE_URL=http://localhost:8000` to read from `npm run develop` instead, for a
 post that isn't live yet.
 
 After posting, the workflow commits the posted URLs to the post's frontmatter

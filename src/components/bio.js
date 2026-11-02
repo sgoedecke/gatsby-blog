@@ -1,46 +1,5 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
+const { html } = require("../lib/html")
 
-import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+const Bio = () => html`<div style="display:flex;margin-bottom:0"><p><a href="https://buttondown.com/seangoedecke" target="_blank">subscribe</a> │ <a href="https://www.patreon.com/cw/seangoedecke" target="_blank">patreon</a> │ <a href="/about">about</a> │ <a href="/popular">popular</a> │ <a href="/tags">tags</a> │ <a href="/rss.xml">rss</a></p></div>`
 
-const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-        }
-      }
-    }
-  `)
-
-  return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: 0,
-      }}
-    >
-      <p>
-        <a href="https://buttondown.com/seangoedecke" target="_blank">subscribe</a> │ <a href="https://www.patreon.com/cw/seangoedecke" target="_blank">patreon</a> │ <Link to="/about">about</Link> │ <Link to="/popular">popular</Link> │ <Link to="/tags">tags</Link> │ <a href="/rss.xml">rss</a>
-      </p>
-    </div>
-  )
-}
-
-export default Bio
+module.exports = Bio

@@ -1,3 +1,60 @@
+/* Page layout. Keep max-width and padding in sync with .has-footnotes below. */
+.site {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding: 2.625rem 1.3125rem;
+}
+
+.site-header {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  width: 100%;
+}
+
+.site-title {
+  font-size: 3.95285rem;
+  line-height: 4.375rem;
+  margin-bottom: 0.875rem;
+  margin-top: 0;
+}
+
+.site-title-small {
+  font-family: Montserrat, sans-serif;
+  margin-top: 0;
+}
+
+.home-link {
+  box-shadow: none;
+  color: inherit;
+}
+
+.post-header-meta {
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-top: 0;
+  text-align: right;
+}
+
+/* Post images are capped at the old Gatsby image width and link to the
+   full-size original. */
+a.post-image {
+  box-shadow: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 590px;
+}
+
+a.post-image img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 h3 {
   margin-top: 1.5rem;
 }
@@ -314,7 +371,7 @@ ul li {
 
 /* Sidenotes: footnotes shown beside the text on screens wider than a phone in
    portrait. Keep the 640px breakpoint in sync with WIDE_QUERY in
-   components/sidenotes.js. */
+   assets/sidenotes.js. */
 .post-body {
   position: relative;
 }
@@ -330,13 +387,13 @@ ul li {
   .has-footnotes {
     --sidenote-gap: 1.25rem;
     --sidenote-width: clamp(9rem, 26vw, 15rem);
-    /* Override the inline max-width and padding set in components/layout.js. */
+    /* Widen .site to make room for the notes. */
     max-width: calc(
       42rem + var(--sidenote-gap) + var(--sidenote-width)
-    ) !important;
+    );
     padding-right: calc(
       1.3125rem + var(--sidenote-gap) + var(--sidenote-width)
-    ) !important;
+    );
   }
 
   .sidenotes {
@@ -434,4 +491,27 @@ ul li {
   .has-sidenotes .footnote-ref.is-active {
     background-color: rgba(173, 216, 230, 0.2);
   }
+}
+
+/* Heading permalinks (previously injected by gatsby-remark-autolink-headers). */
+.heading-anchor.after {
+  display: inline-block;
+  padding-left: 4px;
+}
+
+h2 .heading-anchor svg,
+h3 .heading-anchor svg,
+h4 .heading-anchor svg,
+h5 .heading-anchor svg,
+h6 .heading-anchor svg {
+  visibility: hidden;
+}
+
+h2:hover .heading-anchor svg,
+h3:hover .heading-anchor svg,
+h4:hover .heading-anchor svg,
+h5:hover .heading-anchor svg,
+h6:hover .heading-anchor svg,
+.heading-anchor:focus svg {
+  visibility: visible;
 }

@@ -1,66 +1,32 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "seangoedecke-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Sean Goedecke's blog, built with Eleventy",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "author": "Sean Goedecke",
+  "license": "0BSD",
+  "scripts": {
+    "build": "eleventy",
+    "develop": "eleventy --serve",
+    "start": "npm run develop",
+    "clean": "rm -rf public",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "hooks:install": "git config --local core.hooksPath .githooks",
+    "update-popularity": "node update-popularity.js",
+    "test": "node --test src/utils/*.test.js"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.7",
     "fast-glob": "^3.3.3",
-    "gatsby": "^2.23.12",
-    "gatsby-image": "^2.4.9",
-    "gatsby-plugin-feed": "^2.13.1",
-    "gatsby-plugin-google-analytics": "^2.3.6",
-    "gatsby-plugin-manifest": "^2.4.14",
-    "gatsby-plugin-offline": "^3.2.13",
-    "gatsby-plugin-react-helmet": "^3.3.6",
-    "gatsby-plugin-remark-collection": "^0.1.0",
-    "gatsby-plugin-sharp": "^2.6.14",
-    "gatsby-plugin-typography": "^2.5.6",
-    "gatsby-remark-autolink-headers": "^2.11.0",
-    "gatsby-remark-copy-linked-files": "^2.3.7",
-    "gatsby-remark-images": "^3.3.14",
-    "gatsby-remark-prismjs": "^3.5.6",
-    "gatsby-remark-responsive-iframe": "^2.4.7",
-    "gatsby-remark-smartypants": "^2.3.6",
-    "gatsby-source-filesystem": "^2.3.14",
-    "gatsby-transformer-remark": "^2.8.20",
-    "gatsby-transformer-sharp": "^2.5.7",
+    "github-slugger": "^1.5.0",
     "gray-matter": "^4.0.3",
-    "prismjs": "^1.20.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-typography": "^0.16.19",
-    "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "markdown-it": "^14.3.3",
+    "markdown-it-footnote": "^4.0.0",
+    "prismjs": "^1.20.0"
   },
   "devDependencies": {
     "prettier": "2.0.5",
     "remark-parse": "^6.0.3",
     "unified": "^8.4.2"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "hooks:install": "git config --local core.hooksPath .githooks",
-    "update-popularity": "node update-popularity.js",
-    "test": "node --test src/utils/*.test.js"
   }
 }

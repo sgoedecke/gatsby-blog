@@ -48,6 +48,6 @@ Finally, inference cost for reasoning models is a tricky topic. There's a sense 
 
 
 
-[^1] Why not just spend a hundred million or more on a training run, if you have the money? One plausible reason (from the Reddit post) is technical scaling limits, like passing data between GPUs, or handling the volume of hardware faults that you'd get in a training run that size.
+[^1]: Why not just spend a hundred million or more on a training run, if you have the money? One plausible reason (from the Reddit post) is technical scaling limits, like passing data between GPUs, or handling the volume of hardware faults that you'd get in a training run that size.
 
-[^2] I couldn't find a solid figure for how much R1 cost. $6M is a common figure but I worry people are confusing it with the stated cost for V3. We're still so early in the test-time-compute scaling curve that the R1 cost could be surprisingly cheap.
+[^2]: I couldn't find a solid figure for how much R1 cost. $6M is a common figure but I worry people are confusing it with the stated cost for V3. We're still so early in the test-time-compute scaling curve that the R1 cost could be surprisingly cheap.

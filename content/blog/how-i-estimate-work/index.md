@@ -132,7 +132,7 @@ A couple of [engineers](https://news.ycombinator.com/item?id=46744696) [argued](
 
 edit: There are also some comments on [Lobste.rs](https://lobste.rs/s/dspppf/how_i_estimate_work_as_staff_software), including a good [note](https://lobste.rs/c/i0sxht) that the capability of the team obviously has a huge impact on any estimates. In my experience, this is not commonly understood: companies expect estimates to be fungible between engineers or teams, when in fact some engineers and teams can deliver work ten times more quickly (and others cannot deliver work _at all_, no matter how much time they have).
 
-Another commenter [politely suggested](https://news.ycombinator.com/item?id=46745726) I read [_Software Estimation: Demystifying the Black Art_](https://www.amazon.com.au/Software-Estimation-Demystifying-Black-Art/dp/ 0735605351), which I've never heard of. I'll put it on my list.
+Another commenter [politely suggested](https://news.ycombinator.com/item?id=46745726) I read [_Software Estimation: Demystifying the Black Art_](https://www.amazon.com.au/Software-Estimation-Demystifying-Black-Art/dp/0735605351), which I've never heard of. I'll put it on my list.
 
 There are also some [comments](https://www.reddit.com/r/programming/comments/1qoj5mb/how_i_estimate_work_as_a_staff_software_engineer/) on Reddit's r/programming subreddit: mostly people just generically discussing estimation, but there are [interesting anecdotes](https://www.reddit.com/r/programming/comments/1qoj5mb/comment/o22t1vm/) and [good criticism](https://www.reddit.com/r/programming/comments/1qoj5mb/comment/o2271vx/) of the post.
 

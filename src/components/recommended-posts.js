@@ -1,5 +1,4 @@
-import React from "react"
-import { Link } from "gatsby"
+const { html } = require("../lib/html")
 
 const posts = [
   {
@@ -24,14 +23,8 @@ const posts = [
   },
 ]
 
-const RecommendedPosts = () => (
-  <ul>
-    {posts.map(post => (
-      <li key={post.path}>
-        <Link to={post.path}>{post.title}</Link>
-      </li>
-    ))}
-  </ul>
-)
+const RecommendedPosts = () => html`<ul>
+  ${posts.map(post => html`<li><a href="${post.path}">${post.title}</a></li>`)}
+</ul>`
 
-export default RecommendedPosts
+module.exports = RecommendedPosts
