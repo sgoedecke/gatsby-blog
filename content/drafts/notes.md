@@ -1,3 +1,10 @@
+2026 wrapup
+
+colophon:
+as an email suggestion from Thomas, I added side notes instead of footnotes on wide screens
+I migrated to Eleventy from Gatsby (TBD bandwidth)
+I added an optional weekly email sub from a reader suggestion instead of per-post
+I added auto-posting to Twitter and LinkedIn with screenshots, which was immediately successful
 
 
 
