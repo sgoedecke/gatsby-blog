@@ -4,6 +4,9 @@ description:
 order: 265
 date: '2026-11-03'
 tags: ["writing", "meta"]
+crossPosts:
+  x: "https://x.com/i/status/2117345465243144687"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7523111157839364096/"
 ---
 
 Audience capture is the part that scares me the most about writing on the internet. I have the [soul](/addicted-to-being-useful/) of an engineer[^1]: when I see a metric like engagement, I want to improve it. I like to make the number go up.
