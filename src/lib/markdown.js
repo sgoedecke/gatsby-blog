@@ -165,9 +165,11 @@ function postAssets(md) {
 
   rules.image = (tokens, idx, options, env, self) => {
     const token = tokens[idx]
-    const src = resolve(token.attrGet("src"), env) || token.attrGet("src")
+    const resolved = resolve(token.attrGet("src"), env)
+    const src = resolved || token.attrGet("src")
     const alt = self.renderInlineAsText(token.children, options, env)
-    if (!RESIZABLE_IMAGE.test(src) || /^[a-z]+:/i.test(src)) {
+    // Only images stored next to the post can be resized (see images.js).
+    if (!resolved || !RESIZABLE_IMAGE.test(src)) {
       return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}">`
     }
     const title = token.attrGet("title") || alt

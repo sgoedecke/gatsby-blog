@@ -1,4 +1,5 @@
 const markdown = require("./src/lib/markdown")
+const { resizePostImages } = require("./src/lib/images")
 const { BLOG_GLOB, POST_ASSET_EXTENSIONS, byOrder } = require("./src/lib/posts")
 
 module.exports = function (eleventyConfig) {
@@ -8,6 +9,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("posts", collectionApi =>
     byOrder(collectionApi.getFilteredByGlob(BLOG_GLOB))
   )
+
+  eleventyConfig.addTransform("post-images", async function (content) {
+    if (!this.page.outputPath?.endsWith(".html")) return content
+    return resizePostImages(content, eleventyConfig.directories.output)
+  })
 
   eleventyConfig.addPassthroughCopy({ static: "/" })
   eleventyConfig.addPassthroughCopy({ "src/styles": "styles" })
