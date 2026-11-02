@@ -4,6 +4,11 @@ description: 'A deep-dive into the specifics of LLMs, via llama2.c'
 order: 11
 date: '2023-11-26'
 tags: ["ai", "explainers"]
+crossPostText:
+  x: |-
+    Over the last few weeks I’ve been playing around with the excellent llama2.c repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta’s LLaMA and OpenAI’s GPT models.
+  linkedin: |-
+    Over the last few weeks I’ve been playing around with the excellent llama2.c repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta’s LLaMA and OpenAI’s GPT models. I’ve learned a lot and want to write about what I’ve learned.
 ---
 
 Over the last few weeks I've been playing around with the excellent [llama2.c](https://github.com/karpathy/llama2.c) repository, which is basically a simple one-file C implementation of the Transformer architecture that powers models like Meta's LLaMA and OpenAI's GPT models. I've learned a lot and want to write about what I've learned. 

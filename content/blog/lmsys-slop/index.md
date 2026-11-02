@@ -4,6 +4,13 @@ description:
 order: 73
 date: '2025-04-14'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    When LMSYS (aka LMArena, aka Chatbot Arena) first blew up, I thought it was the best way possible of determining which LLM really was the strongest.
+  linkedin: |-
+    When LMSYS (aka LMArena, aka Chatbot Arena) first blew up, I thought it was the best way possible of determining which LLM really was the strongest. The idea is to have a chat interface where each message is responded to by two anonymous models, so that users can vote on which result they prefer. There’s no set benchmark that can be leaked or gamed. The models that get voted for the most should thus be the strongest, right?
+
+    Wrong! LMSYS is still taken seriously, but it has not made traditional benchmarks obsolete, and the public perception of what the strongest models are has been different from the LMSYS leaderboard for at least a year.
 ---
 
 When LMSYS (aka LMArena, aka [Chatbot Arena](https://lmarena.ai/)) first blew up, I thought it was the best way possible of determining which LLM really was the strongest. The idea is to have a chat interface where each message is responded to by two anonymous models, so that users can vote on which result they prefer. There's no set benchmark that can be leaked or gamed. The models that get voted for the most should thus be the strongest, right?

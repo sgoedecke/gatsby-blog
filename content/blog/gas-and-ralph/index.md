@@ -24,6 +24,14 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "crypto"]
+autoShare: false
+crossPostText:
+  x: |-
+    Two recently-hyped developments in AI engineering have been Geoff Huntley’s “Ralph Wiggum loop” and Steve Yegge’s “Gas Town”. Huntley and Yegge are both respected software engineers with a long pedigree of actual projects.
+  linkedin: |-
+    Two recently-hyped developments in AI engineering have been Geoff Huntley’s “Ralph Wiggum loop” and Steve Yegge’s “Gas Town”. Huntley and Yegge are both respected software engineers with a long pedigree of actual projects. The Ralph loop is a sensible idea: force infinite test-time-compute by automatically restarting Claude Code whenever it runs out of steam. Gas Town is a platform for an idea that’s been popular for a while (though in my view has never really worked): running a whole village of LLM agents that collaborate with each other to accomplish a task.
+
+    So far, so good.
 ---
 
 Two recently-hyped developments in AI engineering have been Geoff Huntley's "Ralph Wiggum loop" and Steve Yegge's "Gas Town". Huntley and Yegge are both respected software engineers with a long pedigree of actual projects. The Ralph loop is a sensible idea: force infinite test-time-compute by automatically restarting Claude Code whenever it runs out of steam. Gas Town is a platform for an idea that's been popular for a while (though in my view has never really worked): running a whole village of LLM agents that collaborate with each other to accomplish a task.

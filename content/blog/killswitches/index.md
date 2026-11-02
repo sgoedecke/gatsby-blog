@@ -4,6 +4,11 @@ description:
 order: 97
 date: '2025-06-19'
 tags: ["good engineers", "software design"]
+crossPostText:
+  x: |-
+    The more time you spend designing systems, the more paranoid you get about things going wrong. The most experienced and paranoid engineers I know build a killswitch into every single piece of automation.
+  linkedin: |-
+    The more time you spend designing systems, the more paranoid you get about things going wrong. The most experienced and paranoid engineers I know build a killswitch into every single piece of automation.
 ---
 
 The more time you spend designing systems, the more paranoid you get about things going wrong. The most experienced and paranoid engineers I know build a killswitch into every single piece of automation.

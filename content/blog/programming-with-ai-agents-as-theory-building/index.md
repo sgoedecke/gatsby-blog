@@ -4,6 +4,13 @@ description:
 order: 184
 date: '2026-04-03'
 tags: ["ai", "naur theory"]
+crossPostText:
+  x: |-
+    Back in 1985, computer scientist Peter Naur wrote “Programming as Theory Building”. According to Naur — and I agree with him — the core output of software engineers is not the program itself, but the theory of how the program works.
+  linkedin: |-
+    Back in 1985, computer scientist Peter Naur wrote “Programming as Theory Building”. According to Naur — and I agree with him — the core output of software engineers is not the program itself, but the theory of how the program works. In other words, the knowledge inside the engineer’s mind is the primary artifact of engineering work, and the actual software is merely a by-product of that.
+
+    This sounds weird, but it’s surprisingly intuitive. Every working programmer knows that you cannot make a change to a program simply by having the code.
 ---
 
 Back in 1985, computer scientist Peter Naur wrote ["Programming as Theory Building"](https://pages.cs.wisc.edu/~remzi/Naur.pdf). According to Naur - and I agree with him - the core output of software engineers is not the program itself, but the **theory of how the program works**. In other words, the knowledge inside the engineer's mind is the primary artifact of engineering work, and the actual software is merely a by-product of that.

@@ -4,6 +4,11 @@ description:
 order: 249
 date: '2026-10-03'
 tags: ["good engineers", "shipping", "tech companies"]
+crossPostText:
+  x: |-
+    There are lots of skills involved in being a successful engineer at a big tech company. Running effective meetings, writing good design docs, fleshing out tickets and epics, improving team processes, tech leading small groups of engineers, and so on.
+  linkedin: |-
+    There are lots of skills involved in being a successful engineer at a big tech company. Running effective meetings, writing good design docs, fleshing out tickets and epics, improving team processes, tech leading small groups of engineers, and so on. But all of these rest on the foundation of being able to ship.
 ---
 
 There are lots of skills involved in being a successful engineer at a big tech company. Running effective meetings, writing good design docs, fleshing out tickets and epics, improving team processes, tech leading small groups of engineers, and so on. But all of these rest on the foundation of being able to ship.

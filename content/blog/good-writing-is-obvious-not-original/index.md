@@ -4,6 +4,15 @@ description:
 order: 226
 date: '2026-08-19'
 tags: ["writing"]
+crossPostText:
+  x: |-
+    When you write, you should try to say things that are obviously true, and spend very little time worrying about whether you’re being original. Ironically, this is the best way to do truly original writing.
+
+    Every important idea has been discussed already.
+  linkedin: |-
+    When you write, you should try to say things that are obviously true, and spend very little time worrying about whether you’re being original. Ironically, this is the best way to do truly original writing.
+
+    Every important idea has been discussed already. I learned this in grad school for philosophy, but it’s true across the board. Almost every field has generations of very smart people who’ve spent their whole lives thinking about the biggest problems. If you try to only write about ideas that are truly brand-new, you will restrict yourself to writing about ideas that weren’t important enough to be considered before: in other words, trivia and ephemera.
 ---
 
 When you write, you should try to say things that are obviously true, and spend very little time worrying about whether you're being original. Ironically, this is the best way to do truly original writing.

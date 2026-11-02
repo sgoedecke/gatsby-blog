@@ -30,6 +30,13 @@ tags: ["software design"]
 crossPosts:
   x: "https://x.com/i/status/2113699848277147767"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519465541523238912/"
+crossPostText:
+  x: |-
+    One of the most controversial things I believe about good software design is that your code should be more flexible than your domain model.
+  linkedin: |-
+    One of the most controversial things I believe about good software design is that your code should be more flexible than your domain model. This is in direct opposition to a lot of popular design advice, which is all about binding your code to your domain model as tightly as possible.
+
+    For instance, a popular principle for good software design is to make invalid states unrepresentable.
 ---
 
 One of the most controversial things I believe about good software design is that **your code should be more flexible than your domain model**. This is in direct opposition to a lot of popular design advice, which is all about binding your code to your domain model as tightly as possible.

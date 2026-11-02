@@ -4,6 +4,11 @@ description:
 order: 189
 date: '2026-05-07'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Dwarkesh Patel recently posted an award for the best answers to four key questions about AI. It’s partly a challenge and partly a job interview, since some of the winners will get offered a role as a “research collaborator”.
+  linkedin: |-
+    Dwarkesh Patel recently posted an award for the best answers to four key questions about AI. It’s partly a challenge and partly a job interview, since some of the winners will get offered a role as a “research collaborator”. I don’t want the job, but I do want to write down my answer to his first question: why hasn’t AI progress slowed down more?
 ---
 
 Dwarkesh Patel[^1] recently [posted](https://www.dwarkesh.com/p/blog-prize) an award for the best answers to four key questions about AI. It's partly a challenge and partly a job interview, since some of the winners will get offered a role as a "research collaborator". I don't want the job, but I do want to write down my answer to his first question: **why hasn't AI progress slowed down more?**
@@ -28,7 +33,7 @@ The jump from GPT-3 to GPT-4 seemed _huge_ because GPT-3 was dumber than almost 
 
 Thirdly, **many traits other than intelligence determine the capabilities of AI models**. Take the jump in October last year where OpenAI and Anthropic models were suddenly "agentic" (i.e. they could reliably perform complex tasks end-to-end). That might be intelligence, but it might also just be a greater working memory, or more rote familiarity with the basic tools of an LLM harness, or more ability to attend to the context window, or even simply a [personality](/ai-personality-space/) more suited to tools like Claude Code or Codex. Of course, all of these traits are plausibly "intelligence". But they're traits you might instil by various clever tricks (or even just tweaking the system prompt), not by brute-forcing more FLOPs.
 
-It's illustrative here to consider the mistake made by Apple's infamous [_The Illusion of Thinking_](/illusion-of-thinking/) paper, where the researchers asked various models to brute-force solve Tower of Hanoi puzzles with different numbers of disks, using the results to score how good at reasoning the models were. But of course when you read the output, all of the failures were cases of the model realizing that many hundreds of steps were required, and refusing to even try. These same models could trivially write code to perform the steps, or correctly go through any smaller subset of the steps. The problem wasn't intelligence, it was _persistence_: these models lacked the willingness to dig in and keep powering through steps until they got to an answer[^5].
+It's illustrative here to consider the mistake made by Apple's infamous [_The Illusion of Thinking_](/illusion-of-thinking/) paper, where the researchers asked various models to brute-force solve Tower of Hanoi puzzles with different numbers of disks, using the results to score how good at reasoning the models were. But of course when you read the output, all of the failures were cases of the model realizing that many hundreds of steps were required, and refusing to even try. These same models could trivially write code to perform the steps, or correctly go through any smaller subset of the steps. The problem wasn't intelligence, it was _persistence_: these models lacked the willingness to dig in and keep powering through steps until they got to an answer[^4].
 
 ### Final thoughts
 
@@ -43,6 +48,6 @@ I think this stuff is really complicated. A general theory like "RL takes more f
 
 [^3]: I saw this in a tweet and only realized that the source was Dwarkesh when I was researching for this post.
 
-[^4]: What if AI progress stalls for technical reasons, and everyone gives up on training new models? In that world, open source models will _eventually_ catch up, and AI labs won't be in a privileged position.
+[^4]: Incidentally, this is my pet theory about why models got much better at agentic tasks last year: training on longer and longer agentic traces meant that models started to "believe they could do it", and made them much less likely to just give up and take shortcuts or refuse to continue.
 
-[^5]: Incidentally, this is my pet theory about why models got much better at agentic tasks last year: training on longer and longer agentic traces meant that models started to "believe they could do it", and made them much less likely to just give up and take shortcuts or refuse to continue.
+[^5]: What if AI progress stalls for technical reasons, and everyone gives up on training new models? In that world, open source models will _eventually_ catch up, and AI labs won't be in a privileged position.

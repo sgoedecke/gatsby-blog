@@ -4,6 +4,11 @@ description:
 order: 115
 date: '2025-07-14'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    In 1991, Larry Wall famously wrote that the three great virtues of a programmer were “laziness, impatience, and hubris”.
+  linkedin: |-
+    In 1991, Larry Wall famously wrote that the three great virtues of a programmer were “laziness, impatience, and hubris”. A programmer should be lazy enough that they go to great effort to automate away manual work, impatient enough to write fast software, and have enough hubris that they believe they can write software other people will love. I write a lot about virtue in software engineering, and in general I agree with Larry Wall’s three virtues. In particular, I think hubris is critical. A software engineer often needs to have the completely unreasonable confidence that they can fix any problem they encounter.
 ---
 
 In 1991, Larry Wall famously [wrote](https://wiki.c2.com/?LazinessImpatienceHubris) that the three great virtues of a programmer were "laziness, impatience, and hubris". A programmer should be lazy enough that they go to great effort to automate away manual work, impatient enough to write fast software, and have enough hubris that they believe they can write software other people will love. I write a lot about [virtue](/character-in-software-engineering) in software engineering, and in general I agree with Larry Wall's three virtues. In particular, I think hubris is critical. A software engineer often needs to have the completely unreasonable confidence that they can fix any problem they encounter. I have seen many technically-strong engineers struggle because they lack this confidence. However, I worry that the three virtues are somewhat obsolete in the age of AI.

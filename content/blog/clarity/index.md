@@ -4,6 +4,15 @@ description:
 order: 147
 date: '2025-10-12'
 tags: ["tech companies", "how to", "large codebases", "technical clarity"]
+crossPostText:
+  x: |-
+    My mission as a staff engineer is to provide technical clarity to the organization.
+
+    Of course, I do other stuff too. I run projects, I ship code, I review PRs, and so on. But the most important thing I do — what I’m for — is to provide technical clarity.
+  linkedin: |-
+    My mission as a staff engineer is to provide technical clarity to the organization.
+
+    Of course, I do other stuff too. I run projects, I ship code, I review PRs, and so on. But the most important thing I do — what I’m for — is to provide technical clarity.
 ---
 
 My mission as a staff engineer is to provide technical clarity to the organization.

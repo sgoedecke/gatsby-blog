@@ -123,13 +123,22 @@ function measurePost(screenshotCount) {
   }
 }
 
-export async function capturePost(url, { screenshotCount = 2 } = {}) {
-  const browser = await chromium.launch()
+export function launchBrowser() {
+  return chromium.launch()
+}
+
+// Pass `browser` to reuse one across many posts, and `screenshotCount: 0` to
+// only read the text.
+export async function capturePost(
+  url,
+  { screenshotCount = 2, browser: sharedBrowser } = {}
+) {
+  const browser = sharedBrowser || (await launchBrowser())
+  const context = await browser.newContext({
+    ...devices["iPhone 13"],
+    colorScheme: "light",
+  })
   try {
-    const context = await browser.newContext({
-      ...devices["iPhone 13"],
-      colorScheme: "light",
-    })
     const page = await context.newPage()
     await page.goto(url, { waitUntil: "networkidle" })
     await page.evaluate(() => document.fonts.ready)
@@ -156,6 +165,7 @@ export async function capturePost(url, { screenshotCount = 2 } = {}) {
       screenshots,
     }
   } finally {
-    await browser.close()
+    await context.close()
+    if (!sharedBrowser) await browser.close()
   }
 }

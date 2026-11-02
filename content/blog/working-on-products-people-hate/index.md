@@ -24,6 +24,15 @@ popularity:
     urls: []
   manual: 0
 tags: ["good engineers"]
+crossPostText:
+  x: |-
+    I’ve worked on a lot of unpopular products.
+
+    At Zendesk I built large parts of an app marketplace that was too useful to get rid of but never polished enough to be loved. Now I work on GitHub Copilot, which many people think is crap.
+  linkedin: |-
+    I’ve worked on a lot of unpopular products.
+
+    At Zendesk I built large parts of an app marketplace that was too useful to get rid of but never polished enough to be loved. Now I work on GitHub Copilot, which many people think is crap. In between, I had some brief periods where I worked on products that were well-loved. For instance, I fixed a bug where popular Gists would time out once they got more than thirty comments, and I had a hand in making it possible to write LaTeX mathematics directly into GitHub markdown. But I’ve spent years working on products people hate.
 ---
 
 I've worked on a lot of unpopular products.

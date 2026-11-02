@@ -27,6 +27,17 @@ tags: ["ai"]
 crossPosts:
   x: "https://x.com/i/status/2110102276488483170"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7515867969722253313/"
+crossPostText:
+  x: |-
+    I don’t think there’s compelling evidence that using AI makes you less intelligent overall. However, it seems pretty obvious that using AI to perform a task means you don’t learn as much about performing that task.
+  linkedin: |-
+    I don’t think there’s compelling evidence that using AI makes you less intelligent overall. However, it seems pretty obvious that using AI to perform a task means you don’t learn as much about performing that task. Some software engineers think this is a decisive argument against the use of AI. Their argument goes something like this:
+
+    1. Using AI means you don’t learn as much from your work
+    2. AI-users thus become less effective engineers over time, as their technical skills atrophy
+    3. Therefore we shouldn’t use AI in our work
+
+    I don’t necessarily agree with (2).
 ---
 
 I don't think there's compelling evidence that using AI makes you less intelligent overall[^1]. However, it seems pretty obvious that using AI to perform a task means you don't learn as much _about performing that task_. Some software engineers think this is a decisive argument against the use of AI. Their argument goes something like this:

@@ -19,6 +19,13 @@ popularity:
   manual: 0
 popular: true
 tags: ["tech companies", "good engineers", "ai"]
+crossPostText:
+  x: |-
+    In 2025, I wrote that software engineers ought to be assessed by “value over replacement”: not how much money they made for their company, but how much they would have made compared to the average engineer in their position.
+  linkedin: |-
+    In 2025, I wrote that software engineers ought to be assessed by “value over replacement”: not how much money they made for their company, but how much they would have made compared to the average engineer in their position. I’ve always found it vaguely silly when engineers put “built a product that made $X” on their resumes, when they just did the JIRA tickets that came across their desk.
+
+    Today, value over replacement is even more important. A replacement-level engineer in the 2010s was fine: maybe not worth promoting, but still worth paying, because writing code had a high fixed cost. Now writing code costs a hundred bucks a month.
 ---
 
 In 2025, I wrote that software engineers ought to be assessed by ["value over replacement"](/value-over-replacement/): not how much money they made for their company, but how much they would have made compared to the average engineer in their position. I've always found it vaguely silly when engineers put "built a product that made $X" on their resumes, when they just did the [JIRA tickets](/party-tricks/) that came across their desk.

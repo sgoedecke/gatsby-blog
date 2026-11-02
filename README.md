@@ -104,6 +104,29 @@ workflow manually from the Actions tab. It defaults to a dry run, and the
 previews are uploaded as artifacts. Leave the slug empty to preview (or run)
 the daily older-post pick instead.
 
+To control what gets posted, put the text in the post's frontmatter. It's used
+instead of the automatic excerpt (a platform without an entry still gets the
+excerpt). The X text must fit in 280 characters, since the link goes in a reply,
+and the LinkedIn text is shown above a link card:
+
+```yaml
+crossPostText:
+  x: |-
+    The teaser for X.
+  linkedin: |-
+    A longer excerpt for LinkedIn.
+
+    Paragraph breaks are kept.
+```
+
+Existing posts already have this filled in with the automatic excerpt, ready to
+tweak. To fill it in for other posts, run `npm run bake-text` in
+`scripts/cross-post` (after the preview setup above). It reads each post
+from the live site and only adds text that's missing; pass `--slug <slug>` to do
+one post, and `--overwrite` to regenerate text you've already edited. Set
+`SITE_URL=http://localhost:8000` to read from `gatsby develop` instead, for a
+post that isn't live yet.
+
 After posting, the workflow commits the posted URLs to the post's frontmatter
 (with `[skip netlify]`, so no redeploy):
 

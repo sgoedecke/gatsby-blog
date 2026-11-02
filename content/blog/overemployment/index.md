@@ -8,6 +8,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=44448461'
 tags: ["interviewing", "tech companies", "career"]
+crossPostText:
+  x: |-
+    There’s a news story going around about an engineer called Soham who was routinely “overemployed”: he maintained remote jobs at multiple tech companies simultaneously, collecting their salaries in parallel.
+  linkedin: |-
+    There’s a news story going around about an engineer called Soham who was routinely “overemployed”: he maintained remote jobs at multiple tech companies simultaneously, collecting their salaries in parallel. When one disgruntled employer shared a warning on Twitter, a shocking amount of other companies posted on Twitter and Hacker News to say that they too had hired Soham. How can any of this work? Particularly in a difficult engineering market, how can someone get hired at multiple jobs at the same time and stay long enough to make it worthwhile? And if they’re able to be productive, is it really a problem?
 ---
 
 

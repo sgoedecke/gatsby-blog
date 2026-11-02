@@ -4,6 +4,11 @@ description:
 order: 250
 date: '2026-10-07'
 tags: ["good engineers", "explainers", "ai"]
+crossPostText:
+  x: |-
+    Everyone knows how to read a book. Beginning at the first page, you read each word in order, stopping periodically to think, until you arrive at the last word on the last page. That’s how you read a newspaper article, or a poem, or an email.
+  linkedin: |-
+    Everyone knows how to read a book. Beginning at the first page, you read each word in order, stopping periodically to think, until you arrive at the last word on the last page. That’s how you read a newspaper article, or a poem, or an email. Why would reading code be any different?
 ---
 
 Everyone knows how to read a book. Beginning at the first page, you read each word in order[^1], stopping periodically to think, until you arrive at the last word on the last page. That's how you read a newspaper article, or a poem, or an email. Why would reading code be any different?

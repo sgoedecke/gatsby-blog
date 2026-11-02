@@ -27,6 +27,13 @@ tags: ["ai", "explainers", "deepseek", "inference"]
 crossPosts:
   x: "https://x.com/i/status/2116249374846054613"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7522015068306464768/"
+crossPostText:
+  x: |-
+    Why is DeepSeek-V3 supposedly fast and cheap to serve at scale, but too slow and expensive to run locally? Why are some AI models slow to respond but fast once they get going?
+  linkedin: |-
+    Why is DeepSeek-V3 supposedly fast and cheap to serve at scale, but too slow and expensive to run locally? Why are some AI models slow to respond but fast once they get going?
+
+    AI inference providers often talk about a fundamental tradeoff between throughput and latency: for any given model, you can either serve it at high-throughput high-latency, or low-throughput low-latency. In fact, some models are so naturally GPU-inefficient that in practice they must be served at high-latency to have any workable throughput at all (for instance, DeepSeek-V3).
 ---
 
 Why is DeepSeek-V3 supposedly fast and cheap to serve at scale, but too slow and expensive to run locally? Why are some AI models slow to respond but fast once they get going?

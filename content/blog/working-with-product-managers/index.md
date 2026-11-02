@@ -4,6 +4,11 @@ description:
 order: 204
 date: '2026-06-08'
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    The relationship engineers have with product management is more dysfunctional than with any other part of the company.
+  linkedin: |-
+    The relationship engineers have with product management is more dysfunctional than with any other part of the company. There’s no shared culture or language like there is with other engineers, and the rules of “who gets to tell who what to do” aren’t as clear-cut as they are with managers. Engineers don’t have a lot in common with legal, or design, or sales, but they also don’t need to interact much with those roles. In my experience, engineers are communicating with product managers almost every single day.
 ---
 
 The relationship engineers have with product management is more dysfunctional than with any other part of the company. There's no shared culture or language like there is with other engineers, and the rules of "who gets to tell who what to do" aren't as clear-cut as they are with managers. Engineers don't have a lot in common with legal, or design, or sales, but they also don't need to interact much with those roles. In my experience, engineers are communicating with product managers almost every single day.

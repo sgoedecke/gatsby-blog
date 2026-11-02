@@ -4,6 +4,12 @@ description: A taxonomy of base models, distilled models, and reasoning models
 order: 37
 date: '2025-01-28'
 tags: ["ai"]
+autoShare: false
+crossPostText:
+  x: |-
+    Major AI labs these days (i.e. early 2025) offer a wide variety of models. Some are faster and cheaper, some are smarter, and now some are “reasoning” models. Why don’t AI labs just offer the one “best” model?
+  linkedin: |-
+    Major AI labs these days (i.e. early 2025) offer a wide variety of models. Some are faster and cheaper, some are smarter, and now some are “reasoning” models. Why don’t AI labs just offer the one “best” model? What’s causing every AI lab to deliver the same rough categories of models?
 ---
 
 Major AI labs these days (i.e. early 2025) offer a wide variety of models. Some are faster and cheaper, some are smarter, and now some are "reasoning" models. Why don't AI labs just offer the one "best" model? What's causing every AI lab to deliver the same rough categories of models?

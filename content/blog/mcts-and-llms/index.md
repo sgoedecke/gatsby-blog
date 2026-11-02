@@ -4,6 +4,13 @@ description: Why people are excited about Monte Carlo tree search and language m
 order: 14
 date: '2024-06-17'
 tags: ["ai", "explainers"]
+crossPostText:
+  x: |-
+    Everyone on the internet is recently very excited about large language models and Monte Carlo tree search. Going back months, the “Q*” leak from OpenAI has also got people thinking along these lines.
+  linkedin: |-
+    Everyone on the internet is recently very excited about large language models and Monte Carlo tree search. Going back months, the “Q*” leak from OpenAI has also got people thinking along these lines. Going back years, MCTS has been a hot topic in AI since AlphaGo, and a research topic for decades. So what’s the big deal?
+
+    Cards on the table: I think MCTS is exciting for mathematical problems, and maybe video or code gen, but I don’t see a pathway for it to produce a generally superhuman planner.
 ---
 
 Everyone on the internet is recently [very excited](https://x.com/teortaxesTex/status/1802128370861232374) about large language models and Monte Carlo tree search. Going back months, the "Q*" leak from OpenAI has also got people thinking along these lines. Going back years, MCTS has been a hot topic in AI since [AlphaGo](https://jonathan-hui.medium.com/monte-carlo-tree-search-mcts-in-alphago-zero-8a403588276a), and a research topic for decades. So what's the big deal?

@@ -24,6 +24,15 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Many scientific discoveries used to be made by amateurs. William Herschel, who discovered Uranus, was a composer and an organist. Antoine Lavoisier, who laid the foundation for modern chemistry, was a politician.
+
+    AI is like this.
+  linkedin: |-
+    Many scientific discoveries used to be made by amateurs. William Herschel, who discovered Uranus, was a composer and an organist. Antoine Lavoisier, who laid the foundation for modern chemistry, was a politician.
+
+    In one sense, this is a truism. The job of “professional scientist” only really appeared in the 19th century, so all discoveries before then logically had to have come from amateurs, since only amateur scientists existed. But it also reflects that any field of knowledge gets more complicated over time.
 ---
 
 Many scientific discoveries used to be made by amateurs. [William Herschel](https://en.wikipedia.org/wiki/William_Herschel), who discovered Uranus, was a composer and an organist. [Antoine Lavoisier](https://en.wikipedia.org/wiki/Antoine_Lavoisier), who laid the foundation for modern chemistry, was a politician.

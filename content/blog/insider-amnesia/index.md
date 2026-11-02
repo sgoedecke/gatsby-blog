@@ -3,6 +3,15 @@ title: Insider amnesia
 order: 177
 date: '2026-02-23'
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    Speculation about what’s really going on inside a tech company is almost always wrong.
+
+    When some problem with your company is posted on the internet, and you read people’s thoughts on it, their thoughts are almost always ridiculous.
+  linkedin: |-
+    Speculation about what’s really going on inside a tech company is almost always wrong.
+
+    When some problem with your company is posted on the internet, and you read people’s thoughts on it, their thoughts are almost always ridiculous. For instance, they might blame product managers for a particular decision, when in fact the decision in question was engineering-driven and the product org was pushing back on it. Or they might attribute an incident to overuse of AI, when the system in question was largely written pre-AI-coding and unedited since. You just don’t know what the problem is unless you’re on the inside.
 ---
 
 Speculation about what's really going on inside a tech company is almost always wrong. 

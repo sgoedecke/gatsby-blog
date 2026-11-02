@@ -24,6 +24,15 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "agents"]
+crossPostText:
+  x: |-
+    Using AI agents correctly is a process of reviewing code. If you’re good at reviewing code, you’ll be good at using tools like Claude Code, Codex, or the Copilot coding agent.
+
+    Why is that?
+  linkedin: |-
+    Using AI agents correctly is a process of reviewing code. If you’re good at reviewing code, you’ll be good at using tools like Claude Code, Codex, or the Copilot coding agent.
+
+    Why is that? Large language models are good at producing a lot of code, but they don’t yet have the depth of judgement of a competent software engineer. Left unsupervised, they will spend a lot of time committing to bad design decisions.
 ---
 
 Using AI agents correctly is a process of _reviewing code_. If you're good at reviewing code, you'll be good at using tools like Claude Code, Codex, or the Copilot coding agent.

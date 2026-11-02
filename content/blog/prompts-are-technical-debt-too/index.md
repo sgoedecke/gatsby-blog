@@ -8,6 +8,13 @@ popularity:
     urls:
       - 'https://www.youtube.com/watch?v=WnBx1Vi7M6w'
 tags: ["ai", "prompting"]
+crossPostText:
+  x: |-
+    It’s common and correct to say that “all code is technical debt”. Adding code is a necessary evil for developing new features: you almost always have to do it, but each line of code adds to the complexity and maintenance burden of the system.
+  linkedin: |-
+    It’s common and correct to say that “all code is technical debt”. Adding code is a necessary evil for developing new features: you almost always have to do it, but each line of code adds to the complexity and maintenance burden of the system. All future changes to the system have to work with the existing code, or at least avoid breaking it. Once systems accumulate enough code, they become impossible for a single person to understand: instead of reading the code and understanding what it does, you must rely on guesses, theories and heuristics. Sensible engineers write as little code as possible.
+
+    They write a lot of prompts, though!
 ---
 
 It's [common](https://www.tokyodev.com/articles/all-code-is-technical-debt) and correct to say that "all code is technical debt". Adding code is a necessary evil for developing new features: you almost always have to do it, but each line of code adds to the complexity and maintenance burden of the system. All future changes to the system have to work with the existing code, or at least avoid breaking it. Once systems accumulate enough code, they become impossible for a single person to understand: instead of reading the code and understanding what it does, you must rely on guesses, theories and heuristics[^1]. Sensible engineers write as little code as possible.

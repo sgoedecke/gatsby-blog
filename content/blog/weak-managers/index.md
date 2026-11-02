@@ -4,6 +4,11 @@ description: What to do when you report to a manager with no clout
 order: 46
 date: '2025-02-22'
 tags: ["tech companies", "management"]
+crossPostText:
+  x: |-
+    In a previous post I made the point that having a weak manager — a manager without political clout — is really bad news if you’re an engineer looking to grow at the company. I’m going to expand on that point here.
+  linkedin: |-
+    In a previous post I made the point that having a weak manager — a manager without political clout — is really bad news if you’re an engineer looking to grow at the company. I’m going to expand on that point here. Note that I’m talking about weak managers, not incompetent managers.
 ---
 
 In a [previous post](/politics-is-your-responsibility) I made the point that having a weak manager - a manager without political clout - is really bad news if you're an engineer looking to grow at the company[^1]. I'm going to expand on that point here. Note that I'm talking about _weak_ managers, not _incompetent_ managers.

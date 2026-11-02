@@ -24,6 +24,11 @@ popularity:
     urls: []
   manual: 0
 tags: ["tech companies", "australia"]
+crossPostText:
+  x: |-
+    For the last ten years I’ve worked for American tech companies as an Australian based in Australia. First I worked in a satellite office for Zendesk. My direct manager was Australian, but many other managers and teams (and of course the top executives) were America-based.
+  linkedin: |-
+    For the last ten years I’ve worked for American tech companies as an Australian based in Australia. First I worked in a satellite office for Zendesk. My direct manager was Australian, but many other managers and teams (and of course the top executives) were America-based. Now at GitHub I work fully-remote on a mixed team for an American manager based in America.
 ---
 
 For the last ten years I've worked for American tech companies as an Australian based in Australia. First I worked in a satellite office for Zendesk. My direct manager was Australian, but many other managers and teams (and of course the top executives) were America-based. Now at GitHub I work fully-remote on a mixed team for an American manager based in America.

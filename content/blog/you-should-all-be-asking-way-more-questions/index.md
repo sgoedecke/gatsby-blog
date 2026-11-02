@@ -4,6 +4,11 @@ description:
 order: 244
 date: '2026-09-25'
 tags: ["good engineers", "ai"]
+crossPostText:
+  x: |-
+    When someone is explaining something to me, I ask on average one question every thirty seconds. I’m sure this is frustrating to some people, but it’s actually a good habit and you should do it too.
+  linkedin: |-
+    When someone is explaining something to me, I ask on average one question every thirty seconds. I’m sure this is frustrating to some people, but it’s actually a good habit and you should do it too.
 ---
 
 When someone is explaining something to me, I ask on average one question every thirty seconds. I'm sure this is frustrating to some people, but it's actually a good habit and you should do it too.

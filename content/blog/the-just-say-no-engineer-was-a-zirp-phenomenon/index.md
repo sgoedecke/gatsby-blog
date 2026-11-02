@@ -28,6 +28,13 @@ popularity:
       - >-
         https://www.reddit.com/r/programming/comments/1thf964/the_justsayno_engineer_was_a_zirp_phenomenon/
 tags: ["tech companies", "zirp"]
+crossPostText:
+  x: |-
+    The engineer who says no all the time is a real archetype among senior and staff engineers. Their role is to slow things down, to block the development of features that add complexity, and to ensure that as little code gets written as possible (since code is a liability).
+  linkedin: |-
+    The engineer who says no all the time is a real archetype among senior and staff engineers. Their role is to slow things down, to block the development of features that add complexity, and to ensure that as little code gets written as possible (since code is a liability).
+
+    We can think of this as the just-say-no engineer, as opposed to the just-say-yes engineer. The just-say-yes engineer is obsessed with moving fast, approves code changes by default, values MTTR over MTBF, and tends to ship a lot of code. The just-say-no engineer is obsessed with quality, is happy to move slowly, and blocks code changes by default. Most engineers are somewhere in the middle of the spectrum.
 ---
 
 The engineer who [says no all the time](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise#a-senior-developer-is-a-problem-avoider) is a real archetype among senior and staff engineers. Their role is to slow things down, to block the development of features that add complexity, and to ensure that as little code gets written as possible (since code is a liability).

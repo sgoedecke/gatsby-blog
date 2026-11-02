@@ -4,17 +4,26 @@ description:
 order: 201
 date: '2026-06-01'
 tags: ["projects", "ai"]
+crossPostText:
+  x: |-
+    Where are all the AI-generated projects? This is a common question from AI skeptics: if LLMs are so good at writing code, where is the tsunami of new AI-generated apps, services and games?
+
+    I personally don’t find this to be much of a paradox.
+  linkedin: |-
+    Where are all the AI-generated projects? This is a common question from AI skeptics: if LLMs are so good at writing code, where is the tsunami of new AI-generated apps, services and games?
+
+    I personally don’t find this to be much of a paradox. Writing code is only one of the bottlenecks involved in actually shipping a new product, after all. It’s also impossible to talk about the paid work I’ve done with AI (you’ll simply have to take my word that it’s increased my productivity). But one thing I can do is share a list of personal projects I’ve built with AI in the last twelve months.
 ---
 
 Where are all the AI-generated projects? This is a [common question](https://news.ycombinator.com/item?id=46262545) from AI skeptics: if LLMs are so good at writing code, where is the tsunami of new AI-generated apps, services and games?
 
 I personally don't find this to be much of a paradox. Writing code is only one of the bottlenecks involved in actually [shipping](/how-to-ship) a new product, after all. It's also impossible to talk about the paid work I've done with AI (you'll simply have to take my word that it's increased my productivity). But one thing I can do is share a list of personal projects I've built with AI in the last twelve months.
 
-I definitely would not have done _all_ of these by hand. I might have found the time to do one or two of them, but based on my pre-AI track record they would probably have stayed in the "GitHub repo with a few commits" stage. This list is a kind of [existence proof](https://sites.millersville.edu/bikenaga/math-proof/existence-proofs/existence-proofs.html): a bunch of weird projects, useful to at least some people, that would not have existed without AI assistance[^0].
+I definitely would not have done _all_ of these by hand. I might have found the time to do one or two of them, but based on my pre-AI track record they would probably have stayed in the "GitHub repo with a few commits" stage. This list is a kind of [existence proof](https://sites.millersville.edu/bikenaga/math-proof/existence-proofs/existence-proofs.html): a bunch of weird projects, useful to at least some people, that would not have existed without AI assistance[^1].
 
 ### Skifreedle
 
-Most recently I've built [skifreedle.com](https://skifreedle.com/), a daily-game version of the classic Windows SkiFree [game](http://ski.ihoc.net/) (i.e. "like Wordle, but for SkiFree"). The code for that is [here](https://github.com/sgoedecke/skifreedle)[^1]. 
+Most recently I've built [skifreedle.com](https://skifreedle.com/), a daily-game version of the classic Windows SkiFree [game](http://ski.ihoc.net/) (i.e. "like Wordle, but for SkiFree"). The code for that is [here](https://github.com/sgoedecke/skifreedle)[^2]. 
 
 ![skifreedle](skifreedle1.png)
 
@@ -60,6 +69,6 @@ I did a bunch of other stuff that doesn't necessarily rise to the level of a "de
 
 There may not be a flood of AI-generated companies (yet), but at least for me there's been a flood of small, weird projects that would not have existed without significant LLM assistance.
 
-[^0]: I also want to shout out Simon Willison's [version of this](https://simonwillison.net/2025/Sep/4/highlighted-tools/), which is another great example of "weird useful tools that only exist because the cost of creating them was so low".
+[^1]: I also want to shout out Simon Willison's [version of this](https://simonwillison.net/2025/Sep/4/highlighted-tools/), which is another great example of "weird useful tools that only exist because the cost of creating them was so low".
 
-[^1]: I did lift the spritesheet from DanielHough's [SkiFree.js](https://github.com/basicallydan/skifree.js), which attributes it to [Wing Wang Wao](http://spriters-resource.com/submitter/Wing%20Wang%20Wao). Of course, the original sprites and art belong to Chris Pirih's SkiFree and Microsoft.
+[^2]: I did lift the spritesheet from DanielHough's [SkiFree.js](https://github.com/basicallydan/skifree.js), which attributes it to [Wing Wang Wao](http://spriters-resource.com/submitter/Wing%20Wang%20Wao). Of course, the original sprites and art belong to Chris Pirih's SkiFree and Microsoft.

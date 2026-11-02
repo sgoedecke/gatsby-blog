@@ -7,12 +7,18 @@ import {
   composeLinkedInCommentary,
   composeTweet,
   escapeLittleText,
+  resolveCrossPostText,
   splitSentences,
   tweetLength,
 } from "./compose.mjs"
 import { buildLinkedInPost } from "./linkedin.mjs"
 import { pickCandidates } from "./pick.mjs"
-import { readCrossPosts, recordCrossPost } from "./record.mjs"
+import {
+  readCrossPostText,
+  readCrossPosts,
+  recordCrossPost,
+  setCrossPostText,
+} from "./record.mjs"
 import {
   describeCredentials,
   oauthHeader,
@@ -303,6 +309,66 @@ test("replaces an existing crossPosts block, including inline ones", () => {
   assert.equal(
     updated,
     "---\ntitle: T\ncrossPosts:\n  x: \"b\"\ndate: '2026-01-01'\n---\nBody\n"
+  )
+})
+
+test("writes crossPostText as editable blocks that round-trip", () => {
+  const raw = "---\ntitle: T\ncrossPosts:\n  x: \"a\"\n---\nBody\n"
+  const text = {
+    x: "It's “quoted”: #1 @you",
+    linkedin: "Intro:\n\n- one\n- two\n\nAfter.",
+  }
+  const baked = setCrossPostText(raw, text)
+  assert.equal(
+    baked,
+    '---\ntitle: T\ncrossPosts:\n  x: "a"\ncrossPostText:\n  x: |-\n    It\'s “quoted”: #1 @you\n  linkedin: |-\n    Intro:\n\n    - one\n    - two\n\n    After.\n---\nBody\n'
+  )
+  assert.deepEqual(readCrossPostText(baked), text)
+
+  // Recording a link and rebaking leave the other block alone.
+  const recorded = recordCrossPost(baked, "linkedin", "b")
+  assert.deepEqual(readCrossPostText(recorded), text)
+  assert.deepEqual(readCrossPosts(recorded), { x: "a", linkedin: "b" })
+  const rebaked = setCrossPostText(recorded, { x: "New." })
+  assert.deepEqual(readCrossPostText(rebaked), { x: "New." })
+  assert.deepEqual(readCrossPosts(rebaked), { x: "a", linkedin: "b" })
+  assert.equal(setCrossPostText(rebaked, { x: "New." }), rebaked)
+})
+
+test("ignores empty crossPostText entries", () => {
+  assert.deepEqual(
+    readCrossPostText("---\ncrossPostText:\n  x: ''\n  linkedin:\n---\n"),
+    {}
+  )
+})
+
+test("prefers crossPostText over the automatic excerpt", () => {
+  const paragraphs = ["The automatic excerpt."]
+  assert.deepEqual(
+    resolveCrossPostText({ paragraphs, title: "T", custom: { x: "Mine." } }),
+    {
+      x: "Mine.",
+      linkedin: "The automatic excerpt.",
+      custom: { x: true, linkedin: false },
+    }
+  )
+  assert.throws(
+    () =>
+      resolveCrossPostText({
+        paragraphs,
+        title: "T",
+        custom: { x: "a".repeat(281) },
+      }),
+    /crossPostText\.x is 281 characters/
+  )
+  assert.throws(
+    () =>
+      resolveCrossPostText({
+        paragraphs,
+        title: "T",
+        custom: { linkedin: "#".repeat(1501) },
+      }),
+    /crossPostText\.linkedin is too long/
   )
 })
 

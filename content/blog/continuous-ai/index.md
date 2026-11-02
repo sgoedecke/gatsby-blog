@@ -4,6 +4,15 @@ description:
 order: 104
 date: '2025-07-02'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    When I use AI in my software engineering job, I use it “on tap”: when I have a problem that I’d like to run past the LLM, I go and do that, and then I return to my normal work.
+  linkedin: |-
+    When I use AI in my software engineering job, I use it “on tap”: when I have a problem that I’d like to run past the LLM, I go and do that, and then I return to my normal work.
+
+    Imagine if we used other software engineering tools like this — for instance when I have a problem that I’d like to solve with unit tests, I go and run the tests, before returning to my normal work. Or suppose when I want to type-check my codebase, I open a terminal and run npm run tsc. Would that be a sensible way of using tests and types?
+
+    Of course not.
 ---
 
 When I use AI in my software engineering job, I use it "on tap": when I have a problem that I'd like to run past the LLM, [I go and do that](/how-i-use-llms), and then I return to my normal work.

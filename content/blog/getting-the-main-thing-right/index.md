@@ -4,6 +4,13 @@ description:
 order: 172
 date: '2026-02-05'
 tags: ["good engineers", "tech companies"]
+crossPostText:
+  x: |-
+    When you’re running a project in a tech company, understanding that your main job is to ship the project goes a surprisingly long way.
+  linkedin: |-
+    When you’re running a project in a tech company, understanding that your main job is to ship the project goes a surprisingly long way. So many engineers spend their time on peripheral questions (like the choice of technology X or Y) when core questions about shipping the product (for instance, how all the critical paths will actually work) are still unanswered.
+
+    If you’re able to reliably ship projects, you can get away with being slightly abrasive, or not filling out your Jira tickets correctly, or any number of other small faults that would cause other engineers to be punished.
 ---
 
 When you're running a project in a tech company, understanding that your main job is to **ship the project** goes a surprisingly long way. So many engineers spend their time on peripheral questions (like the choice of technology X or Y) when core questions about shipping the product (for instance, how all the critical paths will actually work) are still unanswered[^1].

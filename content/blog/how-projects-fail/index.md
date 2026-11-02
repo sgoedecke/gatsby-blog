@@ -4,6 +4,11 @@ description:
 order: 78
 date: '2025-05-08'
 tags: ["shipping", "tech companies"]
+crossPostText:
+  x: |-
+    How do projects fail at large tech companies? As I’ve said many times, failure means executives aren’t happy with how the project turned out.
+  linkedin: |-
+    How do projects fail at large tech companies? As I’ve said many times, failure means executives aren’t happy with how the project turned out. At healthy companies, that typically means that a sensible engineer wouldn’t be happy either, because the project didn’t work or users hated it. But what actually causes the projects to fail?
 ---
 
 How do projects fail at large tech companies? As I've said [many](/how-to-ship) [times](/getting-things-done), failure means _executives aren't happy_ with how the project turned out. At healthy companies, that typically means that a sensible engineer wouldn't be happy either, because the project didn't work or users hated it. But what actually causes the projects to fail? I've seen a lot of projects go wrong - both up close and at a distance - in the last ten years. Here are the main reasons why.
@@ -22,7 +27,7 @@ Other times projects aren't doomed, but fail due to **a lack of political suppor
 
 Every project - no matter how good or bad the idea - needs sustained political support throughout the entire project lifespan in order to succeed. Somebody in leadership has to fight off attempts to poach engineers onto other projects or to re-task the engineering team onto some new and shiny thing. After the project is first delivered to users, somebody in leadership has to make sure there's still a team whose job it is to respond to user feedback.
 
-One classic example of this failure mode is **an unfortunately-timed change of leadership**. This is particularly true for multi-year projects like large infrastructure or language migrations. Suppose a new CTO (or chief architect, or principal engineer) is hired who really likes Scala, and convinces the organization to rewrite large sections of the system in Scala. This is a lot of work, but it keeps its momentum because the CTO keeps pushing it along. Two years in, the CTO leaves for greener pastures. This is probably bad news for people who were mid-Scala rewrite! Without constant pressure from leadership, teams start prioritizing more customer-facing things. VPs who had their own ideas start to push to get those worked on, now that the Scala work is less important. Eventually the whole thing just kind of stalls out midway, with some systems in Scala and some systems in other languages[^4].
+One classic example of this failure mode is **an unfortunately-timed change of leadership**. This is particularly true for multi-year projects like large infrastructure or language migrations. Suppose a new CTO (or chief architect, or principal engineer) is hired who really likes Scala, and convinces the organization to rewrite large sections of the system in Scala. This is a lot of work, but it keeps its momentum because the CTO keeps pushing it along. Two years in, the CTO leaves for greener pastures. This is probably bad news for people who were mid-Scala rewrite! Without constant pressure from leadership, teams start prioritizing more customer-facing things. VPs who had their own ideas start to push to get those worked on, now that the Scala work is less important. Eventually the whole thing just kind of stalls out midway, with some systems in Scala and some systems in other languages[^3].
 
 ### Just plain bad luck
 
@@ -44,7 +49,7 @@ There's a failure mode that happens to good ideas that don't immediately have a 
 
 This happens because **you need a lot of buy-in to get something off the ground at a large tech company**. Many different people have to agree that it's worth doing. However, all of these people will have their own reasons for getting behind the idea (usually the reason will be that they think it'll help their own pet project succeed). So every piece of support you get will come with strings, and over time those strings can strangle your good idea before it really gets off the ground.
 
-One way around this is to somehow get the CEO interested in the idea _first_. Then they can just tell other people to get behind the idea, instead of having to horse-trade[^3]. Another way around this is to run with the idea without getting buy-in (i.e. as a skunkworks project), and hope that you can make it work without the big company machinery behind it. These are both pretty risky. Going straight to the CEO is a great way to make your entire management chain hate you, and most skunkworks projects fail. But the fact that people try them anyway shows how dangerous death by a thousand cuts is.
+One way around this is to somehow get the CEO interested in the idea _first_. Then they can just tell other people to get behind the idea, instead of having to horse-trade[^4]. Another way around this is to run with the idea without getting buy-in (i.e. as a skunkworks project), and hope that you can make it work without the big company machinery behind it. These are both pretty risky. Going straight to the CEO is a great way to make your entire management chain hate you, and most skunkworks projects fail. But the fact that people try them anyway shows how dangerous death by a thousand cuts is.
 
 ### Summary
 
@@ -61,6 +66,6 @@ Projects fail at tech companies for lots of different reasons. I've seen example
 
 [^2]: Why do large tech companies struggle to compete with startups? Many people have tried to answer that question in various ways, but it's pretty indisputable that they do.
 
-[^3]: I think CEOs still have to do a lot of horse-trading, but much less than a poor engineer would.
+[^3]: The half-finished rewrite will cause engineering pain for many, many years to come.
 
-[^4]: The half-finished rewrite will cause engineering pain for many, many years to come.
+[^4]: I think CEOs still have to do a lot of horse-trading, but much less than a poor engineer would.

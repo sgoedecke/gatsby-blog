@@ -27,6 +27,13 @@ popularity:
         https://www.reddit.com/r/programming/comments/1jyxu3p/engineers_who_wont_commit/
   manual: 0
 tags: ["good engineers", "technical clarity"]
+crossPostText:
+  x: |-
+    Some engineers think it’s a virtue to remain non-committal in technical discussions. Should our team build a new feature in an event-driven or synchronous way?
+  linkedin: |-
+    Some engineers think it’s a virtue to remain non-committal in technical discussions. Should our team build a new feature in an event-driven or synchronous way? Well, it depends: there are many strong technical reasons on each side, so it’s better to keep an open mind and not come down on either side. This strategy is fine when you’re a junior engineer, but at some point you’ll be the person in the room with the most context (or technical skill, or institutional power). At that point, you need to take a position, whether you feel particularly confident or not.
+
+    If you don’t, you’re forcing people with less technical context than you to figure it out themselves.
 ---
 
 Some engineers think it's a virtue to remain non-committal in technical discussions. Should our team build a new feature in an event-driven or synchronous way? Well, it depends: there are many strong technical reasons on each side, so it's better to keep an open mind and not come down on either side. This strategy is fine when you're a junior engineer, but at some point you'll be the person in the room with the most context (or technical skill, or institutional power). At that point, **you need to take a position**, whether you feel particularly confident or not. 

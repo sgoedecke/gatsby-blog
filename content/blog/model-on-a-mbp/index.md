@@ -29,6 +29,15 @@ popularity:
 crossPosts:
   x: "https://x.com/i/status/2113337866398969985"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519103559590727680/"
+crossPostText:
+  x: |-
+    What’s the strongest model I can train on my MacBook Pro in five minutes?
+
+    I’ll give the answer upfront: the best 5-minute model I could train was a ~1.8M-param GPT-style transformer trained on ~20M TinyStories tokens, reaching ~9.6 perplexity on a held-out split.
+  linkedin: |-
+    What’s the strongest model I can train on my MacBook Pro in five minutes?
+
+    I’ll give the answer upfront: the best 5-minute model I could train was a ~1.8M-param GPT-style transformer trained on ~20M TinyStories tokens, reaching ~9.6 perplexity on a held-out split.
 ---
 
 What's the strongest model I can train on my MacBook Pro[^1] in five minutes?

@@ -24,6 +24,15 @@ popularity:
     threads: 0
     urls: []
   manual: 0
+crossPostText:
+  x: |-
+    Reading research papers and articles about chain-of-thought reasoning makes me frustrated.
+  linkedin: |-
+    Reading research papers and articles about chain-of-thought reasoning makes me frustrated.
+
+    There are many interesting questions to ask about chain-of-thought: how accurately it reflects the actual process going on, why training it “from scratch” often produces chains that switch fluidly between multiple languages, and so on. However, people keep asking the least interesting question possible: whether chain-of-thought reasoning is “really” reasoning.
+
+    Apple took up this question in their Illusion of Thinking paper, which I’ve already written about. Now there’s a paper from Arizona State University that’s getting some attention called Is Chain-of-Thought Reasoning of LLMs a Mirage?
 ---
 
 Reading research papers and articles about chain-of-thought reasoning[^1] makes me frustrated.

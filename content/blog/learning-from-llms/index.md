@@ -4,6 +4,15 @@ description:
 order: 109
 date: '2025-07-08'
 tags: ["ai", "how to"]
+crossPostText:
+  x: |-
+    If you want to learn about a new subject in 2025, one of the best ways to do it is to ask a strong language model.
+
+    The reason this method is so good is not that LLMs are smarter than your average Google search result, but that you can ask infinite follow-up questions.
+  linkedin: |-
+    If you want to learn about a new subject in 2025, one of the best ways to do it is to ask a strong language model.
+
+    The reason this method is so good is not that LLMs are smarter than your average Google search result, but that you can ask infinite follow-up questions. I often start by asking a general question (like “how does Kafka work”) and then digging in with many, many follow-up questions: both specific questions, like “what happens if a broker crashes”, and confirmation questions, like “it sounds like Kafka relies on clients to track which events are processed, is that right?”.
 ---
 
 If you want to learn about a new subject in 2025, one of the best ways to do it is to ask a strong language model.

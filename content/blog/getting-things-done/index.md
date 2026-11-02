@@ -24,6 +24,13 @@ popularity:
   manual: 0
 date: '2025-05-06'
 tags: ["shipping", "tech companies"]
+crossPostText:
+  x: |-
+    What does it mean to get things done? In the abstract, you can complete a mathematical proof or a problem set, but the real world is much fuzzier. Suppose I plant a tree in my backyard. Once the sapling is in the ground, is that done?
+  linkedin: |-
+    What does it mean to get things done? In the abstract, you can complete a mathematical proof or a problem set, but the real world is much fuzzier. Suppose I plant a tree in my backyard. Once the sapling is in the ground, is that done? Not really. There’s always more work to do: clearing the ground around it, watering, keeping pests away, pruning, and so on. Programming large web applications is more like planting a tree than completing a mathematical proof. Once you write a service, you can keep working on it forever if you want to.
+
+    In large tech companies, this fact is a trap for competent but unagentic engineers.
 ---
 
 What does it mean to get things done? In the abstract, you can complete a mathematical proof or a problem set, but the real world is much fuzzier. Suppose I plant a tree in my backyard. Once the sapling is in the ground, is that done? Not really. There's always more work to do: clearing the ground around it, watering, keeping pests away, pruning, and so on. Programming large web applications is more like planting a tree than completing a mathematical proof. Once you write a service, you can keep working on it forever if you want to.

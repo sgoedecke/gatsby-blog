@@ -19,6 +19,14 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai", "ai regulation", "ai watermarks"]
+autoShare: false
+crossPostText:
+  x: |-
+    The European Union AI Act will begin to be enforceable in August 2026, one month from now. One of the biggest new requirements is Article 50, which requires all AI outputs to be “detectable as artificially generated”.
+  linkedin: |-
+    The European Union AI Act will begin to be enforceable in August 2026, one month from now. One of the biggest new requirements is Article 50, which requires all AI outputs to be “detectable as artificially generated”. In other words, if LLM providers want to do business in the EU, they will have to apply a watermark to their outputs: some hidden signature that can be used to identify AI content.
+
+    LLM text watermarking is a fascinating problem. Like the best engineering problems, it is theoretically hard to solve perfectly, but has multiple partial solutions: for instance, Google’s SynthID, and (as I’ll argue) some quiet Unicode trickery from OpenAI and Anthropic.
 ---
 
 The European Union [AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) will begin to be enforceable in August 2026, one month from now[^1]. One of the biggest new requirements is [Article 50](https://artificialintelligenceact.eu/article/50/), which requires all AI outputs to be "detectable as artificially generated". In other words, if LLM providers want to do business in the EU, they will have to apply a watermark to their outputs[^2]: some hidden signature that can be used to identify AI content.

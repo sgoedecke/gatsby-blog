@@ -7,6 +7,13 @@ tags: ["ai", "prompting"]
 crossPosts:
   x: "https://x.com/i/status/2115715577411195392"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7521481270028148738/"
+crossPostText:
+  x: |-
+    One of the most important skills in working with AI is agency: being willing to try new and ambitious things. This is true for what you build, but it’s also true for how you build.
+  linkedin: |-
+    One of the most important skills in working with AI is agency: being willing to try new and ambitious things. This is true for what you build, but it’s also true for how you build. AI models are improving so quickly that most of us are bottlenecked on noticing that AI agents can help automate particular tasks. Here are some examples of that from my daily work.
+
+    Asking the agent to run my dev server. Agents are very good at fixing weird dev environment issues because they work fast, have infinite patience, and have a huge breadth of knowledge.
 ---
 
 One of the most important skills in working with AI is _agency_: being willing to try new and ambitious things. This is true for [what](https://danluu.com/ambitious/) you build, but it's also true for [how](/getting-good-at-ai-takes-time-and-practice/) you build. AI models are improving so quickly that most of us are bottlenecked[^1] on noticing that AI agents can help automate particular tasks. Here are some examples of that from my daily work.

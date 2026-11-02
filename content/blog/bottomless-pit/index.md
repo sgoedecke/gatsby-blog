@@ -4,6 +4,15 @@ description:
 order: 130
 date: '2025-08-13'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Many people believe this is the best piece of art or humour that AI has ever produced:
+
+    This was generated three years ago by GPT-3. It’s notable by itself that the best piece of AI art might have been produced by the least capable AI model.
+  linkedin: |-
+    Many people believe this is the best piece of art or humour that AI has ever produced:
+
+    This was generated three years ago by GPT-3. It’s notable by itself that the best piece of AI art might have been produced by the least capable AI model. Despite models getting massively better at prose writing, reasoning, mathematics, programming, and basically all other fields, they haven’t been getting funnier.
 ---
 
 Many people believe[^1] this is the best piece of art or humour that AI has ever produced:

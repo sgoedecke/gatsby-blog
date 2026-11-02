@@ -23,6 +23,15 @@ popularity:
       - >-
         https://www.reddit.com/r/agile/comments/1wswdbz/what_does_playing_politics_mean_for_software/
 tags: ["tech companies", "good engineers"]
+crossPostText:
+  x: |-
+    Software engineers are often told to “start playing politics”, but most engineers have no idea what that means.
+
+    Their reference point for “playing politics” comes from fiction like Game of Thrones.
+  linkedin: |-
+    Software engineers are often told to “start playing politics”, but most engineers have no idea what that means.
+
+    Their reference point for “playing politics” comes from fiction like Game of Thrones. Are they supposed to raise an army and depose the CEO, or poison each other at team lunch? Should they book Zoom calls with each other and plot schemes? All of that is obviously ridiculous. In terms of Game of Thrones, software engineers are not lords and ladies. We’re the soldiers and workers of the realm. So you should think about “playing politics” in the way a castle guard would, not one of the major players.
 ---
 
 Software engineers are [often told](https://old.reddit.com/r/ExperiencedDevs/comments/1urg0tk/whats_the_best_advice_youve_received_from_a/owfi7dq/) to "start playing politics", but most engineers have no idea what that means.

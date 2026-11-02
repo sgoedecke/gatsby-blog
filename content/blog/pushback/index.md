@@ -4,6 +4,11 @@ description: Always give options, even when there aren't any
 order: 30
 date: '2025-01-16'
 tags: ["tech companies", "leaddev"]
+crossPostText:
+  x: |-
+    This post was initially published on LeadDev. If it reads differently to my other posts, that’s because LeadDev have a different “house style” to this blog.
+  linkedin: |-
+    This post was initially published on LeadDev. If it reads differently to my other posts, that’s because LeadDev have a different “house style” to this blog.
 ---
 
 This post was initially published on [LeadDev](https://leaddev.com/communication/how-give-pushback-leadership). If it reads differently to my other posts, that's because LeadDev have a different "house style" to this blog.

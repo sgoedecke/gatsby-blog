@@ -22,6 +22,15 @@ tags: ["tech companies", "writing"]
 crossPosts:
   x: "https://x.com/i/status/2111603759650410541"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7517369452926009344/"
+crossPostText:
+  x: |-
+    Tech companies structurally depend on writing to serve as evidence, in the same way that Bitcoin depends on proof-of-work hashing. However, in the last few years, LLMs have started to undermine this practice.
+
+    How can writing be like proof-of-work?
+  linkedin: |-
+    Tech companies structurally depend on writing to serve as evidence, in the same way that Bitcoin depends on proof-of-work hashing. However, in the last few years, LLMs have started to undermine this practice.
+
+    How can writing be like proof-of-work? When I’m writing something at work, it’s not always to communicate an idea. Sometimes it’s because having a piece of writing is useful as evidence: of compliance with some process, of the fact that I put in effort, or of the fact that I know about some topic. Here are some examples.
 ---
 
 Tech companies structurally depend on writing to serve as evidence, in the same way that Bitcoin depends on proof-of-work hashing. However, in the last few years, LLMs have started to undermine this practice.

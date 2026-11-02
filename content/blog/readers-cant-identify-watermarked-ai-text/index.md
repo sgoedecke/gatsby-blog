@@ -8,6 +8,11 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=49374729'
 tags: ["ai", "ai watermarks"]
+crossPostText:
+  x: |-
+    In the last few weeks, I’ve been complaining that everyone is wrong about AI watermarking: it isn’t really anti-consumer and it doesn’t make the outputs any worse.
+  linkedin: |-
+    In the last few weeks, I’ve been complaining that everyone is wrong about AI watermarking: it isn’t really anti-consumer and it doesn’t make the outputs any worse. The watermarking papers demonstrate that this is true, but I thought it might be interesting to put it to a practical test. Given examples of watermarked and unwatermarked answers to the same prompt, could readers tell which is which?
 ---
 
 In the last few weeks, I've been [complaining](https://www.seangoedecke.com/ai-text-watermarking-is-not-a-big-deal/) that everyone is wrong about AI watermarking: it isn't really anti-consumer and it doesn't make the outputs any worse. The watermarking [papers](https://arxiv.org/abs/2603.03410) demonstrate[^1] that this is true, but I thought it might be interesting to put it to a practical test. Given examples of watermarked and unwatermarked answers to the same prompt, could readers tell which is which?

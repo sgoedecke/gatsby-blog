@@ -4,6 +4,13 @@ description:
 order: 188
 date: '2026-05-03'
 tags: ["tech companies", "staff"]
+crossPostText:
+  x: |-
+    The most influential piece of writing about staff engineers in the last decade has to be Will Larson’s Staff engineer archetypes. He argues that the “staff engineer” title covers at least four very different roles: the team lead, the architect, the solver, and the right hand.
+  linkedin: |-
+    The most influential piece of writing about staff engineers in the last decade has to be Will Larson’s Staff engineer archetypes. He argues that the “staff engineer” title covers at least four very different roles: the team lead, the architect, the solver, and the right hand. This taxonomy gets cited a lot as advice for people who are trying to become effective staff engineers. For both of my promotions to staff engineer, my manager at the time linked me to the “staff engineer archetypes” and asked me to consider which of these archetypes I was aiming towards.
+
+    These archetypes definitely exist. However, I think it’s bad practical advice to tell engineers to try and target them.
 ---
 
 The most influential piece of writing about staff engineers in the last decade has to be Will Larson's [_Staff engineer archetypes_](https://staffeng.com/guides/staff-archetypes/). He argues that the "staff engineer" title covers at least four very different roles: the team lead, the architect, the solver, and the right hand. This taxonomy gets cited a lot as advice for people who are trying to become effective staff engineers. For [both](/staff-engineer-promotions) of my promotions to staff engineer, my manager at the time linked me to the "staff engineer archetypes" and asked me to consider which of these archetypes I was aiming towards.

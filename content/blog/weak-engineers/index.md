@@ -26,6 +26,13 @@ popularity:
         https://www.reddit.com/r/programmingcirclejerk/comments/1hnazxo/the_strongest_engineers_are_stronger_than_people/
   manual: 0
 tags: ["good engineers", "tech companies"]
+crossPostText:
+  x: |-
+    Right now people are blowing up on Twitter about whether the USA needs to import top talent from other countries, and if that means that American home-grown engineering talent is weak.
+  linkedin: |-
+    Right now people are blowing up on Twitter about whether the USA needs to import top talent from other countries, and if that means that American home-grown engineering talent is weak. Last month, people were blowing up over a study that purported to show that ~9.5% of software engineers do effectively zero work, and are effectively defrauding the company. And for the last ten years, people have been talking and writing about the fabled “10x engineer”.
+
+    What does it really mean to be a strong software engineer?
 ---
 
 Right now people are blowing up on Twitter about whether the USA needs to import top talent from other countries, and if that means that American home-grown engineering talent is weak. Last month, people were blowing up over a [study](https://x.com/yegordb/status/1859290734257635439) that purported to show that ~9.5% of software engineers do effectively zero work, and are effectively defrauding the company. And for the last ten years, people have been talking and writing about the fabled "10x engineer".

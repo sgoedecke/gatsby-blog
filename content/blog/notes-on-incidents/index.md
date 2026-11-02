@@ -4,6 +4,13 @@ description:
 order: 190
 date: '2026-05-08'
 tags: ["reliability"]
+crossPostText:
+  x: |-
+    Incidents are boring. Most of what you actually do during an incident is wait: for some other team to investigate, or for a deploy to finish, or for the result of some change to become apparent, or for someone else who’s been paged to come online.
+  linkedin: |-
+    Incidents are boring. Most of what you actually do during an incident is wait: for some other team to investigate, or for a deploy to finish, or for the result of some change to become apparent, or for someone else who’s been paged to come online. It’s stressful, but there’s often just not that much to do.
+
+    Most incidents resolve on their own. People love to share war stories about incidents where some hero engineer improvised a clever fix that instantly repaired the system. That rarely happens.
 ---
 
 **Incidents are boring.** Most of what you actually do during an incident is wait: for some other team to investigate, or for a deploy to finish, or for the result of some change to become apparent, or for someone else who's been paged to come online. It's stressful, but there's often just not that much to do.

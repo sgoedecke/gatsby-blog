@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+crossPostText:
+  x: |-
+    The very first LLM-based product, ChatGPT, was just the ability to talk with the model itself: in other words, a pure chatbot. This is still the most popular LLM product by a large margin.
+  linkedin: |-
+    The very first LLM-based product, ChatGPT, was just the ability to talk with the model itself: in other words, a pure chatbot. This is still the most popular LLM product by a large margin.
+
+    In fact, given the amount of money that’s been invested in the industry, it’s shocking how many “new AI products” are just chatbots. As far as I can tell, there are only three types of AI product that currently work.
 ---
 
 The very first LLM-based product, ChatGPT, was just[^1] the ability to talk with the model itself: in other words, a pure chatbot. This is still the most popular LLM product by a large margin.

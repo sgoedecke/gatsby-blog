@@ -24,6 +24,12 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+autoShare: false
+crossPostText:
+  x: |-
+    Several days ago, DeepSeek released a new OCR paper. OCR, or “optical character recognition”, is the process of converting an image of text — say, a scanned page of a book — into actual text content.
+  linkedin: |-
+    Several days ago, DeepSeek released a new OCR paper. OCR, or “optical character recognition”, is the process of converting an image of text — say, a scanned page of a book — into actual text content. Better OCR is obviously relevant to AI because it unlocks more text data to train language models on. But there’s a more subtle reason why really good OCR might have deep implications for AI models.
 ---
 
 Several days ago, DeepSeek released a new [OCR paper](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf). OCR, or "optical character recognition", is the process of converting an image of text - say, a scanned page of a book - into actual text content. Better OCR is obviously relevant to AI because it unlocks more text data to train language models on[^1]. But there's a more subtle reason why really good OCR might have deep implications for AI models.

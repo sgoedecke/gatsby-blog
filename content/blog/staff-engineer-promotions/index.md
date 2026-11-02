@@ -19,6 +19,13 @@ popularity:
   manual: 0
 popular: true
 tags: ["tech companies", "good engineers", "staff", "how to"]
+crossPostText:
+  x: |-
+    At the beginning of 2021, Zendesk promoted me to staff software engineer. At the end of 2021 I switched jobs from Zendesk to GitHub. In early 2023, GitHub promoted me to staff software engineer.
+  linkedin: |-
+    At the beginning of 2021, Zendesk promoted me to staff software engineer. At the end of 2021 I switched jobs from Zendesk to GitHub. In early 2023, GitHub promoted me to staff software engineer. Successfully going through the staff promotion process twice in two years was a pretty interesting experience, and I think it puts me in a good spot to talk about making the jump from senior to staff.
+
+    If you’re just looking to get the staff role, it’s almost always easier to get hired into it than promoted to it. Senior is typically considered a “terminal level” in tech: once you hit it, nobody will think you’re weak for not seeking a further promotion to staff.
 ---
 
 At the beginning of 2021, Zendesk promoted me to staff software engineer. At the end of 2021 I switched jobs from Zendesk to GitHub. In early 2023, GitHub promoted me to staff software engineer. Successfully going through the staff promotion process twice in two years was a pretty interesting experience, and I think it puts me in a good spot to talk about making the jump from senior to staff[^1].

@@ -4,6 +4,13 @@ description:
 order: 158
 date: '2025-11-26'
 tags: ["good engineers"]
+crossPostText:
+  x: |-
+    With enough careful effort, it’s possible to become unblockable. In other words, you can put yourself in a position where you’re always able to make forward progress on your goals.
+  linkedin: |-
+    With enough careful effort, it’s possible to become unblockable. In other words, you can put yourself in a position where you’re always able to make forward progress on your goals.
+
+    I wrote about this six months ago in Why strong engineers are rarely blocked, but I wanted to take another crack at it and give some more concrete advice.
 ---
 
 With enough careful effort, it's possible to become unblockable. In other words, you can put yourself in a position where you're always able to make forward progress on your goals.

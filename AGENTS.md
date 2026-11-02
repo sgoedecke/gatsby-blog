@@ -47,6 +47,10 @@ Notes:
 - If the X link reply failed, the error includes the teaser's URL (and the
   teaser is recorded, so a rerun won't fix it). Tell the user to reply by hand.
 - Posting to X costs about $0.22 per blog post.
+- The posted text comes from the post's `crossPostText:` frontmatter (`x:` and
+  `linkedin:` entries) when it has some, otherwise from the start of the post.
+  If the user wants different wording, edit that frontmatter and push it to
+  `master` before running the workflow. Keep `x:` within 280 characters.
 - To preview without posting, use `-f dry_run=true`, then
   `gh run download "$run_id" -n cross-post-previews` to get the text and
   screenshots.

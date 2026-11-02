@@ -4,6 +4,13 @@ description: It's about building a sense of what LLMs do well
 order: 45
 date: '2025-02-21'
 tags: ["ai", "prompting"]
+crossPostText:
+  x: |-
+    When people talk about using language models effectively, they mainly talk about prompting: sharing great prompts, lists of tips for prompting, or courses on becoming a “prompt engineer”. It’s true that prompting is a surprisingly effective way to get more out of LLMs.
+  linkedin: |-
+    When people talk about using language models effectively, they mainly talk about prompting: sharing great prompts, lists of tips for prompting, or courses on becoming a “prompt engineer”. It’s true that prompting is a surprisingly effective way to get more out of LLMs. Small variations in prompts can make a big difference in the LLM output. There really are general rules (put your question first and your context last, for instance). However, when I use LLMs, I rarely think about prompting.
+
+    Using LLMs well involves extracting value from what they’re good at and avoiding wasting time at what they’re bad at.
 ---
 
 When people talk about using language models effectively, they mainly talk about prompting: sharing great prompts, lists of tips for prompting, or courses on becoming a "prompt engineer". It's true that prompting is a surprisingly effective way to get more out of LLMs. Small variations in prompts can make a big difference in the LLM output. There really are general rules (put your question first and your context last, for instance)[^1]. However, when I use LLMs, I rarely think about prompting.

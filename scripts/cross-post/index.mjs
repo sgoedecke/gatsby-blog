@@ -11,11 +11,15 @@ import path from "node:path"
 import { fileURLToPath } from "node:url"
 import { parseArgs } from "node:util"
 
-import { composeLinkedInCommentary, composeTweet } from "./compose.mjs"
+import { resolveCrossPostText } from "./compose.mjs"
 import { linkedInCredentialsFromEnv, postToLinkedIn } from "./linkedin.mjs"
 import { capturePost, waitForLive } from "./page.mjs"
 import { isSharedEverywhere, loadPosts, pickCandidates } from "./pick.mjs"
-import { readCrossPosts, recordCrossPost } from "./record.mjs"
+import {
+  readCrossPostText,
+  readCrossPosts,
+  recordCrossPost,
+} from "./record.mjs"
 import { postThread, xCredentialsFromEnv } from "./x.mjs"
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url))
@@ -108,7 +112,8 @@ async function crossPost(slug, options) {
 
   // Posted URLs are recorded in the post's frontmatter, so reruns and manual
   // runs don't post the same thing twice.
-  const alreadyPosted = readCrossPosts(readFileSync(postFile, "utf8"))
+  const raw = readFileSync(postFile, "utf8")
+  const alreadyPosted = readCrossPosts(raw)
   const platforms = options.platforms.filter(platform => {
     if (!alreadyPosted[platform]) return true
     const message = `${slug} was already posted to ${platform}: ${alreadyPosted[platform]}`
@@ -125,11 +130,17 @@ async function crossPost(slug, options) {
   if (options.wait) await waitForLive(url)
 
   const post = await capturePost(url)
-  const tweet = composeTweet({
+  // Hand-edited text in the post's crossPostText frontmatter wins over the
+  // automatic excerpt.
+  const text = resolveCrossPostText({
     paragraphs: post.paragraphs,
     title: post.title,
+    custom: readCrossPostText(raw),
   })
-  const commentary = composeLinkedInCommentary({ paragraphs: post.paragraphs })
+  const tweet = text.x
+  const commentary = text.linkedin
+  const source = platform =>
+    text.custom[platform] ? "crossPostText frontmatter" : "automatic excerpt"
 
   const outDir = path.join(options.out, slug)
   mkdirSync(outDir, { recursive: true })
@@ -144,7 +155,9 @@ async function crossPost(slug, options) {
     )
   })
   console.log(
-    `Tweet:\n${tweet}\n\nReply:\n${url}\n\nLinkedIn:\n${commentary}\n\nPreviews in ${outDir}`
+    `Tweet (${source("x")}):\n${tweet}\n\nReply:\n${url}\n\nLinkedIn (${source(
+      "linkedin"
+    )}):\n${commentary}\n\nPreviews in ${outDir}`
   )
 
   const quote = text =>
@@ -153,9 +166,11 @@ async function crossPost(slug, options) {
       .map(line => `> ${line}`)
       .join("\n")
   summarize(
-    `## ${post.title}\n\n**X:**\n\n${quote(
+    `## ${post.title}\n\n**X** (${source("x")}):\n\n${quote(
       tweet
-    )}\n\n**X reply:** ${url}\n\n**LinkedIn:**\n\n${quote(commentary)}\n`
+    )}\n\n**X reply:** ${url}\n\n**LinkedIn** (${source(
+      "linkedin"
+    )}):\n\n${quote(commentary)}\n`
   )
 
   if (options.dryRun) {

@@ -19,6 +19,13 @@ popularity:
   manual: 0
 popular: true
 tags: ["tech companies", "good engineers"]
+crossPostText:
+  x: |-
+    It’s a popular joke among software engineers that writing overcomplicated, unmaintainable code is a pathway to job security. After all, if you’re the only person who can work on a system, they can’t fire you.
+  linkedin: |-
+    It’s a popular joke among software engineers that writing overcomplicated, unmaintainable code is a pathway to job security. After all, if you’re the only person who can work on a system, they can’t fire you. There’s a related take that “nobody gets promoted for simplicity”: in other words, engineers who deliver overcomplicated crap will be promoted, because their work looks more impressive to non-technical managers.
+
+    There’s a grain of truth in this, of course. As I’ve said before, one mark of an elegant solution is that it makes the problem look easy (like how pro skiers make terrifying slopes look doable). However, I worry that some engineers take this too far.
 ---
 
 It's a popular joke among software engineers that writing overcomplicated, unmaintainable code is a pathway to job security. After all, if you're the only person who can work on a system, they can't fire you. There's a related take that ["nobody gets promoted for simplicity"](https://news.ycombinator.com/item?id=47246110): in other words, engineers who deliver overcomplicated crap will be promoted, because their work looks more impressive to non-technical managers.

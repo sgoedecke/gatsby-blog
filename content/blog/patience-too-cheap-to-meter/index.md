@@ -24,6 +24,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Sam Altman, CEO of OpenAI, famously said that his goal was to make intelligence “too cheap to meter”. Right now, buoyed by venture capital, we’re living in that world.
+  linkedin: |-
+    Sam Altman, CEO of OpenAI, famously said that his goal was to make intelligence “too cheap to meter”. Right now, buoyed by venture capital, we’re living in that world. Every human (with internet access) on the planet has free access to language models that are smart enough to assist with a wide variety of problems. And people are using it! ChatGPT has more traffic than Wikipedia.
+
+    However, there doesn’t seem to be a huge consumer pressure towards smarter models. Claude Sonnet had a serious edge over ChatGPT for over a year, but only the most early-adopter of software engineers moved over to it. Most users are happy to just go to ChatGPT and talk to whatever’s available. Why is that?
 ---
 
 Sam Altman, CEO of OpenAI, famously said that his goal was to make intelligence "too cheap to meter". Right now, buoyed by venture capital, we're living in that world. Every human (with internet access) on the planet has free access to language models that are smart enough to assist with a wide variety of problems. And people are using it! ChatGPT has [more traffic](https://old.reddit.com/r/dataisbeautiful/comments/1kn5n7f/oc_chatgpt_now_has_more_monthly_users_than/) than Wikipedia[^1].

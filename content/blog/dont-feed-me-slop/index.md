@@ -4,6 +4,13 @@ description:
 order: 131
 date: '2025-08-23'
 tags: ["ai", "slop", "ai writing"]
+crossPostText:
+  x: |-
+    In the early days of any new technology, the relevant social norms are still being workshopped. For mobile phones, that meant collectively deciding when and where phones should be on silent mode.
+  linkedin: |-
+    In the early days of any new technology, the relevant social norms are still being workshopped. For mobile phones, that meant collectively deciding when and where phones should be on silent mode. For instant messaging, that meant jumping right into the request instead of trying to do small talk first. What are the social norms we’re working out for AI right now? In my view, they’re about when it’s appropriate to show somebody AI-generated content.
+
+    For instance, it’s acceptable to run an email through ChatGPT to check for typos or unfinished sentences. But is it acceptable to get ChatGPT to write your entire email for you from scratch?
 ---
 
 In the early days of any new technology, the relevant social norms are still being workshopped. For mobile phones, that meant collectively deciding when and where phones should be on silent mode[^1]. For instant messaging, that meant [jumping right into the request](https://nohello.net/en/) instead of trying to do small talk first. What are the social norms we're working out for AI right now? In my view, they're about **when it's appropriate to show somebody AI-generated content**.

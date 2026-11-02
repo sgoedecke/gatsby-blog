@@ -28,6 +28,15 @@ tags: ["tech companies", "book reports"]
 crossPosts:
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7518742820984102914/"
   x: "https://x.com/i/status/2113012451189182868"
+crossPostText:
+  x: |-
+    The big idea of James C. Scott’s Seeing Like A State can be expressed in three points:
+  linkedin: |-
+    The big idea of James C. Scott’s Seeing Like A State can be expressed in three points:
+
+    1. Modern organizations exert control by maximising “legibility”: by altering the system so that all parts of it can be measured, reported on, and so on.
+    2. However, these organizations are dependent on a huge amount of “illegible” work: work that cannot be tracked or planned for, but is nonetheless essential.
+    3. Increasing legibility thus often actually lowers efficiency — but the other benefits are high enough that organizations are typically willing to do so regardless.
 ---
 
 The big idea of James C. Scott's [_Seeing Like A State_](https://files.libcom.org/files/Seeing%20Like%20a%20State%20-%20James%20C.%20Scott.pdf) can be expressed in three points:

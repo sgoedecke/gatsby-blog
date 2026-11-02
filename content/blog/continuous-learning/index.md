@@ -3,6 +3,13 @@ title: What's so hard about continuous learning?
 order: 178
 date: '2026-02-23'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Why can’t models continue to get smarter after they’re deployed? If you hire a human employee, they will grow more familiar with your systems over time, and (if they stick around long enough) eventually become a genuine domain expert. AI models are not like this.
+  linkedin: |-
+    Why can’t models continue to get smarter after they’re deployed? If you hire a human employee, they will grow more familiar with your systems over time, and (if they stick around long enough) eventually become a genuine domain expert. AI models are not like this. They are always exactly as capable as the first moment you use them.
+
+    This is because model weights are frozen once the model is released. The model can only “learn” as much as can be stuffed into its context window: in effect, it can take new information into its short-term working memory, but not its long-term memory.
 ---
 
 Why can't models continue to get smarter after they're deployed? If you hire a human employee, they will grow more familiar with your systems over time, and (if they stick around long enough) eventually become a genuine domain expert. AI models are not like this. They are always exactly as capable as the first moment you use them.

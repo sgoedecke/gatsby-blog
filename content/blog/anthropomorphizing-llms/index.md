@@ -4,6 +4,18 @@ description:
 order: 112
 date: '2025-07-10'
 tags: ["ai", "ethics", "anthropomorphism"]
+crossPostText:
+  x: |-
+    I recently read a very good blog post by Halvar Flake titled “A non-anthropomorphized view of LLMs”.
+  linkedin: |-
+    I recently read a very good blog post by Halvar Flake titled “A non-anthropomorphized view of LLMs”. Here’s a very brief summary:
+
+    - LLMs are just a mapping function between language sequences and other language sequences
+    - Human brains are far more complex, far more poorly understood, and far harder to predict than LLMs
+    - It’s therefore a mistake to describe LLMs with human terms like “ethics”, “consciousness”, “goals”, “personality”, and so on
+    - We should adopt more accurate language (i.e. talk about “generating undesirable sequences” instead of “misaligned values”) if we want to talk clearly about the current problems with LLMs
+
+    I agree with the first two points of this.
 ---
 
 I recently read a very good [blog post](https://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html) by Halvar Flake titled "A non-anthropomorphized view of LLMs". Here's a very brief summary:

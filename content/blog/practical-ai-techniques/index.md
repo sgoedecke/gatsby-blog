@@ -4,6 +4,13 @@ description:
 order: 85
 date: '2025-05-21'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    Popular advice about using AI is obsessed with tools and “magic prompts”. To me, this is like if software engineering advice was all about memorizing the right vim commands: useful, but not really getting at the core skills involved.
+  linkedin: |-
+    Popular advice about using AI is obsessed with tools and “magic prompts”. To me, this is like if software engineering advice was all about memorizing the right vim commands: useful, but not really getting at the core skills involved.
+
+    Also unlike most popular advice, this post is for people who are already competent software engineers, not less-technical people looking to vibe code a working app. They’re techniques I use daily as a staff engineer at GitHub. I use Copilot for most of this stuff, but the techniques are tool-agnostic: you can use anything that exposes a chat interface.
 ---
 
 Popular advice about using AI is obsessed with tools and ["magic prompts"](/magic-prompts). To me, this is like if software engineering advice was all about memorizing the right vim commands: useful, but not really getting at the [core skills involved](/beyond-prompting).

@@ -4,6 +4,11 @@ description: What I think about when I write blog posts
 order: 28
 date: '2025-01-10'
 tags: ["writing", "meta"]
+crossPostText:
+  x: |-
+    My blog has gotten a lot of traffic in the last few months. Here’s what I think I’ve been doing that’s working, and a few things that have been surprising to me. It’s a bit self-indulgent to write a meta post like this, but that’s what blogs are for.
+  linkedin: |-
+    My blog has gotten a lot of traffic in the last few months. Here’s what I think I’ve been doing that’s working, and a few things that have been surprising to me. It’s a bit self-indulgent to write a meta post like this, but that’s what blogs are for.
 ---
 
 My blog has gotten a lot of traffic in the last few months[^1]. Here's what I think I've been doing that's working, and a few things that have been surprising to me. It's a bit self-indulgent to write a meta post like this, but that's what blogs are for.

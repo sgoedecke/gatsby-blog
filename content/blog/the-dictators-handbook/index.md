@@ -4,6 +4,13 @@ description:
 order: 166
 date: '2026-01-05'
 tags: ["book reports"]
+crossPostText:
+  x: |-
+    The Dictator’s Handbook is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering unsentimental advice to would-be successful leaders.
+  linkedin: |-
+    The Dictator’s Handbook is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering unsentimental advice to would-be successful leaders.
+
+    Given that, I expected this book to be similar to The 48 Laws of Power, which did not impress me. Like many self-help books, The 48 Laws of Power is “empty calories”: a lot of fun to read, but not really useful or edifying. However, The Dictator’s Handbook is a legitimate work of political science, serving as a popular introduction to an actual academic theory of government.
 ---
 
 [_The Dictator's Handbook_](https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook) is an ambitious book. In the introduction, its authors Bruce Bueno de Mesquita and Alastair Smith cast themselves as the successors to Sun Tzu and Niccolo Machiavelli: offering unsentimental advice to would-be successful leaders.

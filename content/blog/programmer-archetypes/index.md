@@ -19,6 +19,17 @@ popularity:
   manual: 0
 popular: true
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    Why do engineers get mad at each other so often?
+
+    I think a lot of programmer arguments bottom out in a cultural clash between different kinds of engineers: believers vs grifters, or coasters vs grinders.
+  linkedin: |-
+    Why do engineers get mad at each other so often?
+
+    I think a lot of programmer arguments bottom out in a cultural clash between different kinds of engineers: believers vs grifters, or coasters vs grinders. I’m going to argue that good companies actually have a healthy mix of all four types of engineer, so it’s probably sensible to figure out how to work with them.
+
+    Despite the names, I think grifters and coasters can be as good at their jobs as believers and grinders.
 ---
 
 Why do engineers get mad at each other so often?[^1] 

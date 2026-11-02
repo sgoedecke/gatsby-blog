@@ -4,6 +4,11 @@ description:
 order: 133
 date: '2025-08-26'
 tags: ["tech companies"]
+crossPostText:
+  x: |-
+    Suppose your job is to pick fruit in a giant orchard. The orchard covers several hills and valleys, and is big enough that you’d need a few weeks to walk all the way around the edge. What should you do first?
+  linkedin: |-
+    Suppose your job is to pick fruit in a giant orchard. The orchard covers several hills and valleys, and is big enough that you’d need a few weeks to walk all the way around the edge. What should you do first?
 ---
 
 Suppose your job is to pick fruit in a giant orchard. The orchard covers several hills and valleys, and is big enough that you'd need a few weeks to walk all the way around the edge. What should you do first?

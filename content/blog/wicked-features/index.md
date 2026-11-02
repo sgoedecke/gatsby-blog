@@ -4,6 +4,15 @@ description:
 order: 64
 date: '2025-04-12'
 tags: ["tech companies", "software design", "large codebases"]
+crossPostText:
+  x: |-
+    Why is working at large tech companies so hard?
+
+    It’s because a small subset of “wicked features” dominate everything else. If you’re building a todo app, adding the ability to attach images to todo items might be a large feature, but it’s not a wicked feature.
+  linkedin: |-
+    Why is working at large tech companies so hard?
+
+    It’s because a small subset of “wicked features” dominate everything else. If you’re building a todo app, adding the ability to attach images to todo items might be a large feature, but it’s not a wicked feature. However, offering your todo app as a webapp and a standalone executable is a wicked feature. What’s the difference? Wicked features are features that must be considered every time you build any other feature.
 ---
 
 Why is working at large tech companies so hard?[^1]

@@ -22,6 +22,15 @@ tags: ["software design"]
 crossPosts:
   x: "https://x.com/i/status/2113379160307487125"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7519144853570674688/"
+crossPostText:
+  x: |-
+    Many people are saying that AI will make software faster by rewriting it in faster languages, but this isn’t generally true. Most programs cannot be meaningfully sped up by rewriting them in C or Rust.
+
+    How can this be true?
+  linkedin: |-
+    Many people are saying that AI will make software faster by rewriting it in faster languages, but this isn’t generally true. Most programs cannot be meaningfully sped up by rewriting them in C or Rust.
+
+    How can this be true? Some languages are orders-of-magnitude faster than others: for instance, C can be fifty times faster than Python. Won’t rewriting my Python program in C thus make it fifty times faster? No, it won’t.
 ---
 
 Many people [are saying](https://rustify.rs/articles/rails-world-2026-keynote-dhh-hey-rust-ai-agents) that AI will make software faster by rewriting it in faster languages, but this isn't generally true. Most programs cannot be meaningfully sped up by rewriting them in C or Rust.

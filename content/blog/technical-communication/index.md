@@ -4,6 +4,11 @@ description:
 order: 154
 date: '2025-11-09'
 tags: ["writing", "tech companies", "technical clarity"]
+crossPostText:
+  x: |-
+    Technical writing is a big part of a software engineer’s job. This is more true the more senior you get.
+  linkedin: |-
+    Technical writing is a big part of a software engineer’s job. This is more true the more senior you get. In the limit case, a principal or distinguished engineer might only write technical documents, but even brand-new junior engineers need to write: commit messages, code comments, PR descriptions and comments, Slack threads, internal announcements, documentation, runbooks, and so on. Whether you write well or badly matters a lot.
 ---
 
 Technical writing is a big part of a software engineer's job. This is more true the more senior you get. In the limit case, a principal or distinguished engineer might only write technical documents, but even brand-new junior engineers need to write: commit messages, code comments, PR descriptions and comments, Slack threads, internal announcements, documentation, runbooks, and so on. **Whether you write well or badly matters a lot.**

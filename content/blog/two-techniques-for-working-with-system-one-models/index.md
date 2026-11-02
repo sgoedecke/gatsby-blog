@@ -4,6 +4,13 @@ description:
 order: 241
 date: '2026-09-18'
 tags: ["ai", "system one"]
+crossPostText:
+  x: |-
+    I recently wrote about Jev, a new “System One” language model that only outputs decisions: the answers to a set of user-provided multiple-choice questions. This means it’s nowhere near as flexible as a traditional LLM like ChatGPT, but in return it’s consistently fast.
+  linkedin: |-
+    I recently wrote about Jev, a new “System One” language model that only outputs decisions: the answers to a set of user-provided multiple-choice questions. This means it’s nowhere near as flexible as a traditional LLM like ChatGPT, but in return it’s consistently fast.
+
+    We don’t know exactly how Jev works. I’ve seen people say diffusion, or various tweaks to the Transformer architecture, or some entirely new type of model. But that doesn’t matter. Like I argued here, it isn’t hard to turn any LLM into a System One model.
 ---
 
 I recently wrote about [Jev](/jev-means-structured-output-is-interesting-again/), a new "System One" language model that only outputs _decisions_: the answers to a set of user-provided multiple-choice questions. This means it's nowhere near as flexible[^1] as a traditional LLM like ChatGPT, but in return it's consistently fast.

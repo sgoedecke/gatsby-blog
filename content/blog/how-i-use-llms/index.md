@@ -27,6 +27,14 @@ popularity:
     urls:
       - 'https://youtu.be/aJl7YFSXES0?si=PyVM26Ej4vJzdQae'
 tags: ["ai", "how to"]
+autoShare: false
+crossPostText:
+  x: |-
+    Software engineers are deeply split on the subject of large language models. Many believe they’re the most transformative technology to ever hit the industry. Others believe they’re the latest in a long line of hype-only products.
+  linkedin: |-
+    Software engineers are deeply split on the subject of large language models. Many believe they’re the most transformative technology to ever hit the industry. Others believe they’re the latest in a long line of hype-only products: exciting to think about, but ultimately not useful to professionals trying to do serious work.
+
+    Personally, I feel like I get a lot of value from AI. I think many of the people who don’t feel this way are “holding it wrong”: i.e. they’re not using language models in the most helpful ways. In this post, I’m going to list a bunch of ways I regularly use AI in my day-to-day as a staff engineer.
 ---
 
 Software engineers are deeply split on the subject of large language models. Many believe they're the most transformative technology to ever hit the industry. Others believe they're the latest in a long line of hype-only products: exciting to think about, but ultimately not useful to professionals trying to do serious work.

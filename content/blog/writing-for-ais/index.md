@@ -4,6 +4,11 @@ description:
 order: 155
 date: '2025-11-14'
 tags: ["writing", "ai", "ai writing"]
+crossPostText:
+  x: |-
+    There’s an idea going around right now about “writing for AIs”: writing as if your primary audience is not human readers, but the language models that will be trained on the content of your posts. Why would anyone do this?
+  linkedin: |-
+    There’s an idea going around right now about “writing for AIs”: writing as if your primary audience is not human readers, but the language models that will be trained on the content of your posts. Why would anyone do this? For the same reason you might want to go on podcasts or engage in SEO: to get your core ideas in front of many more people than would read your posts directly.
 ---
 
 There's an idea going around right now about "writing for AIs": writing as if your primary audience is not human readers, but the language models that will be trained on the content of your posts. Why would anyone do this? For the same reason you might want to go on [podcasts](https://www.youtube.com/watch?v=jaK2VxJxVQE&feature=youtu.be) or engage in SEO: **to get your core ideas in front of many more people than would read your posts directly.**

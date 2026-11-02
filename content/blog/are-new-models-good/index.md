@@ -4,6 +4,11 @@ description:
 order: 157
 date: '2025-11-22'
 tags: ["ai", "openai"]
+crossPostText:
+  x: |-
+    Nobody knows how to tell if current-generation models are any good. When GPT-5 launched, the overall mood was very negative, and the consensus was that it wasn’t a strong model.
+  linkedin: |-
+    Nobody knows how to tell if current-generation models are any good. When GPT-5 launched, the overall mood was very negative, and the consensus was that it wasn’t a strong model. But three months later it turns out that GPT-5 (and its derivative GPT-5-Codex) is a very strong model for agentic work: enough to break Anthropic’s monopoly on agentic coding models. In fact, GPT-5-Codex is my preferred model for agentic coding. It’s slower than Claude Sonnet 4.5, but in my experience it gets more hard problems correct. Why did it take months for me to figure this out?
 ---
 
 **Nobody knows how to tell if current-generation models are any good**. When GPT-5 launched, the overall mood was very negative, and the consensus was that it wasn't a strong model. But three months later it turns out that GPT-5 (and its derivative GPT-5-Codex) is a very strong model for agentic work[^1]: enough to break Anthropic's monopoly on agentic coding models. In fact, GPT-5-Codex is my preferred model for agentic coding. It's slower than Claude Sonnet 4.5, but in my experience it gets more hard problems correct. Why did it take months for me to figure this out?

@@ -4,6 +4,18 @@ description:
 order: 196
 date: '2026-05-17'
 tags: ["ai", "how to"]
+crossPostText:
+  x: |-
+    A bit over a year ago I wrote How I use LLMs as a staff engineer.
+  linkedin: |-
+    A bit over a year ago I wrote How I use LLMs as a staff engineer. Here’s a brief summary of what I used AI for last year:
+
+    - Smart autocomplete with Copilot
+    - Short tactical changes in areas I don’t know well (always reviewed by a SME)
+    - Writing lots of use-once-and-throwaway research code
+    - Asking lots of questions to learn about new topics (e.g. the Unity game engine)
+    - Last-resort bugfixes, just in case it can figure it out immediately
+    - Big-picture proofreading for long-form English communication
 ---
 
 A bit over a year ago I wrote [_How I use LLMs as a staff engineer_](https://www.seangoedecke.com/how-i-use-llms/). Here's a brief summary of what I used AI for last year:

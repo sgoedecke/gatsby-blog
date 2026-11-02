@@ -4,6 +4,11 @@ description:
 order: 87
 date: '2025-05-24'
 tags: ["ai", "explainers"]
+crossPostText:
+  x: |-
+    How does AI work? Since 2022, it’s been possible to have a conversation with a computer: first with ChatGPT 3.5, and now with a variety of AI models from multiple companies. AI can answer your questions, write letters or essays, code for you, and so on.
+  linkedin: |-
+    How does AI work? Since 2022, it’s been possible to have a conversation with a computer: first with ChatGPT 3.5, and now with a variety of AI models from multiple companies. AI can answer your questions, write letters or essays, code for you, and so on. In some areas it’s superhuman — for instance, it can write a short working program faster than any person could — but in other areas it makes mistakes that a child would catch. Many top AI models struggle with questions like “count the number of ‘r’s in ‘strawberry’”, or “is 9.11 greater than 9.5?” What explains this weird variance in ability?
 ---
 
 How does AI work? Since 2022, it's been possible to have a conversation with a computer: first with ChatGPT 3.5, and now with a variety of AI models from multiple companies. AI can answer your questions, write letters or essays, code for you, and so on. In some areas it's superhuman - for instance, it can write a short working program faster than any person could - but in other areas it makes mistakes that a child would catch. Many top AI models struggle with questions like "count the number of 'r's in 'strawberry'", or "is 9.11 greater than 9.5?" What explains this weird variance in ability?

@@ -7,6 +7,13 @@ tags: ["ai", "prompting"]
 crossPosts:
   x: "https://x.com/i/status/2115385464505196794"
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7521151157617090560/"
+crossPostText:
+  x: |-
+    Many people think that getting “good at AI” is trivial. Sure, with some early models there were tricks you had to learn, but current models don’t need them.
+  linkedin: |-
+    Many people think that getting “good at AI” is trivial. Sure, with some early models there were tricks you had to learn, but current models don’t need them. Even if there are different tricks that work on current models, the next generation will render them obsolete, so why bother? Just tell the model what you want it to do.
+
+    This take is particularly popular with the anti-AI crowd, who scoff at the idea that AI-reluctant people are being left behind, or that it might be irresponsible to advise other engineers to avoid AI use entirely. According to them, if AI does ever become capable enough to be worth using, they’ll be able to start using it with no learning curve.
 ---
 
 Many people think[^1] that getting "good at AI" is trivial. Sure, with some early models there were tricks you had to learn,[^2] but current models don't need them. Even if there are different tricks[^3] that work on current models, the next generation will render them obsolete, so why bother? Just tell the model what you want it to do.

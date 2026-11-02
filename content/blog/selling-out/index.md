@@ -4,6 +4,11 @@ description:
 order: 229
 date: '2026-08-28'
 tags: ["tech companies", "ethics", "cynicism"]
+crossPostText:
+  x: |-
+    In 1973, Tom Lehrer famously sang that “selling out is easy to do”. That may have been true in the seventies, but it’s not true today: selling out requires both technical skill and a careful sense of how large organizations work in practice.
+  linkedin: |-
+    In 1973, Tom Lehrer famously sang that “selling out is easy to do”. That may have been true in the seventies, but it’s not true today: selling out requires both technical skill and a careful sense of how large organizations work in practice. One of the goals of this blog is to teach people how to do it.
 ---
 
 In 1973, Tom Lehrer famously [sang](https://www.youtube.com/watch?v=3BDyFuDxA-I) that "selling out is easy to do". That may have been true in the seventies, but it's not true today: selling out requires both [technical skill](/tags/good%20engineers/) and a careful sense of how large organizations [work in practice](/what-is-important/). One of the goals of this blog is to teach people how to do it.

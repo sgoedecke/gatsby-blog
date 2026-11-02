@@ -19,6 +19,13 @@ popularity:
     urls: []
   manual: 0
 tags: ["writing"]
+crossPostText:
+  x: |-
+    Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish.
+  linkedin: |-
+    Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish.
+
+    Typically I learn way more than two things. For instance, in my o3 geoguessr post, I started out with the idea that most AI prompts probably don’t work, and I ended up learning that newer OpenAI models have lost o3’s ability to geolocate. That’s interesting!
 ---
 
 Every post I publish represents at least two things I've learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don't learn anything new while I'm writing, it's not interesting enough to publish.

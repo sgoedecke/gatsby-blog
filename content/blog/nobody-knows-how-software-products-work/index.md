@@ -7,6 +7,13 @@ tags: ["good engineers", "tech companies", "large codebases", "technical clarity
 crossPosts:
   linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7514840921935593473/"
   x: "https://x.com/i/status/2109077278856499633"
+crossPostText:
+  x: |-
+    Large, rapidly-moving tech companies are constantly operating in the “fog of war” about their own systems.
+  linkedin: |-
+    Large, rapidly-moving tech companies are constantly operating in the “fog of war” about their own systems. Simple questions like “can users of type Y access feature X?”, “what happens when you perform action Z in this situation?”, or even “how many different plans do we offer” often can only be answered by a handful of people in the organization. Sometimes there are zero people at the organization who can answer them, and somebody has to be tasked with digging in like a researcher to figure it out.
+
+    How can this be? Shouldn’t the engineers who built the software know what it does? Aren’t these answers documented internally?
 ---
 
 Large, rapidly-moving tech companies are constantly operating in the "fog of war" about their own systems. Simple questions like "can users of type Y access feature X?", "what happens when you perform action Z in this situation?", or even "how many different plans do we offer" often can only be answered by a handful of people in the organization. Sometimes there are _zero_ people at the organization who can answer them, and somebody has to be tasked with digging in like a researcher to figure it out.

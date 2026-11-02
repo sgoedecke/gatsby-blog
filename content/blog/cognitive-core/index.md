@@ -4,6 +4,11 @@ description:
 order: 122
 date: '2025-07-27'
 tags: ["ai"]
+crossPostText:
+  x: |-
+    An AI trend that’s emerged in the last few months is the idea of a “cognitive core”. Instead of trying to build the largest, most capable model we can, should we be trying to build a small model?
+  linkedin: |-
+    An AI trend that’s emerged in the last few months is the idea of a “cognitive core”. Instead of trying to build the largest, most capable model we can, should we be trying to build a small model?
 ---
 
 An AI trend that's emerged in the last few months[^1] is the idea of a "cognitive core". Instead of trying to build the largest, most capable model we can, should we be trying to build a small model?
