@@ -4,6 +4,9 @@ description:
 order: 264
 date: '2026-11-02'
 tags: ["ai", "alignment failures", "apocalypse", "ai safety"]
+crossPosts:
+  x: "https://x.com/i/status/2117135997053870332"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7522901690065268736/"
 ---
 
 Powerful AI is unpredictable. Your robotic butler may suddenly decide to kill you[^1] for no comprehensible reason, in the same way that Bing's helpful chat AI would sometimes try to [blackmail or seduce](https://en.wikipedia.org/wiki/Sydney_(Microsoft)) its users. "Solving alignment" means understanding even superintelligent AI minds well enough to be confident they'll never do that. As I see it, solving alignment for LLMs isn't just impossible, it's incoherent: we can't even articulate what it would look like to succeed.
