@@ -1,6 +1,5 @@
-const fs = require("fs")
 const markdown = require("./src/lib/markdown")
-const { BLOG_GLOB, byOrder } = require("./src/lib/posts")
+const { BLOG_GLOB, POST_ASSET_EXTENSIONS, byOrder } = require("./src/lib/posts")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdown)
@@ -17,12 +16,10 @@ module.exports = function (eleventyConfig) {
   })
   eleventyConfig.addPassthroughCopy({ "src/assets/sidenotes.js": "sidenotes.js" })
   // Images and videos sit next to each post and are served from its URL.
-  for (const dir of fs.readdirSync("content/blog")) {
-    if (!fs.statSync(`content/blog/${dir}`).isDirectory()) continue
-    eleventyConfig.addPassthroughCopy({
-      [`content/blog/${dir}/*.{png,jpg,jpeg,gif,svg,webp,mp4}`]: dir,
-    })
-  }
+  eleventyConfig.addPassthroughCopy(
+    { "content/blog": "/" },
+    { filter: [`*/*.{${POST_ASSET_EXTENSIONS.join(",")}}`] }
+  )
 
   for (const ignored of [
     "README.md",
@@ -39,6 +36,9 @@ module.exports = function (eleventyConfig) {
 
   return {
     templateFormats: ["md", "11ty.js"],
+    // Posts are plain Markdown; don't run them through Liquid first, which
+    // would eat `{{ ... }}` and `{% ... %}` in code samples.
+    markdownTemplateEngine: false,
     dir: {
       input: ".",
       includes: "src/_includes",

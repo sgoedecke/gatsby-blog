@@ -4,6 +4,8 @@
 const { getDiscussionLinks } = require("../utils/discussion-links")
 
 const BLOG_GLOB = "content/blog/*/index.md"
+// Files kept next to a post that are published at the post's URL.
+const POST_ASSET_EXTENSIONS = ["png", "jpg", "jpeg", "gif", "svg", "webp", "mp4"]
 
 const formatDate = date =>
   new Date(date).toLocaleDateString("en-US", {
@@ -159,6 +161,7 @@ const relatedPreview = (post, posts) => {
 
 module.exports = {
   BLOG_GLOB,
+  POST_ASSET_EXTENSIONS,
   byDate,
   byOrder,
   byPopularity,

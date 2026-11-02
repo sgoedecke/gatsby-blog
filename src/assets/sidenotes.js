@@ -12,20 +12,23 @@
   const media = window.matchMedia(WIDE_QUERY)
   let teardown = () => {}
 
+  // One note per footnote, positioned beside its first reference. A footnote
+  // can be referenced more than once; every reference activates the note.
   function collectNotes() {
-    const seen = new Set()
-    const notes = []
+    const notes = new Map()
     section.querySelectorAll("a.footnote-ref[href^='#fn-']").forEach(ref => {
       const id = ref.getAttribute("href").slice(1)
-      if (seen.has(id)) return
+      if (notes.has(id)) {
+        notes.get(id).refs.push(ref)
+        return
+      }
       const item = section.querySelector(`.footnotes li[id="${id}"]`)
       if (!item) return
-      seen.add(id)
       const clone = item.cloneNode(true)
       clone.querySelectorAll(".footnote-backref").forEach(el => el.remove())
-      notes.push({ id, ref, label: ref.textContent, html: clone.innerHTML })
+      notes.set(id, { id, refs: [ref], label: ref.textContent, html: clone.innerHTML })
     })
-    return notes
+    return [...notes.values()]
   }
 
   function mount() {
@@ -51,7 +54,7 @@
       const origin = container.getBoundingClientRect().top
       let floor = -Infinity
       notes.forEach(note => {
-        const anchorTop = note.ref.getBoundingClientRect().top - origin
+        const anchorTop = note.refs[0].getBoundingClientRect().top - origin
         const top = Math.max(anchorTop, floor)
         note.aside.style.top = `${top}px`
         note.aside.style.visibility = "visible"
@@ -63,7 +66,7 @@
     const setActive = id =>
       notes.forEach(note => {
         const active = note.id === id
-        note.ref.classList.toggle("is-active", active)
+        note.refs.forEach(ref => ref.classList.toggle("is-active", active))
         note.aside.classList.toggle("is-active", active)
       })
 
@@ -76,17 +79,19 @@
     notes.forEach(note => {
       const enter = () => setActive(note.id)
       const leave = () => setActive(null)
-      listen(note.ref, "mouseenter", enter)
-      listen(note.ref, "mouseleave", leave)
       listen(note.aside, "mouseenter", enter)
       listen(note.aside, "mouseleave", leave)
-      listen(note.ref, "click", event => {
-        event.preventDefault()
-        setActive(note.id)
-        clearTimeout(timer)
-        timer = setTimeout(() => {
-          if (note.ref.classList.contains("is-active")) setActive(null)
-        }, 1500)
+      note.refs.forEach(ref => {
+        listen(ref, "mouseenter", enter)
+        listen(ref, "mouseleave", leave)
+        listen(ref, "click", event => {
+          event.preventDefault()
+          setActive(note.id)
+          clearTimeout(timer)
+          timer = setTimeout(() => {
+            if (note.aside.classList.contains("is-active")) setActive(null)
+          }, 1500)
+        })
       })
     })
     listen(window, "resize", layout)
