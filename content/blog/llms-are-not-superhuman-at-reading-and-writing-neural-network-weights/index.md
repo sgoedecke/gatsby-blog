@@ -4,6 +4,9 @@ description:
 order: 266
 date: '2026-11-03'
 tags: ["ai"]
+crossPosts:
+  x: "https://x.com/i/status/2117373124756877351"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7523138818091163648/"
 ---
 
 A recent [paper](https://rikiyat.github.io/blog/weight-space-programming/) argues that frontier LLMs can work with neural network weights directly. This seems superhuman, but it isn't.
