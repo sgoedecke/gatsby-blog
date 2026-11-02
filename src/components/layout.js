@@ -11,6 +11,14 @@ document.querySelector(".site-search").addEventListener("submit", event => {
 })
 </script>`
 
+// Browsers that support it prefetch a page when a link to it is hovered (or
+// touched), so navigation feels instant. Prefetch rather than prerender so
+// analytics only counts pages that are actually viewed. Paths with a dot
+// (feeds, images, videos) are skipped; pages all end in a slash.
+const SPECULATION_RULES = `<script type="speculationrules">
+{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.*"}}]},"eagerness":"moderate"}]}
+</script>`
+
 // The page shell shared by every page. `title` and `description` fill the
 // <head>; `headerMeta` sits beside the site title (used for post dates/tags).
 const Layout = (
@@ -46,7 +54,8 @@ ${site.feeds.map(
 <link rel="stylesheet" href="/styles/prism-tomorrow.css"/>
 <script defer src="https://sg-analytics.pikapod.net/script.js" data-website-id="f535647a-f97e-42ba-a2eb-4e9583984266"></script>
 ${scripts.map(src => html`<script defer src="${src}"></script>
-`)}</head>
+`)}${raw(SPECULATION_RULES)}
+</head>
 <body>
 <div class="${["site", className].filter(Boolean).join(" ")}">
 <header class="site-header">${
