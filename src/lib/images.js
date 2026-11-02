@@ -6,7 +6,7 @@
 // link still opens the full-size original.
 
 const path = require("node:path")
-const Image = require("@11ty/eleventy-img")
+const { default: Image, generateHTML } = require("@11ty/eleventy-img")
 
 const WIDTHS = [590, 1180]
 const SIZES = "(max-width: 590px) 100vw, 590px"
@@ -34,7 +34,7 @@ async function picture(attrs, outputDir) {
     outputDir: path.join(outputDir, urlDir),
     urlPath: urlDir,
   })
-  return Image.generateHTML(metadata, {
+  return generateHTML(metadata, {
     alt: attribute(attrs, "alt"),
     title: attribute(attrs, "title"),
     sizes: SIZES,
