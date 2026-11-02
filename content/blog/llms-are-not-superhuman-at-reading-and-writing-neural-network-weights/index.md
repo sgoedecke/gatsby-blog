@@ -1,5 +1,5 @@
 ---
-title: LLMs are not superhuman at reading or writing neural network weights
+title: LLMs are not superhuman at reading and writing neural network weights
 description: 
 order: 266
 date: '2026-11-03'
