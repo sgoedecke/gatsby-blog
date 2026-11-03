@@ -7,10 +7,10 @@ popularity:
   lobsters:
     urls:
       - 'https://lobste.rs/s/nuepys/what_requirements_don_t_you_have'
-    points: 20
+    points: 23
     comments: 5
     threads: 1
-  score: 85
+  score: 94
   hackerNews:
     urls: []
     points: 0

@@ -8,9 +8,9 @@ popularity:
     urls:
       - 'https://news.ycombinator.com/item?id=50029609'
     points: 14
-    comments: 5
+    comments: 6
     threads: 1
-  score: 24
+  score: 26
   lobsters:
     urls: []
     points: 0

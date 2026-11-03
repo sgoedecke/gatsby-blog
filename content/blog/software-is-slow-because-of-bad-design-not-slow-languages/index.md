@@ -7,10 +7,10 @@ popularity:
   lobsters:
     urls:
       - 'https://lobste.rs/s/hd72yt/software_is_slow_because_bad_design_not'
-    points: 29
-    comments: 32
+    points: 58
+    comments: 101
     threads: 1
-  score: 247
+  score: 679
   hackerNews:
     urls: []
     points: 0

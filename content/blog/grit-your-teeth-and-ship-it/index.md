@@ -7,10 +7,10 @@ popularity:
   lobsters:
     urls:
       - 'https://lobste.rs/s/pdulza/grit_your_teeth_ship_it'
-    points: 8
-    comments: 4
+    points: 19
+    comments: 5
     threads: 1
-  score: 44
+  score: 82
   hackerNews:
     urls: []
     points: 0
