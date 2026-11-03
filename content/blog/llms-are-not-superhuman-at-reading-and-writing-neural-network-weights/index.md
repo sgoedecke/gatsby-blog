@@ -56,7 +56,9 @@ And this is exactly what Astra did! It wrote four pairs of texts, measured[^6] t
 
 It's cool that Astra was able to make direct weight updates. But we shouldn't think of this like a radically new capability that will change how AI research is done. We should think of this as analogous to the ability of LLMs to emit machine code and tweak compiled binaries: it's an impressive trick, but the best way to work with binaries is still to write source code and compile it. Likewise, the best way to update the weights of a model is to train it normally. To the extent that intelligent LLMs help with AI research, they will help by improving _training_, not by magically tweaking model weights directly.
 
-edit: this post got some [comments](https://news.ycombinator.com/item?id=50344861) on Hacker News.
+
+edit: this post got some [comments](https://news.ycombinator.com/item?id=50344861) on Hacker News. One [commenter](https://news.ycombinator.com/item?id=50352071) disagrees that the heatmaps are obvious, though I think this reflects unfamiliarity with what toy RL game maps look like and what games are likely to be implemented in toy RL projects. Another [commenter](https://news.ycombinator.com/item?id=50352999) complains that I'm not impressed enough. To be clear, I am very impressed! It just doesn't update me much beyond "these models can solve Navier-Stokes and find better bounds on the Riemann Conjecture".
+
 
 [^1]: Around 17k weights.
 
