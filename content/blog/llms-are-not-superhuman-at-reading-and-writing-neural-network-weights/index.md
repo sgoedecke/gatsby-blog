@@ -3,6 +3,21 @@ title: LLMs are not superhuman at reading and writing neural network weights
 description: 
 order: 266
 date: '2026-11-03'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=50344861'
+    points: 50
+    comments: 4
+    threads: 1
+  score: 58
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["ai"]
 crossPosts:
   x: "https://x.com/i/status/2117373124756877351"
@@ -40,6 +55,8 @@ First, note that the Qwen model was not "bad at mathematics" in a pure capabilit
 And this is exactly what Astra did! It wrote four pairs of texts, measured[^6] the weights that contributed to looping, started cutting them down and testing if it worked, and ended up finding a patch that stopped the Qwen model from looping, thus making it able to work on mathematical problems for more than 32k tokens. Again, **this is exactly what a competent human researcher could have and would have done.**
 
 It's cool that Astra was able to make direct weight updates. But we shouldn't think of this like a radically new capability that will change how AI research is done. We should think of this as analogous to the ability of LLMs to emit machine code and tweak compiled binaries: it's an impressive trick, but the best way to work with binaries is still to write source code and compile it. Likewise, the best way to update the weights of a model is to train it normally. To the extent that intelligent LLMs help with AI research, they will help by improving _training_, not by magically tweaking model weights directly.
+
+edit: this post got some [comments](https://news.ycombinator.com/item?id=50344861) on Hacker News.
 
 [^1]: Around 17k weights.
 
