@@ -31,30 +31,6 @@ models repeat themselves a fair amount (e.g. they come up with a solution via re
 visible output is ~6% of billed output; dominated by hidden reasoning (50%) and tool calls (44%). so optimizing visible output even massively can only save a couple of %
 
 minimizing output tokens is mainly about intelligence (fewer steps) and harness tweaking (more efficient tool calls)
-
----
-elegance and intelligence anticorrelate, not correlate
-
-john von neumann famously would "just calculate"
-https://x.com/staysaasy/status/2115197136891486530?s=20
-if you can hold 1000 things in your head you don't need to abstract like a human would
-smart engineers often produce awful codebases
-we might see smarter models become inherently hard to understand 
-
---
-ref: sunil pai - the fear of writing on the internet
-link to "impressing people you don't respect"
-
---
-
-https://fishbowl.pastiche.org/2026/10/26/ai-skills
-
-there are durable AI skills
-
-re-run of https://www.seangoedecke.com/practical-ai-techniques/, but emphasis on durable skills (i.e. not prompt eng.)
-
-ofc working with each model is its own skill so it does get out of date, but you do get better over time because current LLMs are all kind of similar `
-
 ---
 
 
@@ -83,8 +59,6 @@ Finally, lots of people use AI to clean up their prose. I think this can be usef
 
 ---
 
-https://www.natemeyvis.com/where-is-all-the-new-good-software/
----
 good explanations, bad explanations
 
 "why X?"
