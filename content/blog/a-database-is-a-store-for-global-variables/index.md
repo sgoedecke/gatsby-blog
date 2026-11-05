@@ -4,6 +4,9 @@ description:
 order: 266
 date: '2026-11-06'
 tags: ["software design"]
+crossPosts:
+  x: "https://x.com/i/status/2118468501836902512"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7524234194814816256/"
 ---
 
 Databases are for storing global variables. We usually call them "rows" or "records" instead, but they're definitionally global variables: any part of your program can read or write them. Isn't this kind of weird? It's common programming advice that global variables are bad, and yet many elegant programs rely on databases. Either the common advice is wrong, or there's something special about databases that makes them the exception to the rule.
