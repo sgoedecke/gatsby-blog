@@ -1,7 +1,7 @@
 ---
 title: A database is a store for global variables
 description: 
-order: 266
+order: 267
 date: '2026-11-06'
 tags: ["software design"]
 crossPosts:
