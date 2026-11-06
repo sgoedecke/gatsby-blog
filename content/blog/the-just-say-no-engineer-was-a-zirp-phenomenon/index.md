@@ -35,6 +35,9 @@ crossPostText:
     The engineer who says no all the time is a real archetype among senior and staff engineers. Their role is to slow things down, to block the development of features that add complexity, and to ensure that as little code gets written as possible (since code is a liability).
 
     We can think of this as the just-say-no engineer, as opposed to the just-say-yes engineer. The just-say-yes engineer is obsessed with moving fast, approves code changes by default, values MTTR over MTBF, and tends to ship a lot of code. The just-say-no engineer is obsessed with quality, is happy to move slowly, and blocks code changes by default. Most engineers are somewhere in the middle of the spectrum.
+crossPosts:
+  x: "https://x.com/i/status/2118802399452147901"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7524568092820217856/"
 ---
 
 The engineer who [says no all the time](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise#a-senior-developer-is-a-problem-avoider) is a real archetype among senior and staff engineers. Their role is to slow things down, to block the development of features that add complexity, and to ensure that as little code gets written as possible (since code is a liability).
