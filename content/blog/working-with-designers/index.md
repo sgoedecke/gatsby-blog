@@ -4,6 +4,9 @@ description:
 order: 268
 date: '2026-11-07'
 tags: ["tech companies", "working with"]
+crossPosts:
+  x: "https://x.com/i/status/2118839170718470280"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7524604863402557441/"
 ---
 
 I love working with designers, in part because (unlike managers and product managers) they're culturally different from engineers. However, having more than one designer on a team is asking for trouble, and I have complicated negative thoughts about design systems. 
