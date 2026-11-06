@@ -74,7 +74,7 @@ It's not much of a mission statement! Certainly nothing on ["making the world a 
 
 edit: this post was discussed on [Hacker News](https://news.ycombinator.com/item?id=43378321) with lots of comments.
 
-edit: this post got some comments on [Reddit](https://www.reddit.com/r/theprimeagen/comments/1jco5xp/the_good_times_in_tech_are_over/).
+edit: this post got some comments on [Reddit](https://www.reddit.com/r/theprimeagen/comments/1jco5xp/the_good_times_in_tech_are_over/). I particularly recommend [this comment](https://www.reddit.com/r/CroIT/comments/1xoi047/comment/19s6h6py87hnk/), on a Croatian IT subreddit over a year later, fascinating because it's from a very different perspective. One translated quote: "that statement about creating value for the company may not be literally translatable here because it has more or less always been that way for us, considering that we were mostly the ones who outsourced work for clients."
 
 [^1]: I wrote this post because I had a conversation with some engineer friends who were commenting on the vibe shift, and then the next morning read Will Larson's [advice](https://lethain.com/career-advice-2025/) to engineering leaders.
 
