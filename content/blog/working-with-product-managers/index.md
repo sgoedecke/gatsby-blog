@@ -3,7 +3,7 @@ title: Working with product managers
 description: 
 order: 204
 date: '2026-06-08'
-tags: ["tech companies"]
+tags: ["tech companies", "working with"]
 crossPostText:
   x: |-
     The relationship engineers have with product management is more dysfunctional than with any other part of the company.

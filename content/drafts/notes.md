@@ -1,12 +1,4 @@
-working with designers
 
-i love working with designers. one of the most skill-obvious professions - even really good PMs only show they're good after you work with them a bit, while designers are just immediately like "bam here's how to make this 10x better"
-
-culturally not like engineers. like ryan gosling's big short character talking about his fashion friends. you see a lot of eng-turned-EM and eng-turned-PM but no eng-turned-designer. this is actually a big positive - you can respect each other's skillsets
-
-if you can, try to avoid ever working with more than one designer at a time. my worst experience - designers battling each other
-
-designers that write frontend code were way better but now it doesn't really matter because agents can do it anyway
 
 ---
 automated code review makes your code worse
