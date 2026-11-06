@@ -3,6 +3,7 @@ title: Only three kinds of AI products actually work
 description:
 order: 156
 date: '2025-11-16'
+autoShare: false
 popular: true
 popularity:
   score: 383

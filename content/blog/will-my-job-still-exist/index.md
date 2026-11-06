@@ -31,7 +31,7 @@ popularity:
 tags: ["tech companies", "ai", "zirp"]
 crossPostText:
   x: |-
-    In 2021, being a good software engineer felt great. The world was full of software, with more companies arriving every year who needed to employ engineers to write their code and run their systems.
+    In 2021, being a good software engineer felt great. The world was full of software, with more companies arriving every year who needed to employ engineers to write their code and run their systems. Today I don't know if my job will still exist in ten years.
   linkedin: |-
     In 2021, being a good software engineer felt great. The world was full of software, with more companies arriving every year who needed to employ engineers to write their code and run their systems. I knew I was good at it, and I knew I could keep doing it for as long as I wanted to. The work I loved would not run out.
 
