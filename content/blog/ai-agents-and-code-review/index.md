@@ -33,6 +33,9 @@ crossPostText:
     Using AI agents correctly is a process of reviewing code. If you’re good at reviewing code, you’ll be good at using tools like Claude Code, Codex, or the Copilot coding agent.
 
     Why is that? Large language models are good at producing a lot of code, but they don’t yet have the depth of judgement of a competent software engineer. Left unsupervised, they will spend a lot of time committing to bad design decisions.
+crossPosts:
+  x: "https://x.com/i/status/2119139907851477123"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7524905600921612288/"
 ---
 
 Using AI agents correctly is a process of _reviewing code_. If you're good at reviewing code, you'll be good at using tools like Claude Code, Codex, or the Copilot coding agent.
