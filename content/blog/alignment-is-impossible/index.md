@@ -57,7 +57,7 @@ Mechanistic interpretability is still a useful field. Extracting features can he
 
 [^4]: Of course, for humans you can rely on institutions, social proof, and so on. This doesn't work for superintelligent LLMs because they (a) arrive fully-formed with no social proof and (b) are smart enough to be much more dangerous than a single rogue human. (Incidentally, the LLMs I asked to review this post were _obsessed_ with this point, and wanted me to elevate it into the main thrust of the post).
 
-[^5]: Perhaps as an epiphenomenon. If you're interested in this idea and want to see it taken further, I recommend (but do not endorse the ideas in) [_Blindsight_](https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)).
+[^5]: Perhaps as an epiphenomenon. If you're interested in this idea and want to see it taken further, I recommend (but do not endorse the ideas in) [_Blindsight_](https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)). I also recommend nostalgebraist's excellent [_the void_](https://www.lesswrong.com/posts/3EzbtNLdcnZe8og8b/the-void-1) for the LLM-specific case.
 
 [^6]: Which parts of the model's internal state have high values, for instance.
 
