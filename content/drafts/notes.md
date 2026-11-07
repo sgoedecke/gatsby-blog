@@ -1,19 +1,40 @@
+alignment - why can't you simply monitor J-space with a dumber, trusted model?
+can smart models manipulate J-space well enough to completely avoid detection?
+false positives?
+basically the same problem as CoT? idk, why _would_ CoT monitoring not just work?
 
+I think the thing we're looking for has to not be "a way to fully understand a model's potential" (too large) or "a way to construct a fully benevolent model" (too difficult), or "a way to detect any unethical behavior" (too difficult), but "a way to detect when the model is concealing something from the user".
+
+--
+llms don't know how to use llms
+if you try to design a system with a llm, it will under-utilize llms
+https://arbustoemchamas.substack.com/p/i-naively-tried-vibe-coding-a-memory
+this is a great example. given a problem like "evaluate pairs of natural language statements for contradictions", which is ~unsolvable pre-LLMs, Claude charges down the pre-LLM garden path of https://en.wikipedia.org/wiki/Answer_set_programming:
+
+> a contradiction checker, a “reasoning council” — abduction proposes causes, deduction certifies, induction learns candidate rules.
+
+of course, none of this could ever possibly work; what you need is _judgement_. i.e. just feed a set of propositions to a reasoning model and ask it to identify contradictions.
+
+https://x.com/doodlestein/status/2094376160884871438?s=20
+
+https://news.ycombinator.com/item?id=50381522 - again
+
+---
+
+analogy to the "bitter lesson" - the "stupid lesson"
+stupid tricks will beat clever optimization in most cases
+often when you're looking for a solution and it seems too clever, ditch it - you should instead be hunting for the 10x stupid trick
+you want your toolbox to be composed of simple stupid tricks, not clever ideas. stupid tricks are easier to understand and judge, easier to transfer, etc
+this is kind of the midwit-graph meme idea
 
 ---
 automated code review makes your code worse
 
+---
 getting to 200prs/wk
+bottlenecks are not writing code. review and deployment
 
 --
-2026 wrapup
-
-colophon:
-as an email suggestion from Thomas, I added side notes instead of footnotes on wide screens
-I migrated to Eleventy from Gatsby (TBD bandwidth)
-I added an optional weekly email sub from a reader suggestion instead of per-post
-I added auto-posting to Twitter and LinkedIn with screenshots, which was immediately successful
-
 
 
 ---
@@ -224,16 +245,7 @@ hmm...
 
 ---
 
-llms don't know how to use llms
-if you try to design a system with a llm, it will under-utilize llms
-https://arbustoemchamas.substack.com/p/i-naively-tried-vibe-coding-a-memory
-this is a great example. given a problem like "evaluate pairs of natural language statements for contradictions", which is ~unsolvable pre-LLMs, Claude charges down the pre-LLM garden path of https://en.wikipedia.org/wiki/Answer_set_programming:
 
-> a contradiction checker, a “reasoning council” — abduction proposes causes, deduction certifies, induction learns candidate rules.
-
-of course, none of this could ever possibly work; what you need is _judgement_. i.e. just feed a set of propositions to a reasoning model and ask it to identify contradictions.
-
-https://x.com/doodlestein/status/2094376160884871438?s=20
 
 ---
 
