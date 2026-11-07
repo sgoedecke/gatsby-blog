@@ -7,10 +7,10 @@ popularity:
   hackerNews:
     urls:
       - 'https://news.ycombinator.com/item?id=50344861'
-    points: 133
-    comments: 21
+    points: 151
+    comments: 23
     threads: 1
-  score: 175
+  score: 197
   lobsters:
     urls: []
     points: 0
