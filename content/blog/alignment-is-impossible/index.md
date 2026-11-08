@@ -61,7 +61,7 @@ Mechanistic interpretability is still a useful field. Extracting features can he
 
 [^6]: Which parts of the model's internal state have high values, for instance.
 
-[^7]: That doesn't mean we have to deliberately elicit one feature at a time - dictionary learning works by just running arbitrary content through the model and seeing what lights up - but it does mean that we have to actually trigger the behavior in order to see it.
+[^7]: That doesn't mean we have to deliberately elicit one feature at a time - dictionary learning works by just running arbitrary content through the model and seeing what lights up - but it does mean that we have to actually trigger the behavior in order to see it. See Yudkowsky [here](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities), section B.1.
 
 [^8]: This difficulty plagues alignment research in general: see [the problem with ELK](https://www.astralcodexten.com/p/elk-and-the-problem-of-truthful-ai?hide_intro_popup=true) for another example of how "be aligned" and "look aligned to humans" are identical rules until they're not.
 
