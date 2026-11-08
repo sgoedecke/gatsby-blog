@@ -6,7 +6,7 @@ date: '2026-10-03'
 tags: ["ai", "ai safety"]
 crossPostText:
   x: |-
-    The idea of “superpersuasion” has been floating around the AI safety community for decades.
+    The idea of “superpersuasion” has been floating around the AI safety community for decades. Superpersuasion will look like bribery.
   linkedin: |-
     The idea of “superpersuasion” has been floating around the AI safety community for decades. Now that powerful and difficult-to-control LLMs have appeared, people are again talking about the idea that a sufficiently intelligent AI might be able to persuade people to do whatever it wants.
 

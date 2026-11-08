@@ -6,7 +6,7 @@ date: '2026-09-12'
 tags: ["ai"]
 crossPostText:
   x: |-
-    Lots of people are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense.
+    Lots of people are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense. But don’t build tools for AI agents.
   linkedin: |-
     Lots of people are making the case that we should stop building software for human users and start building it for AI agents. This kind of makes sense. For instance, my AI agents now use Datadog way more than I use it myself, purely by virtue of them moving much more quickly and running in parallel. But I think most attempts to build “X for AI agents” are going to fail.
 ---

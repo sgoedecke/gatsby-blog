@@ -26,7 +26,7 @@ popularity:
 tags: ["ai", "explainers", "diffusion"]
 crossPostText:
   x: |-
-    Transformer-based large language models are relatively easy to understand.
+    Transformer-based large language models are relatively easy to understand. It’s harder to build the same kind of intuition about diffusion models.
   linkedin: |-
     Transformer-based large language models are relatively easy to understand. You break language down into a finite set of “tokens” (words or sub-word components), then train a neural network on millions of token sequences so it can predict the next token based on all the previous ones. Despite some clever tricks (mainly about how the model processes the previous tokens in the sequence), the core mechanism is relatively simple.
 

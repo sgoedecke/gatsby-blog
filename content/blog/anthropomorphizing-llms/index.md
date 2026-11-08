@@ -6,7 +6,7 @@ date: '2025-07-10'
 tags: ["ai", "ethics", "anthropomorphism"]
 crossPostText:
   x: |-
-    I recently read a very good blog post by Halvar Flake titled “A non-anthropomorphized view of LLMs”.
+    I recently read a very good blog post by Halvar Flake titled “A non-anthropomorphized view of LLMs”. But I think we should anthropomorphize LLMs.
   linkedin: |-
     I recently read a very good blog post by Halvar Flake titled “A non-anthropomorphized view of LLMs”. Here’s a very brief summary:
 

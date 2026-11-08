@@ -6,7 +6,7 @@ date: '2025-01-16'
 tags: ["tech companies", "leaddev"]
 crossPostText:
   x: |-
-    This post was initially published on LeadDev. If it reads differently to my other posts, that’s because LeadDev have a different “house style” to this blog.
+    Saying no to leadership is sometimes necessary when you’re at the helm of a project. But, pushing back against leadership has high stakes. Doing it well can actually build your leadership team’s trust in you, even though you’re telling them something they don’t want to hear.
   linkedin: |-
     This post was initially published on LeadDev. If it reads differently to my other posts, that’s because LeadDev have a different “house style” to this blog.
 ---

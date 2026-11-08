@@ -26,7 +26,7 @@ popularity:
   manual: 0
 crossPostText:
   x: |-
-    Reading research papers and articles about chain-of-thought reasoning makes me frustrated.
+    Reading research papers and articles about chain-of-thought reasoning makes me frustrated. Is chain-of-thought AI reasoning a mirage?
   linkedin: |-
     Reading research papers and articles about chain-of-thought reasoning makes me frustrated.
 

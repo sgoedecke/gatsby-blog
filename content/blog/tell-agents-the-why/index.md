@@ -6,7 +6,7 @@ date: '2026-09-15'
 tags: ["ai", "prompting"]
 crossPostText:
   x: |-
-    Early AI agents were basically enthusiastic idiots. Working with them required you to tell them precisely what you wanted them to do (for instance, “method A exists on class B, please add an equivalent method to classes C through F”).
+    Early AI agents were basically enthusiastic idiots. Working with them required you to tell them precisely what you wanted them to do (for instance, “method A exists on class B, please add an equivalent method to classes C through F”). Tell agents the why, not just the how.
   linkedin: |-
     Early AI agents were basically enthusiastic idiots. Working with them required you to tell them precisely what you wanted them to do (for instance, “method A exists on class B, please add an equivalent method to classes C through F”). Otherwise they’d go off and do entirely the wrong thing. But as AI agents have improved, this has changed.
 

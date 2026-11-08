@@ -6,7 +6,7 @@ date: '2025-06-07'
 tags: ["ai", "explainers", "steering"]
 crossPostText:
   x: |-
-    It’s common to call AI language models “black boxes”. Unlike normal human-written programs, which we can examine line-by-line to see what they’re doing, AI models are grown. AI models make decisions based on the interactions of billions of their weights.
+    It’s common to call AI language models “black boxes”. AI models make decisions based on the interactions of billions of their weights. AI interpretability is further along than I thought.
   linkedin: |-
     It’s common to call AI language models “black boxes”. Unlike normal human-written programs, which we can examine line-by-line to see what they’re doing, AI models are grown. AI models make decisions based on the interactions of billions of their weights. We can list those interactions, but that doesn’t add up to an explanation for why the model did what it did, any more than “here’s the billion neurons that fired” would explain human decisions. That’s what makes them “black boxes”: we can see what they do on the outside, but we can’t usefully look inside. Or can we?
 ---

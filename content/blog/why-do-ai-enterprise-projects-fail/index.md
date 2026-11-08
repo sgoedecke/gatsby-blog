@@ -6,7 +6,7 @@ date: '2025-11-03'
 tags: ["ai", "tech companies", "papers"]
 crossPostText:
   x: |-
-    In July of this year, MIT NANDA released a report called The GenAI Divide: State of AI in Business 2025.
+    In July of this year, MIT NANDA released a report called The GenAI Divide: State of AI in Business 2025. Is it worrying that 95% of AI enterprise projects fail?
   linkedin: |-
     In July of this year, MIT NANDA released a report called The GenAI Divide: State of AI in Business 2025. The report spends most of its time giving advice about how to run enterprises AI projects, but the item that got everybody talking was its headline stat: 95% of organizations are getting zero return from their AI projects.
 

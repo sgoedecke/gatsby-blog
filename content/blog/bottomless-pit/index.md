@@ -8,7 +8,7 @@ crossPostText:
   x: |-
     Many people believe this is the best piece of art or humour that AI has ever produced:
 
-    This was generated three years ago by GPT-3. It’s notable by itself that the best piece of AI art might have been produced by the least capable AI model.
+    This was generated three years ago by GPT-3. The famous “bottomless pit” AI greentext is fake.
   linkedin: |-
     Many people believe this is the best piece of art or humour that AI has ever produced:
 

@@ -24,6 +24,8 @@ crossPostText:
     Here’s the big idea in Keith Johnstone’s book Impro:
 
     1. Children are naturally creative, but are violently formed into repressed adults by Western culture and education…
+
+    Impro is a handbook for running a cult.
   linkedin: |-
     Here’s the big idea in Keith Johnstone’s book Impro:
 

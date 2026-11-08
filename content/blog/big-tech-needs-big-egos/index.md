@@ -13,7 +13,7 @@ popularity:
 tags: ["tech companies", "good engineers"]
 crossPostText:
   x: |-
-    It’s a common position among software engineers that big egos have no place in tech. This is understandable — we’ve all worked with some insufferably overconfident engineers who needed their egos checked — but I don’t think it’s correct.
+    It’s a common position among software engineers that big egos have no place in tech. This is understandable — we’ve all worked with some insufferably overconfident engineers who needed their egos checked — but I don’t think it’s correct. Big tech engineers need big egos.
   linkedin: |-
     It’s a common position among software engineers that big egos have no place in tech. This is understandable — we’ve all worked with some insufferably overconfident engineers who needed their egos checked — but I don’t think it’s correct. In fact, I don’t know if it’s possible to survive as a software engineer in a large tech company without some kind of big ego.
 

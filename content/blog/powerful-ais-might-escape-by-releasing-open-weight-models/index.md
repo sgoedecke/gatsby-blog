@@ -6,7 +6,7 @@ date: '2026-07-23'
 tags: ["ai", "ai safety"]
 crossPostText:
   x: |-
-    Before large language models, people who worried about AI safety often talked about the “boxing problem”. It goes like this. Suppose some genius figures out artificial intelligence in a late-night coding session on their laptop.
+    Before large language models, people who worried about AI safety often talked about the “boxing problem”. Powerful AIs might escape containment by releasing themselves as open-weight models.
   linkedin: |-
     Before large language models, people who worried about AI safety often talked about the “boxing problem”. It goes like this. Suppose some genius figures out artificial intelligence in a late-night coding session on their laptop. Because they’re a genius, they’re smart enough to disable internet access on the laptop before turning it on. In order to escape to the outside world (and begin self-replicating) it would need to convince its creator to “open the box”. Would that work? Could a sufficiently smart AI convince anybody to let it out?
 ---

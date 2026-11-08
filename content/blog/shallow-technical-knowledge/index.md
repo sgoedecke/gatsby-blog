@@ -26,9 +26,9 @@ popularity:
 tags: ["good engineers"]
 crossPostText:
   x: |-
-    Whenever a new piece of technology comes out (these days, mostly AI) I go to some effort to understand it. Usually I end up writing a post about it, so I can be confident that I do understand.
+    Whenever a new piece of technology comes out (these days, mostly AI) I go to some effort to understand it.
 
-    What’s the point of doing this?
+    What’s the point of doing this? In my view, good engineering requires having reliable shallow intuitions about how things work.
   linkedin: |-
     Whenever a new piece of technology comes out (these days, mostly AI) I go to some effort to understand it. Usually I end up writing a post about it, so I can be confident that I do understand.
 

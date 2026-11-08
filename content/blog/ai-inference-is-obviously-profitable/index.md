@@ -21,7 +21,7 @@ popular: true
 tags: ["ai", "bubble"]
 crossPostText:
   x: |-
-    Many people claim that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. When that dumb money goes away, so will AI products.
+    Many people claim that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. But AI inference is obviously profitable.
   linkedin: |-
     Many people claim that AI inference is unprofitable to serve, and thus must be subsidized by an ocean of dumb money from investors who believe that some future AI model will come to dominate the world economy. When that dumb money goes away, so will AI products. According to this view, LLMs are just inherently too expensive (in terms of money, power, and water) to be used in consumer products. In fact, they can only be used today by externalizing the costs: money onto VC funds and now retail ETF investors, power onto electric utility consumers, and water onto the communities where datacenters are built.
 

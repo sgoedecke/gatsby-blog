@@ -26,7 +26,7 @@ popularity:
 tags: ["ai"]
 crossPostText:
   x: |-
-    Sam Altman, CEO of OpenAI, famously said that his goal was to make intelligence “too cheap to meter”. Right now, buoyed by venture capital, we’re living in that world.
+    Sam Altman, CEO of OpenAI, famously said that his goal was to make intelligence “too cheap to meter”. Right now, buoyed by venture capital, we’re living in that world. For many, patience is the killer LLM feature.
   linkedin: |-
     Sam Altman, CEO of OpenAI, famously said that his goal was to make intelligence “too cheap to meter”. Right now, buoyed by venture capital, we’re living in that world. Every human (with internet access) on the planet has free access to language models that are smart enough to assist with a wide variety of problems. And people are using it! ChatGPT has more traffic than Wikipedia.
 

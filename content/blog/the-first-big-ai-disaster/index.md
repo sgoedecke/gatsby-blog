@@ -21,7 +21,7 @@ popular: true
 tags: ["ai"]
 crossPostText:
   x: |-
-    The first public passenger locomotive, Locomotion No. 1, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. A train to Paris derailed, killing at least fifty passengers in the ensuing fire.
+    The first public passenger locomotive, Locomotion No. 1, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. The first big AI disaster is yet to happen.
   linkedin: |-
     The first public passenger locomotive, Locomotion No. 1, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. A train to Paris derailed, killing at least fifty passengers in the ensuing fire.
 

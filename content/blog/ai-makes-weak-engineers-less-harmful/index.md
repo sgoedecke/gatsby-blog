@@ -10,7 +10,7 @@ popularity:
 tags: ["ai", "good engineers", "tech companies"]
 crossPostText:
   x: |-
-    Like other kinds of puzzle-solving, software engineering ability is strongly heavy-tailed.
+    Like other kinds of puzzle-solving, software engineering ability is strongly heavy-tailed. AI makes weak engineers less harmful.
   linkedin: |-
     Like other kinds of puzzle-solving, software engineering ability is strongly heavy-tailed. The strongest engineers produce way more useful output than the average, and the weakest engineers often are actively net-negative: instead of moving projects along, they create problems that their colleagues have to spend time solving. That’s why many tech companies try to build a small, ludicrously well-paid team instead of a large team of more average engineers, and why so far this seems to be a winning strategy.
 ---

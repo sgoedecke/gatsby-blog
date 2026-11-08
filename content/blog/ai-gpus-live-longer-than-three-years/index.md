@@ -11,7 +11,7 @@ popularity:
 tags: ["ai", "bubble"]
 crossPostText:
   x: |-
-    People who think current AI use is unsustainable often rely on the claim that inference GPUs only last “three years at the most” under load.
+    People who think current AI use is unsustainable often rely on the claim that inference GPUs only last “three years at the most” under load. But AI GPUs probably live longer than three years.
   linkedin: |-
     People who think current AI use is unsustainable often rely on the claim that inference GPUs only last “three years at the most” under load. The idea here is that once the AI bubble money drains away, current infrastructure will rapidly become obsolete, and there won’t be enough money floating around to buy a whole slate of brand-new GPUs. Inference costs would thus rapidly become way too expensive for current AI products to make any financial sense.
 

@@ -5,7 +5,7 @@ date: '2026-02-17'
 tags: ["ai", "steering"]
 crossPostText:
   x: |-
-    LLM “skills” are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent paper showed that while skills are useful to LLMs, LLM-authored skills are not.
+    LLM “skills” are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent paper showed that while skills are useful to LLMs, LLM-authored skills are not. But LLM-generated skills work, if you generate them afterwards.
   linkedin: |-
     LLM “skills” are a short explanatory prompt for a particular task, typically bundled with helper scripts. A recent paper showed that while skills are useful to LLMs, LLM-authored skills are not.
 ---

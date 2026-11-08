@@ -26,7 +26,7 @@ popularity:
 tags: ["tech companies"]
 crossPostText:
   x: |-
-    Big tech companies spend a lot of time and money building things that a single, motivated engineer could build in a weekend. This fact puzzles a lot of people who don’t work in big tech.
+    Big tech companies spend a lot of time and money building things that a single, motivated engineer could build in a weekend. This fact puzzles a lot of people who don’t work in big tech. Why are big tech companies so slow?
   linkedin: |-
     Big tech companies spend a lot of time and money building things that a single, motivated engineer could build in a weekend. This fact puzzles a lot of people who don’t work in big tech.
 ---

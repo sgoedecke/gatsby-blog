@@ -21,7 +21,7 @@ popular: true
 tags: ["ai", "mathematics"]
 crossPostText:
   x: |-
-    Mathematicians are broadly not anti-AI. They’re more culturally open to using AI as a tool than, say, artists or writers. However, now that more and more genuinely prestigious problems have fallen to AI, that might be changing.
+    Mathematicians are broadly not anti-AI. They’re more culturally open to using AI as a tool than, say, artists or writers. However, now that more and more genuinely prestigious problems have fallen to AI, that might be changing. AI is breaking our proxies for expertise.
   linkedin: |-
     Mathematicians are broadly not anti-AI. They’re more culturally open to using AI as a tool than, say, artists or writers. However, now that more and more genuinely prestigious problems have fallen to AI, that might be changing. Almost five thousand mathematicians (including twenty-five Fields medalists) have signed a declaration called A Severe Misalignment of AI in Mathematics.
 ---

@@ -6,7 +6,7 @@ date: '2025-04-25'
 tags: ["ai", "ai writing"]
 crossPostText:
   x: |-
-    I was reading this Reddit post when I noticed a pattern: a few times now I’ve seen a negative Reddit comment that to me just screamed “written by ChatGPT”.
+    I was reading this Reddit post when I noticed a pattern: a few times now I’ve seen a negative Reddit comment that to me just screamed “written by ChatGPT”. The OpenAI house style is exhausting.
   linkedin: |-
     I was reading this Reddit post when I noticed a pattern: a few times now I’ve seen a negative Reddit comment that to me just screamed “written by ChatGPT”.
 ---

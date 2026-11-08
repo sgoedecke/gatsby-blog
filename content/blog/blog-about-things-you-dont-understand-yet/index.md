@@ -21,7 +21,7 @@ popularity:
 tags: ["writing"]
 crossPostText:
   x: |-
-    Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish.
+    Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. Blog about things you don’t understand yet.
   linkedin: |-
     Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish.
 

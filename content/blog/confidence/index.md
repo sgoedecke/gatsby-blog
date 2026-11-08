@@ -21,7 +21,7 @@ popular: true
 tags: ["good engineers"]
 crossPostText:
   x: |-
-    Are microservices better than monoliths? Should teams set their own technical direction, or is it better to have that dictated by some external architect? Should you write long-term complex projects in an untyped language?
+    Are microservices better than monoliths? Should teams set their own technical direction, or is it better to have that dictated by some external architect? Should you write long-term complex projects in an untyped language? I don’t know how to build software and you don’t either.
   linkedin: |-
     Are microservices better than monoliths? Should teams set their own technical direction, or is it better to have that dictated by some external architect? Should you write long-term complex projects in an untyped language? If you’re on the internet for ten seconds, you’ll see many engineers who argue about these topics as if the answer was obvious.
 

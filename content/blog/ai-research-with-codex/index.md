@@ -26,7 +26,7 @@ popularity:
 tags: ["ai", "projects"]
 crossPostText:
   x: |-
-    In What’s the strongest AI model you can train on a laptop in five minutes? I tried my hand at answering a silly AI-research question. You can probably guess what it was.
+    In What’s the strongest AI model you can train on a laptop in five minutes? I tried my hand at answering a silly AI-research question. You can probably guess what it was. GPT-5-Codex is a better AI researcher than me.
   linkedin: |-
     In What’s the strongest AI model you can train on a laptop in five minutes? I tried my hand at answering a silly AI-research question. You can probably guess what it was.
 

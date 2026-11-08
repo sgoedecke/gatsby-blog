@@ -6,7 +6,7 @@ date: '2026-05-17'
 tags: ["ai", "how to"]
 crossPostText:
   x: |-
-    A bit over a year ago I wrote How I use LLMs as a staff engineer.
+    A bit over a year ago I wrote How I use LLMs as a staff engineer. Here’s how I use LLMs as a staff engineer in 2026.
   linkedin: |-
     A bit over a year ago I wrote How I use LLMs as a staff engineer. Here’s a brief summary of what I used AI for last year:
 

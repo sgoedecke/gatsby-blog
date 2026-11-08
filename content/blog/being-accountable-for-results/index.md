@@ -6,7 +6,7 @@ date: '2025-07-08'
 tags: ["tech companies", "staff"]
 crossPostText:
   x: |-
-    In my experience, people tend to overrate how much moving up the org chart changes the fundamentals of the job.
+    In my experience, people tend to overrate how much moving up the org chart changes the fundamentals of the job. But the more senior engineers get, the more results matter.
   linkedin: |-
     In my experience, people tend to overrate how much moving up the org chart changes the fundamentals of the job. As a staff engineer, I do more or less the same thing as I did as an intern: write code, respond to tickets, create my own tickets for work that needs doing, and ship projects. The work I do is faster and better, since I have many more tools in my toolbox, and I do move from project to project more often, but it’s not qualitatively different. My job is still more like a software engineering intern’s job than it is like an equivalently-leveled product manager’s job.
 ---

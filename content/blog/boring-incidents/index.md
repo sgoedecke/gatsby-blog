@@ -6,7 +6,7 @@ date: '2021-04-20'
 tags: ["tech companies", "reliability"]
 crossPostText:
   x: |-
-    The internet is full of exciting incident war stories. Tough engineering problems, solved under pressure by sleep-deprived developers.
+    The internet is full of exciting incident war stories. Tough engineering problems, solved under pressure by sleep-deprived developers. Almost no incidents are like that.
   linkedin: |-
     The internet is full of exciting incident war stories. Tough engineering problems, solved under pressure by sleep-deprived developers. In an industry where the best code is usually the most boring implementation, it’s nice to think that there’s at least one place where hacking up a cool idea is heroic rather than irresponsible. For some engineers, me included, being on-call has a really seductive appeal. Working under pressure is fun, and there’s a lot of immediate validation in being the one who figures an incident out.
 ---

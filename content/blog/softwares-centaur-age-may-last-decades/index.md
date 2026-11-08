@@ -21,7 +21,7 @@ popular: true
 tags: ["ai", "tech companies"]
 crossPostText:
   x: |-
-    We are currently living in the age of centaurs (2022-20??). Right now, human engineers paired with AI coding systems are more effective than either by themselves.
+    We are currently living in the age of centaurs (2022-20??). Right now, human engineers paired with AI coding systems are more effective than either by themselves. Software’s centaur age may last decades.
   linkedin: |-
     We are currently living in the age of centaurs (2022-20??). Right now, human engineers paired with AI coding systems are more effective than either by themselves. For future generations of software engineers — human or otherwise — this will be the most significant fact about the current period.
 

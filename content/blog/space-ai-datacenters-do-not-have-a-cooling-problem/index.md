@@ -6,7 +6,7 @@ date: '2026-05-13'
 tags: ["ai"]
 crossPostText:
   x: |-
-    This year Elon Musk has started banging the drum about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth.
+    This year Elon Musk has started banging the drum about building AI datacenters in space. But AI datacenters in space do not have a cooling problem.
   linkedin: |-
     This year Elon Musk has started banging the drum about building AI datacenters in space. As the only person who owns a successful space company and a (moderately) successful AI company, this is a sensible way to boost his profile and net worth. Is it a sensible way to build datacenters?
 ---

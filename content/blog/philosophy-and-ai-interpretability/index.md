@@ -6,7 +6,7 @@ date: '2025-08-06'
 tags: ["ai", "explainers", "steering", "anthropomorphism"]
 crossPostText:
   x: |-
-    If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a “probe”.
+    If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a “probe”. AI interpretability has the same problems as philosophy of mind.
   linkedin: |-
     If you want to know how a particular AI language model works, the current state-of-the-art approach is to use a “probe”. Pick one layer of the model — a single region of its “brain” — and train a smaller classifier model to see if there are neuron patterns that light up reliably in response to particular concepts. This is the core technique of a field called “mechanistic interpretability”.
 

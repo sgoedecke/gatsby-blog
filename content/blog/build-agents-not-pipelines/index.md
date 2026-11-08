@@ -5,7 +5,7 @@ date: '2026-05-31'
 tags: ["ai", "software design"]
 crossPostText:
   x: |-
-    There are only two ways to use LLMs in a computer program: as part of a pipeline, or as an agent. In other words, either you express the control flow of the program in code, or you give an LLM tools and allow it to manage the control flow itself.
+    There are only two ways to use LLMs in a computer program: as part of a pipeline, or as an agent. In other words, either you express the control flow of the program in code, or you give an LLM tools and allow it to manage the control flow itself. Build agents, not pipelines.
   linkedin: |-
     There are only two ways to use LLMs in a computer program: as part of a pipeline, or as an agent. In other words, either you express the control flow of the program in code, or you give an LLM tools and allow it to manage the control flow itself.
 ---
