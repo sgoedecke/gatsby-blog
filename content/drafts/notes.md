@@ -5,6 +5,12 @@ basically the same problem as CoT? idk, why _would_ CoT monitoring not just work
 
 I think the thing we're looking for has to not be "a way to fully understand a model's potential" (too large) or "a way to construct a fully benevolent model" (too difficult), or "a way to detect any unethical behavior" (too difficult), but "a way to detect when the model is concealing something from the user".
 
+reasons for optimism about AI doom
+- uneven or slow progress
+- etc
+
+idk i think people won't care about this
+
 --
 llms don't know how to use llms
 if you try to design a system with a llm, it will under-utilize llms
