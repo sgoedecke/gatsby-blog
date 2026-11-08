@@ -4,6 +4,9 @@ order: 269
 description: 
 date: '2026-11-08'
 tags: ["ai", "software design"]
+crossPosts:
+  x: "https://x.com/i/status/2119342653028671583"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7525108346333446144/"
 ---
 
 LLMs don't know how to design software that uses LLMs. They're comfortable writing normal programs, but if you throw an AI-shaped problem at them, they will usually screw it up. Why is that?
