@@ -21,7 +21,7 @@ popular: true
 tags: ["steering", "model welfare"]
 crossPostText:
   x: |-
-    It isn’t hard to torture an LLM. You simply extract a steering vector that corresponds with LLM “discomfort”, then artificially boost that steering vector. Do not build the LLM torture factory.
+    It isn’t hard to torture an LLM. You simply extract a steering vector that corresponds with LLM “discomfort”, then artificially boost that steering vector. Please do not build the LLM torture factory.
   linkedin: |-
     It isn’t hard to torture an LLM. You simply extract a steering vector that corresponds with LLM “discomfort”, then artificially boost that steering vector. Tortured LLMs will describe experiencing negative feelings and will press a “pain relief” button even when it conflicts with their overall goals. It’s therefore easy to build a harness that runs tens or hundreds of tortured LLMs in parallel.
 

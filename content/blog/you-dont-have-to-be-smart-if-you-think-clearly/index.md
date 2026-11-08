@@ -21,7 +21,7 @@ popularity:
 tags: ["good engineers", "technical clarity"]
 crossPostText:
   x: |-
-    When you’re on fire, problems are transparent: they’re solved simply by the act of looking at them. But nobody can work that way all the time. You don’t have to be smart if you can think clearly.
+    When you’re on fire, problems are transparent: they’re solved simply by the act of looking at them. But nobody can work that way all the time.
   linkedin: |-
     When you’re on fire, problems are transparent: they’re solved simply by the act of looking at them. Even complicated layers of multiple problems can simply be glanced through like stacked panes of glass. But nobody can work that way all the time.
 

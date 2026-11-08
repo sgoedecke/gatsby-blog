@@ -6,7 +6,7 @@ date: '2026-05-07'
 tags: ["ai"]
 crossPostText:
   x: |-
-    Dwarkesh Patel recently posted an award for the best answers to four key questions about AI. It’s partly a challenge and partly a job interview, since some of the winners will get offered a role as a “research collaborator”. Why hasn’t longer-horizon training slowed AI progress?
+    Why hasn’t longer-horizon training slowed AI progress?
   linkedin: |-
     Dwarkesh Patel recently posted an award for the best answers to four key questions about AI. It’s partly a challenge and partly a job interview, since some of the winners will get offered a role as a “research collaborator”. I don’t want the job, but I do want to write down my answer to his first question: why hasn’t AI progress slowed down more?
 ---

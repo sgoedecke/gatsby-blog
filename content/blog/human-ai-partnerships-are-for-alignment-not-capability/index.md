@@ -6,7 +6,7 @@ date: '2026-09-27'
 tags: ["ai"]
 crossPostText:
   x: |-
-    It’s common to compare the current AI takeover of software engineering to the rise of AI in chess. Chess AIs went from much weaker than serious players to much stronger than even the strongest humans. Human-AI partnerships are for alignment, not capability.
+    It’s common to compare the current AI takeover of software engineering to the rise of AI in chess. Chess AIs went from much weaker than serious players to much stronger than even the strongest humans.
   linkedin: |-
     It’s common to compare the current AI takeover of software engineering to the rise of AI in chess. Chess AIs went from much weaker than serious players to much stronger than even the strongest humans. Between those points, there was a middle period dominated by “centaurs”: human-AI partnerships that were stronger than unassisted AIs or humans. Lots of people think that we’re currently in a world of software engineering centaurs. According to them, coding AIs are not yet capable enough to replace engineers, but AI-assisted engineers are better at programming than both AIs and humans.
 

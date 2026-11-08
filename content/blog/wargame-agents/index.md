@@ -4,9 +4,10 @@ description:
 order: 114
 date: '2025-07-14'
 tags: ["ai", "side projects", "agents"]
+autoShare: false
 crossPostText:
   x: |-
-    I’ve always been interested by the third-act turn in Ender’s Game where the child strategists switch from directly controlling units to giving higher-level strategic orders. So I built an RTS where you issue orders to AI agents.
+    I’ve always been interested by the third-act turn in Ender’s Game where the child strategists switch from directly controlling units to giving higher-level strategic orders.
   linkedin: |-
     I’ve always been interested by the third-act turn in Ender’s Game where the child strategists switch from directly controlling units to giving higher-level strategic orders. The communication problem just seems fascinating: you gain a huge amount of flexibility, but you have to adapt to decisions made on the ground by your subordinates. For similar reasons, I’ve been interested in how giving orders worked in pre-modern battles where sending messages was very difficult.
 

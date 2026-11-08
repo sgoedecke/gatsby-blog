@@ -6,7 +6,7 @@ date: '2026-09-04'
 tags: ["tech companies", "conscious leadership"]
 crossPostText:
   x: |-
-    A lot of people think that good leadership requires radical responsibility. Radical responsibility means treating people like tools.
+    “Radical responsibility" means treating people like tools.
   linkedin: |-
     A lot of people think that good leadership requires radical responsibility.
 ---

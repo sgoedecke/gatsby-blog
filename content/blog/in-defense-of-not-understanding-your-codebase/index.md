@@ -25,8 +25,6 @@ popularity:
 tags: ["software design", "naur theory"]
 crossPostText:
   x: |-
-    As a software engineer, how well do you have to understand your own codebase?
-
     In many software engineering environments, there’s nothing wrong with being in a state of partial understanding. In fact, in large systems a partial understanding is the best you can do.
   linkedin: |-
     As a software engineer, how well do you have to understand your own codebase?

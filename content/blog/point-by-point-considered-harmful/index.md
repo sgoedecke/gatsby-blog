@@ -6,7 +6,7 @@ date: '2025-06-07'
 tags: ["tech companies", "communication"]
 crossPostText:
   x: |-
-    Engineers love to have technical discussions point-by-point: replying to every idea in turn, treating each as its own mini-discussion. A good engineer has multiple reasons for any position, so why not articulate them all? Arguing point-by-point considered harmful.
+    Engineers love to have technical discussions point-by-point: replying to every idea in turn, treating each as its own mini-discussion. A good engineer has multiple reasons for any position, so why not articulate them all? Well, here’s why.
   linkedin: |-
     Engineers love to have technical discussions point-by-point: replying to every idea in turn, treating each as its own mini-discussion. It just makes sense! A good engineer has multiple reasons for any position, so why not articulate them all? And if someone has made multiple points, you ought to respond to each of those points individually when you reply, right? This pulls on the same instinct that we feel when we write code: factoring problems out into sub-components and solving those components one at a time. Why shouldn’t you also communicate the same way?
 ---

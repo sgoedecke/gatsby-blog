@@ -36,7 +36,7 @@ popularity:
 tags: ["ai", "ethics", "politics"]
 crossPostText:
   x: |-
-    Most anti-AI rhetoric is left-wing coded. Popular criticisms of AI describe it as a tool of techno-fascism, or appeal to predominantly left-wing concerns like carbon emissions, democracy, or police brutality. But many anti-AI arguments are conservative arguments.
+    Popular criticisms of AI describe it as a tool of techno-fascism, or appeal to predominantly left-wing concerns. This has always seemed weird to me, because most anti-AI arguments are actually right-wing coded.
   linkedin: |-
     Most anti-AI rhetoric is left-wing coded. Popular criticisms of AI describe it as a tool of techno-fascism, or appeal to predominantly left-wing concerns like carbon emissions, democracy, or police brutality. Anti-AI sentiment is surprisingly bipartisan, but the big anti-AI institutions are labor unions and the progressive wing of the Democrats.
 

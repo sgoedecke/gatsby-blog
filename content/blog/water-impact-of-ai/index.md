@@ -8,7 +8,7 @@ date: '2024-10-28'
 tags: ["ai", "ethics", "policy"]
 crossPostText:
   x: |-
-    There’s a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses. Talking to ChatGPT costs 5ml of water, not 500ml.
+    There’s a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses. In fact, talking to ChatGPT costs 5ml of water, not 500ml.
   linkedin: |-
     There’s a common claim on the internet that ChatGPT consumes half a litre of water for every 5-50 responses.
 ---

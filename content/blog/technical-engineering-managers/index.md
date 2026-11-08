@@ -6,7 +6,7 @@ date: '2025-06-26'
 tags: ["tech companies", "management", "zirp"]
 crossPostText:
   x: |-
-    I write a lot about how the post-2010s economic squeeze has made it harder to be a software engineer at a large tech company. But I haven’t said much about how it’s also harder now to be a software engineering manager. I don’t care if my manager writes code.
+    I don’t care if my manager writes code.
   linkedin: |-
     I write a lot about how the post-2010s economic squeeze has made it harder to be a software engineer at a large tech company. But I haven’t said much about how it’s also harder now to be a software engineering manager.
 

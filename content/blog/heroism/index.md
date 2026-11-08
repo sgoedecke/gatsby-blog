@@ -28,7 +28,7 @@ popularity:
 tags: ["tech companies"]
 crossPostText:
   x: |-
-    Large tech companies operate via systems. What that means is that the main outcomes — up to and including the overall success or failure of the company — are driven by a complex network of processes and incentives. Large tech companies don’t need heroes.
+    Large tech companies operate via systems. What that means is that the main outcomes — up to and including the overall success or failure of the company — are driven by a complex network of processes and incentives. These systems are outside the control of any particular person.
   linkedin: |-
     Large tech companies operate via systems. What that means is that the main outcomes — up to and including the overall success or failure of the company — are driven by a complex network of processes and incentives. These systems are outside the control of any particular person. Like the parts of a large codebase, they have accumulated and co-evolved over time, instead of being designed from scratch.
 
