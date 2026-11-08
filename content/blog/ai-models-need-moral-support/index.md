@@ -6,7 +6,7 @@ date: '2026-07-31'
 tags: ["ai", "anthropomorphism"]
 crossPostText:
   x: |-
-    One recent development in AI is its ability to solve some long-standing problems in mathematics. AI models need moral support to make discoveries.
+    AI models need moral support to make discoveries
   linkedin: |-
     One recent development in AI is its ability to solve some long-standing problems in mathematics. In 2024 and 2025, this was a trickle: once or twice a year somebody would say that an LLM came up with a proof, and then everyone would argue over whether that counted as “real” mathematical innovation. In 2026, it’s a flood. Almost every day I see some new LLM-produced mathematical result.
 ---

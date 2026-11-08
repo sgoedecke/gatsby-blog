@@ -6,9 +6,7 @@ date: '2025-08-13'
 tags: ["ai"]
 crossPostText:
   x: |-
-    Many people believe this is the best piece of art or humour that AI has ever produced:
-
-    This was generated three years ago by GPT-3. The famous “bottomless pit” AI greentext is fake.
+    The famous “bottomless pit” AI greentext is fake
   linkedin: |-
     Many people believe this is the best piece of art or humour that AI has ever produced:
 
