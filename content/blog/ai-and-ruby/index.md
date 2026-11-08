@@ -20,9 +20,10 @@ popularity:
   manual: 0
 popular: true
 tags: ["ai"]
+autoShare: false
 crossPostText:
   x: |-
-    Large language models are very good at generating and editing code. The future of AI is Ruby on Rails.
+    Large language models are very good at generating and editing code. Right now, it’s probably the “killer app” of AI: the companies actually making money from language models — like GitHub Copilot, Cursor, Windsurf — are all doing code generation.
   linkedin: |-
     Large language models are very good at generating and editing code. Right now, it’s probably the “killer app” of AI: the companies actually making money from language models — like GitHub Copilot, Cursor, Windsurf — are all doing code generation.
 
