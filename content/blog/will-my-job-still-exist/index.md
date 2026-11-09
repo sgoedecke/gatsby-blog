@@ -36,6 +36,9 @@ crossPostText:
     In 2021, being a good software engineer felt great. The world was full of software, with more companies arriving every year who needed to employ engineers to write their code and run their systems. I knew I was good at it, and I knew I could keep doing it for as long as I wanted to. The work I loved would not run out.
 
     In 2026, I’m not sure the software engineering industry will survive another decade. If it does, I’m certain it’s going to change far more than it did in the last two decades. Maybe I’ll figure out a way to carve out a lucrative niche supervising AI agents, or maybe I’ll have to leave the industry entirely. Either way, the work I loved is going away.
+crossPosts:
+  x: "https://x.com/i/status/2119934651926003767"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7525700367221866496/"
 ---
 
 In 2021, being a good software engineer felt _great_. The world was full of software, with more companies arriving every year who needed to employ engineers to write their code and run their systems. I knew I was good at it, and I knew I could keep doing it for as long as I wanted to. The work I loved would not run out.
