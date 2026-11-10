@@ -11,6 +11,7 @@ import {
   splitSentences,
   tweetLength,
 } from "./compose.mjs"
+import { fillCrossPostText } from "./fill.mjs"
 import { buildLinkedInPost } from "./linkedin.mjs"
 import { pickCandidates } from "./pick.mjs"
 import {
@@ -19,6 +20,7 @@ import {
   recordCrossPost,
   setCrossPostText,
 } from "./record.mjs"
+import { postFromMarkdown } from "./source.mjs"
 import {
   describeCredentials,
   oauthHeader,
@@ -441,4 +443,61 @@ test("never picks posts with autoShare: false", () => {
   assert.deepEqual(pickCandidates(posts, ["x"]), ["evergreen"])
   const allShared = posts.map(p => ({ ...p, crossPosts: { x: "url" } }))
   assert.deepEqual(pickCandidates(allShared, ["x"]), ["evergreen"])
+})
+
+test("reads the opening paragraphs from Markdown as the page shows them", () => {
+  const raw = `---
+title: "A \\"quoted\\" title"
+---
+
+<!-- a comment -->
+## A heading before the first paragraph
+
+First paragraph with [a link](https://example.com), \`code\`, a note[^1]
+and <sup>raw</sup> markers. It's "smart" -- and so on...
+
+![An image](https://example.com/image.png)
+
+It lists:
+
+1. One
+2. **Two**
+
+- Not introduced, so it ends the opening.
+
+[^1]: The note.
+`
+  assert.deepEqual(postFromMarkdown(raw), {
+    title: 'A "quoted" title',
+    paragraphs: [
+      "First paragraph with a link, code, a note and markers. It’s “smart” — and so on…",
+      "It lists:",
+      "1. One\n2. Two",
+    ],
+  })
+})
+
+test("fills in automatic cross-post text only where it hasn't been edited or shared", () => {
+  const post = (body, frontmatter = "") =>
+    `---\ntitle: Example\n${frontmatter}---\n\n${body}\n`
+  const filled = fillCrossPostText(post("Opening."))
+  assert.deepEqual(readCrossPostText(filled), {
+    x: "Opening.",
+    linkedin: "Opening.",
+  })
+  assert.equal(fillCrossPostText(filled), filled)
+
+  const changed = filled.replace("\nOpening.", "\nNew opening.")
+  assert.deepEqual(readCrossPostText(fillCrossPostText(changed, filled)), {
+    x: "New opening.",
+    linkedin: "New opening.",
+  })
+
+  const edited = post(
+    "New opening.",
+    'crossPosts:\n  x: "https://x.com/i/status/1"\n' +
+      "crossPostText:\n  linkedin: Hand-written.\n"
+  )
+  assert.equal(fillCrossPostText(edited, filled), edited)
+  assert.equal(fillCrossPostText("No frontmatter."), "No frontmatter.")
 })

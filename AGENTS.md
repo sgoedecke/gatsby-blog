@@ -51,6 +51,8 @@ Notes:
   `linkedin:` entries) when it has some, otherwise from the start of the post.
   If the user wants different wording, edit that frontmatter and push it to
   `master` before running the workflow. Keep `x:` within 280 characters.
+  The pre-commit hook fills in missing entries (and refreshes ones that are
+  still the automatic text) for platforms the post hasn't been shared to.
 - To preview without posting, use `-f dry_run=true`, then
   `gh run download "$run_id" -n cross-post-previews` to get the text and
   screenshots.

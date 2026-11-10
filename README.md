@@ -74,6 +74,15 @@ The updater's existing URL-list and stale-post rules still apply.
 You can also run `npm run update-popularity -- --files content/blog/slug/index.md`
 to update selected posts manually. Put `--files` and its paths last.
 
+A third pre-commit step fills in each staged post's `crossPostText` frontmatter
+(see [Cross-posting](#cross-posting-to-x-and-linkedin)) for platforms the post
+hasn't been shared to yet, using the same automatic excerpt the cross-post
+workflow would, read from the Markdown. Text that's still the automatic excerpt
+of the committed version is refreshed when the opening changes; text you've
+edited, and text for platforms in `crossPosts`, is left alone. Delete an entry
+to regenerate it. Updates are re-staged automatically, and unstaged edits in an
+affected post block the commit.
+
 ## Cross-posting to X and LinkedIn
 
 `.github/workflows/cross-post.yml` runs on pushes to `master`. When a push adds a
@@ -120,7 +129,8 @@ crossPostText:
 ```
 
 Existing posts already have this filled in with the automatic excerpt, ready to
-tweak. To fill it in for other posts, run `npm run bake-text` in
+tweak, and the pre-commit hook fills it in for new posts when you commit them.
+To fill it in for other posts from the live site instead, run `npm run bake-text` in
 `scripts/cross-post` (after the preview setup above). It reads each post
 from the live site and only adds text that's missing; pass `--slug <slug>` to do
 one post, and `--overwrite` to regenerate text you've already edited. Set

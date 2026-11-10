@@ -28,6 +28,7 @@
   "devDependencies": {
     "prettier": "2.0.5",
     "remark-parse": "^6.0.3",
-    "unified": "^8.4.2"
+    "unified": "^8.4.2",
+    "yaml": "^2.9.1"
   }
 }

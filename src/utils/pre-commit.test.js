@@ -9,8 +9,11 @@ const { introducesPopularityLink } = require("./introduced-popularity-links")
 
 const root = path.resolve(__dirname, "../..")
 const youtube = "https://www.youtube.com/watch?v=example"
+// Already shared everywhere, so the cross-post text step leaves it alone.
 const post = (text = "") =>
-  `---\ntitle: Example\ndate: 2026-09-10\n---\n\n${text}\n`
+  `---\ntitle: Example\ndate: 2026-09-10\ncrossPosts:\n  x: "https://x.com/i/status/1"\n  linkedin: "https://www.linkedin.com/feed/update/1"\n---\n\n${text}\n`
+const unsharedPost = (text = "", frontmatter = "") =>
+  `---\ntitle: Example\ndate: 2026-09-10\n${frontmatter}---\n\n${text}\n`
 
 function repository(t) {
   const cwd = fs.mkdtempSync(path.join(os.tmpdir(), "blog-hooks-"))
@@ -207,4 +210,63 @@ test("popularity hook propagates API failures without changing the post", t => {
   assert.match(result.stderr, /offline test/)
   assert.equal(read(file), source)
   assert.equal(git("show", `:${file}`), source)
+})
+
+test("a real commit fills in cross-post text for new posts", t => {
+  const { git, write, read } = repository(t)
+  const file = "content/blog/example/index.md"
+  write(file, unsharedPost("First -- with a note[^1]. Second.\n\n[^1]: Note"))
+  git("add", "--", file)
+  git("commit", "--quiet", "-m", "Add post")
+  const committed = git("show", `HEAD:${file}`)
+  assert.deepEqual(matter(committed).data.crossPostText, {
+    x: "First — with a note. Second.",
+    linkedin: "First — with a note. Second.",
+  })
+  assert.equal(read(file), committed)
+})
+
+test("cross-post hook refreshes automatic text but keeps edited or shared text", t => {
+  const { git, write, read, hook } = repository(t)
+  const file = "content/blog/example/index.md"
+  write(file, unsharedPost("Old opening."))
+  git("add", "--", file)
+  assert.equal(hook("fill-cross-post-text-on-commit.mjs").status, 0)
+  git("commit", "--quiet", "--no-verify", "-m", "Add post")
+
+  const automatic = read(file)
+  write(file, automatic.replace("\nOld opening.", "\nNew opening."))
+  git("add", "--", file)
+  let result = hook("fill-cross-post-text-on-commit.mjs")
+  assert.equal(result.status, 0, result.stderr)
+  assert.deepEqual(matter(git("show", `:${file}`)).data.crossPostText, {
+    x: "New opening.",
+    linkedin: "New opening.",
+  })
+
+  const edited = unsharedPost(
+    "Newer opening.",
+    'crossPosts:\n  linkedin: "https://www.linkedin.com/feed/update/1"\n' +
+      "crossPostText:\n  x: Hand-written.\n  linkedin: Old opening.\n"
+  )
+  write(file, edited)
+  git("add", "--", file)
+  result = hook("fill-cross-post-text-on-commit.mjs")
+  assert.equal(result.status, 0, result.stderr)
+  assert.equal(read(file), edited)
+  assert.equal(git("show", `:${file}`), edited)
+})
+
+test("cross-post hook refuses unstaged edits in posts it would fill", t => {
+  const { git, write, read, hook } = repository(t)
+  const file = "content/blog/example/index.md"
+  const source = unsharedPost("Opening.")
+  write(file, source)
+  git("add", "--", file)
+  write(file, source + "\nUnstaged\n")
+  const result = hook("fill-cross-post-text-on-commit.mjs")
+  assert.notEqual(result.status, 0)
+  assert.match(result.stderr, /unstaged changes/)
+  assert.equal(git("show", `:${file}`), source)
+  assert.equal(read(file), source + "\nUnstaged\n")
 })
