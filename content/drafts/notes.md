@@ -1,3 +1,6 @@
+
+
+--
 alignment - why can't you simply monitor J-space with a dumber, trusted model?
 can smart models manipulate J-space well enough to completely avoid detection?
 false positives?
