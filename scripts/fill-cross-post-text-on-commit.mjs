@@ -10,7 +10,7 @@ function main() {
   process.chdir(git(["rev-parse", "--show-toplevel"]).trimEnd())
   const changes = []
   for (const { file, previous, staged } of stagedMarkdown()) {
-    if (!/^content\/blog\/[^/]+\/index\.md$/.test(file)) continue
+    if (!/^content\/(blog|drafts)\/[^/]+\/index\.md$/.test(file)) continue
     const before = previous === null ? null : git(["show", `HEAD:${previous}`])
     const updated = fillCrossPostText(staged, before)
     if (updated === staged) continue
