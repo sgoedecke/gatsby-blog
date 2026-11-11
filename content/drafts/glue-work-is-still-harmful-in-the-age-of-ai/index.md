@@ -6,18 +6,18 @@ date: '2026-11-11'
 tags: ["ai", "tech companies", "glue"]
 crossPostText:
   x: |-
-    Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t.
-
-    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
+    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn't.
   linkedin: |-
     Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t.
 
-    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. For much more on that, see my 2024 post Glue work considered harmful. I think AI makes glue work less important to companies, not more.
+    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. I think AI makes glue work less important to companies, not more.
 ---
 
-Now that LLMs are writing most of our code, does that free human engineers up to do more [glue work](https://www.noidea.dog/glue)? No, it doesn't.
 
-I am not a believer in glue work[^1]. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. For much more on that, see my 2024 post [_Glue work considered harmful_](/glue-work-considered-harmful/). I think AI makes glue work less important to companies, not more. Let's go through four reasons why.
+
+I am not a believer in glue work[^1]. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
+
+Now that LLMs are writing most of our code, does that free human engineers up to do more [glue work](https://www.noidea.dog/glue)? No, it doesn't. I think AI makes glue work less important to companies, not more. Let's go through four reasons why.
 
 First, **AI decreases the amount of coordination needed to ship**. The magnifying effect of AI agents means that any single engineer can now take on projects that would previously have needed a small team. A lot of glue work was helping with coordination: booking kickoff and status meetings, passing around internal updates, and so on. A single engineer doesn't need to do any of that.
 
@@ -33,4 +33,4 @@ So where does that leave us? More or less where we were [in 2024](/glue-work-con
 
 
 
-[^1]: Glue work is all the squishy "non-technical" work that goes into building software: making sure teams are talking to each other, writing reports, updating docs, onboarding engineers, and so on. Specifically it's the parts of that work _that are not included in the formal process_, and that only really get done if someone volunteers to do it.
+[^1]: Glue work is all the squishy "non-technical" work that goes into building software: making sure teams are talking to each other, writing reports, updating docs, onboarding engineers, and so on. Specifically it's the parts of that work _that are not included in the formal process_, and that only really get done if someone volunteers to do it. For more on why I don't like it, see my 2024 post [_Glue work considered harmful_](/glue-work-considered-harmful/).
