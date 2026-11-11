@@ -23,5 +23,4 @@ Can LLMs just automate all glue work? Absolutely not. Many engineers are trying 
 So where does that leave us? More or less where we were [in 2024](/glue-work-considered-harmful/), I think. Avoid at all costs becoming "the glue work person", let bad processes fail so they can be changed, but be willing to do small amounts of tactical glue work where it can meaningfully contribute to the success of your projects. Most of your time and effort should still be spent on the code: on [driving AI agents](/getting-good-at-ai-takes-time-and-practice/) and [aligning them with your company's values](/human-ai-partnerships-are-for-alignment-not-capability/).
 
 
-
 [^1]: Glue work is all the squishy "non-technical" work that goes into building software: making sure teams are talking to each other, writing reports, updating docs, onboarding engineers, and so on. Specifically it's the parts of that work _that are not included in the formal process_, and that only really get done if someone volunteers to do it.
