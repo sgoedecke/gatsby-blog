@@ -6,18 +6,18 @@ date: '2026-11-11'
 tags: ["ai", "tech companies", "glue"]
 crossPostText:
   x: |-
-    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn't.
-  linkedin: |-
+    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
+
     Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t.
+  linkedin: |-
+    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
 
-    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. I think AI makes glue work less important to companies, not more.
+    Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t. I think glue work is actually less important to companies than it was in the 2010s. Let’s go through four reasons why.
 ---
-
-
 
 I am not a believer in glue work[^1]. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
 
-Now that LLMs are writing most of our code, does that free human engineers up to do more [glue work](https://www.noidea.dog/glue)? No, it doesn't. I think AI makes glue work less important to companies, not more. Let's go through four reasons why.
+Now that LLMs are writing most of our code, does that free human engineers up to do more [glue work](https://www.noidea.dog/glue)? No, it doesn't. I think glue work is actually _less_ important to companies than it was in the 2010s. Let's go through four reasons why.
 
 First, **AI decreases the amount of coordination needed to ship**. The magnifying effect of AI agents means that any single engineer can now take on projects that would previously have needed a small team. A lot of glue work was helping with coordination: booking kickoff and status meetings, passing around internal updates, and so on. A single engineer doesn't need to do any of that.
 
