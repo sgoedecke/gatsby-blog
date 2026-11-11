@@ -74,9 +74,9 @@ The updater's existing URL-list and stale-post rules still apply.
 You can also run `npm run update-popularity -- --files content/blog/slug/index.md`
 to update selected posts manually. Put `--files` and its paths last.
 
-A third pre-commit step fills in each staged post's `crossPostText` frontmatter
-(see [Cross-posting](#cross-posting-to-x-and-linkedin)) for platforms the post
-hasn't been shared to yet, using the same automatic excerpt the cross-post
+A third pre-commit step fills in the `crossPostText` frontmatter (see
+[Cross-posting](#cross-posting-to-x-and-linkedin)) of each staged post in
+`content/blog` or `content/drafts`, for platforms it hasn't been shared to yet, using the same automatic excerpt the cross-post
 workflow would, read from the Markdown. Text that's still the automatic excerpt
 of the committed version is refreshed when the opening changes; text you've
 edited, and text for platforms in `crossPosts`, is left alone. Delete an entry

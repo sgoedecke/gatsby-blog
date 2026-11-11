@@ -270,3 +270,25 @@ test("cross-post hook refuses unstaged edits in posts it would fill", t => {
   assert.equal(git("show", `:${file}`), source)
   assert.equal(read(file), source + "\nUnstaged\n")
 })
+
+test("cross-post hook fills in drafts and keeps the text when they're published", t => {
+  const { git, write, read, hook } = repository(t)
+  const draft = "content/drafts/example/index.md"
+  write(draft, unsharedPost("Draft opening."))
+  git("add", "--", draft)
+  let result = hook("fill-cross-post-text-on-commit.mjs")
+  assert.equal(result.status, 0, result.stderr)
+  assert.equal(matter(read(draft)).data.crossPostText.x, "Draft opening.")
+  git("commit", "--quiet", "--no-verify", "-m", "Add draft")
+
+  const published = "content/blog/example/index.md"
+  write(published, read(draft).replace("\nDraft opening.", "\nFinal opening."))
+  git("rm", "--quiet", "--", draft)
+  git("add", "--", published)
+  result = hook("fill-cross-post-text-on-commit.mjs")
+  assert.equal(result.status, 0, result.stderr)
+  assert.deepEqual(matter(git("show", `:${published}`)).data.crossPostText, {
+    x: "Final opening.",
+    linkedin: "Final opening.",
+  })
+})
