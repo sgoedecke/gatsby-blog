@@ -1,9 +1,18 @@
 ---
 title: Glue work is still harmful in the age of AI
-order: 269
+order: 270
 description: 
-date: '2026-11-08'
-tags: ["ai", "software design"]
+date: '2026-11-11'
+tags: ["ai", "tech companies", "glue"]
+crossPostText:
+  x: |-
+    Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t.
+
+    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
+  linkedin: |-
+    Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t.
+
+    I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die. For much more on that, see my 2024 post Glue work considered harmful. I think AI makes glue work less important to companies, not more.
 ---
 
 Now that LLMs are writing most of our code, does that free human engineers up to do more [glue work](https://www.noidea.dog/glue)? No, it doesn't.
@@ -21,6 +30,7 @@ Fourth, **write-only reports can be automated with LLMs**. A lot of glue work wa
 Can LLMs just automate all glue work? Absolutely not. Many engineers are trying to do this out of a kind of manic optimism, but it's a really bad idea. Write-only reports are one thing, but **communicating to other engineers cannot be delegated to a LLM**. When you need to check in on the status of a project, or respond to someone else's ping, or anything like that, you should compose and write the message yourself. Nothing will torch your relationship with other engineers as quickly as making them talk to your Claude Opus instance.
 
 So where does that leave us? More or less where we were [in 2024](/glue-work-considered-harmful/), I think. Avoid at all costs becoming "the glue work person", let bad processes fail so they can be changed, but be willing to do small amounts of tactical glue work where it can meaningfully contribute to the success of your projects. Most of your time and effort should still be spent on the code: on [driving AI agents](/getting-good-at-ai-takes-time-and-practice/) and [aligning them with your company's values](/human-ai-partnerships-are-for-alignment-not-capability/).
+
 
 
 [^1]: Glue work is all the squishy "non-technical" work that goes into building software: making sure teams are talking to each other, writing reports, updating docs, onboarding engineers, and so on. Specifically it's the parts of that work _that are not included in the formal process_, and that only really get done if someone volunteers to do it.

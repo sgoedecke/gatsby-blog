@@ -24,7 +24,7 @@ popularity:
     threads: 0
     urls: []
   manual: 0
-tags: ["tech companies"]
+tags: ["tech companies", "glue"]
 crossPostText:
   x: |-
     So why doesn’t glue work get you promoted, if it’s so crucial to shipping projects? Are companies stupid? Are they deliberately leaving value on the table? No, I don’t think so. Companies don’t reward glue work because they don’t want you prioritizing it.
