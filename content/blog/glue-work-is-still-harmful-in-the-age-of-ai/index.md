@@ -11,6 +11,9 @@ crossPostText:
     I am not a believer in glue work. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
 
     Now that LLMs are writing most of our code, does that free human engineers up to do more glue work? No, it doesn’t. I think glue work is actually less important to companies than it was in the 2010s. Let’s go through four reasons why.
+crossPosts:
+  x: "https://x.com/i/status/2120308230031286515"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7526073922866393090/"
 ---
 
 I am not a believer in glue work[^1]. Processes that can only be sustained by the unrewarded sacrifice of engineers ought to die.
