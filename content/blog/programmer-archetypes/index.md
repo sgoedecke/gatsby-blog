@@ -30,6 +30,9 @@ crossPostText:
     I think a lot of programmer arguments bottom out in a cultural clash between different kinds of engineers: believers vs grifters, or coasters vs grinders. I’m going to argue that good companies actually have a healthy mix of all four types of engineer, so it’s probably sensible to figure out how to work with them.
 
     Despite the names, I think grifters and coasters can be as good at their jobs as believers and grinders.
+crossPosts:
+  x: "https://x.com/i/status/2120992179330097214"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7526757872232386560/"
 ---
 
 Why do engineers get mad at each other so often?[^1] 
