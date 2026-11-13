@@ -31,6 +31,9 @@ crossPostText:
     I’m a big fan of “sharp tools”. These are tools that are powerful enough to be hugely helpful or harmful, depending on how they’re used. Most forms of direct production access are in this category: like ssh or kubectl, or a read-write prod SQL console. It’s also possible to give “dangerous advice”. Dangerous advice is dangerous because (like sharp tools) it takes competence and judgment to use well. Giving the wrong person dangerous advice is like giving the wrong person production SQL access — they might go off and do something enormously destructive with it.
 
     I give a lot of dangerous advice on this blog.
+crossPosts:
+  x: "https://x.com/i/status/2121345907174056134"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7527111601758371840/"
 ---
 
 I'm a big fan of "sharp tools". These are tools that are powerful enough to be hugely helpful or harmful, depending on how they're used. Most forms of direct production access are in this category: like ssh or kubectl, or a read-write prod SQL console. It's also possible to give "dangerous advice". Dangerous advice is dangerous because (like sharp tools) it takes competence and judgment to use well. Giving the wrong person dangerous advice is like giving the wrong person production SQL access - they might go off and do something enormously destructive with it.
