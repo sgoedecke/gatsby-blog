@@ -15,20 +15,6 @@ reasons for optimism about AI doom
 idk i think people won't care about this
 
 --
-llms don't know how to use llms
-if you try to design a system with a llm, it will under-utilize llms
-https://arbustoemchamas.substack.com/p/i-naively-tried-vibe-coding-a-memory
-this is a great example. given a problem like "evaluate pairs of natural language statements for contradictions", which is ~unsolvable pre-LLMs, Claude charges down the pre-LLM garden path of https://en.wikipedia.org/wiki/Answer_set_programming:
-
-> a contradiction checker, a “reasoning council” — abduction proposes causes, deduction certifies, induction learns candidate rules.
-
-of course, none of this could ever possibly work; what you need is _judgement_. i.e. just feed a set of propositions to a reasoning model and ask it to identify contradictions.
-
-https://x.com/doodlestein/status/2094376160884871438?s=20
-
-https://news.ycombinator.com/item?id=50381522 - again
-
----
 
 analogy to the "bitter lesson" - the "stupid lesson"
 stupid tricks will beat clever optimization in most cases
