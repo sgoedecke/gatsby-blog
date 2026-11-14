@@ -10,6 +10,9 @@ crossPostText:
 
   linkedin: |-
     Getting anything done in large organizations is really hard. But if you can handle it - if you're tolerant of mess, and if you have a rich enough personal life to be able to treat work politics with a healthy detachment - it is as rich a source of meaning as you could ask for.
+crossPosts:
+  x: "https://x.com/i/status/2121546943394427068"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7527312636372275200/"
 ---
 
 Why do many people hate working in large tech companies?
