@@ -53,5 +53,7 @@ If you're one of those exceptional people, congratulations! You can use that pow
 
 **Update:** some interesting discussion of this post on [HN](https://news.ycombinator.com/item?id=42570390) and [lobsters](https://lobste.rs/s/nfhwae/glue_work_considered_harmful). I think [this comment](https://lobste.rs/s/nfhwae/glue_work_considered_harmful#c_zqmap8) by friendlysock is particularly good.
 
+edit: I also recommend this [response blog](https://sunshowers.io/posts/glue-work/) and its accompanying [lobste.rs comments](https://lobste.rs/s/f6u0cg/contra_glue_work_considered_harmful). I think my position is best expressed by this lobste.rs [comment](https://lobste.rs/c/qmlqdx) (not written by me) or my post [_Software engineers should be a little bit cynical_](/a-little-bit-cynical/).
+
 [^1]: See Metcalfe's law, Reed's law and Amdahl's law for the technical reasons why.
 [^2]: Unless you really, really want to (in which case hey, if you're going into it with eyes open, do what you like).
