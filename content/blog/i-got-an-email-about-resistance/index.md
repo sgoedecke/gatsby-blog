@@ -25,6 +25,9 @@ crossPostText:
     This will be kind of an unusual post. I got a recent email about my writing that I thought was such a good articulation of one common criticism that I’d like to share it (and my response) in full.
   linkedin: |-
     This will be kind of an unusual post. I got a recent email about my writing that I thought was such a good articulation of one common criticism that I’d like to share it (and my response) in full.
+crossPosts:
+  x: "https://x.com/i/status/2122470745473208817"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7528236438732066816/"
 ---
 
 This will be kind of an unusual post. I got a recent email about my writing that I thought was such a good articulation of one common criticism that I'd like to share it (and my response) in full.
