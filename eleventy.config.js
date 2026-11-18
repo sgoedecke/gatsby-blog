@@ -51,15 +51,21 @@ module.exports = function (eleventyConfig) {
     )
     // Posts link to each other with full seangoedecke.com URLs too. Keep
     // mirror readers on the mirror; the base plugin then adds the prefix.
-    eleventyConfig.htmlTransformer.addUrlTransform(
-      "html",
-      (url, { tag }) =>
-        tag === "a"
-          ? url.replace(/^https?:\/\/(www\.)?seangoedecke\.com(?=[/?#]|$)/, "") ||
-            "/"
-          : url,
-      { priority: -1 }
-    )
+    // Links marked `data-main-site` (the mirror banner) are left alone.
+    eleventyConfig.htmlTransformer.addPosthtmlPlugin("html", () => tree => {
+      tree.match({ tag: "a" }, node => {
+        const attrs = node.attrs || {}
+        if (attrs.href && !("data-main-site" in attrs)) {
+          attrs.href =
+            attrs.href.replace(
+              /^https?:\/\/(www\.)?seangoedecke\.com(?=[/?#]|$)/,
+              ""
+            ) || "/"
+        }
+        return node
+      })
+      return tree
+    })
   }
 
   eleventyConfig.setServerOptions({ port: 8000 })
