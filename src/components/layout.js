@@ -40,7 +40,12 @@ const Layout = (
 <meta property="og:description" content="${metaDescription}"/>
 <meta name="description" content="${metaDescription}"/>
 <meta name="theme-color" content="#663399"/>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+${
+  // Point search engines at the main site rather than the mirror.
+  site.pathPrefix !== "/" &&
+  html`<link rel="canonical" href="${new URL(url, site.canonicalUrl).href}"/>
+`
+}<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96"/>
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180"/>

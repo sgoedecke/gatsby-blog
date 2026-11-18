@@ -1,3 +1,4 @@
+const site = require("./src/_data/site")
 const markdown = require("./src/lib/markdown")
 const { resizePostImages } = require("./src/lib/images")
 const { BLOG_GLOB, POST_ASSET_EXTENSIONS, byOrder } = require("./src/lib/posts")
@@ -12,7 +13,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addTransform("post-images", async function (content) {
     if (!this.page.outputPath?.endsWith(".html")) return content
-    return resizePostImages(content, eleventyConfig.directories.output)
+    return resizePostImages(
+      content,
+      eleventyConfig.directories.output,
+      site.pathPrefix
+    )
   })
 
   eleventyConfig.addPassthroughCopy({ static: "/" })
@@ -38,9 +43,29 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add(ignored)
   }
 
+  if (site.pathPrefix !== "/") {
+    // Prefix root-relative URLs in the HTML (links, images, styles) with
+    // the path prefix.
+    eleventyConfig.addPlugin(
+      eleventyConfig.resolvePlugin("@11ty/eleventy/html-base-plugin")
+    )
+    // Posts link to each other with full seangoedecke.com URLs too. Keep
+    // mirror readers on the mirror; the base plugin then adds the prefix.
+    eleventyConfig.htmlTransformer.addUrlTransform(
+      "html",
+      (url, { tag }) =>
+        tag === "a"
+          ? url.replace(/^https?:\/\/(www\.)?seangoedecke\.com(?=[/?#]|$)/, "") ||
+            "/"
+          : url,
+      { priority: -1 }
+    )
+  }
+
   eleventyConfig.setServerOptions({ port: 8000 })
 
   return {
+    pathPrefix: site.pathPrefix,
     templateFormats: ["md", "11ty.js"],
     // Posts are plain Markdown; don't run them through Liquid first, which
     // would eat `{{ ... }}` and `{% ... %}` in code samples.

@@ -6,6 +6,8 @@ Note that files in drafts/ are often very rough and do not represent my consider
 
 The site is built with [Eleventy](https://www.11ty.dev/) (it used to be Gatsby). Run `npm run develop` to serve it at http://localhost:8000, or `npm run build` to build it into `public/`. Posts are `content/blog/<slug>/index.md`, with any images next to them; the templates are plain JavaScript in `src/`, and `src/lib/markdown.js` controls how posts are rendered.
 
+There's also a mirror at https://sgoedecke.github.io/gatsby-blog/ for readers who can't reach Netlify. `.github/workflows/github-pages.yml` rebuilds it on every push to `master`, setting `PATH_PREFIX=/gatsby-blog/` so URLs work under that subpath. Its pages point search engines at www.seangoedecke.com as canonical.
+
 I do not check notifications on this repository. If you'd like me to look at your issue or merge your PR, you're better off emailing me.
 
 Post lists and individual post headers show optional Hacker News, Lobsters,
