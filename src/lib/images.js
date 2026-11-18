@@ -25,14 +25,18 @@ const attribute = (attrs, name) => {
   return match ? unescapeHtml(match[1]) : ""
 }
 
-async function picture(attrs, outputDir) {
+// With a path prefix (the GitHub Pages mirror), Eleventy has already added
+// it to `src` by the time this runs.
+async function picture(attrs, outputDir, pathPrefix) {
   const src = attribute(attrs, "src")
-  const urlDir = path.posix.dirname(src) + "/"
-  const metadata = await Image(path.join("content/blog", decodeURI(src)), {
+  const sitePath = src.startsWith(pathPrefix)
+    ? src.slice(pathPrefix.length - 1)
+    : src
+  const metadata = await Image(path.join("content/blog", decodeURI(sitePath)), {
     widths: WIDTHS,
     formats: ["webp", "auto"],
-    outputDir: path.join(outputDir, urlDir),
-    urlPath: urlDir,
+    outputDir: path.join(outputDir, path.posix.dirname(sitePath)),
+    urlPath: path.posix.dirname(src) + "/",
   })
   return generateHTML(metadata, {
     alt: attribute(attrs, "alt"),
@@ -43,11 +47,11 @@ async function picture(attrs, outputDir) {
   })
 }
 
-async function resizePostImages(html, outputDir) {
+async function resizePostImages(html, outputDir, pathPrefix = "/") {
   const matches = [...html.matchAll(POST_IMAGE)]
   if (matches.length === 0) return html
   const pictures = await Promise.all(
-    matches.map(([, , attrs]) => picture(attrs, outputDir))
+    matches.map(([, , attrs]) => picture(attrs, outputDir, pathPrefix))
   )
   let index = 0
   return html.replace(POST_IMAGE, (_, link) => link + pictures[index++])
