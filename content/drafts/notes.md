@@ -1,4 +1,24 @@
 
+you should be recursively self-improving too
+
+RSI is not just for AIs
+if you get better at choosing what to work on - if you become a more effective agent every month - then the _more effective agent_ next month will be making decisions about how to become more effective
+this compounding effort is ~true in all domains but it doesn't necessarily aim anywhere useful (e.g. the ceiling on "getting really good at Elden Ring" is low)
+
+--
+consensus-based authority vs tool-based authority. a lot of people don't like pangram because it directly threatens their mandate to decide within the community what is good/bad AI/non-AI. different standards for evidence/epistemology. not clear that it's wrong, tool-based authority does tend to flatten out nuance in favour of legibility. but obviously the alternative is very silly
+
+
+Who gets to decide if something was written by AI?
+
+There's been a recent kerfuffle about the AI detection tool Pangram claiming that a recent prize-winning story was written with AI. The prize committee investigated, concluded there was no wrongdoing, and released a statement saying as much - which Pangram also identified as mostly written by AI. Ever since then there has been a stream of debate about whether Pangram is trustworthy, whether it's wrong to run these kinds of automatic tools, and so on.
+
+My stance on AI detection tooling is that you can never be 100% certain, but tools like Pangram can be very reliable indeed. But to me the interesting question is not "is Pangram right", but the meta-question of _why_ [todo: diagnosis] anti-AI folks are so upset and distrustful about Pangram. If you dislike AI, shouldn't you be thrilled that 
+
+
+--
+
+SAE on an AI detection model e.g. Deckard?
 
 --
 alignment - why can't you simply monitor J-space with a dumber, trusted model?
