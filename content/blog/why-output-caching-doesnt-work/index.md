@@ -27,7 +27,7 @@ It's an obvious waste of tokens[^4] to repeat all of this content. In fact, it's
 
 ### How could we cache outputs?
 
-If you want to prevent this, you'd have to train the model to avoid repeating itself. For instance, you could fine-tune or prompt a coding model to output "src/script.py:12-15" instead of simply regurgitating those lines of the file.
+If you want to prevent this, you'd have to get the model to avoid repeating itself. For instance, you could fine-tune or prompt a coding model to output "src/script.py:12-15" instead of simply regurgitating those lines of the file.
 
 More generally, you could fine-tune a model to reference segments of its own conversation history instead of repeating them. The harness could then trivially expand those references with the actual content, so all of this is transparent to the user.
 
@@ -45,15 +45,15 @@ If you want to save output tokens, you need to reduce the 94% of output tokens t
 
 [^2]: Including tool calls.
 
-[^3]: Coding agents often used to often repeat tokens in tool calls (e.g. by re-outputting the entire file content for each edit) but I think this behavior has mostly been replaced with more efficient find-and-replace editing tools.
+[^3]: Coding agents often used to repeat tokens in tool calls (e.g. by re-outputting the entire file content for each edit) but I think this behavior has mostly been replaced with more efficient find-and-replace editing tools.
 
-[^4]: I'm pretty sure that most mature inference providers already do speculative decoding based on previous ngrams in in the input, which would at least exploit output repetition to deliver a speedup.
+[^4]: I'm pretty sure that most mature inference providers already do speculative decoding based on previous ngrams in the input, which would at least exploit output repetition to deliver a speedup.
 
 [^5]: The reason, broadly speaking, is also the reason why transformers are so important: because of the attention mechanism, input tokens can be ingested in parallel, while output tokens must be generated one-at-a-time.
 
 [^6]: I'm only moderately confident about this. Some open-source reasoning models (particularly early ones) do, but those models also use way more tokens than frontier models for the same output, so my guess is that powerful frontier models don't loop in their chain of thought very often.
 
-[^7]: It's possible that tool calls involve some repetition as well, if agents are composing content in the chain of thought and then repeating it in the tool. Any readers who have done a lot of coding with open-source models (or who works at a frontier lab) and thus know the answer to this, please email me if you can - I'm curious.
+[^7]: It's possible that tool calls involve some repetition as well, if agents are composing content in the chain of thought and then repeating it in the tool. Any readers who have done a lot of coding with open-source models (or who work at a frontier lab) and thus know the answer to this, please email me if you can - I'm curious.
 
 [^8]: And the better the harness, though I remain convinced that there isn't that much comparative advantage in harness quality because everyone can copy each other.
 
