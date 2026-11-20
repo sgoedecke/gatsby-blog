@@ -28,6 +28,9 @@ crossPostText:
     The first passenger flight happened in May 1908. Eleven years later, the first mass-casualty airline disaster happened, when a flight to Milan disintegrated mid-air, killing all twelve passengers.
 
     The first publicly-available AI language model, ChatGPT, was released in November 2022. The first mass-casualty AI language model disaster is yet to happen.
+crossPosts:
+  x: "https://x.com/i/status/2122053758683066840"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7527819451988312065/"
 ---
 
 The first public passenger locomotive, _Locomotion No. 1_, began service in September 1825. The first mass-casualty railway disaster happened seventeen years later, in May 1842. A train to Paris derailed, killing at least fifty passengers in the ensuing fire.

@@ -235,6 +235,24 @@ ul li {
   padding-left: 10px;
 }
 
+/* Shown only on the GitHub Pages mirror. */
+.mirror-banner {
+  background: #fff4c2;
+  border-bottom: 1px solid #e6d27a;
+  color: #3d3200;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mirror-banner {
+    background: #3a3420;
+    border-bottom-color: #5c5230;
+    color: #f0e6c0;
+  }
+}
+
 /* Site search styling */
 .search-container {
   margin: 3.5rem 0 2.5rem;

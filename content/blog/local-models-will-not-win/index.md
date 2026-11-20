@@ -25,6 +25,9 @@ crossPostText:
     Every time a new open-weight AI model is released, people say that local models are the future. Why spend billions of dollars building out datacenters when everyone will just be able to run AI models on their laptops or phones? I think this idea is doomed.
   linkedin: |-
     Every time a new open-weight AI model is released, people say that local models are the future. Why spend billions of dollars building out datacenters when everyone will just be able to run AI models on their laptops or phones? I think this idea is doomed. No matter how strong open-weight models get, most inference will always happen in AI datacenters.
+crossPosts:
+  x: "https://x.com/i/status/2121682188404142498"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7527447881046261760/"
 ---
 
 Every time a new open-weight AI model is released, people [say](https://news.ycombinator.com/item?id=49244353) that local models are the future. Why spend billions of dollars building out datacenters when everyone will just be able to run AI models on their laptops or phones? I think this idea is doomed. No matter how strong open-weight models get, most inference will always happen in AI datacenters.

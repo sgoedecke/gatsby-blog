@@ -32,6 +32,9 @@ crossPostText:
     If you asked most people to name a defining feature of AI-generated writing, they’d probably say the em-dash — like this. Language models use em-dashes so much that real humans who like em-dashes have stopped using them. Why do AI models use so many em-dashes?
   linkedin: |-
     If you asked most people to name a defining feature of AI-generated writing, they’d probably say the em-dash — like this. Language models use em-dashes so much that real humans who like em-dashes have stopped using them out of fear of being confused with AI. It’s also surprisingly hard to prompt models to avoid em-dashes: take this thread from the OpenAI forums where users share their unsuccessful attempts. Given all that, it’s kind of weird that we don’t really know why language models use the em-dash so much.
+crossPosts:
+  x: "https://x.com/i/status/2123173565100879892"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7528939258993311746/"
 ---
 
 If you asked most people to name a defining feature of AI-generated writing, they'd probably say the em-dash — like this. Language models use em-dashes so much that real humans who like em-dashes have [stopped using them](https://www.reddit.com/r/OpenAI/comments/1mk62b1/comment/n7gnqpb/) out of fear of being confused with AI. It's also surprisingly hard to prompt models to avoid em-dashes: take this [thread](https://community.openai.com/t/cannot-get-responses-to-not-include-dashes-and-em-dashes/1023216/7) from the OpenAI forums where users share their unsuccessful attempts. Given all that, it's kind of weird that **we don't really know why language models use the em-dash so much**.

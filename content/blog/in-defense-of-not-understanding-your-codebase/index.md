@@ -30,6 +30,9 @@ crossPostText:
     As a software engineer, how well do you have to understand your own codebase?
 
     My guess is that people who work on small codebases with low-turnover teams (say, Redis or games like The Witness) would say “obviously you have to understand it completely, otherwise you can’t do good work”. I’d also guess that people who work on large codebases with high-turnover teams (say, the Google web search backend or GitHub) would say “obviously you can’t understand it completely, you just have to do the best you can in your local area”.
+crossPosts:
+  x: "https://x.com/i/status/2123896364643860985"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7529662058259324928/"
 ---
 
 **As a software engineer, how well do you have to understand your own codebase?**

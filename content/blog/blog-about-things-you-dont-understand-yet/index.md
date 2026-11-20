@@ -26,6 +26,9 @@ crossPostText:
     Every post I publish represents at least two things I’ve learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don’t learn anything new while I’m writing, it’s not interesting enough to publish.
 
     Typically I learn way more than two things. For instance, in my o3 geoguessr post, I started out with the idea that most AI prompts probably don’t work, and I ended up learning that newer OpenAI models have lost o3’s ability to geolocate. That’s interesting!
+crossPosts:
+  x: "https://x.com/i/status/2123539189106966966"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7529304882097369089/"
 ---
 
 Every post I publish represents at least two things I've learned: the thing that prompted me to write the post, and the thing I learned in the course of writing it. If I don't learn anything new while I'm writing, it's not interesting enough to publish.

@@ -11,6 +11,9 @@ document.querySelector(".site-search").addEventListener("submit", event => {
 })
 </script>`
 
+const MirrorBanner = mainSiteUrl => html`<div class="mirror-banner">This is the backup GitHub Pages deployment of the blog. If you can, I suggest reading on <a data-main-site href="${mainSiteUrl}">seangoedecke.com</a> instead.</div>
+`
+
 // Browsers that support it prefetch a page when a link to it is hovered (or
 // touched), so navigation feels instant. Prefetch rather than prerender so
 // analytics only counts pages that are actually viewed. Paths with a dot
@@ -28,6 +31,9 @@ const Layout = (
   const metaDescription = description || site.description
   const isHome = url === "/"
   const homeLink = html`<a class="home-link" href="/">${site.title}</a>`
+  // The GitHub Pages mirror is built with a path prefix.
+  const mirror = site.pathPrefix !== "/"
+  const mainSiteUrl = new URL(url, site.canonicalUrl).href
 
   return String(html`<!DOCTYPE html>
 <html lang="en">
@@ -40,7 +46,11 @@ const Layout = (
 <meta property="og:description" content="${metaDescription}"/>
 <meta name="description" content="${metaDescription}"/>
 <meta name="theme-color" content="#663399"/>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+${
+  // Point search engines at the main site rather than the mirror.
+  mirror && html`<link rel="canonical" href="${mainSiteUrl}"/>
+`
+}<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96"/>
 <link rel="shortcut icon" href="/favicon.ico"/>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180"/>
@@ -52,12 +62,17 @@ ${site.feeds.map(
 )}<link rel="stylesheet" href="/styles/typography.css"/>
 <link rel="stylesheet" href="/styles/global.css"/>
 <link rel="stylesheet" href="/styles/prism-tomorrow.css"/>
-<script defer src="https://sg-analytics.pikapod.net/script.js" data-website-id="f535647a-f97e-42ba-a2eb-4e9583984266"></script>
+<script defer src="https://sg-analytics.pikapod.net/script.js" data-website-id="${
+  // The mirror is tracked as its own site.
+  mirror
+    ? "011d2342-66d5-43fe-a783-10e740fd9ca6"
+    : "f535647a-f97e-42ba-a2eb-4e9583984266"
+}"></script>
 ${scripts.map(src => html`<script defer src="${src}"></script>
 `)}${raw(SPECULATION_RULES)}
 </head>
 <body>
-<div class="${["site", className].filter(Boolean).join(" ")}">
+${mirror && MirrorBanner(mainSiteUrl)}<div class="${["site", className].filter(Boolean).join(" ")}">
 <header class="site-header">${
     isHome
       ? html`<h1 class="site-title">${homeLink}</h1>`

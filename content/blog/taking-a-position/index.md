@@ -34,6 +34,9 @@ crossPostText:
     Some engineers think it’s a virtue to remain non-committal in technical discussions. Should our team build a new feature in an event-driven or synchronous way? Well, it depends: there are many strong technical reasons on each side, so it’s better to keep an open mind and not come down on either side. This strategy is fine when you’re a junior engineer, but at some point you’ll be the person in the room with the most context (or technical skill, or institutional power). At that point, you need to take a position, whether you feel particularly confident or not.
 
     If you don’t, you’re forcing people with less technical context than you to figure it out themselves.
+crossPosts:
+  x: "https://x.com/i/status/2122818059211784296"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7528583752411791360/"
 ---
 
 Some engineers think it's a virtue to remain non-committal in technical discussions. Should our team build a new feature in an event-driven or synchronous way? Well, it depends: there are many strong technical reasons on each side, so it's better to keep an open mind and not come down on either side. This strategy is fine when you're a junior engineer, but at some point you'll be the person in the room with the most context (or technical skill, or institutional power). At that point, **you need to take a position**, whether you feel particularly confident or not. 
