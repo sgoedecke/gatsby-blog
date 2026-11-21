@@ -1,4 +1,17 @@
 
+--- 
+
+---
+
+when in doubt, flail about
+
+how to be useful - flail around, do a lot of things, pay very careful attention to feedback, ruthlessly drop things that are not getting "wow!" feedback
+
+ex. models, trying lots of product ideas
+ex. optimization, searching
+ex. organizational, suggesting lots of options
+
+---
 you should be recursively self-improving too
 
 RSI is not just for AIs
