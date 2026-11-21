@@ -41,7 +41,7 @@ In fact, you should be so focused on this - on avoiding blunders - that you don'
 You don't have to be [clever](/good-system-design/) to do great programming work. In fact, sometimes cleverness can be a [disadvantage](/you-dont-have-to-be-smart-if-you-think-clearly/). What you need is attention to detail and a laser focus on what actually matters: avoiding blunders by maintaining consistency and skipping unnecessary requirements. 
 
 
-[^1]: As usual on this blog, I am primarily talking about working on large commercial codebases with big teams: ["impure engineering"](/pure-and-impure-engineering/) in my terminology. This advice may not apply if you're [doing](https://en.wikipedia.org/wiki/Demoscene) [other](https://en.wikipedia.org/wiki/Assembly_language) [kinds](https://www.reddit.com/r/SoloDevelopment/) of [work](https://en.wikipedia.org/wiki/Programming_language_design_and_implementation).
+[^1]: As usual on this blog, I am primarily talking about working on large commercial codebases with big teams: ["impure engineering"](/pure-and-impure-engineering/) in my terminology. This advice may not apply if you're [doing](https://en.wikipedia.org/wiki/Demoscene) [other](https://en.wikipedia.org/wiki/Assembly_language) [kinds](https://www.reddit.com/r/SoloDevelopment/) of [work](https://en.wikipedia.org/wiki/Programming_language_design_and_implementation). Of course all of this applies whether you're writing code by hand or driving an AI agent.
 
 [^2]: My guess (it's surprisingly hard to research) is that not ever blundering would get you around a 1600 or 1700 chess rating: strong enough to win almost every game against casual players.
 
