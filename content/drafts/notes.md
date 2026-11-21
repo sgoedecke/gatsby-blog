@@ -1,6 +1,10 @@
 
 --- 
+It is a really, really bad idea to send AI-generated emails like this. Your reputation with people in the industry is one of the most important things if you're looking to write software, and it is fragile: people on the internet only get a tiny sliver of interaction with you, and from that sliver they decide how (or if) to interact with you further.
 
+Everyone you might want to email with this has received hundreds of emails like it from identical-sounding AI agents, and their patience for receiving more of them is basically zero. They will think "oh, this guy is another AI spammer" and that will be it, forever. If you ever want to interact with them again - and you likely will - it will be an uphill battle.
+
+I don't know if there's a way to do a cold-pitch like this that gets a good response (this product seems like standard LLM harness nonsense to me, I can't imagine ever being interested). But there's definitely a way to do it that doesn't cause people to mark your email as spam. 
 ---
 
 when in doubt, flail about
