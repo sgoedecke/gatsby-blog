@@ -13,6 +13,9 @@ crossPostText:
     The secret to writing good code is to avoid catastrophic mistakes. Many engineers think about programming as if the goal is to have brilliant insights, but they’re wrong. If you don’t blunder, you will win.
 
     Many other domains are like this. If you can play chess without ever hanging pieces, you will win against almost any opponent. If you are very good at returning tennis balls, you will beat most players even if you never hit a winner.
+crossPosts:
+  x: "https://x.com/i/status/2124261126699397431"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7530026820109533186/"
 ---
 
 The secret to writing good code[^1] is to avoid catastrophic mistakes. Many engineers think about programming as if the goal is to have brilliant insights, but they're wrong. If you don't blunder, you will win.
