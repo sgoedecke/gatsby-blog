@@ -35,6 +35,9 @@ crossPostText:
     What’s the point of doing this? Obviously my explainers about diffusion models are shallow: certainly they aren’t detailed enough to do useful research on diffusion models. What’s the point, then?
 
     In my view, good engineering requires having reliable shallow intuitions about how things work.
+crossPosts:
+  x: "https://x.com/i/status/2124239271720595884"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7530004964790763520/"
 ---
 
 Whenever a new piece of technology comes out (these days, mostly AI) I go to some effort to understand it. Usually I end up writing [a post](/tags/explainers) about it, so I can be confident that I do understand[^1].
