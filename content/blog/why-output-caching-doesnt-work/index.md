@@ -9,6 +9,9 @@ crossPostText:
     LLM inference economics depends on caching model inputs, to prevent the entire conversation history being recomputed on each message. Should we cache model outputs in the same way? As it turns out, no.
   linkedin: |-
     LLM inference economics depends on caching model inputs, to prevent the entire conversation history being recomputed on each message. Should we cache model outputs in the same way? As it turns out, no.
+crossPosts:
+  x: "https://x.com/i/status/2123913413214847243"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7529679105995276288/"
 ---
 
 LLM inference economics depends on caching[^1] model inputs, to prevent the entire conversation history being recomputed on each message[^2]. Should we cache model _outputs_ in the same way? As it turns out, no.
