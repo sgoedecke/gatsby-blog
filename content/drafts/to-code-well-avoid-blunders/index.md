@@ -1,8 +1,8 @@
 ---
 title: To code well, avoid blunders
-order: 272
+order: 273
 description: 
-date: '2026-11-21'
+date: '2026-11-22'
 tags: ["software design"]
 crossPostText:
   x: |-
