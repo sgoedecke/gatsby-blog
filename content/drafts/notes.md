@@ -7,13 +7,6 @@ Everyone you might want to email with this has received hundreds of emails like 
 I don't know if there's a way to do a cold-pitch like this that gets a good response (this product seems like standard LLM harness nonsense to me, I can't imagine ever being interested). But there's definitely a way to do it that doesn't cause people to mark your email as spam. 
 ---
 
-when in doubt, flail about
-
-how to be useful - flail around, do a lot of things, pay very careful attention to feedback, ruthlessly drop things that are not getting "wow!" feedback
-
-ex. models, trying lots of product ideas
-ex. optimization, searching
-ex. organizational, suggesting lots of options
 
 ---
 you should be recursively self-improving too
