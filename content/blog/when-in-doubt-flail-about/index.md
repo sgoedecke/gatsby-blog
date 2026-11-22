@@ -9,6 +9,9 @@ crossPostText:
     When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about.
   linkedin: |-
     When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn’t it be better to be cautious and wait until you have a better understanding of what’s going on? Typically not. If you do it right, flailing about is the best and quickest way to get that understanding and become useful.
+crossPosts:
+  x: "https://x.com/i/status/2124625095247225301"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7530390789743493120/"
 ---
 
 When you're working in an unclear situation - you have no clear guidance, or you don't know what will help - the best course of action is often just to flail about. This sounds counter-intuitive. Wouldn't it be better to be cautious and wait until you have a better understanding of what's going on? Typically not.
