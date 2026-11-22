@@ -3,7 +3,7 @@ title: When in doubt, flail about
 order: 274
 description: 
 date: '2026-11-23'
-tags: ["tech companies", "good engineers"]
+tags: ["tech companies", "good engineers", "emotional regulation"]
 crossPostText:
   x: |-
     When you’re working in an unclear situation — you have no clear guidance, or you don’t know what will help — the best course of action is often just to flail about.
