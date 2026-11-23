@@ -1,4 +1,7 @@
 
+
+
+
 --- 
 It is a really, really bad idea to send AI-generated emails like this. Your reputation with people in the industry is one of the most important things if you're looking to write software, and it is fragile: people on the internet only get a tiny sliver of interaction with you, and from that sliver they decide how (or if) to interact with you further.
 
