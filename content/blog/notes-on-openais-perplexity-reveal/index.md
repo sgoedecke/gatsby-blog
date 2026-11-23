@@ -9,6 +9,9 @@ crossPostText:
     OpenAI have just released a fascinating graph showing the perplexity over time of all their released models:
 
     Here are a bunch of thoughts I have about this:
+crossPosts:
+  x: "https://x.com/i/status/2124770791023640915"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7530536483598884864/"
 ---
 
 OpenAI have just [released](https://openai.com/index/perplexity-and-intelligence/) a fascinating graph showing the perplexity over time of all their released models:
