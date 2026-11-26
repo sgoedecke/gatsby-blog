@@ -3,7 +3,7 @@ title: AI text watermarking is not a big deal
 description:
 order: 224
 date: '2026-08-16'
-tags: ["ai", "ai watermarks", "ai writing"]
+tags: ["ai", "ai watermarks", "ai writing", "ai detection"]
 autoShare: false
 crossPostText:
   x: |-

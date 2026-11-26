@@ -3,7 +3,7 @@ title: Automatically detecting AI text in my browser
 description: 
 order: 233
 date: '2026-09-08'
-tags: ["ai", "projects"]
+tags: ["ai", "projects", "ai detection"]
 autoShare: false
 crossPostText:
   x: |-
