@@ -6,7 +6,7 @@ date: '2026-11-27'
 tags: ["ai", "ai writing", "ai detection"]
 crossPostText:
   x: |-
-    Every day there’s some new argument about whether something was written by AI: a writing prize where the winning story was supposedly AI-generated, or an author who lost her contract after the manuscript lit up Pangram, or a dispute about whether a tweet was written by a human…
+    Who gets to decide if something is written by AI? Why do many anti-AI people have a fundamental hatred of AI detection tools?
   linkedin: |-
     Every day there’s some new argument about whether something was written by AI: a writing prize where the winning story was supposedly AI-generated, or an author who lost her contract after the manuscript lit up Pangram, or a dispute about whether a tweet was written by a human or not.
 ---
