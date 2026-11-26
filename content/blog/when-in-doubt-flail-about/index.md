@@ -3,6 +3,21 @@ title: When in doubt, flail about
 order: 274
 description: 
 date: '2026-11-23'
+popularity:
+  hackerNews:
+    urls:
+      - 'https://news.ycombinator.com/item?id=50613769'
+    points: 128
+    comments: 57
+    threads: 1
+  score: 242
+  lobsters:
+    urls: []
+    points: 0
+    comments: 0
+    threads: 0
+  manual: 0
+popular: true
 tags: ["tech companies", "good engineers", "emotional regulation"]
 crossPostText:
   x: |-
@@ -48,6 +63,7 @@ Why am I calling this "flailing" when it sounds like a sensible approach? Becaus
 
 The unpleasant sense that you're flailing is one of the many psychological barriers[^6] you need to push through in order to be an effective engineer. Knowing ahead of time that it's going to feel like flailing can help you recognize the emotion and treat it as a positive signal instead of as a sign you're in trouble. So long as you're sensitive to feedback and willing to instantly drop plans that aren't working, flailing can be an incredibly effective approach to difficult engineering and organizational problems.
 
+edit: this post got some [comments](https://news.ycombinator.com/item?id=50613769) on Hacker News. The top comment [suggested](https://news.ycombinator.com/item?id=50643803) that this is a risky approach - agreed, but senior+ engineering roles are inherently risky. Some [other](https://news.ycombinator.com/item?id=50640650) [commenters](https://news.ycombinator.com/item?id=50644867) prefer to call this "tinkering" or "rapid iteration": those are definitely better-sounding names, but I like "flailing" because that's what it often feels like from the inside. If your plan is to do "rapid iteration" and you start flailing, you might incorrectly think you're screwing up and back off. But if you know it's supposed to be flailing, you'll be prepared.
 
 [^1]: Working around people like this is one of the cardinal social skills of succeeding in big tech companies.
 
