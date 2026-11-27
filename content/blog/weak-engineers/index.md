@@ -33,6 +33,9 @@ crossPostText:
     Right now people are blowing up on Twitter about whether the USA needs to import top talent from other countries, and if that means that American home-grown engineering talent is weak. Last month, people were blowing up over a study that purported to show that ~9.5% of software engineers do effectively zero work, and are effectively defrauding the company. And for the last ten years, people have been talking and writing about the fabled “10x engineer”.
 
     What does it really mean to be a strong software engineer?
+crossPosts:
+  x: "https://x.com/i/status/2126446626872967500"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7532212320047976448/"
 ---
 
 Right now people are blowing up on Twitter about whether the USA needs to import top talent from other countries, and if that means that American home-grown engineering talent is weak. Last month, people were blowing up over a [study](https://x.com/yegordb/status/1859290734257635439) that purported to show that ~9.5% of software engineers do effectively zero work, and are effectively defrauding the company. And for the last ten years, people have been talking and writing about the fabled "10x engineer".
