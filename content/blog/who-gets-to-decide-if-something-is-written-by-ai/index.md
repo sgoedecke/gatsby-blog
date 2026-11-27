@@ -35,7 +35,7 @@ People who do not use AI are not good at judging whether some text was AI-genera
 
 If you care about keeping AI away from human arenas of art and culture, you should be willing to use the most powerful tools available, even if they are technically also AI tools[^9]. If you have a (sensible) distrust of tech companies to police each other, you should be pushing for [open-source](/deckard/) solutions or lobbying governments to build their own AI-detection platforms in-house. A world where "was this written by AI" is left up to the community is a world with more AI-written stories, articles and poetry in it.
 
-[^1]: Currently the best AI-detection toogit l.
+[^1]: Currently the best AI-detection tool.
 
 [^2]: My view is "yes, obviously". The contrary view is something like [this](https://buttondown.com/maiht3k/archive/pangram-is-not-an-oracle/), which I find woefully unconvicing: [Pangram](https://pangram-public.s3.us-east-1.amazonaws.com/pdf/pangram_4_technical_report.pdf) (and its [third-party tests](https://www.pangram.com/blog/third-party-pangram-evals)) do report false positives and negatives on the same dataset, and has [clearly](https://tuhinchakrabarty.substack.com/p/are-ai-detectors-really-racist-or) gone to [great lengths](https://www.pangram.com/research/model-card/pangram-4#model-training) to train on a huge variety of content.
 
