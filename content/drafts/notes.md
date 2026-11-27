@@ -1,4 +1,8 @@
+I read in your two "What kind of work I want" posts that you value diversity in a company. I don't believe you've written in detail about the benefits of a diverse culture beyond
 
+"A monoculture can be productive, but it’s brittle: an external shock can cause it to turn toxic very quickly."
+
+Is a post contrasting monocultures and diverse cultures - including any first-hand experience you have of each - something you would consider writing about in future?
 
 
 
@@ -20,14 +24,6 @@ this compounding effort is ~true in all domains but it doesn't necessarily aim a
 
 --
 consensus-based authority vs tool-based authority. a lot of people don't like pangram because it directly threatens their mandate to decide within the community what is good/bad AI/non-AI. different standards for evidence/epistemology. not clear that it's wrong, tool-based authority does tend to flatten out nuance in favour of legibility. but obviously the alternative is very silly
-
-
-Who gets to decide if something was written by AI?
-
-There's been a recent kerfuffle about the AI detection tool Pangram claiming that a recent prize-winning story was written with AI. The prize committee investigated, concluded there was no wrongdoing, and released a statement saying as much - which Pangram also identified as mostly written by AI. Ever since then there has been a stream of debate about whether Pangram is trustworthy, whether it's wrong to run these kinds of automatic tools, and so on.
-
-My stance on AI detection tooling is that you can never be 100% certain, but tools like Pangram can be very reliable indeed. But to me the interesting question is not "is Pangram right", but the meta-question of _why_ [todo: diagnosis] anti-AI folks are so upset and distrustful about Pangram. If you dislike AI, shouldn't you be thrilled that 
-
 
 --
 
