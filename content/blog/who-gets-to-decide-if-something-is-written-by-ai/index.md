@@ -9,6 +9,9 @@ crossPostText:
     Who gets to decide if something is written by AI? Why do many anti-AI people have a fundamental hatred of AI detection tools?
   linkedin: |-
     Every day there’s some new argument about whether something was written by AI: a writing prize where the winning story was supposedly AI-generated, or an author who lost her contract after the manuscript lit up Pangram, or a dispute about whether a tweet was written by a human or not. Who gets to decide if something is written by AI? Why do many anti-AI people have a fundamental hatred of AI detection tools?
+crossPosts:
+  x: "https://x.com/i/status/2126127840726777913"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7531893533872594945/"
 ---
 
 Every day there's some new argument about whether something was written by AI: a [writing prize](https://www.theatlantic.com/books/2026/10/caine-prize-winning-short-story-seems-be-ai/688967/) where the winning story was supposedly AI-generated, or an author who lost her [contract](https://www.theguardian.com/books/2026/mar/20/hachette-horror-novel-shy-girl-suspected-ai-use-mia-ballard) after the manuscript lit up Pangram[^1], or a dispute about whether a [tweet](https://x.com/araujohistorian/status/2125580555588960400?a=YBVAOUqMugkSQOgkRx0&s=20) was written by a human or not.
